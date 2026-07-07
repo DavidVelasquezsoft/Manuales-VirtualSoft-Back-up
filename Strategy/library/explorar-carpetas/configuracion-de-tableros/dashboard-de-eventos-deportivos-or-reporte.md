@@ -21,15 +21,15 @@ Antes de visualizar el reporte, es necesario confirmar las [configuraciones prev
 
 ### 3. Acciones disponibles
 
-<table><thead><tr><th width="181.25909423828125">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="dashboard-de-eventos-deportivos-or-reporte.md#id-4.-filtros"><strong>Aplicar filtros</strong></a></td><td>Permite filtrar la información según los criterios disponibles y utilizar el dashboard de forma dinámica para enfocar el análisis.</td></tr><tr><td><a href="dashboard-de-eventos-deportivos-or-reporte.md#id-6.-visualizacion-de-informacion"><strong>Visualizar contenido del tablero</strong></a></td><td><p>Utiliza las herramientas del dashboard, tales como:</p><ul><li>Filtros dinámicos.</li><li>KPIs generales</li><li>Gráficas de barras horizontales (<em><strong>Rankings Top 10</strong></em>)</li><li>Gráficos de torta (<em>porcentaje de participación</em>)</li><li>Tablas con resumen y detalle por usuario.</li></ul><p>Permite navegar e interactuar con los diferentes contenidos del dashboard, visualizando distintas métricas, vistas y niveles de detalle de la información según las opciones seleccionadas, manteniendo los filtros previamente aplicados.</p></td></tr><tr><td><strong>Exportar contenido</strong></td><td>El dashboard permite exportar su contenido. Para más información, consulte la guía de exportación <a data-mention href="https://github.com/DavidVelasquezsoft/BackUp-Manuales-de-usuario/tree/main/Strategy/library/README.md#id-4.-exportar-contenido">https://github.com/DavidVelasquezsoft/BackUp-Manuales-de-usuario/tree/main/Strategy/library/README.md#id-4.-exportar-contenido</a>.</td></tr></tbody></table>
+<table><thead><tr><th width="181.25909423828125">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="dashboard-de-eventos-deportivos-or-reporte.md#id-4.-filtros"><strong>Aplicar filtros</strong></a></td><td>Permite filtrar la información según los criterios disponibles y utilizar el dashboard de forma dinámica para enfocar el análisis.</td></tr><tr><td><a href="dashboard-de-eventos-deportivos-or-reporte.md#id-6.-visualizacion-de-informacion"><strong>Visualizar contenido del tablero</strong></a></td><td><p>Utiliza las herramientas del dashboard, tales como:</p><ul><li>Filtros dinámicos.</li><li>KPIs generales</li><li>Gráficas de barras horizontales (<em><strong>Rankings Top 10</strong></em>)</li><li>Gráficos de torta (<em>porcentaje de participación</em>)</li><li>Tablas con resumen y detalle por usuario.</li></ul><p>Permite navegar e interactuar con los diferentes contenidos del dashboard, visualizando distintas métricas, vistas y niveles de detalle de la información según las opciones seleccionadas, manteniendo los filtros previamente aplicados.</p></td></tr><tr><td><strong>Exportar contenido</strong></td><td>El dashboard permite exportar su contenido. Para más información, consulte la guía de exportación <a data-mention href="../../#id-4.-exportar-contenido">#id-4.-exportar-contenido</a>.</td></tr></tbody></table>
 
 ***
 
-### 4. Filtros
+### 4. Filtros&#x20;
 
 Estos son los filtros disponibles del dashboard, los cuales permiten visualizar la información del tablero según los criterios seleccionados.
 
-<table><thead><tr><th width="157.88885498046875">Campo</th><th width="157.96295166015625">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Fecha</code></strong></td><td>Rango de fechas</td><td>Permite seleccionar el rango de fechas desde las cuales se muestra la información.</td></tr><tr><td><strong><code>Partner</code></strong></td><td>Desplegable</td><td>Selecciona uno o varios partners configurados en el reporte.</td></tr><tr><td><strong><code>País</code></strong></td><td>Desplegable</td><td>Permite seleccionar uno o varios países disponibles en el reporte.</td></tr><tr><td><strong><code>Producto</code></strong></td><td>Desplegable</td><td>Filtra la información según el tipo de producto seleccionado. (<em>Live, Mixta, PreLive, VSPORT</em>)</td></tr><tr><td><strong><code>Modo apuesta</code></strong></td><td>Desplegable</td><td>Filtra la información según el tipo de apuesta seleccionada (<em>simple o múltiple</em>).</td></tr><tr><td><strong><code>Deporte</code></strong></td><td>Desplegable / Buscador</td><td>Busca y filtrar la información por un deporte específico.</td></tr><tr><td><strong><code>Liga</code></strong></td><td>Desplegable / Buscador</td><td>Busca y filtrar la información por una liga específica.</td></tr><tr><td><strong><code>Evento</code></strong></td><td>Desplegable / Buscador</td><td>Permite buscar y filtrar la información por un evento específico.</td></tr><tr><td><strong><code>Mercado</code></strong></td><td>Desplegable / Buscador</td><td>Filtra la información según el mercado seleccionado.</td></tr></tbody></table>
+<table><thead><tr><th width="157.88885498046875">Campo</th><th width="157.96295166015625">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Fecha</code></strong></td><td>Rango de fechas</td><td>Permite seleccionar el rango de fechas  desde las cuales se muestra la información.</td></tr><tr><td><strong><code>Partner</code></strong></td><td>Desplegable</td><td>Selecciona uno o varios partners configurados en el reporte.</td></tr><tr><td><strong><code>País</code></strong></td><td>Desplegable</td><td>Permite seleccionar uno o varios países disponibles en el reporte.</td></tr><tr><td><strong><code>Producto</code></strong> </td><td>Desplegable</td><td>Filtra la información según el tipo de producto seleccionado. (<em>Live, Mixta, PreLive, VSPORT</em>)</td></tr><tr><td><strong><code>Modo apuesta</code></strong></td><td>Desplegable</td><td>Filtra la información según el tipo de apuesta seleccionada (<em>simple o múltiple</em>).</td></tr><tr><td><strong><code>Deporte</code></strong></td><td>Desplegable / Buscador</td><td>Busca y filtrar la información por un deporte específico.</td></tr><tr><td><strong><code>Liga</code></strong></td><td>Desplegable / Buscador</td><td>Busca y filtrar la información por una liga específica.</td></tr><tr><td><strong><code>Evento</code></strong></td><td>Desplegable / Buscador</td><td>Permite buscar y filtrar la información por un evento específico.</td></tr><tr><td><strong><code>Mercado</code></strong></td><td>Desplegable / Buscador</td><td>Filtra la información según el mercado seleccionado.</td></tr></tbody></table>
 
 ***
 
@@ -37,7 +37,7 @@ Estos son los filtros disponibles del dashboard, los cuales permiten visualizar 
 
 Muestran indicadores generales de apuestas deportivas calculados según los filtros aplicados en el dashboard.
 
-<table><thead><tr><th width="116.7037353515625">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Usuarios</code></strong></td><td>Muestra la cantidad de usuarios que realizaron apuestas según los filtros aplicados en el dashboard.</td></tr><tr><td><strong><code>Tickets</code></strong></td><td>Indica el total de tickets o apuestas registradas según los filtros seleccionados.</td></tr><tr><td><strong><code>Apostado</code></strong></td><td>Muestra el valor total apostado en la sección de deportivas según los filtros aplicados en el dashboard.</td></tr><tr><td><strong><code>Premios</code></strong></td><td>Indica el valor total pagado en premios a los usuarios según los filtros seleccionados.</td></tr><tr><td><strong><code>GGR</code></strong></td><td>Muestra el <a href="https://virtualsoft.gitbook.io/untitled/glosario#ggr">Ingreso neto</a> generado por las apuestas deportivas según los filtros aplicados..</td></tr></tbody></table>
+<table><thead><tr><th width="116.7037353515625">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Usuarios</code></strong></td><td>Muestra la cantidad de usuarios que realizaron apuestas según los filtros aplicados en el dashboard.</td></tr><tr><td><strong><code>Tickets</code></strong></td><td>Indica el total de tickets o apuestas registradas según los filtros seleccionados.</td></tr><tr><td><strong><code>Apostado</code></strong></td><td>Muestra el valor total apostado  en la sección de deportivas según los filtros  aplicados en el dashboard.</td></tr><tr><td><strong><code>Premios</code></strong></td><td>Indica el valor total pagado en premios  a los usuarios según los filtros seleccionados.</td></tr><tr><td><strong><code>GGR</code></strong></td><td>Muestra el <a href="https://virtualsoft.gitbook.io/untitled/glosario#ggr">Ingreso neto</a> generado por las apuestas deportivas según los filtros aplicados..</td></tr></tbody></table>
 
 ### 6. **Visualización de información**
 
@@ -49,7 +49,7 @@ Permite visualizar gráficos y rankings dinámicos, actualizando la información
 
 #### Visualización
 
-<figure><img src="../../../.gitbook/assets/image (163) (1).png" alt=""><figcaption><p>Figura #1: Captura de pantalla sección de Ranking en dashboard de eventos deportivos</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (163).png" alt=""><figcaption><p>Figura #1: Captura de pantalla sección de Ranking en dashboard de eventos deportivos</p></figcaption></figure>
 
 #### Métricas
 
@@ -81,7 +81,7 @@ Permite visualizar el comportamiento y los cambios diarios de las métricas sele
 
 #### Visualización
 
-<figure><img src="../../../.gitbook/assets/image (161) (1).png" alt=""><figcaption><p>Figura #2: Captura de pantalla sección de tendencias en dashboard de eventos deportivos</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (161).png" alt=""><figcaption><p>Figura #2: Captura de pantalla sección de tendencias en dashboard de eventos deportivos</p></figcaption></figure>
 
 #### Métricas
 
@@ -99,7 +99,7 @@ Las gráficas muestran información dinámica según la [métrica](dashboard-de-
 {% tab title="Detalle" %}
 #### Visualización
 
-<figure><img src="../../../.gitbook/assets/image (164) (1).png" alt=""><figcaption><p>Figura #3: Captura de pantalla sección de detalle en dashboard de eventos deportivos</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (164).png" alt=""><figcaption><p>Figura #3: Captura de pantalla sección de detalle en dashboard de eventos deportivos</p></figcaption></figure>
 
 #### Tabla de información
 

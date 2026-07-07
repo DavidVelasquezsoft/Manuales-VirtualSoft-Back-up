@@ -33,7 +33,7 @@ layout:
 
 ### 2. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (188) (1).png" alt=""><figcaption><p>Figura #1: Captura de pantalla dashboard transferencia de saldo.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (188).png" alt=""><figcaption><p>Figura #1: Captura de pantalla dashboard transferencia de saldo.</p></figcaption></figure>
 
 ***
 
@@ -52,7 +52,7 @@ En la parte superior del tablero se encuentran las vistas **Todos**, **Depósito
 > * **Salidas:** Consulta únicamente los movimientos de salida.
 
 {% hint style="warning" %}
-**Nota:**
+**Nota:**&#x20;
 
 * Independientemente de la vista seleccionada, el tablero conserva los mismos componentes _(indicadores, gráficos y tabla de detalle)_. La vista funciona como un filtro sobre la información mostrada, por lo que únicamente cambiarán los datos presentados según el tipo de movimiento seleccionado.
 {% endhint %}

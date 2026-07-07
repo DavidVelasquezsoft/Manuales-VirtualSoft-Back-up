@@ -32,13 +32,13 @@ El reporte está conformado por **dos hojas principales** que se navegan mediant
 {% tab title="👤 Conexiones de Usuario" %}
 #### 3. Visualización:
 
-<figure><img src="../../../../.gitbook/assets/image (41) (1).png" alt=""><figcaption><p>Figura#1: Captura de pantalla vista conexiones de usuarios.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (41).png" alt=""><figcaption><p>Figura#1: Captura de pantalla vista conexiones de usuarios.</p></figcaption></figure>
 
 **3.1. Filtros**
 
 <table><thead><tr><th width="170.8182373046875">Sección</th><th width="222">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><code>Selector de fechas</code></td><td>Selección de rango de fechas</td><td>Permite definir el período de análisis.</td></tr><tr><td><code>Usuario</code></td><td>Lista desplegable</td><td>Filtra la información por usuario específico o todos.</td></tr></tbody></table>
 
-**3.2.** **Indicadores**
+**3.2.** **Indicadores**&#x20;
 
 <table><thead><tr><th width="158.09088134765625">Sección</th><th width="154.0909423828125">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><code>Usuarios Únicos</code></td><td>Visualización de card</td><td>Muestra el total de usuarios únicos que han ingresado en el rango de fechas seleccionado.</td></tr><tr><td><code>Cuentas Activas Diarias</code></td><td>Gráfico de líneas</td><td>Presenta la cantidad de cuentas activas por día dentro del período seleccionado, permitiendo identificar picos y tendencias de uso.</td></tr></tbody></table>
 
@@ -46,7 +46,7 @@ El reporte está conformado por **dos hojas principales** que se navegan mediant
 
 <table><thead><tr><th width="250.272705078125">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><code>Nombre de usuario</code></td><td>Muestra el nombre del usuario que inició la sesión.</td></tr><tr><td><code>Fecha</code></td><td>Fecha en la que se registra el log en la base de datos.</td></tr><tr><td><code>ID Sesión</code></td><td>Identificador único asignado a la sesión iniciada.</td></tr><tr><td><code>Session Source</code></td><td>Indica el origen de la conexión (Web, etc.).</td></tr><tr><td><code>Fecha Inicio</code></td><td>Fecha y hora en que el usuario inició sesión.</td></tr><tr><td><code>Fecha Fin</code></td><td>Fecha y hora en que el usuario cerró sesión.</td></tr><tr><td><code>Tiempo en sesión (m)</code></td><td>Duración total de la sesión en minutos.</td></tr><tr><td><code>Tiempo en sesión (hh:mm)</code></td><td>Duración de la sesión expresada en horas y minutos.</td></tr></tbody></table>
 
-**3.4.**�� **Tabla top usuario x conexión**
+**3.4.**&#xD83D;�  **Tabla top usuario x conexión**&#x20;
 
 <table><thead><tr><th width="250.36358642578125">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><code>Nombre de usuario</code></td><td>Identifica al usuario registrado en la plataforma.</td></tr><tr><td><code>Cantidad de sesiones</code></td><td>Muestra el número total de sesiones iniciadas por el usuario en el período seleccionado.</td></tr></tbody></table>
 {% endtab %}
@@ -54,7 +54,7 @@ El reporte está conformado por **dos hojas principales** que se navegan mediant
 {% tab title="📄 Acciones Detalladas." %}
 #### 3. Visualización:
 
-<figure><img src="../../../../.gitbook/assets/image (42) (1).png" alt=""><figcaption><p>Figura#2: Captura de pantalla acciones detalladas.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (42).png" alt=""><figcaption><p>Figura#2: Captura de pantalla acciones detalladas.</p></figcaption></figure>
 
 **3.1. Filtros**
 

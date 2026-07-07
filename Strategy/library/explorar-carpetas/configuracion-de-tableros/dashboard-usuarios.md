@@ -21,7 +21,7 @@ El tablero presenta información actualizada según el rango horario configurado
 
 ### 2. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (37) (1).png" alt=""><figcaption><p>Figura #1: Vista general del Dashboard de Análisis de Usuarios.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (37).png" alt=""><figcaption><p>Figura #1: Vista general del Dashboard de Análisis de Usuarios.</p></figcaption></figure>
 
 ***
 
@@ -87,7 +87,7 @@ El dashboard presenta gráficos que ayudan a visualizar la información para un 
 {% endtab %}
 
 {% tab title="Gráficos mensuales " %}
-<table><thead><tr><th width="194">Gráfico</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Usuarios Activos General - Diarios</code></strong></td><td>Gráfico de barras que muestra la cantidad de usuarios que han tenido actividad diaria en la plataforma, ya sea en casino, deportivas o cualquier vertical.</td></tr><tr><td><strong><code>Usuarios activos casino - Diarios</code></strong></td><td>Gráfico de barras que muestra la cantidad de usuarios que han tenido actividad diaria en la plataforma desde la vertical de casino.</td></tr><tr><td><strong><code>Usuarios activos deportivas - Diarios</code></strong></td><td>Gráfico de barras que muestra la cantidad de usuarios que han tenido actividad diaria en la plataforma desde la vertical de <strong>deportivas</strong>.</td></tr><tr><td><strong><code>Usuarios activos depositante - Diarios</code></strong></td><td>Gráfico de barras que muestra la cantidad de usuarios que han realizado depósitos en su cuenta en un solo día.</td></tr></tbody></table>
+<table><thead><tr><th width="194">Gráfico</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Usuarios Activos General - Diarios</code></strong> </td><td>Gráfico de barras que muestra la cantidad de usuarios que han tenido actividad diaria en la plataforma, ya sea en casino, deportivas o cualquier vertical.</td></tr><tr><td><strong><code>Usuarios activos casino - Diarios</code></strong></td><td>Gráfico de barras que muestra la cantidad de usuarios que han tenido actividad diaria en la plataforma desde la vertical de casino.</td></tr><tr><td><strong><code>Usuarios activos deportivas - Diarios</code></strong></td><td>Gráfico de barras que muestra la cantidad de usuarios que han tenido actividad diaria en la plataforma desde la vertical de <strong>deportivas</strong>.</td></tr><tr><td><strong><code>Usuarios activos depositante - Diarios</code></strong></td><td>Gráfico de barras que muestra la cantidad de usuarios que han realizado depósitos en su cuenta en un solo día.</td></tr></tbody></table>
 {% endtab %}
 {% endtabs %}
 

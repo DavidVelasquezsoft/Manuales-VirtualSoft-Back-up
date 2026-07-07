@@ -38,7 +38,7 @@ A continuación, se describe el funcionamiento de cada vista.
 {% tab title="📈 Resumido" %}
 #### 3.2. 🖼️ Visualización
 
-<figure><img src="../../../.gitbook/assets/image (122) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (122).png" alt=""><figcaption></figcaption></figure>
 
 #### 3.3. KP&#x49;**´s**
 
@@ -68,6 +68,8 @@ Permite visualizar información de los jackpots consultados que ya han finalizad
 {% endtab %}
 {% endtabs %}
 
+
+
 > ⚠️**Nota:** Este es el reporte **Resumido**, para ver la documentación relacionada al reporte **Detallado** clic aquí 🔽
 
 <p align="center"><a href="dashboard-jackpot.md#detallado" class="button primary" data-icon="clipboard-list-check">Reporte detallado</a></p>
@@ -76,7 +78,7 @@ Permite visualizar información de los jackpots consultados que ya han finalizad
 {% tab title="🗂️ Detallado" %}
 #### 3.2. 🖼️ Visualización
 
-<figure><img src="../../../.gitbook/assets/image (123) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (123).png" alt=""><figcaption></figcaption></figure>
 
 #### 3.3. KP&#x49;**´s**
 
@@ -86,7 +88,7 @@ Los KPI se muestran en la parte superior del dashboard y presentan **indicadores
 
 #### 3.4. Gráficos
 
-<table><thead><tr><th width="157.00006103515625">Nombre</th><th width="158.33331298828125">Tipo de grafica</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Apuestas por vertical</code></strong></td><td>Grafico de barras comparativas</td><td>Gráfico de barras comparativo que muestra, por cada vertical del jackpot (Deportivas, Casino y Live Casino), el <strong>monto total de apuestas válidas acumuladas</strong> y <strong>el valor total de premios generados por esas apuestas</strong>. El eje X representa las verticales y el eje Y los valores acumulados.</td></tr><tr><td><strong><code>Top 10 usuarios que más apostaron</code></strong></td><td>Gráfico de barras horizontales de ranking</td><td>Gráfico que muestra el top 10 de usuarios con mayor valor apostado, indicando el ID de cada usuario y el monto total apostado.</td></tr></tbody></table>
+<table><thead><tr><th width="157.00006103515625">Nombre </th><th width="158.33331298828125">Tipo de grafica</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Apuestas por vertical</code></strong></td><td>Grafico de barras comparativas</td><td>Gráfico de barras comparativo que muestra, por cada vertical del jackpot (Deportivas, Casino y Live Casino), el <strong>monto total de apuestas válidas acumuladas</strong> y <strong>el valor total de premios generados por esas apuestas</strong>. El eje X representa las verticales y el eje Y los valores acumulados.</td></tr><tr><td><strong><code>Top 10 usuarios que más apostaron</code></strong></td><td>Gráfico de barras horizontales de ranking</td><td>Gráfico que muestra el top 10 de usuarios con mayor valor apostado, indicando el ID de cada usuario y el monto total apostado.</td></tr></tbody></table>
 
 #### 3.5. Resultados de consulta
 
@@ -102,7 +104,7 @@ Al seleccionar el tipo de visualización **"Detallado"**, el sistema muestra la 
 
 ***
 
-### 4. Validaciones y Reglas de Negocio
+### 4.  Validaciones y Reglas de Negocio
 
 * El dashboard está disponible únicamente para perfiles con permisos autorizados.
 * El jackpot solo acumula sobre las apuestas que estén dentro del valor mínimo y máximo permitido; cualquier apuesta fuera de esos límites no suma a la acumulación.

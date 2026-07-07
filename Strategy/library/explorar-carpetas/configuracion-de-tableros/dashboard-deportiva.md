@@ -20,11 +20,11 @@ Antes de visualizar el reporte, es necesario confirmar las [configuraciones prev
 
 ### 3. Visualización general
 
-<figure><img src="../../../.gitbook/assets/image (113) (1).png" alt=""><figcaption><p>Figura #1: Captura de pantalla dashboard deportiva.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (113).png" alt=""><figcaption><p>Figura #1: Captura de pantalla dashboard deportiva.</p></figcaption></figure>
 
 ***
 
-### **4. Filtros**
+### **4. Filtros**&#x20;
 
 El panel lateral izquierdo contiene los filtros que permiten personalizar la visualización de los datos.
 
@@ -74,7 +74,7 @@ Los gráficos del dashboard, tanto lineales como de barras, muestran la evoluci�
 
 ***
 
-### 5. Reglas y validaciones.
+### &#x20;5. Reglas y validaciones.
 
 * Las apuestas virtuales _(apuestas en video juegos, carreras de perros virtuales, etc.…)_, cuentan como apuestas deportivas.
 * Las gráficas muestran siempre la información activa: si aplicas filtros, muestran lo filtrado; si seleccionas un dato en una tabla, se actualizan según esa selección.

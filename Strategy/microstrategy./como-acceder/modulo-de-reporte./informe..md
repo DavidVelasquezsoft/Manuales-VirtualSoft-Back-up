@@ -6,17 +6,17 @@ description: >-
 
 # Informe.
 
-Para acceder a esta sección, sigue la ruta:
+Para acceder a esta sección, sigue la ruta:&#x20;
 
 * **Menú/Nuevo informe/Blank Report.**
 
 Al seguir esta ruta, verás la siguiente interfaz:
 
-<figure><img src="../../../.gitbook/assets/image (75) (1).png" alt=""><figcaption><p>Figura #1: Captura de pantalla crear reporte.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (75).png" alt=""><figcaption><p>Figura #1: Captura de pantalla crear reporte.</p></figcaption></figure>
 
 A continuación, te explicamos en detalle cada uno de los apartados y sus funciones dentro de la sección.
 
-* **Todos los objetos:** En este apartado, podrás visualizar y seleccionar los atributos y métricas disponibles en la base de datos para la creación de tus reportes.
+* &#x20;**Todos los objetos:** En este apartado, podrás visualizar y seleccionar los atributos y métricas disponibles en la base de datos para la creación de tus reportes.
   * **Atributos:** Columnas de texto utilizadas para categorizar datos.
   * **Indicadores**: Columnas numéricas que representan valores cuantificables.
 * **Filtro de informe:** En este panel puedes filtrar la información usando diferentes opciones para ver datos más detallados y ordenados.
@@ -25,37 +25,37 @@ A continuación, te explicamos en detalle cada uno de los apartados y sus funcio
 **Nota**: Para agregar un filtro, arrastra un atributo o indicador desde el panel "**Todos los Objetos**" hasta "**Filtro de informe**".
 {% endhint %}
 
-* **Paginación según:** Aquí verás el resultado del reporte.
+* **Paginación según:** Aquí verás el resultado del reporte.&#x20;
 
 {% hint style="warning" %}
 **Nota**: Puedes organizar los filtros arrastrándolos desde "**Todos los Objetos**" hacia este panel, distribuyéndolos entre filas y columnas para una mejor visualización.
 {% endhint %}
 
-* **Cinta de herramienta superior:** Este panel te permite personalizar el reporte ajustando la fuente, el tamaño de las columnas y filas. Además, puedes exportar los datos a Excel y generar el reporte haciendo clic en el botón con el ícono de una tabla y un rayo, que indica la acción de generación rápida del reporte.
+* &#x20;**Cinta de herramienta superior:** Este panel te permite personalizar el reporte ajustando la fuente, el tamaño de las columnas y filas. Además, puedes exportar los datos a Excel y generar el reporte haciendo clic en el botón con el ícono de una tabla y un rayo, que indica la acción de generación rápida del reporte.
 
 ## Tipos de reporte disponibles:
 
 Actualmente tenemos distintos tipos de reporte disponibles, estas son las rutas para llegar a cada uno de ellos.
 
-* **Reporte Torneo**: Este reporte se puede generar con métricas e indicadores, para llegar a los datos de referencia debes seguir la siguiente ruta:
+* **Reporte Torneo**: Este reporte se puede generar con métricas e indicadores, para llegar a los datos de referencia debes seguir la siguiente ruta:&#x20;
   * **Ruta para Indicadores**:
-    * **Todos los objetos/ Indicadores/Torneo.**
+    * &#x20;**Todos los objetos/ Indicadores/Torneo.**
   * **Ruta para Atributos**:
-    * **Todos los objetos/ Atributos/ Torneo.**
-* **Reporte Sorteo**: Este reporte se puede generar con métricas e indicadores, para llegar a los datos de referencia debes seguir la siguiente ruta:
-  * **Ruta para Indicadores**:
+    * &#x20;**Todos los objetos/ Atributos/ Torneo.**
+* **Reporte Sorteo**: Este reporte se puede generar con métricas e indicadores, para llegar a los datos de referencia debes seguir la siguiente ruta:&#x20;
+  * **Ruta para Indicadores**:&#x20;
     * **Todos los objetos/ Indicadores/Torneo.**
-  * **Ruta para Atributos**:
+  * **Ruta para Atributos**:&#x20;
     * **Todos los objetos/ Atributos/ Torneo.**
-* **Reporte de ajuste de saldo**: Este reporte se puede generar con métricas e indicadores, para llegar a los datos de referencia debes seguir la siguiente ruta:
-  * **Ruta para Indicadores**:
+* **Reporte de ajuste de saldo**: Este reporte se puede generar con métricas e indicadores, para llegar a los datos de referencia debes seguir la siguiente ruta:&#x20;
+  * **Ruta para Indicadores**:&#x20;
     * **Todos los objetos/ Indicadores/Ajuste de saldo.**
-  * **Ruta para Atributos**:
+  * **Ruta para Atributos**:&#x20;
     * **Todos los objetos/ Atributos/ Ajuste de saldo.**
 * **Reporte Información del premio de jackpot**: Puedes generar reportes con información general del jackpot ganador con métricas e indicadores en el mismo reporte desde la siguiente ruta:
-  * **Ruta para Indicadores**:
+  * **Ruta para Indicadores**:&#x20;
     * **Todos los objetos/ Indicadores/ Jackpot.**
-  * **Ruta para Atributos**:
+  * **Ruta para Atributos**:&#x20;
     * **Todos los objetos/ Atributos/ Jackpot/Jackpot ganador.**
 
 {% hint style="warning" %}
@@ -63,7 +63,7 @@ Actualmente tenemos distintos tipos de reporte disponibles, estas son las rutas 
 {% endhint %}
 
 * **Información básica del jackpot**: Puedes generar reportes con información general del jackpot con indicadores desde la siguiente ruta:
-  * **Ruta para Indicadores**:
+  * **Ruta para Indicadores**:&#x20;
     * **Todos los objetos/ Indicadores/ Jackpot.**
 * **Información por vertical deportivas y casino en Jackpot**: Puedes generar reportes con información sobre de las verticales Casino y Deportivas.
   * **Ruta para indicadores**:
@@ -82,8 +82,8 @@ Actualmente tenemos distintos tipos de reporte disponibles, estas son las rutas 
 
 Al finalizar la búsqueda, aparecerá una cinta con opciones para personalizar los resultados del reporte. Ten en cuenta que los botones resaltados en color azul estarán activos, lo que te permitirá interactuar con las opciones disponibles y realizar ajustes según tus necesidades.
 
-<figure><img src="../../../.gitbook/assets/image (80) (1).png" alt=""><figcaption><p>Figura #2: Captura de pantalla del campo Datos.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (80).png" alt=""><figcaption><p>Figura #2: Captura de pantalla del campo Datos.</p></figcaption></figure>
 
 Para exportar los datos, en la cinta superior encontrarás la opción "Inicio de informes". Al hacer clic en ella, se desplegará un menú con varias opciones. Selecciona la opción "**Exportar**" y, a continuación, elige el formato de tu preferencia para guardar los datos.
 
-<figure><img src="../../../.gitbook/assets/image (81) (1).png" alt="" width="563"><figcaption><p>Figura #3: Captura de pantalla del campo exportar.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (81).png" alt="" width="563"><figcaption><p>Figura #3: Captura de pantalla del campo exportar.</p></figcaption></figure>

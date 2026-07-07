@@ -1,6 +1,6 @@
 # Dashboard Retail
 
-<mark style="color:$info;">El</mark> <mark style="color:$info;">**Dashboard Retail**</mark> <mark style="color:$info;">ofrece una vista analítica del desempeño de la red de puntos de venta físicos de cada partner por país. Permite medir y dar seguimiento a los principales KPIs, analizando la información por partner, país y estructura territorial para apoyar la toma de decisiones sobre la gestión de la red.</mark>
+<mark style="color:$info;">El</mark> <mark style="color:$info;"></mark><mark style="color:$info;">**Dashboard Retail**</mark> <mark style="color:$info;"></mark><mark style="color:$info;">ofrece una vista analítica del desempeño de la red de puntos de venta físicos de cada partner por país. Permite medir y dar seguimiento a los principales KPIs, analizando la información por partner, país y estructura territorial para apoyar la toma de decisiones sobre la gestión de la red.</mark>
 
 ### 1. Acceso al Módulo
 
@@ -16,11 +16,11 @@ Antes de visualizar el reporte, es necesario confirmar las [configuraciones prev
 
 ### 3. Acciones disponibles
 
-<table><thead><tr><th width="175.92572021484375">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="dashboard-retail.md#id-5.-kpis-generales"><strong>Aplicar filtros</strong></a></td><td>Permite filtrar la información según los criterios disponibles y utilizar el dashboard de forma dinámica para enfocar el análisis.</td></tr><tr><td><strong>Visualizar contenido del tablero</strong></td><td><p>Utiliza las herramientas del dashboard, tales como:</p><ul><li>Filtros dinámicos.</li><li>KPIs generales</li><li>Gráficas de barras horizontales (<em><strong>Rankings Top 10</strong></em>)</li><li>Gráficos de torta (<em>porcentaje de participación</em>)</li><li>Tablas con detalle por cada <a href="https://virtualsoft.gitbook.io/plantillas/glosario#punto-de-venta">punto de venta</a>.</li></ul><p>Permite navegar e interactuar con los diferentes contenidos del dashboard, visualizando distintas métricas, vistas y niveles de detalle de la información según las opciones seleccionadas, manteniendo los filtros previamente aplicados.</p></td></tr><tr><td><strong>Exportar contenido</strong></td><td>El dashboard permite exportar su contenido. Para más información, consulte la guía de exportación <a data-mention href="https://github.com/DavidVelasquezsoft/BackUp-Manuales-de-usuario/tree/main/Strategy/library/README.md#id-4.-exportar-contenido">https://github.com/DavidVelasquezsoft/BackUp-Manuales-de-usuario/tree/main/Strategy/library/README.md#id-4.-exportar-contenido</a>.</td></tr></tbody></table>
+<table><thead><tr><th width="175.92572021484375">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="dashboard-retail.md#id-5.-kpis-generales"><strong>Aplicar filtros</strong></a></td><td>Permite filtrar la información según los criterios disponibles y utilizar el dashboard de forma dinámica para enfocar el análisis.</td></tr><tr><td><strong>Visualizar contenido del tablero</strong></td><td><p>Utiliza las herramientas del dashboard, tales como:</p><ul><li>Filtros dinámicos.</li><li>KPIs generales</li><li>Gráficas de barras horizontales (<em><strong>Rankings Top 10</strong></em>)</li><li>Gráficos de torta (<em>porcentaje de participación</em>)</li><li>Tablas con detalle por cada <a href="https://virtualsoft.gitbook.io/plantillas/glosario#punto-de-venta">punto de venta</a>.</li></ul><p>Permite navegar e interactuar con los diferentes contenidos del dashboard, visualizando distintas métricas, vistas y niveles de detalle de la información según las opciones seleccionadas, manteniendo los filtros previamente aplicados.</p></td></tr><tr><td><strong>Exportar contenido</strong></td><td>El dashboard permite exportar su contenido. Para más información, consulte la guía de exportación <a data-mention href="../../#id-4.-exportar-contenido">#id-4.-exportar-contenido</a>.</td></tr></tbody></table>
 
 ***
 
-### 4. Filtros
+### 4. Filtros&#x20;
 
 Estos son los filtros disponibles del dashboard, los cuales permiten visualizar la información del tablero según los criterios seleccionados.
 
@@ -46,7 +46,7 @@ Presenta gráficos generales de los puntos de venta organizados por meses, permi
 
 #### Visualización
 
-<figure><img src="../../../.gitbook/assets/image (213) (1).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Vista Historico</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (213).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Vista Historico</p></figcaption></figure>
 
 #### Métricas
 
@@ -66,7 +66,7 @@ Muestra rankings comparativos según la provincia en la que se ubican los puntos
 
 #### Visualización
 
-<figure><img src="../../../.gitbook/assets/image (212) (1).png" alt=""><figcaption><p>Figura #2: Captura de pantalla Vista desempeño provincia</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (212).png" alt=""><figcaption><p>Figura #2: Captura de pantalla Vista desempeño provincia</p></figcaption></figure>
 
 #### Rankings
 
@@ -80,7 +80,9 @@ Muestra rankings comparativos de los puntos de venta, permitiendo evaluar y anal
 
 #### Visualización
 
-<figure><img src="../../../.gitbook/assets/image (211) (1).png" alt=""><figcaption><p>Figura #3: Captura de pantalla Vista Desempeño por PV</p></figcaption></figure>
+
+
+<figure><img src="../../../.gitbook/assets/image (211).png" alt=""><figcaption><p>Figura #3: Captura de pantalla Vista Desempeño por PV</p></figcaption></figure>
 
 #### Graficas
 
@@ -94,7 +96,7 @@ Presenta la matriz detallada con la información completa por punto de venta, si
 
 #### Visualización
 
-<figure><img src="../../../.gitbook/assets/image (205) (1).png" alt=""><figcaption><p>Figura #4: Captura de pantalla Vista detalle</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (205).png" alt=""><figcaption><p>Figura #4: Captura de pantalla Vista detalle</p></figcaption></figure>
 
 #### Tabla de información
 

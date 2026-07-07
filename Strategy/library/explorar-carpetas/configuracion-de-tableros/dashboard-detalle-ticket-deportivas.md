@@ -23,7 +23,7 @@ Antes de visualizar el reporte, es necesario establecer las [configuraciones pre
 
 ### 3. Visualización:
 
-<figure><img src="../../../.gitbook/assets/image (46) (1).png" alt=""><figcaption><p><strong>Figura#1: Captura de pantalla Dashboard</strong></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (46).png" alt=""><figcaption><p><strong>Figura#1: Captura de pantalla Dashboard</strong></p></figcaption></figure>
 
 ### 4. 🔍 Filtros Disponibles
 
@@ -43,7 +43,7 @@ Nota: Los filtros _`Estado de la apuesta`_ y _`Cuota`_ son los principales; los 
 
 ***
 
-### 5. Validaciones y Reglas de Negocio
+### 5.  Validaciones y Reglas de Negocio
 
 * El dashboard está disponible únicamente para perfiles con permisos autorizados.
 

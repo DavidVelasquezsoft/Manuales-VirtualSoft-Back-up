@@ -21,7 +21,7 @@ layout:
 
 # Dashboard Depósitos NTC
 
-<mark style="color:$info;">El Dashboard de Depósitos NTC permite consultar y analizar la información relacionada con los depósitos realizados, las comisiones generadas, las comisiones potenciales y depósitos sin comisión</mark> _<mark style="color:$info;">(NTC).</mark>_
+<mark style="color:$info;">El Dashboard de Depósitos NTC permite consultar y analizar la información relacionada con los depósitos realizados, las comisiones generadas, las comisiones potenciales y depósitos sin comisión</mark> <mark style="color:$info;"></mark>_<mark style="color:$info;">(NTC).</mark>_
 
 ### 1. Acceso al Módulo
 
@@ -31,7 +31,7 @@ layout:
 
 ### 2. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (165) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (165).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -55,7 +55,7 @@ Este tablero cuenta con dos vistas de consulta, las cuales son:
 {% tab title="Vista Detallada" %}
 La vista detallada presenta la información en una tabla que permite consultar de forma individual cada depósito realizado, mostrando el detalle completo de la transacción.
 
-<table><thead><tr><th width="192">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Partner</code></strong></td><td>Indica el partner asociado al depósito.</td></tr><tr><td><strong><code>País</code></strong></td><td>País asociado a la operación.</td></tr><tr><td><strong><code>Id Concesionario</code></strong></td><td>Identificador del <a href="https://virtualsoft.gitbook.io/plantillas/glosario?fallback=true#concesionario">concesionario</a> relacionado con el depósito.</td></tr><tr><td><strong><code>Id Subconcesionario</code></strong></td><td>Identificador del subconcesionario asociado.</td></tr><tr><td><strong><code>Id Punto Venta</code></strong></td><td>Identificador del punto de venta donde se realizó el depósito.</td></tr><tr><td><strong><code>Nombre Punto Venta</code></strong></td><td>Nombre configurado para el punto de venta.</td></tr><tr><td><strong><code>ID Jugador</code></strong></td><td>Identificador del jugador que realizó el depósito.</td></tr><tr><td><strong><code>Id Depósito</code></strong></td><td>Número identificador único del depósito.</td></tr><tr><td><strong><code>Fecha Creación Deposito Time</code></strong></td><td>Fecha y hora en la que se creó el depósito.</td></tr><tr><td><strong><code>¿Generó Comisión?</code></strong></td><td>Indica si el depósito generó una comisión, asignada automáticamente por el sistema. Esta comisión es asumida por la operación de la marca correspondiente <em>(Ejemplo: Ecuabet)</em>.</td></tr><tr><td><strong><code>Valor Depósito</code></strong></td><td>Valor monetario correspondiente al depósito realizado.</td></tr><tr><td><strong><code>Comisión</code></strong></td><td>Valor real de comisión generado por el depósito.</td></tr><tr><td><strong><code>Comisión potencial</code></strong></td><td>Valor de la comisión que se habría generado si el depósito no estuviera marcado como NTC. Este valor se calcula con base en el porcentaje de comisión configurado para el concesionario. En caso de que el depósito haya generado comisión, se mostrará el mismo valor registrado en el campo Comisión.</td></tr><tr><td><strong><code>Ahorro Comisión PV</code></strong></td><td>Diferencia entre la comisión potencial y la comisión real.</td></tr></tbody></table>
+<table><thead><tr><th width="192">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Partner</code></strong></td><td>Indica el partner asociado al depósito.</td></tr><tr><td><strong><code>País</code></strong></td><td>País asociado a la operación.</td></tr><tr><td><strong><code>Id Concesionario</code></strong></td><td>Identificador del <a href="https://virtualsoft.gitbook.io/plantillas/glosario?fallback=true#concesionario">concesionario</a> relacionado con el depósito.</td></tr><tr><td><strong><code>Id Subconcesionario</code></strong></td><td>Identificador del subconcesionario asociado.</td></tr><tr><td><strong><code>Id Punto Venta</code></strong></td><td>Identificador del punto de venta donde se realizó el depósito.</td></tr><tr><td><strong><code>Nombre Punto Venta</code></strong></td><td>Nombre configurado para el punto de venta.</td></tr><tr><td><strong><code>ID Jugador</code></strong></td><td>Identificador del jugador que realizó el depósito.</td></tr><tr><td><strong><code>Id Depósito</code></strong></td><td>Número identificador único del depósito.</td></tr><tr><td><strong><code>Fecha Creación Deposito Time</code></strong></td><td>Fecha y hora en la que se creó el depósito.</td></tr><tr><td><strong><code>¿Generó Comisión?</code></strong></td><td>Indica si el depósito generó una comisión,  asignada automáticamente por el sistema. Esta comisión es asumida por la operación de la marca correspondiente <em>(Ejemplo: Ecuabet)</em>.</td></tr><tr><td><strong><code>Valor Depósito</code></strong></td><td>Valor monetario correspondiente al depósito realizado.</td></tr><tr><td><strong><code>Comisión</code></strong></td><td>Valor real de comisión generado por el depósito.</td></tr><tr><td><strong><code>Comisión potencial</code></strong></td><td>Valor de la comisión que se habría generado si el depósito no estuviera marcado como NTC. Este valor se calcula con base en el porcentaje de comisión configurado para el concesionario. En caso de que el depósito haya generado comisión, se mostrará el mismo valor registrado en el campo Comisión.</td></tr><tr><td><strong><code>Ahorro Comisión PV</code></strong></td><td>Diferencia entre la comisión potencial y la comisión real.</td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Vista Resumida" %}
@@ -65,7 +65,7 @@ Muestra la información organizada por categorías operativas, facilitando la co
 {% tab title="Concesionario" %}
 Muestra la información consolidada de depósitos y comisiones agrupada por concesionario.
 
-<table><thead><tr><th width="216">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Cantidad Depósito</code></strong></td><td>Cantidad total de depósitos asociados.</td></tr><tr><td><strong><code>Valor Depósito</code></strong></td><td>Valor acumulado de los depósitos.</td></tr><tr><td><strong><code>Cantidad de Depósitos sin Comisión</code></strong></td><td>Cantidad de depósitos marcados como NTC.</td></tr><tr><td><strong><code>Valor Depósitos sin Comisión</code></strong></td><td>Valor acumulado de depósitos sin comisión.</td></tr><tr><td><strong><code>Comisión</code></strong></td><td>Total de comisión correspondiente</td></tr><tr><td><strong><code>Comisión Potencial</code></strong></td><td>Comisión que se habría generado sin aplicación NTC.</td></tr><tr><td><strong><code>Ahorro Comisión</code></strong></td><td>Diferencia entre comisión potencial y comisión real.</td></tr></tbody></table>
+<table><thead><tr><th width="216">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Cantidad Depósito</code></strong></td><td>Cantidad total de depósitos asociados.</td></tr><tr><td><strong><code>Valor Depósito</code></strong></td><td>Valor acumulado de los depósitos.</td></tr><tr><td><strong><code>Cantidad de Depósitos sin Comisión</code></strong></td><td>Cantidad de depósitos marcados como NTC.</td></tr><tr><td><strong><code>Valor Depósitos sin Comisión</code></strong></td><td>Valor acumulado de depósitos sin comisión.</td></tr><tr><td><strong><code>Comisión</code></strong></td><td>Total de comisión correspondiente </td></tr><tr><td><strong><code>Comisión Potencial</code></strong></td><td>Comisión que se habría generado sin aplicación NTC.</td></tr><tr><td><strong><code>Ahorro Comisión</code></strong></td><td>Diferencia entre comisión potencial y comisión real.</td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Subconcesionario" %}
@@ -110,7 +110,7 @@ La vista **Red** permite consultar la información consolidada de depósitos NTC
 * Los depósitos marcados como NTC no generan comisión.
 * La comisión potencial se calcula utilizando las mismas reglas de cálculo de la comisión real.
 * El ahorro corresponde a la diferencia entre comisión potencial y comisión real.
-* La información del dashboard se visualiza con corte a día vencido.
+* La información del dashboard se visualiza con corte a día vencido.&#x20;
 * La vista detallada se ordena por la fecha de creación del depósito, de forma descendente.
 
 ***

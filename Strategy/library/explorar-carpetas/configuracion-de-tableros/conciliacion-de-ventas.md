@@ -37,9 +37,9 @@ Su finalidad es validar que las ventas registradas impacten correctamente los sa
 
 ***
 
-### 2. 🖼️Visualización
+### 2. 🖼️Visualización&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption><p>Figura #1: captura de pantalla conciliación de ventas</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption><p>Figura #1: captura de pantalla conciliación de ventas</p></figcaption></figure>
 
 ### 3. Acciones del Usuario
 
@@ -101,4 +101,4 @@ Esta tabla contiene información más detallada sobre los desfaces reportados.
 
 ### 7.🕛 Control de Versiones
 
-<table><thead><tr><th width="98">Versión</th><th width="133">Fecha</th><th width="148">Autor</th><th>Cambios</th></tr></thead><tbody><tr><td>1.0</td><td>27/02/2026</td><td>Ronald Peláez</td><td>Documento inicial</td></tr></tbody></table>
+<table><thead><tr><th width="98">Versión</th><th width="133">Fecha</th><th width="148">Autor</th><th>Cambios</th></tr></thead><tbody><tr><td>1.0</td><td>27/02/2026</td><td>Ronald Peláez</td><td>Documento inicial </td></tr></tbody></table>

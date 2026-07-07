@@ -43,11 +43,11 @@ Para ingresar a **Library**, el usuario debe acceder a través de el siguiente e
 
 Al acceder al enlace, se mostrará la pantalla de **inicio de sesión**, donde el usuario deberá autenticarse con sus credenciales (_Usuario y contraseña_) y presionar el botón **"Iniciar sesión con credenciales**" para ingresar a la plataforma.
 
-<figure><img src=".gitbook/assets/image (23) (1).png" alt="" width="563"><figcaption><p>Figura #1: Captura de pantalla login Library</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (23).png" alt="" width="563"><figcaption><p>Figura #1: Captura de pantalla login Library</p></figcaption></figure>
 
 Una vez completado el inicio de sesión, el usuario podrá visualizar los reportes disponibles en su **Library personal**.
 
-<figure><img src=".gitbook/assets/image (24) (1).png" alt="" width="563"><figcaption><p>Figura #2: Captura de pantalla inicio Library</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (24).png" alt="" width="563"><figcaption><p>Figura #2: Captura de pantalla inicio Library</p></figcaption></figure>
 
 {% hint style="warning" %}
 **Nota:** Los reportes se asignan según el rol del usuario desde el **Workstation** y también pueden agregarse manualmente **mediante el enlace** de un tablero compartido.
@@ -115,7 +115,7 @@ Al finalizar, se debe hacer clic en el botón **Aplicar**.
 **Nota:** Las configuraciones definidas quedarán guardadas **por defecto en su Library personal** y se utilizarán cada vez que acceda al tablero.
 {% endhint %}
 
-<figure><img src=".gitbook/assets/image (17) (1).png" alt="" width="563"><figcaption><p>Figura #3: Captura de pantalla ejemplo de configuraciones previas</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (17).png" alt="" width="563"><figcaption><p>Figura #3: Captura de pantalla ejemplo de configuraciones previas</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -125,7 +125,7 @@ Después de aplicar las configuraciones, se mostrará el tablero con la informac
 
 En la parte superior derecha se habilitará la opción **"Agregar a Library"**, la cual permite añadir el tablero a la Library personal del usuario.
 
-<figure><img src=".gitbook/assets/image (20) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -137,7 +137,7 @@ Desde allí, podrá acceder al contenido en cualquier momento para su visualizac
 {% endstep %}
 
 {% step %}
-#### 🔎 Modificación de filtros
+#### 🔎 Modificación de  filtros
 
 Si desea modificar los filtros o las configuraciones previas del tablero:
 
@@ -146,12 +146,12 @@ Si desea modificar los filtros o las configuraciones previas del tablero:
 3. Ajuste los filtros o parámetros según sea necesario.
 4. Aplique los cambios para actualizar la visualización de la información.
 
-<figure><img src=".gitbook/assets/image (21) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 
 Para más información sobre **Library**, consulte el siguiente manual:
 
-{% content-ref url="https://github.com/DavidVelasquezsoft/BackUp-Manuales-de-usuario/tree/main/Strategy/library/README.md" %}
-[https://github.com/DavidVelasquezsoft/BackUp-Manuales-de-usuario/tree/main/Strategy/library/README.md](https://github.com/DavidVelasquezsoft/BackUp-Manuales-de-usuario/tree/main/Strategy/library/README.md)
+{% content-ref url="library/" %}
+[library](library/)
 {% endcontent-ref %}
 {% endstep %}
 {% endstepper %}

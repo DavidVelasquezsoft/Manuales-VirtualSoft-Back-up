@@ -10,11 +10,11 @@ Este dashboard contiene información sobre los bonos creados para la plataforma 
 
 ### 2. 🖼️️ Visualización
 
-<figure><img src="../../../.gitbook/assets/image (33) (1).png" alt=""><figcaption><p>Figura #1: Captura de pantalla dashboard bonos.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (33).png" alt=""><figcaption><p>Figura #1: Captura de pantalla dashboard bonos.</p></figcaption></figure>
 
 ***
 
-### 3. Filtros
+### 3. Filtros&#x20;
 
 <table><thead><tr><th width="162">Campo</th><th width="147">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Partner</code></strong></td><td>Desplegable</td><td>Filtra por los bonos generados para ese partner</td></tr><tr><td><strong><code>País</code></strong></td><td>Desplegable</td><td>Filtra por los bonos generados para ese país</td></tr><tr><td><strong><code>ID Bono</code></strong></td><td>Numérico / Buscador</td><td>Filtra por el id del bono creado</td></tr><tr><td><strong><code>Tipo de Bono</code></strong></td><td>Desplegable</td><td>Filtra por tipo de bono y agrupa por verticales.</td></tr><tr><td><strong><code>Estado general bono</code></strong></td><td>Desplegable</td><td>Filtra según estado actual del bono (activo, inactivo).</td></tr><tr><td><strong><code>Nombre bono</code></strong></td><td>Texto / Buscador</td><td>La información del tablero se visualizará solo por el nombre del bono.</td></tr><tr><td><strong><code>Fecha</code></strong></td><td>Desplegable</td><td>Filtra la información reflejada en el tablero según un rango de fechas establecido.</td></tr></tbody></table>
 
@@ -28,27 +28,27 @@ Este dashboard contiene información sobre los bonos creados para la plataforma 
 
 #### 3.2 Gráficas
 
-<table><thead><tr><th width="149.77783203125">Gráfica</th><th width="133">Tipo de gráfica</th><th width="500.77783203125">Descripción</th></tr></thead><tbody><tr><td><strong><code>Cantidad bonos redimidos por mes</code></strong></td><td>Barras</td><td>Cantidad total de bonos redimidos en cada mes.</td></tr><tr><td><strong><code>Cantidad bonos redimidos por día</code></strong></td><td>Barras</td><td>Cantidad total de bonos redimidos en cada día.</td></tr><tr><td><strong><code>Top 7 cantidad por tipo bono</code></strong></td><td>Barras</td><td>Ranking de tipos de bono por cantidad emitida.</td></tr><tr><td><strong><code>Top 7 valor por tipo bono</code></strong></td><td>Barras</td><td>Ranking de tipos de bono por valor emitido.</td></tr><tr><td><strong><code>Cantidad de bono por CRM</code></strong></td><td>Torta</td><td>Comparativa de cantidad de bonos asociados o no a CRM.</td></tr></tbody></table>
+<table><thead><tr><th width="149.77783203125">Gráfica</th><th width="133">Tipo de gráfica</th><th width="500.77783203125">Descripción</th></tr></thead><tbody><tr><td><strong><code>Cantidad bonos redimidos por mes</code></strong></td><td>Barras</td><td>Cantidad total de bonos redimidos en cada mes.</td></tr><tr><td><strong><code>Cantidad bonos redimidos por día</code></strong></td><td>Barras</td><td>Cantidad total de bonos redimidos en cada día.</td></tr><tr><td><strong><code>Top 7 cantidad por tipo bono</code></strong></td><td>Barras</td><td>Ranking de tipos de bono por cantidad emitida.</td></tr><tr><td><strong><code>Top 7 valor por tipo bono</code></strong></td><td>Barras</td><td>Ranking de tipos de bono por valor emitido.</td></tr><tr><td><strong><code>Cantidad de bono por CRM</code></strong> </td><td>Torta</td><td>Comparativa de cantidad de bonos asociados o no a CRM.</td></tr></tbody></table>
 
 ***
 
 **3.3 Matriz de Detalle de Bonos**
 
-| Columna                        | Descripción                                                       |
-| ------------------------------ | ----------------------------------------------------------------- |
-| **`Partner`**                  | Partner para el cual se generaron los bonos.                      |
-| **`País`**                     | País correspondiente al reporte generado                          |
-| **`Id Bono`**                  | Identificador único del bono.                                     |
-| **`Estado Bono`**              | Estado en el que se encuentra el bono al momento del reporte.     |
-| **`Tipo bono`**                | Tipo de bono redimido.                                            |
-| **`Nombre bono`**              | Nombre asignado al bono.                                          |
-| **`Categoría campaña`**        | Clasificación general del bono.                                   |
-| **`Detalle campaña`**          | Descripción del bono.                                             |
-| **`Cantidad bonos otorgados`** | Cantidad total de bonos que se asignaron a un usuario.            |
-| **`Valor bonos otorgados`**    | Valor total de los bonos asignados a los usuarios.                |
-| **`Usuarios redimieron bono`** | Número total de usuarios distintos que han redimido el bono.      |
-| **`Cantidad bono redimidos`**  | Total de bonos que fueron asignados y redimidos por los usuarios. |
-| **`Valor bono redimidos`**     | Valor total de todos los bonos que fueron redimidos.              |
+| Columna                           | Descripción                                                       |
+| --------------------------------- | ----------------------------------------------------------------- |
+| **`Partner`**                     | Partner para el cual se generaron los bonos.                      |
+| **`País`**                        | País correspondiente al reporte generado                          |
+| **`Id Bono`**                     | Identificador único del bono.                                     |
+| **`Estado Bono`**                 | Estado en el que se encuentra el bono al momento del reporte.     |
+| **`Tipo bono`**                   | Tipo de bono redimido.                                            |
+| **`Nombre bono`**                 | Nombre asignado al bono.                                          |
+| **`Categoría campaña`**           | Clasificación general del bono.                                   |
+| **`Detalle campaña`**             | Descripción del bono.                                             |
+| **`Cantidad bonos otorgados`**    | Cantidad total de bonos que se asignaron a un usuario.            |
+| **`Valor bonos otorgados`**       | Valor total de los bonos asignados a los usuarios.                |
+| **`Usuarios redimieron bono`**    | Número total de usuarios distintos que han redimido el bono.      |
+| **`Cantidad bono redimidos`**     | Total de bonos que fueron asignados y redimidos por los usuarios. |
+| **`Valor bono redimidos`**        | Valor total de todos los bonos que fueron redimidos.              |
 
 ***
 

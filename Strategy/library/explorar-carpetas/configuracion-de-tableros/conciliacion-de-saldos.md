@@ -40,7 +40,7 @@ BackOffice > Inteligencia de Negocios > Conciliación de Saldos
 
 ### 2. 🖼️Visualización
 
-<figure><img src="../../../.gitbook/assets/image (138) (1).png" alt=""><figcaption><p>Figura #1: Captura de pantalla – Dashboard Conciliación de Saldos.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (138).png" alt=""><figcaption><p>Figura #1: Captura de pantalla – Dashboard Conciliación de Saldos.</p></figcaption></figure>
 
 ***
 

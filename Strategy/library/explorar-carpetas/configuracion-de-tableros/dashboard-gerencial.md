@@ -20,7 +20,7 @@ Antes de visualizar el reporte, es necesario confirmar las [configuraciones prev
 
 ### 3. 🖼️ Visualización general
 
-<figure><img src="../../../.gitbook/assets/image (116) (1).png" alt=""><figcaption><p>Figura #1 Captura de pantalla Dashboard gerencial.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (116).png" alt=""><figcaption><p>Figura #1 Captura de pantalla Dashboard gerencial.</p></figcaption></figure>
 
 ***
 
@@ -54,11 +54,11 @@ El dashboard contiene tablas que ayudan a obtener información más detallada ta
 
 #### 5.1. Tablas solo de vertical deportivas.
 
-<table><thead><tr><th width="149">Tabla</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>GGR deportiva</code></strong></td><td>Permite analizar el comportamiento de las ganancias butas <em>(GGR)</em> en la semana</td></tr><tr><td><strong><code>AP Closed</code></strong></td><td>Permite analizar el comportamiento de las apuestas deportivas cerradas en la semana</td></tr></tbody></table>
+<table><thead><tr><th width="149">Tabla</th><th>Descripción </th></tr></thead><tbody><tr><td><strong><code>GGR deportiva</code></strong></td><td>Permite analizar el comportamiento de las ganancias butas <em>(GGR)</em> en la semana</td></tr><tr><td><strong><code>AP Closed</code></strong></td><td>Permite analizar el comportamiento de las apuestas deportivas cerradas en la semana</td></tr></tbody></table>
 
 #### 5.2. Tablas solo de vertical Casino
 
-<table><thead><tr><th width="149">Tabla</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>GGR Casino</code></strong></td><td>Permite analizar el comportamiento de las ganancias butas <em>(GGR)</em> en la semana</td></tr><tr><td><strong><code>AP Casino</code></strong></td><td>Permite analizar el comportamiento de las apuestas deportivas cerradas en la semana</td></tr></tbody></table>
+<table><thead><tr><th width="149">Tabla</th><th>Descripción </th></tr></thead><tbody><tr><td><strong><code>GGR Casino</code></strong></td><td>Permite analizar el comportamiento de las ganancias butas <em>(GGR)</em> en la semana</td></tr><tr><td><strong><code>AP Casino</code></strong></td><td>Permite analizar el comportamiento de las apuestas deportivas cerradas en la semana</td></tr></tbody></table>
 
 #### 5.3. Tablas generales.
 

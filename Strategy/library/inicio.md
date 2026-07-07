@@ -34,7 +34,7 @@ layout:
 
 Una vez completado el inicio de sesión, podrás visualizar los tableros disponibles en la pantalla de inicio. Estos tableros sólo se mostrarán si cuentan con la configuración correspondiente.
 
-<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>Figura #2: Captura de pantalla inicio Library</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption><p>Figura #2: Captura de pantalla inicio Library</p></figcaption></figure>
 
 {% hint style="warning" %}
 **Nota:** Los reportes se asignan según el rol del usuario desde el **Workstation** y también pueden agregarse manualmente **mediante el enlace** de un tablero compartido.

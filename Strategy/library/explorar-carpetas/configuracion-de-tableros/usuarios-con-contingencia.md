@@ -38,9 +38,9 @@ Este dashboard cuenta con 2 vistas principales, disponibles a través de las sig
 {% tab title="Detalle" %}
 Desde esta vista se muestra una tabla con el detalle de las contingencias registradas, de acuerdo con los filtros aplicados.
 
-#### 4.1 Visualización
+#### 4.1 Visualización&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (157) (1).png" alt=""><figcaption><p>Figura #1: Captura de pantalla sección detalle.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (157).png" alt=""><figcaption><p>Figura #1: Captura de pantalla sección detalle.</p></figcaption></figure>
 
 #### 4.2. Tabla de registros
 
@@ -50,9 +50,9 @@ Desde esta vista se muestra una tabla con el detalle de las contingencias regist
 {% tab title="General" %}
 La vista general se compone de diferentes componentes, como KPIs y gráficas, que permiten visualizar y analizar la información de manera clara y organizada. A continuación, se muestra la información disponible:
 
-#### 4.1 Visualización
+#### 4.1 Visualización&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (159) (1).png" alt=""><figcaption><p>Figura #1: Captura de pantalla sección General.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (159).png" alt=""><figcaption><p>Figura #1: Captura de pantalla sección General.</p></figcaption></figure>
 
 #### 4.2. KPIs
 
@@ -60,7 +60,7 @@ La vista general se compone de diferentes componentes, como KPIs y gráficas, qu
 
 #### 4.3. Gráficas
 
-<table><thead><tr><th width="151.7777099609375">Nombre</th><th>Tipo</th><th width="401.6666259765625">Descripción</th></tr></thead><tbody><tr><td><strong><code>% Contingencias</code></strong></td><td>Gráfico de porcentaje</td><td><p>Permite visualizar el porcentaje total de contingencias registradas, calculado a partir de la cantidad de contingencias por estado respecto al total registrado.</p><div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p>Ejemplo: si existen 721 contingencias por estado y 870 contingencias totales, el porcentaje corresponde a <code>82,87%</code>.</p></div></td></tr><tr><td><strong><code>Contingencias por partner</code></strong></td><td>Gráfico de barras</td><td>Muestra la cantidad de contingencias asociadas a cada partner registrado.</td></tr><tr><td><strong><code>Distribución de contingencias por país</code></strong></td><td>Gráfico de barras</td><td>Presenta la cantidad de contingencias agrupadas y organizadas según el país en el que fueron registradas.</td></tr><tr><td><strong><code>Contingencias por tipo</code></strong></td><td>Gráfico de barras</td><td>Presenta la cantidad de contingencias agrupadas y organizadas según el tipo de contingencia aplicada.</td></tr></tbody></table>
+<table><thead><tr><th width="151.7777099609375">Nombre</th><th>Tipo</th><th width="401.6666259765625">Descripción</th></tr></thead><tbody><tr><td><strong><code>% Contingencias</code></strong></td><td><p></p><p>Gráfico de porcentaje</p><p></p></td><td><p>Permite visualizar el porcentaje total de contingencias registradas, calculado a partir de la cantidad de contingencias por estado respecto al total registrado. </p><div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p>Ejemplo: si existen 721 contingencias por estado y 870 contingencias totales, el porcentaje corresponde a <code>82,87%</code>.</p></div></td></tr><tr><td><strong><code>Contingencias por partner</code></strong></td><td>Gráfico de barras </td><td>Muestra la cantidad de contingencias asociadas a cada partner registrado.</td></tr><tr><td><strong><code>Distribución de contingencias por país</code></strong></td><td>Gráfico de barras </td><td>Presenta la cantidad de contingencias agrupadas y organizadas según el país en el que fueron registradas.</td></tr><tr><td><strong><code>Contingencias por tipo</code></strong></td><td>Gráfico de barras </td><td>Presenta la cantidad de contingencias agrupadas y organizadas según el tipo de contingencia aplicada.</td></tr></tbody></table>
 {% endtab %}
 {% endtabs %}
 
@@ -87,6 +87,6 @@ La vista general se compone de diferentes componentes, como KPIs y gráficas, qu
 
 <summary>🔽 Historial de versiones</summary>
 
-<table><thead><tr><th width="117">Versión</th><th width="123">Fecha</th><th width="165">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>07/05/2026</td><td>Karol Navia</td><td>Documento inicial</td></tr></tbody></table>
+<table><thead><tr><th width="117">Versión</th><th width="123">Fecha</th><th width="165">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>07/05/2026</td><td>Karol Navia</td><td>Documento inicial </td></tr></tbody></table>
 
 </details>

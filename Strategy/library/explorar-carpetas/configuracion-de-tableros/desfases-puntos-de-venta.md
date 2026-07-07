@@ -36,7 +36,7 @@ A continuación, se describe el funcionamiento de cada vista.
 {% tab title="📈 Resumido" %}
 #### 3.1. 🖼️ Visualización
 
-<figure><img src="../../../.gitbook/assets/image (136) (1).png" alt=""><figcaption><p>Figura #1: Captura de pantalla vista resumida reporte desfases puntos de venta</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (136).png" alt=""><figcaption><p>Figura #1: Captura de pantalla vista resumida reporte desfases puntos de venta</p></figcaption></figure>
 
 #### 3.2. 🔍 Filtros Disponibles
 
@@ -46,13 +46,13 @@ A continuación, se describe el funcionamiento de cada vista.
 
 Los KPI se muestran en la parte superior del dashboard y presentan **indicadores generales** calculados sobre todos las operaciones (_Partner / País_) consultadas.
 
-<table><thead><tr><th width="159">Kpi</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Cantidad de puntos de venta con desfase</code></strong></td><td>Cantidad total de puntos de venta que presentan un desfase en el sistema, considerando todas las operaciones consultadas (<em>Partner / País</em>).</td></tr><tr><td><strong><code>Cantidad desfase operación</code></strong></td><td>Muestra la cantidad de desfases totales que tienen los puntos de venta en el periodo de tiempo seleccionado.</td></tr></tbody></table>
+<table><thead><tr><th width="159">Kpi</th><th>Descripción</th></tr></thead><tbody><tr><td><p></p><p><strong><code>Cantidad de puntos de venta con desfase</code></strong></p></td><td>Cantidad total de puntos de venta que presentan un desfase en el sistema, considerando todas las operaciones consultadas (<em>Partner / País</em>).</td></tr><tr><td><strong><code>Cantidad desfase operación</code></strong></td><td>Muestra la cantidad de desfases totales que tienen los puntos de venta en el periodo de tiempo seleccionado.</td></tr></tbody></table>
 
 #### 3.4. Resultados de consulta
 
 Permite visualizar una tabla con la información consolidada en formato **"resumido"**, actualizada dinámicamente en tiempo real según los filtros aplicados.
 
-<table><thead><tr><th width="180">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Fecha</code></strong></td><td>Indica la fecha en que se registraron los desfase en el sistema para la plataforma y país correspondientes.</td></tr><tr><td><strong><code>Operación</code></strong></td><td>Indica el partner y el país en el que se registrarón los desfases.</td></tr><tr><td><strong><code>Moneda</code></strong></td><td>Moneda en la cual se registraron los desfases en la plataforma.</td></tr><tr><td><strong><code>Valor desfase</code></strong></td><td><p>Indica el valor acumulado de desfases por operación.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> El valor se muestra en rojo cuando es distinto de cero y no se consolida entre monedas diferentes.</p></div></td></tr><tr><td><strong><code>Cantidad puntos de venta con desfase</code></strong></td><td>Muestra la cantidad de puntos de venta dentro de la operación que presentan desfase en esa fecha, operación y moneda.</td></tr></tbody></table>
+<table><thead><tr><th width="180">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Fecha</code></strong></td><td>Indica la fecha en que se registraron los desfase en el sistema para la plataforma y país correspondientes.</td></tr><tr><td><strong><code>Operación</code></strong></td><td>Indica el partner y el país en el que se registrarón los desfases.</td></tr><tr><td><strong><code>Moneda</code></strong></td><td>Moneda en la cual se registraron los desfases en la plataforma. </td></tr><tr><td><strong><code>Valor desfase</code></strong></td><td><p>Indica el valor acumulado de desfases por operación.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> El valor se muestra en rojo cuando es distinto de cero y no se consolida entre monedas diferentes.</p></div></td></tr><tr><td><strong><code>Cantidad puntos de venta con desfase</code></strong></td><td>Muestra la cantidad de puntos de venta dentro de la operación que presentan desfase en esa fecha, operación y moneda.</td></tr></tbody></table>
 
 > ⚠️**Nota:** Este es el reporte **Resumido**, para ver la documentación relacionada al reporte **Detallado** clic aquí 🔽
 
@@ -62,7 +62,7 @@ Permite visualizar una tabla con la información consolidada en formato **"resum
 {% tab title="🗂️ Detallado" %}
 #### 3.1. 🖼️ Visualización
 
-<figure><img src="../../../.gitbook/assets/image (137) (1).png" alt=""><figcaption><p>Figura #2: Captura de pantalla vista detallada reporte desfases puntos de venta</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (137).png" alt=""><figcaption><p>Figura #2: Captura de pantalla vista detallada reporte desfases puntos de venta</p></figcaption></figure>
 
 #### 3.2. 🔍 Filtros Disponibles
 
@@ -72,7 +72,7 @@ Permite visualizar una tabla con la información consolidada en formato **"resum
 
 Los KPI se muestran en la parte superior del dashboard y presentan **indicadores generales** calculados sobre todos las operaciones (_Partner / País_) consultadas.
 
-<table><thead><tr><th width="159">Kpi</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Cantidad de puntos de venta con desfase</code></strong></td><td>Cantidad total de puntos de venta que presentan un desfase en el sistema, considerando todas las operaciones consultadas (<em>Partner / País</em>).</td></tr><tr><td><strong><code>Cantidad desfase operación</code></strong></td><td>Muestra la cantidad de desfases totales que tienen los puntos de venta en el periodo de tiempo seleccionado.</td></tr></tbody></table>
+<table><thead><tr><th width="159">Kpi</th><th>Descripción</th></tr></thead><tbody><tr><td><p></p><p><strong><code>Cantidad de puntos de venta con desfase</code></strong></p></td><td>Cantidad total de puntos de venta que presentan un desfase en el sistema, considerando todas las operaciones consultadas (<em>Partner / País</em>).</td></tr><tr><td><strong><code>Cantidad desfase operación</code></strong></td><td>Muestra la cantidad de desfases totales que tienen los puntos de venta en el periodo de tiempo seleccionado.</td></tr></tbody></table>
 
 #### 3.4. Resultados de consulta
 
@@ -88,7 +88,7 @@ Permite visualizar una tabla **por punto de venta** con el detalle de la informa
 
 ***
 
-### 4. Validaciones y Reglas de Negocio
+### 4.  Validaciones y Reglas de Negocio
 
 * El dashboard está disponible únicamente para perfiles con permisos autorizados.
 * El desfase corresponde a la diferencia entre el saldo final calculado y el saldo final registrado en la plataforma, y considera:

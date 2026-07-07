@@ -17,7 +17,7 @@ description: >-
 
 ### 2. 🖼️Visualización
 
-<figure><img src="../../../.gitbook/assets/image (32) (1).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Dashboard depósitos.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (32).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Dashboard depósitos.</p></figcaption></figure>
 
 ***
 
@@ -37,7 +37,7 @@ description: >-
 
 #### 3.3. Gráficas
 
-<table><thead><tr><th width="220">Gráfica</th><th width="143">Tipo de gráfica</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Depósitos diarios</code></strong></td><td>Líneal</td><td>Evolución diaria del valor de los depósitos <em>(Eje Y: monto, Eje X: día).</em></td></tr><tr><td><strong><code>Valor depósitos mensual</code></strong></td><td>Barras</td><td>Valor total de los depósitos según el mes correspondiente.</td></tr><tr><td><strong><code>Top % valor pasarela</code></strong></td><td>Torta</td><td>Participación porcentual de pasarelas por monto.</td></tr><tr><td><strong><code>Top % valor punto de venta</code></strong></td><td>Torta</td><td>Participación porcentual de puntos de venta por monto.</td></tr><tr><td><strong><code>Medio de depósitos</code></strong></td><td>Barras</td><td>Comparativo mensual pasarela vs punto de venta.</td></tr><tr><td><strong><code>Top usuario</code></strong></td><td>Barras</td><td>Ranking de usuarios con mayor monto depositado <em>(Descendente).</em></td></tr></tbody></table>
+<table><thead><tr><th width="220">Gráfica</th><th width="143">Tipo de gráfica</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Depósitos diarios</code></strong></td><td>Líneal </td><td>Evolución diaria del valor de los depósitos <em>(Eje Y: monto, Eje X: día).</em></td></tr><tr><td><strong><code>Valor depósitos mensual</code></strong></td><td>Barras</td><td>Valor total de los depósitos según el mes correspondiente.</td></tr><tr><td><strong><code>Top % valor pasarela</code></strong></td><td>Torta</td><td>Participación porcentual de pasarelas por monto.</td></tr><tr><td><strong><code>Top % valor punto de venta</code></strong></td><td>Torta</td><td>Participación porcentual de puntos de venta por monto.</td></tr><tr><td><strong><code>Medio de depósitos</code></strong></td><td>Barras</td><td>Comparativo mensual pasarela vs punto de venta.</td></tr><tr><td><strong><code>Top usuario</code></strong></td><td>Barras</td><td>Ranking de usuarios con mayor monto depositado <em>(Descendente).</em></td></tr></tbody></table>
 
 ***
 
