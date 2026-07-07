@@ -14,6 +14,7 @@
   * [Inicio](library/inicio.md)
   * [Explorar carpetas](library/explorar-carpetas/README.md)
     * [Configuración de tableros](library/explorar-carpetas/configuracion-de-tableros/README.md)
+      * [Historial Movimientos usuario](library/explorar-carpetas/configuracion-de-tableros/historial-movimientos-usuario.md)
       * [Dashboard Retail](library/explorar-carpetas/configuracion-de-tableros/dashboard-retail.md)
       * [Dashboard Facturación Deportivas](library/explorar-carpetas/configuracion-de-tableros/dashboard-facturacion-deportivas.md)
       * [Desfases jugadores](library/explorar-carpetas/configuracion-de-tableros/desfases-jugadores.md)
