@@ -65,9 +65,11 @@ Los indicadores muestran información resumida de acuerdo con los filtros selecc
 {% endcolumn %}
 
 {% column width="83.33333333333334%" %}
-<table><thead><tr><th width="125">Columna</th><th width="438.671875">Descripción</th></tr></thead><tbody><tr><td><strong><code>Fecha</code></strong></td><td>Fecha en la que se generó el reporte de la diferencia.</td></tr><tr><td><strong><code>Parner</code></strong></td><td>Partner asociado a la diferencia.</td></tr><tr><td><strong><code>País</code></strong></td><td>País en el cual se generó la diferencia.</td></tr><tr><td><strong><code>Id Usuario</code></strong></td><td>Identificador único del usuario correspondiente a la diferencia reportada.</td></tr><tr><td><strong><code>Apuesta Casino</code></strong></td><td>Valor de apuesta realizada por el usuario en casino</td></tr><tr><td><strong><code>Apuesta Casino H</code></strong></td><td>Valor reportado en el histórico de saldo correspondiente a la apuesta.</td></tr><tr><td><strong><code>Diferencia Apuesta</code></strong></td><td>Diferencia correspondiente a el valor de la apuesta reportado y el histórico de saldos del usuario</td></tr></tbody></table>
+<table><thead><tr><th width="125">Columna</th><th width="438.671875">Descripción</th></tr></thead><tbody><tr><td><strong><code>Fecha</code></strong></td><td>Fecha en la que se generó el reporte de la diferencia.</td></tr><tr><td><strong><code>Parner</code></strong></td><td>Partner asociado a la diferencia.</td></tr><tr><td><strong><code>País</code></strong></td><td>País en el cual se generó la diferencia.</td></tr><tr><td><strong><code>Id Usuario</code></strong></td><td>Identificador único del usuario correspondiente a la diferencia reportada.</td></tr><tr><td><strong><code>Apuesta Casino</code></strong></td><td>Valor de apuesta realizada por el usuario en casino.</td></tr><tr><td><strong><code>Apuesta Casino H</code></strong></td><td>Valor reportado en el histórico de saldo correspondiente a la apuesta.</td></tr><tr><td><strong><code>Diferencia Apuesta</code></strong></td><td>Diferencia correspondiente a el valor de la apuesta reportado y el histórico de saldos del usuario.</td></tr></tbody></table>
 {% endcolumn %}
 {% endcolumns %}
+
+***
 
 <table data-header-hidden><thead><tr><th width="128"></th><th></th></tr></thead><tbody><tr><td><strong><code>Diferencia Premio</code></strong></td><td>Visualiza el reporte de las diferencias de premios casino reportadas con el reporte de histórico de saldos.</td></tr></tbody></table>
 
@@ -77,7 +79,7 @@ Los indicadores muestran información resumida de acuerdo con los filtros selecc
 {% endcolumn %}
 
 {% column width="83.33333333333334%" %}
-<table><thead><tr><th width="125">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Fecha</code></strong></td><td>Fecha en la que se generó el reporte de la diferencia.</td></tr><tr><td><strong><code>Partner</code></strong></td><td>Partner asociado a la diferencia.</td></tr><tr><td><strong><code>País</code></strong></td><td>País en el cual se generó la diferencia.</td></tr><tr><td><strong><code>Id usuario</code></strong></td><td>Identificador único del usuario correspondiente a la diferencia reportada.</td></tr><tr><td><strong><code>Premios casino</code></strong></td><td>Valor de apuesta realizada por el usuario en casino</td></tr><tr><td><strong><code>Premios Casino H</code></strong></td><td>Valor reportado en el histórico de saldo correspondiente a la apuesta.</td></tr><tr><td><strong><code>Diferencia premios</code></strong></td><td>Diferencia correspondiente a el valor de la apuesta reportado y el histórico de saldos del usuario</td></tr></tbody></table>
+<table><thead><tr><th width="125">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Fecha</code></strong></td><td>Fecha en la que se generó el reporte de la diferencia.</td></tr><tr><td><strong><code>Partner</code></strong></td><td>Partner asociado a la diferencia.</td></tr><tr><td><strong><code>País</code></strong></td><td>País en el cual se generó la diferencia.</td></tr><tr><td><strong><code>Id usuario</code></strong></td><td>Identificador único del usuario correspondiente a la diferencia reportada.</td></tr><tr><td><strong><code>Premios casino</code></strong></td><td>Valor del premio obtenido por una apuesta realizada por el usuario en casino.</td></tr><tr><td><strong><code>Premios Casino H</code></strong></td><td>Valor reportado en el histórico de saldo correspondiente el valor del premio obtenido por la apuesta realizada.</td></tr><tr><td><strong><code>Diferencia premios</code></strong></td><td>Diferencia correspondiente a el valor de la apuesta reportado y el histórico de saldos del usuario.</td></tr></tbody></table>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -85,7 +87,8 @@ Los indicadores muestran información resumida de acuerdo con los filtros selecc
 
 ### 5. Validaciones y reglas del Negocio
 
-*
+* La información obtenida en este reporte se es por día vencido.
+* El contenido del dashboard es dinámico, cambia según los filtros aplicados.
 
 ***
 
@@ -95,6 +98,6 @@ Los indicadores muestran información resumida de acuerdo con los filtros selecc
 
 <summary>🔽 Historial de versiones</summary>
 
-<table><thead><tr><th width="108">Versión</th><th width="132">Fecha</th><th width="171">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>09/06/2026</td><td>Ronald Peláez</td><td>Creación inicial del manual</td></tr></tbody></table>
+<table><thead><tr><th width="108">Versión</th><th width="132">Fecha</th><th width="171">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>08/07/2026</td><td>Ronald Peláez</td><td>Manual inicial</td></tr></tbody></table>
 
 </details>
