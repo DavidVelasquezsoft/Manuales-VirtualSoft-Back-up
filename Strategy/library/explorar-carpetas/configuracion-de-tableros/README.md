@@ -55,6 +55,10 @@ Una vez definidos los parámetros, haga clic en el botón **Aplicar** para ejecu
 {% endstep %}
 {% endstepper %}
 
+{% hint style="info" %}
+**Buenas prácticas:** combinar varios filtros (_por ejemplo, un rango de fechas acotado junto con un Partner_) mejora el rendimiento del tablero y agiliza el análisis, especialmente en marcas con alto volumen de información.
+{% endhint %}
+
 ***
 
 ### 2. Cambio de pestaña

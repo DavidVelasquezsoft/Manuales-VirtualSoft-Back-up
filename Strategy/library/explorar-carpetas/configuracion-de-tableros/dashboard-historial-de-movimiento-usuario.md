@@ -1,115 +1,106 @@
 # Dashboard Historial de Movimiento usuario
 
+<mark style="color:$info;">Permite analizar en detalle los movimientos financieros asociados a los usuarios y puntos de venta, clasificándolos en entradas</mark> <mark style="color:$info;"></mark>_<mark style="color:$info;">(por ejemplo: depósitos, premios, bonos)</mark>_<mark style="color:$info;">, salidas</mark> <mark style="color:$info;"></mark>_<mark style="color:$info;">(por ejemplo: apuestas, retiros)</mark>_ <mark style="color:$info;"></mark><mark style="color:$info;">y cancelaciones. Ofrece visibilidad del comportamiento transaccional y visualizaciones que facilitan identificar tendencias y validar inconsistencias reportadas por los equipos de negocio e incidentes.</mark>
+
 ### 1. Acceso al Módulo
 
-**Ruta de acceso**: Virtualsoft > Informes compartidos > Datas TI > Paneles Visuales > Dashboard Retail
+**Ruta de acceso**: Virtualsoft > Informes compartidos > Datas TI > Paneles Visuales > Historial de Movimiento usuario
 
 ***
 
 ### 2. Configuraciones previas
 
-Antes de visualizar el reporte, es necesario confirmar las [configuraciones previas](https://virtualsoft.gitbook.io/manuales/microstrategy/tableros#id-2.-configuracion-previa).
+Antes de visualizar el reporte, es necesario confirmar las [configuraciones previas](https://virtualsoft.gitbook.io/manuales/microstrategy/tableros#id-2.-configuracion-previa) obligatorias.
+
+{% hint style="danger" %}
+**Notas importantes:**&#x20;
+
+* Los filtros son obligatorios para la correcta ejecución del tablero. Al basarse en un alto volumen de datos transaccionales, si no se aplican los filtros adecuados el tablero puede presentar problemas de carga o rendimiento.
+* Para marcas de alto volumen como **Ecuabet**, es obligatorio filtrar por un **Id Usuario** específico. Esto evita tiempos de carga elevados o fallos en la visualización, y garantiza un análisis eficiente y enfocado.
+{% endhint %}
+
+Aparte, también cuenta con el siguiente parámetro de búsqueda:
+
+<table><thead><tr><th width="142">Parámetro</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Id Usuario</code></strong></td><td>Configura los parámetros indicando el identificador único del usuario o punto de venta del cual se mostrarán los movimientos, para garantizar un análisis eficiente y enfocado.</td></tr></tbody></table>
 
 ***
 
 ### 3. Acciones disponibles
 
-<table><thead><tr><th width="175.92572021484375">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="dashboard-historial-de-movimiento-usuario.md#id-5.-kpis-generales"><strong>Aplicar filtros</strong></a></td><td>Permite filtrar la información según los criterios disponibles y utilizar el dashboard de forma dinámica para enfocar el análisis.</td></tr><tr><td><strong>Visualizar contenido del tablero</strong></td><td><p>Utiliza las herramientas del dashboard, tales como:</p><ul><li>Filtros dinámicos.</li><li>KPIs generales</li><li>Gráficas de barras</li><li>Tablas con detalle por cada movimiento.</li></ul><p>Permite navegar e interactuar con los diferentes contenidos del dashboard, visualizando distintas métricas, vistas y niveles de detalle de la información según las opciones seleccionadas, manteniendo los filtros previamente aplicados.</p></td></tr><tr><td><strong>Exportar contenido</strong></td><td>El dashboard permite exportar su contenido. Para más información, consulte la guía de exportación .</td></tr></tbody></table>
+<table><thead><tr><th width="175.92572021484375">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="dashboard-historial-de-movimiento-usuario.md#id-4.-filtros"><strong>Aplicar filtros</strong></a></td><td><p>Permite filtrar la información según los criterios disponibles y utilizar el dashboard de forma dinámica para enfocar el análisis.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Estos filtros funcionan dentro de los filtros principales de configuraciones  previas.</p></div></td></tr><tr><td><a href="dashboard-historial-de-movimiento-usuario.md#id-6.-tabla-matriz-movimientos-y-valores"><strong>Visualizar contenido del tablero</strong></a></td><td><p>Utiliza las herramientas del dashboard, tales como:</p><ul><li>Filtros dinámicos.</li><li>KPIs generales.</li><li>Gráficas de barras.</li><li>Matriz con el detalle de los movimientos.</li></ul><p>Permite navegar e interactuar con los diferentes contenidos del dashboard, manteniendo los filtros previamente aplicados.</p></td></tr><tr><td><strong>Exportar contenido</strong></td><td>El dashboard permite exportar su contenido. Para más información, consulte la guía de exportación <a data-mention href="./#id-3.-exportar-contenido">#id-3.-exportar-contenido</a>.</td></tr></tbody></table>
 
 ***
 
 ### 4. Filtros
 
-Estos son los filtros disponibles del dashboard, los cuales permiten visualizar la información del tablero según los criterios seleccionados.
+Permiten visualizar la información del tablero según los criterios seleccionados. Su uso es obligatorio para garantizar un rendimiento y un análisis adecuados.
 
-<table><thead><tr><th width="151.3333740234375">Campo</th><th width="122">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Fecha calendario transaccional</code></strong></td><td>Rango de fechas</td><td>Permite delimitar el periodo de análisis según el calendario transaccional, es decir, la fecha en que se registraron las transacciones en la plataforma.</td></tr><tr><td><strong><code>Fecha registro PV</code></strong></td><td>Rango de fechas</td><td>Filtra los puntos de venta según su fecha de registro o creación en el sistema.</td></tr><tr><td><strong><code>Estado PV</code></strong></td><td>Lista desplegable</td><td>Filtra los puntos de venta según su estado <em>(activo o inactivo)</em>.</td></tr><tr><td><strong><code>Partner</code></strong></td><td>Lista desplegable</td><td>Selecciona los partners sobre los cuales desea analizar la información.</td></tr><tr><td><strong><code>País</code></strong></td><td>Lista desplegable</td><td>Selecciona los países sobre los cuales se muestra la información del dashboard.</td></tr><tr><td><strong><code>Ciudad</code></strong></td><td>Lista desplegable</td><td>Filtra los puntos de venta según la ciudad a la que pertenecen.</td></tr><tr><td><strong><code>ID Punto de venta</code></strong></td><td>Numérico</td><td>Filtra por el identificador único del punto de venta.</td></tr></tbody></table>
+{% hint style="warning" %}
+**Nota:** Estos filtros dependen de los filtros de configuraciones previas y solo permiten acotar la búsqueda a un rango más específico dentro del que se definió en dichas configuraciones.
+{% endhint %}
 
-***
+<table><thead><tr><th width="125.5">Campo</th><th width="127.83331298828125">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Fecha Calendario</code></strong></td><td>Rango de fechas</td><td>Permite seleccionar un rango o una fecha específica de análisis.</td></tr><tr><td><strong><code>Partner</code></strong></td><td>Lista desplegable</td><td>Filtra por aliado o marca <em>(por ejemplo: Doradobet, Ganaplay, etc.)</em>.</td></tr><tr><td><strong><code>País</code></strong></td><td>Lista desplegable</td><td>Segmenta la información según el país desde el cual se registró el movimiento del usuario o punto de venta.</td></tr><tr><td><strong><code>Id Usuario</code></strong></td><td>Numérico</td><td>Permite consultar el detalle de los movimientos de un usuario o punto de venta específico por su identificador único.</td></tr><tr><td><strong><code>Movimiento</code></strong></td><td>Lista desplegable</td><td>Filtra por el tipo de movimiento realizado por el usuario o punto de venta. Los disponibles son: <br><a href="dashboard-historial-de-movimiento-usuario.md#tipos-de-movimientos" class="button secondary">Ver tipos de Movimientos</a></td></tr></tbody></table>
 
-### 5. KPIs generales
-
-En la parte superior del dashboard se muestran los indicadores clave que resumen el desempeño de la red de puntos de venta según los filtros aplicados.
-
-<table><thead><tr><th width="231.4630126953125">Indicador</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Total puntos de venta</code></strong></td><td>Cantidad total de puntos de venta registrados, sumando activos e inactivos.</td></tr><tr><td><strong><code>Puntos de venta activos</code></strong></td><td>Cantidad de puntos de venta que se encuentran activos.</td></tr><tr><td><strong><code>Puntos de venta inactivos</code></strong></td><td>Cantidad de puntos de venta que se encuentran inactivos.</td></tr><tr><td><strong><code>Registros</code></strong></td><td>Cantidad de usuarios registrados a través de los puntos de venta.</td></tr><tr><td><strong><code>Cantidad depósitos</code></strong></td><td>Número total de depósitos realizados en los puntos de venta.</td></tr><tr><td><strong><code>Valor depósitos</code></strong></td><td>Monto total de los depósitos realizados en los puntos de venta.</td></tr><tr><td><strong><code>Cantidad retiros</code></strong></td><td>Número total de retiros pagados en los puntos de venta.</td></tr><tr><td><strong><code>Valor retiros</code></strong></td><td>Monto total de los retiros pagados en los puntos de venta.</td></tr><tr><td><strong><code>Usuarios depositando</code></strong></td><td>Cantidad de usuarios únicos que realizaron al menos un depósito en el periodo consultado.</td></tr><tr><td><strong><code>Usuarios retirando</code></strong></td><td>Cantidad de usuarios únicos que realizaron al menos un retiro en el periodo consultado.</td></tr></tbody></table>
-
-***
-
-### 6. **Visualización de información**
-
-El dashboard está organizado en cuatro vistas principales, seleccionables desde la parte superior derecha de la pantalla. Cada vista presenta una perspectiva diferente de la red de puntos de venta, desde el comportamiento histórico general hasta el detalle de las transacciones, permitiendo analizar distintas métricas y niveles de detalle según los filtros aplicados.
-
-{% tabs %}
-{% tab title="Historico" %}
-Presenta gráficos generales de los puntos de venta organizados por meses, permitiendo observar la evolución de la red a lo largo del tiempo. Es la única vista que incorpora métricas _(total o máximo mensual)_ aplicables a sus gráficos.
-
-#### Visualización
-
-
-
-#### Métricas
-
-Las gráficas del dashboard permiten cambiar la información visualizada según la métrica seleccionada, actualizando automáticamente las graficas y resultados mostrados. Las métricas disponibles son:
-
-<table><thead><tr><th width="118.62957763671875">Metrica</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Total</code></strong></td><td>Muestra los gráficos utilizando la suma total de los valores registrados por mes durante el período seleccionado.</td></tr><tr><td><strong><code>Maximo mensual</code></strong></td><td>Muestra los gráficos según el valor máximo registrado en un día de cada mes del período consultado.</td></tr></tbody></table>
-
-#### Graficas
-
-Las gráficas presentan la evolución mensual de los principales indicadores de la red de puntos de venta según la [métrica](dashboard-historial-de-movimiento-usuario.md#metricas) seleccionada. Cada gráfico muestra un punto por mes, unido mediante una línea que permite visualizar la tendencia durante el período consultado, actualizando automáticamente la información.
-
-<table><thead><tr><th width="127.4073486328125">Nombre</th><th width="119.25927734375">Tipo de gráfica</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Estado puntos de venta</code></strong></td><td>Gráfico de líneas</td><td><p>Representa la evolución de la red de puntos de venta según su estado a lo largo del periodo consultado. Cada estado <em>(activos e inactivos)</em> cuenta con una línea independiente, lo que permite comparar su comportamiento mes a mes e identificar el crecimiento o la disminución de la red.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Es la única gráfica de la vista que no se ve afectada por la métrica seleccionada; siempre refleja la cantidad de puntos de venta por estado.</p></div></td></tr><tr><td><strong><code>Registros</code></strong></td><td>Gráfico de líneas</td><td>Refleja la cantidad de usuarios registrados a través de los puntos de venta en cada mes del periodo consultado, lo que permite observar el ritmo de captación de la red. Según la métrica seleccionada, el valor de cada mes corresponde a la suma total de registros <em>(Total)</em> o el día con mayor número de registros del mes <em>(Máximo mensual)</em>.</td></tr><tr><td><strong><code>Usuarios depositando</code></strong></td><td>Gráfico de líneas</td><td>Ilustra la cantidad de usuarios únicos que realizaron depósitos en cada mes, útil para evaluar la base activa de jugadores que aporta a la operación. El valor mensual varía según la métrica: la suma total del mes <em>(Total)</em> o el día de mayor actividad <em>(Máximo mensual)</em>.</td></tr><tr><td><strong><code>Usuarios retirando</code></strong></td><td>Gráfico de líneas</td><td>Representa la cantidad de usuarios únicos que efectuaron retiros en cada mes, permitiendo analizar la demanda de pagos a lo largo del tiempo. De acuerdo con la métrica seleccionada, cada mes refleja el acumulado total <em>(Total)</em> o el valor del día más alto del mes <em>(Máximo mensual)</em>.</td></tr><tr><td><strong><code>Cantidad de depósitos</code></strong></td><td>Gráfico de líneas</td><td>Expone el número de depósitos efectuados en los puntos de venta durante cada mes, lo que permite dimensionar el volumen transaccional de la red. El valor representado responde a la métrica: el total acumulado del mes <em>(Total)</em> o el día con mayor cantidad de depósitos <em>(Máximo mensual)</em>.</td></tr><tr><td><strong><code>Valor de depósitos</code></strong></td><td>Gráfico de líneas</td><td>Representa el monto total depositado en los puntos de venta en cada mes, indicador clave del ingreso generado por la red. Según la métrica, cada mes corresponde a la suma total depositada <em>(Total)</em> o al día de mayor recaudación <em>(Máximo mensual)</em>.</td></tr><tr><td><strong><code>Cantidad de retiros</code></strong></td><td>Gráfico de líneas</td><td>Refleja el número de retiros pagados en los puntos de venta durante cada mes, lo que permite seguir el comportamiento de los pagos a los jugadores. El valor de cada mes depende de la métrica: el acumulado total <em>(Total)</em> o el día con mayor cantidad de retiros <em>(Máximo mensual)</em>.</td></tr><tr><td><strong><code>Valor de retiros</code></strong></td><td>Gráfico de líneas</td><td>Ilustra el monto total pagado por concepto de retiros en cada mes, complementando el análisis financiero frente a los depósitos. De acuerdo con la métrica seleccionada, representa la suma total del mes <em>(Total)</em> o el día de mayor valor pagado <em>(Máximo mensual)</em>.</td></tr></tbody></table>
-{% endtab %}
-
-{% tab title="Desempeño provincia" %}
-Muestra rankings comparativos según la provincia en la que se ubican los puntos de venta, facilitando la identificación de las provincias con mayor o menor desempeño.
-
-#### Visualización
-
-<figure><img src="../../../.gitbook/assets/image (212) (1).png" alt=""><figcaption><p>Figura #2: Captura de pantalla Vista desempeño provincia</p></figcaption></figure>
-
-#### Rankings
-
-Esta vista presenta un conjunto de rankings que ordenan las provincias según su desempeño en cada indicador de la red de puntos de venta. Cada ranking se representa mediante un gráfico de barras horizontales, donde cada barra corresponde a una provincia.
-
-<table><thead><tr><th width="154.6666259765625">Nombre</th><th width="123.33331298828125">Tipo de gráfica</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Cantidad de puntos de ventas</code></strong></td><td>Barras horizontales</td><td>Ordena las provincias según el número de puntos de venta que concentran, permitiendo identificar dónde se ubica la mayor densidad de la red y qué territorios tienen menor presencia.</td></tr><tr><td><strong><code>Cantidad de registros</code></strong></td><td>Barras horizontales</td><td>Clasifica las provincias por la cantidad de usuarios registrados a través de sus puntos de venta, útil para reconocer las zonas con mayor captación de jugadores.</td></tr><tr><td><strong><code>Cantidad de usuarios depositando</code></strong></td><td>Barras horizontales</td><td>Muestra las provincias según el número de usuarios únicos que realizaron depósitos, reflejando dónde se concentra la base activa de jugadores que aporta a la operación.</td></tr><tr><td><strong><code>Cantidad de usuarios retirando</code></strong></td><td>Barras horizontales</td><td>Ordena las provincias por la cantidad de usuarios únicos que efectuaron retiros, lo que permite dimensionar la demanda de pagos en cada territorio.</td></tr><tr><td><strong><code>Cantidad de depósitos</code></strong></td><td>Barras horizontales</td><td>Clasifica las provincias según el número de depósitos realizados en sus puntos de venta, indicador del volumen transaccional de cada zona.</td></tr><tr><td><strong><code>Valor depósitos</code></strong></td><td>Barras horizontales</td><td>Ordena las provincias por el monto total depositado, destacando los territorios que generan mayor ingreso para la red.</td></tr><tr><td><strong><code>Cantidad de retiros</code></strong></td><td>Barras horizontales</td><td>Muestra las provincias según el número de retiros pagados en sus puntos de venta, permitiendo seguir el comportamiento de los pagos por territorio.</td></tr><tr><td><strong><code>Valor retiros</code></strong></td><td>Barras horizontales</td><td>Clasifica las provincias por el monto total pagado en retiros, complemento clave para el análisis financiero frente al valor de los depósitos.</td></tr></tbody></table>
-{% endtab %}
-
-{% tab title="Desempeño por PV" %}
-Muestra rankings comparativos de los puntos de venta, permitiendo evaluar y analizar el rendimiento individual de cada uno frente al resto de la red.
-
-#### Visualización
-
-<figure><img src="../../../.gitbook/assets/image (211) (1).png" alt=""><figcaption><p>Figura #3: Captura de pantalla Vista Desempeño por PV</p></figcaption></figure>
-
-#### Graficas
-
-Los rankings presentan, mediante gráficos de barras horizontales, el Top 10 de los puntos de venta ordenados de mayor a menor, lo que facilita identificar los puntos de venta más productivos de la red. La vista incluye además un gráfico de torta que distribuye los puntos de venta según su categoría.
-
-<table><thead><tr><th width="191.33331298828125">Nombre</th><th width="124.66668701171875">Tipo de gráfica</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Cantidad de puntos de venta por categoria</code></strong></td><td>Gráfico de torta</td><td>Distribuye los puntos de venta según su categoría <em>(Bronce, Plata o Oro)</em>, representando la proporción que cada una ocupa dentro del total. Permite dimensionar la composición de la red según la clasificación de sus puntos de venta.</td></tr><tr><td><strong><code>Top 10 por cantidad de registros</code></strong></td><td>Barras horizontales</td><td>Ordena los diez puntos de venta con mayor cantidad de usuarios registrados a través de ellos, permitiendo reconocer los puntos con mayor capacidad de captación.</td></tr><tr><td><strong><code>Top 10 por cantidad de usuarios depositando</code></strong></td><td>Barras horizontales</td><td>Presenta los diez puntos de venta con más usuarios únicos que realizaron depósitos, reflejando dónde se concentra la base activa de jugadores que aporta a la operación.</td></tr><tr><td><strong><code>Top 10 por cantidad de usuarios retirando</code></strong></td><td>Barras horizontales</td><td>Clasifica los diez puntos de venta con mayor cantidad de usuarios únicos que efectuaron retiros, útil para dimensionar la demanda de pagos en cada punto.</td></tr><tr><td><strong><code>Top 10 por cantidad de depósitos</code></strong></td><td>Barras horizontales</td><td>Ordena los diez puntos de venta con mayor número de depósitos realizados, indicador del volumen transaccional de cada uno.</td></tr><tr><td><strong><code>Top 10 por valor depósitos</code></strong></td><td>Barras horizontales</td><td>Clasifica los diez puntos de venta con mayor monto total depositado, destacando los que generan mayor ingreso para la red.</td></tr><tr><td><strong><code>Top 10 por cantidad de retiros</code></strong></td><td>Barras horizontales</td><td>Presenta los diez puntos de venta con mayor número de retiros pagados, permitiendo seguir el comportamiento de los pagos en cada punto.</td></tr><tr><td><strong><code>Top 10 por valor retiros</code></strong></td><td>Barras horizontales</td><td>Ordena los diez puntos de venta con mayor monto total pagado en retiros, complemento clave para el análisis financiero frente al valor de los depósitos.</td></tr></tbody></table>
-{% endtab %}
-
-{% tab title="Detalle" %}
-Presenta la matriz detallada con la información completa por punto de venta, sirviendo como base para el análisis a nivel transaccional y para la exportación de datos.
-
-#### Visualización
-
-<figure><img src="../../../.gitbook/assets/image (205) (1).png" alt=""><figcaption><p>Figura #4: Captura de pantalla Vista detalle</p></figcaption></figure>
-
-#### Tabla de información
-
-Esta tabla presenta la información completa de cada punto de venta según los filtros aplicados. Cada fila corresponde a un punto de venta dentro del periodo consultado y constituye la base para el análisis a nivel transaccional y para la exportación de la información a Excel.
-
-<table><thead><tr><th width="180.5">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Periodo</code></strong></td><td>Periodo de tiempo desde el cual se registro la información en el sistema.</td></tr><tr><td><strong><code>Partner</code></strong></td><td>Partner al que pertenece el punto de venta.</td></tr><tr><td><strong><code>Pais</code></strong></td><td>País en el que opera el punto de venta.</td></tr><tr><td><strong><code>Id PV</code></strong></td><td>Identificador único del punto de venta.</td></tr><tr><td><strong><code>Nombre PV</code></strong></td><td>Nombre del punto de venta.</td></tr><tr><td><strong><code>Fecha registro PV</code></strong></td><td>Fecha de registro del punto de venta en el sistema.</td></tr><tr><td><strong><code>Estado PV</code></strong></td><td>Estado actual del punto de venta <em>(activo o inactivo)</em>.</td></tr><tr><td><strong><code>Ciudad PV</code></strong></td><td>Ciudad en la que se ubica el punto de venta.</td></tr><tr><td><strong><code>Provincia PV</code></strong></td><td>Provincia en la que se ubica el punto de venta.</td></tr><tr><td><strong><code>Id Concesionario</code></strong></td><td>Identificador único del concesionario asociado al punto de venta.</td></tr><tr><td><strong><code>Detalle</code></strong></td><td>Permite acceder al detalle ampliado del punto de venta.</td></tr><tr><td><strong><code>Id Subconcesionario</code></strong></td><td>Identificador único del subconcesionario asociado al punto de venta.</td></tr><tr><td><strong><code>Id Subconcesionario2</code></strong></td><td>Identificador único del segundo nivel de subconcesionario asociado al punto de venta.</td></tr><tr><td><strong><code>Premium</code></strong></td><td>Indica si el punto de venta corresponde a la categoría premium.</td></tr><tr><td><strong><code>Registrados</code></strong></td><td>Cantidad de usuarios registrados a través del punto de venta.</td></tr><tr><td><strong><code>Cantidad depositos</code></strong></td><td>Número total de depósitos realizados en el punto de venta.</td></tr><tr><td><strong><code>Valor depositos</code></strong></td><td>Valor total de los depósitos realizados en el punto de venta.</td></tr><tr><td><strong><code>Usuarios depositando</code></strong></td><td>Cantidad de usuarios únicos que realizaron al menos un depósito en el punto de venta.</td></tr><tr><td><strong><code>Cantidad retiros</code></strong></td><td>Número total de retiros pagados en el punto de venta.</td></tr><tr><td><strong><code>Valor retiros</code></strong></td><td>Valor total de los retiros pagados en el punto de venta.</td></tr><tr><td><strong><code>Usuarios retirando</code></strong></td><td>Cantidad de usuarios únicos que realizaron al menos un retiro en el punto de venta.</td></tr></tbody></table>
-{% endtab %}
-{% endtabs %}
+{% hint style="info" %}
+**Buenas prácticas:** combinar varios filtros (_por ejemplo, un rango de fechas acotado junto con un Partner o un Id Usuario_) mejora el rendimiento del tablero y agiliza el análisis, especialmente en marcas con alto volumen de movimientos.
+{% endhint %}
 
 ***
 
-### 7. Control de Versiones
+### 6. **Tabla Matriz Movimientos y Valores**
+
+Presenta el detalle de los movimientos según los filtros aplicados. Cada fila corresponde a un movimiento agrupado por partner, país y tipo de un usuario o punto de venta, sirviendo como base para el análisis y la validación de inconsistencias.
+
+{% hint style="warning" %}
+**Nota:** En la primera fila de la matriz se muestran los totales de los valores numéricos, es decir, la suma de los campos **`Valor Movimiento`**, **`Saldo Recarga`** y **`Saldo Retiro`**.
+{% endhint %}
+
+<table><thead><tr><th width="176.66668701171875">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Partner</code></strong></td><td>Aliado o marca al que corresponde el movimiento.</td></tr><tr><td><strong><code>País</code></strong></td><td>País asociado al usuario o punto de venta que realizó el movimiento.</td></tr><tr><td><strong><code>Tipo Movimiento</code></strong></td><td>Clasificación del movimiento según su naturaleza <em>(Entrada, Salida o Cancelación)</em>.</td></tr><tr><td><strong><code>Movimiento</code></strong></td><td>Tipo específico de movimiento realizado por el usuario o punto de venta. Los disponibles son:<br><a href="dashboard-historial-de-movimiento-usuario.md#tipos-de-movimientos" class="button secondary">Ver tipos de Movimientos</a></td></tr><tr><td><strong><code>Fecha creación Movimiento</code></strong></td><td>Indica la fecha y hora exacta en la cual se registró el movimiento en el sistema.</td></tr><tr><td><strong><code>Valor Movimiento</code></strong></td><td>Valor del movimiento registrado.</td></tr><tr><td><strong><code>Saldo Recarga</code></strong></td><td><a href="https://virtualsoft.gitbook.io/plantillas/glosario#saldo-recarga">Saldo de recarga</a> con el que quedó el usuario o punto de venta después de realizar el movimiento.</td></tr><tr><td><strong><code>Saldo Retiro</code></strong></td><td><a href="https://virtualsoft.gitbook.io/plantillas/glosario#saldo-retiro">Saldo de retiro</a> con el que quedó el usuario después de realizar el movimiento.</td></tr></tbody></table>
+
+{% hint style="info" %}
+**Sobre el consumo de saldo:** el usuario siempre consume primero su **saldo recarga**; una vez agotado o cuando este no alcanza a cubrir el movimiento, se comienza a consumir el **saldo retiro**. Esto explica cómo se reflejan ambos saldos tras cada movimiento.
+{% endhint %}
+
+<details>
+
+<summary>🔽 Tipos de Movimientos</summary>
+
+Los movimientos disponibles por un usuario o punto de venta son:
+
+<table><thead><tr><th width="245">Movimiento</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Apuesta Casino</code></strong></td><td>Corresponde a la actividad del usuario en juegos de casino. Refleja tanto el valor que apuesta como el que recupera según el resultado del juego.</td></tr><tr><td><strong><code>Apuesta Deportiva</code></strong></td><td>Corresponde a la actividad del usuario en apuestas sobre eventos deportivos, reflejando el valor apostado y el asociado al resultado de la apuesta.</td></tr><tr><td><strong><code>Aumento de Cupo</code></strong></td><td>Incremento aplicado al límite de crédito o al saldo disponible del usuario.</td></tr><tr><td><strong><code>Bono Redimido</code></strong></td><td>Bono o promoción que el usuario hizo efectivo, sumándose a su saldo.</td></tr><tr><td><strong><code>Cancelación Casino</code></strong></td><td>Anulación o reverso de una operación de casino previamente registrada, dejando sin efecto el movimiento original.</td></tr><tr><td><strong><code>Cancelación Deportiva</code></strong></td><td>Anulación o reverso de una operación de apuesta deportiva previamente registrada, dejando sin efecto el movimiento original.</td></tr><tr><td><strong><code>Depósito</code></strong></td><td>Recarga de fondos que realiza el usuario para aumentar su saldo en la plataforma.</td></tr><tr><td><strong><code>Entrada</code></strong></td><td>Movimiento general que incrementa el saldo del usuario y no corresponde a una categoría específica.</td></tr><tr><td><strong><code>Nota de Retiro Creada</code></strong></td><td>Solicitud de retiro de fondos generada por el usuario, que reserva el monto a retirar de su saldo.</td></tr><tr><td><strong><code>Nota de Retiro Eliminada</code></strong></td><td>Anulación de una solicitud de retiro previamente creada, devolviendo el monto reservado al saldo del usuario.</td></tr><tr><td><strong><code>Premio Casino</code></strong></td><td>Ganancia obtenida por el usuario en juegos de casino, que se suma a su saldo.</td></tr><tr><td><strong><code>Premio Deportivo</code></strong></td><td>Ganancia obtenida por el usuario en apuestas deportivas, que se suma a su saldo.</td></tr><tr><td><strong><code>Salida</code></strong></td><td>Movimiento general que disminuye el saldo del usuario y no corresponde a una categoría específica.</td></tr></tbody></table>
+
+<p align="center"><a href="dashboard-historial-de-movimiento-usuario.md#id-6.-tabla-matriz-movimientos-y-valores" class="button secondary" data-icon="backward-fast">Volver</a></p>
+
+</details>
+
+***
+
+### 7. Graficas
+
+Las gráficas resumen visualmente el comportamiento de los movimientos según los filtros aplicados, facilitando la identificación de tendencias y la comparación entre categorías.
+
+<table><thead><tr><th width="175">Nombre</th><th width="105">Tipo de gráfica</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Valor por movimiento</code></strong></td><td>Barras Vertical</td><td>Representa el valor total agrupado por cada tipo de movimiento, permitiendo comparar rápidamente qué movimientos concentran mayor valor dentro del periodo consultado.</td></tr><tr><td><strong><code>Valor por tipo de movimiento</code></strong></td><td>Barras Horizontal</td><td>Agrupa el valor de los movimientos según su clasificación <em>(Entrada, Salida y Cancelación)</em>, ofreciendo una lectura consolidada del balance entre lo que ingresa, lo que sale y lo que se cancela.</td></tr></tbody></table>
+
+***
+
+### 8. Validaciones y reglas del negocio:
+
+* Los filtros son obligatorios para la correcta ejecución del tablero.
+* Al basarse en un alto volumen de datos transaccionales, la ausencia de filtros adecuados puede ocasionar problemas de carga o rendimiento.
+* Para marcas de alto volumen como Ecuabet, es obligatorio filtrar por un Id Usuario específico.
+* Los filtros del tablero dependen de los definidos en las configuraciones previas y solo permiten acotar dentro de ese rango.
+* Los movimientos se clasifican en Entrada, Salida y Cancelación.
+* El usuario consume primero el saldo recarga y, una vez agotado, el saldo retiro.
+* Combinar filtros mejora el rendimiento y la precisión del análisis.
+
+***
+
+### 9. Control de Versiones
 
 <details>
 
 <summary>🔽 Historial de versiones</summary>
 
-<table><thead><tr><th width="94.7037353515625">Versión</th><th width="133.25927734375">Fecha</th><th width="161.77777099609375">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>26/06/2026</td><td>David velasquez</td><td>Documento inicial</td></tr></tbody></table>
+<table><thead><tr><th width="94.7037353515625">Versión</th><th width="133.25927734375">Fecha</th><th width="161.77777099609375">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>08/07/2026</td><td>David Velasquez</td><td>Documento inicial</td></tr></tbody></table>
 
 </details>

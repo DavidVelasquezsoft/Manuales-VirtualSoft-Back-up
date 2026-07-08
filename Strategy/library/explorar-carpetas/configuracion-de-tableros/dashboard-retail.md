@@ -1,6 +1,6 @@
 # Dashboard Retail
 
-<mark style="color:$info;">El</mark> <mark style="color:$info;"></mark><mark style="color:$info;">**Dashboard Retail**</mark> <mark style="color:$info;"></mark><mark style="color:$info;">ofrece una vista analítica del desempeño de la red de puntos de venta físicos de cada partner por país. Permite medir y dar seguimiento a los principales KPIs, analizando la información por partner, país y estructura territorial para apoyar la toma de decisiones sobre la gestión de la red.</mark>
+<mark style="color:$info;">Ofrece una vista analítica del desempeño de la red de puntos de venta físicos de cada partner por país. Permite medir y dar seguimiento a los principales KPIs, analizando la información por partner, país y estructura territorial para apoyar la toma de decisiones sobre la gestión de la red.</mark>
 
 ### 1. Acceso al Módulo
 
