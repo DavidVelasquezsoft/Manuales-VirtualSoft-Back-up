@@ -21,7 +21,7 @@ layout:
 
 # NEVERENDING
 
-<mark style="color:$info;">Aquí encontrarás información importante que se debe tener en cuenta al momento de la creación de un bono FreeSpin para el proveedor</mark> <mark style="color:$info;"></mark><mark style="color:$info;">NEVERENDING.</mark>
+<mark style="color:$info;">Aquí encontrarás información importante que se debe tener en cuenta al momento de la creación de un bono FreeSpin para el proveedor NEVERENDING.</mark>
 
 ### 1. Acceso al Módulo:
 
@@ -47,7 +47,7 @@ Para consultar el detalle completo de los demás campos y la configuración gene
 
 <summary>🔽 Configuración de moneda</summary>
 
-<table><thead><tr><th width="114">Campo</th><th width="129">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Valor por ronda</code></strong></td><td>Campo numérico</td><td><p>Define el monto asignado a cada giro del juego.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> El valor ingresado debe corresponder a uno de los montos de apuesta permitidos por el juego. Si se configura un valor no válido, el sistema asignará automáticamente el valor de apuesta permitido más bajo disponible según la moneda configurada para el juego.</p></div><div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p><strong>Ejemplo:</strong> Si el juego permite apuestas de <strong>$0.10, $0.20 y $0.50</strong>, y se configura un valor de <strong>$0.15</strong>, el sistema asignará automáticamente <strong>$0.10</strong>, ya que corresponde al valor permitido más bajo disponible para la moneda configurada.</p></div></td></tr><tr><td><strong><code>Rondas gratuitas</code></strong></td><td>Numérico</td><td>Establece la cantidad de giros gratis que tendrá este bono.</td></tr><tr><td><strong><code>Jugadores</code></strong></td><td>Botón "Seleccionar archivo"</td><td>Permite cargar un archivo en formato CSV con los ID de los jugadores que recibirán el bono.</td></tr></tbody></table>
+<table><thead><tr><th width="114">Campo</th><th width="129">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Valor por ronda</code></strong></td><td>Campo numérico</td><td><p>Define el monto asignado a cada giro del juego.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> El valor ingresado debe corresponder a uno de los montos de apuesta permitidos por el juego. Si se configura un valor no válido, el bono no se creará correctamente y no se le asignará a los usuarios.</p></div></td></tr><tr><td><strong><code>Rondas gratuitas</code></strong></td><td>Numérico</td><td>Establece la cantidad de giros gratis que tendrá este bono.</td></tr><tr><td><strong><code>Jugadores</code></strong></td><td>Botón "Seleccionar archivo"</td><td>Permite cargar un archivo en formato CSV con los ID de los jugadores que recibirán el bono.</td></tr></tbody></table>
 
 <a href="neverending.md#id-2.-visualizacion" class="button secondary">Regresar</a>
 
@@ -84,7 +84,7 @@ Nota: Si se realiza una compra de giros en la tienda del proveedor, las ganancia
 * El bono se crea de forma inmediata, pero la asignación a jugadores puede tardar entre **2 y 3 minutos**.
 * El bono solo puede configurarse para un único juego. Si se seleccionan varios, no se creará el bono y generará un error interno.
 * Este bono una vez creado quedará disponible para **CRM optimove**.
-* Si se crea un bono con un valor por ronda diferente a los permitidos en la lista de cuotas por juego, el sistema asignará automáticamente el valor de apuesta permitido más bajo disponible según la moneda configurada para el juego.
+* Si se crea un bono con un valor por ronda diferente a los permitidos en la lista de cuotas por juego, el sistema no asignará el bono a los usuarios.
 
 ***
 
