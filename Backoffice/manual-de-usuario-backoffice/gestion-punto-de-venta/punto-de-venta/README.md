@@ -148,6 +148,6 @@ Las consultas generales mostrarán directamente los registros en la tabla de res
 
 #### 5. 🕒 Control de Versiones
 
-| Versión | Fecha      | Autor            | Cambios Realizados |
-| ------- | ---------- | ---------------- | ------------------ |
-| 1.0     | DD/MM/AAAA | Nombre del Autor | Documento inicial  |
+| Versión | Fecha      | Autor         | Cambios Realizados |
+| ------- | ---------- | ------------- | ------------------ |
+| 1.0     | 10/07/2026 | Ronald Peláez | Documento inicial  |
