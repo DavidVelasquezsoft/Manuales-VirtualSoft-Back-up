@@ -1,7 +1,3 @@
----
-description: p
----
-
 # Sorteo punto de venta.
 
 Para crear una ruleta, selecciona la opción "**Sorteo Punto Venta**" en la lista de tipos de eventos.
