@@ -1,61 +1,75 @@
 ---
 description: >-
-  Este reporte permite consultar las transferencias de saldo recibidas aplicando
-  uno o más filtros. Es importante destacar que ninguno de los filtros es
-  obligatorio.
+  Este reporte permite consultar las transferencias de saldo que ha recibido un
+  usuario, mostrando el detalle de cada transacción o su información consolidada
+  según el tipo de vista seleccionado.
 ---
 
 # Reporte de transferencias de saldo Recibidas
 
-#### 1. Acceso al Módulo
+{% hint style="warning" %}
+**Nota:** El acceso al módulo requiere permisos específicos; en caso de no contar con ellos, el reporte no será visible.
+{% endhint %}
 
-**Ruta de Acceso**: BackOffice > Menú principal > Reportes > Transferencias de Saldo Recibidas
+### 1. Acceso al Módulo
 
-***
-
-#### 2. Visualización
-
-<figure><img src="../../.gitbook/assets/image (600).png" alt=""><figcaption><p>Figura #1: Captura de pantalla filtros de búsqueda.</p></figcaption></figure>
+**Ruta de Acceso**: BackOffice (BO) > Reportes > Transferencias de Saldo Recibidas
 
 ***
 
-#### 3. Funcionalidades
+### 2. Visualización
 
-<table><thead><tr><th width="163">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td>Filtrar transferencias</td><td>Permite aplicar filtros de búsqueda por usuario, fecha, concesionario, país o tipo de reporte.</td></tr><tr><td>Visualizar tabla de resultados</td><td>Presenta la información de las transferencias según los filtros aplicados.</td></tr><tr><td>Exportar los resultados</td><td>Permite exportar en formato Excel los resultados de las transferencias recibidas según los filtros seleccionados.</td></tr></tbody></table>
+<figure><img src="../../.gitbook/assets/image (600).png" alt=""><figcaption><p>Figura #1: Captura de pantalla reporte de transferencias de saldo recibidas.</p></figcaption></figure>
 
-**🔎 3.1 Filtros principales**
+***
 
-<table><thead><tr><th width="107">Campo</th><th width="122">Tipo de Control</th><th width="484">Descripción</th></tr></thead><tbody><tr><td><code>ID Usuario</code></td><td>Texto</td><td>Identificador único del usuario que recibió la transferencia.</td></tr><tr><td><code>Nombre del Usuario</code></td><td>Texto</td><td>Permite buscar por el nombre del usuario receptor de la transferencia.</td></tr><tr><td><code>Fecha</code></td><td>Calendario</td><td>Filtra las transferencias realizadas dentro de un rango de fechas específico.</td></tr><tr><td><code>ID Concesionario</code></td><td>Texto</td><td>Identificador del concesionario asociado a la transferencia.</td></tr><tr><td><code>Subconcesionario</code></td><td>Texto</td><td>Permite filtrar por el subconcesionario relacionado con la transferencia.</td></tr><tr><td><code>País</code></td><td>Lista desplegable</td><td>Selecciona el país donde se efectuó la transferencia.</td></tr><tr><td><code>Tipo de Usuario</code></td><td>Lista desplegable</td><td>Clasifica al usuario según su perfil o rol dentro del sistema.</td></tr><tr><td><code>Tipo</code></td><td>Lista desplegable</td><td><p>Define de qué forma se visualizará el reporte.</p><ul><li><strong>Detallado</strong>: Reporte con información <a href="reporte-de-transferencias-de-saldo-recibidas.md#detallado">detallada</a>.</li><li><strong>Totales</strong>: Reporte con información <a href="reporte-de-transferencias-de-saldo-recibidas.md#totales">total</a>.</li></ul></td></tr><tr><td><code>Asignado Por</code></td><td>Texto</td><td>Permite buscar las transferencias realizadas por el usuario que asignó el saldo.</td></tr><tr><td><code>Id transacción</code></td><td>Texto</td><td>Id asociado a la transacción que se va a consultar.</td></tr></tbody></table>
+### 3. Acciones disponibles
 
-**📊 Tabla de Resultados**\
-Los resultados de la consulta se presentan en una tabla con las siguientes columnas:
+<table><thead><tr><th width="118.54541015625">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="reporte-de-transferencias-de-saldo-recibidas.md#id-4.-filtros"><strong>Filtros</strong></a></td><td>Definen los criterios de búsqueda para consultar la información del reporte y permiten seleccionar el nivel de detalle de los resultados.</td></tr><tr><td><strong>Limpiar</strong></td><td>Restablece los filtros aplicados, dejando los campos en su estado inicial.</td></tr><tr><td><a href="reporte-de-transferencias-de-saldo-recibidas.md#id-5.-resultados-de-consulta"><strong>Consultar</strong></a></td><td>Ejecuta la búsqueda según los filtros definidos y muestra las transferencias en la vista seleccionada.</td></tr><tr><td><strong>Exportar</strong></td><td>Permite exportar los resultados obtenidos según los filtros aplicados en formato Excel mediante el botón <strong>Exportar</strong>, ubicado en la parte inferior derecha de la pantalla.</td></tr></tbody></table>
+
+***
+
+### 4. Filtros
+
+<table><thead><tr><th width="150">Campo</th><th width="122">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>ID Usuario</code></strong></td><td>Numérico</td><td>Indica el identificador único del usuario que recibió la transferencia.</td></tr><tr><td><strong><code>Nombre del Usuario</code></strong></td><td>Campo de texto</td><td>Permite buscar por el nombre del usuario receptor de la transferencia.</td></tr><tr><td><strong><code>Fecha</code></strong></td><td>Rango de fechas</td><td>Filtra las transferencias realizadas dentro del periodo seleccionado.</td></tr><tr><td><strong><code>ID Concesionario</code></strong></td><td>Numérico</td><td>Indica el identificador del concesionario asociado a la transferencia.</td></tr><tr><td><strong><code>Subconcesionario</code></strong></td><td>Campo de texto</td><td>Filtra por el subconcesionario relacionado con la transferencia.</td></tr><tr><td><strong><code>País</code></strong></td><td>Lista desplegable</td><td>Selecciona el país donde se efectuó la transferencia.</td></tr><tr><td><strong><code>Tipo de Usuario</code></strong></td><td>Lista desplegable</td><td>Clasifica al usuario según su perfil o rol dentro del sistema.</td></tr><tr><td><strong><code>Tipo</code></strong></td><td>Lista desplegable</td><td>Define de qué forma se visualizará el reporte, en modo <a href="reporte-de-transferencias-de-saldo-recibidas.md#detallado-1"><strong>Detallado</strong></a> o <a href="reporte-de-transferencias-de-saldo-recibidas.md#totales-1"><strong>Totales</strong></a>.</td></tr><tr><td><strong><code>Asignado Por</code></strong></td><td>Campo de texto</td><td>Permite buscar las transferencias según el usuario que asignó el saldo.</td></tr><tr><td><strong><code>Id transacción</code></strong></td><td>Numérico</td><td>Indica el identificador de la transacción que se desea consultar.</td></tr></tbody></table>
+
+***
+
+### 5. Resultados de consulta
+
+Al ejecutar la consulta, en la parte inferior de la pantalla se despliega la información de las transferencias según los filtros aplicados. El reporte cuenta con dos vistas que pueden seleccionarse mediante el filtro **Tipo**, según el nivel de detalle requerido.
 
 {% tabs %}
 {% tab title="Detallado" %}
-El resultado de la consulta cuando sea tipo detallado tendrá una tabla con las siguientes columnas:
+La vista detallada presenta una fila por cada transferencia recibida, con las siguientes columnas:
 
-<table><thead><tr><th width="201">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>ID</code></strong></td><td>Número único que identifica cada transferencia de saldo.</td></tr><tr><td><strong><code>Fecha</code></strong></td><td>Fecha y hora en que se realizó la transferencia.</td></tr><tr><td><strong><code>ID Usuario</code></strong></td><td>Identificador único del usuario receptor de la transferencia.</td></tr><tr><td><strong><code>Nombre del Usuario</code></strong></td><td>Nombre del usuario que recibió el saldo.</td></tr><tr><td><strong><code>Tipo Cupo</code></strong></td><td>Clasificación del cupo transferido <em>(por ejemplo: recarga, juego, etc.).</em></td></tr><tr><td><strong><code>Tipo Transacción</code></strong></td><td>Tipo de transacción realizada <em>(por ejemplo: entrada, salida, etc.).</em></td></tr><tr><td><strong><code>Valor</code></strong></td><td>Monto total transferido en la transacción.</td></tr><tr><td><strong><code>Moneda</code></strong></td><td>Tipo de moneda utilizada en la transferencia.</td></tr><tr><td><strong><code>Información de banco</code></strong></td><td>Información del banco con el que se generó la transacción.</td></tr><tr><td><strong><code>Id transacción</code></strong></td><td>Id de la transacción realizada.</td></tr></tbody></table>
+<table><thead><tr><th width="201">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>ID</code></strong></td><td>Número único que identifica cada transferencia de saldo.</td></tr><tr><td><strong><code>Fecha</code></strong></td><td>Fecha y hora en la que se realizó la transferencia.</td></tr><tr><td><strong><code>ID Usuario</code></strong></td><td>Identificador único del usuario receptor de la transferencia.</td></tr><tr><td><strong><code>Nombre del Usuario</code></strong></td><td>Nombre del usuario que recibió el saldo.</td></tr><tr><td><strong><code>Tipo Cupo</code></strong></td><td>Clasificación del cupo transferido <em>(por ejemplo: recarga, juego, apuestas, etc.)</em>.</td></tr><tr><td><strong><code>Tipo Transacción</code></strong></td><td>Tipo de transacción realizada <em>(por ejemplo: depósito, retiro, etc.)</em>.</td></tr><tr><td><strong><code>Valor</code></strong></td><td>Monto total transferido en la transacción.</td></tr><tr><td><strong><code>Moneda</code></strong></td><td>Tipo de moneda utilizada en la transferencia.</td></tr><tr><td><strong><code>Información de banco</code></strong></td><td>Información del banco con el que se generó la transacción.</td></tr><tr><td><strong><code>Id transacción</code></strong></td><td>Identificador de la transacción realizada.</td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Totales" %}
+La vista de totales presenta la información consolidada, agrupando los resultados por usuario según los criterios de búsqueda seleccionados. Muestra las siguientes columnas:
 
+<table><thead><tr><th width="155">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Asignado por</code></strong></td><td>Usuario que asignó o realizó la transferencia del saldo.</td></tr><tr><td><strong><code>Fecha</code></strong></td><td>Fecha correspondiente a las transferencias consolidadas.</td></tr><tr><td><strong><code>Tipo cupo</code></strong></td><td>Clasificación del cupo transferido <em>(por ejemplo: recarga, juego, apuestas, etc.)</em>.</td></tr><tr><td><strong><code>Tipo transacción</code></strong></td><td>Tipo de transacción realizada <em>(por ejemplo: entrada, salida, etc.)</em>.</td></tr><tr><td><strong><code>Valor</code></strong></td><td>Monto total consolidado de las transferencias.</td></tr><tr><td><strong><code>Moneda</code></strong></td><td>Tipo de moneda utilizada en las transferencias.</td></tr></tbody></table>
 {% endtab %}
 {% endtabs %}
 
-<table><thead><tr><th width="155">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Asignado por</code></strong> </td><td></td></tr><tr><td><strong><code>Fecha</code></strong></td><td></td></tr><tr><td><strong><code>Tipo cupo</code></strong></td><td></td></tr><tr><td><strong><code>Tipo transacción</code></strong></td><td></td></tr><tr><td><strong><code>Valor</code></strong></td><td></td></tr><tr><td><strong><code>Moneda</code></strong></td><td></td></tr></tbody></table>
-
 ***
 
-**4. Validaciones y Reglas de Negocio**
+### 6. Validaciones y reglas del negocio:
 
+* El acceso al módulo requiere permisos específicos; de lo contrario, el reporte no será visible en el sistema.
 * No es obligatorio completar todos los filtros para realizar una búsqueda.
-* La información mostrada dependerá de los filtros seleccionados en la consulta.
+* La información mostrada depende de los filtros seleccionados y del tipo de vista (_**Detallado** o **Totales**_).
 * Solo los usuarios con permisos adecuados pueden acceder o exportar los datos.
 
 ***
 
-**5. Control de Versiones**
+### 7. Control de Versiones
 
-| Versión | Fecha      | Autor         | Cambios Realizados |
-| ------- | ---------- | ------------- | ------------------ |
-| 1.0     | 08/10/2025 | Ronald Peláez | Documento inicial  |
+<details>
+
+<summary>🔽 Historial de versiones</summary>
+
+<table><thead><tr><th width="98.3333740234375">Versión</th><th width="137.16668701171875">Fecha</th><th width="148">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>08/10/2025</td><td>Ronald Peláez</td><td>Documento inicial</td></tr><tr><td>1.1</td><td>10/07/2026</td><td>David Velasquez</td><td>Actualización y refinamiento del manual</td></tr></tbody></table>
+
+</details>

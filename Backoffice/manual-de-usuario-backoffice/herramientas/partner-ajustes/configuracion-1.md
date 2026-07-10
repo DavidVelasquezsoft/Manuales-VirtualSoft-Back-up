@@ -654,9 +654,44 @@ Esta opción permite configurar un premio para los usuarios que realicen apuesta
 
 <details>
 
-<summary><strong>🔽</strong> Verticales ✖️</summary>
+<summary><strong>🔽</strong> Verticales</summary>
+
+<mark style="color:$info;">Configura las funcionalidades específicas de la plataforma para cada tipo de perfil. Desde esta sección es posible habilitar o deshabilitar el acceso a los diferentes módulos de la plataforma de Usuarios Online, de acuerdo con la configuración definida para la operación.</mark>
+
+***
+
+### 1. Acceso al Módulo <a href="#id-1.-acceso-al-modulo" id="id-1.-acceso-al-modulo"></a>
+
+**Ruta de Acceso**: Backoffice > Herramientas > Partner ajustes > Partner > Configuración > Verticales
+
+***
+
+### 2. Visualización <a href="#id-4.-visualizacion" id="id-4.-visualizacion"></a>
+
+<figure><img src="../../../.gitbook/assets/image (547).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Verticales</p></figcaption></figure>
+
+***
+
+### 3. Tipo de perfil
+
+Selecciona el tipo de perfil para configurar las verticales. Cada opción disponible ofrece un modo distinto de configuración.
+
+{% hint style="danger" %}
+**Nota importante:** El funcionamiento de los campos se define de la siguiente manera:
 
 
+
+* Si el valor es **“Sí”**, la sección permanecerá desactivada con la [contingencia](https://virtualsoft.gitbook.io/untitled/glosario/#contingencia) activa para esa sección.
+* Si el valor es **“No”**, la sección estará disponible en la plataforma sin [contigencia](https://virtualsoft.gitbook.io/untitled/glosario/#contingencia).
+{% endhint %}
+
+***
+
+### 4. Verificar celular
+
+Define para qué acciones se debe verificar el número de teléfono celular.
+
+<table><thead><tr><th width="163.58331298828125">Campo</th><th width="514.4323120117188">Descripción</th></tr></thead><tbody><tr><td><strong><code>DEPOSITAR</code></strong></td><td>Define si el usuario debe verificar su número de celular para realizar depósitos.</td></tr><tr><td><strong><code>APUESTAS_DEPORTIVAS</code></strong></td><td>Configura si es necesario verificar el celular para realizar apuestas deportivas.</td></tr><tr><td><strong><code>APUESTAS_CASINO</code></strong></td><td>Configura si los usuarios deben verificar su celular para apostar en juegos de casino.</td></tr><tr><td><strong><code>RETIROS</code></strong></td><td>Determina si la verificación de celular es necesaria para realizar retiros.</td></tr><tr><td><strong><code>CASINO_EN_VIVO</code></strong></td><td>Establece si la verificación de celular es obligatoria para participar en juegos de casino en vivo.</td></tr><tr><td><strong><code>VIRTUALES</code></strong></td><td>Configura si se necesita verificación para acceder a apuestas virtuales.</td></tr></tbody></table>
 
 </details>
 
@@ -710,9 +745,41 @@ Para retirar un bono de la landing de registro:
 
 <details>
 
-<summary><strong>🔽</strong> Bonos de cumpleaños ✖️</summary>
+<summary><strong>🔽</strong> Bonos de cumpleaños</summary>
 
+<mark style="color:$info;">Asigna a los usuarios bonos Freebet o Freecasino por campaña en la fecha de su cumpleaños.</mark>
 
+### 1. Acceso al Módulo
+
+**Ruta de Acceso**: BackOffice > Herramientas > Partner Ajustes > Configuración > Bono cumpleaños
+
+***
+
+### 2. Visualización general
+
+<figure><img src="../../../.gitbook/assets/image (49).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección bonos de cumpleaños.</p></figcaption></figure>
+
+***
+
+### 3. Acciones disponibles.
+
+<table><thead><tr><th width="154">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="configuracion-1.md#id-4.-como-agregar-un-bono-de-cumpleanos">A<strong>signar bono de cumpleaños</strong></a></td><td>Permite otorgar un bono de cumpleaños a todos los jugadores cuyo cumpleaños coincida con la fecha en que se aplica el bono.</td></tr></tbody></table>
+
+#### 4. ¿Cómo agregar un bono de cumpleaños?&#x20;
+
+{% @guideflow/guideflow-embed requestedUrl="https://app.guideflow.com/player/8koonnlh5k" %}
+
+***
+
+### 4. Validaciones y Reglas de Negocio
+
+* En el apartado “**Todos los bonos**” se mostrarán únicamente los bonos creados que no estén asignados a los usuarios.
+* En el apartado **“Bono seleccionado”** se listarán los bonos que estén siendo asignados a los usuarios.
+* Solo estarán disponibles los bonos de tipo **Freebet** y **Freecasino**.
+* Para que un bono se muestre, debe haber sido creado desde **Torneos y Bonos** con una campaña de marketing asociada y estado activo.
+* El bono será entregado automáticamente al usuario el día de su cumpleaños sin interferir con algún otro tipo de bonos.
+* Únicamente podrá asignarse un bono por tipo _(por ejemplo: Un bono Freebet y un bono Freecasino, pero no dos bonos Freebet)_.
+* Este proceso podrá ser realizado por los usuarios que tengan permisos en la sección **Partner Ajustes**.
 
 </details>
 
@@ -720,7 +787,7 @@ Para retirar un bono de la landing de registro:
 
 <summary><strong>🔽</strong> Límites de Comisión</summary>
 
-Configura los porcentajes de comisión aplicables a las diferentes verticales y tipos de transacción disponibles dentro del programa de afiliados. Las configuraciones se realizan según el perfil seleccionado y determinan las condiciones bajo las cuales se generarán las comisiones.
+<mark style="color:$info;">Configura los porcentajes de comisión aplicables a las diferentes verticales y tipos de transacción disponibles dentro del programa de afiliados. Las configuraciones se realizan según el perfil seleccionado y determinan las condiciones bajo las cuales se generarán las comisiones.</mark>
 
 ### 1. Acceso al Módulo:
 

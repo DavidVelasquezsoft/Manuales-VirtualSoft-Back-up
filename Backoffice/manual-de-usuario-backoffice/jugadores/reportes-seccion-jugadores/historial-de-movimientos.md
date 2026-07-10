@@ -50,6 +50,10 @@ description: >-
 
 Aplica los filtros seleccionados y muestra los registros detallados del historial de movimientos del usuario.
 
+{% hint style="info" %}
+**Sobre el consumo de saldo:** el usuario siempre consume primero su **saldo recarga**; una vez agotado o cuando este no alcanza a cubrir el movimiento, se comienza a consumir el **saldo retiro**. Esto explica cómo se reflejan ambos saldos tras cada movimiento.
+{% endhint %}
+
 <table><thead><tr><th width="140.66668701171875">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>ID</code></strong></td><td>Identificador interno del movimiento en el sistema.</td></tr><tr><td><strong><code>ID Usuario</code></strong></td><td>Identificador único del usuario asociado al movimiento.</td></tr><tr><td><strong><code>Movimiento</code></strong></td><td>Indica si el movimiento corresponde a una <strong>entrada</strong> o una <strong>salida</strong> de saldo.</td></tr><tr><td><strong><code>Tipo</code></strong></td><td>Categoría que clasifica el tipo de movimiento. Las opciones disponibles son:<br><a href="historial-de-movimientos.md#tipos-de-movimientos" class="button secondary">Ver tipos de movimientos</a></td></tr><tr><td><strong><code>ID Externo</code></strong></td><td>Identificador externo único asociado al movimiento.</td></tr><tr><td><strong><code>Fecha de Creación</code></strong></td><td>Fecha y hora en que el movimiento fue registrado.</td></tr><tr><td><strong><code>Valor</code></strong></td><td>Valor económico asociado al movimiento realizado.</td></tr><tr><td><strong><code>Saldo Recargas</code></strong></td><td>Saldo disponible del usuario correspondiente a recargas y depósitos realizados sobre la cuenta del usuario.</td></tr><tr><td><strong><code>Saldo Retiros</code></strong></td><td>Saldo disponible del usuario para efectuar retiros.</td></tr></tbody></table>
 
 <details>

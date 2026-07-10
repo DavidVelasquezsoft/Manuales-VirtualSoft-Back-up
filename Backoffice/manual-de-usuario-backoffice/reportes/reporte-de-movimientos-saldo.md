@@ -51,6 +51,10 @@ La tabla de resultados muestra la siguiente información:
 | **Saldo Recargas**    | Saldo acumulado de recargas tras el movimiento.                |
 | **Saldo Retiros**     | Saldo acumulado de retiros tras el movimiento.                 |
 
+{% hint style="info" %}
+**Sobre el consumo de saldo:** el usuario siempre consume primero su **saldo recarga**; una vez agotado o cuando este no alcanza a cubrir el movimiento, se comienza a consumir el **saldo retiro**. Esto explica cómo se reflejan ambos saldos tras cada movimiento.
+{% endhint %}
+
 ***
 
 ### 4. Validaciones y Reglas de Negocio

@@ -8,6 +8,14 @@ description: >-
 
 Cada categoría de reporte está diseñada para ofrecer información detallada y útil sobre aspectos específicos del sistema ,cada reporte cuenta con herramientas de filtrado y exportación, permitiendo seleccionar y analizar la información según los criterios establecidos. Esto asegura que los datos puedan ser utilizados para la toma de decisiones informadas y la generación de estrategias.
 
+{% content-ref url="reporte-de-ingresos-consolidados-doradobet.md" %}
+[reporte-de-ingresos-consolidados-doradobet.md](reporte-de-ingresos-consolidados-doradobet.md)
+{% endcontent-ref %}
+
+{% content-ref url="reporte-depositos-por-franquicias.md" %}
+[reporte-depositos-por-franquicias.md](reporte-depositos-por-franquicias.md)
+{% endcontent-ref %}
+
 {% content-ref url="jackpot-internacional.md" %}
 [jackpot-internacional.md](jackpot-internacional.md)
 {% endcontent-ref %}
@@ -60,8 +68,8 @@ Cada categoría de reporte está diseñada para ofrecer información detallada y
 [flujo-de-caja-historico.md](flujo-de-caja-historico.md)
 {% endcontent-ref %}
 
-{% content-ref url="flujo-de-caja-historico.md" %}
-[flujo-de-caja-historico.md](flujo-de-caja-historico.md)
+{% content-ref url="flujo-de-caja-resumido.md" %}
+[flujo-de-caja-resumido.md](flujo-de-caja-resumido.md)
 {% endcontent-ref %}
 
 {% content-ref url="informe-gerencial.md" %}

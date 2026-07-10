@@ -6,7 +6,9 @@ description: >-
 
 # Reporte de apuestas
 
-### Configuración general
+{% hint style="danger" %}
+**Nota importante:**  Este modulo solo aplica para **Puntos de venta**.
+{% endhint %}
 
 ### 1. Acceso al Módulo:
 
@@ -22,7 +24,15 @@ Permite consultar el historial detallado de las apuestas deportivas realizadas e
 
 ***
 
-### **3. Control de Versiones**
+### **3. Resultados de consulta**
+
+Según los criterios de búsqueda consultados, se mostrarán las apuestas validas con los siguientes campos:
+
+<table><thead><tr><th width="201.16668701171875">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Nombre de la apuesta</code></strong></td><td>Indica el evento deportivo sobre el cual se realizó la apuesta.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Muestra el estado actual de la apuesta (<em>por ejemplo: <strong>Abierta</strong>, <strong>Ganada</strong> o <strong>Perdida</strong></em>).</td></tr><tr><td><strong><code>Cuota total</code></strong></td><td>Indica la <strong>cuota total</strong> de la apuesta, calculada a partir de la combinación de las selecciones realizadas. La cuota representa el multiplicador utilizado para determinar la posible ganancia de la apuesta.</td></tr><tr><td><strong><code>Valor total</code></strong></td><td>Muestra el valor total apostado por el usuario, incluyendo los conceptos aplicables.</td></tr><tr><td><strong><code>Ganancia total</code></strong></td><td>Muestra el valor de la ganancia potencial de la apuesta o, si esta ya fue resuelta y resultó ganadora, la ganancia obtenida.</td></tr><tr><td><strong><code>Fecha y hora</code></strong></td><td>Muestra la fecha y hora en que se registró la apuesta.</td></tr><tr><td><strong><code>ID</code></strong></td><td>Identificador único asignado a la apuesta.</td></tr><tr><td><strong><code>Compartir</code></strong></td><td>Permite compartir la información de la apuesta mediante la descarga del ticket de apuesta.</td></tr><tr><td><strong><code>Imprimir</code></strong></td><td>Permite generar una versión imprimible del comprobante de la apuesta.</td></tr></tbody></table>
+
+***
+
+### **4. Control de Versiones**
 
 <details>
 

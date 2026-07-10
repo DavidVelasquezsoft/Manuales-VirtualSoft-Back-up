@@ -1,6 +1,6 @@
 # Productos
 
-Permite acceder a las configuraciones relacionadas con la **modificación de productos**. Desde aquí se pueden **seleccionar los proveedores y subproveedores** que participarán en las pruebas o ajustes de configuración.
+Permite acceder a las configuraciones relacionadas con la gestión de productos, incluyendo su activación y la administración de proveedores, subproveedores, categorías, bancos, franquicias y proveedores de criptomonedas.
 
 {% content-ref url="activacion-productos.md" %}
 [activacion-productos.md](activacion-productos.md)
