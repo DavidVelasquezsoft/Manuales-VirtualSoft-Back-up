@@ -13,37 +13,49 @@ Virtualsoft > Informes compartidos > Datas TI > Paneles Visuales
 
 ### **2. Configuraciones Previas**
 
-Antes de visualizar el reporte, es necesario establecer las  [configuraciones previas.](https://virtualsoft.gitbook.io/manuales/microstrategy/tableros#id-2.-configuracion-previa)
+Antes de visualizar el reporte, es necesario establecer las [configuraciones previas.](https://virtualsoft.gitbook.io/manuales/microstrategy/library/explorar-carpetas/configuracion-de-tableros#id-1.-configuraciones-previas)
 
 ***
 
-### 3. Visualización General
-
-<figure><img src="../../../.gitbook/assets/image (27).png" alt=""><figcaption><p>Figura #1: Captura de pantalla dashboard programa de lealtad.</p></figcaption></figure>
-
-***
-
-### 4. 🔍 Filtros Disponibles
-
-<table><thead><tr><th width="89.66668701171875">Filtro</th><th width="126.33331298828125">Tipo de control</th><th width="514">Descripción</th></tr></thead><tbody><tr><td><strong><code>Mensual</code></strong></td><td>Botón</td><td>Establece si toda la información visualizada en el dashboard será de manera mensual.</td></tr><tr><td><strong><code>Diario</code></strong></td><td>Botón</td><td>Establece si toda la información visualizada en el dashboard será de manera diaria <em>(día a día)</em>.</td></tr><tr><td><strong><code>Partner</code></strong></td><td>Lista desplegable</td><td>Filtra la información por operador o marca. </td></tr><tr><td><strong><code>País</code></strong></td><td>Lista desplegable</td><td>Permite visualizar la información por país. </td></tr><tr><td><strong><code>Fecha</code></strong></td><td>Calendario</td><td>Establece el rango de fechas con el que se generará el reporte</td></tr><tr><td><strong><code>Año</code></strong></td><td>Lista desplegable</td><td>Permite filtrar la información correspondiente a un año específico.</td></tr><tr><td><strong><code>Mes</code></strong></td><td>Lista desplegable</td><td>Permite filtrar la información correspondiente a un mes específico dentro del año seleccionado.</td></tr><tr><td><strong><code>Día</code></strong></td><td>Lista desplegable</td><td>Permite filtrar la información correspondiente a un día específico, según el rango o mes seleccionado.</td></tr></tbody></table>
+### 3. 🔍 Filtros Disponibles
 
 {% hint style="warning" %}
 **Nota:** Los filtros de fecha definen el alcance temporal de todos los gráficos y tablas del tablero.
 {% endhint %}
 
+<table><thead><tr><th width="89.66668701171875">Filtro</th><th width="126.33331298828125">Tipo de control</th><th width="514">Descripción</th></tr></thead><tbody><tr><td><strong><code>Partner</code></strong></td><td>Lista desplegable</td><td>Filtra la información por operador o marca. </td></tr><tr><td><strong><code>País</code></strong></td><td>Lista desplegable</td><td>Permite visualizar la información por país. </td></tr><tr><td><strong><code>Fecha</code></strong></td><td>Calendario</td><td>Establece el rango de fechas con el que se generará el reporte</td></tr><tr><td><strong><code>Año</code></strong></td><td>Lista desplegable</td><td>Filtra la información correspondiente a un año específico.</td></tr><tr><td><strong><code>Mes</code></strong></td><td>Lista desplegable</td><td>Permite filtrar la información correspondiente a un mes específico dentro del año seleccionado.</td></tr><tr><td><strong><code>Día</code></strong></td><td>Lista desplegable</td><td>Filtra la información correspondiente a un día específico, según el rango o mes seleccionado.</td></tr><tr><td><strong><code>Id usuario</code></strong></td><td>Texto</td><td><p>buscar un usuario específico mediante su identificador. </p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> este filtro solo está disponible en la vista <strong>Puntos Calificables</strong>.</p></div></td></tr></tbody></table>
+
 ***
 
 ### 5. Componentes del Dashboard
+
+Este Dashboard cuenta con diferentes  vistas de informacion estas son:
+
+{% tabs %}
+{% tab title="Mensual" %}
+
+{% endtab %}
+
+{% tab title="Diario" %}
+
+{% endtab %}
+
+{% tab title="Puntos calificables" %}
+
+{% endtab %}
+{% endtabs %}
+
+
 
 #### 5.1. KPI´s
 
 Los KPI se muestran en la parte superior del dashboard y presentan **indicadores generales** calculados sobre todos los movimientos en el programa de lealtad, **según los filtros aplicados**.
 
-<table><thead><tr><th width="309.50006103515625">Indicador (KPI)</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>% Puntos Activos</code></strong></td><td>Indica el porcentaje de puntos activos respecto al total de puntos generados, calculado a partir de la relación entre los puntos activos, redimidos y expirados.</td></tr><tr><td><strong><code>% Redención puntos</code></strong></td><td>Mide el porcentaje de puntos acumulados que han sido efectivamente redimidos por los usuarios frente al total de puntos generados en el programa de lealtad.</td></tr><tr><td><strong><code>% Redención usuario</code></strong></td><td>Representa el porcentaje de usuarios que redimieron al menos un beneficio del programa de lealtad sobre el total de usuarios con puntos acumulados.</td></tr><tr><td><strong><code>% Expiración puntos</code></strong></td><td>Indica el porcentaje de puntos que expiraron sin ser utilizados por los usuarios dentro del periodo analizado.</td></tr></tbody></table>
+<table><thead><tr><th width="215.50006103515625">Indicador (KPI)</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>% Puntos Activos</code></strong></td><td>Indica el porcentaje de puntos activos respecto al total de puntos generados, calculado a partir de la relación entre los puntos activos, redimidos y expirados.</td></tr><tr><td><strong><code>% Redención puntos</code></strong></td><td>Mide el porcentaje de puntos acumulados que han sido efectivamente redimidos por los usuarios frente al total de puntos generados en el programa de lealtad.</td></tr><tr><td><strong><code>% Redención usuario</code></strong></td><td>Representa el porcentaje de usuarios que redimieron al menos un beneficio del programa de lealtad sobre el total de usuarios con puntos acumulados.</td></tr><tr><td><strong><code>% Expiración puntos</code></strong></td><td>Indica el porcentaje de puntos que expiraron sin ser utilizados por los usuarios dentro del periodo analizado.</td></tr></tbody></table>
 
 #### **5.2. Gráficos generales**
 
-<table><thead><tr><th width="155.3333740234375">Gráfica</th><th width="112">Tipo de gráfica</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Puntos activos</code></strong></td><td>Barras</td><td>Análisis comparativo de los puntos activos obtenidos por vertical.</td></tr><tr><td><strong><code>Puntos redimidos</code></strong></td><td>Barras</td><td>Muestra la cantidad de puntos redimidos por mes o día, según el filtro aplicado.</td></tr><tr><td><strong><code>Puntos expirados</code></strong></td><td>Barras</td><td>Compara la cantidad de puntos expirados por mes o día, según el filtro aplicado.</td></tr><tr><td><strong><code>Activos - redimidos - Expirados</code></strong></td><td>Barras</td><td>Comparativa de la cantidad de puntos activos, redimidos y expirados.</td></tr><tr><td><strong><code>Clientes con puntos activos</code></strong></td><td>Barras</td><td><p>Presenta el número de usuarios únicos que poseen puntos activos en Casino, Deportivas y Total.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> La información de este gráfico se muestra únicamente después de aplicar los filtros de <strong>Fecha, Partner y País</strong> en las <a href="programa-de-lealtad..md#id-2.-configuraciones-previas">configuraciones previas</a>.</p></div></td></tr><tr><td><strong><code>Clientes con puntos redimidos</code></strong></td><td>Barras</td><td>Muestra el número de usuarios únicos que han redimido puntos en Casino, Deportivas y Total.</td></tr><tr><td><strong><code>% vertical redimido</code></strong></td><td>Torta</td><td>Visualiza el porcentaje de puntos redimidos asociados a cada vertical.</td></tr></tbody></table>
+<table><thead><tr><th width="155.3333740234375">Gráfica</th><th width="112">Tipo de gráfica</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Puntos activos</code></strong></td><td>Barras</td><td>Análisis comparativo de los puntos activos obtenidos por vertical.</td></tr><tr><td><strong><code>Puntos redimidos</code></strong></td><td>Barras</td><td>Muestra la cantidad de puntos redimidos por mes o día, según el filtro aplicado.</td></tr><tr><td><strong><code>Puntos expirados</code></strong></td><td>Barras</td><td>Compara la cantidad de puntos expirados por mes o día, según el filtro aplicado.</td></tr><tr><td><strong><code>Activos - redimidos - Expirados</code></strong></td><td>Barras</td><td>Comparativa de la cantidad de puntos activos, redimidos y expirados.</td></tr><tr><td><strong><code>Clientes con puntos activos</code></strong></td><td>Barras</td><td><p>Presenta el número de usuarios únicos que poseen puntos activos en Casino, Deportivas y Total.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> La información de este gráfico se muestra únicamente después de aplicar los filtros de <strong>Fecha, Partner y País</strong> en las <a href="./#id-2.-configuraciones-previas">configuraciones previas</a>.</p></div></td></tr><tr><td><strong><code>Clientes con puntos redimidos</code></strong></td><td>Barras</td><td>Muestra el número de usuarios únicos que han redimido puntos en Casino, Deportivas y Total.</td></tr><tr><td><strong><code>% vertical redimido</code></strong></td><td>Torta</td><td>Visualiza el porcentaje de puntos redimidos asociados a cada vertical.</td></tr></tbody></table>
 
 ***
 

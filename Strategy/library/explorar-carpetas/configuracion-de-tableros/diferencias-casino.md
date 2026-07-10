@@ -21,7 +21,7 @@ layout:
 
 # Diferencias Casino
 
-<mark style="color:$info;">Este dashboard centraliza y presenta de forma más clara, rápida y directa la información del proceso de</mark> [<mark style="color:$info;">conciliación de saldos</mark>](https://virtualsoft.gitbook.io/manuales/microstrategy/library/explorar-carpetas/configuracion-de-tableros/conciliacion-de-saldos)<mark style="color:$info;">. Su objetivo es facilitar la identificación de diferencias entre los valores registrados en las apuestas realizadas por los usuarios y el histórico de saldos del usuario, permitiendo visualizar de manera inmediata cualquier inconsistencia detectada durante la conciliación.</mark>
+<mark style="color:$info;">Este dashboard centraliza y presenta de forma más clara, rápida y directa la información del proceso de</mark> [<mark style="color:$info;">conciliación de saldos</mark>](https://virtualsoft.gitbook.io/manuales/microstrategy/library/explorar-carpetas/configuracion-de-tableros/conciliacion-de-saldos)<mark style="color:$info;">. Su objetivo es facilitar la identificación de diferencias entre los valores registrados en las</mark> [<mark style="color:$info;">apuestas realizadas por los usuarios</mark>](https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/jugadores/reportes-seccion-jugadores/reporte-productos-no-deportivos-por-usuario) <mark style="color:$info;">y el</mark> [<mark style="color:$info;">histórico de saldos</mark>](https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/reportes/historico-de-saldos) <mark style="color:$info;">del usuario, permitiendo visualizar de manera inmediata cualquier inconsistencia detectada durante la conciliación.</mark>
 
 ***
 
@@ -39,6 +39,8 @@ layout:
 
 ### 3. Filtros
 
+Inicialmente, el dashboard mostrará información general basada en las [configuraciones definidas previamente](https://virtualsoft.gitbook.io/manuales/microstrategy/library/explorar-carpetas/configuracion-de-tableros). Para consultar información más detallada o específica, utilice los filtros disponibles en la interfaz.
+
 <table><thead><tr><th width="121">Campo</th><th width="619">Descripción</th></tr></thead><tbody><tr><td><strong><code>Fecha</code></strong> </td><td>Rango de fechas en las que se visualizarán los reportes de diferencias casino</td></tr><tr><td><strong><code>Partner</code></strong></td><td>Partner asociado a la diferencia reportada</td></tr><tr><td><strong><code>País</code></strong></td><td>País asociado a la diferencia reportada</td></tr><tr><td><strong><code>Id Usuario</code></strong></td><td>Id del usuario al que pertenece la diferencia</td></tr></tbody></table>
 
 ***
@@ -49,7 +51,7 @@ layout:
 
 Los indicadores muestran información resumida de acuerdo con los filtros seleccionados.
 
-<table><thead><tr><th width="159.5999755859375">Indicador</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Diferencia Apuesta</code></strong></td><td>Valor total de diferencias de apuestas realizadas.</td></tr><tr><td><strong><code>Diferencia premios</code></strong></td><td>Valor total de diferencias reportadas en premios.</td></tr></tbody></table>
+<table><thead><tr><th width="159.5999755859375">Indicador</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Diferencia Apuesta</code></strong></td><td>Valor total de las diferencias encontradas al conciliar las apuestas realizadas en casino con el historial de saldos.</td></tr><tr><td><strong><code>Diferencia premios</code></strong></td><td>Valor total de las diferencias encontradas al conciliar los premios generados por las apuestas en casino con el historial de saldos.</td></tr></tbody></table>
 
 #### 4.2. Tablas
 
