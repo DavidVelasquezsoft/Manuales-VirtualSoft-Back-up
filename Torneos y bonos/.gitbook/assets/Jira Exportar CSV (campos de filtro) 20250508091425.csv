@@ -1,0 +1,62 @@
+Tipo de Incidencia,Clave de incidencia,ID de la incidencia,Resumen,Estado,Sprint,Sprint,Persona asignada,ID de la persona asignada
+Historia,VSFT-14969,107057,Implementación de un Componente de Prueba para Validar la Integración del Paquete,EN DESARROLLO,TI Sprint 98,TI Sprint 99,juan.marin,712020:403ec1b4-62a2-46ba-ae01-1b924e3ae6de
+Historia,VSFT-16672,118246,Tareas del área comercial mayo 2025,EN DESARROLLO,TI Sprint 99,,joan.caicedo,712020:e3407715-0e81-46ac-9144-47f660eb0f3a
+Historia,VSFT-16081,114909,Rediseña la vista de preguntas frecuentes,Finalizada,TI Sprint 99,,Juan José Martínez Mejía,712020:c9da9e8c-d281-4b41-bc7d-c72712905b41
+Historia,VSFT-14122,101730,Migración de proveedores al modelo de secreto Etapa 9,Backlog,TI Sprint 99,,Davison Valencia,712020:ba3aa88c-8fc1-4723-82a8-ea5135949ac8
+Historia,VSFT-14123,101731,Migración de proveedores al modelo de secreto Etapa 10,Backlog,TI Sprint 99,,Sebastián Rico Pérez,712020:394b8673-3d4c-465c-9fd9-708443119b2c
+Historia,VSFT-15490,110286,Crear flujo para las solicitudes de depósitos y primeros depósitos.,Backlog,TI Sprint 99,,Christian Andrés Ramírez Ruiz,712020:e1876792-3e07-4bcb-ac09-7b3320a570f0
+Historia,VSFT-15499,110355,Creación de Dashboard de Usuarios en Strategy para BI,Backlog,TI Sprint 99,,Jose David Martinez Cartagena,712020:3c2b2d3b-7271-4f09-b0bd-b1b6ebfb80e9
+Historia,VSFT-16005,113670,Desarrollo de la auditoria interna del sitio online Doradobet,Backlog,TI Sprint 99,,Jeison Andres Martinez Lopez,712020:6f630d8f-fc16-432a-8943-0c03b6f3b541
+Historia,VSFT-16088,115023,Desarrollar la vista de Lenguajes en la sección Acuerdos,Backlog,TI Sprint 99,,Jose Daniel Solorzano Carmona,6282606482e85d0068f252f7
+Historia,VSFT-16090,115026,Desarrollar la vista de Politicas de Privacidad en la sección Acuerdos,Backlog,TI Sprint 99,,Elkin Murillo Torres,712020:17248425-4d6a-4179-83bb-50570e6f32ce
+Historia,VSFT-16091,115028,Desarrollar la vista de Juego responsable en la sección Acuerdos,Backlog,TI Sprint 99,,Jose Daniel Solorzano Carmona,6282606482e85d0068f252f7
+Historia,VSFT-16092,115030,Desarrollar la vista de preguntas frecuentes,Backlog,TI Sprint 99,,Elkin Murillo Torres,712020:17248425-4d6a-4179-83bb-50570e6f32ce
+Historia,VSFT-16127,115229,Configuración e implementación del sistema ,Backlog,TI Sprint 99,,Luis Zuluaga,712020:dc8cc11d-4fed-412c-90af-79726c81c656
+Historia,VSFT-16628,117560,pop pup obligatorio en producto 2 ,Backlog,TI Sprint 99,,Mateo Saldarriaga Valencia,712020:a39701a5-9f26-483c-88c4-7e9b0d933919
+Historia,VSFT-16630,117556,Inactivación de bonos con gran cantidad de usuarios.,Backlog,TI Sprint 99,,juan.taborda,712020:363227f9-f481-4c63-9958-402021c7de6c
+Historia,VSFT-16655,117974,Migración proveedor Patagonia (Salsa),Backlog,TI Sprint 99,,Nicolás  Guato González,712020:001e4c4c-b162-4a1a-b4ce-b06440799ad1
+Historia,VSFT-16671,118230,Documentación Técnica de los atributos y métricas dentro de MicroStrategy,Backlog,TI Sprint 99,,Jose David Martinez Cartagena,712020:3c2b2d3b-7271-4f09-b0bd-b1b6ebfb80e9
+Historia,VSFT-16687,118357,Script Validación documentación de codigo Backend,Backlog,TI Sprint 99,,David Torres Rendón,712020:a9cf0f3b-0c90-418a-8960-f88e8f5c3353
+Historia,VSFT-16688,118360,Script Validación documentación de codigo Frontend,Backlog,TI Sprint 99,,Jeison Andres Martinez Lopez,712020:6f630d8f-fc16-432a-8943-0c03b6f3b541
+Historia,VSFT-16689,118363,Script Validación documentación de codigo Integraciones,Backlog,TI Sprint 99,,Ronald Jimenez Pelaez,712020:419c6fb1-dad0-4680-96aa-c09bafdb0afb
+Historia,VSFT-16698,118401,Envio masivo de otorgacion de giros gratis por medio de API proveedor Amusnet,Backlog,TI Sprint 99,,Sebastián Rico Pérez,712020:394b8673-3d4c-465c-9fd9-708443119b2c
+Historia,VSFT-16699,118404,Envio masivo de otorgacion de giros gratis por medio de API proveedor Tomhorn,Backlog,TI Sprint 99,,Juan Esteban López Arévalo,712020:01f2ddfb-3e20-4c5a-a4e6-1942e501e27e
+Historia,VSFT-16700,118407,Envio masivo de otorgacion de giros gratis por medio de API Proveedor RedRake,Backlog,TI Sprint 99,,Juan Esteban López Arévalo,712020:01f2ddfb-3e20-4c5a-a4e6-1942e501e27e
+Historia,VSFT-16701,118413,Envio masivo de otorgacion de giros gratis por medio de API Proveedor Galaxsys,Backlog,TI Sprint 99,,karla.ramirez,712020:f5e7546e-c119-4a93-967b-cd4328f30317
+Historia,VSFT-16702,118416,Envio masivo de otorgacion de giros gratis por medio de API Proveedor TadaGaming,Backlog,TI Sprint 99,,karla.ramirez,712020:f5e7546e-c119-4a93-967b-cd4328f30317
+Historia,VSFT-16703,118419,Envio masivo de otorgacion de giros gratis por medio de API Proveedor Expanse,Backlog,TI Sprint 99,,Juan Esteban López Arévalo,712020:01f2ddfb-3e20-4c5a-a4e6-1942e501e27e
+Historia,VSFT-16711,118473,Rediseñar la vista Referidos en el apartado de promocionales,Backlog,TI Sprint 99,,laura.rojas,638513fbfde064eda2efc498
+Historia,VSFT-16739,118602, Integración de Datos de GA4 hacia el data Warehouse VS,Backlog,TI Sprint 99,,Juan Pablo Ospina Gutierrez,712020:41b19ed8-6d78-4d01-8ff5-72218a7dde0c
+Historia,VSFT-16765,118759,Politica de Log FastAPI,Backlog,TI Sprint 99,,Nicolás Zapata Ramirez,712020:935778d4-63c5-4a96-81aa-aa5404a1c56b
+Historia,VSFT-16767,118817,Nueva propuesta para el sistema de validación ,Backlog,TI Sprint 99,,Tatiana Jaimes,712020:b332a7dd-9dc9-47e9-a0ee-2ec3c2607e62
+Historia,VSFT-16768,118818,Corrección de Duplicidades en el Reporte de Bonos,Backlog,TI Sprint 99,,David Torres Rendón,712020:a9cf0f3b-0c90-418a-8960-f88e8f5c3353
+Historia,VSFT-16769,118821,Habilitar botón de edición en el Jackpot,Backlog,TI Sprint 99,,David Torres Rendón,712020:a9cf0f3b-0c90-418a-8960-f88e8f5c3353
+Historia,VSFT-16770,118822,Tablero de Scrapping unificado para manejo interno,Backlog,TI Sprint 99,,Nicolás Zapata Ramirez,712020:935778d4-63c5-4a96-81aa-aa5404a1c56b
+Historia,VSFT-16771,118823,Alinear estados de bonos Altenar con los bonos de Virtual Soft y reflejarlos en el Reporte de Bonos,Backlog,TI Sprint 99,,JUAN DAVID ALVAREZ MUÑOZ,712020:2c6475eb-a064-4181-9cd8-c9622a3c569d
+Historia,VSFT-16772,118824,"Agregar el campo de ""Valor por ronda"" y ""Rondas Gratuitas"" a la plantilla de bonos freespin ",Backlog,TI Sprint 99,,Damian Cano,712020:df48aead-5fa5-4490-8c95-f07f4779ad22
+Historia,VSFT-16774,118827,Implementación de contador de juegos agregados y no agregados en activación de productos y categorias productos,Backlog,TI Sprint 99,,Damian Cano,712020:df48aead-5fa5-4490-8c95-f07f4779ad22
+Historia,VSFT-16775,118828,Habilitar la opción “Virtuales” como tipo de producto en bonos FreeCasino ,Backlog,TI Sprint 99,,JUAN DAVID ALVAREZ MUÑOZ,712020:2c6475eb-a064-4181-9cd8-c9622a3c569d
+Historia,VSFT-16776,118835,Reloj de regulación - Gangabet,Backlog,TI Sprint 99,,Jeison Andres Martinez Lopez,712020:6f630d8f-fc16-432a-8943-0c03b6f3b541
+Historia,VSFT-16777,118836,Campo CVV para depósitos a través de Sagicor - Justbet,Backlog,TI Sprint 99,,Jeison Andres Martinez Lopez,712020:6f630d8f-fc16-432a-8943-0c03b6f3b541
+Historia,VSFT-16778,118837,"Integración de las casas ""Doradobet Ecuador"" y ""Sportbet"" al tablero de Scrapping de Ecuabet",Backlog,TI Sprint 99,,Nicolás Zapata Ramirez,712020:935778d4-63c5-4a96-81aa-aa5404a1c56b
+Historia,VSFT-16781,118840,"Unificación visual del campo ""Nivel de riesgo"" en el reporte de Solicitudes de retiro",Backlog,TI Sprint 99,,Mateo Saldarriaga Valencia,712020:a39701a5-9f26-483c-88c4-7e9b0d933919
+Historia,VSFT-16782,118841,Contingencias individuales para bloqueo de depósitos por canal (Retail y Pasarelas),Backlog,TI Sprint 99,,juan.taborda,712020:363227f9-f481-4c63-9958-402021c7de6c
+Historia,VSFT-16783,118842,Establecer las bases para realizar la auditoría de procesos,Backlog,TI Sprint 99,,Estefanía Álvarez Ospina,63ed3ba1c5061c632c0d5a51
+Historia,VSFT-16784,118843,Propuesta Visual para la plataforma de Camanbet,Backlog,TI Sprint 99,,Santiago Peña Salazar,712020:5b4b536a-8804-4289-9b86-e79324c347af
+Historia,VSFT-16785,118844,Generación automática de archivo de conciliación para la pasarela PayPhone,Backlog,TI Sprint 99,,joan.caicedo,712020:e3407715-0e81-46ac-9144-47f660eb0f3a
+Historia,VSFT-16788,118851,Migracion del proveedor Altenar al modelo de secretos,Backlog,TI Sprint 99,,Davison Valencia,712020:ba3aa88c-8fc1-4723-82a8-ea5135949ac8
+Historia,VSFT-16789,118855,Activación Conekta - Ganamex,Backlog,TI Sprint 99,,Nicolás  Guato González,712020:001e4c4c-b162-4a1a-b4ce-b06440799ad1
+Historia,VSFT-16790,118856,Kashio (Payout) - Gangabet México,Backlog,TI Sprint 99,,Nicolás  Guato González,712020:001e4c4c-b162-4a1a-b4ce-b06440799ad1
+Historia,VSFT-16792,118886,Mejoras en la planificación y gestión de Ambiente de Calidad,Backlog,TI Sprint 99,,Tatiana Jaimes,712020:b332a7dd-9dc9-47e9-a0ee-2ec3c2607e62
+Historia,VSFT-16794,118909,Migración de proveedores al modelo de secreto Etapa 11 ,Backlog,TI Sprint 99,,Sebastián Rico Pérez,712020:394b8673-3d4c-465c-9fd9-708443119b2c
+Historia,VSFT-16804,119046,Proyecto de Vulnerabilidades EXEC,Backlog,TI Sprint 99,,JUAN DAVID ALVAREZ MUÑOZ,712020:2c6475eb-a064-4181-9cd8-c9622a3c569d
+Historia,VSFT-16806,119134,APP movil Informativa para Consulta y Navegación No Transaccional,Backlog,TI Sprint 99,,Damian Cano,712020:df48aead-5fa5-4490-8c95-f07f4779ad22
+Historia,VSFT-16807,119135,Envío automático de reportes regulatorios a LNB Doradobet El Salvador,Backlog,TI Sprint 99,,elkin.amador,62ab6502188d08006fe36b80
+Historia,VSFT-16810,119161,Generación diaria de tres reportes gerenciales segmentados por moneda para Camanbet,Backlog,TI Sprint 99,,Jhon Eferson Castaño Orozco,712020:639694e4-6e08-4807-8ec1-67ec3cc17859
+Historia,VSFT-16814,119204,Base conceptual sólida para diseño consciente de redes neuronales,Backlog,TI Sprint 99,,Luis Alejandro Torres Rodriguez,712020:6a1766d0-9efc-4e19-a364-52b31496dfd1
+Historia,VSFT-16816,119218,Implementación de la sección de depósitos en DoradoBet,Backlog,TI Sprint 99,,juan.marin,712020:403ec1b4-62a2-46ba-ae01-1b924e3ae6de
+Historia,VSFT-16818,119264,Conecion ElasticSearch con Snowflake,Backlog,TI Sprint 99,,JUAN DAVID ALVAREZ MUÑOZ,712020:2c6475eb-a064-4181-9cd8-c9622a3c569d
+Historia,VSFT-16820,119297,Modelo de Franquicias,Backlog,TI Sprint 99,,juan.salazar,712020:e66531b1-f4d6-4bd6-b36a-ee3cde30f7da
+Historia,VSFT-16102,115139,Traducción de mercados y apuestas para los tickets de Golden Race - REGULACIÓN,Bloqueado,TI Sprint 98,TI Sprint 99,juan.taborda,712020:363227f9-f481-4c63-9958-402021c7de6c
+Historia,VSFT-16121,115168,Integración de SafetyPay Payout para retiros,Bloqueado,TI Sprint 99,,Davison Valencia,712020:ba3aa88c-8fc1-4723-82a8-ea5135949ac8
+Historia,VSFT-14934,106843,Investigación y Evaluación de Alternativas para la Integración de Microfrontends,En pruebas,TI Sprint 98,TI Sprint 99,juan.marin,712020:403ec1b4-62a2-46ba-ae01-1b924e3ae6de
