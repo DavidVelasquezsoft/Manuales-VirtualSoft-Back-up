@@ -165,33 +165,27 @@ La sección de Puntos calificables se encuentra dividida en cuatro vistas, cada 
 {% tab title="Ciclos" %}
 <br>
 
-### Gráfica: Visualización de Expiración de Puntos Calificables
+> **Nota:** La información de la gráfica y la tabla corresponde a los ciclos de puntos calificables y se actualiza de acuerdo con los filtros seleccionados en el dashboard.&#x20;
 
-**Tipo de gráfica:** Barras verticales
+### Gráfica
 
-| **Gráfica**                                            | **Descripción**                                                                                                         |
-| ------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------- |
-| **Visualización de Expiración de Puntos Calificables** | Comparativo del valor de los puntos calificables por ciclo, clasificados según su estado (**Activos** o **Expirados**). |
+* Visualización de Expiración de Puntos Calificables
+
+**Tipo de gráfica:**&#x20;
+
+<table><thead><tr><th width="193">Gráfica</th><th width="93">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Visualización de Expiración de Puntos Calificables</code></strong></td><td>Barras</td><td>Comparativo del valor de los puntos calificables por ciclo, clasificados según su estado (<strong>Activos</strong> o <strong>Expirados</strong>).</td></tr></tbody></table>
 
 ***
 
-### Tabla: Detalle Ciclos
+### Tabla:&#x20;
 
-| **Campo**                              | **Descripción**                                                              |
-| -------------------------------------- | ---------------------------------------------------------------------------- |
-| **Partner**                            | Nombre del partner al que pertenece el registro.                             |
-| **País**                               | País asociado al registro.                                                   |
-| **ID Ciclo**                           | Identificador único del ciclo de lealtad.                                    |
-| **ID Usuario**                         | Identificador único del usuario.                                             |
-| **Estado Ciclo Lealtad Calificable**   | Estado actual del ciclo de lealtad (**Activo** o **Expirado**).              |
-| **Duración Ciclo Lealtad Calificable** | Tiempo de vigencia configurado para el ciclo de puntos calificables.         |
-| **Valor Puntos por Ciclos**            | Cantidad de puntos calificables acumulados dentro del ciclo correspondiente. |
+* Detalle Ciclos
 
-> **Nota:** La información de la gráfica y la tabla corresponde a los ciclos de puntos calificables y se actualiza de acuerdo con los filtros seleccionados en el dashboard.
+<table><thead><tr><th width="189">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Partner</code></strong></td><td>Nombre del partner al que pertenece el registro.</td></tr><tr><td><strong><code>País</code></strong></td><td>País asociado al registro.</td></tr><tr><td><strong><code>ID Ciclo</code></strong></td><td>Identificador único del ciclo de lealtad.</td></tr><tr><td><strong><code>ID Usuario</code></strong></td><td>Identificador único del usuario.</td></tr><tr><td><strong><code>Estado Ciclo Lealtad Calificable</code></strong></td><td>Estado actual del ciclo de lealtad (<strong>Activo</strong> o <strong>Expirado</strong>).</td></tr><tr><td><strong><code>Duración Ciclo Lealtad Calificable</code></strong></td><td>Tiempo de vigencia configurado para el ciclo de puntos calificables.</td></tr><tr><td><strong><code>Valor Puntos por Ciclos</code></strong></td><td>Cantidad de puntos calificables acumulados dentro del ciclo correspondiente.</td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Evolución" %}
-d<br>
+<br>
 
 {% tabs %}
 {% tab title="Evolución" %}
@@ -203,8 +197,7 @@ d<br>
 {% endtab %}
 {% endtabs %}
 
-\
-c
+<br>
 {% endtab %}
 {% endtabs %}
 {% endtab %}
