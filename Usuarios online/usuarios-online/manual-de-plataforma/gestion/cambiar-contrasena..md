@@ -102,7 +102,10 @@ Haz clic en el botón **"Activar 2FA"** para finalizar la configuración.
 Actualiza la contraseña de acceso a la plataforma.
 
 {% hint style="warning" %}
-**Nota:** Los 3 campos del formulario son obligatorios para poder cambiar la contraseña.
+**Notas:**&#x20;
+
+* Los 3 campos del formulario son obligatorios para poder cambiar la contraseña.
+* Al solicitar el cambio de contraseña, se requerirá nuevamente la validación mediante doble factor de autenticación, incluso si esta ya fue realizada al iniciar sesión y el dispositivo se encuentra marcado como seguro. Esta validación solo aplica para las cuentas que tengan habilitado el doble factor de autenticación.
 {% endhint %}
 
 <table><thead><tr><th width="222.88897705078125">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Ingrese la contraseña actual</code></strong></td><td>Clave actual de acceso a la cuenta.</td></tr><tr><td><strong><code>Ingrese la contraseña nueva</code></strong></td><td>Nueva clave de acceso que tendrá la cuenta.</td></tr><tr><td><strong><code>Confirme la contraseña nueva</code></strong></td><td>Confirmar la nueva clave de acceso.</td></tr></tbody></table>
@@ -135,5 +138,6 @@ Envía los datos ingresados y aplica el cambio de contraseña desde el botón "*
 | 1.0     | 22/07/2025 | Ronald Pelaez   | Documento inicial                          |
 | 2.0     | 16/09/2025 | David velasquez | Mejora de formato e incorporación del 2FA. |
 | 2.1     | 08/05/2026 | Ronald Peláez   | Mejora en formato y ajuste en 2FA.         |
+| 2.2     | 14/07/2026 | Ronald Peláez   | Ajuste en nota por cambio de contraseña.   |
 
 </details>
