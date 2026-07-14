@@ -105,7 +105,7 @@ Los KPI se muestran en la parte superior del dashboard y presentan **indicadores
 {% endtab %}
 
 {% tab title="Puntos calificables" %}
-
+dqwrfwq3
 {% endtab %}
 {% endtabs %}
 
