@@ -41,9 +41,13 @@ Este Dashboard cuenta con diferentes  vistas de información estas son:
 
 <table><thead><tr><th width="180">Indicador (KPI)</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Puntos Activos</code></strong></td><td>Muestra la cantidad total de puntos de lealtad activos durante el período consultado.</td></tr><tr><td><strong><code>Puntos Redimidos</code></strong></td><td>Cantidad total de puntos de lealtad que han sido redimidos por los usuarios.</td></tr><tr><td><strong><code>Redimidos usuario</code></strong></td><td>Muestra la cantidad de usuarios que han realizado al menos una redención de puntos durante el período consultado.</td></tr><tr><td><strong><code>Puntos Expirados</code></strong></td><td>Cantidad total de puntos de lealtad que expiraron durante el período seleccionado.</td></tr></tbody></table>
 
+***
+
 ### Gráficas
 
 <table><thead><tr><th width="155.3333740234375">Gráfica</th><th width="112">Tipo de gráfica</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Puntos activos</code></strong></td><td>Barras</td><td>Análisis comparativo de los puntos activos obtenidos por vertical.</td></tr><tr><td><strong><code>Puntos redimidos</code></strong></td><td>Barras</td><td>Muestra la cantidad de puntos redimidos por mes, según el filtro aplicado.</td></tr><tr><td><strong><code>Puntos expirados</code></strong></td><td>Barras</td><td>Muestra la cantidad de puntos expirados, según el filtro aplicado.</td></tr><tr><td><strong><code>Activos - redimidos - Expirados</code></strong></td><td>Barras</td><td>Cantidad de puntos activos, redimidos y expirados, por el mes consultado .</td></tr><tr><td><strong><code>Clientes con puntos activos</code></strong></td><td>Barras</td><td><p>Presenta el número de usuarios únicos que poseen puntos activos en Casino, Deportivas y Total.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> La información de este gráfico se muestra únicamente después de aplicar los filtros de <strong>Fecha, Partner y País</strong> en las <a href="./#id-2.-configuraciones-previas">configuraciones previas</a>.</p></div></td></tr><tr><td><strong><code>Clientes con puntos redimidos</code></strong></td><td>Barras</td><td>Muestra el número de usuarios únicos que han redimido puntos en Casino, Deportivas y Total.</td></tr><tr><td><strong><code>% vertical redimido</code></strong></td><td>Torta</td><td>Visualiza el porcentaje de puntos redimidos asociados a cada vertical.</td></tr><tr><td><strong><code>Top usuarios puntos gastados</code></strong></td><td>Barras</td><td>Ranking de los usuarios con la mayor cantidad de puntos de lealtad redimidos.</td></tr><tr><td><strong><code>Top usuarios con más compras</code></strong></td><td>Barras</td><td>Ranking de los usuarios con mayor cantidad de compras realizadas mediante el programa de lealtad.</td></tr><tr><td><strong><code>Usuarios con más puntos de lealtad acumulados</code></strong></td><td>Barras</td><td>Ranking de los usuarios con la mayor cantidad de puntos de lealtad acumulados.</td></tr></tbody></table>
+
+***
 
 ### **Gráficos de Usuarios Destacados**
 
@@ -113,37 +117,19 @@ La sección de Puntos calificables se encuentra dividida en cuatro vistas, cada 
 
 ### Tabla: Visualización General del Programa de Niveles
 
-| **Campo**                            | **Descripción**                                                    |
-| ------------------------------------ | ------------------------------------------------------------------ |
-| **Partner**                          | Nombre del partner al que pertenece la información.                |
-| **País**                             | País asociado al programa de lealtad.                              |
-| **Nivel Lealtad**                    | Nivel de lealtad configurado dentro del programa.                  |
-| **Cantidad usuario General**         | Cantidad de usuarios asociados a cada nivel de lealtad.            |
-| **Valor Puntos Lealtad Calificable** | Total de puntos calificables acumulados por cada nivel de lealtad. |
+<table><thead><tr><th width="185">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Partner</strong></td><td>Nombre del partner al que pertenece la información.</td></tr><tr><td><strong>País</strong></td><td>País asociado al programa de lealtad.</td></tr><tr><td><strong>Nivel Lealtad</strong></td><td>Nivel de lealtad configurado dentro del programa.</td></tr><tr><td><strong>Cantidad usuario General</strong></td><td>Cantidad de usuarios asociados a cada nivel de lealtad.</td></tr><tr><td><strong>Valor Puntos Lealtad Calificable</strong></td><td>Total de puntos calificables acumulados por cada nivel de lealtad.</td></tr></tbody></table>
 
 ***
 
-### Gráfica: Tendencia valor punto calificable por nivel
+### Gráfica
 
-**Tipo de gráfica:** Línea
-
-| **Elemento**                                    | **Descripción**                                                                             |
-| ----------------------------------------------- | ------------------------------------------------------------------------------------------- |
-| **Tendencia valor punto calificable por nivel** | Comportamiento del valor de los puntos calificables para cada nivel de lealtad configurado. |
+<table><thead><tr><th width="210">Gráfica</th><th width="121">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Tendencia valor punto calificable por nivel</code></strong></td><td>Gráfica de líneas</td><td>Comportamiento del valor de los puntos calificables para cada nivel de lealtad configurado.</td></tr></tbody></table>
 
 ***
 
 ### Tabla: Detalle Programa de Niveles
 
-| Campo                                | Descripcion                                                               |
-| ------------------------------------ | ------------------------------------------------------------------------- |
-| **Partner**                          | Nombre del partner al que pertenece el registro.                          |
-| **País**                             | País asociado al usuario.                                                 |
-| **ID Usuario**                       | Identificador único del usuario.                                          |
-| **Nivel Lealtad**                    | Nivel de lealtad asignado al usuario.                                     |
-| **Valor Requerido Nivel Actual**     | Cantidad de puntos requerida para el nivel de lealtad actual.             |
-| **Valor requerido siguiente nivel**  | Cantidad de puntos necesaria para alcanzar el siguiente nivel de lealtad. |
-| **Valor Puntos Lealtad Calificable** | Cantidad de puntos calificables acumulados por el usuario.                |
+<table><thead><tr><th width="209">Campo</th><th>Descripcion</th></tr></thead><tbody><tr><td><strong>Partner</strong></td><td>Nombre del partner al que pertenece el registro.</td></tr><tr><td><strong>País</strong></td><td>País asociado al usuario.</td></tr><tr><td><strong>ID Usuario</strong></td><td>Identificador único del usuario.</td></tr><tr><td><strong>Nivel Lealtad</strong></td><td>Nivel de lealtad asignado al usuario.</td></tr><tr><td><strong>Valor Requerido Nivel Actual</strong></td><td>Cantidad de puntos requerida para el nivel de lealtad actual.</td></tr><tr><td><strong>Valor requerido siguiente nivel</strong></td><td>Cantidad de puntos necesaria para alcanzar el siguiente nivel de lealtad.</td></tr><tr><td><strong>Valor Puntos Lealtad Calificable</strong></td><td>Cantidad de puntos calificables acumulados por el usuario.</td></tr></tbody></table>
 
 > **Nota:** La información de las tablas y la gráfica se actualiza de acuerdo con los filtros aplicados en el dashboard.
 {% endtab %}
