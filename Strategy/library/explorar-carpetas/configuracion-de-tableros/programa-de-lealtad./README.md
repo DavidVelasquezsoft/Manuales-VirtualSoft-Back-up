@@ -33,21 +33,75 @@ Este Dashboard cuenta con diferentes  vistas de información estas son:
 
 {% tabs %}
 {% tab title="Mensual" %}
+{% hint style="warning" %}
+**Nota:** Todos los indicadores, gráficos y tablas presentan información consolidada por mes, de acuerdo con los filtros aplicados.
+{% endhint %}
+
 #### KPI´s
 
-<table><thead><tr><th width="197">Indicador (KPI)</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Puntos Activos</code></strong></td><td>Muestra la cantidad total de puntos de lealtad activos durante el período consultado.</td></tr><tr><td><strong><code>Puntos Redimidos</code></strong></td><td>Cantidad total de puntos de lealtad que han sido redimidos por los usuarios.</td></tr><tr><td><strong><code>Redimidos usuario</code></strong></td><td>Muestra la cantidad de usuarios que han realizado al menos una redención de puntos durante el período consultado.</td></tr><tr><td><strong><code>Puntos Expirados</code></strong></td><td>Cantidad total de puntos de lealtad que expiraron durante el período seleccionado.</td></tr></tbody></table>
+<table><thead><tr><th width="180">Indicador (KPI)</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Puntos Activos</code></strong></td><td>Muestra la cantidad total de puntos de lealtad activos durante el período consultado.</td></tr><tr><td><strong><code>Puntos Redimidos</code></strong></td><td>Cantidad total de puntos de lealtad que han sido redimidos por los usuarios.</td></tr><tr><td><strong><code>Redimidos usuario</code></strong></td><td>Muestra la cantidad de usuarios que han realizado al menos una redención de puntos durante el período consultado.</td></tr><tr><td><strong><code>Puntos Expirados</code></strong></td><td>Cantidad total de puntos de lealtad que expiraron durante el período seleccionado.</td></tr></tbody></table>
 
 ### Gráficas
 
-<table><thead><tr><th width="155.3333740234375">Gráfica</th><th width="112">Tipo de gráfica</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Puntos activos</code></strong></td><td>Barras</td><td>Análisis comparativo de los puntos activos obtenidos por vertical.</td></tr><tr><td><strong><code>Puntos redimidos</code></strong></td><td>Barras</td><td>Muestra la cantidad de puntos redimidos por mes o día, según el filtro aplicado.</td></tr><tr><td><strong><code>Puntos expirados</code></strong></td><td>Barras</td><td>Muestra la cantidad de puntos expirados, según el filtro aplicado.</td></tr><tr><td><strong><code>Activos - redimidos - Expirados</code></strong></td><td>Barras</td><td>Cantidad de puntos activos, redimidos y expirados, por el mes consultado .</td></tr><tr><td><strong><code>Clientes con puntos activos</code></strong></td><td>Barras</td><td><p>Presenta el número de usuarios únicos que poseen puntos activos en Casino, Deportivas y Total.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> La información de este gráfico se muestra únicamente después de aplicar los filtros de <strong>Fecha, Partner y País</strong> en las <a href="./#id-2.-configuraciones-previas">configuraciones previas</a>.</p></div></td></tr><tr><td><strong><code>Clientes con puntos redimidos</code></strong></td><td>Barras</td><td>Muestra el número de usuarios únicos que han redimido puntos en Casino, Deportivas y Total.</td></tr><tr><td><strong><code>% vertical redimido</code></strong></td><td>Torta</td><td>Visualiza el porcentaje de puntos redimidos asociados a cada vertical.</td></tr><tr><td><strong><code>Top usuarios puntos gastados</code></strong></td><td>Barras</td><td>Ranking de los usuarios con la mayor cantidad de puntos de lealtad redimidos.</td></tr><tr><td><strong><code>Top usuarios con más compras</code></strong></td><td>Barras</td><td>Ranking de los usuarios con mayor cantidad de compras realizadas mediante el programa de lealtad.</td></tr><tr><td><strong><code>Usuarios con más puntos de lealtad acumulados</code></strong></td><td>Barras</td><td>Ranking de los usuarios con la mayor cantidad de puntos de lealtad acumulados.</td></tr></tbody></table>
+<table><thead><tr><th width="155.3333740234375">Gráfica</th><th width="112">Tipo de gráfica</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Puntos activos</code></strong></td><td>Barras</td><td>Análisis comparativo de los puntos activos obtenidos por vertical.</td></tr><tr><td><strong><code>Puntos redimidos</code></strong></td><td>Barras</td><td>Muestra la cantidad de puntos redimidos por mes, según el filtro aplicado.</td></tr><tr><td><strong><code>Puntos expirados</code></strong></td><td>Barras</td><td>Muestra la cantidad de puntos expirados, según el filtro aplicado.</td></tr><tr><td><strong><code>Activos - redimidos - Expirados</code></strong></td><td>Barras</td><td>Cantidad de puntos activos, redimidos y expirados, por el mes consultado .</td></tr><tr><td><strong><code>Clientes con puntos activos</code></strong></td><td>Barras</td><td><p>Presenta el número de usuarios únicos que poseen puntos activos en Casino, Deportivas y Total.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> La información de este gráfico se muestra únicamente después de aplicar los filtros de <strong>Fecha, Partner y País</strong> en las <a href="./#id-2.-configuraciones-previas">configuraciones previas</a>.</p></div></td></tr><tr><td><strong><code>Clientes con puntos redimidos</code></strong></td><td>Barras</td><td>Muestra el número de usuarios únicos que han redimido puntos en Casino, Deportivas y Total.</td></tr><tr><td><strong><code>% vertical redimido</code></strong></td><td>Torta</td><td>Visualiza el porcentaje de puntos redimidos asociados a cada vertical.</td></tr><tr><td><strong><code>Top usuarios puntos gastados</code></strong></td><td>Barras</td><td>Ranking de los usuarios con la mayor cantidad de puntos de lealtad redimidos.</td></tr><tr><td><strong><code>Top usuarios con más compras</code></strong></td><td>Barras</td><td>Ranking de los usuarios con mayor cantidad de compras realizadas mediante el programa de lealtad.</td></tr><tr><td><strong><code>Usuarios con más puntos de lealtad acumulados</code></strong></td><td>Barras</td><td>Ranking de los usuarios con la mayor cantidad de puntos de lealtad acumulados.</td></tr></tbody></table>
 
-### Tablas
+### **Gráficos de Usuarios Destacados**
 
-<table><thead><tr><th width="190">Sección</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Regalos redimidos casino</code></strong></td><td>Listado de los regalos redimidos en la vertical de <strong>Casino</strong>, junto con la cantidad de redenciones y el porcentaje de uso.</td></tr><tr><td><strong><code>Regalos redimidos deportivas</code></strong></td><td>Listado de los regalos redimidos en la vertical de <strong>Deportivas</strong>, junto con la cantidad de redenciones y el porcentaje de uso.</td></tr></tbody></table>
+<table><thead><tr><th width="240">Gráfica</th><th width="126">Tipo de gráfica</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Top usuarios puntos gastados</code></strong></td><td>Barras</td><td>Ranking de usuarios ordenado por la mayor cantidad de puntos lealtad <a href="https://app.gitbook.com/o/QcwavWzh0dfIwPyknoIT/s/mbqa0WvDWam8G20QQoIZ/#redimido">redimidos</a>.</td></tr><tr><td><strong><code>Top usuarios con más puntos lealtad acumulados</code></strong></td><td>Barras</td><td>Ranking de usuarios con el mayor total de puntos de lealtad vigentes <em>(activos).</em></td></tr><tr><td><strong><code>Top usuarios con más compras</code></strong></td><td>Barras</td><td>Ranking de usuarios según el número de compras realizadas en la tienda de regalos.</td></tr></tbody></table>
+
+***
+
+#### Tablas de [Redenciones](https://virtualsoft.gitbook.io/untitled/glosario/#redimido)
+
+* **Regalos redimidos casino.**
+
+<table><thead><tr><th width="160">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Descripción lealtad</code></strong></td><td>Descripción del regalo redimido asociado a la vertical casino</td></tr><tr><td><strong><code>Cantidad</code></strong> </td><td>Cantidad de usuario que redimieron este regalo lealtad.</td></tr><tr><td><strong><code>% uso regalo casino</code></strong></td><td>Indica el porcentaje de usuarios que redimieron el regalo lealtad y lo utilizaron</td></tr></tbody></table>
+
+* &#x20;**Regalos redimidos deportivas.**
+
+<table><thead><tr><th width="160">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Descripción lealtad</code></strong></td><td>Descripción del regalo redimido asociado a la vertical deportivas</td></tr><tr><td><strong><code>Cantidad</code></strong> </td><td>Cantidad de usuario que redimieron este regalo lealtad.</td></tr><tr><td><strong><code>% uso regalo deportivas</code></strong></td><td>Indica el porcentaje de usuarios que redimieron el regalo lealtad y lo utilizaron</td></tr></tbody></table>
+
+* **Detalle redenciones**
+
+<table><thead><tr><th width="179">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Fecha</code></strong></td><td>Indica la fecha en la que se redimió el premio lealtad</td></tr><tr><td><strong><code>Partner</code></strong></td><td>Partner en el que se redimieron los puntos.</td></tr><tr><td><strong><code>País</code></strong></td><td>País del usuario que realizó la redención.</td></tr><tr><td><strong><code>ID lealtad</code></strong></td><td>Identificador único del regalo redimido.</td></tr><tr><td><strong><code>Descripción</code></strong></td><td>Descripción del regalo redimido por el usuario.</td></tr><tr><td><strong><code>ID Bono</code></strong></td><td>Identificador del bono asociado a la redención.</td></tr><tr><td><strong><code>Puntos requeridos</code></strong></td><td>Cantidad de puntos necesarios para redimir el regalo.</td></tr><tr><td><strong><code>Usuarios redimieron regalos</code></strong></td><td>Número de usuarios únicos que realizaron la redención de este regalo.</td></tr><tr><td><strong><code>Cantidad compras</code></strong></td><td>Cantidad de veces que se redimió el premio lealtad.</td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Diario" %}
+{% hint style="warning" %}
+**Nota:** Todos los indicadores, gráficos y tablas presentan información consolidada por día, de acuerdo con los filtros aplicados.
+{% endhint %}
 
+#### KPI´s
+
+Los KPI se muestran en la parte superior del dashboard y presentan **indicadores generales** calculados sobre todos los movimientos en el programa de lealtad, **según los filtros aplicados**.
+
+<table><thead><tr><th width="215.50006103515625">Indicador (KPI)</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>% Puntos Activos</code></strong></td><td>Indica el porcentaje de puntos activos respecto al total de puntos generados, calculado a partir de la relación entre los puntos activos, redimidos y expirados.</td></tr><tr><td><strong><code>% Redención puntos</code></strong></td><td>Mide el porcentaje de puntos acumulados que han sido efectivamente redimidos por los usuarios frente al total de puntos generados en el programa de lealtad.</td></tr><tr><td><strong><code>% Redención usuario</code></strong></td><td>Representa el porcentaje de usuarios que redimieron al menos un beneficio del programa de lealtad sobre el total de usuarios con puntos acumulados.</td></tr><tr><td><strong><code>% Expiración puntos</code></strong></td><td>Indica el porcentaje de puntos que expiraron sin ser utilizados por los usuarios dentro del periodo analizado.</td></tr></tbody></table>
+
+### **Gráficos generales**
+
+<table><thead><tr><th width="155.3333740234375">Gráfica</th><th width="112">Tipo de gráfica</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Puntos activos</code></strong></td><td>Barras</td><td>Análisis diario comparativo de los puntos activos obtenidos por vertical.</td></tr><tr><td><strong><code>Puntos redimidos</code></strong></td><td>Barras</td><td>Muestra la cantidad de puntos redimidos por día, según el filtro aplicado.</td></tr><tr><td><strong><code>Puntos expirados</code></strong></td><td>Barras</td><td>Muestra la cantidad de puntos expirados, según el filtro aplicado.</td></tr><tr><td><strong><code>Activos - redimidos - Expirados</code></strong></td><td>Barras</td><td>Cantidad de puntos activos, redimidos y expirados, por dia.</td></tr><tr><td><strong><code>Clientes con puntos activos</code></strong></td><td>Barras</td><td><p>Presenta el número de usuarios únicos que poseen puntos activos en Casino, Deportivas y Total.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> La información de este gráfico se muestra únicamente después de aplicar los filtros de <strong>Fecha, Partner y País</strong> en las <a href="./#id-2.-configuraciones-previas">configuraciones previas</a>.</p></div></td></tr><tr><td><strong><code>Clientes con puntos redimidos</code></strong></td><td>Barras</td><td>Muestra el número de usuarios únicos que han redimido puntos en Casino, Deportivas y Total.</td></tr><tr><td><strong><code>% vertical redimido</code></strong></td><td>Torta</td><td>Visualiza el porcentaje de puntos redimidos asociados a cada vertical.</td></tr><tr><td><strong><code>Top usuarios puntos gastados</code></strong></td><td>Barras</td><td>Ranking de los usuarios con la mayor cantidad de puntos de lealtad redimidos.</td></tr><tr><td><strong><code>Top usuarios con más compras</code></strong></td><td>Barras</td><td>Ranking de los usuarios con mayor cantidad de compras realizadas mediante el programa de lealtad.</td></tr><tr><td><strong><code>Usuarios con más puntos de lealtad acumulados</code></strong></td><td>Barras</td><td>Ranking de los usuarios con la mayor cantidad de puntos de lealtad acumulados.</td></tr></tbody></table>
+
+***
+
+#### **Gráficos de Usuarios Destacados**
+
+<table><thead><tr><th width="240">Gráfica</th><th width="126">Tipo de gráfica</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Top usuarios puntos gastados</code></strong></td><td>Barras</td><td>Ranking de usuarios ordenado por la mayor cantidad de puntos lealtad <a href="https://app.gitbook.com/o/QcwavWzh0dfIwPyknoIT/s/mbqa0WvDWam8G20QQoIZ/#redimido">redimidos</a>.</td></tr><tr><td><strong><code>Top usuarios con más puntos lealtad acumulados</code></strong></td><td>Barras</td><td>Ranking de usuarios con el mayor total de puntos de lealtad vigentes <em>(activos).</em></td></tr><tr><td><strong><code>Top usuarios con más compras</code></strong></td><td>Barras</td><td>Ranking de usuarios según el número de compras realizadas en la tienda de regalos.</td></tr></tbody></table>
+
+***
+
+#### Tablas de [Redenciones](https://virtualsoft.gitbook.io/untitled/glosario/#redimido)
+
+* **Regalos redimidos casino.**
+
+<table><thead><tr><th width="160">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Descripción lealtad</code></strong></td><td>Descripción del regalo redimido asociado a la vertical casino</td></tr><tr><td><strong><code>Cantidad</code></strong> </td><td>Cantidad de usuario que redimieron este regalo lealtad.</td></tr><tr><td><strong><code>% uso regalo casino</code></strong></td><td>Indica el porcentaje de usuarios que redimieron el regalo lealtad y lo utilizaron</td></tr></tbody></table>
+
+* &#x20;**Regalos redimidos deportivas.**
+
+<table><thead><tr><th width="160">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Descripción lealtad</code></strong></td><td>Descripción del regalo redimido asociado a la vertical deportivas</td></tr><tr><td><strong><code>Cantidad</code></strong> </td><td>Cantidad de usuario que redimieron este regalo lealtad.</td></tr><tr><td><strong><code>% uso regalo deportivas</code></strong></td><td>Indica el porcentaje de usuarios que redimieron el regalo lealtad y lo utilizaron</td></tr></tbody></table>
+
+* **Detalle redenciones**
+
+<table><thead><tr><th width="179">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Fecha</code></strong></td><td>Indica la fecha en la que se redimió el premio lealtad</td></tr><tr><td><strong><code>Partner</code></strong></td><td>Partner en el que se redimieron los puntos.</td></tr><tr><td><strong><code>País</code></strong></td><td>País del usuario que realizó la redención.</td></tr><tr><td><strong><code>ID lealtad</code></strong></td><td>Identificador único del regalo redimido.</td></tr><tr><td><strong><code>Descripción</code></strong></td><td>Descripción del regalo redimido por el usuario.</td></tr><tr><td><strong><code>ID Bono</code></strong></td><td>Identificador del bono asociado a la redención.</td></tr><tr><td><strong><code>Puntos requeridos</code></strong></td><td>Cantidad de puntos necesarios para redimir el regalo.</td></tr><tr><td><strong><code>Usuarios redimieron regalos</code></strong></td><td>Número de usuarios únicos que realizaron la redención de este regalo.</td></tr><tr><td><strong><code>Cantidad compras</code></strong></td><td>Cantidad de veces que se redimió el premio lealtad.</td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Puntos calificables" %}
@@ -61,39 +115,9 @@ Este Dashboard cuenta con diferentes  vistas de información estas son:
 
 
 
-#### 5.1. KPI´s
 
-Los KPI se muestran en la parte superior del dashboard y presentan **indicadores generales** calculados sobre todos los movimientos en el programa de lealtad, **según los filtros aplicados**.
 
-<table><thead><tr><th width="215.50006103515625">Indicador (KPI)</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>% Puntos Activos</code></strong></td><td>Indica el porcentaje de puntos activos respecto al total de puntos generados, calculado a partir de la relación entre los puntos activos, redimidos y expirados.</td></tr><tr><td><strong><code>% Redención puntos</code></strong></td><td>Mide el porcentaje de puntos acumulados que han sido efectivamente redimidos por los usuarios frente al total de puntos generados en el programa de lealtad.</td></tr><tr><td><strong><code>% Redención usuario</code></strong></td><td>Representa el porcentaje de usuarios que redimieron al menos un beneficio del programa de lealtad sobre el total de usuarios con puntos acumulados.</td></tr><tr><td><strong><code>% Expiración puntos</code></strong></td><td>Indica el porcentaje de puntos que expiraron sin ser utilizados por los usuarios dentro del periodo analizado.</td></tr></tbody></table>
-
-#### **5.2. Gráficos generales**
-
-***
-
-#### **5.3 Gráficos de Usuarios Destacados**
-
-<table><thead><tr><th width="240">Gráfica</th><th width="126">Tipo de gráfica</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Top usuarios puntos gastados</code></strong></td><td>Barras</td><td>Ranking de usuarios ordenado por la mayor cantidad de puntos lealtad <a href="https://app.gitbook.com/o/QcwavWzh0dfIwPyknoIT/s/mbqa0WvDWam8G20QQoIZ/#redimido">redimidos</a>.</td></tr><tr><td><strong><code>Top usuarios con más puntos lealtad acumulados</code></strong></td><td>Barras</td><td>Ranking de usuarios con el mayor total de puntos de lealtad vigentes <em>(activos).</em></td></tr><tr><td><strong><code>Top usuarios con más compras</code></strong></td><td>Barras</td><td>Ranking de usuarios según el número de compras realizadas en la tienda de regalos.</td></tr></tbody></table>
-
-***
-
-#### 5.4. Tablas de [Redenciones](https://virtualsoft.gitbook.io/untitled/glosario/#redimido)
-
-**5.4.1. Regalos redimidos casino.**
-
-<table><thead><tr><th width="160">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Descripción lealtad</code></strong></td><td>Descripción del regalo redimido asociado a la vertical casino</td></tr><tr><td><strong><code>Cantidad</code></strong> </td><td>Cantidad de usuario que redimieron este regalo lealtad.</td></tr><tr><td><strong><code>% uso regalo casino</code></strong></td><td>Indica el porcentaje de usuarios que redimieron el regalo lealtad y lo utilizaron</td></tr></tbody></table>
-
-**5.4.2. Regalos redimidos deportivas.**
-
-<table><thead><tr><th width="160">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Descripción lealtad</code></strong></td><td>Descripción del regalo redimido asociado a la vertical deportivas</td></tr><tr><td><strong><code>Cantidad</code></strong> </td><td>Cantidad de usuario que redimieron este regalo lealtad.</td></tr><tr><td><strong><code>% uso regalo deportivas</code></strong></td><td>Indica el porcentaje de usuarios que redimieron el regalo lealtad y lo utilizaron</td></tr></tbody></table>
-
-**5.4.3. Detalle redenciones**
-
-<table><thead><tr><th width="179">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Fecha</code></strong></td><td>Indica la fecha en la que se redimió el premio lealtad</td></tr><tr><td><strong><code>Partner</code></strong></td><td>Partner en el que se redimieron los puntos.</td></tr><tr><td><strong><code>País</code></strong></td><td>País del usuario que realizó la redención.</td></tr><tr><td><strong><code>ID lealtad</code></strong></td><td>Identificador único del regalo redimido.</td></tr><tr><td><strong><code>Descripción</code></strong></td><td>Descripción del regalo redimido por el usuario.</td></tr><tr><td><strong><code>ID Bono</code></strong></td><td>Identificador del bono asociado a la redención.</td></tr><tr><td><strong><code>Puntos requeridos</code></strong></td><td>Cantidad de puntos necesarios para redimir el regalo.</td></tr><tr><td><strong><code>Usuarios redimieron regalos</code></strong></td><td>Número de usuarios únicos que realizaron la redención de este regalo.</td></tr><tr><td><strong><code>Cantidad compras</code></strong></td><td>Cantidad de veces que se redimió el premio lealtad.</td></tr></tbody></table>
-
-***
-
-### 6.✅ Validaciones y Reglas de Negocio
+#### .✅ Validaciones y Reglas de Negocio
 
 * El tablero está disponible únicamente para usuarios con permisos autorizados.
 * La información presentada depende directamente de los filtros aplicados.
