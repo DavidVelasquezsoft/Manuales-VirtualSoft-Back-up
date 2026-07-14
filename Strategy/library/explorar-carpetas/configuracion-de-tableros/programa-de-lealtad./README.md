@@ -113,33 +113,81 @@ La sección de Puntos calificables se encuentra dividida en cuatro vistas, cada 
 
 {% tabs %}
 {% tab title="General" %}
-<br>
 
-### Tabla: Visualización General del Programa de Niveles
 
-<table><thead><tr><th width="185">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Partner</strong></td><td>Nombre del partner al que pertenece la información.</td></tr><tr><td><strong>País</strong></td><td>País asociado al programa de lealtad.</td></tr><tr><td><strong>Nivel Lealtad</strong></td><td>Nivel de lealtad configurado dentro del programa.</td></tr><tr><td><strong>Cantidad usuario General</strong></td><td>Cantidad de usuarios asociados a cada nivel de lealtad.</td></tr><tr><td><strong>Valor Puntos Lealtad Calificable</strong></td><td>Total de puntos calificables acumulados por cada nivel de lealtad.</td></tr></tbody></table>
+> **Nota:** La información de las tablas y la gráfica se actualiza de acuerdo con los filtros aplicados en el dashboard.
 
-***
+### Tablas
+
+* **Visualización General del Programa de Niveles**
+
+<table><thead><tr><th width="185">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Partner</code></strong></td><td>Nombre del partner al que pertenece la información.</td></tr><tr><td><strong><code>País</code></strong></td><td>País asociado al programa de lealtad.</td></tr><tr><td><strong><code>Nivel Lealtad</code></strong></td><td>Nivel de lealtad configurado dentro del programa.</td></tr><tr><td><strong><code>Cantidad usuario General</code></strong></td><td>Cantidad de usuarios asociados a cada nivel de lealtad.</td></tr><tr><td><strong><code>Valor Puntos Lealtad Calificable</code></strong></td><td>Total de puntos calificables acumulados por cada nivel de lealtad.</td></tr></tbody></table>
+
+* **Detalle Programa de Niveles**
+
+<table><thead><tr><th width="209">Campo</th><th>Descripcion</th></tr></thead><tbody><tr><td><strong><code>Partner</code></strong></td><td>Nombre del partner al que pertenece el registro.</td></tr><tr><td><strong><code>País</code></strong></td><td>País asociado al usuario.</td></tr><tr><td><strong><code>ID Usuario</code></strong></td><td>Identificador único del usuario.</td></tr><tr><td><strong><code>Nivel Lealtad</code></strong></td><td>Nivel de lealtad asignado al usuario.</td></tr><tr><td><strong><code>Valor Requerido Nivel Actual</code></strong></td><td>Cantidad de puntos requerida para el nivel de lealtad actual.</td></tr><tr><td><strong><code>Valor requerido siguiente nivel</code></strong></td><td>Cantidad de puntos necesaria para alcanzar el siguiente nivel de lealtad.</td></tr><tr><td><strong><code>Valor Puntos Lealtad Calificable</code></strong></td><td>Cantidad de puntos calificables acumulados por el usuario.</td></tr></tbody></table>
 
 ### Gráfica
 
 <table><thead><tr><th width="210">Gráfica</th><th width="121">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Tendencia valor punto calificable por nivel</code></strong></td><td>Gráfica de líneas</td><td>Comportamiento del valor de los puntos calificables para cada nivel de lealtad configurado.</td></tr></tbody></table>
-
-***
-
-### Tabla: Detalle Programa de Niveles
-
-<table><thead><tr><th width="209">Campo</th><th>Descripcion</th></tr></thead><tbody><tr><td><strong>Partner</strong></td><td>Nombre del partner al que pertenece el registro.</td></tr><tr><td><strong>País</strong></td><td>País asociado al usuario.</td></tr><tr><td><strong>ID Usuario</strong></td><td>Identificador único del usuario.</td></tr><tr><td><strong>Nivel Lealtad</strong></td><td>Nivel de lealtad asignado al usuario.</td></tr><tr><td><strong>Valor Requerido Nivel Actual</strong></td><td>Cantidad de puntos requerida para el nivel de lealtad actual.</td></tr><tr><td><strong>Valor requerido siguiente nivel</strong></td><td>Cantidad de puntos necesaria para alcanzar el siguiente nivel de lealtad.</td></tr><tr><td><strong>Valor Puntos Lealtad Calificable</strong></td><td>Cantidad de puntos calificables acumulados por el usuario.</td></tr></tbody></table>
-
-> **Nota:** La información de las tablas y la gráfica se actualiza de acuerdo con los filtros aplicados en el dashboard.
 {% endtab %}
 
 {% tab title="Movimiento" %}
 
+
+### Filtros
+
+| **Campo**           | **Tipo**           | **Descripción**                                                                   |
+| ------------------- | ------------------ | --------------------------------------------------------------------------------- |
+| **Desde**           | Selector de fecha  | Fecha inicial utilizada para consultar los movimientos de puntos calificables.    |
+| **Hasta**           | Selector de fecha  | Fecha final utilizada para consultar los movimientos de puntos calificables.      |
+| **Tipo Movimiento** | Botón de selección | Tipo de movimiento a consultar (**Todos**, **Entrada** o **Salida**).             |
+| **Movimiento**      | Lista desplegable  | Movimiento específico de puntos calificables utilizado como criterio de búsqueda. |
+
+***
+
+### Tabla: Historial Movimientos Punt Calificable
+
+| **Campo**                                       | **Descripción**                                                           |
+| ----------------------------------------------- | ------------------------------------------------------------------------- |
+| **Partner**                                     | Nombre del partner al que pertenece el registro.                          |
+| **País**                                        | País asociado al registro.                                                |
+| **Fecha**                                       | Fecha en la que se registró el movimiento de puntos calificables.         |
+| **ID Usuario**                                  | Identificador único del usuario.                                          |
+| **ID Externo**                                  | Identificador externo asociado al movimiento.                             |
+| **Tipo Movimiento Lealtad Calificable**         | Tipo de movimiento registrado (**Entrada** o **Salida**).                 |
+| **Movimiento Lealtad Calificable**              | Motivo o concepto asociado al movimiento de puntos calificables.          |
+| **Valor Movimiento Puntos Lealtad Calificable** | Cantidad de puntos calificables correspondiente al movimiento registrado. |
+
+> **Nota:** La información mostrada en esta vista se actualiza de acuerdo con los filtros seleccionados (**Fecha**, **Tipo de movimiento** y **Movimiento**).
 {% endtab %}
 
 {% tab title="Ciclos" %}
+<br>
 
+### Gráfica: Visualización de Expiración de Puntos Calificables
+
+**Tipo de gráfica:** Barras verticales
+
+| **Gráfica**                                            | **Descripción**                                                                                                         |
+| ------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------- |
+| **Visualización de Expiración de Puntos Calificables** | Comparativo del valor de los puntos calificables por ciclo, clasificados según su estado (**Activos** o **Expirados**). |
+
+***
+
+### Tabla: Detalle Ciclos
+
+| **Campo**                              | **Descripción**                                                              |
+| -------------------------------------- | ---------------------------------------------------------------------------- |
+| **Partner**                            | Nombre del partner al que pertenece el registro.                             |
+| **País**                               | País asociado al registro.                                                   |
+| **ID Ciclo**                           | Identificador único del ciclo de lealtad.                                    |
+| **ID Usuario**                         | Identificador único del usuario.                                             |
+| **Estado Ciclo Lealtad Calificable**   | Estado actual del ciclo de lealtad (**Activo** o **Expirado**).              |
+| **Duración Ciclo Lealtad Calificable** | Tiempo de vigencia configurado para el ciclo de puntos calificables.         |
+| **Valor Puntos por Ciclos**            | Cantidad de puntos calificables acumulados dentro del ciclo correspondiente. |
+
+> **Nota:** La información de la gráfica y la tabla corresponde a los ciclos de puntos calificables y se actualiza de acuerdo con los filtros seleccionados en el dashboard.
 {% endtab %}
 
 {% tab title="Evolución" %}
