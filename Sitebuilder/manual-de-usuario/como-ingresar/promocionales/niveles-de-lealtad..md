@@ -77,7 +77,7 @@ Esta sección dispone de dos vistas de configuración para la administración de
 
 ***
 
-#### **Lógica del sistema**
+### Clasificación de puntos
 
 El sistema de **Niveles de lealtad** opera con dos tipos de puntos:
 
