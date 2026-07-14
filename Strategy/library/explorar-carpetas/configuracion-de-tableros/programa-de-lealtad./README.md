@@ -105,11 +105,76 @@ Los KPI se muestran en la parte superior del dashboard y presentan **indicadores
 {% endtab %}
 
 {% tab title="Puntos calificables" %}
-dqwrfwq3
+La sección de Puntos calificables se encuentra dividida en cuatro vistas, cada una con información específica para el análisis y seguimiento del programa de lealtad.
+
+{% tabs %}
+{% tab title="General" %}
+<br>
+
+### Tabla: Visualización General del Programa de Niveles
+
+| **Campo**                            | **Descripción**                                                    |
+| ------------------------------------ | ------------------------------------------------------------------ |
+| **Partner**                          | Nombre del partner al que pertenece la información.                |
+| **País**                             | País asociado al programa de lealtad.                              |
+| **Nivel Lealtad**                    | Nivel de lealtad configurado dentro del programa.                  |
+| **Cantidad usuario General**         | Cantidad de usuarios asociados a cada nivel de lealtad.            |
+| **Valor Puntos Lealtad Calificable** | Total de puntos calificables acumulados por cada nivel de lealtad. |
+
+***
+
+### Gráfica: Tendencia valor punto calificable por nivel
+
+**Tipo de gráfica:** Línea
+
+| **Elemento**                                    | **Descripción**                                                                             |
+| ----------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| **Tendencia valor punto calificable por nivel** | Comportamiento del valor de los puntos calificables para cada nivel de lealtad configurado. |
+
+***
+
+### Tabla: Detalle Programa de Niveles
+
+| Campo                                | Descripcion                                                               |
+| ------------------------------------ | ------------------------------------------------------------------------- |
+| **Partner**                          | Nombre del partner al que pertenece el registro.                          |
+| **País**                             | País asociado al usuario.                                                 |
+| **ID Usuario**                       | Identificador único del usuario.                                          |
+| **Nivel Lealtad**                    | Nivel de lealtad asignado al usuario.                                     |
+| **Valor Requerido Nivel Actual**     | Cantidad de puntos requerida para el nivel de lealtad actual.             |
+| **Valor requerido siguiente nivel**  | Cantidad de puntos necesaria para alcanzar el siguiente nivel de lealtad. |
+| **Valor Puntos Lealtad Calificable** | Cantidad de puntos calificables acumulados por el usuario.                |
+
+> **Nota:** La información de las tablas y la gráfica se actualiza de acuerdo con los filtros aplicados en el dashboard.
+{% endtab %}
+
+{% tab title="Movimiento" %}
+
+{% endtab %}
+
+{% tab title="Ciclos" %}
+
+{% endtab %}
+
+{% tab title="Evolución" %}
+d<br>
+
+{% tabs %}
+{% tab title="Evolución" %}
+
+{% endtab %}
+
+{% tab title="Detalle Evolución" %}
+
 {% endtab %}
 {% endtabs %}
 
-
+\
+c
+{% endtab %}
+{% endtabs %}
+{% endtab %}
+{% endtabs %}
 
 
 
