@@ -44,7 +44,7 @@ El doble factor de autenticación (2FA) refuerza la seguridad del inicio de sesi
 {% endcolumn %}
 {% endcolumns %}
 
-<figure><img src="../../../.gitbook/assets/image (199) (1).png" alt=""><figcaption><p>Figura #2: Pop-up de activar el 2FA</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (199) (1).png" alt=""><figcaption><p>Figura #2: Pop-up de activar el 2FA.</p></figcaption></figure>
 
 Al iniciar sesión se mostrará un pop-up para activar y configurar el **2FA** en tu cuenta para mayor seguridad al inicio de sesión.
 
@@ -101,16 +101,16 @@ Haz clic en el botón **"Activar 2FA"** para finalizar la configuración.
 
 Actualiza la contraseña de acceso a la plataforma.
 
+<table><thead><tr><th width="222.88897705078125">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Ingrese la contraseña actual</code></strong></td><td>Clave actual de acceso a la cuenta.</td></tr><tr><td><strong><code>Ingrese la contraseña nueva</code></strong></td><td>Nueva clave de acceso que tendrá la cuenta.</td></tr><tr><td><strong><code>Confirme la contraseña nueva</code></strong></td><td>Confirmar la nueva clave de acceso.</td></tr></tbody></table>
+
+Envía los datos ingresados y aplica el cambio de contraseña desde el botón "**`Guardar`**".
+
 {% hint style="warning" %}
 **Notas:**&#x20;
 
 * Los 3 campos del formulario son obligatorios para poder cambiar la contraseña.
 * Al solicitar el cambio de contraseña, se requerirá nuevamente la validación mediante doble factor de autenticación, incluso si esta ya fue realizada al iniciar sesión y el dispositivo se encuentra marcado como seguro. Esta validación solo aplica para las cuentas que tengan habilitado el doble factor de autenticación.
 {% endhint %}
-
-<table><thead><tr><th width="222.88897705078125">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Ingrese la contraseña actual</code></strong></td><td>Clave actual de acceso a la cuenta.</td></tr><tr><td><strong><code>Ingrese la contraseña nueva</code></strong></td><td>Nueva clave de acceso que tendrá la cuenta.</td></tr><tr><td><strong><code>Confirme la contraseña nueva</code></strong></td><td>Confirmar la nueva clave de acceso.</td></tr></tbody></table>
-
-Envía los datos ingresados y aplica el cambio de contraseña desde el botón "**`Guardar`**".
 
 ***
 
@@ -124,6 +124,7 @@ Envía los datos ingresados y aplica el cambio de contraseña desde el botón "*
   * Un número.
 * Las contraseñas nuevas deben coincidir en ambos campos.
 * Si las validaciones no se cumplen, no se permite guardar la nueva contraseña.
+* Si se intenta cambiar la contraseña y no se ingresa el código de seguridad correcto _(En caso de estar activo)_, se debe realizar nuevamente el proceso e ingresar otro código.
 
 ***
 
