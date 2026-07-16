@@ -14,11 +14,11 @@ description: >-
 
 ### 2. visualización:
 
-<figure><img src="../../../.gitbook/assets/image (190).png" alt="" width="563"><figcaption><p>Figura#1: Captura de pantalla de ejemplo tienda de premios</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (190).png" alt="" width="563"><figcaption><p>Figura#1: Captura de pantalla de ejemplo tienda de premios.</p></figcaption></figure>
 
 ### 3. Acciones del Usuario
 
-Seleccionar categoria en la que se desean canjear los puntos.
+Seleccionar categoría en la que se desean canjear los puntos.
 
 <table><thead><tr><th width="206">Categoría</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Casino</code></strong></td><td>Muestra premios relacionados con juegos de casino.</td></tr><tr><td><strong><code>Casino en vivo</code></strong></td><td>Muestra premios aplicables a juegos de casino en vivo.</td></tr><tr><td><strong><code>Apuestas deportivas</code></strong></td><td>Muestra premios asociados a apuestas deportivas.</td></tr><tr><td><strong><code>Premios físicos</code></strong></td><td>Muestra premios tangibles que requieren entrega física al usuario.</td></tr></tbody></table>
 
