@@ -28,7 +28,7 @@ layout:
 ### 1. Acceso al Módulo
 
 **Ruta de acceso:**\
-Virtualsoft > Informes compartidos > Datas TI > Paneles Visuales
+Virtualsoft > Informes compartidos > Datas TI > Paneles Visuales > Dashboard seguimiento del programa de lealtad
 
 ***
 
