@@ -1,10 +1,27 @@
 ---
-description: >-
-  Permite visualizar, analizar y exportar información detallada sobre las
-  solicitudes de retiro generadas en la plataforma.
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # Dashboard Retiros
+
+<mark style="color:$info;">El Dashboard de Retiros presenta información analítica relacionada con las transacciones de retiro realizadas por los usuarios. La información se organiza mediante indicadores, gráficos y tablas que facilitan el análisis del comportamiento de los retiros.</mark>
 
 ### 1. Acceso al módulo
 
