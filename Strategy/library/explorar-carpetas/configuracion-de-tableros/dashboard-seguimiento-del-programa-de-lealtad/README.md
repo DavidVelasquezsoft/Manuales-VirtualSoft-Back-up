@@ -1,6 +1,27 @@
-# Programa de lealtad.
+---
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+---
 
-Este manual describe el funcionamiento del dashboard del Programa de Lealtad en Strategy, orientado a la visualización y análisis del comportamiento de puntos, redenciones, usuarios activos y regalos, facilitando la toma de decisiones operativas y gerenciales.
+# Dashboard seguimiento del programa de lealtad
+
+<mark style="color:$info;">Este manual describe el funcionamiento del dashboard del Programa de Lealtad en Strategy, orientado a la visualización y análisis del comportamiento de puntos, redenciones, usuarios activos y regalos, facilitando la toma de decisiones operativas y gerenciales.</mark>
 
 ***
 
