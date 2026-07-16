@@ -32,7 +32,7 @@ Virtualsoft > Informes compartidos > Datas TI > Paneles Visuales > Dashboard seg
 
 ***
 
-### **2. Configuraciones Previas**
+### 2. Configuraciones Previas
 
 Antes de visualizar el reporte, es necesario establecer las [configuraciones previas.](https://virtualsoft.gitbook.io/manuales/microstrategy/library/explorar-carpetas/configuracion-de-tableros#id-1.-configuraciones-previas)
 
