@@ -78,7 +78,7 @@ Puedes verificar el saldo acreditado en tu cuenta desde el panel principal o en 
 {% endstepper %}
 {% endtab %}
 
-{% tab title="2.3. Tarjeta de Crédito" %}
+{% tab title="2.3. Tarjeta" %}
 {% hint style="warning" %}
 **Nota:** El sistema solo permite agregar tarjetas cuando la operación (_Partner y país_) tiene un proveedor activo desde [BackOffice](/broken/spaces/UadX6RX6l8fMhEZxOqcT/pages/P6ejQH7j6cNHXnY74jAZ). De lo contrario, el botón **"Añadir tarjeta"** no se mostrará.
 {% endhint %}
