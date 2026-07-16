@@ -81,6 +81,8 @@ Los KPI se muestran en la parte superior del dashboard y presentan **indicadores
 
 <table><thead><tr><th width="215.50006103515625">Indicador (KPI)</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>% Puntos Activos</code></strong></td><td>Indica el porcentaje de puntos activos respecto al total de puntos generados, calculado a partir de la relación entre los puntos activos, redimidos y expirados.</td></tr><tr><td><strong><code>% Redención puntos</code></strong></td><td>Mide el porcentaje de puntos acumulados que han sido efectivamente redimidos por los usuarios frente al total de puntos generados en el programa de lealtad.</td></tr><tr><td><strong><code>% Redención usuario</code></strong></td><td>Representa el porcentaje de usuarios que redimieron al menos un beneficio del programa de lealtad sobre el total de usuarios con puntos acumulados.</td></tr><tr><td><strong><code>% Expiración puntos</code></strong></td><td>Indica el porcentaje de puntos que expiraron sin ser utilizados por los usuarios dentro del periodo analizado.</td></tr></tbody></table>
 
+***
+
 ### **Gráficos generales**
 
 <table><thead><tr><th width="155.3333740234375">Gráfica</th><th width="112">Tipo de gráfica</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Puntos activos</code></strong></td><td>Barras</td><td>Análisis diario comparativo de los puntos activos obtenidos por vertical.</td></tr><tr><td><strong><code>Puntos redimidos</code></strong></td><td>Barras</td><td>Muestra la cantidad de puntos redimidos por día, según el filtro aplicado.</td></tr><tr><td><strong><code>Puntos expirados</code></strong></td><td>Barras</td><td>Muestra la cantidad de puntos expirados, según el filtro aplicado.</td></tr><tr><td><strong><code>Activos - redimidos - Expirados</code></strong></td><td>Barras</td><td>Cantidad de puntos activos, redimidos y expirados, por dia.</td></tr><tr><td><strong><code>Clientes con puntos activos</code></strong></td><td>Barras</td><td><p>Presenta el número de usuarios únicos que poseen puntos activos en Casino, Deportivas y Total.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> La información de este gráfico se muestra únicamente después de aplicar los filtros de <strong>Fecha, Partner y País</strong> en las <a href="./#id-2.-configuraciones-previas">configuraciones previas</a>.</p></div></td></tr><tr><td><strong><code>Clientes con puntos redimidos</code></strong></td><td>Barras</td><td>Muestra el número de usuarios únicos que han redimido puntos en Casino, Deportivas y Total.</td></tr><tr><td><strong><code>% vertical redimido</code></strong></td><td>Torta</td><td>Visualiza el porcentaje de puntos redimidos asociados a cada vertical.</td></tr><tr><td><strong><code>Top usuarios puntos gastados</code></strong></td><td>Barras</td><td>Ranking de los usuarios con la mayor cantidad de puntos de lealtad redimidos.</td></tr><tr><td><strong><code>Top usuarios con más compras</code></strong></td><td>Barras</td><td>Ranking de los usuarios con mayor cantidad de compras realizadas mediante el programa de lealtad.</td></tr><tr><td><strong><code>Usuarios con más puntos de lealtad acumulados</code></strong></td><td>Barras</td><td>Ranking de los usuarios con la mayor cantidad de puntos de lealtad acumulados.</td></tr></tbody></table>
@@ -113,9 +115,9 @@ La sección de Puntos calificables se encuentra dividida en cuatro vistas, cada 
 
 {% tabs %}
 {% tab title="General" %}
-
-
-> **Nota:** La información de las tablas y la gráfica se actualiza de acuerdo con los filtros aplicados en el dashboard.
+{% hint style="warning" %}
+**Nota:** La información de las tablas y la gráfica se actualiza de acuerdo con los filtros aplicados en el dashboard.
+{% endhint %}
 
 ### Tablas
 
@@ -127,45 +129,35 @@ La sección de Puntos calificables se encuentra dividida en cuatro vistas, cada 
 
 <table><thead><tr><th width="209">Campo</th><th>Descripcion</th></tr></thead><tbody><tr><td><strong><code>Partner</code></strong></td><td>Nombre del partner al que pertenece el registro.</td></tr><tr><td><strong><code>País</code></strong></td><td>País asociado al usuario.</td></tr><tr><td><strong><code>ID Usuario</code></strong></td><td>Identificador único del usuario.</td></tr><tr><td><strong><code>Nivel Lealtad</code></strong></td><td>Nivel de lealtad asignado al usuario.</td></tr><tr><td><strong><code>Valor Requerido Nivel Actual</code></strong></td><td>Cantidad de puntos requerida para el nivel de lealtad actual.</td></tr><tr><td><strong><code>Valor requerido siguiente nivel</code></strong></td><td>Cantidad de puntos necesaria para alcanzar el siguiente nivel de lealtad.</td></tr><tr><td><strong><code>Valor Puntos Lealtad Calificable</code></strong></td><td>Cantidad de puntos calificables acumulados por el usuario.</td></tr></tbody></table>
 
+***
+
 ### Gráfica
 
 <table><thead><tr><th width="210">Gráfica</th><th width="121">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Tendencia valor punto calificable por nivel</code></strong></td><td>Gráfica de líneas</td><td>Comportamiento del valor de los puntos calificables para cada nivel de lealtad configurado.</td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Movimiento" %}
-
+{% hint style="warning" %}
+**Nota:** La información de las tablas y la gráfica se actualiza de acuerdo con los filtros aplicados en el dashboard.
+{% endhint %}
 
 ### Filtros
 
-| **Campo**           | **Tipo**           | **Descripción**                                                                   |
-| ------------------- | ------------------ | --------------------------------------------------------------------------------- |
-| **Desde**           | Selector de fecha  | Fecha inicial utilizada para consultar los movimientos de puntos calificables.    |
-| **Hasta**           | Selector de fecha  | Fecha final utilizada para consultar los movimientos de puntos calificables.      |
-| **Tipo Movimiento** | Botón de selección | Tipo de movimiento a consultar (**Todos**, **Entrada** o **Salida**).             |
-| **Movimiento**      | Lista desplegable  | Movimiento específico de puntos calificables utilizado como criterio de búsqueda. |
+<table><thead><tr><th width="127">Campo</th><th width="140">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Desde</code></strong></td><td>Selector de fecha</td><td>Fecha inicial para consultar los movimientos de puntos calificables.</td></tr><tr><td><strong><code>Hasta</code></strong></td><td>Selector de fecha</td><td>Fecha final para consultar los movimientos de puntos calificables.</td></tr><tr><td><strong><code>Tipo Movimiento</code></strong></td><td>Botón de selección</td><td>Tipo de movimiento a consultar (<strong>Todos</strong>, <strong>Entrada</strong> o <strong>Salida</strong>).</td></tr><tr><td><strong><code>Movimiento</code></strong></td><td>Lista desplegable</td><td>Movimiento específico de puntos calificables utilizado como criterio de búsqueda.</td></tr></tbody></table>
 
 ***
 
-### Tabla: Historial Movimientos Punt Calificable
+### Tabla:&#x20;
 
-| **Campo**                                       | **Descripción**                                                           |
-| ----------------------------------------------- | ------------------------------------------------------------------------- |
-| **Partner**                                     | Nombre del partner al que pertenece el registro.                          |
-| **País**                                        | País asociado al registro.                                                |
-| **Fecha**                                       | Fecha en la que se registró el movimiento de puntos calificables.         |
-| **ID Usuario**                                  | Identificador único del usuario.                                          |
-| **ID Externo**                                  | Identificador externo asociado al movimiento.                             |
-| **Tipo Movimiento Lealtad Calificable**         | Tipo de movimiento registrado (**Entrada** o **Salida**).                 |
-| **Movimiento Lealtad Calificable**              | Motivo o concepto asociado al movimiento de puntos calificables.          |
-| **Valor Movimiento Puntos Lealtad Calificable** | Cantidad de puntos calificables correspondiente al movimiento registrado. |
+* **Historial Movimientos Punt Calificable**
 
-> **Nota:** La información mostrada en esta vista se actualiza de acuerdo con los filtros seleccionados (**Fecha**, **Tipo de movimiento** y **Movimiento**).
+<table><thead><tr><th width="193">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Partner</code></strong></td><td>Nombre del partner al que pertenece el registro.</td></tr><tr><td><strong><code>País</code></strong></td><td>País asociado al registro.</td></tr><tr><td><strong><code>Fecha</code></strong></td><td>Fecha en la que se registró el movimiento de puntos calificables.</td></tr><tr><td><strong><code>ID Usuario</code></strong></td><td>Identificador único del usuario.</td></tr><tr><td><strong><code>ID Externo</code></strong></td><td>Identificador externo asociado al movimiento.</td></tr><tr><td><strong><code>Tipo Movimiento Lealtad Calificable</code></strong></td><td>Tipo de movimiento registrado (<strong>Entrada</strong> o <strong>Salida</strong>).</td></tr><tr><td><strong><code>Movimiento Lealtad Calificable</code></strong></td><td>Motivo o concepto asociado al movimiento de puntos calificables.</td></tr><tr><td><strong><code>Valor Movimiento Puntos Lealtad Calificable</code></strong></td><td>Cantidad de puntos calificables correspondiente al movimiento registrado.</td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Ciclos" %}
-<br>
-
-> **Nota:** La información de la gráfica y la tabla corresponde a los ciclos de puntos calificables y se actualiza de acuerdo con los filtros seleccionados en el dashboard.&#x20;
+{% hint style="warning" %}
+**Nota:** La información de las tablas y la gráfica se actualiza de acuerdo con los filtros aplicados en el dashboard.
+{% endhint %}
 
 ### Gráfica
 
@@ -185,40 +177,61 @@ La sección de Puntos calificables se encuentra dividida en cuatro vistas, cada 
 {% endtab %}
 
 {% tab title="Evolución" %}
-<br>
+La sección Evolución cuenta con dos vistas, cada una diseñada para presentar información específica y facilitar el análisis de los datos desde diferentes perspectivas.
+
+### Filtros
+
+<table><thead><tr><th width="110">Campo</th><th width="141">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Desde</code></strong></td><td>Selector de fecha</td><td>Fecha inicial utilizada para consultar la evolución histórica de los usuarios.</td></tr><tr><td><strong><code>Hasta</code></strong></td><td>Selector de fecha</td><td>Fecha final utilizada para consultar la evolución histórica de los usuarios.</td></tr><tr><td><strong><code>Nivel</code></strong></td><td>Lista desplegable</td><td>Nivel de lealtad utilizado como criterio de consulta.</td></tr></tbody></table>
 
 {% tabs %}
 {% tab title="Evolución" %}
+{% hint style="warning" %}
+**Nota:** La información de las gráficas se actualiza de acuerdo con el rango de fechas y el nivel de lealtad seleccionados en los filtros.
+{% endhint %}
 
+### Gráficas:
+
+* **Evolución Histórica Usuario por Mes**
+
+<table><thead><tr><th width="152">Gráfica</th><th width="113">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Evolución Histórica Usuario por Mes</code></strong></td><td>Gráfica de  Barras</td><td>Cantidad de usuarios por nivel de lealtad durante cada mes del período consultado.</td></tr></tbody></table>
+
+* **Evolución Histórica Usuario por Día**
+
+<table><thead><tr><th width="156">Gráfica</th><th width="113">Tipo</th><th width="330">Descripción</th></tr></thead><tbody><tr><td><strong><code>Evolución Histórica Usuario por Día</code></strong></td><td>Gráfica de  Barras</td><td>Cantidad de usuarios por nivel de lealtad durante cada día del período consultado.</td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Detalle Evolución" %}
+{% hint style="warning" %}
+**Nota:** La información del detalle histórico se actualiza de acuerdo con el rango de fechas y el nivel de lealtad seleccionados.
+{% endhint %}
 
+### Tabla
+
+* **Detalle Evolución Histórica**
+
+<table><thead><tr><th width="189">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Partner</code></strong></td><td>Nombre del partner al que pertenece el registro.</td></tr><tr><td><strong><code>ID Usuario</code></strong></td><td>Identificador único del usuario.</td></tr><tr><td><strong><code>ID Cambio Nivel</code></strong></td><td>Identificador único del cambio de nivel registrado.</td></tr><tr><td><strong><code>Nivel Anterior</code></strong></td><td>Nivel de lealtad que tenía asignado el usuario antes del cambio.</td></tr><tr><td><strong><code>Nivel Después</code></strong></td><td>Nivel de lealtad asignado al usuario después del cambio.</td></tr><tr><td><strong><code>Motivo Cambio Nivel</code></strong></td><td>Motivo por el cual se realizó el cambio de nivel.</td></tr><tr><td><strong><code>Fecha Time Cambio Nivel</code></strong></td><td>Fecha y hora en la que se registró el cambio de nivel.</td></tr><tr><td><strong><code>Fecha Time Modificación Cambio Nivel</code></strong></td><td>Fecha y hora de la última modificación realizada sobre el cambio de nivel.</td></tr><tr><td><strong><code>Fecha Time Inicio Cambio Nivel</code></strong></td><td>Fecha y hora de inicio de la vigencia del cambio de nivel.</td></tr><tr><td><strong><code>Fecha Time Final Cambio Nivel</code></strong></td><td>Fecha y hora de finalización de la vigencia del cambio de nivel.</td></tr></tbody></table>
+{% endtab %}
+{% endtabs %}
+{% endtab %}
+{% endtabs %}
 {% endtab %}
 {% endtabs %}
 
-<br>
-{% endtab %}
-{% endtabs %}
-{% endtab %}
-{% endtabs %}
+***
 
-
-
-
-
-
-
-#### .✅ Validaciones y Reglas de Negocio
+### 5. Validaciones y Reglas de Negocio
 
 * El tablero está disponible únicamente para usuarios con permisos autorizados.
 * La información presentada depende directamente de los filtros aplicados.
 
 ***
 
-### 7.🕛 Control de Versiones
+### 6. Control de Versiones
 
-| Versión | Fecha      | Autor          | Cambios Realizados                                    |
-| ------- | ---------- | -------------- | ----------------------------------------------------- |
-| 1.0     | 18/12/2025 | Ronald Peláez  | Documento inicial                                     |
-| 2.0     | 19/01/2026 | Ronald Peláez  | Reestructuración de manual por cambio en el dashboard |
+<details>
+
+<summary>🔽 Historial de versiones</summary>
+
+<table><thead><tr><th width="101">Versión</th><th width="121">Fecha</th><th width="140">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>18/12/2025</td><td>Ronald Peláez</td><td>Documento inicial</td></tr><tr><td>2.0</td><td>19/01/2026</td><td>Ronald Peláez </td><td>Reestructuración de manual por cambio en el dashboard</td></tr><tr><td>3.0 </td><td>16/07/2026</td><td>Karol Navia</td><td>Reestructuración del manual</td></tr></tbody></table>
+
+</details>
