@@ -9,7 +9,9 @@ description: >-
 
 ### 1. Acceso al Módulo:
 
-**Ruta de Acceso**: Promociones > Puntos lealtad
+**Ruta de Acceso 1**: Promociones > Puntos lealtad.
+
+Ruta de Acceso 2: Menú principal > DoradoClub.&#x20;
 
 ***
 
