@@ -60,7 +60,7 @@ Los gráficos se visualizan de manera general, y también agrupados en gráficos
 
 ***
 
-### 5. Validaciones y Reglas de Negocio
+### 8. Validaciones y Reglas de Negocio
 
 * Cada [card ](https://virtualsoft.gitbook.io/untitled/glosario/#card)es exportable en diferentes formatos.
 * Las fechas deben seleccionarse dentro de un rango válido para obtener resultados.
@@ -68,7 +68,7 @@ Los gráficos se visualizan de manera general, y también agrupados en gráficos
 
 ***
 
-### 5. Control de Versiones
+### 9. Control de Versiones
 
 <details>
 
