@@ -39,23 +39,23 @@ Este dashboard cuenta con dos vistas: **Moneda Local** y **Moneda USD**. Ambas p
 
 <figure><img src="../../../.gitbook/assets/image (218).png" alt=""><figcaption><p>Figura #1: Captura de pantalla dashboard retiro.</p></figcaption></figure>
 
-### 3. Acciones del usuario
+### 4. Acciones del usuario
 
 <table><thead><tr><th width="245">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Consultar retiros</code></strong></td><td>Ver el historial de retiros creados, aprobados y pagados dentro de un rango de fechas.</td></tr><tr><td><strong><code>Filtrar información</code></strong></td><td>Aplicar filtros como mandante, país, estado, medio de pago, nivel de riesgo y tipo de aprobación.</td></tr><tr><td><strong><code>Ver detalles</code></strong></td><td>Acceder a tablas con detalle de retiros individuales y resumen por usuario.</td></tr><tr><td><strong><code>Exportar datos</code></strong></td><td>Descargar la información en formatos <em>(Excel, CSV, PDF).</em></td></tr></tbody></table>
 
-### 4. Filtros disponibles
+### 5. Filtros disponibles
 
 <table><thead><tr><th width="195">Filtro</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Partner</code></strong></td><td>Partner sobre el cual se desea consultar los retiros <em>(ej. Doradobet).</em></td></tr><tr><td><strong><code>País</code></strong></td><td>País desde donde se realizó el retiro.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Estado actual del retiro <em>(Pagado, Pendiente, Rechazado, etc.)</em>.</td></tr><tr><td><strong><code>Medio de Pago</code></strong></td><td>Método utilizado para realizar el retiro <em>(Punto de Venta, físicamente.).</em></td></tr><tr><td><strong><code>Nivel de Riesgo</code></strong></td><td>Clasificación de riesgo de la transacción <em>(Bajo, Medio, Alto)</em>.</td></tr><tr><td><strong><code>Tipo de Aprobación</code></strong></td><td>Modo en que se aprobó el retiro <em>(Automático o Manual).</em></td></tr><tr><td><strong><code>Id usuario</code></strong></td><td>Identificador del usuario, asignado automáticamente por el sistema.</td></tr><tr><td><strong><code>Id Retiro</code></strong></td><td>Identificador del retiro, asignado automáticamente por el sistema.</td></tr><tr><td><strong><code>Canal</code></strong></td><td>Filtrar por el nombre del canal utilizado en la realización del retiro.</td></tr><tr><td><strong><code>Fecha Pago</code></strong></td><td>Rango de fechas en que se efectuó el pago al usuario.</td></tr><tr><td><strong><code>Valor</code></strong></td><td>Monto del retiro que se realizó.</td></tr></tbody></table>
 
 ***
 
-### 5. KPIs
+### 6. KPIs
 
 <table><thead><tr><th width="202">KPI</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Cantidad Retiros</code></strong></td><td>Número total de solicitudes de retiro generadas en el período filtrado.</td></tr><tr><td><strong><code>Valor Retiros</code></strong></td><td>Suma total de los retiros creados.</td></tr><tr><td><strong><code>Promedio Retiro</code></strong></td><td>Valor promedio por cada retiro.</td></tr><tr><td><strong><code>Cantidad de Usuarios</code></strong></td><td>Número de usuarios únicos que realizaron retiros.</td></tr><tr><td><strong><code>Valor Punto de Venta</code></strong></td><td>Monto total retirado a través de puntos de venta físicos.</td></tr><tr><td><strong><code>Valor Sistema</code></strong></td><td>Monto total retirado a través del sistema en general <em>(incluye todos los medios)</em>.</td></tr></tbody></table>
 
 ***
 
-### **6. Clasificación de gráficos:**
+### **7. Clasificación de gráficos:**
 
 Los gráficos se visualizan de manera general, y también agrupados en gráficos por los retiros
 
@@ -69,7 +69,7 @@ Los gráficos se visualizan de manera general, y también agrupados en gráficos
 
 ***
 
-### 7.  Tablas
+### 8.  Tablas
 
 * **Tabla resumen x tipo aprobación**
 
@@ -81,7 +81,7 @@ Los gráficos se visualizan de manera general, y también agrupados en gráficos
 
 ***
 
-### 8. Validaciones y Reglas de Negocio
+### 9. Validaciones y Reglas de Negocio
 
 * Cada [card ](https://virtualsoft.gitbook.io/untitled/glosario/#card)es exportable en diferentes formatos.
 * Las fechas deben seleccionarse dentro de un rango válido para obtener resultados.
@@ -89,7 +89,7 @@ Los gráficos se visualizan de manera general, y también agrupados en gráficos
 
 ***
 
-### 9. Control de Versiones
+### 10. Control de Versiones
 
 <details>
 
