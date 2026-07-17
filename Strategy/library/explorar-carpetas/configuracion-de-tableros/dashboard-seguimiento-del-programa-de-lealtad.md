@@ -27,8 +27,7 @@ layout:
 
 ### 1. Acceso al Módulo
 
-**Ruta de acceso:**\
-Virtualsoft > Informes compartidos > Datas TI > Paneles Visuales > Dashboard seguimiento del programa de lealtad
+**Ruta de acceso:** Virtualsoft > Informes compartidos > Datas TI > Paneles Visuales > Dashboard seguimiento del programa de lealtad
 
 ***
 
@@ -38,7 +37,11 @@ Antes de visualizar el reporte, es necesario establecer las [configuraciones pre
 
 ***
 
-### 3. Filtros Disponibles
+### 3. Visualizacion&#x20;
+
+
+
+### 4. Filtros Disponibles
 
 {% hint style="warning" %}
 **Nota:** Los filtros de fecha definen el alcance temporal de todos los gráficos y tablas del tablero.
@@ -48,7 +51,7 @@ Antes de visualizar el reporte, es necesario establecer las [configuraciones pre
 
 ***
 
-### 4. Componentes del Dashboard
+### 5. Componentes del Dashboard
 
 Este Dashboard cuenta con diferentes  vistas de información estas son:
 
@@ -66,7 +69,7 @@ Este Dashboard cuenta con diferentes  vistas de información estas son:
 
 ### Gráficas
 
-<table><thead><tr><th width="155.3333740234375">Gráfica</th><th width="112">Tipo de gráfica</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Puntos activos</code></strong></td><td>Barras</td><td>Análisis comparativo de los puntos activos obtenidos por vertical.</td></tr><tr><td><strong><code>Puntos redimidos</code></strong></td><td>Barras</td><td>Muestra la cantidad de puntos redimidos por mes, según el filtro aplicado.</td></tr><tr><td><strong><code>Puntos expirados</code></strong></td><td>Barras</td><td>Muestra la cantidad de puntos expirados, según el filtro aplicado.</td></tr><tr><td><strong><code>Activos - redimidos - Expirados</code></strong></td><td>Barras</td><td>Cantidad de puntos activos, redimidos y expirados, por el mes consultado .</td></tr><tr><td><strong><code>Clientes con puntos activos</code></strong></td><td>Barras</td><td><p>Presenta el número de usuarios únicos que poseen puntos activos en Casino, Deportivas y Total.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> La información de este gráfico se muestra únicamente después de aplicar los filtros de <strong>Fecha, Partner y País</strong> en las <a href="./#id-2.-configuraciones-previas">configuraciones previas</a>.</p></div></td></tr><tr><td><strong><code>Clientes con puntos redimidos</code></strong></td><td>Barras</td><td>Muestra el número de usuarios únicos que han redimido puntos en Casino, Deportivas y Total.</td></tr><tr><td><strong><code>% vertical redimido</code></strong></td><td>Torta</td><td>Visualiza el porcentaje de puntos redimidos asociados a cada vertical.</td></tr><tr><td><strong><code>Top usuarios puntos gastados</code></strong></td><td>Barras</td><td>Ranking de los usuarios con la mayor cantidad de puntos de lealtad redimidos.</td></tr><tr><td><strong><code>Top usuarios con más compras</code></strong></td><td>Barras</td><td>Ranking de los usuarios con mayor cantidad de compras realizadas mediante el programa de lealtad.</td></tr><tr><td><strong><code>Usuarios con más puntos de lealtad acumulados</code></strong></td><td>Barras</td><td>Ranking de los usuarios con la mayor cantidad de puntos de lealtad acumulados.</td></tr></tbody></table>
+<table><thead><tr><th width="155.3333740234375">Gráfica</th><th width="112">Tipo de gráfica</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Puntos activos</code></strong></td><td>Barras</td><td>Análisis comparativo de los puntos activos obtenidos por vertical.</td></tr><tr><td><strong><code>Puntos redimidos</code></strong></td><td>Barras</td><td>Muestra la cantidad de puntos redimidos por mes, según el filtro aplicado.</td></tr><tr><td><strong><code>Puntos expirados</code></strong></td><td>Barras</td><td>Muestra la cantidad de puntos expirados, según el filtro aplicado.</td></tr><tr><td><strong><code>Activos - redimidos - Expirados</code></strong></td><td>Barras</td><td>Cantidad de puntos activos, redimidos y expirados, por el mes consultado .</td></tr><tr><td><strong><code>Clientes con puntos activos</code></strong></td><td>Barras</td><td><p>Presenta el número de usuarios únicos que poseen puntos activos en Casino, Deportivas y Total.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> La información de este gráfico se muestra únicamente después de aplicar los filtros de <strong>Fecha, Partner y País</strong> en las <a href="dashboard-seguimiento-del-programa-de-lealtad.md#id-2.-configuraciones-previas">configuraciones previas</a>.</p></div></td></tr><tr><td><strong><code>Clientes con puntos redimidos</code></strong></td><td>Barras</td><td>Muestra el número de usuarios únicos que han redimido puntos en Casino, Deportivas y Total.</td></tr><tr><td><strong><code>% vertical redimido</code></strong></td><td>Torta</td><td>Visualiza el porcentaje de puntos redimidos asociados a cada vertical.</td></tr><tr><td><strong><code>Top usuarios puntos gastados</code></strong></td><td>Barras</td><td>Ranking de los usuarios con la mayor cantidad de puntos de lealtad redimidos.</td></tr><tr><td><strong><code>Top usuarios con más compras</code></strong></td><td>Barras</td><td>Ranking de los usuarios con mayor cantidad de compras realizadas mediante el programa de lealtad.</td></tr><tr><td><strong><code>Usuarios con más puntos de lealtad acumulados</code></strong></td><td>Barras</td><td>Ranking de los usuarios con la mayor cantidad de puntos de lealtad acumulados.</td></tr></tbody></table>
 
 ***
 
@@ -106,7 +109,7 @@ Los KPI se muestran en la parte superior del dashboard y presentan **indicadores
 
 ### **Gráficos generales**
 
-<table><thead><tr><th width="155.3333740234375">Gráfica</th><th width="112">Tipo de gráfica</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Puntos activos</code></strong></td><td>Barras</td><td>Análisis diario comparativo de los puntos activos obtenidos por vertical.</td></tr><tr><td><strong><code>Puntos redimidos</code></strong></td><td>Barras</td><td>Muestra la cantidad de puntos redimidos por día, según el filtro aplicado.</td></tr><tr><td><strong><code>Puntos expirados</code></strong></td><td>Barras</td><td>Muestra la cantidad de puntos expirados, según el filtro aplicado.</td></tr><tr><td><strong><code>Activos - redimidos - Expirados</code></strong></td><td>Barras</td><td>Cantidad de puntos activos, redimidos y expirados, por dia.</td></tr><tr><td><strong><code>Clientes con puntos activos</code></strong></td><td>Barras</td><td><p>Presenta el número de usuarios únicos que poseen puntos activos en Casino, Deportivas y Total.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> La información de este gráfico se muestra únicamente después de aplicar los filtros de <strong>Fecha, Partner y País</strong> en las <a href="./#id-2.-configuraciones-previas">configuraciones previas</a>.</p></div></td></tr><tr><td><strong><code>Clientes con puntos redimidos</code></strong></td><td>Barras</td><td>Muestra el número de usuarios únicos que han redimido puntos en Casino, Deportivas y Total.</td></tr><tr><td><strong><code>% vertical redimido</code></strong></td><td>Torta</td><td>Visualiza el porcentaje de puntos redimidos asociados a cada vertical.</td></tr><tr><td><strong><code>Top usuarios puntos gastados</code></strong></td><td>Barras</td><td>Ranking de los usuarios con la mayor cantidad de puntos de lealtad redimidos.</td></tr><tr><td><strong><code>Top usuarios con más compras</code></strong></td><td>Barras</td><td>Ranking de los usuarios con mayor cantidad de compras realizadas mediante el programa de lealtad.</td></tr><tr><td><strong><code>Usuarios con más puntos de lealtad acumulados</code></strong></td><td>Barras</td><td>Ranking de los usuarios con la mayor cantidad de puntos de lealtad acumulados.</td></tr></tbody></table>
+<table><thead><tr><th width="155.3333740234375">Gráfica</th><th width="112">Tipo de gráfica</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Puntos activos</code></strong></td><td>Barras</td><td>Análisis diario comparativo de los puntos activos obtenidos por vertical.</td></tr><tr><td><strong><code>Puntos redimidos</code></strong></td><td>Barras</td><td>Muestra la cantidad de puntos redimidos por día, según el filtro aplicado.</td></tr><tr><td><strong><code>Puntos expirados</code></strong></td><td>Barras</td><td>Muestra la cantidad de puntos expirados, según el filtro aplicado.</td></tr><tr><td><strong><code>Activos - redimidos - Expirados</code></strong></td><td>Barras</td><td>Cantidad de puntos activos, redimidos y expirados, por dia.</td></tr><tr><td><strong><code>Clientes con puntos activos</code></strong></td><td>Barras</td><td><p>Presenta el número de usuarios únicos que poseen puntos activos en Casino, Deportivas y Total.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> La información de este gráfico se muestra únicamente después de aplicar los filtros de <strong>Fecha, Partner y País</strong> en las <a href="dashboard-seguimiento-del-programa-de-lealtad.md#id-2.-configuraciones-previas">configuraciones previas</a>.</p></div></td></tr><tr><td><strong><code>Clientes con puntos redimidos</code></strong></td><td>Barras</td><td>Muestra el número de usuarios únicos que han redimido puntos en Casino, Deportivas y Total.</td></tr><tr><td><strong><code>% vertical redimido</code></strong></td><td>Torta</td><td>Visualiza el porcentaje de puntos redimidos asociados a cada vertical.</td></tr><tr><td><strong><code>Top usuarios puntos gastados</code></strong></td><td>Barras</td><td>Ranking de los usuarios con la mayor cantidad de puntos de lealtad redimidos.</td></tr><tr><td><strong><code>Top usuarios con más compras</code></strong></td><td>Barras</td><td>Ranking de los usuarios con mayor cantidad de compras realizadas mediante el programa de lealtad.</td></tr><tr><td><strong><code>Usuarios con más puntos de lealtad acumulados</code></strong></td><td>Barras</td><td>Ranking de los usuarios con la mayor cantidad de puntos de lealtad acumulados.</td></tr></tbody></table>
 
 ***
 
@@ -240,14 +243,14 @@ La sección Evolución cuenta con dos vistas, cada una diseñada para presentar 
 
 ***
 
-### 5. Validaciones y Reglas de Negocio
+### 6. Validaciones y Reglas de Negocio
 
 * El tablero está disponible únicamente para usuarios con permisos autorizados.
 * La información presentada depende directamente de los filtros aplicados.
 
 ***
 
-### 6. Control de Versiones
+### 7. Control de Versiones
 
 <details>
 
