@@ -32,27 +32,27 @@ Ambas vistas contienen los mismos filtros, indicadores, gráficos y tablas; úni
 
 ***
 
-### 3. Acciones del usuario
+### 4. Acciones del usuario
 
 <table><thead><tr><th width="198">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Consultar Depósitos</code></strong></td><td>Visualiza la información consolidada de los depósitos registrados durante el período seleccionado.</td></tr><tr><td><a href="dashboard-deposito.md#id-3.-acciones-del-usuario"><strong><code>Filtrar información</code></strong></a></td><td>Aplica filtros para consultar información específica dentro del dashboard.</td></tr><tr><td><strong><code>Exportar datos</code></strong></td><td>Descarga los datos del dashboard en formatos <strong>Excel, CSV o PDF</strong>.</td></tr></tbody></table>
 
-### 3. Filtros disponibles
+### 5. Filtros disponibles
 
 <table><thead><tr><th width="160">Campo</th><th width="137">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Partner</code></strong></td><td>Desplegable</td><td>Presenta la información correspondiente al partner seleccionado.</td></tr><tr><td><strong><code>País</code></strong></td><td>Desplegable</td><td>Muestra los registros asociados al país seleccionado.</td></tr><tr><td><strong><code>Año</code></strong></td><td>Desplegable</td><td>Actualiza la información según el año seleccionado.</td></tr><tr><td><strong><code>Mes</code></strong></td><td>Desplegable</td><td>Consulta los registros correspondientes al mes seleccionado.</td></tr><tr><td><strong><code>Día mes</code></strong></td><td>Desplegable</td><td>Filtra por día específico dentro del mes.</td></tr><tr><td><strong><code>Id Usuario</code></strong></td><td>Buscador</td><td>Localiza los depósitos realizados por un usuario específico.</td></tr><tr><td><strong><code>Id Depósito</code></strong></td><td>Buscador</td><td>Consulta un depósito mediante su identificador único.</td></tr><tr><td><strong><code>Estado Depósito</code></strong></td><td>Desplegable</td><td>Organiza la información de acuerdo con el estado del depósito.</td></tr><tr><td><strong><code>Medio depósito</code></strong></td><td>Desplegable</td><td>Presenta los depósitos según el canal utilizado para la transacción.</td></tr><tr><td><strong><code>Proveedor</code></strong></td><td>Lista desplegable</td><td>Muestra la información correspondiente al proveedor seleccionado.</td></tr><tr><td><strong><code>Valor depósito</code></strong></td><td>Numérico</td><td>Limita los resultados a un rango específico de valores.</td></tr></tbody></table>
 
 ***
 
-### 4. Indicadores KPI’s
+### 6. Indicadores KPI’s
 
 <table><thead><tr><th width="160">Nombre del campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Valor depósito</code></strong></td><td>Valor total de los depósitos registrados durante el período consultado.</td></tr><tr><td><strong><code>Cant. Depósitos</code></strong></td><td>Cantidad total de depósitos registrados.</td></tr><tr><td><strong><code>Promedio Valor</code></strong></td><td>Promedio del valor de depósitos realizados.</td></tr><tr><td><strong><code>Cant. usuarios</code></strong></td><td>Número de usuarios que realizaron al menos un depósito durante el período consultado.</td></tr></tbody></table>
 
-### 5. Gráficas
+### 7. Gráficas
 
 <table><thead><tr><th width="220">Gráfica</th><th width="151">Tipo de gráfica</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Depósitos diarios</code></strong></td><td>Lineal </td><td>Evolución diaria del valor de los depósitos <em>(Eje Y: monto, Eje X: día).</em></td></tr><tr><td><strong><code>Valor depósitos mensual</code></strong></td><td>Barras</td><td>Valor total de los depósitos según el mes correspondiente.</td></tr><tr><td><strong><code>Top % valor pasarela</code></strong></td><td>Torta</td><td>Distribución porcentual del valor depositado por pasarela de pago.</td></tr><tr><td><strong><code>Top % valor punto de venta</code></strong></td><td>Torta</td><td>Distribución porcentual del valor depositado por punto de venta.</td></tr><tr><td><strong><code>Medio de depósitos</code></strong></td><td>Barras</td><td>Compara el valor de los depósitos realizados por pasarela y punto de venta.</td></tr><tr><td><strong><code>Top usuario</code></strong></td><td>Barras</td><td>Presenta el ranking de usuarios con mayor valor depositado durante el período consultado.</td></tr><tr><td><strong><code>Valor promedio depósito por día de la semana</code></strong></td><td>Barras</td><td>Presenta el valor promedio de los depósitos realizados para cada día de la semana.</td></tr><tr><td><strong><code>Cantidad promedio depósito por día de la semana</code></strong></td><td>Barras</td><td>Muestra la cantidad promedio de depósitos realizados para cada día de la semana.</td></tr></tbody></table>
 
 ***
 
-### 6. Tablas
+### 8. Tablas
 
 * &#x20;**Resumen por usuario**
 
@@ -66,7 +66,7 @@ Ambas vistas contienen los mismos filtros, indicadores, gráficos y tablas; úni
 
 ***
 
-### 7. Control de Versiones
+### 9. Control de Versiones
 
 <details>
 
