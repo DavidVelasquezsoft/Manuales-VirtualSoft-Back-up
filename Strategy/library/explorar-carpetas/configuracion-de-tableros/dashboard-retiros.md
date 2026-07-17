@@ -31,7 +31,7 @@ layout:
 
 ### 2. **Configuraciones Previas**
 
-Antes de visualizar el reporte, es necesario definir las configuraciones previas obligatorias.
+Antes de visualizar el reporte, es necesario definir las [configuraciones previas](https://virtualsoft.gitbook.io/manuales/microstrategy/library/explorar-carpetas/configuracion-de-tableros) obligatorias.
 
 ### 3. Visualización:
 
