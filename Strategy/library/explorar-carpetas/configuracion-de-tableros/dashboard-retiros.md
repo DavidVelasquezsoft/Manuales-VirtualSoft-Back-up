@@ -29,7 +29,11 @@ layout:
 
 ***
 
-### 2. Visualización:
+### 2. **Configuraciones Previas**
+
+Antes de visualizar el reporte, es necesario definir las [configuraciones previas](https://virtualsoft.gitbook.io/manuales/microstrategy/tableros#id-2.-configuracion-previa) obligatorias.
+
+### 3. Visualización:
 
 Este dashboard cuenta con dos vistas: **Moneda Local** y **Moneda USD**. Ambas presentan la misma estructura, componentes y funcionalidades; la única diferencia es la moneda en la que se visualiza la información. En la vista **Moneda Local**, los valores se muestran en la moneda local configurada para el operador, mientras que en la vista **Moneda USD**, los mismos datos se presentan en dólares estadounidenses (USD).
 

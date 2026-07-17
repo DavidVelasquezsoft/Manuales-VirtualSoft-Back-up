@@ -13,7 +13,11 @@ description: >-
 
 ***
 
-### 2. Visualización
+### **2. Configuraciones Previas**
+
+Antes de visualizar el reporte, es necesario definir las [configuraciones previas](https://virtualsoft.gitbook.io/manuales/microstrategy/tableros#id-2.-configuracion-previa) obligatorias.
+
+### 3. Visualización
 
 El Dashboard Depósito consolida la información relacionada con las transacciones de depósito realizadas por los usuarios, facilitando el análisis mediante indicadores, gráficos y tablas de detalle.
 
@@ -58,7 +62,7 @@ Ambas vistas contienen los mismos filtros, indicadores, gráficos y tablas; úni
 
 * &#x20;**Detalle de depósitos**
 
-<table><thead><tr><th width="240">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Id Usuario</code></strong></td><td>Identificador del usuario que realizó el depósito.</td></tr><tr><td><strong><code>Id Depósito</code></strong></td><td>Identificador único del depósito registrado.</td></tr><tr><td><strong><code>Id Externo</code></strong></td><td>Identificador asignado por el proveedor.</td></tr><tr><td><strong><code>Fecha Time</code></strong></td><td>Fecha del depósito en <em>(formato: dd/mm/aaaa).</em></td></tr><tr><td><strong><code>Medio del depósito</code></strong></td><td>Canal mediante el cual se realizó el depósito.</td></tr><tr><td><strong><code>Nombre medio del depósito</code></strong></td><td>Nombre del medio utilizado para realizar la transacción.</td></tr><tr><td><strong><code>Proveedor</code></strong></td><td>Nombre del proveedor del canal de pago.</td></tr><tr><td><strong><code>Estado Depósito</code></strong></td><td>Estado actual del depósito <em>(Ej. Aprobado, rechazado).</em></td></tr><tr><td><strong><code>Valor Depósito</code></strong></td><td>Monto del depósito realizado.</td></tr></tbody></table>
+<table><thead><tr><th width="240">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Id Usuario</code></strong></td><td>Identificador del usuario que realizó el depósito.</td></tr><tr><td><strong><code>Id</code></strong></td><td>Identificador único del depósito registrado.</td></tr><tr><td>Id final</td><td></td></tr><tr><td>Ip</td><td></td></tr><tr><td><strong><code>Id Externo</code></strong></td><td>Identificador asignado por el proveedor.</td></tr><tr><td><strong><code>Fecha Creacion Time</code></strong></td><td>Fecha del depósito en <em>(formato: dd/mm/aaaa).</em></td></tr><tr><td><strong><code>Fecha modificacion Time</code></strong></td><td></td></tr><tr><td><strong><code>Medio del depósito</code></strong></td><td>Canal mediante el cual se realizó el depósito.</td></tr><tr><td>Id medio deposito</td><td></td></tr><tr><td><strong><code>Nombre medio del depósito</code></strong></td><td>Nombre del medio utilizado para realizar la transacción.</td></tr><tr><td><strong><code>Proveedor</code></strong></td><td>Nombre del proveedor del canal de pago.</td></tr><tr><td><strong><code>Estado Depósito</code></strong></td><td>Estado actual del depósito <em>(Ej. Aprobado, rechazado).</em></td></tr><tr><td><strong><code>Valor Depósito</code></strong></td><td>Monto del depósito realizado.</td></tr></tbody></table>
 
 ***
 
