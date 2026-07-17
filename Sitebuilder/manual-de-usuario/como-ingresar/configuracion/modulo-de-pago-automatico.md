@@ -98,6 +98,6 @@ La pantalla inicial muestra las pasarelas _(Subproveedor)_ disponibles en la pla
 
 <summary>🔽 Historial de versiones</summary>
 
-<table><thead><tr><th width="107">Versión</th><th width="141">Fecha</th><th width="134">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>20/04/2026</td><td>Karol Navia</td><td>Creación del manual del Módulo de Pago Automático</td></tr></tbody></table>
+<table><thead><tr><th width="107">Versión</th><th width="141">Fecha</th><th width="134">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>20/04/2026</td><td>Karol Navia</td><td>Creación del manual del Módulo de Pago Automático</td></tr><tr><td>1.1</td><td>18/06/2026</td><td>Karol Navia</td><td>Se agregó que las pasarelas son subproveedores.</td></tr></tbody></table>
 
 </details>
