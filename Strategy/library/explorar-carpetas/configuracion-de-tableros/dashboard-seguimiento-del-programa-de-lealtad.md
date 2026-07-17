@@ -37,9 +37,9 @@ Antes de visualizar el reporte, es necesario establecer las [configuraciones pre
 
 ***
 
-### 3. Visualizacion&#x20;
+### 3. Visualización&#x20;
 
-
+<figure><img src="../../../.gitbook/assets/image (221).png" alt=""><figcaption><p>Figura #1: Captura ejemplo de dashboard</p></figcaption></figure>
 
 ### 4. Filtros Disponibles
 
