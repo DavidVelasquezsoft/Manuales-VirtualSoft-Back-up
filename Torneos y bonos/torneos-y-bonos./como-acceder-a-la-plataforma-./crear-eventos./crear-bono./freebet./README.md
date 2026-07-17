@@ -130,6 +130,6 @@ De esta manera, el bono actúa como un respaldo parcial o total dependiendo del 
 
 <summary><strong>🔽 Historial de versiones</strong></summary>
 
-<table><thead><tr><th width="105">Versión</th><th width="140">Fecha</th><th width="157">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>2025-08-15</td><td>Ronald Peláez</td><td>Documento inicial.</td></tr><tr><td>1.1</td><td>2026-02-25</td><td>Ronald Peláez</td><td>Refinamiento de manual y ajuste en el campo "<strong><code>Es para</code></strong>?"</td></tr><tr><td>1.2</td><td>2026-03-17</td><td>David Velasquez</td><td>Ajuste en campo <strong><code>detalle de campaña</code></strong>.</td></tr></tbody></table>
+<table><thead><tr><th width="105">Versión</th><th width="140">Fecha</th><th width="157">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>15/08/2025</td><td>Ronald Peláez</td><td>Documento inicial.</td></tr><tr><td>1.1</td><td><p></p><p>25/02/2026</p><p></p></td><td>Ronald Peláez</td><td>Refinamiento de manual y ajuste en el campo "<strong><code>Es para</code></strong>?"</td></tr><tr><td>1.2</td><td>17/03/2026</td><td>David Velasquez</td><td>Ajuste en campo <strong><code>detalle de campaña</code></strong>.</td></tr><tr><td>1.3</td><td>17/07/2026</td><td>Karol Navia</td><td>Agregar la opción (<em>tours)</em> en el campo <strong><code>Es para?</code></strong></td></tr></tbody></table>
 
 </details>
