@@ -9,7 +9,7 @@ description: >-
 
 ### 1. Acceso al Módulo
 
-**Ruta de acceso**: Virtualsoft / Informes compartidos / Datas TI / Deposito
+**Ruta de acceso**: Virtualsoft > Informes compartidos > Datas TI > Paneles Visuales > Dashboard depósitos.
 
 ***
 
