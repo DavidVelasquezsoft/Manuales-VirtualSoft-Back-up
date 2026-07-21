@@ -545,6 +545,9 @@ Experiencia de Usuario, Percepción general que un usuario tiene al interactuar 
 *   #### **Umbral:**
 
     Límite cuantitativo (puntos) que determina el acceso a un nivel específico.
+*   #### **Usuarios únicos:**
+
+    Cantidad de personas diferentes que realizaron una acción durante el período consultado. Cada usuario se cuenta una sola vez, aunque haya realizado la misma acción varias veces.
 
 
 
