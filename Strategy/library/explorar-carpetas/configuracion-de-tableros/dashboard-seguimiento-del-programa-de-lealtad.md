@@ -53,6 +53,10 @@ Antes de visualizar el reporte, es necesario establecer las [configuraciones pre
 
 ### 5. Componentes del Dashboard
 
+{% hint style="warning" %}
+**Nota:** La información de las tablas y la gráfica se actualiza de acuerdo con los filtros aplicados en el dashboard.
+{% endhint %}
+
 Este Dashboard cuenta con diferentes  vistas de información estas son:
 
 {% tabs %}
@@ -141,13 +145,11 @@ Los KPI se muestran en la parte superior del dashboard y presentan **indicadores
 {% endtab %}
 
 {% tab title="Puntos calificables" %}
-La sección de Puntos calificables se encuentra dividida en cuatro vistas, cada una con información específica para el análisis y seguimiento del programa de lealtad.
+La sección de [Puntos calificables](https://virtualsoft.gitbook.io/plantillas/glosario#puntos-calificables) se encuentra dividida en cuatro vistas, cada una con información específica para el análisis y seguimiento del programa de lealtad.
 
 {% tabs %}
 {% tab title="General" %}
-{% hint style="warning" %}
-**Nota:** La información de las tablas y la gráfica se actualiza de acuerdo con los filtros aplicados en el dashboard.
-{% endhint %}
+
 
 ### Tablas
 
@@ -167,9 +169,7 @@ La sección de Puntos calificables se encuentra dividida en cuatro vistas, cada 
 {% endtab %}
 
 {% tab title="Movimiento" %}
-{% hint style="warning" %}
-**Nota:** La información de las tablas y la gráfica se actualiza de acuerdo con los filtros aplicados en el dashboard.
-{% endhint %}
+
 
 ### Filtros
 
@@ -185,9 +185,7 @@ La sección de Puntos calificables se encuentra dividida en cuatro vistas, cada 
 {% endtab %}
 
 {% tab title="Ciclos" %}
-{% hint style="warning" %}
-**Nota:** La información de las tablas y la gráfica se actualiza de acuerdo con los filtros aplicados en el dashboard.
-{% endhint %}
+
 
 ### Gráfica
 
