@@ -149,7 +149,7 @@ La sección de [Puntos calificables](https://virtualsoft.gitbook.io/plantillas/g
 
 {% tabs %}
 {% tab title="General" %}
-
+Consulta la distribución de los usuarios por nivel de lealtad, los puntos calificables acumulados y el progreso hacia el siguiente nivel.
 
 ### Tablas
 
