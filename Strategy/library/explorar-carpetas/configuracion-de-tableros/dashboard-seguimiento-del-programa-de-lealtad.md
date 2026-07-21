@@ -173,7 +173,7 @@ Consulta el historial de los movimientos de puntos calificables. Facilitando el 
 
 ### Filtros
 
-<table><thead><tr><th width="127">Campo</th><th width="140">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Fecha</code></strong></td><td>Selector de fecha</td><td>Fecha para consultar los movimientos de puntos calificables.</td></tr><tr><td><strong><code>Tipo Movimiento</code></strong></td><td>Botón de selección</td><td>Tipo de movimiento a consultar (<strong>Todos</strong>, <strong>Entrada</strong> o <strong>Salida</strong>).</td></tr><tr><td><strong><code>Movimiento</code></strong></td><td>Lista desplegable</td><td>Movimiento específico de puntos calificables utilizado como criterio de búsqueda.</td></tr></tbody></table>
+<table><thead><tr><th width="127">Campo</th><th width="140">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Fecha</code></strong></td><td>Selector de fecha</td><td>Fecha para consultar los movimientos de puntos calificables.</td></tr><tr><td><strong><code>Tipo Movimiento</code></strong></td><td>Botón de selección</td><td>Tipo de movimiento a consultar <em>(<strong>Todos</strong>, <strong>Entrada</strong> o <strong>Salida</strong>).</em></td></tr><tr><td><strong><code>Movimiento</code></strong></td><td>Lista desplegable</td><td>Permite seleccionar una o varias verticales <em>(Casino, Deportiva o Live Casino)</em> para filtrar la información de los movimientos de puntos calificables.</td></tr></tbody></table>
 
 ***
 
@@ -189,17 +189,15 @@ Consulta el estado de los ciclos de puntos calificables, mostrando la cantidad d
 
 ### Gráfica
 
-* Visualización de Expiración de Puntos Calificables
+* **Visualización de Expiración de Puntos Calificables**
 
-**Tipo de gráfica:**&#x20;
-
-<table><thead><tr><th width="193">Gráfica</th><th width="93">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Visualización de Expiración de Puntos Calificables</code></strong></td><td>Barras</td><td>Comparativo del valor de los puntos calificables por ciclo, clasificados según su estado (<strong>Activos</strong> o <strong>Expirados</strong>).</td></tr></tbody></table>
+<table><thead><tr><th width="193">Gráfica</th><th width="93">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Visualización de Expiración de Puntos Calificables</code></strong></td><td>Barras</td><td>Comparativo del valor de los puntos calificables por ciclo, clasificados según su estado <em>(<strong>Activos</strong> o <strong>Expirados</strong>).</em></td></tr></tbody></table>
 
 ***
 
 ### Tabla:&#x20;
 
-* Detalle Ciclos
+* **Detalle Ciclos**
 
 <table><thead><tr><th width="189">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Partner</code></strong></td><td>Nombre del partner al que pertenece el registro.</td></tr><tr><td><strong><code>País</code></strong></td><td>País asociado al registro.</td></tr><tr><td><strong><code>ID Ciclo</code></strong></td><td>Identificador único del ciclo de lealtad.</td></tr><tr><td><strong><code>ID Usuario</code></strong></td><td>Identificador único del usuario.</td></tr><tr><td><strong><code>Estado Ciclo Lealtad Calificable</code></strong></td><td>Estado actual del ciclo de lealtad (<strong>Activo</strong> o <strong>Expirado</strong>).</td></tr><tr><td><strong><code>Duración Ciclo Lealtad Calificable</code></strong></td><td>Tiempo de vigencia configurado para el ciclo de puntos calificables.</td></tr><tr><td><strong><code>Valor Puntos por Ciclos</code></strong></td><td>Cantidad de puntos calificables acumulados dentro del ciclo correspondiente.</td></tr></tbody></table>
 {% endtab %}
@@ -217,13 +215,7 @@ Analiza el comportamiento histórico de los usuarios dentro del programa de leal
 
 ### Gráficas:
 
-* **Evolución Histórica Usuario por Mes**
-
-<table><thead><tr><th width="152">Gráfica</th><th width="113">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Evolución Histórica Usuario por Mes</code></strong></td><td>Gráfica de  Barras</td><td>Cantidad de usuarios por nivel de lealtad durante cada mes del período consultado.</td></tr></tbody></table>
-
-* **Evolución Histórica Usuario por Día**
-
-<table><thead><tr><th width="156">Gráfica</th><th width="113">Tipo</th><th width="330">Descripción</th></tr></thead><tbody><tr><td><strong><code>Evolución Histórica Usuario por Día</code></strong></td><td>Gráfica de  Barras</td><td>Cantidad de usuarios por nivel de lealtad durante cada día del período consultado.</td></tr></tbody></table>
+<table><thead><tr><th width="152">Gráfica</th><th width="113">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Evolución Histórica Usuario por Mes</code></strong></td><td>Gráfica de  Barras</td><td>Cantidad de usuarios por nivel de lealtad durante cada mes del período consultado.</td></tr><tr><td><strong><code>Evolución Histórica Usuario por Día</code></strong></td><td>Gráfica de  Barras</td><td>Cantidad de usuarios por nivel de lealtad durante cada día del período consultado.</td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Detalle Evolución" %}
