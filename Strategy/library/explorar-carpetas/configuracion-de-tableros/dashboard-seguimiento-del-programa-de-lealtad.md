@@ -169,7 +169,7 @@ Consulta la distribución de los usuarios por nivel de lealtad, los puntos calif
 {% endtab %}
 
 {% tab title="Movimiento" %}
-
+Consulta el historial de los movimientos de puntos calificables. Facilitando el seguimiento de las entradas y salidas de puntos de lealtad.
 
 ### Filtros
 
@@ -185,7 +185,7 @@ Consulta la distribución de los usuarios por nivel de lealtad, los puntos calif
 {% endtab %}
 
 {% tab title="Ciclos" %}
-
+Consulta el estado de los ciclos de puntos calificables, mostrando la cantidad de puntos activos y expirados por ciclo.
 
 ### Gráfica
 
