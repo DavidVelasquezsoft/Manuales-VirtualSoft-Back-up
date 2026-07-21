@@ -173,7 +173,7 @@ Consulta el historial de los movimientos de puntos calificables. Facilitando el 
 
 ### Filtros
 
-<table><thead><tr><th width="127">Campo</th><th width="140">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Desde</code></strong></td><td>Selector de fecha</td><td>Fecha inicial para consultar los movimientos de puntos calificables.</td></tr><tr><td><strong><code>Hasta</code></strong></td><td>Selector de fecha</td><td>Fecha final para consultar los movimientos de puntos calificables.</td></tr><tr><td><strong><code>Tipo Movimiento</code></strong></td><td>Botón de selección</td><td>Tipo de movimiento a consultar (<strong>Todos</strong>, <strong>Entrada</strong> o <strong>Salida</strong>).</td></tr><tr><td><strong><code>Movimiento</code></strong></td><td>Lista desplegable</td><td>Movimiento específico de puntos calificables utilizado como criterio de búsqueda.</td></tr></tbody></table>
+<table><thead><tr><th width="127">Campo</th><th width="140">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Fecha</code></strong></td><td>Selector de fecha</td><td>Fecha para consultar los movimientos de puntos calificables.</td></tr><tr><td><strong><code>Tipo Movimiento</code></strong></td><td>Botón de selección</td><td>Tipo de movimiento a consultar (<strong>Todos</strong>, <strong>Entrada</strong> o <strong>Salida</strong>).</td></tr><tr><td><strong><code>Movimiento</code></strong></td><td>Lista desplegable</td><td>Movimiento específico de puntos calificables utilizado como criterio de búsqueda.</td></tr></tbody></table>
 
 ***
 
