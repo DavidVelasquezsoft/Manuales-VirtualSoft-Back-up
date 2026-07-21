@@ -14,6 +14,7 @@
   * [Inicio](library/inicio.md)
   * [Explorar carpetas](library/explorar-carpetas/README.md)
     * [Configuración de tableros](library/explorar-carpetas/configuracion-de-tableros/README.md)
+      * [Dashboard Jackpot internacional](library/explorar-carpetas/configuracion-de-tableros/dashboard-jackpot-internacional.md)
       * [Dashboard Historial de Movimiento usuario](library/explorar-carpetas/configuracion-de-tableros/dashboard-historial-de-movimiento-usuario.md)
       * [Dashboard Retail](library/explorar-carpetas/configuracion-de-tableros/dashboard-retail.md)
       * [Dashboard Facturación Deportivas](library/explorar-carpetas/configuracion-de-tableros/dashboard-facturacion-deportivas.md)
