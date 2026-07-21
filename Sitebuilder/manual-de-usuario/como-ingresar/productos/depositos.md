@@ -2,7 +2,7 @@
 icon: sack-dollar
 ---
 
-# Depósito
+# Depósitos
 
 <mark style="color:$info;">El módulo de Depósito permite administrar la configuración de la experiencia de depósitos de la plataforma de usuarios online para el partner seleccionado. Desde aquí es posible activar la nueva visual de depósitos, personalizar su apariencia y comportamiento, configurar los estados de las transacciones y gestionar las franquicias que definen el funcionamiento del Orquestador de Franquicias, el cual determina qué franquicia y qué pasarela se utilizan durante el procesamiento de cada depósito.</mark>
 
@@ -12,7 +12,15 @@ icon: sack-dollar
 
 ***
 
-### 2.  Activar o desactivar la nueva visual de depósitos
+### 2. Configuraciones previas
+
+Para acceder a este módulo, es necesario haber completado previamente las siguientes configuraciones previas.
+
+<table><thead><tr><th width="207.55560302734375">Parámetro</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>País</code></strong></td><td>País para el cual se realizará la configuración</td></tr></tbody></table>
+
+***
+
+### 3.  Activar o desactivar la nueva visual de depósitos
 
 {% hint style="warning" %}
 **Nota:**&#x4C;a nueva visual de depósitos estará **desactivada por defecto**.
@@ -56,17 +64,13 @@ Esta pestaña permite configurar la representación visual y el texto de cada es
 {% endtab %}
 
 {% tab title="Gestión de franquicias" %}
-Esta pestaña permite configurar la representación visual y el texto de cada estado por el que puede pasar una transacción de depósito, personalizando lo que verá el usuario según el resultado de su operación.
 
-{% hint style="warning" %}
-**Nota:** Antes de visualizar información, el operador debe seleccionar el país sobre el cual desea administrar las franquicias. Hasta que no se seleccione un país, no se habilitan las acciones de configuración.
-{% endhint %}
 
 #### **Visualización**
 
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p>Figura#3: Captura de pantalla configuración estados.</p></figcaption></figure>
 
-
-#### **Indicadores (KPIs)**
+#### **Indicadores (**_**KPIs**_**)**
 
 En la parte superior de la pestaña se muestran indicadores que resumen el estado de las franquicias del país seleccionado.
 
@@ -82,7 +86,7 @@ En la parte superior de la pestaña se muestran indicadores que resumen el estad
 
 Las franquicias configuradas para el país seleccionado se muestran en formato de tarjetas. Cada tarjeta presenta la siguiente información:
 
-<table><thead><tr><th width="214.16668701171875">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Nombre de la franquicia</code></strong></td><td>Nombre con el que se identifica la franquicia.</td></tr><tr><td><strong><code>Logo o imagen</code></strong></td><td>Imagen representativa de la franquicia.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Estado actual de la franquicia <em>(Activa o Inactiva)</em>.</td></tr><tr><td><strong><code>Cantidad de pasarelas asociadas</code></strong></td><td>Número de productos de pasarela vinculados a la franquicia.</td></tr><tr><td><strong><code>Prioridad</code></strong></td><td>Posición de la franquicia dentro del orden de prioridad. La prioridad #1 corresponde a la franquicia que se visualiza en la primera posición de la plataforma en la vista de depósitos <em>(Prioridad #1, #2, #3, etc.)</em>.</td></tr><tr><td><strong><code>Reglas programadas activas</code></strong></td><td>Indicador visual destacado que se muestra cuando la franquicia tiene reglas programadas activas.</td></tr><tr><td><strong><code>Pasarelas inactivas</code></strong></td><td>Indicador visual informativo que se muestra cuando la franquicia tiene pasarelas inactivas, con la cantidad correspondiente.</td></tr><tr><td><strong><code>Fecha de última modificación</code></strong></td><td>Fecha del último cambio realizado sobre la franquicia.</td></tr></tbody></table>
+<table><thead><tr><th width="214.16668701171875">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Nombre de la franquicia</code></strong></td><td>Nombre con el que se identifica la franquicia.</td></tr><tr><td><strong><code>Logo o imagen</code></strong></td><td>Imagen representativa de la franquicia.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Estado actual de la franquicia <em>(Activa o Inactiva)</em>.</td></tr><tr><td><strong><code>Cantidad de pasarelas asociadas</code></strong></td><td>Número de productos de pasarela vinculados a la franquicia.</td></tr><tr><td><strong><code>Prioridad</code></strong></td><td>Posición de la franquicia dentro del orden de prioridad. La prioridad #1 corresponde a la franquicia que se visualiza en la primera posición de la plataforma en la vista de depósitos <em>(Prioridad #1, #2, #3, etc.)</em>.</td></tr><tr><td><strong><code>Reglas programadas activas</code></strong></td><td>Indicador visual destacado que se muestra cuando la franquicia tiene reglas programadas activas.</td></tr><tr><td><strong><code>Estado pasarelas</code></strong></td><td>Indicador visual informativo que se muestra el estado de las pasarelas que tiene la franquicia, indicando si estas se encuentran activas o inactivas con la cantidad correspondiente. (mejorar)</td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr></tbody></table>
 
 ***
 

@@ -73,8 +73,8 @@ Las configuraciones disponibles en estos m√≥dulos afectan directamente la secci√
 [configurar-depositos.md](configurar-depositos.md)
 {% endcontent-ref %}
 
-{% content-ref url="deposito.md" %}
-[deposito.md](deposito.md)
+{% content-ref url="depositos.md" %}
+[depositos.md](depositos.md)
 {% endcontent-ref %}
 
 {% content-ref url="retiros.md" %}

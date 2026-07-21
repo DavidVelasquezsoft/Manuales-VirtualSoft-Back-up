@@ -30,7 +30,7 @@
       * [Cards deportivas](manual-de-usuario/como-ingresar/productos/cards-deportivas.md)
       * [Editar depósitos](manual-de-usuario/como-ingresar/productos/editar-depositos.md)
       * [Configurar depósitos](manual-de-usuario/como-ingresar/productos/configurar-depositos.md)
-      * [Depósito](manual-de-usuario/como-ingresar/productos/deposito.md)
+      * [Depósitos](manual-de-usuario/como-ingresar/productos/depositos.md)
       * [Retiros](manual-de-usuario/como-ingresar/productos/retiros.md)
     * [Acuerdos](manual-de-usuario/como-ingresar/acuerdos/README.md)
       * [Términos](manual-de-usuario/como-ingresar/acuerdos/terminos.md)

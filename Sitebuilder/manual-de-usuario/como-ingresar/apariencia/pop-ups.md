@@ -39,7 +39,7 @@ Este manual cubre el uso de la sección [**pop ups**](https://virtualsoft.gitboo
 
 ### **4. Visualización**
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Figura #1: Captura de pantalla módulo Pop Ups.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Figura #1: Captura de pantalla módulo Pop Ups.</p></figcaption></figure>
 
 ***
 
