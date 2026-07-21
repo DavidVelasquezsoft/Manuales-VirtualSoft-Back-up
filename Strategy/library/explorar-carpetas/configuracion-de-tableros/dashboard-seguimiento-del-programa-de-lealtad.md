@@ -213,9 +213,7 @@ La sección Evolución cuenta con dos vistas, cada una diseñada para presentar 
 
 {% tabs %}
 {% tab title="Evolución" %}
-{% hint style="warning" %}
-**Nota:** La información de las gráficas se actualiza de acuerdo con el rango de fechas y el nivel de lealtad seleccionados en los filtros.
-{% endhint %}
+Analiza el comportamiento histórico de los usuarios dentro del programa de lealtad.
 
 ### Gráficas:
 
@@ -229,9 +227,7 @@ La sección Evolución cuenta con dos vistas, cada una diseñada para presentar 
 {% endtab %}
 
 {% tab title="Detalle Evolución" %}
-{% hint style="warning" %}
-**Nota:** La información del detalle histórico se actualiza de acuerdo con el rango de fechas y el nivel de lealtad seleccionados.
-{% endhint %}
+Consulta el historial de cambios de nivel de los usuarios dentro del programa de lealtad.
 
 ### Tabla
 
