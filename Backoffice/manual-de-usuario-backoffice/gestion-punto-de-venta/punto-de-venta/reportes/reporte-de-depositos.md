@@ -33,25 +33,23 @@ Reporte de depósitos realizados por el punto de venta.
 
 ### 2. Visualización
 
-<figure><img src="../../../../.gitbook/assets/image (698).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Pago premio.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (698).png" alt=""><figcaption><p>Figura #1: Captura de pantalla reporte de Depósitos.</p></figcaption></figure>
 
 ***
 
 ### 3.  Acciones de usuario
 
-<table><thead><tr><th width="170.4444580078125">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="reporte-de-depositos.md#id-3.1.-filtros"><strong>Filtros</strong></a></td><td>Permite buscar por un ticket en específico.</td></tr><tr><td><strong>Limpiar</strong></td><td>Restablece los filtros por defecto.</td></tr><tr><td><a href="reporte-de-depositos.md#id-3.2.-consultar"><strong>Consultar</strong></a></td><td>Busca el ticket en el sistema y muestra toda la información acerca de ese ticket y el pago del premio.</td></tr></tbody></table>
+<table><thead><tr><th width="170.4444580078125">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Filtros</strong></td><td>Permite buscar el historial de los depósitos realizados por el punto de venta con la ayuda de filtros.</td></tr><tr><td><strong>Limpiar</strong></td><td>Restablece los filtros por defecto.</td></tr><tr><td><strong>Consultar</strong></td><td>Aplica los filtros configurados y obtén los resultados.</td></tr></tbody></table>
 
 ### 4. Filtros
 
-<table><thead><tr><th width="135.25">Campo</th><th width="117.25">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="https://virtualsoft.gitbook.io/untitled/glosario/#ticket"><strong><code>Ticket</code></strong></a></td><td>Numérico</td><td>Ingresa el <strong>ID de la apuesta</strong>, el cual se encuentra en el recibo generado al realizar una apuesta desde la sección <strong>Apuestas Deportivas</strong>.</td></tr><tr><td><strong><code>Clave</code></strong> <a href="https://virtualsoft.gitbook.io/untitled/glosario/#ticket"><strong><code>Ticket</code></strong></a></td><td>Numérico</td><td>Ingresa el valor <strong>IB</strong> asociado a la apuesta, disponible en el recibo de la apuesta realizada en la sección <strong>Apuestas Deportivas</strong>.</td></tr></tbody></table>
+<table><thead><tr><th width="135.25">Campo</th><th width="117.25">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Fecha</code></strong></td><td>Calendario</td><td>Rango de fechas en la cual se realizaron los depósitos.</td></tr><tr><td><strong><code>Transacción ID</code></strong></td><td>Numérico</td><td>Identificador único del depósito realizado.</td></tr></tbody></table>
 
 ### 5. Resultado de Consulta
 
-Permite consultar un ticket para verificar la información del pago y su estado. Si el ticket se encuentra en estado ganador y no ha sido pagado, habilita el pago del premio y la entrega de la factura. Adicionalmente, muestra una tabla con el detalle completo del ticket consultado.
+El reporte de depósitos se visualizará en una tabla que contiene las siguientes columnas:
 
-#### **5.1. Información del pago y su estado**
-
-<table><thead><tr><th width="140.25">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Valor a pagar</code></strong></td><td>Indica el monto que el punto de venta debe entregar al usuario cuando la apuesta resulta ganadora.</td></tr><tr><td><strong><code>Valor apostado</code></strong></td><td>Representa la cantidad de dinero que el usuario invirtió al realizar la apuesta.</td></tr><tr><td><strong><code>Impuesto</code></strong></td><td>Muestra el valor aplicado al usuario correspondiente a impuestos asociados a la apuesta.</td></tr><tr><td><strong><code>Premio proyectado</code></strong></td><td>Indica el monto estimado que el usuario podría ganar si la apuesta resulta exitosa.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Refleja el estado actual de la apuesta con los siguientes estados:</td></tr><tr><td><strong><code>Ganador</code></strong></td><td>Indica si la apuesta fue ganadora o no, según el resultado final del evento.</td></tr><tr><td><strong><code>Pagar premio</code></strong></td><td><p>Permite procesar el pago del ticket ganador y despliega las opciones disponibles para generar y entregar la factura al usuario. Selecciona la opción correspondiente para completar el proceso.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Esta opción solo se muestra cuando el ticket tiene estado ganador y el premio aún no ha sido pagado.</p></div></td></tr></tbody></table>
+<table><thead><tr><th width="140.25">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>ID</code></strong></td><td>Identificador único del depósito realizado.</td></tr><tr><td><strong><code>Id Usuario</code></strong></td><td></td></tr><tr><td><strong><code>Fecha de creación</code></strong></td><td></td></tr><tr><td><strong><code>Nombre del sistema de pasarela de pago</code></strong></td><td></td></tr><tr><td><strong><code>Tipo</code></strong></td><td></td></tr><tr><td><strong><code>Moneda</code></strong></td><td></td></tr><tr><td><strong><code>Valor</code></strong></td><td></td></tr><tr><td><strong><code>Modificado</code></strong></td><td></td></tr><tr><td><strong><code>Estado</code></strong></td><td></td></tr><tr><td><strong><code>External ID</code></strong></td><td></td></tr></tbody></table>
 
 #### **5.2. Tabla de detalles**
 
