@@ -21,7 +21,7 @@ layout:
 
 # Puntos lealtad
 
-<mark style="color:$info;">Desde este módulo es posible administrar los puntos canjeables y</mark> [<mark style="color:$info;">calificables</mark>](https://virtualsoft.gitbook.io/plantillas/glosario#puntos-calificables)<mark style="color:$info;">, redimir premios, consultar el avance en los niveles de lealtad y visualizar las promociones disponibles.</mark>
+<mark style="color:$info;">Desde este módulo es posible consultar el progreso de los</mark> [<mark style="color:$info;">puntos calificables</mark>](https://virtualsoft.gitbook.io/plantillas/glosario#puntos-calificables)<mark style="color:$info;">, realizar el seguimiento del avance en los niveles de lealtad y visualizar las promociones disponibles.</mark>
 
 ### 1. Acceso al Módulo:
 
@@ -38,7 +38,7 @@ layout:
 
 ### 2. Acciones del Usuario
 
-<table><thead><tr><th width="158.09088134765625">Sección</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="https://virtualsoft.gitbook.io/manuales/usuarios/usuarios-online/manual-de-plataforma/puntos-lealtad#id-2.-acciones-del-usuario#doradoclub"><strong>Dorado Club</strong></a></td><td><p>Conoce como obtener puntos lealtad para redimir premios.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota</strong>: El nombre de este módulo puede variar según </p></div></td></tr><tr><td><a href="https://virtualsoft.gitbook.io/manuales/usuarios/usuarios-online/manual-de-plataforma/puntos-lealtad#id-2.-acciones-del-usuario#niveles-de-lealtad"><strong>Niveles lealtad</strong></a></td><td>Visualiza los niveles lealtad disponibles junto con los premios de cada nivel <em>(si aplica).</em></td></tr><tr><td><a href="https://virtualsoft.gitbook.io/manuales/usuarios/usuarios-online/manual-de-plataforma/puntos-lealtad#id-2.-acciones-del-usuario#ir-a-la-tienda-de-premios"><strong>Ir a la tienda de premios</strong></a></td><td>Despliega los premios disponibles para redimir.</td></tr><tr><td><a href="https://virtualsoft.gitbook.io/manuales/usuarios/usuarios-online/manual-de-plataforma/puntos-lealtad#id-2.-acciones-del-usuario#puntos-calificables"><strong>Puntos calificables</strong></a></td><td>Visualiza una tabla con el historial de movimientos de los puntos calificables.</td></tr><tr><td><a href="https://virtualsoft.gitbook.io/manuales/usuarios/usuarios-online/manual-de-plataforma/puntos-lealtad#id-2.-acciones-del-usuario#transacciones"><strong>Transacciones</strong></a></td><td>Visualiza el historial de transacciones tanto de los puntos calificables como de los puntos lealtad. </td></tr><tr><td><a href="https://virtualsoft.gitbook.io/manuales/usuarios/usuarios-online/manual-de-plataforma/puntos-lealtad#id-2.-acciones-del-usuario#cambios-de-nivel"><strong>Cambios de nivel</strong></a></td><td>Visualiza el historial de cambios en los niveles lealtad.</td></tr></tbody></table>
+<table><thead><tr><th width="158.09088134765625">Sección</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="https://virtualsoft.gitbook.io/manuales/usuarios/usuarios-online/manual-de-plataforma/puntos-lealtad#id-2.-acciones-del-usuario#doradoclub"><strong>Dorado Club</strong></a></td><td><p>Conoce como obtener puntos lealtad para redimir premios.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota</strong>: El nombre de este módulo puede variar según el <a href="https://virtualsoft.gitbook.io/plantillas/glosario#partner">partner</a>.</p></div></td></tr><tr><td><a href="https://virtualsoft.gitbook.io/manuales/usuarios/usuarios-online/manual-de-plataforma/puntos-lealtad#id-2.-acciones-del-usuario#niveles-de-lealtad"><strong>Niveles lealtad</strong></a></td><td>Visualiza los niveles lealtad disponibles junto con los premios de cada nivel <em>(si aplica).</em></td></tr><tr><td><a href="https://virtualsoft.gitbook.io/manuales/usuarios/usuarios-online/manual-de-plataforma/puntos-lealtad#id-2.-acciones-del-usuario#ir-a-la-tienda-de-premios"><strong>Ir a la tienda de premios</strong></a></td><td>Muestra la tienda con los premios disponibles para redimir.</td></tr><tr><td><a href="https://virtualsoft.gitbook.io/manuales/usuarios/usuarios-online/manual-de-plataforma/puntos-lealtad#id-2.-acciones-del-usuario#puntos-calificables"><strong>Puntos calificables</strong></a></td><td>Visualiza una tabla con el historial de movimientos de los puntos calificables.</td></tr><tr><td><a href="https://virtualsoft.gitbook.io/manuales/usuarios/usuarios-online/manual-de-plataforma/puntos-lealtad#id-2.-acciones-del-usuario#transacciones"><strong>Transacciones</strong></a></td><td>Visualiza el historial de transacciones tanto de los puntos calificables como de los puntos lealtad. </td></tr><tr><td><a href="https://virtualsoft.gitbook.io/manuales/usuarios/usuarios-online/manual-de-plataforma/puntos-lealtad#id-2.-acciones-del-usuario#cambios-de-nivel"><strong>Cambios de nivel</strong></a></td><td>Visualiza el historial de cambios en los niveles lealtad.</td></tr></tbody></table>
 
 ***
 
@@ -47,7 +47,7 @@ layout:
 Este módulo está organizado en tres secciones principales que permanecen distribuidas a lo largo de la pantalla:
 
 * [**Sección superior**](https://virtualsoft.gitbook.io/manuales/usuarios/usuarios-online/manual-de-plataforma/puntos-lealtad#id-2.-acciones-del-usuario)**:** Contiene el menú de navegación con los diferentes apartados del módulo. Este menú permanecerá siempre visible para facilitar el acceso a cualquier opción disponible.
-* **Sección central:** Presenta una tarjeta con la información del progreso del usuario hacia el siguiente nivel. Esta sección es fija y se mantiene visible independientemente de la opción seleccionada.
+* [**Sección central**](https://virtualsoft.gitbook.io/manuales/usuarios/usuarios-online/manual-de-plataforma/puntos-lealtad#progreso-hacia-el-proximo-nivel)**:** Presenta una tarjeta con la información del progreso del usuario hacia el siguiente nivel. Esta sección es fija y se mantiene visible independientemente de la opción seleccionada.
 
 <details>
 
@@ -60,8 +60,6 @@ Este módulo está organizado en tres secciones principales que permanecen distr
 <table><thead><tr><th width="162">Sección</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Tiempo restante</code></strong></td><td>Visualiza un contador con el tiempo restante en el nivel actual.</td></tr><tr><td><strong><code>Información del perfil</code></strong></td><td>Visualiza la foto de perfil de la cuenta, el nombre y debajo el nivel lealtad.</td></tr><tr><td><strong><code>Tus puntos</code></strong></td><td>Cantidad actual de puntos lealtad</td></tr><tr><td><strong><code>Barra de progreso</code></strong></td><td><p>visualiza una tarjeta que contiene una barra que indica la cantidad de puntos que se tiene comparado con la cantidad de puntos que se necesita para el siguiente nivel.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota</strong>: La cantidad de barras de progreso que se visualizan depende de la configuración del nivel de lealtad. Si el nivel requiere cumplir tanto una meta de puntos como de depósitos, se mostrarán dos barras de progreso: una correspondiente a los <strong>puntos de lealtad</strong> y otra a los <strong>depósitos realizados</strong>.</p></div></td></tr><tr><td><strong><code>Términos y condiciones</code></strong></td><td>Visualiza los términos y condiciones generales de los niveles lealtad</td></tr></tbody></table>
 
 </details>
-
-
 
 * **Sección inferior:** Muestra el contenido correspondiente a la opción seleccionada en el menú superior. Esta es la única sección cuyo contenido cambia según el apartado elegido.
 
@@ -205,7 +203,7 @@ Visualiza el historial de cambios de niveles lealtad en la cuenta del usuario.
 
 ***
 
-### 6. Control de Versiones
+### 5. Control de Versiones
 
 <details>
 
