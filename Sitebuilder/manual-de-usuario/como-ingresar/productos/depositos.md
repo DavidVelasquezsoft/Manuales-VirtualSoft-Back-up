@@ -4,7 +4,7 @@ icon: sack-dollar
 
 # Depósitos
 
-<mark style="color:$info;">El módulo de Depósito permite administrar la configuración de la experiencia de depósitos de la plataforma de usuarios online para el partner seleccionado. Desde aquí es posible activar la nueva visual de depósitos, personalizar su apariencia y comportamiento, configurar los estados de las transacciones y gestionar las franquicias que definen el funcionamiento del Orquestador de Franquicias, el cual determina qué franquicia y qué pasarela se utilizan durante el procesamiento de cada depósito.</mark>
+<mark style="color:$info;">El módulo de Depósito permite administrar la configuración de la experiencia de depósitos de la plataforma de usuarios online para el partner seleccionado. Desde aquí es posible activar la nueva visual de depósitos, personalizar su apariencia y comportamiento, configurar los estados de las transacciones y gestionar las franquicias de pago, definiendo cuáles se muestran al jugador, en qué orden y con qué pasarelas operan.</mark>
 
 ### 1. Acceso al Módulo:
 
@@ -64,73 +64,87 @@ Esta pestaña permite configurar la representación visual y el texto de cada es
 {% endtab %}
 
 {% tab title="Gestión de franquicias" %}
+Esta pestaña permite administrar las franquicias de depósito que verá el jugador en la plataforma de usuarios online, definiendo cuáles se muestran, en qué orden aparecen y con qué pasarelas de pago operan.
 
+{% hint style="info" %}
+La configuración definida aquí determina el orden en el que las franquicias y sus pasarelas se presentan al jugador al momento de depositar. La prioridad, los rangos de montos, el estado de cada pasarela y las reglas programadas establecen cuál se muestra primero y cuál se utiliza según el monto que el jugador desee depositar.
+{% endhint %}
 
 #### **Visualización**
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p>Figura#3: Captura de pantalla configuración estados.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 #### **Indicadores (**_**KPIs**_**)**
 
 En la parte superior de la pestaña se muestran indicadores que resumen el estado de las franquicias del país seleccionado.
 
-<table><thead><tr><th width="146.66668701171875">Indicador</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Franquicias creadas</code></strong></td><td>Cantidad total de franquicias registradas para el partner y país seleccionados, sumando activas e inactivas.</td></tr><tr><td><strong><code>Franquicias activas</code></strong></td><td>Cantidad de franquicias que se encuentran activas y participan en el Orquestador.</td></tr><tr><td><strong><code>Franquicias inactivas</code></strong></td><td>Cantidad de franquicias que se encuentran inactivas y no participan en el Orquestador.</td></tr></tbody></table>
+<table><thead><tr><th width="146.66668701171875">Indicador</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Franquicias creadas</code></strong></td><td>Cantidad total de franquicias asociadas al partner y país seleccionados, sumando activas e inactivas.</td></tr><tr><td><strong><code>Franquicias activas</code></strong></td><td>Cantidad de franquicias habilitadas, es decir, aquellas disponibles para que el jugador realice depósitos.</td></tr><tr><td><strong><code>Franquicias inactivas</code></strong></td><td>Cantidad de franquicias deshabilitadas, las cuales conservan su configuración pero no se muestran al jugador.</td></tr></tbody></table>
 
 #### **Acciones disponibles**
 
-<table><thead><tr><th width="200">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Buscar franquicia</strong></td><td>Permite localizar rápidamente una franquicia dentro del listado de tarjetas del país seleccionado, facilitando su gestión cuando existe un número elevado de franquicias configuradas.</td></tr><tr><td><strong>Crear franquicia</strong></td><td>Permite registrar una nueva franquicia y configurar sus productos, prioridades, rangos y reglas.</td></tr><tr><td><strong>Gestionar franquicias</strong></td><td>Permite visualizar, editar, activar, desactivar, eliminar y reordenar las franquicias existentes.</td></tr><tr><td><strong>Historial de movimientos</strong></td><td>Permite consultar el registro de auditoría con los cambios realizados sobre las franquicias y sus productos.</td></tr></tbody></table>
+<table><thead><tr><th width="200">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Buscar franquicia</strong></td><td>Permite localizar rápidamente una franquicia dentro del listado de tarjetas del país seleccionado, facilitando su gestión cuando existe un número elevado de franquicias configuradas.</td></tr><tr><td><strong>Asociar franquicia</strong></td><td>Permite vincular al partner y país seleccionados una franquicia ya existente en el sistema, definiendo las pasarelas de pago con las que operará y su configuración.</td></tr><tr><td><strong>Gestionar franquicias</strong></td><td>Permite visualizar, editar, activar, desactivar, eliminar y reordenar las franquicias ya asociadas.</td></tr><tr><td><strong>Historial de movimientos</strong></td><td>Permite consultar el registro de auditoría con los cambios realizados sobre las franquicias y sus pasarelas.</td></tr></tbody></table>
+
+{% hint style="warning" %}
+**Nota:** Es necesario seleccionar un país antes de que se habiliten las acciones de configuración de esta pestaña.
+{% endhint %}
 
 ***
 
 #### **Vista principal de franquicias**
 
-Las franquicias configuradas para el país seleccionado se muestran en formato de tarjetas. Cada tarjeta presenta la siguiente información:
+Las franquicias asociadas al país seleccionado se muestran en formato de tarjetas, ordenadas según su prioridad. Cada tarjeta presenta las siguientes acciones e información:
 
-<table><thead><tr><th width="214.16668701171875">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Nombre de la franquicia</code></strong></td><td>Nombre con el que se identifica la franquicia.</td></tr><tr><td><strong><code>Logo o imagen</code></strong></td><td>Imagen representativa de la franquicia.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Estado actual de la franquicia <em>(Activa o Inactiva)</em>.</td></tr><tr><td><strong><code>Cantidad de pasarelas asociadas</code></strong></td><td>Número de productos de pasarela vinculados a la franquicia.</td></tr><tr><td><strong><code>Prioridad</code></strong></td><td>Posición de la franquicia dentro del orden de prioridad. La prioridad #1 corresponde a la franquicia que se visualiza en la primera posición de la plataforma en la vista de depósitos <em>(Prioridad #1, #2, #3, etc.)</em>.</td></tr><tr><td><strong><code>Reglas programadas activas</code></strong></td><td>Indicador visual destacado que se muestra cuando la franquicia tiene reglas programadas activas.</td></tr><tr><td><strong><code>Estado pasarelas</code></strong></td><td>Indicador visual informativo que se muestra el estado de las pasarelas que tiene la franquicia, indicando si estas se encuentran activas o inactivas con la cantidad correspondiente. (mejorar)</td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="214.16668701171875">Acción / Campo</th><th>Descripción</th></tr></thead><tbody><tr><td> <img src="../../../.gitbook/assets/Frame 1321316371.png" alt=""> <strong>Editar</strong></td><td>Permite modificar el nombre, la imagen, el estado, las pasarelas asociadas, las prioridades, los rangos de montos, los tiempos configurados y las reglas programadas de la franquicia.</td></tr><tr><td><img src="../../../.gitbook/assets/suiche.png" alt="">  <strong>Activar / Desactivar</strong></td><td>Habilita o deshabilita la franquicia. Al desactivarla, conserva toda su configuración pero deja de mostrarse al jugador en la plataforma.</td></tr><tr><td> <img src="../../../.gitbook/assets/image (425).png" alt="" data-size="line"> <strong>Eliminar</strong></td><td>Elimina la franquicia del sistema junto con su configuración.</td></tr><tr><td><img src="../../../.gitbook/assets/icon_drag_indicator.png" alt=""> <strong>Reordenar</strong></td><td>Cambia la posición de prioridad de la franquicia mediante arrastrar y soltar; al modificar el orden, el sistema recalcula automáticamente las posiciones.</td></tr><tr><td><strong><code>Nombre de la franquicia</code></strong></td><td>Nombre con el que se identifica la franquicia.</td></tr><tr><td><strong><code>Logo o imagen</code></strong></td><td>Imagen representativa de la franquicia, la cual se muestra al jugador en la plataforma.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Estado actual de la franquicia <em>(Activa o Inactiva)</em>.</td></tr><tr><td><strong><code>Cantidad de pasarelas asociadas</code></strong></td><td>Número de productos de pasarela vinculados a la franquicia.</td></tr><tr><td><strong><code>Prioridad</code></strong></td><td>Posición de la franquicia dentro del orden de visualización <em>(Prioridad #1, #2, #3, etc.)</em>. La prioridad #1 corresponde a la franquicia que el jugador ve en primer lugar en la vista de depósitos.</td></tr><tr><td><strong><code>Reglas programadas activas</code></strong></td><td>Indicador visual destacado que advierte cuando la franquicia tiene reglas programadas vigentes que modifican temporalmente su prioridad o la de sus pasarelas.</td></tr><tr><td><strong><code>Estado pasarelas</code></strong></td><td>Indicador visual informativo que muestra cuántas de las pasarelas asociadas a la franquicia se encuentran activas y cuántas inactivas, permitiendo identificar de un vistazo si alguna dejó de operar.</td></tr><tr><td><strong><code>Fecha de última modificación</code></strong></td><td>Fecha del último cambio realizado sobre la configuración de la franquicia.</td></tr></tbody></table>
+
+{% hint style="warning" %}
+**Nota:** Al editar una franquicia, antes de guardar se muestra un resumen de los cambios realizados y el guardado requiere token de autenticación.
+{% endhint %}
 
 ***
 
-#### &#x20;**Crear franquicia**
+**Asociar franquicia**
 
-Mediante el botón **+ Crear Franquicia** se registra una nueva franquicia. La configuración se divide en información general, configuración de productos (_pasarelas de pago_) y reglas programadas.
+El botón **Asociar Franquicia** permite vincular al partner y país seleccionados una franquicia ya existente en el sistema, y configurar las pasarelas de pago con las que operará. El proceso se realiza en dos pasos.
 
-**Información general**
+**Paso 1: Información general**
 
-<table><thead><tr><th width="159.16668701171875">Campo</th><th width="110">Obligatorio</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Nombre</code></strong></td><td>Sí</td><td>Nombre con el que se identifica la franquicia.</td></tr><tr><td><strong><code>Imagen o logo</code></strong></td><td>Sí</td><td>Imagen representativa de la franquicia.</td></tr><tr><td><strong><code>Monto mínimo</code></strong></td><td>Sí</td><td>Monto mínimo que podrá procesar la franquicia.</td></tr><tr><td><strong><code>Monto máximo</code></strong></td><td>Sí</td><td>Monto máximo que podrá procesar la franquicia.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Sí</td><td>Estado inicial de la franquicia <em>(Activa o Inactiva)</em>.</td></tr></tbody></table>
+Al seleccionar el botón **Asociar Franquicia** se abre un modal con los siguientes campos:
 
-{% hint style="warning" %}
-**Nota:** Al asociar los productos de pasarela, solo aparecerán disponibles aquellos cuyo rango mínimo y máximo (configurado en BackOffice, en productos) sea compatible con el rango definido para la franquicia. Esta validación evita crear franquicias cuyo rango supere el aceptado por la pasarela.
+<table><thead><tr><th width="150.27783203125">Campo</th><th width="111.77777099609375">Obligatorio</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Franquicia</code></strong></td><td>Sí</td><td>Permite seleccionar una franquicia existente en el sistema, creada previamente desde el módulo Franquicias BackOffice.</td></tr><tr><td><strong><code>Nombre</code></strong></td><td>Sí</td><td>Nombre con el que se identificará la franquicia.</td></tr><tr><td><strong><code>Imagen / logo</code></strong></td><td>No</td><td>Imagen representativa de la franquicia, la cual se muestra al jugador en la plataforma.</td></tr></tbody></table>
+
+Una vez diligenciados los campos, se debe seleccionar el botón **Continuar** para avanzar al paso 2.
+
+{% hint style="info" %}
+La imagen de la franquicia puede modificarse posteriormente desde la acción **Editar** de la tarjeta.
 {% endhint %}
 
-**Selección y configuración de productos (pasarelas de pago)**
+**Paso 2: Configuración de pasarelas de pago**
 
-Durante la creación se seleccionan los productos de pasarela que participarán en la franquicia. Solo se pueden asociar los productos que estén activos dentro de la operación en la que se trabaja, y debe asociarse **como mínimo uno** para poder crear la franquicia.
+En el segundo modal se define el comportamiento operativo de la franquicia y se seleccionan las pasarelas que participarán en ella:
 
-{% hint style="warning" %}
-**Nota:** Lo que aparece como seleccionable son los productos de las pasarelas.
-{% endhint %}
-
-Por cada producto asociado se configura y visualiza lo siguiente:
-
-<table><thead><tr><th width="220">Campo / Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Nombre</code></strong></td><td>Nombre del producto de pasarela.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Estado actual del producto <em>(Activo o Inactivo)</em>. Puede activarse o desactivarse dentro de la franquicia.</td></tr><tr><td><strong><code>Prioridad</code></strong></td><td>Posición del producto dentro del orden de prioridad de la franquicia. Se ajusta mediante arrastrar y soltar.</td></tr><tr><td><strong><code>Monto mínimo</code></strong></td><td>Monto mínimo que procesará el producto.</td></tr><tr><td><strong><code>Monto máximo</code></strong></td><td>Monto máximo que procesará el producto.</td></tr><tr><td><strong><code>Porcentaje de costo</code></strong></td><td>Campo informativo que indica el porcentaje que cobra la pasarela; sirve de apoyo para tomar decisiones sobre las prioridades.</td></tr><tr><td><strong><code>Tiempo de exclusión temporal</code></strong></td><td>Tiempo durante el cual el producto queda temporalmente excluido tras un rechazo.</td></tr><tr><td><strong><code>Reglas programadas</code></strong></td><td>Reglas que modifican temporalmente la prioridad del producto dentro de la franquicia.</td></tr><tr><td><strong>Activar / Desactivar</strong></td><td>Permite habilitar o inhabilitar el producto dentro de la franquicia sin eliminar su configuración.</td></tr></tbody></table>
+<table><thead><tr><th width="200">Campo</th><th width="111.77777099609375">Obligatorio</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Tiempo de exclusión temporal</code></strong></td><td>Sí</td><td>Define, en minutos, el tiempo que el usuario deberá esperar para volver a realizar un depósito con la misma pasarela después de un rechazo. Durante ese lapso, la plataforma le ofrece la siguiente pasarela disponible según el orden de prioridad.</td></tr><tr><td><strong><code>Productos (pasarelas de pago)</code></strong></td><td>Sí</td><td>Lista desplegable que permite seleccionar, sin límite de cantidad, los productos de pasarela que quedarán asociados a la franquicia.</td></tr></tbody></table>
 
 {% hint style="warning" %}
-**Nota:** Al desactivar un producto, este no se elimina y conserva toda su configuración, pero no participa en la lógica de priorización del Orquestador.
+**Notas:**
+
+* Los elementos seleccionables corresponden a los **productos** de las pasarelas, no a las pasarelas en sí.
+* Solo aparecen disponibles los productos que se encuentren **activos** en la operación sobre la cual se está trabajando y cuyo rango de montos sea compatible con el de la franquicia. Esta validación evita configurar franquicias cuyo rango supere el aceptado por la pasarela.
+* Debe asociarse **como mínimo un producto** para poder guardar la franquicia.
 {% endhint %}
 
-Adicionalmente, durante la creación se puede configurar:
+**Configuración de cada pasarela seleccionada**
 
-<table><thead><tr><th width="155.00006103515625">Campo</th><th width="110">Obligatorio</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Cantidad máxima de solicitudes enviadas</code></strong></td><td>No</td><td>Cantidad máxima de solicitudes de depósito que pueden permanecer en estado "Enviada" para la franquicia antes de que el Orquestador habilite el proceso con la siguiente pasarela disponible según la prioridad configurada.</td></tr></tbody></table>
+Cada producto seleccionado se agrega como una **tarjeta** dentro del modal, en la que se configuran los siguientes campos y acciones:
 
-**Priorización de productos**
+<table><thead><tr><th width="230">Campo / Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Nombre</code></strong></td><td>Nombre del producto de pasarela asociado.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Permite activar o desactivar el producto dentro de la franquicia. Al desactivarlo, conserva toda su configuración pero deja de mostrarse al jugador como opción de pago.</td></tr><tr><td><strong><code>Monto mínimo</code></strong></td><td>Monto mínimo que procesará el producto.</td></tr><tr><td><strong><code>Monto máximo</code></strong></td><td>Monto máximo que procesará el producto.</td></tr><tr><td><strong><code>Porcentaje de costo</code></strong></td><td>Campo informativo que indica el porcentaje que cobra la pasarela; sirve de apoyo para decidir el orden de prioridad.</td></tr><tr><td><strong><code>Cantidad máxima de solicitudes en estado Enviado</code></strong></td><td><p>Número máximo de solicitudes de depósito en estado <em>Enviado</em> que un mismo usuario puede tener con esa pasarela. Al alcanzarlo, la plataforma omite esa pasarela y continúa con la siguiente disponible según la prioridad.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Si el valor es <strong>0</strong> o el campo se deja vacío, esta validación no se aplica.</p></div></td></tr><tr><td><strong><code>Tiempo de espera en estado Enviado</code></strong></td><td><p>Tiempo, en minutos, que una solicitud puede permanecer en estado <em>Enviado</em> antes de mostrar al jugador un mensaje invitándolo a comunicarse con el servicio de atención al cliente.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Si el campo se deja vacío, el mensaje no se muestra al jugador, sin importar cuánto tiempo permanezca la solicitud en ese estado.</p></div></td></tr><tr><td><strong>Agregar regla</strong></td><td>Abre el modal de reglas programadas, donde se definen las prioridades temporales del producto.</td></tr><tr><td><strong>Mover</strong></td><td>Permite reordenar la tarjeta mediante arrastrar y soltar para definir la prioridad del producto. La primera posición corresponde a la pasarela de mayor prioridad, y la interfaz identifica visualmente la primera, segunda, tercera y siguientes prioridades.</td></tr><tr><td><strong>Eliminar</strong></td><td>Quita el producto de la franquicia.</td></tr></tbody></table>
 
-Los productos se reorganizan mediante **arrastrar y soltar**. La primera posición corresponde al producto de mayor prioridad, y el Orquestador respeta ese orden al seleccionar la pasarela. La interfaz identifica visualmente la primera, segunda, tercera y siguientes prioridades.
+{% hint style="info" %}
+Los montos mínimo y máximo determinan qué pasarela procesará la transacción según el valor que el jugador desee depositar. La interfaz representa visualmente los rangos configurados, por ejemplo:
 
-**Rangos de montos**
-
-Cada producto permite configurar un **monto mínimo** y un **monto máximo**, que el Orquestador utiliza para seleccionar la pasarela según el monto que el usuario desea depositar. La interfaz representa visualmente los rangos configurados.
-
-<table><thead><tr><th width="200">Ejemplo de producto</th><th>Rango configurado</th></tr></thead><tbody><tr><td>Pasarela 1</td><td>10 - 20</td></tr><tr><td>Pasarela 2</td><td>21 - 30</td></tr><tr><td>Pasarela 3</td><td>31 - 40</td></tr></tbody></table>
+* Pasarela 1: 10 - 20
+* Pasarela 2: 21 - 30
+* Pasarela 3: 31 - 40
+{% endhint %}
 
 {% hint style="warning" %}
 **Nota:** El sistema permite que varios productos compartan el mismo rango de montos. Cuando esto ocurre, se muestra la advertencia: _"Existen pasarelas con rangos compartidos. El orden de prioridad configurado será utilizado para determinar cuál se utilizará primero."_
@@ -138,41 +152,41 @@ Cada producto permite configurar un **monto mínimo** y un **monto máximo**, qu
 
 **Reglas programadas**
 
-El operador puede crear reglas programadas para definir la prioridad de las franquicias o de sus productos dentro de un rango de tiempo determinado. Cada regla permite configurar:
+Desde el botón **Agregar regla** de cada tarjeta se abre un modal que permite crear, editar y eliminar las reglas que modifican temporalmente la prioridad del producto dentro de la franquicia. Cada regla se configura con los siguientes campos:
 
-<table><thead><tr><th width="200">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Fecha inicial</code></strong></td><td>Fecha desde la cual aplica la regla.</td></tr><tr><td><strong><code>Fecha final</code></strong></td><td>Fecha hasta la cual aplica la regla.</td></tr><tr><td><strong><code>Hora inicial</code></strong></td><td>Hora desde la cual aplica la regla.</td></tr><tr><td><strong><code>Hora final</code></strong></td><td>Hora hasta la cual aplica la regla.</td></tr><tr><td><strong><code>Días de aplicación</code></strong></td><td>Días en los que la regla estará vigente.</td></tr></tbody></table>
+<table><thead><tr><th width="200">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Fecha inicial</code></strong></td><td>Fecha desde la cual aplica la regla.</td></tr><tr><td><strong><code>Fecha final</code></strong></td><td>Fecha hasta la cual aplica la regla.</td></tr><tr><td><strong><code>Hora inicial</code></strong></td><td>Hora desde la cual aplica la regla.</td></tr><tr><td><strong><code>Hora final</code></strong></td><td>Hora hasta la cual aplica la regla.</td></tr><tr><td><strong><code>Días de aplicación</code></strong></td><td>Días de la semana en los que la regla estará vigente.</td></tr></tbody></table>
 
-Una regla puede modificar temporalmente la prioridad de una franquicia _(por ejemplo: "La Franquicia A será prioridad #1 durante una semana")_ o de un producto _(por ejemplo: "La Pasarela 3 será prioridad #1 todos los lunes entre las 08:00 y las 09:00")_. La interfaz muestra claramente las reglas activas, las próximas y las finalizadas.
-
-{% hint style="warning" %}
-**Nota:** No se permite configurar dos reglas que compartan el mismo rango de fecha y hora dentro de una misma franquicia, aun cuando estén definidas para productos diferentes, ya que generaría un conflicto en la definición de la prioridad.
-{% endhint %}
+Desde el mismo modal es posible agregar varias reglas, así como editar o eliminar las existentes. La interfaz identifica las reglas **activas**, las **próximas** y las **finalizadas**.
 
 {% hint style="info" %}
-La configuración principal de una franquicia es la administración de los productos de pasarela que participarán en el Orquestador. No es posible crear una franquicia sin al menos un producto asociado.
+**Ejemplo:** _"La Pasarela 3 será prioridad #1 todos los lunes entre las 08:00 y las 09:00"_. Durante ese rango, la plataforma dará preferencia a esa pasarela por encima del orden configurado de forma permanente.
 {% endhint %}
-
-***
-
-**Gestionar franquicias**
-
-Cada tarjeta de franquicia permite ejecutar las siguientes acciones:
-
-<table><thead><tr><th width="180">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Visualizar</strong></td><td>Consulta la configuración completa de la franquicia y sus productos.</td></tr><tr><td><strong>Editar</strong></td><td>Modifica el nombre, la imagen, el estado, los productos asociados, las prioridades, los rangos, el tiempo de exclusión, la cantidad máxima de solicitudes enviadas y las reglas programadas.</td></tr><tr><td><strong>Activar</strong></td><td>Habilita la franquicia dentro del Orquestador.</td></tr><tr><td><strong>Desactivar</strong></td><td>Inhabilita la franquicia sin eliminar su configuración.</td></tr><tr><td><strong>Eliminar</strong></td><td>Elimina la franquicia.</td></tr><tr><td><strong>Reordenar</strong></td><td>Cambia la posición de prioridad de la franquicia mediante arrastrar y soltar; al modificar el orden, el sistema recalcula automáticamente las posiciones.</td></tr></tbody></table>
 
 {% hint style="warning" %}
-**Nota:** Al editar una franquicia, antes de guardar se muestra un resumen de los cambios y el guardado requiere token de autenticación.
+**Nota:** No se permite configurar dos reglas que compartan el mismo rango de fecha y hora dentro de una misma franquicia, aun cuando correspondan a productos diferentes, ya que generaría un conflicto en la definición de la prioridad.
+{% endhint %}
+
+**Guardar la asociación**
+
+Una vez configurados todos los productos, se selecciona el botón **Guardar**. El sistema solicita el **token de autenticación** y, al validarlo correctamente, la franquicia queda asociada y comienza a mostrarse como una tarjeta en la vista principal.
+
+{% hint style="warning" %}
+**Nota:** Si la información no cumple con las validaciones establecidas, el sistema muestra un mensaje indicando el error a corregir antes de permitir el guardado.
 {% endhint %}
 
 ***
 
-#### **Historial de movimientos**
+**Historial de movimientos**
 
-Permite consultar el registro de auditoría con los cambios realizados sobre las franquicias y sus productos. El sistema registra acciones como la creación, edición, eliminación, activación e inactivación de franquicias, la asociación y activación/inactivación de productos, y los cambios de prioridad, rangos, reglas programadas, tiempos de exclusión y cantidad máxima de solicitudes.
+Permite consultar el registro de auditoría con los cambios realizados sobre las franquicias y sus pasarelas. El sistema registra la creación, edición y eliminación de franquicias, su activación e inactivación, la asociación y el cambio de estado de las pasarelas, así como las modificaciones de prioridad, rangos de montos, reglas programadas, tiempos configurados y cantidad máxima de solicitudes.
 
 Cada registro almacena la siguiente información:
 
 <table><thead><tr><th width="200">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Partner</code></strong></td><td>Partner sobre el cual se realizó la acción.</td></tr><tr><td><strong><code>País</code></strong></td><td>País al que corresponde la franquicia.</td></tr><tr><td><strong><code>Franquicia</code></strong></td><td>Franquicia sobre la cual se ejecutó la acción.</td></tr><tr><td><strong><code>Usuario responsable</code></strong></td><td>Usuario que realizó la acción.</td></tr><tr><td><strong><code>Fecha</code></strong></td><td>Fecha en la que se registró la acción.</td></tr><tr><td><strong><code>Hora</code></strong></td><td>Hora en la que se registró la acción.</td></tr><tr><td><strong><code>Acción ejecutada</code></strong></td><td>Tipo de acción realizada.</td></tr><tr><td><strong><code>Valor anterior</code></strong></td><td>Valor previo al cambio.</td></tr><tr><td><strong><code>Valor nuevo</code></strong></td><td>Valor resultante tras el cambio.</td></tr><tr><td><strong><code>Motivo del cambio</code></strong></td><td>Justificación registrada para la acción.</td></tr></tbody></table>
+
+{% hint style="info" %}
+El módulo contempla permisos independientes para **Consulta**, **Creación**, **Edición** y **Eliminación**. Los usuarios que no cuenten con el permiso correspondiente no visualizarán las acciones restringidas.
+{% endhint %}
 {% endtab %}
 {% endtabs %}
 
@@ -196,7 +210,7 @@ Cada registro almacena la siguiente información:
 * La fecha final no puede ser menor a la fecha inicial, y la hora final no puede ser menor a la inicial cuando corresponde al mismo día.
 * No se permiten dos reglas programadas con el mismo rango de fecha y hora dentro de una misma franquicia.
 * El guardado de cambios en una franquicia requiere token de autenticación.
-* SiteBuilder es la fuente oficial de configuración utilizada por el Orquestador de Franquicias para la toma de decisiones durante el procesamiento de depósitos.
+* La configuración definida en esta sección determina las franquicias y pasarelas que se muestran al jugador en la plataforma de usuarios online, así como el orden en el que se presentan.
 * El módulo contempla permisos independientes para **Consulta**, **Creación**, **Edición** y **Eliminación**. Los usuarios sin permiso no visualizan las acciones restringidas.
 
 ***
