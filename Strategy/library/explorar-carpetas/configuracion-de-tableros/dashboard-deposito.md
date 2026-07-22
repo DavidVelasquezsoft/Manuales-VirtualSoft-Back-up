@@ -17,6 +17,8 @@ description: >-
 
 Antes de visualizar el reporte, es necesario definir las [configuraciones previas](https://virtualsoft.gitbook.io/manuales/microstrategy/library/explorar-carpetas/configuracion-de-tableros) obligatorias.
 
+***
+
 ### 3. Visualización
 
 El Dashboard Depósito consolida la información relacionada con las transacciones de depósito realizadas por los usuarios, facilitando el análisis mediante indicadores, gráficos y tablas de detalle.
