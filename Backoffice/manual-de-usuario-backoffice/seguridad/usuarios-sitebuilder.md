@@ -33,7 +33,7 @@ layout:
 
 ### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Figura#1: Captura de pantalla módulo Usuarios Sitebuilder.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Figura#1: Captura de pantalla módulo Usuarios Sitebuilder.</p></figcaption></figure>
 
 ***
 

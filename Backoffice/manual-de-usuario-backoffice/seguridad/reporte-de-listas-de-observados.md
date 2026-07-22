@@ -43,7 +43,7 @@ El reporte se visualizará con información más detallada de los usuarios que e
 
 #### 4.1. Visualización&#x20;
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Figura #1: Captura de pantalla reporte detallado.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Figura #1: Captura de pantalla reporte detallado.</p></figcaption></figure>
 
 #### 4.2 Filtros
 

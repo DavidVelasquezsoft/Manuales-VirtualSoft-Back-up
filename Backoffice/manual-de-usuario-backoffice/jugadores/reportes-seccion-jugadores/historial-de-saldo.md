@@ -14,7 +14,7 @@ description: >-
 
 ### 2. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Figura #1: Captura de pantalla de reporte historial de saldo</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Figura #1: Captura de pantalla de reporte historial de saldo</p></figcaption></figure>
 
 ***
 
