@@ -195,7 +195,6 @@
   * [Gestión Punto de Venta](manual-de-usuario-backoffice/gestion-punto-de-venta/README.md)
     * [Punto de Venta](manual-de-usuario-backoffice/gestion-punto-de-venta/punto-de-venta/README.md)
       * [Información](manual-de-usuario-backoffice/gestion-punto-de-venta/punto-de-venta/informacion.md)
-      * [Finanzas](manual-de-usuario-backoffice/gestion-punto-de-venta/punto-de-venta/finanzas.md)
       * [Comisiones.](manual-de-usuario-backoffice/gestion-punto-de-venta/punto-de-venta/comisiones./README.md)
         * [Comisiones](manual-de-usuario-backoffice/gestion-punto-de-venta/punto-de-venta/comisiones./comisiones.md)
         * [Reporte de comisiones](manual-de-usuario-backoffice/gestion-punto-de-venta/punto-de-venta/comisiones./reporte-de-comisiones.md)
