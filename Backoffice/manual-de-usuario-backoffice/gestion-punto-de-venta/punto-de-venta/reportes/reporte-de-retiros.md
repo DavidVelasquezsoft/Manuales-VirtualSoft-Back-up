@@ -21,7 +21,7 @@ layout:
 
 # Reporte de Retiros
 
-Reporte de los retiros realizados por medio del punto de venta.
+Reporte de las solicitudes de retiros realizadas por medio del punto de venta.
 
 ***
 
@@ -33,7 +33,7 @@ Reporte de los retiros realizados por medio del punto de venta.
 
 ### 2. Visualización
 
-<figure><img src="../../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Figura #1: Captura de pantalla reporte de Retiros.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (699).png" alt=""><figcaption><p>Figura #1: Captura de pantalla reporte de Retiros.</p></figcaption></figure>
 
 ***
 
@@ -43,13 +43,15 @@ Reporte de los retiros realizados por medio del punto de venta.
 
 ### 4. Filtros
 
-<table><thead><tr><th width="135.25">Campo</th><th width="117.25">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Fecha</code></strong></td><td>Calendario</td><td>Rango de fechas en la cual se realizaron los depósitos.</td></tr><tr><td><strong><code>Transacción ID</code></strong></td><td>Numérico</td><td>Identificador único del depósito realizado.</td></tr></tbody></table>
+<table><thead><tr><th width="135.25">Campo</th><th width="117.25">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Fecha</code></strong></td><td>Calendario</td><td>Rango de fechas en la cual se realizaron los Retiros.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Lista desplegable</td><td>Estado en el que se encuentra la solicitud de retiro</td></tr><tr><td><strong><code>Por fecha de retiro pagado</code></strong></td><td>Selector</td><td>Muestra únicamente los retiros cuya solicitud de retiro fue pagada durante el rango de fechas seleccionado.</td></tr></tbody></table>
 
 ### 5. Resultado de Consulta
 
-El reporte de depósitos se visualizará en una tabla que contiene las siguientes columnas:
+El reporte de solitudes de retiro se visualizará en una tabla que contiene las siguientes columnas:
 
-<table><thead><tr><th width="140.25">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>ID</code></strong></td><td>Identificador único del depósito realizado.</td></tr><tr><td><strong><code>Id Usuario</code></strong></td><td>Identificador único del usuario que realizó el depósito.</td></tr><tr><td><strong><code>Fecha de creación</code></strong></td><td>Fecha en la que se generó el depósito.</td></tr><tr><td><strong><code>Nombre del sistema de pasarela de pago</code></strong></td><td>Nombre de la pasarela de pago por la cual se efectuó el depósito.</td></tr><tr><td><strong><code>Tipo</code></strong></td><td>Tipo de depósito realizado.</td></tr><tr><td><strong><code>Moneda</code></strong></td><td>Moneda en la cual se realizó el depósito.</td></tr><tr><td><strong><code>Valor</code></strong></td><td>Monto total por el cual se realizó el depósito.</td></tr><tr><td><strong><code>Modificado</code></strong></td><td>Usuario que aprobó el depósito realizado.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Estado en el que se encuentra el depósito.</td></tr><tr><td><strong><code>External ID</code></strong></td><td>Identificador único del depósito utilizado de manera externa.</td></tr></tbody></table>
+<table><thead><tr><th width="140.25">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Punto de venta</code></strong></td><td></td></tr><tr><td><strong><code>Id</code></strong></td><td></td></tr><tr><td><strong><code>ID Cliente</code></strong></td><td></td></tr><tr><td><strong><code>Valor</code></strong></td><td></td></tr><tr><td><strong><code>Estado</code></strong></td><td></td></tr><tr><td><strong><code>Fecha Creación</code></strong></td><td></td></tr><tr><td><strong><code>Fecha Pagado</code></strong></td><td></td></tr><tr><td><strong><code>Descripción</code></strong></td><td></td></tr><tr><td><strong><code>Por fecha de retiro pagado</code></strong></td><td></td></tr></tbody></table>
+
+
 
 ***
 
