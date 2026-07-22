@@ -23,6 +23,10 @@ layout:
 
 <mark style="color:$info;">Consulta los puntos de venta registrados mediante filtros de búsqueda y una tabla de resultados. Desde este espacio también se encuentran disponibles las funcionalidades de creación, configuración y gestión operativa de los puntos de venta.</mark>
 
+{% hint style="danger" %}
+**Nota importante**: Para acceder a un punto de venta específico es necesario realizar la búsqueda exacta.
+{% endhint %}
+
 ### 1. Acceso al Módulo
 
 **Ruta de Acceso**: BackOffice > Menú principal > Gestión Punto de Venta > Punto de Venta
