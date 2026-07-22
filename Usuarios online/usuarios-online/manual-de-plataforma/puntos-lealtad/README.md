@@ -1,11 +1,27 @@
 ---
-description: >-
-  Visualiza e interactúa con los puntos calificables de la plataforma, logrando
-  redimir premios, visualizar estado de niveles lealtad y promociones
-  existentes.
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # Puntos lealtad
+
+<mark style="color:$info;">Desde este módulo es posible administrar los puntos canjeables y</mark> [<mark style="color:$info;">calificables</mark>](https://virtualsoft.gitbook.io/plantillas/glosario#puntos-calificables)<mark style="color:$info;">, redimir premios, consultar el avance en los niveles de lealtad y visualizar las promociones disponibles.</mark>
 
 ### 1. Acceso al Módulo:
 
