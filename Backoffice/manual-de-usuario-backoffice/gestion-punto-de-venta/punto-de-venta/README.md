@@ -137,7 +137,7 @@ Las consultas generales mostrarán directamente los registros en la tabla de res
 
 ***
 
-#### 4. ✅ Validaciones y reglas de negocio
+### 5. Validaciones y reglas de negocio
 
 * Los filtros de consulta son opcionales.
 * La activación y desactivación masiva requieren la carga de un archivo CSV válido.
@@ -146,8 +146,15 @@ Las consultas generales mostrarán directamente los registros en la tabla de res
 
 ***
 
-#### 5. 🕒 Control de Versiones
+### 6. Control de Versiones
 
-| Versión | Fecha      | Autor         | Cambios Realizados |
-| ------- | ---------- | ------------- | ------------------ |
-| 1.0     | 10/07/2026 | Ronald Peláez | Documento inicial  |
+<details>
+
+<summary>🔽 <strong>Historial de versiones</strong></summary>
+
+| Versión | Fecha      | Autor         | Cambios Realizados         |
+| ------- | ---------- | ------------- | -------------------------- |
+| 1.0     | 10/07/2026 | Ronald Peláez | Documento inicial.         |
+| 1.1     | 22/07/2020 | Ronald Peláez | Ajustes por nuevo formato. |
+
+</details>
