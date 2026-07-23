@@ -31,7 +31,7 @@ description: >-
 
 ### 4. Filtros
 
-<table><thead><tr><th width="198.00006103515625">Campo</th><th width="122">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Fecha</code></strong></td><td>Rango de fechas</td><td>Permite seleccionar el periodo de consulta indicando una fecha de inicio y una fecha de fin, para visualizar los ingresos correspondientes.</td></tr></tbody></table>
+<table><thead><tr><th width="98.00006103515625">Campo</th><th width="81">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Fecha</code></strong></td><td>Rango de fechas</td><td>Permite seleccionar el periodo de consulta indicando una fecha de inicio y una fecha de fin, para visualizar los ingresos correspondientes.</td></tr></tbody></table>
 
 ***
 
