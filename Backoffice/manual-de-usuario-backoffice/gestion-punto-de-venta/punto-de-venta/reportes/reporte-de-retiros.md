@@ -49,9 +49,21 @@ Reporte de las solicitudes de retiros realizadas por medio del punto de venta.
 
 El reporte de solitudes de retiro se visualizará en una tabla que contiene las siguientes columnas:
 
-<table><thead><tr><th width="140.25">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Punto de venta</code></strong></td><td></td></tr><tr><td><strong><code>Id</code></strong></td><td></td></tr><tr><td><strong><code>ID Cliente</code></strong></td><td></td></tr><tr><td><strong><code>Valor</code></strong></td><td></td></tr><tr><td><strong><code>Estado</code></strong></td><td></td></tr><tr><td><strong><code>Fecha Creación</code></strong></td><td></td></tr><tr><td><strong><code>Fecha Pagado</code></strong></td><td></td></tr><tr><td><strong><code>Descripción</code></strong></td><td></td></tr><tr><td><strong><code>Por fecha de retiro pagado</code></strong></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="140.25">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Punto de venta</code></strong></td><td>Nombre del punto de venta que realizó la gestión de la nota de retiro.</td></tr><tr><td><strong><code>🔍</code></strong></td><td>Accede a los detalles avanzados de la nota de retiro seleccionada.</td></tr><tr><td><strong><code>Id</code></strong></td><td>Identificador único del usuario que realizó la gestión de la nota de retiro.</td></tr><tr><td><strong><code>ID Cliente</code></strong></td><td>Identificador único del usuario al que se le gestionó la nota de retiro.</td></tr><tr><td><strong><code>Valor</code></strong></td><td>Monto total por el cual fue creada la nota de retiro.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Estado en el que se encuentra la nota de retiro.</td></tr><tr><td><strong><code>Fecha Creación</code></strong></td><td>Fecha en la que se creó la nota de retiro.</td></tr><tr><td><strong><code>Fecha Pagado</code></strong></td><td>Fecha en la que se pagó al usuario el retiro solicitado.</td></tr><tr><td><strong><code>Descripción</code></strong></td><td>Descripción breve de la nota de retiro.</td></tr><tr><td><strong><code>Por fecha de retiro pagado</code></strong></td><td>Fecha en la que se pagó la nota de retiro.</td></tr></tbody></table>
 
+<details>
 
+<summary><strong>Detalles Avanzados</strong></summary>
+
+Los detalles avanzados presentan una tabla con información más exacta del retiro seleccionado
+
+<table><thead><tr><th width="142">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>🔍</code></strong></td><td>Despliega la información del retiro en un panel de información.</td></tr><tr><td><strong><code>ID</code></strong></td><td>Identificador único del usuario al que se le pagará la nota de retiro.</td></tr><tr><td><strong><code>Modificó</code></strong></td><td>Identificador único del usuario que realizó la modificación de la nota de retiro.</td></tr><tr><td><strong><code>Fecha</code></strong></td><td>Fecha en la que se modificó la nota de retiro.</td></tr><tr><td><strong><code>Tipo</code></strong></td><td>Tipo de acción tomada con la nota de retiro <em>(Creación o pagada).</em></td></tr><tr><td><strong><code>Monto</code></strong></td><td>Monto por el cual fue creado la nota de retiro.</td></tr><tr><td><strong><code>Descripción</code></strong></td><td>Descripción breve de la nota de retiro.</td></tr></tbody></table>
+
+**Panel de información**:
+
+<table><thead><tr><th width="147">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>ID</code></strong></td><td>Identificador único del usuario relacionado a la nota de retiro.</td></tr><tr><td><strong><code>Tipo</code></strong></td><td>Tipo de modificación realizada a la nota de retiro <em>(Creación o pagada)</em>.</td></tr><tr><td><strong><code>Fecha</code></strong></td><td>Fecha en la que se modificó la nota de retiro.</td></tr><tr><td><strong><code>Monto</code></strong></td><td>Monto total por el cual se gestionó la nota de retiro.</td></tr><tr><td><strong><code>Nombre sistema de pago</code></strong></td><td>Nombre de la pasarela de pago con la que se procesó el retiro.</td></tr></tbody></table>
+
+</details>
 
 ***
 
