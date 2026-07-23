@@ -1,18 +1,18 @@
 # Reporte de Apuestas
 
-Reporte de las solicitudes de retiros realizadas por medio del punto de venta.
+
 
 ***
 
 ### 1. Acceso al Módulo
 
-**Ruta de Acceso**: BackOffice > Menú principal > Gestión punto de venta > 🔍 Ingresar a punto de venta > Reportes > Reporte de Retiros.
+**Ruta de Acceso**: BackOffice > Menú principal > Gestión punto de venta > 🔍 Ingresar a punto de venta > Reportes > Reporte de Apuestas.
 
 ***
 
 ### 2. Visualización
 
-<figure><img src="../../../../.gitbook/assets/image (699).png" alt=""><figcaption><p>Figura #1: Captura de pantalla reporte de Retiros.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (700).png" alt=""><figcaption><p>Figura #1: Captura de pantalla reporte de Apuestas.</p></figcaption></figure>
 
 ***
 
@@ -22,25 +22,25 @@ Reporte de las solicitudes de retiros realizadas por medio del punto de venta.
 
 ### 4. Filtros
 
-<table><thead><tr><th width="135.25">Campo</th><th width="117.25">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Fecha</code></strong></td><td>Calendario</td><td>Rango de fechas en la cual se realizaron los Retiros.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Lista desplegable</td><td>Estado en el que se encuentra la solicitud de retiro</td></tr><tr><td><strong><code>Por fecha de retiro pagado</code></strong></td><td>Selector</td><td>Muestra únicamente los retiros cuya solicitud de retiro fue pagada durante el rango de fechas seleccionado.</td></tr></tbody></table>
+<table><thead><tr><th width="135.25">Campo</th><th width="117.25">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Fecha</code></strong></td><td>Calendario</td><td>Rango de fechas en la cual se realizaron los Retiros.</td></tr><tr><td><strong><code>Tiket Id</code></strong></td><td>Texto</td><td>Identificador único de la apuesta generada.</td></tr><tr><td><strong><code>Tipo de apuesta</code></strong></td><td>Lista desplegable</td><td></td></tr><tr><td><strong><code>Estado</code></strong></td><td>Lista desplegable</td><td></td></tr><tr><td><strong><code>Con Eliminadas?</code></strong></td><td>Selector</td><td></td></tr></tbody></table>
 
 ### 5. Resultado de Consulta
 
 El reporte de solitudes de retiro se visualizará en una tabla que contiene las siguientes columnas:
 
-<table><thead><tr><th width="140.25">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Punto de venta</code></strong></td><td>Nombre del punto de venta que realizó la gestión de la nota de retiro.</td></tr><tr><td><a href="https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/gestion-punto-de-venta/punto-de-venta/reportes/reporte-de-retiros#detalles-avanzados"><strong><code>🔍</code></strong></a></td><td>Accede a los detalles avanzados de la nota de retiro seleccionada.</td></tr><tr><td><strong><code>Id</code></strong></td><td>Identificador único del usuario que realizó la gestión de la nota de retiro.</td></tr><tr><td><strong><code>ID Cliente</code></strong></td><td>Identificador único del usuario al que se le gestionó la nota de retiro.</td></tr><tr><td><strong><code>Valor</code></strong></td><td>Monto total por el cual fue creada la nota de retiro.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Estado en el que se encuentra la nota de retiro.</td></tr><tr><td><strong><code>Fecha Creación</code></strong></td><td>Fecha en la que se creó la nota de retiro.</td></tr><tr><td><strong><code>Fecha Pagado</code></strong></td><td>Fecha en la que se pagó al usuario el retiro solicitado.</td></tr><tr><td><strong><code>Descripción</code></strong></td><td>Descripción breve de la nota de retiro.</td></tr><tr><td><strong><code>Por fecha de retiro pagado</code></strong></td><td>Fecha en la que se pagó la nota de retiro.</td></tr></tbody></table>
+<table><thead><tr><th width="140.25">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td>🔍</td><td></td></tr><tr><td>Ticked Id</td><td></td></tr><tr><td>Usuario</td><td></td></tr><tr><td>Estado</td><td></td></tr><tr><td>Fecha</td><td></td></tr><tr><td>Fecha de pago</td><td></td></tr><tr><td>Punto de venta pagó</td><td></td></tr><tr><td>Valor</td><td></td></tr><tr><td>Premios</td><td></td></tr><tr><td>Impuesto Premios</td><td></td></tr><tr><td>Impuesto Apuesta</td><td></td></tr><tr><td>Premio Total</td><td></td></tr><tr><td>Odds</td><td></td></tr><tr><td>Ip</td><td></td></tr><tr><td>Billetera</td><td></td></tr></tbody></table>
 
 <details>
 
 <summary><strong>Detalles Avanzados</strong></summary>
 
-Los detalles avanzados presentan una tabla con información más exacta del retiro seleccionado
+**Detalles del ticket**
 
-<table><thead><tr><th width="142">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>🔍</code></strong></td><td>Despliega la información del retiro en un panel de información.</td></tr><tr><td><strong><code>ID</code></strong></td><td>Identificador único del usuario al que se le pagará la nota de retiro.</td></tr><tr><td><strong><code>Modificó</code></strong></td><td>Identificador único del usuario que realizó la modificación de la nota de retiro.</td></tr><tr><td><strong><code>Fecha</code></strong></td><td>Fecha en la que se modificó la nota de retiro.</td></tr><tr><td><strong><code>Tipo</code></strong></td><td>Tipo de acción tomada con la nota de retiro <em>(Creación o pagada).</em></td></tr><tr><td><strong><code>Monto</code></strong></td><td>Monto por el cual fue creado la nota de retiro.</td></tr><tr><td><strong><code>Descripción</code></strong></td><td>Descripción breve de la nota de retiro.</td></tr></tbody></table>
+<table><thead><tr><th width="142">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td>Ticket Det ID</td><td></td></tr><tr><td>Ticket ID</td><td></td></tr><tr><td>Descripción</td><td></td></tr></tbody></table>
 
-**Panel de información**:
+**Historial de transacciones**
 
-<table><thead><tr><th width="147">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>ID</code></strong></td><td>Identificador único del usuario relacionado a la nota de retiro.</td></tr><tr><td><strong><code>Tipo</code></strong></td><td>Tipo de modificación realizada a la nota de retiro <em>(Creación o pagada)</em>.</td></tr><tr><td><strong><code>Fecha</code></strong></td><td>Fecha en la que se modificó la nota de retiro.</td></tr><tr><td><strong><code>Monto</code></strong></td><td>Monto total por el cual se gestionó la nota de retiro.</td></tr><tr><td><strong><code>Nombre sistema de pago</code></strong></td><td>Nombre de la pasarela de pago con la que se procesó el retiro.</td></tr></tbody></table>
+<table><thead><tr><th width="147">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td>Ticket Det ID</td><td></td></tr><tr><td>Tipo</td><td></td></tr><tr><td>Ticket ID</td><td></td></tr><tr><td>Fecha</td><td></td></tr><tr><td>Transacción Id</td><td></td></tr><tr><td>Monto</td><td></td></tr></tbody></table>
 
 </details>
 
@@ -52,6 +52,6 @@ Los detalles avanzados presentan una tabla con información más exacta del reti
 
 <summary>🔽Historial de versiones</summary>
 
-<table><thead><tr><th width="119.14813232421875">Versión</th><th width="130.77777099609375">Fecha</th><th width="164.5555419921875">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>2026-07-22</td><td>Ronald Peláez</td><td>Documento inicial</td></tr></tbody></table>
+<table><thead><tr><th width="119.14813232421875">Versión</th><th width="130.77777099609375">Fecha</th><th width="164.5555419921875">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>2026-07-23</td><td>Ronald Peláez</td><td>Documento inicial</td></tr></tbody></table>
 
 </details>
