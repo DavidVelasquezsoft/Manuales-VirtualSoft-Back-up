@@ -18,7 +18,7 @@
 
 ### 3.  Acciones de usuario
 
-<table><thead><tr><th width="170.4444580078125">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/gestion-punto-de-venta/punto-de-venta/reportes/reporte-de-retiros#id-4.-filtros"><strong>Filtros</strong></a></td><td>Permite buscar el historial de los retiros realizados por el punto de venta con la ayuda de filtros.</td></tr><tr><td><strong>Limpiar</strong></td><td>Restablece los filtros por defecto.</td></tr><tr><td><a href="https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/gestion-punto-de-venta/punto-de-venta/reportes/reporte-de-retiros#id-5.-resultado-de-consulta"><strong>Consultar</strong></a></td><td>Aplica los filtros configurados y obtén los resultados.</td></tr><tr><td><strong>Exportar</strong></td><td>Permite exportar los resultados obtenidos según los filtros aplicados en formatos Excel (.XLS) y PDF mediante el botón <strong>Exportar</strong>, ubicado en la parte inferior derecha de la pantalla.</td></tr></tbody></table>
+<table><thead><tr><th width="170.4444580078125">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/gestion-punto-de-venta/punto-de-venta/reportes/reporte-de-retiros#id-4.-filtros"><strong>Filtros</strong></a></td><td>Permite buscar el historial de los retiros realizados por el punto de venta con la ayuda de filtros.</td></tr><tr><td><strong>Limpiar</strong></td><td>Restablece los filtros por defecto.</td></tr><tr><td><a href="https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/gestion-punto-de-venta/punto-de-venta/reportes/reporte-de-retiros#id-5.-resultado-de-consulta"><strong>Consultar</strong></a></td><td>Aplica los filtros configurados y obtén los resultados.</td></tr><tr><td><strong>Exportar</strong></td><td>Permite exportar los resultados obtenidos según los filtros aplicados en formatos Excel <em>(.XLS)</em> y PDF mediante el botón <strong>Exportar</strong>, ubicado en la parte inferior derecha de la pantalla.</td></tr></tbody></table>
 
 ### 4. Filtros
 
@@ -28,7 +28,7 @@
 
 El reporte de solitudes de retiro se visualizará en una tabla que contiene las siguientes columnas:
 
-<table><thead><tr><th width="140.25">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td>🔍</td><td></td></tr><tr><td>Ticked Id</td><td></td></tr><tr><td>Usuario</td><td></td></tr><tr><td>Estado</td><td></td></tr><tr><td>Fecha</td><td></td></tr><tr><td>Fecha de pago</td><td></td></tr><tr><td>Punto de venta pagó</td><td></td></tr><tr><td>Valor</td><td></td></tr><tr><td>Premios</td><td></td></tr><tr><td>Impuesto Premios</td><td></td></tr><tr><td>Impuesto Apuesta</td><td></td></tr><tr><td>Premio Total</td><td></td></tr><tr><td>Odds</td><td></td></tr><tr><td>Ip</td><td></td></tr><tr><td>Billetera</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="140.25">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>🔍</code></strong></td><td></td></tr><tr><td><strong><code>Ticked Id</code></strong></td><td></td></tr><tr><td><strong><code>Usuario</code></strong></td><td></td></tr><tr><td><strong><code>Estado</code></strong></td><td></td></tr><tr><td><strong><code>Fecha</code></strong></td><td></td></tr><tr><td><strong><code>Fecha de pago</code></strong></td><td></td></tr><tr><td><strong><code>Punto de venta pagó</code></strong></td><td></td></tr><tr><td><strong><code>Valor</code></strong></td><td></td></tr><tr><td><strong><code>Premios</code></strong></td><td></td></tr><tr><td><strong><code>Impuesto Premios</code></strong></td><td></td></tr><tr><td><strong><code>Impuesto Apuesta</code></strong></td><td></td></tr><tr><td><strong><code>Premio Total</code></strong></td><td></td></tr><tr><td><strong><code>Odds</code></strong></td><td></td></tr><tr><td><strong><code>Ip</code></strong></td><td></td></tr><tr><td><strong><code>Billetera</code></strong></td><td></td></tr></tbody></table>
 
 <details>
 
@@ -36,11 +36,11 @@ El reporte de solitudes de retiro se visualizará en una tabla que contiene las 
 
 **Detalles del ticket**
 
-<table><thead><tr><th width="142">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td>Ticket Det ID</td><td></td></tr><tr><td>Ticket ID</td><td></td></tr><tr><td>Descripción</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="142">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Ticket Det ID</code></strong></td><td></td></tr><tr><td><strong><code>Ticket ID</code></strong></td><td></td></tr><tr><td><strong><code>Descripción</code></strong></td><td></td></tr></tbody></table>
 
 **Historial de transacciones**
 
-<table><thead><tr><th width="147">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td>Ticket Det ID</td><td></td></tr><tr><td>Tipo</td><td></td></tr><tr><td>Ticket ID</td><td></td></tr><tr><td>Fecha</td><td></td></tr><tr><td>Transacción Id</td><td></td></tr><tr><td>Monto</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="147">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Ticket Det ID</code></strong></td><td></td></tr><tr><td><strong><code>Tipo</code></strong></td><td></td></tr><tr><td><strong><code>Ticket ID</code></strong></td><td></td></tr><tr><td><strong><code>Fecha</code></strong></td><td></td></tr><tr><td><strong><code>Transacción Id</code></strong></td><td></td></tr><tr><td><strong><code>Monto</code></strong></td><td></td></tr></tbody></table>
 
 </details>
 
