@@ -19,7 +19,7 @@ description: >-
 
 ### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/image (664).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (664).png" alt=""><figcaption><p>Figura #1: Captura de Pantalla del reporte</p></figcaption></figure>
 
 ***
 
