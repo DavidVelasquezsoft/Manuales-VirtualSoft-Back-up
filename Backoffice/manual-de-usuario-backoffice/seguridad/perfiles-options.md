@@ -72,7 +72,7 @@ Una vez desplegada la lista de permisos, el sistema ofrece dos formas de localiz
 {% endstep %}
 
 {% step %}
-#### gestionar permisos
+#### Habilitar permisos
 
 Para habilitar o deshabilitar un permiso para un tipo de usuario:
 
@@ -160,10 +160,7 @@ La aplicación de permisos sigue una **jerarquía**, la cual determina qué conf
 
 La jerarquía es la siguiente:
 
-1. **Bloqueos**
-2. **Permisos Globales**
-3. **Permisos por Operación&#x20;**_**(Partner)**_
-4. **Permisos por Usuario**
+* **Bloqueos > Global > Operación > Usuario**.
 
 Esto significa que:
 
@@ -172,15 +169,23 @@ Esto significa que:
 * Un permiso otorgado desde **Operación** no podrá ser eliminado desde **Usuario**.
 * Los permisos configurados para un **Usuario** únicamente aplican para ese usuario y respetan las configuraciones definidas en los niveles superiores.
 
-***
-
-#### 4.1. Gestión de permisos por nivel
-
 {% tabs %}
+{% tab title="Usuario" %}
+La gestión por **Usuario** permite asignar o bloquear permisos para un usuario específico.
+
+{% hint style="warning" %}
+**Nota**: Los permisos otorgados desde la configuración **Global** o por **Operación** no podrán eliminarse desde este nivel, sin embargo, podrán bloquearse.
+{% endhint %}
+
+#### Filtros
+
+<table><thead><tr><th width="141">Campo</th><th width="166">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Usuario</code></strong></td><td>Lista desplegable</td><td>Permite buscar el usuario por nombre o correo electrónico.</td></tr><tr><td><strong><code>Tipo de acción</code></strong></td><td>Lista desplegable</td><td>Define si los permisos seleccionados serán <strong>Autorizaciones</strong> o <strong>Bloqueos</strong>.</td></tr></tbody></table>
+{% endtab %}
+
 {% tab title="Global" %}
 La gestión **Global** permite asignar o bloquear permisos para **todos los usuarios pertenecientes a un mismo tipo de usuario**.
 
-**Filtros**&#x20;
+#### Filtros&#x20;
 
 <table><thead><tr><th width="157">Campo</th><th width="123">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Tipo de usuario</code></strong></td><td>Lista desplegable</td><td>Permite seleccionar el tipo de usuario al que se le gestionarán los permisos.</td></tr><tr><td><strong><code>Tipo de acción</code></strong></td><td>Lista desplegable</td><td>Define si los permisos seleccionados serán <strong>Autorizaciones</strong> o <strong>Bloqueos</strong>.</td></tr></tbody></table>
 {% endtab %}
@@ -188,24 +193,13 @@ La gestión **Global** permite asignar o bloquear permisos para **todos los usua
 {% tab title="Operación" %}
 La gestión por **Operación** permite asignar o bloquear permisos para un **tipo de usuario** dentro de un **Partner** y **País** específicos configurados en BackOffice.
 
-> **Importante:** Los permisos otorgados desde la configuración Global no podrán eliminarse desde este nivel.
+{% hint style="warning" %}
+**Nota**: Los permisos otorgados desde la configuración Global no podrán eliminarse desde este nivel
+{% endhint %}
 
-**Filtros**
+#### Filtros
 
 <table><thead><tr><th width="195">Campo</th><th>Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Partner</strong></td><td>Lista desplegable</td><td>Permite seleccionar la operación (Partner) sobre la cual se gestionarán los permisos.</td></tr><tr><td><strong>País</strong></td><td>Lista desplegable</td><td>Permite seleccionar el país correspondiente a la operación.</td></tr><tr><td><strong>Tipo de usuario</strong></td><td>Lista desplegable</td><td>Permite seleccionar el tipo de usuario al que se le gestionarán los permisos.</td></tr><tr><td><strong>Tipo de acción</strong></td><td>Lista desplegable</td><td>Define si los permisos seleccionados serán <strong>Autorizaciones</strong> o <strong>Bloqueos</strong>.</td></tr></tbody></table>
-{% endtab %}
-
-{% tab title="Usuario" %}
-La gestión por **Usuario** permite asignar o bloquear permisos para un usuario específico.
-
-> **Importante:** Los permisos otorgados desde la configuración Global o por Operación no podrán eliminarse desde este nivel.
-
-**Filtros**
-
-| Campo              | Tipo              | Descripción                                                                   |
-| ------------------ | ----------------- | ----------------------------------------------------------------------------- |
-| **Usuario**        | Lista desplegable | Permite buscar el usuario por nombre o correo electrónico.                    |
-| **Tipo de acción** | Lista desplegable | Define si los permisos seleccionados serán **Autorizaciones** o **Bloqueos**. |
 {% endtab %}
 {% endtabs %}
 
