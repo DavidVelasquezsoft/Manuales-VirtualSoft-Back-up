@@ -98,3 +98,181 @@ Una vez configurada la ruleta, haz clic en el botón **"Crear Sorteo"** para gua
 {% hint style="warning" %}
 **Nota**: Los campos que finalizan el nombre con un \* son obligatorios para la creación del sorteo punto de venta.
 {% endhint %}
+
+\
+\
+\
+\
+\
+\
+\
+Sorteo Punto de Venta
+
+El módulo **Sorteo Punto de Venta** permite crear sorteos dirigidos a los usuarios que realizan apuestas desde puntos de venta autorizados. Durante la configuración del sorteo es posible establecer su vigencia, condiciones de participación, criterios aplicables para Sportsbook, configuración de premios, restricciones geográficas y demás parámetros necesarios para su funcionamiento.
+
+***
+
+### 1. Acceso al Módulo
+
+**Ruta de Acceso:** Backoffice > Torneos y Bonos > Eventos > Crear Evento > **Sorteo Punto Venta**
+
+***
+
+### 2. Visualización
+
+La pantalla se encuentra dividida en las siguientes secciones:
+
+* Configuración general.
+* Configuración Sportsbook.
+* Configuración de moneda.
+* Opciones avanzadas.
+
+***
+
+### 3. Acciones disponibles
+
+| Acción           | Descripción                                                                                          |
+| ---------------- | ---------------------------------------------------------------------------------------------------- |
+| **Crear Sorteo** | Registra el sorteo con la configuración establecida y lo deja disponible según las fechas definidas. |
+
+***
+
+### 4. Configuración General
+
+| Campo                  | Tipo              | Descripción                                                                                                                                |
+| ---------------------- | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| **`Fecha inicial`**    | Fecha             | Establece la fecha desde la cual el sorteo estará disponible para participar.                                                              |
+| **`Fecha final`**      | Fecha             | Establece la fecha hasta la cual el sorteo permanecerá activo.                                                                             |
+| **`Nombre`**           | Texto             | Registra el nombre con el que será identificado el sorteo.                                                                                 |
+| **`Descripción`**      | Texto             | Registra una descripción general del sorteo.                                                                                               |
+| **`Orden`**            | Numérico          | Define la posición en la que se visualizará el sorteo frente a los demás eventos disponibles.                                              |
+| **`Tipo de Producto`** | Lista desplegable | Selecciona la vertical sobre la cual se configurará el sorteo. Para este tipo de evento únicamente se encuentra disponible **Sportsbook**. |
+
+***
+
+### Configuración Sportsbook
+
+Al seleccionar la vertical **Sportsbook** se habilitan las configuraciones específicas del sorteo.
+
+#### Configuración general
+
+| Campo                                        | Tipo              | Descripción                                                                                 |
+| -------------------------------------------- | ----------------- | ------------------------------------------------------------------------------------------- |
+| **`Tipo de Ranking`**                        | Lista desplegable | Define el criterio utilizado para calcular el ranking del sorteo.                           |
+| **`Todas las condiciones son obligatorias`** | Interruptor       | Indica que todas las condiciones configuradas deben cumplirse para participar en el sorteo. |
+
+#### Segmento Sportsbook
+
+El segmento seleccionado determina los eventos deportivos que serán considerados para el sorteo.
+
+**Deportes**
+
+| Campo                        | Tipo     | Descripción                                                  |
+| ---------------------------- | -------- | ------------------------------------------------------------ |
+| **`Añadir Manual`**          | Botón    | Agrega deportes manualmente mediante su identificador.       |
+| **`ID`**                     | Numérico | Registra el identificador del deporte.                       |
+| **`Deportes seleccionados`** | Texto    | Muestra el nombre del deporte agregado.                      |
+| **`Imagen`**                 | URL      | Registra la dirección de la imagen asociada al deporte.      |
+| **`Acción`**                 | Botón    | Elimina el deporte agregado.                                 |
+| **`Deportes`**               | Texto    | Agrega varios deportes mediante IDs separados por comas (,). |
+
+**Mercados**
+
+| Campo                        | Tipo     | Descripción                                                  |
+| ---------------------------- | -------- | ------------------------------------------------------------ |
+| **`Añadir Manual`**          | Botón    | Agrega mercados manualmente mediante su identificador.       |
+| **`ID`**                     | Numérico | Registra el identificador del mercado.                       |
+| **`Mercados seleccionados`** | Texto    | Muestra el nombre del mercado agregado.                      |
+| **`Imagen`**                 | URL      | Registra la dirección de la imagen asociada al mercado.      |
+| **`Acción`**                 | Botón    | Elimina el mercado agregado.                                 |
+| **`Mercados`**               | Texto    | Agrega varios mercados mediante IDs separados por comas (,). |
+
+**Ligas**
+
+| Campo               | Tipo     | Descripción                                               |
+| ------------------- | -------- | --------------------------------------------------------- |
+| **`Añadir Manual`** | Botón    | Agrega ligas manualmente mediante su identificador.       |
+| **`ID`**            | Numérico | Registra el identificador de la liga.                     |
+| **`Nombre`**        | Texto    | Muestra el nombre de la liga agregada.                    |
+| **`Imagen`**        | URL      | Registra la dirección de la imagen asociada a la liga.    |
+| **`Acción`**        | Botón    | Elimina la liga agregada.                                 |
+| **`Ligas`**         | Texto    | Agrega varias ligas mediante IDs separados por comas (,). |
+
+**Partidos**
+
+| Campo                        | Tipo              | Descripción                                                           |
+| ---------------------------- | ----------------- | --------------------------------------------------------------------- |
+| **`Deporte`**                | Lista desplegable | Define el deporte sobre el cual se realizará la búsqueda de partidos. |
+| **`País`**                   | Lista desplegable | Define el país correspondiente al evento deportivo.                   |
+| **`Campeonato`**             | Lista desplegable | Define el campeonato del cual se seleccionarán los partidos.          |
+| **`Añadir Manual`**          | Botón             | Agrega partidos manualmente mediante su identificador.                |
+| **`ID`**                     | Numérico          | Registra el identificador del partido.                                |
+| **`Partidos seleccionados`** | Texto             | Muestra el nombre del partido agregado.                               |
+| **`Imagen`**                 | URL               | Registra la dirección de la imagen asociada al partido.               |
+| **`Acción`**                 | Botón             | Elimina el partido agregado.                                          |
+| **`Partidos`**               | Texto             | Agrega varios partidos mediante IDs separados por comas (,).          |
+
+#### Condiciones de participación
+
+| Campo                                | Tipo               | Descripción                                                                            |
+| ------------------------------------ | ------------------ | -------------------------------------------------------------------------------------- |
+| **`Tipo de apuesta`**                | Selección múltiple | Define los tipos de apuesta que serán tenidos en cuenta para participar en el sorteo.  |
+| **`Tipo de evento`**                 | Lista desplegable  | Define el tipo de evento deportivo considerado para el sorteo.                         |
+| **`Mínima cantidad en selecciones`** | Numérico           | Establece la cantidad mínima de selecciones requeridas en apuestas múltiples o System. |
+| **`Mínima cuota en selecciones`**    | Decimal            | Establece la cuota mínima permitida para cada selección.                               |
+| **`Mínima cuota total`**             | Decimal            | Establece la cuota mínima total de la apuesta.                                         |
+| **`Repetir partidos`**               | Interruptor        | Define si un mismo partido puede repetirse dentro del sorteo.                          |
+| **`Repetir mercados`**               | Interruptor        | Define si un mismo mercado puede repetirse dentro del sorteo.                          |
+
+***
+
+### 5. Configuración de Moneda
+
+| Campo                            | Tipo              | Descripción                                                                                                               |
+| -------------------------------- | ----------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| **`Mínimo valor de la apuesta`** | Valor monetario   | Establece el valor mínimo que debe tener una apuesta para participar en el sorteo.                                        |
+| **`Tipo Premio`**                | Lista desplegable | Define el tipo de premio que entregará el sorteo. Para este evento únicamente se encuentra disponible el tipo **Físico**. |
+| **`Posición`**                   | Numérico          | Define la posición que ocupará el premio dentro de la tabla de premiación.                                                |
+| **`Descripción Premio`**         | Texto             | Registra la descripción del premio.                                                                                       |
+| **`URL Imagen Premio`**          | URL               | Registra la dirección de la imagen asociada al premio.                                                                    |
+| **`Hora`**                       | Hora              | Establece la hora en la que se realizará el sorteo para la posición configurada.                                          |
+| **`Agregar`**                    | Botón             | Incorpora el premio a la configuración del sorteo.                                                                        |
+
+***
+
+### 6. Opciones Avanzadas
+
+| Campo                       | Tipo               | Descripción                                                   |
+| --------------------------- | ------------------ | ------------------------------------------------------------- |
+| **`URL Imagen Principal`**  | URL                | Registra la imagen principal que se visualizará en el sorteo. |
+| **`URL de Fondo`**          | URL                | Registra la imagen de fondo del sorteo.                       |
+| **`Regiones Usuario`**      | Selección múltiple | Define las regiones donde el sorteo estará disponible.        |
+| **`Departamentos Usuario`** | Selección múltiple | Define los departamentos donde el sorteo estará disponible.   |
+| **`Ciudades Usuario`**      | Selección múltiple | Define las ciudades donde el sorteo estará disponible.        |
+
+***
+
+### 7. Validaciones y reglas del negocio
+
+* La creación del sorteo se encuentra disponible únicamente para la vertical **Sportsbook**.
+* Los campos identificados con **(\*)** son obligatorios para registrar el sorteo.
+* El tipo de premio disponible para los sorteos de punto de venta corresponde únicamente a **Premio Físico**.
+* La fecha final debe ser igual o posterior a la fecha inicial.
+* Las condiciones configuradas en Sportsbook determinan qué apuestas serán consideradas para el sorteo.
+* Al habilitar la opción **Todas las condiciones son obligatorias**, el participante deberá cumplir cada una de las condiciones configuradas para ingresar al sorteo.
+* Los deportes, mercados, ligas y partidos pueden agregarse manualmente o mediante una lista de identificadores separados por comas.
+* La configuración geográfica restringe la disponibilidad del sorteo a las regiones, departamentos y ciudades seleccionadas.
+
+> **Nota:** Los cambios se almacenan únicamente al hacer clic en **Crear Sorteo**.
+
+***
+
+### 8. Control de Versiones
+
+<details>
+
+<summary>🔽 Historial de versiones</summary>
+
+<table><thead><tr><th width="111">Versión</th><th>Fecha</th><th>Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td></td><td></td><td></td></tr></tbody></table>
+
+</details>
