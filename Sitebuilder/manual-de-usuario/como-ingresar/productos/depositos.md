@@ -185,6 +185,8 @@ Al seleccionar el botón <img src="../../../.gitbook/assets/Button historial de 
 **Información de cada movimiento**
 
 Cada acción registrada muestra la siguiente información:
+
+<table><thead><tr><th width="160">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Franquicia</code></strong></td><td>Franquicia sobre la cual se ejecutó la acción.</td></tr><tr><td><strong><code>Usuario</code></strong></td><td>Usuario que realizó la acción.</td></tr><tr><td><strong><code>Fecha y hora</code></strong></td><td>Fecha y hora exacta en la que quedó registrada la acción.</td></tr><tr><td><strong><code>Acción</code></strong></td><td>Tipo de acción ejecutada sobre la franquicia o sus pasarelas <em>(Creado, Cargado, Editado, Prioridad cambiada o Monto cambiado)</em>.</td></tr><tr><td><strong><code>Detalles</code></strong></td><td>Descripción del cambio realizado, indicando qué se modificó y los valores involucrados.</td></tr></tbody></table>
 {% endtab %}
 {% endtabs %}
 
