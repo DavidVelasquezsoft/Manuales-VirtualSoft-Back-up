@@ -21,19 +21,19 @@ layout:
 
 # Perfiles Options
 
-<mark style="color:$info;">Este módulo permite crear y gestionar permisos para todos los tipos de usuarios que hay en la plataforma de BackOffice, Site Builder y Torneos y bonos, otorgándoles acceso a diferentes módulos o funcionalidades según sea necesario.</mark>
+<mark style="color:$info;">Este módulo permite crear y gestionar permisos para todos los tipos de usuarios y partners que hay en la plataforma de BackOffice, Site Builder y Torneos y bonos, otorgándoles acceso a diferentes módulos o funcionalidades según sea necesario.</mark>
 
 ***
 
 ### 1. Acceso al Módulo <a href="#id-1.-acceso-al-modulo" id="id-1.-acceso-al-modulo"></a>
 
-**Ruta de Acceso**: Backoffice > Seguridad > Perfiles Options
+**Ruta de Acceso**: Backoffice > Seguridad > Perfiles Options.
 
 ***
 
-### 2. Visualización general <a href="#id-4.-visualizacion" id="id-4.-visualizacion"></a>
+### 2. Visualización <a href="#id-4.-visualizacion" id="id-4.-visualizacion"></a>
 
-<figure><img src="../../.gitbook/assets/image (673).png" alt=""><figcaption><p>Figura #1: Captura de pantalla módulo perfiles options.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (701).png" alt=""><figcaption><p>Figura #1: Captura de pantalla módulo perfiles options.</p></figcaption></figure>
 
 ***
 
@@ -43,9 +43,11 @@ layout:
 
 #### 3.1. Crear permiso
 
-<table><thead><tr><th width="150.66668701171875">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>URL API</code></strong> <em>(obligatorio)</em></td><td>Define la URL de la API a la que se accederá para obtener la información asociada al nuevo permiso.</td></tr><tr><td><strong><code>Descripción</code></strong> <em>(obligatorio)</em></td><td>Especifica el nombre del menú que verán los usuarios.</td></tr><tr><td><strong><code>Menú padre</code></strong></td><td>Establece el menú padre al que se asociará el nuevo permiso.<br>Si no se selecciona un menú padre, el permiso se creará como permiso principal; en caso contrario, quedará definido como un permiso dentro del menú seleccionado.</td></tr><tr><td><strong><code>Sub Menú</code></strong></td><td>En caso de haber seleccionado un menú padre si aplica permite seleccionar un submenú en el que quedara el nuevo permiso</td></tr></tbody></table>
+<table><thead><tr><th width="150.66668701171875">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>URL API</code></strong> <em>(obligatorio)</em></td><td>URL de la API o módulo que se va a bloquear con el permiso a crear.</td></tr><tr><td><strong><code>Descripción</code></strong> <em>(obligatorio)</em></td><td>Especifica el nombre del menú que verán los usuarios.</td></tr><tr><td><strong><code>Menú padre</code></strong></td><td>Establece el menú padre al que se asociará el nuevo permiso.<br>Si no se selecciona un menú padre, el permiso se creará como permiso principal; en caso contrario, quedará definido como un permiso dentro del menú seleccionado.</td></tr><tr><td><strong><code>Sub Menú</code></strong></td><td>En caso de haber seleccionado un menú padre si aplica permite seleccionar un submenú en el que quedara el nuevo permiso</td></tr></tbody></table>
 
-### 4. Filtros
+### 4. Gestión de permiso
+
+Los permisos se gestionan de 3 maneras, por usuarios, de manera global y dependiendo la operación (Partner), este modo de gestión de permisos corresponde a una jerarquía, en la cual primero están los bloqueos, si se bloquea un permiso, no se desbloqueará&#x20;
 
 <table><thead><tr><th width="158.166748046875">Campo</th><th width="121.8333740234375">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Tipo de usuario</code></strong></td><td>Lista desplegable</td><td>Permite seleccionar el tipo de usuario al que se le gestionarán los permisos.</td></tr><tr><td><strong><code>Usuario</code></strong></td><td>Texto</td><td><p><strong>En caso de que aplique</strong> se deberá ingresar el nombre de usuario en específico al cual se le gestionarán los permisos.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota</strong>: Este filtro solo estará disponible si el tipo de usuario lo requiere.</p></div></td></tr></tbody></table>
 
