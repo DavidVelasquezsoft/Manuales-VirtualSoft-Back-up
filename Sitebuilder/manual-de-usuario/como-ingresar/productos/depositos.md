@@ -216,6 +216,6 @@ Cada acción registrada muestra la siguiente información:
 
 <summary>🔽 Historial de versiones</summary>
 
-<table><thead><tr><th width="95.5">Versión</th><th width="126.83331298828125">Fecha</th><th width="142">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>07/08/2025</td><td>Karol Navia</td><td>Adaptación y actualización del manual al formato estándar.</td></tr><tr><td>1.1</td><td>04/09/2025</td><td>Karol Navia</td><td>Añadir Interruptor superior</td></tr><tr><td>1.2</td><td>24/07/2026</td><td>David Velasquez</td><td>Actualización del manual e incorporación de la pestaña gestión de franquicias</td></tr></tbody></table>
+<table><thead><tr><th width="95.5">Versión</th><th width="126.83331298828125">Fecha</th><th width="142">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>07/08/2025</td><td>Karol Navia</td><td>Adaptación y actualización del manual al formato estándar.</td></tr><tr><td>1.1</td><td>04/09/2025</td><td>Karol Navia</td><td>Añadir Interruptor superior</td></tr><tr><td>1.2</td><td>24/07/2026</td><td>David Velasquez</td><td>incorporación de la pestaña gestión de franquicias</td></tr></tbody></table>
 
 </details>
