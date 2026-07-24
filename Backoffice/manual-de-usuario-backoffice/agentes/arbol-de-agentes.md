@@ -57,7 +57,7 @@ Al hacer clic en **Consultar**, el sistema mostrará los agentes que cumplan con
 **Nota:** La información presentada corresponde a la estructura organizacional vigente al momento de realizar la consulta y dependerá de los filtros seleccionados.
 {% endhint %}
 
-<table><thead><tr><th width="167">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Partner</code></strong></td><td>Partner o aliado comercial al que pertenece el agente dentro de la estructura de la plataforma.</td></tr><tr><td><strong><code>País</code></strong></td><td>País donde se encuentra registrado el agente.</td></tr><tr><td><strong><code>ID Usuario</code></strong></td><td>Identificador único asignado al agente dentro del sistema.</td></tr><tr><td><strong><code>UserName</code></strong></td><td>Nombre de usuario utilizado por el agente para acceder a la plataforma.</td></tr><tr><td><strong><code>Transf.</code></strong></td><td></td></tr><tr><td><strong><code>Moneda</code></strong></td><td>Moneda en la que opera el agente dentro de la plataforma.</td></tr><tr><td><strong><code>Saldo</code></strong></td><td>Valor disponible en la cuenta del agente para realizar las operaciones permitidas por el sistema.</td></tr><tr><td><strong><code>Consolidado Nivel</code></strong></td><td>Nivel jerárquico que ocupa el agente dentro de la estructura organizacional de la red comercial.</td></tr></tbody></table>
+<table><thead><tr><th width="167">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Partner</code></strong></td><td>Partner o aliado comercial al que pertenece el agente dentro de la estructura de la plataforma.</td></tr><tr><td><strong><code>País</code></strong></td><td>País donde se encuentra registrado el agente.</td></tr><tr><td><strong><code>ID Usuario</code></strong></td><td>Identificador único asignado al agente dentro del sistema.</td></tr><tr><td><strong><code>UserName</code></strong></td><td>Nombre de usuario utilizado por el agente para acceder a la plataforma.</td></tr><tr><td><strong><code>Moneda</code></strong></td><td>Moneda en la que opera el agente dentro de la plataforma.</td></tr><tr><td><strong><code>Saldo</code></strong></td><td>Valor disponible en la cuenta del agente para realizar las operaciones permitidas por el sistema.</td></tr><tr><td><strong><code>Consolidado Nivel</code></strong></td><td>Nivel jerárquico que ocupa el agente dentro de la estructura organizacional de la red comercial.</td></tr></tbody></table>
 
 ***
 
@@ -79,6 +79,6 @@ Al hacer clic en **Consultar**, el sistema mostrará los agentes que cumplan con
 
 <summary>🔽 Historial de versiones</summary>
 
-<table><thead><tr><th width="117">Versión</th><th width="132">Fecha</th><th>Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>24/07/2026</td><td></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="117">Versión</th><th width="132">Fecha</th><th width="127">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>24/07/2026</td><td>Karol Navia</td><td>Reestructuración del manual</td></tr></tbody></table>
 
 </details>
