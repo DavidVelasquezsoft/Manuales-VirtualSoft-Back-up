@@ -150,12 +150,12 @@ Desde el botón <img src="../../../.gitbook/assets/Button agregar.png" alt="" da
 
 <table><thead><tr><th width="200">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/image (425).png" alt="" data-size="line"> <strong><code>Eliminar</code></strong></td><td>Elimina la regla de la pasarela de pago junto con su configuración.</td></tr><tr><td><img src="../../../.gitbook/assets/Frame 1321316371.png" alt=""><strong><code>Editar</code></strong></td><td>Permite modificar las fechas, horas y días configurados para la regla.</td></tr><tr><td><img src="../../../.gitbook/assets/suiche.png" alt=""> <strong><code>Activar / Desactivar</code></strong></td><td><p></p><p>Habilita o deshabilita la regla. Al desactivarla, conserva toda su configuración pero deja de aplicarse a la pasarela de pago.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Esta acción requiere token de autenticación para confirmarse.</p></div></td></tr><tr><td><strong><code>Fecha inicial</code></strong></td><td>Fecha desde la cual aplica la regla.</td></tr><tr><td><strong><code>Fecha final</code></strong></td><td>Fecha hasta la cual aplica la regla.</td></tr><tr><td><strong><code>Hora inicial</code></strong></td><td>Hora desde la cual aplica la regla.</td></tr><tr><td><strong><code>Hora final</code></strong></td><td>Hora hasta la cual aplica la regla.</td></tr><tr><td><strong><code>Días de aplicación</code></strong></td><td>Días de la semana en los que la regla estará vigente.</td></tr></tbody></table>
 
-{% hint style="warning" %}
-**Nota:** No se permite configurar dos reglas que compartan el mismo rango de fecha y hora dentro de una misma franquicia, aun cuando correspondan a productos diferentes, ya que generaría un conflicto en la definición de la prioridad.
-{% endhint %}
-
 {% hint style="info" %}
 **Ejemplo:** _"La Pasarela 3 será prioridad #1 todos los lunes entre las 08:00 y las 09:00"_. Durante ese rango, la plataforma dará preferencia a esa pasarela por encima del orden configurado de forma permanente.
+{% endhint %}
+
+{% hint style="warning" %}
+**Nota:** No se permite configurar dos reglas que compartan el mismo rango de fecha y hora dentro de una misma franquicia, aun cuando correspondan a productos diferentes, ya que generaría un conflicto en la definición de la prioridad.
 {% endhint %}
 
 Una vez creadas y configuradas las reglas de la pasarela, se debe seleccionar el botón <img src="../../../.gitbook/assets/Button guardar.png" alt="" data-size="line"> para conservar los cambios. Posteriormente será posible seguir agregando pasarelas de pago y configurando sus campos y reglas.
@@ -204,12 +204,7 @@ Cada acción registrada muestra la siguiente información:
 * La sección Gestión de Franquicias solo está disponible cuando hay un partner seleccionado, y requiere seleccionar un país antes de habilitar las acciones de configuración.
 * No es posible crear una franquicia sin asociar al menos una pasarela.
 * El nombre de la franquicia es obligatorio y no puede duplicarse para un mismo partner y país.
-* El monto mínimo no puede ser mayor al monto máximo.
 * Al asociar pasarelas, solo se muestran las compatibles con el rango de la franquicia y activas en la operación.
-* El tiempo de exclusión debe ser mayor a cero.
-* La fecha final no puede ser menor a la fecha inicial, y la hora final no puede ser menor a la inicial cuando corresponde al mismo día.
-* No se permiten dos reglas programadas con el mismo rango de fecha y hora dentro de una misma franquicia.
-* El guardado de cambios en una franquicia requiere token de autenticación.
 * La configuración definida en esta sección determina las franquicias y pasarelas que se muestran al jugador en la plataforma de usuarios online, así como el orden en el que se presentan.
 * El módulo contempla permisos independientes para **Consulta**, **Creación**, **Edición** y **Eliminación**. Los usuarios sin permiso no visualizan las acciones restringidas.
 
@@ -221,6 +216,6 @@ Cada acción registrada muestra la siguiente información:
 
 <summary>🔽 Historial de versiones</summary>
 
-<table><thead><tr><th width="95.5">Versión</th><th width="126.83331298828125">Fecha</th><th width="142">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>07/08/2025</td><td>Karol Navia</td><td>Adaptación y actualización del manual al formato estándar.</td></tr><tr><td>1.1</td><td>04/09/2025</td><td>Karol Navia</td><td>Añadir Interruptor superior</td></tr><tr><td>1.2</td><td>06/07/2026</td><td>David Velasquez</td><td>Actualización del manual e incorporación de la pestaña gestión de franquicias</td></tr></tbody></table>
+<table><thead><tr><th width="95.5">Versión</th><th width="126.83331298828125">Fecha</th><th width="142">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>07/08/2025</td><td>Karol Navia</td><td>Adaptación y actualización del manual al formato estándar.</td></tr><tr><td>1.1</td><td>04/09/2025</td><td>Karol Navia</td><td>Añadir Interruptor superior</td></tr><tr><td>1.2</td><td>24/07/2026</td><td>David Velasquez</td><td>Actualización del manual e incorporación de la pestaña gestión de franquicias</td></tr></tbody></table>
 
 </details>
