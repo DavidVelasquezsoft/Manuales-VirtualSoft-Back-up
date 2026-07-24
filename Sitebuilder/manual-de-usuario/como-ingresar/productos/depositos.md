@@ -66,8 +66,8 @@ Esta pestaña permite configurar la representación visual y el texto de cada es
 {% tab title="Gestión de franquicias" %}
 Esta pestaña permite administrar las franquicias de depósito que verá el jugador en la plataforma de usuarios online, definiendo cuáles se muestran, en qué orden aparecen y con qué pasarelas de pago operan.
 
-{% hint style="info" %}
-La configuración definida aquí determina el orden en el que las franquicias y sus pasarelas se presentan al jugador al momento de depositar. La prioridad, los rangos de montos, el estado de cada pasarela y las reglas programadas establecen cuál se muestra primero y cuál se utiliza según el monto que el jugador desee depositar.
+{% hint style="warning" %}
+**Nota:** El módulo contempla permisos independientes para **Consulta**, **Creación**, **Edición** y **Eliminación**. Los usuarios que no cuenten con el permiso correspondiente no visualizarán las acciones restringidas.
 {% endhint %}
 
 #### **Visualización**
@@ -84,8 +84,8 @@ En la parte superior de la pestaña se muestran indicadores que resumen el estad
 
 <table><thead><tr><th width="200">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Buscar franquicia</strong></td><td>Permite localizar rápidamente una franquicia dentro del listado de tarjetas del país seleccionado, facilitando su gestión cuando existe un número elevado de franquicias configuradas.</td></tr><tr><td><a href="depositos.md#asociar-franquicia"><strong>Asociar franquicia</strong></a></td><td>Permite vincular al partner y país seleccionados una franquicia ya existente en el sistema, definiendo las pasarelas de pago con las que operará y su configuración.</td></tr><tr><td><a href="depositos.md#vista-principal-de-franquicias"><strong>Gestionar franquicias</strong></a></td><td>Permite visualizar, editar, activar, desactivar, eliminar y reordenar las franquicias ya asociadas.</td></tr><tr><td><a href="depositos.md#historial-de-movimientos"><strong>Historial de movimientos</strong></a></td><td>Permite consultar el registro de auditoría con los cambios realizados sobre las franquicias y sus pasarelas.</td></tr></tbody></table>
 
-{% hint style="warning" %}
-**Nota:** Es necesario seleccionar un país antes de que se habiliten las acciones de configuración de esta pestaña.
+{% hint style="info" %}
+La configuración definida aquí determina el orden en el que las franquicias y sus pasarelas se presentan al jugador al momento de depositar. La prioridad, los rangos de montos, el estado de cada pasarela y las reglas programadas establecen cuál se muestra primero y cuál se utiliza según el monto que el jugador desee depositar.
 {% endhint %}
 
 ***
@@ -177,27 +177,21 @@ Una vez configurados todos los productos, se selecciona el botón **Guardar**. E
 
 #### **Historial de movimientos**
 
-Permite consultar los cambios realizados sobre las franquicias y sus pasarelas permitiendo visualizar la fecha y el usuario que realizo diferentes acciones.&#x20;
-
-{% hint style="warning" %}
-Nota: para volver a la vista principal de las francquicas selecciona el boton <img src="../../../.gitbook/assets/Button (4) (2).png" alt="" data-size="line">
-{% endhint %}
-
-Filtros
-
-Fecha
-
-Acción : Creado, Cargado, Editado, Prioridad cambiada, Monto cambiado
-
-Buscar suaurio por el nombre
-
-Cada acción muestra la siguiente información:
-
-<table><thead><tr><th width="200">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Franquicia</code></strong></td><td>Franquicia sobre la cual se ejecutó la acción.</td></tr><tr><td><strong><code>Usuario</code></strong></td><td>Usuario que realizó la acción.</td></tr><tr><td><strong><code>Fecha y hora</code></strong></td><td>Fecha y hora exacta en la que se registró la acción.</td></tr><tr><td><strong><code>Acción</code></strong></td><td>Tipo de acción realizada por el suaurio podirndo ser Creado, Cargado, Editado, Prioridad cambiada, Monto cambiado.</td></tr><tr><td><strong><code>Detalles</code></strong></td><td>Descripción detallada del cambio realizado.</td></tr></tbody></table>
+Al seleccionar el botón <img src="../../../.gitbook/assets/Button historial de movimiento.png" alt="" data-size="line">se muestra un módulo que permite consultar el registro de los cambios realizados sobre las franquicias y sus pasarelas, identificando qué acción se ejecutó, en qué momento y qué usuario la realizó.
 
 {% hint style="info" %}
-El módulo contempla permisos independientes para **Consulta**, **Creación**, **Edición** y **Eliminación**. Los usuarios que no cuenten con el permiso correspondiente no visualizarán las acciones restringidas.
+**Nota:** Para regresar a la vista principal de franquicias, selecciona el botón <img src="../../../.gitbook/assets/Button (4) (2).png" alt="" data-size="line">.
 {% endhint %}
+
+**Filtros**
+
+<table><thead><tr><th width="112">Campo</th><th width="120.44451904296875">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Fecha</code></strong></td><td>Rango de fechas</td><td>Selecciona el periodo del cual se desean consultar los movimientos registrados.</td></tr><tr><td><strong><code>Acción</code></strong></td><td>Lista desplegable</td><td>Filtra los registros según el tipo de acción realizada <em>(Creado, Cargado, Editado, Prioridad cambiada o Monto cambiado)</em>.</td></tr><tr><td><strong><code>Usuario</code></strong></td><td>Campo de texto</td><td>Permite buscar los movimientos realizados por un usuario específico a partir de su nombre.</td></tr></tbody></table>
+
+**Información de cada movimiento**
+
+Cada acción registrada muestra la siguiente información:
+
+<table><thead><tr><th width="200">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Partner</code></strong></td><td>Partner sobre el cual se realizó la acción.</td></tr><tr><td><strong><code>País</code></strong></td><td>País al que corresponde la franquicia.</td></tr><tr><td><strong><code>Franquicia</code></strong></td><td>Franquicia sobre la cual se ejecutó la acción.</td></tr><tr><td><strong><code>Usuario responsable</code></strong></td><td>Usuario que realizó la acción.</td></tr><tr><td><strong><code>Fecha</code></strong></td><td>Fecha en la que se registró la acción.</td></tr><tr><td><strong><code>Hora</code></strong></td><td>Hora en la que se registró la acción.</td></tr><tr><td><strong><code>Acción ejecutada</code></strong></td><td>Tipo de acción realizada sobre la franquicia o sus pasarelas.</td></tr><tr><td><strong><code>Valor anterior</code></strong></td><td>Valor que tenía la configuración antes del cambio.</td></tr><tr><td><strong><code>Valor nuevo</code></strong></td><td>Valor resultante después del cambio.</td></tr><tr><td><strong><code>Motivo del cambio</code></strong></td><td>Justificación registrada al momento de ejecutar la acción.</td></tr></tbody></table>
 {% endtab %}
 {% endtabs %}
 
