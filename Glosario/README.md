@@ -185,9 +185,10 @@ Campo que determina si el producto está activo únicamente para pruebas; en cas
 
 ## G
 
-*   #### **Gamificación:**&#x20;
+* #### **Gamificación:**&#x20;
 
-    Estrategia que aplica mecánicas de juego —como puntos, niveles, logros y recompensas— en productos y procesos para incentivar la participación de los usuarios.
+Estrategia que aplica mecánicas de juego —como puntos, niveles, logros y recompensas— en productos y procesos para incentivar la participación de los usuarios.
+
 * #### **GGR:**
 
 El **GGR Bruto** corresponde al ingreso bruto generado por la operación de juego, calculado como la diferencia entre el valor total de las apuestas realizadas por los usuarios y los premios pagados.
@@ -202,11 +203,13 @@ Por su parte, el **GGR Neto (Ingreso Neto)** considera adicionalmente el impacto
 **Fórmula:**\
 **GGR Neto** = Valor de Apuestas − Valor de Premios − Valor de Bonos otorgados
 
-
-
 * #### Giro bancario:
 
 Se conoce también como cheque de caja y consiste en enviar dinero a otra persona o empresa a través de un cheque emitido por el banco, y que contiene los datos del emisor, del receptor y de la cuenta bancaria de destino.
+
+* #### **Regla programada:**&#x20;
+
+Configuración que modifica de forma temporal la prioridad de una pasarela dentro de una franquicia, elevándola a la **prioridad #1** durante un rango de fechas, horas y días definidos. Mientras la regla está vigente, esa pasarela se ofrece primero al jugador por encima del orden de prioridad permanente; una vez finaliza, el orden vuelve a su configuración habitual.
 
 ## H
 
