@@ -23,14 +23,14 @@ Para acceder a este módulo, es necesario haber completado previamente las sigui
 ### 3.  Activar o desactivar la nueva visual de depósitos
 
 {% hint style="warning" %}
-**Nota:**&#x4C;a nueva visual de depósitos estará **desactivada por defecto**.
+**Nota:** La nueva visual de depósitos se encuentra desactivada de forma predeterminada. Al habilitarla, el sistema solicitará un **código de verificación** para confirmar la acción. Este cambio únicamente afecta las vistas **Configuración visual** y **Estados**.
 {% endhint %}
 
-En la parte superior de la sección se encuentra un **toggle** con dos opciones:
+En la parte superior de la sección se encuentra un **interruptor** con dos opciones:
 
 <figure><img src="../../../.gitbook/assets/image (71).png" alt=""><figcaption><p>Figura#1: Captura de pantalla Interruptor</p></figcaption></figure>
 
-<table><thead><tr><th width="156">Opción</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Desactivar (predeterminado)</code></strong></td><td><ul><li>No será posible cambiar otras opciones de configuración visual mientras esta esté desactivada.</li><li>Al estar desactivada, los usuarios no podrán cambiar el estado de la visual entre la versión nueva y la antigua.</li></ul></td></tr><tr><td><strong><code>Activar</code></strong></td><td><ul><li>Se habilitan todas las configuraciones visuales disponibles para depósitos.</li><li>Los usuarios podrán elegir entre la visual nueva o mantener la visual anterior.</li></ul></td></tr></tbody></table>
+<table><thead><tr><th width="156">Opción</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Desactivar (predeterminado)</code></strong></td><td><ul><li>No será posible cambiar otras opciones de configuración visual mientras esta esté desactivada.</li><li>Al estar desactivada, los usuarios no podrán cambiar el estado de la visual entre la versión nueva y la antigua.</li></ul></td></tr><tr><td><strong><code>Activar</code></strong></td><td>Habilita la nueva visual de depósitos y desbloquea todas las opciones de configuración de las vistas <a href="depositos.md#configuracion-visual"><strong>Configuración visual</strong></a> y <a href="depositos.md#estados"><strong>Estados</strong></a>, permitiendo a los usuarios podrán elegir entre la visual nueva o mantener la visual anterior.</td></tr></tbody></table>
 
 ***
 
@@ -40,11 +40,11 @@ El módulo se organiza en pestañas, cada una enfocada en un aspecto distinto de
 
 {% tabs %}
 {% tab title="Configuración Visual" %}
-Esta pestaña permite definir la apariencia y el comportamiento de la vista de depósitos que verá el usuario en la plataforma, incluyendo la vista por defecto, los métodos de depósito habilitados y los accesos rápidos.
+Define la apariencia y el comportamiento de la vista de depósitos que verá el usuario en la plataforma, incluyendo la vista por defecto, los métodos de depósito habilitados y los accesos rápidos.
 
 #### Visualización
 
-<figure><img src="../../../.gitbook/assets/image (82).png" alt=""><figcaption><p>Figura#1: Captura de pantalla configuración visual.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (82).png" alt=""><figcaption><p>Figura#2: Captura de pantalla configuración visual.</p></figcaption></figure>
 
 #### **Acciones del Usuario**
 
@@ -52,11 +52,11 @@ Esta pestaña permite definir la apariencia y el comportamiento de la vista de d
 {% endtab %}
 
 {% tab title="Estados" %}
-Esta pestaña permite configurar la representación visual y el texto de cada estado por el que puede pasar una transacción de depósito, personalizando lo que verá el usuario según el resultado de su operación.
+Configura la representación visual y el texto de cada estado por el que puede pasar una transacción de depósito, personalizando lo que verá el usuario según el resultado de su operación.
 
 ### Visualización
 
-<figure><img src="../../../.gitbook/assets/image (80).png" alt=""><figcaption><p>Figura#2: Captura de pantalla configuración estados.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (80).png" alt=""><figcaption><p>Figura#3: Captura de pantalla configuración estados.</p></figcaption></figure>
 
 ### **Acciones del Usuario**
 
@@ -64,29 +64,33 @@ Esta pestaña permite configurar la representación visual y el texto de cada es
 {% endtab %}
 
 {% tab title="Gestión de franquicias" %}
-Esta pestaña permite administrar las franquicias de depósito que verá el jugador en la plataforma de usuarios online, definiendo cuáles se muestran, en qué orden aparecen y con qué pasarelas de pago operan.
+Administra las franquicias de depósito que verá el jugador en la plataforma de usuarios online, definiendo cuáles se muestran, en qué orden aparecen y con qué pasarelas de pago operan.
 
 {% hint style="warning" %}
-**Nota:** El módulo contempla permisos independientes para **Consulta**, **Creación**, **Edición** y **Eliminación**. Los usuarios que no cuenten con el permiso correspondiente no visualizarán las acciones restringidas.
+**Nota:** Las acciones disponibles en este módulo dependen de los permisos asignados segun el tipo de usuario. Los usuarios solo visualizarán las opciones para las cuales tengan autorización (_Consulta, Creación, Edición y Eliminación_).
 {% endhint %}
 
 #### **Visualización**
 
 <figure><img src="../../../.gitbook/assets/image (433).png" alt=""><figcaption><p>Figura #4: Captura de pantalla Gestión de franquicias en Depósitos</p></figcaption></figure>
 
+***
+
+#### **Acciones disponibles**
+
+<table><thead><tr><th width="200">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Buscar franquicia</strong></td><td>Permite localizar rápidamente una franquicia dentro del listado de tarjetas del país seleccionado.</td></tr><tr><td><a href="depositos.md#asociar-franquicia"><strong>Asociar franquicia</strong></a></td><td>Permite vincular al partner y país seleccionados una franquicia ya existente en el sistema, definiendo las pasarelas de pago con las que operará y su configuración.</td></tr><tr><td><a href="depositos.md#vista-principal-de-franquicias"><strong>Gestionar franquicias</strong></a></td><td>Permite visualizar, editar, activar, desactivar, eliminar y reordenar las franquicias ya asociadas.</td></tr><tr><td><a href="depositos.md#historial-de-movimientos"><strong>Historial de movimientos</strong></a></td><td>Permite consultar el registro de auditoría con los cambios realizados sobre las franquicias y sus pasarelas.</td></tr></tbody></table>
+
+{% hint style="warning" %}
+**Nota:** La configuración definida en esta sección determina el orden en el que las franquicias y sus pasarelas se presentan al jugador al momento de depositar. La prioridad, los rangos de montos, el estado de cada pasarela y las reglas programadas establecen cuál se muestra primero y cuál se utiliza según el monto que el jugador desee depositar.
+{% endhint %}
+
+***
+
 #### **Indicadores (**_**KPIs**_**)**
 
 En la parte superior de la pestaña se muestran indicadores que resumen el estado de las franquicias del país seleccionado.
 
-<table><thead><tr><th width="146.66668701171875">Indicador</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Franquicias creadas</code></strong></td><td>Cantidad total de franquicias asociadas al partner y país seleccionados, sumando activas e inactivas.</td></tr><tr><td><strong><code>Franquicias activas</code></strong></td><td>Cantidad de franquicias habilitadas, es decir, aquellas disponibles para que el jugador realice depósitos.</td></tr><tr><td><strong><code>Franquicias inactivas</code></strong></td><td>Cantidad de franquicias deshabilitadas, las cuales conservan su configuración pero no se muestran al jugador.</td></tr></tbody></table>
-
-#### **Acciones disponibles**
-
-<table><thead><tr><th width="200">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Buscar franquicia</strong></td><td>Permite localizar rápidamente una franquicia dentro del listado de tarjetas del país seleccionado, facilitando su gestión cuando existe un número elevado de franquicias configuradas.</td></tr><tr><td><a href="depositos.md#asociar-franquicia"><strong>Asociar franquicia</strong></a></td><td>Permite vincular al partner y país seleccionados una franquicia ya existente en el sistema, definiendo las pasarelas de pago con las que operará y su configuración.</td></tr><tr><td><a href="depositos.md#vista-principal-de-franquicias"><strong>Gestionar franquicias</strong></a></td><td>Permite visualizar, editar, activar, desactivar, eliminar y reordenar las franquicias ya asociadas.</td></tr><tr><td><a href="depositos.md#historial-de-movimientos"><strong>Historial de movimientos</strong></a></td><td>Permite consultar el registro de auditoría con los cambios realizados sobre las franquicias y sus pasarelas.</td></tr></tbody></table>
-
-{% hint style="info" %}
-La configuración definida aquí determina el orden en el que las franquicias y sus pasarelas se presentan al jugador al momento de depositar. La prioridad, los rangos de montos, el estado de cada pasarela y las reglas programadas establecen cuál se muestra primero y cuál se utiliza según el monto que el jugador desee depositar.
-{% endhint %}
+<table><thead><tr><th width="146.66668701171875">Indicador</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Franquicias creadas</code></strong></td><td>Cantidad total de franquicias asociadas al partner y país seleccionados, sumando activas e inactivas.</td></tr><tr><td><strong><code>Franquicias activas</code></strong></td><td>Numero de franquicias habilitadas, es decir, aquellas disponibles para que el jugador realice depósitos.</td></tr><tr><td><strong><code>Franquicias inactivas</code></strong></td><td>Cantidad de franquicias deshabilitadas, las cuales conservan su configuración pero no se muestran al jugador.</td></tr></tbody></table>
 
 ***
 
