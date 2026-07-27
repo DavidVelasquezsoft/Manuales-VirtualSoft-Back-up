@@ -102,7 +102,7 @@ Las franquicias asociadas al país seleccionado se muestran en formato de tarjet
 
 ***
 
-**Aqui una descripción de explicación de que estan estas 2 acciones importante s consu explicación y los tabs uno de aasociar franquicia y otro de historial de movimientos**
+A continuación se describen el proceso para [asociar una franquicia](depositos.md#asociar-franquicia) con sus pasarelas de pago y el [historial de movimientos](depositos.md#historial-de-movimientos) donde se consultan los cambios realizados. Cada uno se detalla en su respectiva pestaña:
 
 {% tabs %}
 {% tab title="Asociar franquicia " %}
