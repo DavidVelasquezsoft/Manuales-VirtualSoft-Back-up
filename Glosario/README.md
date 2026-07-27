@@ -207,10 +207,6 @@ Por su parte, el **GGR Neto (Ingreso Neto)** considera adicionalmente el impacto
 
 Se conoce también como cheque de caja y consiste en enviar dinero a otra persona o empresa a través de un cheque emitido por el banco, y que contiene los datos del emisor, del receptor y de la cuenta bancaria de destino.
 
-* #### **Regla programada:**&#x20;
-
-Configuración que modifica de forma temporal la prioridad de una pasarela dentro de una franquicia, elevándola a la **prioridad #1** durante un rango de fechas, horas y días definidos. Mientras la regla está vigente, esa pasarela se ofrece primero al jugador por encima del orden de prioridad permanente; una vez finaliza, el orden vuelve a su configuración habitual.
-
 ## H
 
 * #### Hípicas:
@@ -437,6 +433,9 @@ Empresa responsable de la creación, gestión y distribución de los juegos dent
 *   #### Régimen reforzado:&#x20;
 
     Estado asignado a usuarios que requieren controles y verificaciones adicionales debido a criterios regulatorios o de riesgo, incluyendo Personas Expuestas Políticamente (PEP). Su finalidad es aplicar medidas de debida diligencia reforzada y cumplir con las obligaciones legales y normativas vigentes.
+*   #### Regla programada:
+
+    Configuración que modifica de forma temporal la prioridad de una pasarela dentro de una franquicia, elevándola a la **prioridad #1** durante un rango de fechas, horas y días definidos. Mientras la regla está vigente, esa pasarela se ofrece primero al jugador por encima del orden de prioridad permanente; una vez finaliza, el orden vuelve a su configuración habitual.
 
 ## S
 
