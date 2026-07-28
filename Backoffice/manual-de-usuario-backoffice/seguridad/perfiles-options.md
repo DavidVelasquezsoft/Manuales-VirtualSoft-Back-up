@@ -21,33 +21,35 @@ layout:
 
 # Perfiles Options
 
-<mark style="color:$info;">Este módulo permite administrar los permisos de acceso a los diferentes módulos y funcionalidades de la plataforma BackOffice. Los permisos pueden gestionarse de forma global, por operación (Partner) o para un usuario específico, siguiendo una jerarquía de aplicación que define la prioridad entre bloqueos y autorizaciones en cada nivel de configuración.</mark>
+<mark style="color:$info;">Este módulo permite administrar los permisos de acceso a los diferentes módulos y funcionalidades de la plataforma BackOffice. Los permisos pueden gestionarse de forma global, por operación</mark> <mark style="color:$info;"></mark>_<mark style="color:$info;">(Partner)</mark>_ <mark style="color:$info;"></mark><mark style="color:$info;">o para un usuario específico, siguiendo una jerarquía de aplicación que define la prioridad entre bloqueos y autorizaciones en cada nivel de configuración.</mark>
 
 ***
 
 ### 1. Acceso al Módulo <a href="#id-1.-acceso-al-modulo" id="id-1.-acceso-al-modulo"></a>
 
-**Ruta de acceso:** BackOffice > Seguridad > Perfiles Options.
+**Ruta de acceso:** BackOffice > Seguridad > Perfiles-Options.
 
 ***
 
 ### 2. Visualización <a href="#id-2.-visualizacion" id="id-2.-visualizacion"></a>
 
-<figure><img src="../../.gitbook/assets/image (702).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (702).png" alt=""><figcaption><p>Figura #1: Captura de pantalla módulo perfiles-options.</p></figcaption></figure>
 
 ***
 
 ### 3. Acciones de usuario
 
-<table><thead><tr><th width="164">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Crear Permiso</strong></td><td>Crea un nuevo permiso para ser utilizado en la plataforma.</td></tr><tr><td><strong><code>Gestionar permisos</code></strong></td><td>Administra los permisos de acceso de los usuarios mediante configuraciones <strong>Global</strong>, <strong>Operación </strong><em><strong>(Partner)</strong></em> o <strong>Usuario</strong>, así como aplicar bloqueos y autorizaciones según la jerarquía establecida.</td></tr></tbody></table>
+<table><thead><tr><th width="164">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Crear Permiso</strong></td><td>Crea un nuevo permiso para ser utilizado en la plataforma.</td></tr><tr><td><strong>Gestionar permisos</strong></td><td>Administra los permisos de acceso de los usuarios mediante configuraciones <strong>Global</strong>, <strong>Operación </strong><em><strong>(Partner)</strong></em> o <strong>Usuario</strong>, así como aplicar bloqueos y autorizaciones según la jerarquía establecida.</td></tr></tbody></table>
 
-#### **3.1. Crear permiso**
+***
+
+### **4. Crear permiso**
 
 <table><thead><tr><th width="150.66668701171875">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>URL API</code></strong> <em>(obligatorio)</em></td><td><p>URL de la API o módulo que se va a bloquear con el permiso a crear.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> En este campo no se permiten carácteres especiales <em>(#,-,!)</em>, se debe ingresar la URL directa.</p></div></td></tr><tr><td><strong><code>Descripción</code></strong> <em>(obligatorio)</em></td><td>Especifica el nombre del menú que verán los usuarios.</td></tr><tr><td><strong><code>Menú padre</code></strong></td><td>Establece el menú padre al que se asociará el nuevo permiso.<br>Si no se selecciona un menú padre, el permiso se creará como permiso principal; en caso contrario, quedará definido como un permiso dentro del menú seleccionado.</td></tr><tr><td><strong><code>Sub Menú</code></strong></td><td>En caso de haber seleccionado un menú padre si aplica permite seleccionar un submenú en el que quedara el nuevo permiso</td></tr></tbody></table>
 
 ***
 
-### 4. Gestión de permisos
+### 5. Gestión de permisos
 
 Los permisos pueden administrarse desde tres niveles diferentes:
 
@@ -104,7 +106,7 @@ La gestión por **Operación** permite asignar o bloquear permisos para un **tip
 
 ***
 
-### 5. ¿Cómo gestionar permisos?
+### 6. ¿Cómo gestionar permisos?
 
 El flujo de gestión de permisos es el mismo para las modalidades **Global**, **Operación** y **Usuario**. La única diferencia corresponde a los filtros disponibles en cada modalidad.
 
@@ -141,7 +143,7 @@ La modificación de los permisos se aplica de forma inmediata, sin necesidad de 
 {% endstep %}
 {% endstepper %}
 
-### 6. Reglas y validaciones
+### 7. Reglas y validaciones
 
 * La gestión de permisos respeta la siguiente jerarquía de aplicación: **Bloqueos > Global > Operación&#x20;**_**(Partner)**_**&#x20;> Usuario**.
 * Un permiso **bloqueado** no podrá ser habilitado desde un nivel inferior de la jerarquía.
@@ -155,7 +157,7 @@ La modificación de los permisos se aplica de forma inmediata, sin necesidad de 
 
 {% file src="../../.gitbook/assets/Permosis BackOffice.pdf" %}
 
-### 7. Control de versiones
+### 8. Control de versiones
 
 <details>
 
