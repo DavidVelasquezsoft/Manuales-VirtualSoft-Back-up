@@ -65,6 +65,10 @@ Este módulo está organizado en tres secciones principales que permanecen distr
 
 {% tabs %}
 {% tab title="DoradoClub" %}
+{% hint style="warning" %}
+**Nota:** Este módulo está disponible únicamente para el partner **Doradobet**.
+{% endhint %}
+
 El módulo de Doradoclub contiene una tabla en la cual se puede visualizar cómo obtener puntos calificables para subir en los niveles lealtad en cada vertical.
 
 **Visualización**
@@ -74,19 +78,21 @@ El módulo de Doradoclub contiene una tabla en la cual se puede visualizar cómo
 <table><thead><tr><th width="177">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Tipo de apuesta</code></strong></td><td>Tipo de apuesta necesario para adquirir los puntos.</td></tr><tr><td><strong><code>Moneda</code></strong></td><td>Moneda en la cual se debe realizar la apuesta.</td></tr><tr><td><strong><code>Monto requerido</code></strong></td><td>Monto mínimo de apuesta requerido para adquirir los puntos.</td></tr><tr><td><strong><code>Acumula puntos</code></strong></td><td>Acción realizada al cumplir la apuesta.</td></tr><tr><td><strong><code>Puntos base</code></strong></td><td>Puntos adquiridos como base por la apuesta.</td></tr></tbody></table>
 {% endtab %}
 
-{% tab title="Niveles de lealtad" %}
+{% tab title="🏆 Niveles " %}
 Visualiza los niveles lealtad en forma de tarjetas, configurados desde [SiteBuilder](https://virtualsoft.gitbook.io/manuales/sitebuilder/manual-de-usuario/como-ingresar/promocionales/niveles-de-lealtad.).
 
 **Visualización.**
 
-<figure><img src="../../../.gitbook/assets/image (195).png" alt=""><figcaption><p>Figura #3: Captura de pantalla niveles lealtad</p></figcaption></figure>
+**Nota esta imagen es solo un Ejemplo esta visual es diferente para cada partner**
+
+<figure><img src="../../../.gitbook/assets/image (200).png" alt=""><figcaption><p>Figura #3: Ejemplo de visual niveles lealtad</p></figcaption></figure>
+
+#### Información
 
 <table><thead><tr><th width="134">Sección</th><th>Descripción</th></tr></thead><tbody><tr><td>🏳️</td><td>La tarjeta correspondiente al nivel lealtad en el que se encuentra el usuario tendrá este ícono.</td></tr><tr><td>✅</td><td>Este ícono estará en la tarjeta que a los niveles lealtad que ya han sido superados.</td></tr><tr><td>🔒</td><td>Los niveles lealtad que aún no ha alcanzado el usuario estarán bloqueados y no se podrán redimir las recompensas.</td></tr><tr><td><strong><code>Ver detalle</code></strong></td><td>Visualiza información general sobre el comportamiento del nivel lealtad.</td></tr><tr><td><strong><code>Recompensas</code></strong></td><td><p>Despliega un pop-up que contiene los premios disponibles para redimir por ese nivel lealtad.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Los niveles que ya han sido superados no tendrán este botón disponible.</p></div></td></tr></tbody></table>
-
-<figure><img src="../../../.gitbook/assets/image (196).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
-{% tab title="Ir a la tienda de premios" %}
+{% tab title="🛍️Tienda" %}
 Despliega los premios disponibles creados en diferentes campañas de fidelización.
 
 **visualización**
@@ -160,7 +166,7 @@ Al hacer clic en Continuar, el mensaje se cierra y se completa el flujo de canje
 {% endstepper %}
 {% endtab %}
 
-{% tab title="Puntos calificables" %}
+{% tab title="⭐ Puntos calificables" %}
 Visualiza el historial de movimientos de los puntos calificables.
 
 **Visualización**
@@ -170,7 +176,7 @@ Visualiza el historial de movimientos de los puntos calificables.
 <table><thead><tr><th width="153">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Movimientos</code></strong></td><td>Movimiento realizado con los puntos.</td></tr><tr><td><strong><code>Id</code></strong></td><td>Identificador único asignado al movimiento de puntos calificables</td></tr><tr><td><strong><code>Fecha</code></strong></td><td>Fecha en la que se realizó el movimiento.</td></tr><tr><td><strong><code>Puntos</code></strong></td><td>Cantidad de puntos correspondientes al movimiento</td></tr><tr><td><strong><code>Descargar PDF</code></strong></td><td>Descarga un PDF con la información visualizada en la tabla.</td></tr><tr><td><strong><code>Descargar XLSX</code></strong></td><td>Descarga un archivo en forlato XLSX con la información visualizada en la tabla</td></tr></tbody></table>
 {% endtab %}
 
-{% tab title="Transacciones" %}
+{% tab title="💳 Transacciones" %}
 Visualiza el historial de movimientos de los puntos canjeables.
 
 **Visualización**
@@ -180,7 +186,7 @@ Visualiza el historial de movimientos de los puntos canjeables.
 <table><thead><tr><th width="153">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Movimientos</code></strong></td><td>Movimiento realizado con los puntos.</td></tr><tr><td><strong><code>Id</code></strong></td><td>Identificador único asignado al movimiento de puntos calificables</td></tr><tr><td><strong><code>Fecha</code></strong></td><td>Fecha en la que se realizó el movimiento.</td></tr><tr><td><strong><code>Puntos</code></strong></td><td>Cantidad de puntos correspondientes al movimiento</td></tr><tr><td><strong><code>Descargar PDF</code></strong></td><td>Descarga un PDF con la información visualizada en la tabla.</td></tr><tr><td><strong><code>Descargar XLSX</code></strong></td><td>Descarga un archivo en forlato XLSX con la información visualizada en la tabla</td></tr></tbody></table>
 {% endtab %}
 
-{% tab title="Cambios de nivel" %}
+{% tab title="🔄 Cambio de nivel" %}
 Visualiza el historial de cambios de niveles lealtad en la cuenta del usuario.
 
 **Visualización**
