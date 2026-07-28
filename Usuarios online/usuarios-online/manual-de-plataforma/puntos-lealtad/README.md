@@ -55,7 +55,11 @@ Este módulo está organizado en tres secciones principales que permanecen distr
 
 **Visualización**
 
-<figure><img src="../../../.gitbook/assets/image (192).png" alt=""><figcaption><p>Figura #1: Captura de pantalla progreso de niveles lealtad.</p></figcaption></figure>
+{% hint style="warning" %}
+**Nota:** La siguiente imagen es solo un ejemplo de referencia. La apariencia y la distribución de los elementos pueden variar según la configuración implementada por cada partner.
+{% endhint %}
+
+<figure><img src="../../../.gitbook/assets/image (207).png" alt=""><figcaption><p>Figura #1: Ejemplo de la vista progreso de niveles lealtad.</p></figcaption></figure>
 
 <table><thead><tr><th width="162">Sección</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Tiempo restante</code></strong></td><td>Visualiza un contador con el tiempo restante en el nivel actual.</td></tr><tr><td><strong><code>Información del perfil</code></strong></td><td>Visualiza la foto de perfil de la cuenta, el nombre y debajo el nivel lealtad.</td></tr><tr><td><strong><code>Tus puntos</code></strong></td><td>Cantidad actual de puntos lealtad</td></tr><tr><td><strong><code>Barra de progreso</code></strong></td><td><p>visualiza una tarjeta que contiene una barra que indica la cantidad de puntos que se tiene comparado con la cantidad de puntos que se necesita para el siguiente nivel.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota</strong>: La cantidad de barras de progreso que se visualizan depende de la configuración del nivel de lealtad. Si el nivel requiere cumplir tanto una meta de puntos como de depósitos, se mostrarán dos barras de progreso: una correspondiente a los <strong>puntos de lealtad</strong> y otra a los <strong>depósitos realizados</strong>.</p></div></td></tr><tr><td><strong><code>Términos y condiciones</code></strong></td><td>Visualiza los términos y condiciones generales de los niveles lealtad</td></tr></tbody></table>
 
@@ -83,21 +87,27 @@ Visualiza los niveles lealtad en forma de tarjetas, configurados desde [SiteBuil
 
 **Visualización.**
 
-**Nota esta imagen es solo un Ejemplo esta visual es diferente para cada partner**
+{% hint style="warning" %}
+**Nota:** La siguiente imagen es solo un ejemplo de referencia. La apariencia y la distribución de los elementos pueden variar según la configuración implementada por cada partner.
+{% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (200).png" alt=""><figcaption><p>Figura #3: Ejemplo de visual niveles lealtad</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (201).png" alt=""><figcaption><p>Figura #3: Ejemplo de visual niveles lealtad</p></figcaption></figure>
 
 #### Información
 
-<table><thead><tr><th width="134">Sección</th><th>Descripción</th></tr></thead><tbody><tr><td>🏳️</td><td>La tarjeta correspondiente al nivel lealtad en el que se encuentra el usuario tendrá este ícono.</td></tr><tr><td>✅</td><td>Este ícono estará en la tarjeta que a los niveles lealtad que ya han sido superados.</td></tr><tr><td>🔒</td><td>Los niveles lealtad que aún no ha alcanzado el usuario estarán bloqueados y no se podrán redimir las recompensas.</td></tr><tr><td><strong><code>Ver detalle</code></strong></td><td>Visualiza información general sobre el comportamiento del nivel lealtad.</td></tr><tr><td><strong><code>Recompensas</code></strong></td><td><p>Despliega un pop-up que contiene los premios disponibles para redimir por ese nivel lealtad.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Los niveles que ya han sido superados no tendrán este botón disponible.</p></div></td></tr></tbody></table>
+<table><thead><tr><th width="199">Sección</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>🚩 Nivel objetivo</code></strong></td><td>Indica el siguiente nivel de lealtad que el usuario puede alcanzar al cumplir los requisitos establecidos.</td></tr><tr><td><code>✅</code><strong><code>Nivel alcanzado</code></strong></td><td>Identifica los niveles de lealtad que el usuario ya ha alcanzado y que se encuentran activos en su cuenta.</td></tr><tr><td><code>🔒</code><strong><code>Nivel bloqueado</code></strong></td><td>Representa los niveles que el usuario aún no ha desbloqueado. Estos permanecerán bloqueados hasta cumplir los requisitos correspondientes y sus recompensas no podrán ser reclamadas.</td></tr><tr><td><strong><code>Ver detalles</code></strong></td><td>Muestra la información del nivel seleccionado, incluyendo sus requisitos, beneficios, progreso y demás información relacionada.</td></tr><tr><td><strong><code>Recompensas</code></strong></td><td><p>Abre una ventana con el listado de recompensas disponibles para el nivel seleccionado, permitiendo consultar los premios que pueden reclamarse. </p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Este botón solo estará disponible para los niveles que aún tengan recompensas por reclamar. En los niveles ya completados o sin recompensas disponibles, el botón no se mostrará.</p></div></td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="🛍️Tienda" %}
 Despliega los premios disponibles creados en diferentes campañas de fidelización.
 
-**visualización**
+**Visualización**
 
-<figure><img src="../../../.gitbook/assets/image (190).png" alt="" width="563"><figcaption><p>Figura#4: Captura de pantalla de ejemplo tienda de premios.</p></figcaption></figure>
+{% hint style="warning" %}
+**Nota:** La siguiente imagen es solo un ejemplo de referencia. La apariencia y la distribución de los elementos pueden variar según la configuración implementada por cada partner.
+{% endhint %}
+
+<figure><img src="../../../.gitbook/assets/image (202).png" alt="" width="563"><figcaption><p>Figura#4: Captura de pantalla de ejemplo tienda de premios.</p></figcaption></figure>
 
 Seleccionar categoría en la que se desean canjear los puntos.
 
@@ -110,7 +120,7 @@ El módulo permite visualizar los premios disponibles según la categoría selec
 Al seleccionar una categoría de premios, se muestra una vista compuesta por varias tarjetas, donde cada una representa un premio disponible.\
 La información presentada en cada tarjeta se detalla en la siguiente tabla:
 
-<table><thead><tr><th width="230">Elemento</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Nombre del premio</code></strong></td><td>Título o nombre asignado al premio.</td></tr><tr><td><strong><code>Puntos requeridos</code></strong></td><td>Cantidad de puntos lealtad necesarios para redimirlo.</td></tr><tr><td><strong><code>Imagen del premio</code></strong></td><td>Imagen ilustrativa o promocional asociada.</td></tr><tr><td><strong><code>Estado del premio</code></strong></td><td>Indica si el premio está disponible para redimir <em>(desbloqueado)</em> o no <em>(bloqueado)</em>.</td></tr></tbody></table>
+<table><thead><tr><th width="205">Elemento</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Nombre del premio</code></strong></td><td>Título o nombre asignado al premio.</td></tr><tr><td><strong><code>Puntos requeridos</code></strong></td><td>Cantidad de puntos lealtad necesarios para redimirlo.</td></tr><tr><td><strong><code>Imagen del premio</code></strong></td><td>Imagen ilustrativa o promocional asociada.</td></tr><tr><td><strong><code>Estado del premio</code></strong></td><td>Indica si el premio está disponible para redimir <em>(desbloqueado)</em> o no <em>(bloqueado)</em>.</td></tr></tbody></table>
 
 ***
 
@@ -171,9 +181,13 @@ Visualiza el historial de movimientos de los puntos calificables.
 
 **Visualización**
 
-<figure><img src="../../../.gitbook/assets/image (197).png" alt=""><figcaption><p>Figura #4: Captura de pantalla puntos calificables.</p></figcaption></figure>
+{% hint style="warning" %}
+**Nota:** La siguiente imagen es solo un ejemplo de referencia. La apariencia y la distribución de los elementos pueden variar según la configuración implementada por cada partner.
+{% endhint %}
 
-<table><thead><tr><th width="153">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Movimientos</code></strong></td><td>Movimiento realizado con los puntos.</td></tr><tr><td><strong><code>Id</code></strong></td><td>Identificador único asignado al movimiento de puntos calificables</td></tr><tr><td><strong><code>Fecha</code></strong></td><td>Fecha en la que se realizó el movimiento.</td></tr><tr><td><strong><code>Puntos</code></strong></td><td>Cantidad de puntos correspondientes al movimiento</td></tr><tr><td><strong><code>Descargar PDF</code></strong></td><td>Descarga un PDF con la información visualizada en la tabla.</td></tr><tr><td><strong><code>Descargar XLSX</code></strong></td><td>Descarga un archivo en forlato XLSX con la información visualizada en la tabla</td></tr></tbody></table>
+<figure><img src="../../../.gitbook/assets/image (203).png" alt=""><figcaption><p>Figura #4: Ejemplo visual puntos calificables.</p></figcaption></figure>
+
+<table><thead><tr><th width="149">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Movimientos</code></strong></td><td>Muestra el tipo de movimiento que generó la asignación o modificación de los puntos calificables del usuario.</td></tr><tr><td><strong><code>Id</code></strong></td><td>Identificador único del movimiento registrado en el historial de puntos calificables.</td></tr><tr><td><strong><code>Fecha</code></strong></td><td>Indica la fecha en la que se registró el movimiento de puntos calificables.</td></tr><tr><td><strong><code>Puntos</code></strong></td><td>Cantidad de puntos calificables asociados al movimiento registrado. El valor puede ser positivo o negativo, según el tipo de transacción.</td></tr><tr><td><strong><code>Descargar PDF</code></strong></td><td>Permite descargar el historial de puntos calificables mostrado en la tabla en formato <strong>PDF</strong>.</td></tr><tr><td><strong><code>Descargar XLSX</code></strong></td><td>Permite descargar el historial de puntos calificables mostrado en la tabla en formato <strong>XLSX.</strong></td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="💳 Transacciones" %}
@@ -181,9 +195,13 @@ Visualiza el historial de movimientos de los puntos canjeables.
 
 **Visualización**
 
-<figure><img src="../../../.gitbook/assets/image (198).png" alt=""><figcaption><p>Figura #5: Captura de pantalla módulo transacciones</p></figcaption></figure>
+{% hint style="warning" %}
+**Nota:** La siguiente imagen es solo un ejemplo de referencia. La apariencia y la distribución de los elementos pueden variar según la configuración implementada por cada partner.
+{% endhint %}
 
-<table><thead><tr><th width="153">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Movimientos</code></strong></td><td>Movimiento realizado con los puntos.</td></tr><tr><td><strong><code>Id</code></strong></td><td>Identificador único asignado al movimiento de puntos calificables</td></tr><tr><td><strong><code>Fecha</code></strong></td><td>Fecha en la que se realizó el movimiento.</td></tr><tr><td><strong><code>Puntos</code></strong></td><td>Cantidad de puntos correspondientes al movimiento</td></tr><tr><td><strong><code>Descargar PDF</code></strong></td><td>Descarga un PDF con la información visualizada en la tabla.</td></tr><tr><td><strong><code>Descargar XLSX</code></strong></td><td>Descarga un archivo en forlato XLSX con la información visualizada en la tabla</td></tr></tbody></table>
+<figure><img src="../../../.gitbook/assets/image (205).png" alt=""><figcaption><p>Figura #5: Ejemplo del módulo transacciones</p></figcaption></figure>
+
+<table><thead><tr><th width="142">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Movimientos</code></strong></td><td>Muestra el tipo de movimiento que originó la asignación, el descuento o el ajuste de los puntos calificables.</td></tr><tr><td><strong><code>Id</code></strong></td><td>Identificador único del movimiento registrado en el historial de puntos calificables.</td></tr><tr><td><strong><code>Fecha</code></strong></td><td>Indica la fecha en la que se registró el movimiento.</td></tr><tr><td><strong><code>Puntos</code></strong></td><td>Cantidad de puntos calificables asociada al movimiento registrado. El valor puede ser positivo o negativo, según el tipo de transacción.</td></tr><tr><td><strong><code>Descargar PDF</code></strong></td><td>Permite descargar en formato <strong>PDF</strong> la información que se muestra en la tabla.</td></tr><tr><td><strong><code>Descargar XLSX</code></strong></td><td>Permite descargar en formato <strong>XLSX</strong> la información que se muestra en la tabla.</td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="🔄 Cambio de nivel" %}
@@ -191,9 +209,13 @@ Visualiza el historial de cambios de niveles lealtad en la cuenta del usuario.
 
 **Visualización**
 
-<figure><img src="../../../.gitbook/assets/image (199).png" alt=""><figcaption><p>Figura #6: Captura de pantalla cambios de nivel.</p></figcaption></figure>
+{% hint style="warning" %}
+**Nota:** La siguiente imagen es solo un ejemplo de referencia. La apariencia y la distribución de los elementos pueden variar según la configuración implementada por cada partner.
+{% endhint %}
 
-<table><thead><tr><th width="121">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Anterior</code></strong></td><td>Nivel en el que se encontraba el usuario antes del cambio.</td></tr><tr><td><strong><code>Actual</code></strong></td><td>Nivel adquirido posterior al cambio.</td></tr><tr><td><strong><code>Fecha de cambio</code></strong></td><td>Fecha en la que se realizó el cambio de nivel.</td></tr><tr><td><strong><code>Puntos al cambio</code></strong></td><td>Cantidad de puntos necesarios para realizar el cambio.</td></tr><tr><td><strong><code>Motivo</code></strong></td><td>Cambio realizado en los niveles lealtad.</td></tr><tr><td><strong><code>Periodo</code></strong></td><td>Tiempo correspondiente a la campaña activa asociada a al nivel lealtad.</td></tr></tbody></table>
+<figure><img src="../../../.gitbook/assets/image (206).png" alt=""><figcaption><p>Figura #6: Ejemplo del modulo cambios de nivel.</p></figcaption></figure>
+
+<table><thead><tr><th width="179">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Anterior</code></strong></td><td>Muestra el nivel de lealtad que tenía el usuario antes de que se realizará el cambio.</td></tr><tr><td><strong><code>Actual</code></strong></td><td>Indica el nivel de lealtad asignado al usuario después del cambio.</td></tr><tr><td><strong><code>Fecha de cambio</code></strong></td><td>Fecha y hora en que se registró el cambio de nivel.</td></tr><tr><td><strong><code>Puntos al cambio</code></strong></td><td>Cantidad de puntos calificables que tenía el usuario al momento de realizarse el cambio de nivel.</td></tr><tr><td><strong><code>Motivo</code></strong></td><td>Especifica la razón por la cual se produjo el cambio de nivel, por ejemplo: <strong>Ascenso</strong>, <strong>Descenso</strong> o <strong>Asignación inicial</strong>.</td></tr><tr><td><strong><code>Periodo</code></strong></td><td>Intervalo de tiempo correspondiente al ciclo o campaña de lealtad en el que se efectuó el cambio de nivel.</td></tr></tbody></table>
 {% endtab %}
 {% endtabs %}
 
