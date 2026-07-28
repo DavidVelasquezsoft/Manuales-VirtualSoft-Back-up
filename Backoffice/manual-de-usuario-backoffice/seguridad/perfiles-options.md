@@ -53,9 +53,9 @@ layout:
 
 Los permisos pueden administrarse desde tres niveles diferentes:
 
-* **Global**
-* **Operación (Partner)**
-* **Usuario**
+* [**Global**](https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/seguridad/perfiles-options#id-5.-gestion-de-permisos#global)
+* [**Operación&#x20;**_**(Partner)**_](https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/seguridad/perfiles-options#id-5.-gestion-de-permisos#operacion)
+* [**Usuario**](https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/seguridad/perfiles-options#id-5.-gestion-de-permisos#usuario)
 
 La aplicación de permisos sigue una **jerarquía**, la cual determina qué configuración tiene prioridad sobre otra.
 
@@ -95,7 +95,10 @@ La gestión **Global** permite asignar o bloquear permisos para **todos los usua
 La gestión por **Operación** permite asignar o bloquear permisos para un **tipo de usuario** dentro de un **Partner** y **País** específicos configurados en BackOffice.
 
 {% hint style="warning" %}
-**Nota**: Los permisos otorgados desde la configuración Global no podrán eliminarse desde este nivel
+**Notas**:&#x20;
+
+* Los permisos otorgados desde la configuración Global no podrán eliminarse desde este nivel.
+* Este nivel depende del partner y el país configurado para el BackOffice.
 {% endhint %}
 
 #### Filtros
