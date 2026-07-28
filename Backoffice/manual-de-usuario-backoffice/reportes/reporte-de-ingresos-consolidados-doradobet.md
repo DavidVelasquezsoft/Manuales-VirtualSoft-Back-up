@@ -31,7 +31,7 @@ description: >-
 
 ### 4. Filtros
 
-<table><thead><tr><th width="98.99993896484375">Campo</th><th width="127.27276611328125">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Fecha</code></strong></td><td>Rango de fechas</td><td>Permite seleccionar el rango de fechas a consultar. <em>(Es obligatorio)</em>.</td></tr><tr><td><strong><code>País</code></strong></td><td>Lista desplegable</td><td>Permite seleccionar el país asociado al partner de la sesión. Si no se selecciona un país, el sistema no mostrará información.</td></tr></tbody></table>
+<table><thead><tr><th width="98.99993896484375">Campo</th><th width="127.27276611328125">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Fecha</code></strong></td><td>Rango de fechas</td><td>Permite seleccionar el rango de fechas a consultar. <em>(Es obligatorio)</em>.</td></tr><tr><td><strong><code>País</code></strong></td><td>Lista desplegable</td><td>Permite seleccionar el país asociado al partner de la sesión. <em>(Si no se selecciona un país, el sistema no mostrará información).</em></td></tr></tbody></table>
 
 ***
 
