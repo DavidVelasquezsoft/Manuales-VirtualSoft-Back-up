@@ -8,13 +8,13 @@
 
 ### 1. Acceso al Módulo
 
-**Ruta de Acceso**: BackOffice (BO) > Reportes > Reporte de los Ingresos Consolidados del Titular (Deportivas)
+**Ruta de Acceso**: BackOffice > Reportes > Reporte de los Ingresos Consolidados del Titular (Deportivas)
 
 ***
 
 ### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/image (373).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección Reporte de los ingresos consolidados del titular.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (703).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección Reporte de los ingresos consolidados del titular.</p></figcaption></figure>
 
 ***
 
