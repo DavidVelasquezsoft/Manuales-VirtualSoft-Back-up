@@ -49,7 +49,7 @@ layout:
 
 El reporte de solitudes de retiro se visualizará en una tabla que contiene las siguientes columnas:
 
-<table><thead><tr><th width="140.25">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td>🔍</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="140.25">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td>Fecha</td><td></td></tr><tr><td>Hora</td><td></td></tr><tr><td>No. Ticket</td><td></td></tr><tr><td>Forma Pago 1</td><td></td></tr><tr><td>Pago Bono/ T.C.</td><td></td></tr><tr><td>Valor Entradas efectivo</td><td></td></tr><tr><td>Recargas Anuladas</td><td></td></tr><tr><td>Valor Entradas Bono / T.C.</td><td></td></tr><tr><td>Valor entradas Traslados</td><td></td></tr><tr><td>Valor Entradas recargas</td><td></td></tr><tr><td>Valor Entradas Recargas Agentes</td><td></td></tr><tr><td>Valor Salidas Efectivo</td><td></td></tr><tr><td>Valor Salidas Traslados</td><td></td></tr><tr><td>Valor Salidas Notas de Retiro</td><td></td></tr><tr><td>Saldo</td><td></td></tr><tr><td>Moneda</td><td></td></tr></tbody></table>
 
 ***
 
