@@ -237,10 +237,6 @@ Visualiza el historial de cambios de niveles lealtad en la cuenta del usuario.
 
 <summary>Historial de versiones</summary>
 
-| Versión | Fecha      | Autor         | Cambios Realizados                     |
-| ------- | ---------- | ------------- | -------------------------------------- |
-| 1.0     | 21/07/2025 | Karol Navia   | Versión inicial del módulo Dorado Club |
-| 1.1     | 28/11/2025 | Ronald Peláez | Refinamiento de manual.                |
-| 2.0     | 21/07/2025 | Ronald Peláez | Reestructuración del módulo.           |
+<table><thead><tr><th width="104.79998779296875">Versión</th><th width="120.20001220703125">Fecha</th><th width="141.4000244140625">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>21/07/2025</td><td>Karol Navia</td><td>Versión inicial del módulo Dorado Club</td></tr><tr><td>1.1</td><td>28/11/2025</td><td>Ronald Peláez</td><td>Refinamiento de manual.</td></tr><tr><td>2.0</td><td>21/07/2026</td><td>Ronald Peláez</td><td>Reestructuración del módulo.</td></tr><tr><td>2.1</td><td>28/07/2026</td><td>Karol Navia</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-31440">Estandarizar el manual para todos los partners y optimizar su contenido</a></td></tr></tbody></table>
 
 </details>
