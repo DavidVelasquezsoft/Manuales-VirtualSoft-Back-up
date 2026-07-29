@@ -141,7 +141,7 @@ Las consultas generales mostrarán directamente los registros en la tabla de res
 
 ***
 
-### 5. Validaciones y reglas de negocio
+### 6. Validaciones y reglas de negocio
 
 * Los filtros de consulta son opcionales.
 * La activación y desactivación masiva requieren la carga de un archivo CSV válido.
@@ -150,7 +150,7 @@ Las consultas generales mostrarán directamente los registros en la tabla de res
 
 ***
 
-### 6. Control de Versiones
+### 7. Control de Versiones
 
 <details>
 
