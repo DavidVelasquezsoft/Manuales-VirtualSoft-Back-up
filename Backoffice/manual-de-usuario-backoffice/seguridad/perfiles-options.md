@@ -21,7 +21,7 @@ layout:
 
 # Perfiles Options
 
-<mark style="color:$info;">Este módulo permite administrar los permisos de acceso a los diferentes módulos y funcionalidades de la plataforma BackOffice. Los permisos pueden gestionarse de forma global, por operación</mark> <mark style="color:$info;"></mark>_<mark style="color:$info;">(Partner)</mark>_ <mark style="color:$info;"></mark><mark style="color:$info;">o para un usuario específico, siguiendo una jerarquía de aplicación que define la prioridad entre bloqueos y autorizaciones en cada nivel de configuración.</mark>
+<mark style="color:$info;">Administra los permisos de acceso a los diferentes módulos y funcionalidades de la plataforma BackOffice. Los permisos pueden gestionarse de forma global, por operación</mark> <mark style="color:$info;"></mark>_<mark style="color:$info;">(Partner)</mark>_ <mark style="color:$info;"></mark><mark style="color:$info;">o para un usuario específico, siguiendo una jerarquía de aplicación que define la prioridad entre bloqueos y autorizaciones en cada nivel de configuración.</mark>
 
 ***
 
@@ -45,7 +45,9 @@ layout:
 
 ### **4. Crear permiso**
 
-<table><thead><tr><th width="150.66668701171875">Campo</th><th width="140">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>URL API</code></strong> <em>(obligatorio)</em></td><td>Texto</td><td><p>URL de la API o módulo que se va a bloquear con el permiso a crear.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> En este campo no se permiten caracteres especiales <em>(#, -, !)</em>, se debe ingresar la URL directa.</p></div></td></tr><tr><td><strong><code>Descripción</code></strong> <em>(obligatorio)</em></td><td>Texto</td><td>Especifica el nombre del menú que verán los usuarios.</td></tr><tr><td><strong><code>Menú padre</code></strong></td><td>Lista desplegable</td><td>Establece el menú padre al que se asociará el nuevo permiso.<br>Si no se selecciona un menú padre, el permiso se creará como permiso principal; en caso contrario, quedará definido como un permiso dentro del menú seleccionado.</td></tr><tr><td><strong><code>Sub Menú</code></strong></td><td>Lista desplegable</td><td>En caso de haber seleccionado un menú padre si aplica permite seleccionar un submenú en el que quedara el nuevo permiso</td></tr></tbody></table>
+Crea un permiso para gestionar el acceso a diferentes módulos existentes.
+
+<table><thead><tr><th width="150.66668701171875">Campo</th><th width="140">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>URL API</code></strong> <em>(obligatorio)</em></td><td>Texto</td><td><p>URL de la API o módulo que se va a bloquear con el permiso a crear.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> En este campo no se permiten caracteres especiales <em>(#, -, !)</em>, se debe ingresar la URL directa.</p></div></td></tr><tr><td><strong><code>Descripción</code></strong> <em>(obligatorio)</em></td><td>Texto</td><td>Especifica el nombre del menú que verán los usuarios.</td></tr><tr><td><strong><code>Menú padre</code></strong></td><td>Lista desplegable</td><td>Define el menú al que se asociará el nuevo permiso. Si no se selecciona un menú padre, el permiso se creará como un menú de primer nivel dentro de la estructura de permisos. Si se selecciona un menú padre, el permiso se agregará como una opción o submenú dentro del menú elegido.</td></tr><tr><td><strong><code>Sub Menú</code></strong></td><td>Lista desplegable</td><td>En caso de haber seleccionado un menú padre si aplica permite seleccionar un submenú en el que quedara el nuevo permiso</td></tr></tbody></table>
 
 ***
 
@@ -53,9 +55,9 @@ layout:
 
 Los permisos pueden administrarse desde tres niveles diferentes:
 
-* [**Global**](https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/seguridad/perfiles-options#id-5.-gestion-de-permisos#global)
-* [**Operación&#x20;**_**(Partner)**_](https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/seguridad/perfiles-options#id-5.-gestion-de-permisos#operacion)
-* [**Usuario**](https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/seguridad/perfiles-options#id-5.-gestion-de-permisos#usuario)
+* [**Global**](https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/seguridad/perfiles-options#id-5.-gestion-de-permisos#global#global)
+* [**Operación&#x20;**_**(Partner)**_](https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/seguridad/perfiles-options#id-5.-gestion-de-permisos#global#operacion)
+* [**Usuario**](https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/seguridad/perfiles-options#id-5.-gestion-de-permisos#global#usuario)
 
 La aplicación de permisos sigue una **jerarquía**, la cual determina qué configuración tiene prioridad sobre otra.
 
@@ -75,7 +77,7 @@ Esto significa que:
 La gestión por **Usuario** permite asignar o bloquear permisos para un usuario específico.
 
 {% hint style="warning" %}
-**Nota**: Los permisos otorgados desde la configuración **Global** o por **Operación** no podrán eliminarse desde este nivel, sin embargo, podrán bloquearse.
+**Nota**: Los permisos otorgados desde la configuración **Global** o por **Operación** no podrán quitarse desde este nivel, sin embargo, podrán bloquearse para que un usuario en específico no tenga el acceso.
 {% endhint %}
 
 #### Filtros
@@ -86,6 +88,10 @@ La gestión por **Usuario** permite asignar o bloquear permisos para un usuario 
 {% tab title="Global" %}
 La gestión **Global** permite asignar o bloquear permisos para **todos los usuarios pertenecientes a un mismo tipo de usuario**.
 
+{% hint style="warning" %}
+**Nota**: Los permisos asignados desde este nivel no se podrán quitar desde otros niveles.
+{% endhint %}
+
 #### Filtros&#x20;
 
 <table><thead><tr><th width="157">Campo</th><th width="123">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Tipo de usuario</code></strong></td><td>Lista desplegable</td><td>Permite seleccionar el tipo de usuario al que se le gestionarán los permisos.</td></tr><tr><td><strong><code>Tipo de acción</code></strong></td><td>Lista desplegable</td><td>Define si los permisos seleccionados serán <strong>Autorizaciones</strong> o <strong>Bloqueos</strong>.</td></tr></tbody></table>
@@ -95,23 +101,18 @@ La gestión **Global** permite asignar o bloquear permisos para **todos los usua
 La gestión por **Operación** permite asignar o bloquear permisos para un **tipo de usuario** dentro de un **Partner** y **País** específicos configurados en BackOffice.
 
 {% hint style="warning" %}
-**Notas**:&#x20;
-
-* Los permisos otorgados desde la configuración Global no podrán eliminarse desde este nivel.
-* Este nivel depende del partner y el país configurado para el BackOffice.
+**Notas**: Los permisos otorgados desde la configuración Global no podrán eliminarse desde este nivel.
 {% endhint %}
 
 #### Filtros
 
-<table><thead><tr><th width="195">Campo</th><th>Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Partner</strong></td><td>Lista desplegable</td><td>Permite seleccionar la operación (Partner) sobre la cual se gestionarán los permisos.</td></tr><tr><td><strong>País</strong></td><td>Lista desplegable</td><td>Permite seleccionar el país correspondiente a la operación.</td></tr><tr><td><strong>Tipo de usuario</strong></td><td>Lista desplegable</td><td>Permite seleccionar el tipo de usuario al que se le gestionarán los permisos.</td></tr><tr><td><strong>Tipo de acción</strong></td><td>Lista desplegable</td><td>Define si los permisos seleccionados serán <strong>Autorizaciones</strong> o <strong>Bloqueos</strong>.</td></tr></tbody></table>
+<table><thead><tr><th width="147">Campo</th><th width="175">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Partner</code></strong></td><td>Lista desplegable</td><td>Permite seleccionar la operación <em>(Partner)</em> sobre la cual se gestionarán los permisos.</td></tr><tr><td><strong><code>País</code></strong></td><td>Lista desplegable</td><td>Permite seleccionar el país correspondiente a la operación.</td></tr><tr><td><strong><code>Tipo de usuario</code></strong></td><td>Lista desplegable</td><td>Permite seleccionar el tipo de usuario al que se le gestionarán los permisos.</td></tr><tr><td><strong><code>Tipo de acción</code></strong></td><td>Lista desplegable</td><td>Define si los permisos seleccionados serán <strong>Autorizaciones</strong> o <strong>Bloqueos</strong>.</td></tr></tbody></table>
 {% endtab %}
 {% endtabs %}
 
-***
+#### 5.1. ¿Cómo gestionar permisos?
 
-### 6. ¿Cómo gestionar permisos?
-
-El flujo de gestión de permisos es el mismo para las modalidades **Global**, **Operación** y **Usuario**. La única diferencia corresponde a los filtros disponibles en cada modalidad.
+El flujo de gestión de permisos es el mismo para las modalidades **Global**, **Operación** y **Usuario**. La única diferencia corresponde a los filtros disponibles en cada modalidad, se recomienda seguir los siguientes pasos.
 
 {% stepper %}
 {% step %}
@@ -146,7 +147,7 @@ La modificación de los permisos se aplica de forma inmediata, sin necesidad de 
 {% endstep %}
 {% endstepper %}
 
-### 7. Reglas y validaciones
+### 6. Reglas y validaciones
 
 * La gestión de permisos respeta la siguiente jerarquía de aplicación: **Bloqueos > Global > Operación&#x20;**_**(Partner)**_**&#x20;> Usuario**.
 * Un permiso **bloqueado** no podrá ser habilitado desde un nivel inferior de la jerarquía.
@@ -160,7 +161,7 @@ La modificación de los permisos se aplica de forma inmediata, sin necesidad de 
 
 {% file src="../../.gitbook/assets/Permosis BackOffice.pdf" %}
 
-### 8. Control de versiones
+### 7. Control de versiones
 
 <details>
 
