@@ -43,13 +43,13 @@ layout:
 
 ### 4. Filtros
 
-<table><thead><tr><th width="135.25">Campo</th><th width="117.25">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Fecha</code></strong></td><td>Calendario</td><td>Rango de fechas en la cual se realizaron los Retiros.</td></tr><tr><td><strong><code>No. Ticket</code></strong></td><td>Numérico</td><td>Número de ticket por</td></tr></tbody></table>
+<table><thead><tr><th width="135.25">Campo</th><th width="117.25">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Fecha de creación</code></strong></td><td>Calendario</td><td></td></tr><tr><td><strong><code>ID Externo</code></strong></td><td>Numérico</td><td></td></tr><tr><td><strong><code>Movimiento</code></strong></td><td>Lista desplegable</td><td></td></tr><tr><td><strong><code>Tipo</code></strong></td><td>Lista desplegable</td><td></td></tr></tbody></table>
 
 ### 5. Resultado de Consulta
 
 El reporte de solitudes de retiro se visualizará en una tabla que contiene las siguientes columnas:
 
-<table><thead><tr><th width="140.25">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Fecha</code></strong></td><td></td></tr><tr><td><strong><code>Hora</code></strong></td><td></td></tr><tr><td><strong><code>No. Ticket</code></strong></td><td></td></tr><tr><td><strong><code>Forma Pago 1</code></strong></td><td></td></tr><tr><td><strong><code>Pago Bono/ T.C.</code></strong></td><td></td></tr><tr><td><strong><code>Valor Entradas efectivo</code></strong></td><td></td></tr><tr><td><strong><code>Recargas Anuladas</code></strong></td><td></td></tr><tr><td><strong><code>Valor Entradas Bono / T.C.</code></strong></td><td></td></tr><tr><td><strong><code>Valor entradas Traslados</code></strong></td><td></td></tr><tr><td><strong><code>Valor Entradas recargas</code></strong></td><td></td></tr><tr><td><strong><code>Valor Entradas Recargas Agentes</code></strong></td><td></td></tr><tr><td><strong><code>Valor Salidas Efectivo</code></strong></td><td></td></tr><tr><td><strong><code>Valor Salidas Traslados</code></strong></td><td></td></tr><tr><td><strong><code>Valor Salidas Notas de Retiro</code></strong></td><td></td></tr><tr><td><strong><code>Saldo</code></strong></td><td></td></tr><tr><td><strong><code>Moneda</code></strong></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="140.25">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>ID</code></strong></td><td></td></tr><tr><td><strong><code>ID Usuario</code></strong></td><td></td></tr><tr><td><strong><code>Movimiento</code></strong></td><td></td></tr><tr><td><strong><code>Tipo</code></strong></td><td></td></tr><tr><td><strong><code>ID Externo</code></strong></td><td></td></tr><tr><td><strong><code>Fecha de creación</code></strong></td><td></td></tr><tr><td><strong><code>Valor</code></strong></td><td></td></tr><tr><td><strong><code>Saldo</code></strong></td><td></td></tr></tbody></table>
 
 ***
 

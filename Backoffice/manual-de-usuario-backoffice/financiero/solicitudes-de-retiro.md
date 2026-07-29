@@ -95,7 +95,7 @@ Mediante los íconos ✔ se aprueban o ✖ se rechazan las solicitudes. Al aprob
 {% endstep %}
 
 {% step %}
-**Métodos de aprobación** �&#xDCB3;**:**
+**Métodos de aprobación** &#x1F4B3;**:**
 
 Para continuar con el pago del retiro solicitado por el usuario, ubique el botón con el ícono 💳.\
 Al hacer clic, se desplegará un pop-up con las siguientes opciones:
