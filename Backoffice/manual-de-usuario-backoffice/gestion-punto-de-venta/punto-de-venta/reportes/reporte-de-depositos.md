@@ -21,7 +21,7 @@ layout:
 
 # Reporte de Depósitos
 
-Reporte de depósitos realizados por el punto de venta.
+<mark style="color:$info;">Reporte de depósitos realizados por el punto de venta.</mark>
 
 ***
 

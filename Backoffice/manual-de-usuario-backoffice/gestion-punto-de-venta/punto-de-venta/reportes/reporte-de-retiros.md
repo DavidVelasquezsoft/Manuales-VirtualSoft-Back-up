@@ -21,7 +21,7 @@ layout:
 
 # Reporte de Retiros
 
-Reporte de las solicitudes de retiros realizadas por medio del punto de venta.
+<mark style="color:$info;">Reporte de las solicitudes de retiros realizadas por medio del punto de venta.</mark>
 
 ***
 
