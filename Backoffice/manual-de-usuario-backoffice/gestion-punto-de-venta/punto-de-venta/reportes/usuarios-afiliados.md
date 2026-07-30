@@ -39,7 +39,7 @@ layout:
 
 ### 3. Acciones de usuario
 
-<table><thead><tr><th width="107">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Filtros</strong></td><td>Permite consultar el historial de movimientos del punto de venta mediante diferentes criterios de búsqueda.</td></tr><tr><td><strong>Limpiar</strong></td><td>Restablece los filtros por defecto.</td></tr><tr><td><strong>Consultar</strong></td><td>Aplica los filtros configurados y obtiene los resultados de la consulta.</td></tr><tr><td><strong>Exportar</strong></td><td>Permite exportar los resultados obtenidos según los filtros aplicados en formatos Excel (.XLS) y PDF mediante el botón <strong>Exportar</strong>, ubicado en la parte inferior derecha de la pantalla.</td></tr></tbody></table>
+<table><thead><tr><th width="111">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Filtros</strong></td><td>Permite consultar los usuarios afiliados al punto de venta mediante los criterios de búsqueda disponibles.</td></tr><tr><td><strong>Limpiar</strong></td><td>Restablece los filtros por defecto.</td></tr><tr><td><strong>Consultar</strong></td><td>Aplica los filtros configurados y obtiene el listado de usuarios afiliados que cumplen con los criterios seleccionados.</td></tr><tr><td><strong>Exportar</strong></td><td>Permite exportar los resultados obtenidos según los filtros aplicados en formatos Excel <em>(.XLS)</em> y PDF mediante el botón <strong>Exportar</strong>, ubicado en la parte inferior derecha de la pantalla.</td></tr></tbody></table>
 
 ### 4. Filtros
 
@@ -47,7 +47,7 @@ layout:
 
 ### 5. Resultado de Consulta
 
-El reporte presenta el listado de usuarios afiliados al punto de venta durante el período seleccionado. La información permite identificar cada usuario, consultar su estado actual y conocer las fechas relacionadas con su registro y último acceso a la plataforma.
+El reporte presenta el listado de usuarios afiliados al punto de venta durante el período seleccionado.&#x20;
 
 La información se visualizará en una tabla con las siguientes columnas:
 
