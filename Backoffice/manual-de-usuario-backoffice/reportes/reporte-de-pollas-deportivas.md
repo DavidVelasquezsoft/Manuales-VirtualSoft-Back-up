@@ -73,7 +73,7 @@ Aplica los filtros seleccionados y muestra los registros válidos de los usuario
 * Para el filtro **`Fecha inicio`** debes tener en cuenta las siguientes validaciones:
   * El campo **Desde** no puede ser mayor que el campo **Hasta**.
   * Si el usuario ingresa un rango inválido, el sistema mostrará el mensaje:\
-    &#xNAN;**“La fecha inicial no puede ser mayor que la fecha final.”**
+    **“La fecha inicial no puede ser mayor que la fecha final.”**
 
 ***
 
