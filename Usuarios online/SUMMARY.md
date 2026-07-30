@@ -45,3 +45,4 @@
       * [Consultar retiros](usuarios-online/manual-de-plataforma/consultas/consultar-retiros.md)
   * [Otros](usuarios-online/otros.md)
   * [Solución de problemas.](usuarios-online/solucion-de-problemas..md)
+  * [Inventario de módulos](usuarios-online/inventario-de-modulos.md)
