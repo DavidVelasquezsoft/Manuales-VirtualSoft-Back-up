@@ -30,3 +30,8 @@ En cada caso se define un flujo específico que determina:
 * Configuraciones adicionales, si corresponde.
 
 A continuación, se presenta el listado de manuales donde se detalla paso a paso cada flujo disponible.
+
+{% content-ref url="flujo-de-creacion-torneo-para-usuarios-lealtad..md" %}
+[flujo-de-creacion-torneo-para-usuarios-lealtad..md](flujo-de-creacion-torneo-para-usuarios-lealtad..md)
+{% endcontent-ref %}
+
