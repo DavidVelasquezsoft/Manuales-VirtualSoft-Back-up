@@ -50,4 +50,3 @@
       * [Configuración de SEON](manual-de-usuario/como-ingresar/configuracion/configuracion-de-seon.md)
       * [Puntaje de riesgo.](manual-de-usuario/como-ingresar/configuracion/puntaje-de-riesgo..md)
       * [Módulo de pago automático](manual-de-usuario/como-ingresar/configuracion/modulo-de-pago-automatico.md)
-* [Inventario de módulos](inventario-de-modulos.md)

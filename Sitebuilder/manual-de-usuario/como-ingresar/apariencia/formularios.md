@@ -30,7 +30,7 @@ description: >-
 
 <figure><img src="../../../.gitbook/assets/image (76).png" alt="" width="206"><figcaption><p>Figura#1: Captura de pantalla ajustes del campo.</p></figcaption></figure>
 
-### &#x20;&#xNAN;**⚙️ 3.2.  Acciones de usuario**
+### &#x20;**⚙️ 3.2.  Acciones de usuario**
 
 Al hacer clic en la opción editar campo se mostrara un pop up con las siguientes configuraciones.
 
