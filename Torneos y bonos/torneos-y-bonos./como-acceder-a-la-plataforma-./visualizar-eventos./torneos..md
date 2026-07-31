@@ -94,7 +94,7 @@ Permite visualizar todos los jugadores participantes y consultar los detalles de
   * Solo se permiten letras, números, espacios y los siguientes caracteres: **`- _ ( ) /`**
   * El botón **Editar** estará disponible únicamente para usuarios con rol administrador o con permisos específicos de edición en sorteos y torneos.
   * Al guardar los cambios correctamente, el sistema mostrará el mensaje:\
-    &#xNAN;**“Los cambios se guardaron correctamente.”**
+    **“Los cambios se guardaron correctamente.”**
 
 ***
 

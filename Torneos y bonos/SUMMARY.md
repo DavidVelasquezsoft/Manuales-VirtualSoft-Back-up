@@ -40,4 +40,3 @@
       * [Jackpot.](torneos-y-bonos./como-acceder-a-la-plataforma-./visualizar-eventos./jackpot..md)
       * [Visualizar multiplicador lealtad](torneos-y-bonos./como-acceder-a-la-plataforma-./visualizar-eventos./visualizar-multiplicador-lealtad.md)
   * [Solución de problemas.](torneos-y-bonos./solucion-de-problemas..md)
-  * [Inventario de módulos](torneos-y-bonos./inventario-de-modulos.md)
