@@ -46,7 +46,7 @@ El reporte está conformado por **dos hojas principales** que se navegan mediant
 
 <table><thead><tr><th width="250.272705078125">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><code>Nombre de usuario</code></td><td>Muestra el nombre del usuario que inició la sesión.</td></tr><tr><td><code>Fecha</code></td><td>Fecha en la que se registra el log en la base de datos.</td></tr><tr><td><code>ID Sesión</code></td><td>Identificador único asignado a la sesión iniciada.</td></tr><tr><td><code>Session Source</code></td><td>Indica el origen de la conexión (Web, etc.).</td></tr><tr><td><code>Fecha Inicio</code></td><td>Fecha y hora en que el usuario inició sesión.</td></tr><tr><td><code>Fecha Fin</code></td><td>Fecha y hora en que el usuario cerró sesión.</td></tr><tr><td><code>Tiempo en sesión (m)</code></td><td>Duración total de la sesión en minutos.</td></tr><tr><td><code>Tiempo en sesión (hh:mm)</code></td><td>Duración de la sesión expresada en horas y minutos.</td></tr></tbody></table>
 
-**3.4.**&#xD83D;�  **Tabla top usuario x conexión**&#x20;
+**3.4.**&#x1F4CB;  **Tabla top usuario x conexión**&#x20;
 
 <table><thead><tr><th width="250.36358642578125">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><code>Nombre de usuario</code></td><td>Identifica al usuario registrado en la plataforma.</td></tr><tr><td><code>Cantidad de sesiones</code></td><td>Muestra el número total de sesiones iniciadas por el usuario en el período seleccionado.</td></tr></tbody></table>
 {% endtab %}
