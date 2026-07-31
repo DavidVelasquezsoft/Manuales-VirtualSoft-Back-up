@@ -223,4 +223,3 @@
     * [Solicitudes de Retiro Retail](manual-de-usuario-backoffice/financiero/solicitudes-de-retiro-retail.md)
   * [Menú configuración](manual-de-usuario-backoffice/menu-configuracion.md)
   * [Solución de Problemas](manual-de-usuario-backoffice/solucion-de-problemas.md)
-  * [Inventario de módulos](manual-de-usuario-backoffice/inventario-de-modulos.md)
