@@ -1,51 +1,163 @@
 ---
-description: Índice de las secciones y tableros disponibles, excepto MicroStrategy.
-icon: list
+description: >-
+  El presente manual describe el cambio de la plataforma MicroStrategy hacia
+  Library y Workstation, así como el nuevo esquema para la creación de tableros
+  en Workstation y su visualización en Library.
 ---
 
-# Inventario del manual
+# Transición de plataformas Strategy
 
-Este inventario reúne el contenido disponible en el manual.
+### 1. Introducción
 
-No incluye la sección ni los contenidos de MicroStrategy.
+La plataforma **MicroStrategy** será reemplazada debido a que **ya no contará con mantenimiento ni actualizaciones**.\
+Como alternativa, se implementan **Library** y **Workstation**, plataformas más actuales, seguras y con soporte continuo.
 
-| Sección                            | Módulo                    | Submódulo                                     | Ruta de acceso                                                                                         | Descripción                                                    |
-| ---------------------------------- | ------------------------- | --------------------------------------------- | ------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------- |
-| Transición de plataformas Strategy | —                         | —                                             | —                                                                                                      | Describe el cambio hacia Library y Workstation.                |
-| Library                            | —                         | —                                             | —                                                                                                      | Permite visualizar tableros y reportes asignados.              |
-| Library                            | Inicio                    | —                                             | Virtualsoft > Informes compartidos                                                                     | Muestra los tableros anclados por el usuario.                  |
-| Library                            | Explorar carpetas         | —                                             | Virtualsoft > Informes compartidos > Datas TI                                                          | Permite navegar por carpetas y tableros disponibles.           |
-| Library                            | Explorar carpetas         | Configuración de tableros                     | Virtualsoft > Informes compartidos > Datas TI > Paneles Visuales                                       | Agrupa los manuales de los tableros disponibles.               |
-| Library                            | Configuración de tableros | Dashboard Jackpot internacional               | Virtualsoft > Informes compartidos > Datas TI > Paneles Visuales > Jackpot Internacional               | No especificada.                                               |
-| Library                            | Configuración de tableros | Dashboard Historial de Movimiento usuario     | Virtualsoft > Informes compartidos > Datas TI > Paneles Visuales > Historial de Movimiento usuario     | No especificada.                                               |
-| Library                            | Configuración de tableros | Dashboard Retail                              | Virtualsoft > Informes compartidos > Datas TI > Paneles Visuales > Retail                              | No especificada.                                               |
-| Library                            | Configuración de tableros | Dashboard Facturación Deportivas              | Virtualsoft > Informes compartidos > Datas TI > Paneles Visuales > Facturación Deportivas              | Analiza la facturación de la vertical de deportivas.           |
-| Library                            | Configuración de tableros | Desfases jugadores                            | Virtualsoft > Informes compartidos > Datas TI > Paneles Visuales > Desfases jugadores                  | Analiza desfases de saldo de jugadores.                        |
-| Library                            | Configuración de tableros | Desfases puntos de venta                      | Virtualsoft > Informes compartidos > Datas TI > Paneles Visuales > Desfases puntos de venta            | Analiza desfases de saldo de puntos de venta.                  |
-| Library                            | Configuración de tableros | Dashboard Jackpot                             | Virtualsoft > Informes compartidos > Datas TI > Paneles Visuales > Jackpot                             | Permite analizar y exportar la acumulación de un jackpot.      |
-| Library                            | Configuración de tableros | Dashboard de Usuario Detalle                  | Virtualsoft > Informes compartidos > Datas TI > Paneles Visuales > Usuario Detalle                     | Centraliza la actividad y métricas de cada usuario.            |
-| Library                            | Configuración de tableros | Dashboard Registros y primeros depósitos      | Virtualsoft > Informes compartidos > Datas TI > Paneles Visuales > Registros y primeros depósitos      | Muestra registros y primeros depósitos en tiempo real.         |
-| Library                            | Configuración de tableros | Dashboard Usuarios                            | Virtualsoft > Informes compartidos > Datas TI > Paneles Visuales > Usuarios                            | Ofrece una visión del comportamiento de los usuarios.          |
-| Library                            | Configuración de tableros | Dashboard gerencial                           | Virtualsoft > Informes compartidos > Datas TI > Paneles Visuales > Gerencial                           | Resume deportes, casino, depósitos y retiros.                  |
-| Library                            | Configuración de tableros | Dashboard deportiva                           | Virtualsoft > Informes compartidos > Datas TI > Paneles Visuales > Deportiva                           | Analiza estratégicamente las apuestas deportivas.              |
-| Library                            | Configuración de tableros | Dashboard de eventos deportivos — Reporte     | Virtualsoft > Informes compartidos > Datas TI > Paneles Visuales > Eventos deportivos                  | Analiza datos de apuestas mediante filtros, tablas y gráficas. |
-| Library                            | Configuración de tableros | Dashboard Conciliación de pasarelas           | Virtualsoft > Informes compartidos > Datas TI > Paneles Visuales > Conciliación de pasarelas           | No especificada.                                               |
-| Library                            | Configuración de tableros | Dashboard Depósito                            | Virtualsoft > Informes compartidos > Datas TI > Paneles Visuales > Depósito                            | Analiza y monitorea los depósitos de usuarios.                 |
-| Library                            | Configuración de tableros | Dashboard Retiros                             | Virtualsoft > Informes compartidos > Datas TI > Paneles Visuales > Retiros                             | No especificada.                                               |
-| Library                            | Configuración de tableros | Dashboard Casino                              | Virtualsoft > Informes compartidos > Datas TI > Paneles Visuales > Casino                              | Analiza casino por proveedor, juego y métricas clave.          |
-| Library                            | Configuración de tableros | Casino real time                              | Virtualsoft > Informes compartidos > Datas TI > Paneles Visuales > Casino real time                    | Muestra resultados de casino del día actual y anterior.        |
-| Library                            | Configuración de tableros | Dashboard Bonos                               | Virtualsoft > Informes compartidos > Datas TI > Paneles Visuales > Bonos                               | No especificada.                                               |
-| Library                            | Configuración de tableros | Dashboard detalle ticket deportivas           | Virtualsoft > Informes compartidos > Datas TI > Paneles Visuales > Detalle ticket deportivas           | Analiza tickets, apuestas, cuotas y ganancias.                 |
-| Library                            | Configuración de tableros | Dashboard seguimiento del programa de lealtad | Virtualsoft > Informes compartidos > Datas TI > Paneles Visuales > Seguimiento del programa de lealtad | No especificada.                                               |
-| Library                            | Configuración de tableros | Tablero de Deltas                             | Virtualsoft > Informes compartidos > Datas TI > Paneles Visuales > Deltas                              | No especificada.                                               |
-| Library                            | Configuración de tableros | Tablero de Facturación – Vertical Poker       | Virtualsoft > Informes compartidos > Datas TI > Paneles Visuales > Facturación – Vertical Poker        | No especificada.                                               |
-| Library                            | Configuración de tableros | Conciliación de Saldos                        | Virtualsoft > Informes compartidos > Datas TI > Paneles Visuales > Conciliación de Saldos              | No especificada.                                               |
-| Library                            | Configuración de tableros | Conciliación de Ventas                        | Virtualsoft > Informes compartidos > Datas TI > Paneles Visuales > Conciliación de Ventas              | No especificada.                                               |
-| Library                            | Configuración de tableros | Seguimientos caídas jackpot                   | Virtualsoft > Informes compartidos > Datas TI > Paneles Visuales > Seguimientos caídas jackpot         | No especificada.                                               |
-| Library                            | Configuración de tableros | Usuarios con Contingencia                     | Virtualsoft > Informes compartidos > Datas TI > Paneles Visuales > Usuarios con Contingencia           | Consulta el histórico de contingencias aplicadas a usuarios.   |
-| Library                            | Configuración de tableros | Dashboard Facturación Casino                  | Virtualsoft > Informes compartidos > Datas TI > Paneles Visuales > Facturación Casino                  | Analiza la facturación de la vertical de casino.               |
-| Library                            | Configuración de tableros | Dashboard Depósitos NTC                       | Virtualsoft > Informes compartidos > Datas TI > Paneles Visuales > Depósitos NTC                       | No especificada.                                               |
-| Library                            | Configuración de tableros | Dashboard Afiliador                           | Virtualsoft > Informes compartidos > Datas TI > Paneles Visuales > Afiliador                           | No especificada.                                               |
-| Library                            | Configuración de tableros | Transferencia de saldos                       | Virtualsoft > Informes compartidos > Datas TI > Paneles Visuales > Transferencia de saldos             | No especificada.                                               |
-| Library                            | Configuración de tableros | Diferencias Casino                            | Virtualsoft > Informes compartidos > Datas TI > Paneles Visuales > Diferencias Casino                  | No especificada.                                               |
-| Workstation                        | —                         | —                                             | [Abrir sección](workstation.md)                                                                        | Explica la configuración y creación de reportes.               |
+A partir de este cambio:
+
+* **Library** será utilizada por los usuarios para la **visualización de tableros y reportes**.
+* **Workstation** será la plataforma para la **creación, gestión y administración de reportes y tableros**.
+
+**Library** funciona como una **herramienta de uso personal**, permitiendo a cada usuario visualizar únicamente los reportes y tableros que **tenga agregados**.\
+**Workstation**, por su parte, centraliza la creación y administración de la información y es instalada y configurada **por el administrador**.&#x20;
+
+***
+
+### 2. Nuevo flujo de uso de plataformas
+
+Los principales cambios en el uso de las plataformas se describen a continuación, con el objetivo de explicar el nuevo flujo de acceso, creación y visualización de reportes.
+
+A partir de esta transacción, los usuarios accederán a diferentes plataformas según el tipo de actividad que realicen.
+
+#### 2.1. Visualización de tableros e informes (_MicroStrategy → Library_)
+
+**Con el cambio de plataforma**, MicroStrategy deja de ser la herramienta para la **visualización de reportes**.\
+La consulta de reportes que anteriormente se realizaba en MicroStrategy ahora se efectúa a través de **Library**, que será la nueva plataforma de visualización.
+
+Para ingresar a **Library**, el usuario debe acceder a través de el siguiente enlace:\
+\
+**Enlace:** [**Reportes Library**](https://reporting.virtualsoft.tech/MicroStrategyLibrary/app)
+
+<details>
+
+<summary>🔽 ¿Cómo acceder a Library?</summary>
+
+Al acceder al enlace, se mostrará la pantalla de **inicio de sesión**, donde el usuario deberá autenticarse con sus credenciales (_Usuario y contraseña_) y presionar el botón **"Iniciar sesión con credenciales**" para ingresar a la plataforma.
+
+<figure><img src=".gitbook/assets/image (23).png" alt="" width="563"><figcaption><p>Figura #1: Captura de pantalla login Library</p></figcaption></figure>
+
+Una vez completado el inicio de sesión, el usuario podrá visualizar los reportes disponibles en su **Library personal**.
+
+<figure><img src=".gitbook/assets/image (24).png" alt="" width="563"><figcaption><p>Figura #2: Captura de pantalla inicio Library</p></figcaption></figure>
+
+{% hint style="warning" %}
+**Nota:** Los reportes se asignan según el rol del usuario desde el **Workstation** y también pueden agregarse manualmente **mediante el enlace** de un tablero compartido.
+{% endhint %}
+
+</details>
+
+#### 2.2. Gestión y administración de reportes (_MicroStrategy → Workstation_)
+
+**Workstation** será la plataforma utilizada para la **creación, gestión y modificación de reportes y tableros**.
+
+Esta aplicación debe ser **instalada y configurada previamente por el administrador**, mediante el administrador de configuración.
+
+El acceso a Workstation está disponible para los siguientes tipos de usuarios:
+
+*   **Usuarios creadores de tableros**
+
+    Son responsables de la creación, modificación y administración de dashboards.\
+    Estos usuarios definen el contenido de los tableros y controlan la asignación y visibilidad de la información para los distintos usuarios.
+*   **Usuarios administrativos o miembros de equipo**
+
+    Pueden acceder a Workstation como un **repositorio de información del equipo** al que pertenecen (_por ejemplo, Riesgo_).
+
+    Desde la carpeta de su equipo, estos usuarios pueden:
+
+    * Crear y almacenar informes (consultas y tablas de datos).
+    * Organizar y gestionar información interna del equipo.
+    * Consultar los contenidos creados dentro de su carpeta.
+    * Visualizar paneles virtuales asociados a dicha información.
+
+    Estos usuarios no tienen permisos **para crear ni administrar dashboards**, ni para definir la visibilidad global de los tableros.
+
+El uso detallado de las funcionalidades de Workstation **no se documenta en este manual**, ya que cuenta con una guía específica.
+
+Para conocer el proceso de acceso y uso de Workstation, consulte el siguiente manual:
+
+{% content-ref url="workstation.md" %}
+[workstation.md](workstation.md)
+{% endcontent-ref %}
+
+#### **2.3 Uso compartido y visualización de reportes en Library**
+
+**Library es una herramienta de uso personal**, asociada a cada usuario.\
+Cada usuario puede visualizar únicamente los reportes y tableros que se encuentren agregados a su Library personal.
+
+Cuando un usuario comparte un enlace de un reporte o tablero desde Library, el proceso para acceder y utilizar el contenido es el siguiente:
+
+{% stepper %}
+{% step %}
+#### 🖱️Acceder al enlace compartido
+
+Haga clic en el enlace del reporte o tablero compartido.
+
+Al acceder al enlace, deberá **iniciar sesión en Library** utilizando sus credenciales de acceso (_usuario y contraseña_), tal como se muestra en la siguiente guía:\
+🔗 [#como-acceder-a-library](./#como-acceder-a-library "mention")
+{% endstep %}
+
+{% step %}
+#### ⚙️Configurar parámetros previos del tablero
+
+Una vez iniciada la sesión, se mostrará la pantalla de configuraciones previas, donde el usuario deberá definir los filtros y parámetros necesarios para la visualización de la información (_si aplica_).\
+Al finalizar, se debe hacer clic en el botón **Aplicar**.
+
+{% hint style="warning" %}
+**Nota:** Las configuraciones definidas quedarán guardadas **por defecto en su Library personal** y se utilizarán cada vez que acceda al tablero.
+{% endhint %}
+
+<figure><img src=".gitbook/assets/image (17).png" alt="" width="563"><figcaption><p>Figura #3: Captura de pantalla ejemplo de configuraciones previas</p></figcaption></figure>
+{% endstep %}
+
+{% step %}
+#### ➕ Agregar el tablero a la Library personal
+
+Después de aplicar las configuraciones, se mostrará el tablero con la información correspondiente.
+
+En la parte superior derecha se habilitará la opción **"Agregar a Library"**, la cual permite añadir el tablero a la Library personal del usuario.
+
+<figure><img src=".gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+#### ✅ Visualizar el tablero en Library
+
+Una vez agregado, el reporte o tablero quedará disponible en su **Library personal**.
+
+Desde allí, podrá acceder al contenido en cualquier momento para su visualización y uso.
+{% endstep %}
+
+{% step %}
+#### 🔎 Modificación de  filtros
+
+Si desea modificar los filtros o las configuraciones previas del tablero:
+
+1. Ubique la barra superior de herramientas dentro del tablero.
+2. Seleccione el **ícono de filtros**.
+3. Ajuste los filtros o parámetros según sea necesario.
+4. Aplique los cambios para actualizar la visualización de la información.
+
+<figure><img src=".gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+
+Para más información sobre **Library**, consulte el siguiente manual:
+
+{% content-ref url="library/" %}
+[library](library/)
+{% endcontent-ref %}
+{% endstep %}
+{% endstepper %}
+
+***
+
+### 3. Control de Versiones
+
+<table><thead><tr><th width="99.66665649414062">Versión</th><th width="150.6666259765625">Fecha</th><th width="180">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>06/02/2026</td><td>David Velasquez</td><td>Documento inicial</td></tr></tbody></table>

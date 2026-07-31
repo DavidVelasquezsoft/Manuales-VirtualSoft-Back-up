@@ -32,7 +32,7 @@ Este tablero permite visualizar y analizar de forma integral todas las caídas d
 **Ruta de Acceso:** Virtualsoft > Informes compartidos > Datas TI > Paneles Visuales > Seguimientos caídas jackpot
 
 {% hint style="warning" %}
-**Nota:** La ruta de acceso aplica para usuarios administrativos. Los usuarios con permisos podrán acceder al dashboard desde su **Library personal**, según el equipo y los accesos asignados. Para más información, consulte la [guía disponible](<../../../README (1).md>).
+**Nota:** La ruta de acceso aplica para usuarios administrativos. Los usuarios con permisos podrán acceder al dashboard desde su **Library personal**, según el equipo y los accesos asignados. Para más información, consulte la [guía disponible](../../../).
 {% endhint %}
 
 ***

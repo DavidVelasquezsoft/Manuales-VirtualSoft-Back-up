@@ -1,7 +1,6 @@
 # Table of contents
 
-* [Inventario del manual](README.md)
-* [Transición de plataformas Strategy](<README (1).md>)
+* [Transición de plataformas Strategy](README.md)
 * [MicroStrategy.](microstrategy./README.md)
   * [¿Cómo acceder?](microstrategy./como-acceder/README.md)
     * [Configuración Perfil.](microstrategy./como-acceder/configuracion-perfil..md)
