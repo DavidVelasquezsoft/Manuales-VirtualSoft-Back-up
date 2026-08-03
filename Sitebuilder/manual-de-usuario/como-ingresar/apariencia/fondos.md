@@ -31,19 +31,27 @@ layout:
 
 ***
 
-### 2. Visualización
+### &#x32;**. Configuraciones previas.**
+
+Antes de realizar las acciones disponibles en la sección pop ups, es necesario contar con las siguientes configuraciones:
+
+<table><thead><tr><th width="130">Parámetro</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Pais</code></strong></td><td>Indica el país para el cual se realizará la configuración</td></tr><tr><td><strong><code>Dispositivo</code></strong></td><td>Establece el tipo de dispositivo en el que se realizarán los cambios <em>(mobile  o escritorio)</em>.</td></tr></tbody></table>
+
+***
+
+### 3. Visualización
 
 <figure><img src="../../../.gitbook/assets/image (115).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección fondos.</p></figcaption></figure>
 
 ***
 
-### 3. Acciones disponibles
+### 4. Acciones disponibles
 
 <table><thead><tr><th width="216">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Seleccionar categoría</strong></td><td>Define la sección de la plataforma sobre la cual se actualizará la imagen de fondo.</td></tr><tr><td><strong>Seleccionar archivo</strong></td><td>Abre el explorador de archivos del equipo para cargar una imagen desde el dispositivo.</td></tr><tr><td><strong>Ingresar URL</strong></td><td>Registra la dirección de una imagen alojada externamente para utilizarla como fondo.</td></tr><tr><td><strong>Guardar</strong></td><td>Almacena la configuración realizada y actualiza el fondo de la categoría seleccionada.</td></tr></tbody></table>
 
 ***
 
-### 4. Configuración de fondos
+### 5. Configuración de fondos
 
 Las categorías disponibles para la configuración de fondos son las siguientes:
 
@@ -51,7 +59,7 @@ Las categorías disponibles para la configuración de fondos son las siguientes:
 
 ***
 
-### 5. Uso del módulo
+### 6. Uso del módulo
 
 Para actualizar la imagen de fondo de una categoría:
 
@@ -80,7 +88,7 @@ Si no se selecciona la opción **Guardar**, la configuración realizada no será
 
 ***
 
-### 6. Validaciones y reglas del negocio
+### 7. Validaciones y reglas del negocio
 
 * Cada categoría admite una única imagen de fondo activa.
 * La configuración se aplica únicamente a la categoría seleccionada.
@@ -90,7 +98,7 @@ Si no se selecciona la opción **Guardar**, la configuración realizada no será
 
 ***
 
-### 7. Control de Versiones
+### 8. Control de Versiones
 
 <details>
 
