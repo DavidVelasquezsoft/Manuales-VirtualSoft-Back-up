@@ -164,7 +164,11 @@ Una vez creadas y configuradas las reglas de la pasarela, se debe seleccionar el
 
 * &#x20;**Guardar la asociación**
 
-Una vez configuradas todas las pasarelas de pago, se selecciona el botón <img src="../../../.gitbook/assets/image (429).png" alt="" data-size="line">. El sistema muestra un resumen de la configuración de la franquicia para su confirmación y solicita el **token de autenticación**. Al validarlo correctamente, la franquicia queda asociada y, en caso de encontrarse activa, comienza a mostrarse en la sección de [depósitos](https://app.gitbook.com/s/yyrHDz69FZMnpZ9NBm8u/usuarios-online/manual-de-plataforma/depositos) dentro de la plataforma de usuarios online.
+Una vez configuradas todas las pasarelas de pago, se selecciona el botón <img src="../../../.gitbook/assets/image (429).png" alt="" data-size="line">. El sistema muestra un resumen de la configuración de la franquicia para su confirmación y solicita el **token de autenticación**. Al validarlo correctamente, la franquicia queda asociada y, en caso de encontrarse activa, comienza a mostrarse en la plataforma de usuarios online.
+
+{% hint style="info" %}
+Para conocer cómo se comportan las franquicias y las pasarelas de pago durante un depósito tanto en su funcionamiento normal como ante errores o rechazos en la plataforma, consulta el manual de la [sección de Depósitos](https://app.gitbook.com/s/yyrHDz69FZMnpZ9NBm8u/usuarios-online/manual-de-plataforma/depositos) de la plataforma de usuarios online.
+{% endhint %}
 
 {% hint style="warning" %}
 **Nota:** Si la información no cumple con las validaciones establecidas, el sistema muestra un mensaje indicando el error a corregir antes de permitir el guardado.
