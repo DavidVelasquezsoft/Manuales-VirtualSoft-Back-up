@@ -44,7 +44,7 @@ Define la apariencia y el comportamiento de la vista de depósitos que verá el 
 
 #### Visualización
 
-<figure><img src="../../../.gitbook/assets/image (82).png" alt=""><figcaption><p>Figura#2: Captura de pantalla configuración visual.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (434).png" alt=""><figcaption><p>Figura#2: Captura de pantalla configuración visual.</p></figcaption></figure>
 
 #### **Acciones del Usuario**
 
@@ -56,7 +56,7 @@ Configura la representación visual y el texto de cada estado por el que puede p
 
 ### Visualización
 
-<figure><img src="../../../.gitbook/assets/image (80).png" alt=""><figcaption><p>Figura#3: Captura de pantalla configuración estados.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (437).png" alt=""><figcaption><p>Figura#3: Captura de pantalla configuración estados.</p></figcaption></figure>
 
 ### **Acciones del Usuario**
 
