@@ -48,32 +48,20 @@ En el campo correspondiente, digita el monto que deseas depositar, respetando lo
 {% step %}
 **Selecciona la franquicia**
 
-Ubica la franquicia de tu preferencia y haz clic en el botón **"Depositar"**. El sistema elige automáticamente la pasarela de pago indicada para procesar tu depósito según la prioridad (Mejorar esto) de la pasarela dentro de la franquicia en ese momento y el monto seleccionado.
+Ubica la franquicia de tu preferencia y haz clic en el botón **"Depositar"**. El sistema elige automáticamente la pasarela de pago con la que se procesará tu depósito, de acuerdo con el orden de preferencia de las pasarelas dentro de la franquicia en ese momento y con el monto ingresado.
 
 {% hint style="warning" %}
 **Nota:** En caso de que el método de **criptomonedas** esté disponible para el Partner o país, deberás seleccionar la criptomoneda habilitada en la cual deseas realizar el depósito.
 {% endhint %}
-
-<details>
-
-<summary>🔽 Funcionamiento de las franquicias</summary>
-
-Cuando realizas un depósito, no eliges directamente la pasarela de pago, sino una **franquicia**. La franquicia es un grupo de pasarelas de pago que el operador configura previamente, y es el sistema el que se encarga de seleccionar la pasarela más adecuada dentro de ella. Su funcionamiento se basa en lo siguiente:
-
-* **Selección automática de la pasarela:** al elegir una franquicia e ingresar el monto, el sistema escoge automáticamente la pasarela de pago indicada para procesar tu depósito, sin que debas seleccionarla manualmente.
-* **Disponibilidad según el monto:** las franquicias disponibles pueden variar según el **monto** que desees depositar, ya que cada una admite un rango de valores. Si no ves una franquicia esperada, prueba ajustando el monto.
-* **Orden de presentación:** las franquicias se muestran en un orden definido por el operador, por lo que la primera opción suele ser la recomendada para realizar tu depósito.
-
-</details>
 {% endstep %}
 
 {% step %}
 **Completa el pago**
 
-El sistema te redirige automáticamente a la pasarela elegida para completar el pago siguiendo sus instrucciones. En caso de que por dicha franquicia no cuente rtemporalmente con ninguna pasarela de pago disponible en ese momento para procesar depósitos y debera seleccionar una Franuicia diferente o municarse con soporte.
+El sistema te redirige automáticamente a la pasarela elegida para completar el pago siguiendo sus instrucciones. En caso de ser un método informativo, se mostrará la forma de realizar el depósito con el proveedor, utilizando tu ID de usuario.
 
 {% hint style="warning" %}
-**Nota:** En caso de ser un método informativo, se mostrará la forma de realizar el depósito con el proveedor, utilizando tu ID de usuario.
+**Nota:** Si en ese momento la franquicia seleccionada no cuenta con ninguna pasarela de pago disponible para procesar depósitos, deberás seleccionar una franquicia diferente o comunicarte con soporte.
 {% endhint %}
 {% endstep %}
 
@@ -83,7 +71,7 @@ El sistema te redirige automáticamente a la pasarela elegida para completar el 
 Una vez finalizada la transacción, la plataforma mostrará el resultado del depósito:
 
 * Si el pago es exitoso, el saldo se acreditará en tu cuenta.
-* Si ocurre un error o la pasarela rechaza el depósito, se mostrará un mensaje indicando el motivoy debera presiona "Reintentar" para ..., y segun la configuración de dicha pasarela, la pasarela rechazada podría no estar disponible durante un breve periodo antes de poder utilizarse nuevamente. el sistema intenta automáticamente con otra pasarela disponible dentro de la franquicia para que puedas completar tu recarga.&#x20;
+* Si el depósito es rechazado o presenta un error, se mostrará el motivo y será necesario seleccionar **Reintentar**. El sistema intentará procesar la transacción con otra pasarela disponible dentro de la misma franquicia. La pasarela rechazada podrá quedar temporalmente no disponible, según su configuración.
 {% endstep %}
 
 {% step %}
@@ -92,6 +80,22 @@ Una vez finalizada la transacción, la plataforma mostrará el resultado del dep
 Puedes verificar el saldo acreditado en tu cuenta desde el panel principal o en el historial de transacciones.
 {% endstep %}
 {% endstepper %}
+
+<details>
+
+<summary>🔽 Funcionamiento de franquicias y pasarelas</summary>
+
+Durante el proceso de depósito, el usuario selecciona una **franquicia** y no una pasarela de pago específica. Cada franquicia agrupa una o varias pasarelas de pago, y el sistema selecciona automáticamente la más adecuada para procesar la transacción según la configuración establecida.
+
+El funcionamiento de las franquicias se basa en las siguientes reglas:
+
+* **Selección automática de la pasarela:** Al seleccionar una franquicia e ingresar el monto del depósito, el sistema determina automáticamente la pasarela de pago que procesará la transacción.
+* **Orden de visualización:** Las franquicias se presentan al usuario según el orden de prioridad definido en la configuración del sistema, mostrando primero aquellas con mayor prioridad.
+* **Reintento automático ante rechazo:** Si una pasarela rechaza el depósito, el sistema intentará procesar la transacción utilizando otra pasarela disponible perteneciente a la misma franquicia. Como medida de control, la pasarela que rechazó la operación podrá permanecer temporalmente inhabilitada antes de volver a estar disponible.
+* **Gestión de depósitos en proceso:** Cuando existen múltiples solicitudes de depósito pendientes asociadas a una misma pasarela, el sistema puede priorizar otra pasarela disponible dentro de la misma franquicia para evitar la acumulación de transacciones en proceso.
+* **Depósitos con tiempo de procesamiento prolongado:** Si una solicitud de depósito permanece en estado de procesamiento durante un tiempo superior al esperado, la plataforma mostrará un mensaje indicando al usuario que se comunique con el servicio de atención al cliente para recibir asistencia.
+
+</details>
 {% endtab %}
 
 {% tab title="2.3. Tarjeta" %}
