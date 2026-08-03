@@ -31,25 +31,33 @@ layout:
 
 ***
 
-### 2. Visualización
+### &#x32;**. Configuraciones previas.**
+
+Antes de realizar las acciones disponibles en la sección pop ups, es necesario contar con las siguientes configuraciones:
+
+<table><thead><tr><th width="130">Parámetro</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Pais</code></strong></td><td>Indica el país para el cual se realizará la configuración</td></tr></tbody></table>
+
+***
+
+### 3. Visualización
 
 <figure><img src="../../../.gitbook/assets/image (122).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección header.</p></figcaption></figure>
 
 ***
 
-### 3. Acciones disponibles
+### 4. Acciones disponibles
 
 <table><thead><tr><th width="150">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Habilitar / Deshabilitar</strong></td><td>Activa o desactiva la visualización del componente seleccionado en el encabezado de la plataforma.</td></tr><tr><td><strong>ℹ️</strong></td><td>Presenta un ejemplo de la apariencia del componente dentro de la plataforma.</td></tr><tr><td><strong>Guardar</strong></td><td>Almacena la configuración realizada para los componentes del encabezado.</td></tr></tbody></table>
 
 ***
 
-### 4. Configuraciones disponibles
+### 5. Configuraciones disponibles
 
 <table><thead><tr><th width="204">Componente</th><th>Descripción</th></tr></thead><tbody><tr><td>ℹ️</td><td>Al posicionar el cursor sobre este ícono, el sistema presenta una vista previa de la forma en que el componente se visualizará dentro de la plataforma.</td></tr><tr><td><strong><code>Reloj</code></strong></td><td>Activa la visualización del reloj en la posición definida dentro del encabezado de la plataforma.</td></tr><tr><td><strong><code>Cambiar idioma</code></strong></td><td>Activa o desactiva el selector de idioma para que los usuarios puedan cambiar el idioma de la plataforma.</td></tr><tr><td><strong><code>Redes Sociales</code></strong></td><td>Desactiva o Activa la visualización de los accesos a las redes sociales configuradas.</td></tr><tr><td><strong><code>Descargar App</code></strong></td><td>Activa o desactiva el acceso para descargar la aplicación móvil desde el encabezado.</td></tr><tr><td><strong><code>Franja Superior</code></strong></td><td>Activa o desactiva la franja superior utilizada para mostrar anuncios, promociones o mensajes informativos.</td></tr><tr><td><strong><code>Modo Claro/Oscuro</code></strong></td><td>Activa o desactiva la opción para cambiar entre el tema claro y el tema oscuro de la plataforma.</td></tr><tr><td><strong><code>Selecciona el estilo del saldo</code></strong></td><td><p>Este selector permite definir la forma en que el saldo será presentado a los usuarios dentro de la plataforma.</p><div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p><strong>Ejemplo:</strong><br>Al seleccionar uno de los estilos disponibles, el sistema muestra la apariencia que tendrá el saldo una vez aplicada la configuración.</p></div></td></tr></tbody></table>
 
 ***
 
-### 5. Validaciones y reglas del negocio
+### 6. Validaciones y reglas del negocio
 
 * Cada componente puede habilitarse o deshabilitarse de forma independiente.
 * La vista previa tiene un carácter informativo y no aplica cambios sobre la plataforma.
@@ -59,7 +67,7 @@ layout:
 
 ***
 
-### 6. Control de Versiones
+### 7. Control de Versiones
 
 <details>
 
