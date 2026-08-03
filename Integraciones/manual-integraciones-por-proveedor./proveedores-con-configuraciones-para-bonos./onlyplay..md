@@ -10,17 +10,17 @@ description: >-
 **Nota importante**: Antes de crear el bono es necesario que los juegos del proveedor estén cerrados, en caso de crear el bono con los juegos abiertos es necesario cerrar el juego y volverlo a abrir para visualizar el bono creado.
 {% endhint %}
 
-#### 1. Acceso al Módulo
+### 1. Acceso al Módulo
 
 **Ruta de Acceso**: BackOffice > Torneos y Bonos > Bono FreeSpin
 
 ***
 
-#### 2. Visualización
+### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/image (119).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (119).png" alt=""><figcaption><p>Figura #1: Captura de pantalla creación de bono FreeSpin.</p></figcaption></figure>
 
-#### 3. Acciones del Usuario
+### 3. Acciones del Usuario
 
 Estas son las configuraciones principales y necesarias para generar un bono FreeSpin con los juegos del proveedor ONLYPLAY. En caso de necesitar información más detallada sobre cómo crear el bono FreeSpin, puedes acceder a la siguiente página.
 
@@ -36,7 +36,7 @@ Estas son las configuraciones principales y necesarias para generar un bono Free
 
 ***
 
-#### 4. Validaciones y Reglas de Negocio
+### 4. Validaciones y Reglas de Negocio
 
 * El bono se crea de forma inmediata, pero la asignación a jugadores puede tardar entre **2 y 3 minutos**.
 * El campo **Valor por ronda** debe configurarse utilizando la fórmula **Cuota × 100**.
@@ -52,7 +52,7 @@ Estas son las configuraciones principales y necesarias para generar un bono Free
 
 ***
 
-#### 5. Control de Versiones
+### 5. Control de Versiones
 
 <details>
 
