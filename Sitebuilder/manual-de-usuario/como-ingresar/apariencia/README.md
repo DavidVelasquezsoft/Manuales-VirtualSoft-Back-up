@@ -6,6 +6,8 @@ description: >-
 
 # Apariencia
 
+**Ruta:** Manual de Usuario  → ¿Cómo ingresar? → Apariencia
+
 ### Aspectos Generales
 
 {% columns %}
