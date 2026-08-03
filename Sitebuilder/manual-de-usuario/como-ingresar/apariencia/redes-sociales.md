@@ -16,7 +16,3 @@ description: >-
 5. Finalmente, haz clic en el botón verde **“Guardar”** para registrar los cambios.
 
 <figure><img src="../../../.gitbook/assets/image (211).png" alt=""><figcaption><p>Figura#1: Captura de pantalla seccion redes sociales</p></figcaption></figure>
-
-Así es como se visualizara en la pagina de usuarios online:
-
-<figure><img src="../../../.gitbook/assets/image (204).png" alt="" width="188"><figcaption><p>Figura#2: Captura de pantalla de ejemplo</p></figcaption></figure>
