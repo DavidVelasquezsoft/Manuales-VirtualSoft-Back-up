@@ -200,7 +200,7 @@ Cada acción registrada muestra la siguiente información:
 
 ### 5. Validaciones y Reglas de Negocio
 
-* Solo puede estar habilitado un método de depósito a la vez (Pasarela o Franquicias).
+* Solo puede estar habilitado un método de depósito a la vez (_Pasarela o Franquicias_).
 * El usuario podrá cambiar entre vista clásica y moderna solo si está habilitado el interruptor correspondiente.
 * El carrusel mostrará únicamente la categoría seleccionada.
 * La sección Gestión de Franquicias solo está disponible cuando hay un partner seleccionado, y requiere seleccionar un país antes de habilitar las acciones de configuración.
