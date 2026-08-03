@@ -27,51 +27,67 @@ Desde este módulo el usuario podrá realizar la siguientes acciones.
 Selecciona la opción de depósito que deseas utilizar.
 
 {% tabs %}
-{% tab title="2.2. Pasarela de Pago" %}
-Permite elegir una [pasarela de pago](https://virtualsoft.gitbook.io/untitled/glosario#pasarela-de-pago) disponible para realizar el depósito.
+{% tab title="2.2. Pasarela de Pago / Franquicia" %}
+Permite realizar un depósito seleccionando una [franquicia](https://virtualsoft.gitbook.io/untitled/glosario#franquicia) de las disponibles para tu país. Al elegir una franquicia, el sistema selecciona automáticamente la [pasarela de pago](https://virtualsoft.gitbook.io/untitled/glosario#pasarela-de-pago) adecuada para procesar tu depósito.
 
 **Pasos para realizar un depósito:**
 
 {% stepper %}
 {% step %}
-#### Ingresa al **módulo de depósitos**
+**Ingresa al módulo de depósitos**
 
-Accede a la sección **Depósitos** desde tu cuenta. Se mostrarán todas las pasarelas de pago disponibles y habilitadas para realizar el depósito.
+Accede a la sección **Depósitos** desde tu cuenta. Se mostrarán todas las franquicias disponibles y habilitadas para realizar el depósito.
 {% endstep %}
 
 {% step %}
-#### Ingresa un monto a depositar
+**Ingresa un monto a depositar**
 
-En el campo correspondiente, digita el monto que deseas depositar, respetando los valores mínimos y máximos permitidos por la pasarela de pago.
+En el campo correspondiente, digita el monto que deseas depositar, respetando los valores mínimos y máximos permitidos.
 {% endstep %}
 
 {% step %}
-#### **Selecciona la pasarela de pago**
+**Selecciona la franquicia**
 
-Ubica la pasarela de tu preferencia y haz clic en el botón **“Depositar”**.
+Ubica la franquicia de tu preferencia y haz clic en el botón **"Depositar"**. El sistema elige automáticamente la pasarela de pago indicada para procesar tu depósito según la prioridad (Mejorar esto) de la pasarela dentro de la franquicia en ese momento y el monto seleccionado.
 
 {% hint style="warning" %}
-**Nota:** En caso de que el método de **criptomonedas** esté disponible para el Partner o país, deberá seleccionar la criptomoneda habilitada en la cual desea realizar el depósito.
+**Nota:** En caso de que el método de **criptomonedas** esté disponible para el Partner o país, deberás seleccionar la criptomoneda habilitada en la cual deseas realizar el depósito.
+{% endhint %}
+
+<details>
+
+<summary>🔽 Funcionamiento de las franquicias</summary>
+
+Cuando realizas un depósito, no eliges directamente la pasarela de pago, sino una **franquicia**. La franquicia es un grupo de pasarelas de pago que el operador configura previamente, y es el sistema el que se encarga de seleccionar la pasarela más adecuada dentro de ella. Su funcionamiento se basa en lo siguiente:
+
+* **Selección automática de la pasarela:** al elegir una franquicia e ingresar el monto, el sistema escoge automáticamente la pasarela de pago indicada para procesar tu depósito, sin que debas seleccionarla manualmente.
+* **Disponibilidad según el monto:** las franquicias disponibles pueden variar según el **monto** que desees depositar, ya que cada una admite un rango de valores. Si no ves una franquicia esperada, prueba ajustando el monto.
+* **Orden de presentación:** las franquicias se muestran en un orden definido por el operador, por lo que la primera opción suele ser la recomendada para realizar tu depósito.
+
+</details>
+{% endstep %}
+
+{% step %}
+**Completa el pago**
+
+El sistema te redirige automáticamente a la pasarela elegida para completar el pago siguiendo sus instrucciones. En caso de que por dicha franquicia no cuente rtemporalmente con ninguna pasarela de pago disponible en ese momento para procesar depósitos y debera seleccionar una Franuicia diferente o municarse con soporte.
+
+{% hint style="warning" %}
+**Nota:** En caso de ser un método informativo, se mostrará la forma de realizar el depósito con el proveedor, utilizando tu ID de usuario.
 {% endhint %}
 {% endstep %}
 
 {% step %}
-#### Completa el pago en la pasarela
+**Confirmación del depósito**
 
-El sistema redirige automáticamente a la pasarela seleccionada para completar el pago siguiendo sus instrucciones. En caso de ser un método informativo, se mostrará la forma de realizar el depósito con el proveedor, utilizando su ID de usuario.
-{% endstep %}
-
-{% step %}
-#### Confirmación del depósito
-
-Una vez finalizada la transacción, la plataforma mostrará el resultado del depósito.
+Una vez finalizada la transacción, la plataforma mostrará el resultado del depósito:
 
 * Si el pago es exitoso, el saldo se acreditará en tu cuenta.
-* Si ocurre un error, se mostrará un mensaje indicando el motivo.
+* Si ocurre un error o la pasarela rechaza el depósito, se mostrará un mensaje indicando el motivoy debera presiona "Reintentar" para ..., y segun la configuración de dicha pasarela, la pasarela rechazada podría no estar disponible durante un breve periodo antes de poder utilizarse nuevamente. el sistema intenta automáticamente con otra pasarela disponible dentro de la franquicia para que puedas completar tu recarga.&#x20;
 {% endstep %}
 
 {% step %}
-#### **Verificación del saldo**
+**Verificación del saldo**
 
 Puedes verificar el saldo acreditado en tu cuenta desde el panel principal o en el historial de transacciones.
 {% endstep %}
@@ -221,14 +237,15 @@ Puedes verificar el saldo acreditado en tu cuenta desde el panel principal o en 
 
 <summary>Control de versiones</summary>
 
-| Versión      | Fecha      | Autor           | Cambios Realizados                                             |
-| ------------ | ---------- | --------------- | -------------------------------------------------------------- |
-| **1.0**      | 17/07/2025 | Karol Navia     | Sección de depósitos documentada                               |
-| **2.0**      | 29/09/2025 | David Velásquez | Reestructuración del módulo                                    |
-| &#x32;**.1** | 06/11/2025 | Ronald Peláez   | Refinamiento del manual                                        |
-| 2.2          | 24/11/2025 | Karol Navia     | Agregar deposito con tarjetas                                  |
-| 2.3          | 16/12/2025 | David velasquez | Incorporación de tarjeta de credito.                           |
-| 2.4          | 18/12/2025 | Ronald Peláez   | Nota de tarjetas de crédito y débito.                          |
-| 2.5          | 01/04/2026 | David Velasquez | Incorporación de notas, y sección de transferencias bancarias. |
+| Versión      | Fecha      | Autor           | Cambios Realizados                                                                                                   |
+| ------------ | ---------- | --------------- | -------------------------------------------------------------------------------------------------------------------- |
+| **1.0**      | 17/07/2025 | Karol Navia     | Sección de depósitos documentada                                                                                     |
+| **2.0**      | 29/09/2025 | David Velásquez | Reestructuración del módulo                                                                                          |
+| &#x32;**.1** | 06/11/2025 | Ronald Peláez   | Refinamiento del manual                                                                                              |
+| 2.2          | 24/11/2025 | Karol Navia     | Agregar deposito con tarjetas                                                                                        |
+| 2.3          | 16/12/2025 | David velasquez | Incorporación de tarjeta de credito.                                                                                 |
+| 2.4          | 18/12/2025 | Ronald Peláez   | Nota de tarjetas de crédito y débito.                                                                                |
+| 2.5          | 01/04/2026 | David Velasquez | Incorporación de notas, y sección de transferencias bancarias.                                                       |
+| 2.6          | 03/08/2026 | David Velasquez | [Ajustes en sección de depósito por pasarela o franquicia](https://virtualsoftlatam.atlassian.net/browse/VSFT-31464) |
 
 </details>
