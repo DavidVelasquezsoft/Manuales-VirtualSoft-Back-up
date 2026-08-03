@@ -65,6 +65,6 @@ layout:
 
 <summary>🔽 Historial de versiones</summary>
 
-<table><thead><tr><th width="104">Versión</th><th width="134">Fecha</th><th width="114">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>03/08/2026</td><td>Karol Navia</td><td>Creación del manual del módulo <strong>Header</strong>.</td></tr></tbody></table>
+<table><thead><tr><th width="104">Versión</th><th width="134">Fecha</th><th width="114">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>03/08/2026</td><td>Karol Navia</td><td>Reestructuración adaptado a plantilla.</td></tr></tbody></table>
 
 </details>
