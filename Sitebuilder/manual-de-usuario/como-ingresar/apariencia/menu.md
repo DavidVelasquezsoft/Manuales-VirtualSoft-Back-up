@@ -36,101 +36,103 @@ En este formulario podrás configurar el Gif que se visualizará en la plataform
 * **Subir gif**: Debes ingresar el gif, este también se verá reflejado en la vista previa.
 * **URL de redireccionamiento**: Debes agregar la URL a la que será redirigido el usuario al dar clic en esta Gif.
 
-Finalmente podrás completar los cambios seleccionando el botón "**Guardar**"\
-\
-\
-\
-Menú
 
-El módulo **Menú** permite administrar las categorías y los elementos gráficos que serán visualizados en el menú principal de la plataforma. Desde esta sección es posible crear nuevas categorías, configurar GIF promocionales y definir el orden en el que serán presentados a los usuarios.
+
+## Menú
+
+El módulo **Menú** permite administrar las categorías y los elementos gráficos que serán visualizados en el menú principal de la plataforma. Desde esta sección es posible crear categorías personalizadas y configurar GIF promocionales que serán presentados a los usuarios.
 
 ***
 
-### 1. Acceso al Módulo
+#### 1. Acceso al Módulo
 
 **Ruta de Acceso:** Backoffice > Configuración > Menú
 
 ***
 
-### 3. Acciones disponibles
+#### 2. Visualización
 
-<table><thead><tr><th width="169">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Agregar (+)</strong></td><td>Crea un nuevo registro según el tipo de elemento seleccionado.</td></tr><tr><td><strong>Guardar</strong></td><td>Almacena las modificaciones realizadas.</td></tr><tr><td><strong>Mover</strong></td><td>Cambia la posición del elemento dentro del menú.</td></tr><tr><td><strong>Eliminar</strong></td><td>Elimina el elemento seleccionado.</td></tr></tbody></table>
+Al ingresar al módulo se presentan dos tipos de configuraciones:
+
+* **Categorías de Menú**, utilizadas para crear accesos dentro del menú principal.
+* **GIF**, utilizados para destacar promociones o campañas en la parte superior del menú.
+
+Seleccione el tipo de elemento que desea configurar y posteriormente haga clic en **Agregar (+)** para crear un nuevo registro.
 
 ***
 
-#### 4. Configuración del módulo <a href="#id-4.-configuracion-del-modulo" id="id-4.-configuracion-del-modulo"></a>
+#### 3. Acciones disponibles
 
-este modulo cuenta con 2 vistas las cuales son:
+<table><thead><tr><th width="157">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Agregar (+)</strong></td><td>Crea un nuevo registro según el tipo de configuración seleccionado.</td></tr><tr><td><strong>Guardar</strong></td><td>Almacena la configuración realizada.</td></tr><tr><td><strong>Mover</strong></td><td>Modifica la posición de un elemento dentro del menú.</td></tr><tr><td><strong>Eliminar</strong></td><td>Elimina el registro seleccionado.</td></tr></tbody></table>
 
+***
 
+#### 4. Agregar
 
 {% tabs %}
 {% tab title="Categorías de Menú" %}
-Al ingresar al módulo se presentan las opciones disponibles para administrar el contenido del menú. Desde esta pantalla es posible seleccionar el tipo de elemento que se desea crear (**Categoría de menú** o **Gif**) y agregar nuevos registros.
+**Visualización**
 
-Las categorías permiten crear accesos personalizados que serán visualizados dentro del menú principal de la plataforma.
+Las categorías permiten crear nuevos accesos que serán visualizados dentro del menú principal de la plataforma.
 
-### Visualización
+**Configuración**
 
+| Campo                    | Tipo         | Descripción                                                                              |
+| ------------------------ | ------------ | ---------------------------------------------------------------------------------------- |
+| **`Imagen`**             | Imagen (PNG) | Registra la imagen que identificará la categoría dentro del menú.                        |
+| **`Título`**             | Texto        | Registra el nombre que será mostrado para la categoría.                                  |
+| **`URL de redirección`** | URL          | Registra la dirección web a la que será dirigido el usuario al seleccionar la categoría. |
 
+**Acciones**
 
-### Configuración
-
-| Campo                    | Tipo         | Descripción                                                             |
-| ------------------------ | ------------ | ----------------------------------------------------------------------- |
-| **`Imagen`**             | Imagen (PNG) | Registra la imagen que identificará la categoría dentro del menú.       |
-| **`Título`**             | Texto        | Define el nombre que será mostrado para la categoría.                   |
-| **`URL de redirección`** | URL          | Registra la dirección web que será abierta al seleccionar la categoría. |
-| **Mover**                |              | Modifica la posición de la categoría dentro del menú.                   |
-| **Eliminar**             |              | Elimina la categoría seleccionada.                                      |
+| Acción       | Descripción                                           |
+| ------------ | ----------------------------------------------------- |
+| **Mover**    | Modifica la posición de la categoría dentro del menú. |
+| **Eliminar** | Elimina la categoría seleccionada.                    |
 
 {% hint style="warning" %}
 **Importante:**\
-El orden en que se organizan las categorías en esta sección corresponde al mismo orden en que serán visualizadas por los usuarios en la plataforma.
+El orden en que se organizan las categorías en esta sección corresponde al mismo orden en que serán visualizadas dentro de la plataforma.
 {% endhint %}
 {% endtab %}
 
 {% tab title="GIF" %}
+**Visualización**
+
 Los GIF permiten incorporar elementos gráficos animados al inicio del menú principal para destacar promociones, campañas o accesos específicos.
 
 Durante la configuración se presenta una vista previa que facilita validar la apariencia del GIF antes de guardar los cambios.
 
-### Visualización
-
-### Configuración
+**Configuración**
 
 | Campo                    | Tipo              | Descripción                                                       |
 | ------------------------ | ----------------- | ----------------------------------------------------------------- |
-| **`Fondo degradado`**    | Selector de color | Define los colores que conformarán el fondo degradado del GIF.    |
-| **`Imagen izquierda`**   | Imagen            | Registra la imagen que acompañará el GIF dentro del menú.         |
+| **`Fondo degradado`**    | Selector de color | Define los colores que conformarán el fondo del GIF.              |
+| **`Imagen izquierda`**   | Imagen            | Registra la imagen que acompañará el GIF.                         |
 | **`GIF`**                | Imagen animada    | Registra el archivo GIF que será visualizado en la plataforma.    |
 | **`URL de redirección`** | URL               | Registra la dirección web que será abierta al seleccionar el GIF. |
 {% endtab %}
 {% endtabs %}
 
-
-
 ***
 
-### 4. Validaciones y reglas del negocio
+#### 5. Validaciones y reglas del negocio
 
 * Las imágenes utilizadas para las categorías deben estar en formato **PNG**.
 * El tamaño máximo permitido para las imágenes es de **200 KB**.
-* Los GIF siempre se visualizan al inicio del menú principal.
+* Los GIF siempre se visualizarán al inicio del menú principal.
 * El orden configurado para las categorías corresponde al mismo orden en que serán presentadas en la plataforma.
 * La vista previa del GIF tiene únicamente fines informativos y no aplica cambios sobre la plataforma.
 * Las modificaciones realizadas se almacenan únicamente al hacer clic en **Guardar**.
 
 ***
 
-### 5. Control de Versiones
+#### 6. Control de Versiones
 
 <details>
 
 <summary>🔽 Historial de versiones</summary>
 
-| Versión | Fecha      | Autor           | Cambios Realizados                     |
-| ------- | ---------- | --------------- | -------------------------------------- |
-| 1.0     | dd/mm/aaaa | **Karol Navia** | Reestructuración adaptado a plantilla. |
+<table><thead><tr><th width="105">Versión</th><th width="141">Fecha</th><th width="118">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>dd/mm/aaaa</td><td><strong>Karol Navia</strong></td><td>Reestructuración adaptado a plantilla.</td></tr></tbody></table>
 
 </details>
