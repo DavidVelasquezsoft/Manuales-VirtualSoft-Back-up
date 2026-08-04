@@ -71,29 +71,15 @@ Seleccione el tipo de elemento que desea configurar y posteriormente haga clic e
 
 {% tabs %}
 {% tab title="Categorías de Menú" %}
-**Visualización**
+Crear nuevas accesos que serán visualizados dentro del menú principal de la plataforma.
 
-Las categorías permiten crear nuevos accesos que serán visualizados dentro del menú principal de la plataforma.
+**Visualización**
 
 **Configuración**
 
-| Campo                    | Tipo         | Descripción                                                                              |
-| ------------------------ | ------------ | ---------------------------------------------------------------------------------------- |
-| **`Imagen`**             | Imagen (PNG) | Registra la imagen que identificará la categoría dentro del menú.                        |
-| **`Título`**             | Texto        | Registra el nombre que será mostrado para la categoría.                                  |
-| **`URL de redirección`** | URL          | Registra la dirección web a la que será dirigido el usuario al seleccionar la categoría. |
+<table><thead><tr><th width="131" align="center">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td align="center"><img src="../../../.gitbook/assets/image (440).png" alt="" data-size="line"></td><td></td></tr><tr><td align="center"><strong><code>Imagen</code></strong></td><td>Registra la imagen que identificará la categoría dentro del menú.</td></tr><tr><td align="center"><strong><code>Título</code></strong></td><td>Registra el nombre que será mostrado para la categoría.</td></tr><tr><td align="center"><strong><code>URL de redirección</code></strong></td><td>Registra la dirección web a la que será dirigido el usuario al seleccionar la categoría.</td></tr><tr><td align="center"><img src="../../../.gitbook/assets/image (438).png" alt="" data-size="line"></td><td><p>Modifica la posición de la categoría dentro del menú.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Importante:</strong><br>El orden en que se organizan las categorías en esta sección corresponde al mismo orden en que serán visualizadas dentro de la plataforma.</p></div></td></tr><tr><td align="center"><img src="../../../.gitbook/assets/image (439).png" alt="" data-size="line"></td><td>Elimina la categoría seleccionada.</td></tr></tbody></table>
 
-**Acciones**
 
-| Acción       | Descripción                                           |
-| ------------ | ----------------------------------------------------- |
-| **Mover**    | Modifica la posición de la categoría dentro del menú. |
-| **Eliminar** | Elimina la categoría seleccionada.                    |
-
-{% hint style="warning" %}
-**Importante:**\
-El orden en que se organizan las categorías en esta sección corresponde al mismo orden en que serán visualizadas dentro de la plataforma.
-{% endhint %}
 {% endtab %}
 
 {% tab title="GIF" %}
