@@ -22,33 +22,29 @@ Desde este módulo el usuario podrá realizar la siguientes acciones.
 
 <table><thead><tr><th width="267">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Depósitos saldo a su cuenta.</strong></td><td>Deposita saldo a la cuenta para poder realizar apuestas en las diferentes secciones disponibles por la plataforma.</td></tr><tr><td><strong>Elegir métodos de depósito.</strong></td><td>Elige entre los diferentes métodos de depósitos disponibles en la plataforma <em>(Tarjeta, pasarela de pago, SPEI, OXXO, Pay, STP, etc.…)</em></td></tr></tbody></table>
 
-#### 2.1. Tipo de deposito:
+***
+
+### 3. Tipo de deposito:
 
 Selecciona la opción de depósito que deseas utilizar.
 
 {% tabs %}
-{% tab title="2.2. Pasarela de Pago / Franquicia" %}
-Permite realizar un depósito seleccionando una [franquicia](https://virtualsoft.gitbook.io/untitled/glosario#franquicia) de las disponibles para tu país. Al elegir una franquicia, el sistema selecciona automáticamente la [pasarela de pago](https://virtualsoft.gitbook.io/untitled/glosario#pasarela-de-pago) adecuada para procesar tu depósito.
+{% tab title="3.1. Pasarela de Pago / Franquicia" %}
+Realiza un depósito seleccionando una [franquicia](https://virtualsoft.gitbook.io/untitled/glosario#franquicia) de las disponibles para tu país. Al elegir una franquicia, el sistema selecciona automáticamente la [pasarela de pago](https://virtualsoft.gitbook.io/untitled/glosario#pasarela-de-pago) adecuada para procesar tu depósito.
 
 **Pasos para realizar un depósito:**
 
 {% stepper %}
 {% step %}
-**Ingresa al módulo de depósitos**
-
-Accede a la sección **Depósitos** desde tu cuenta. Se mostrarán todas las franquicias disponibles y habilitadas para realizar el depósito.
+Ingresa  a la sección **Depósitos** desde tu cuenta. Se mostrarán todas las franquicias disponibles y habilitadas para realizar el depósito.
 {% endstep %}
 
 {% step %}
-**Ingresa un monto a depositar**
-
-En el campo correspondiente, digita el monto que deseas depositar, respetando los valores mínimos y máximos permitidos.
+Ingresa un monto a depositar en el campo correspondiente, respetando los valores mínimos y máximos permitidos.
 {% endstep %}
 
 {% step %}
-**Selecciona la franquicia**
-
-Ubica la franquicia de tu preferencia y haz clic en el botón **"Depositar"**. El sistema elige automáticamente la pasarela de pago con la que se procesará tu depósito, de acuerdo con el orden de preferencia de las pasarelas dentro de la franquicia en ese momento y con el monto ingresado.
+Selecciona la franquicia de tu preferencia y haz clic en el botón **"Depositar"**. El sistema seleccionará automáticamente la pasarela de pago que procesará la transacción, de acuerdo con el monto ingresado y el orden de prioridad configurado en la sección [Depósitos #Gestión de franquicias](https://app.gitbook.com/s/Ojl0Z2z0C78jMb0KvTb8/manual-de-usuario/como-ingresar/productos/depositos#gestion-de-franquicias "mention") del SiteBuilder para las pasarelas asociadas a la franquicia.
 
 {% hint style="warning" %}
 **Nota:** En caso de que el método de **criptomonedas** esté disponible para el Partner o país, deberás seleccionar la criptomoneda habilitada en la cual deseas realizar el depósito.
@@ -56,9 +52,7 @@ Ubica la franquicia de tu preferencia y haz clic en el botón **"Depositar"**. E
 {% endstep %}
 
 {% step %}
-**Completa el pago**
-
-El sistema te redirige automáticamente a la pasarela elegida para completar el pago siguiendo sus instrucciones. En caso de ser un método informativo, se mostrará la forma de realizar el depósito con el proveedor, utilizando tu ID de usuario.
+El sistema redirige automáticamente al usuario a la pasarela de pago seleccionada según la configuración definida en [**SiteBuilder**](https://app.gitbook.com/s/Ojl0Z2z0C78jMb0KvTb8/manual-de-usuario/como-ingresar/productos/depositos#gestion-de-franquicias), donde podrá completar el proceso siguiendo las instrucciones proporcionadas. En caso de ser un método informativo, se mostrará la forma de realizar el depósito con el proveedor, utilizando tu ID de usuario.
 
 {% hint style="warning" %}
 **Nota:** Si en ese momento la franquicia seleccionada no cuenta con ninguna pasarela de pago disponible para procesar depósitos, deberás seleccionar una franquicia diferente o comunicarte con soporte.
@@ -66,8 +60,6 @@ El sistema te redirige automáticamente a la pasarela elegida para completar el 
 {% endstep %}
 
 {% step %}
-**Confirmación del depósito**
-
 Una vez finalizada la transacción, la plataforma mostrará el resultado del depósito:
 
 * Si el pago es exitoso, el saldo se acreditará en tu cuenta.
@@ -75,9 +67,7 @@ Una vez finalizada la transacción, la plataforma mostrará el resultado del dep
 {% endstep %}
 
 {% step %}
-**Verificación del saldo**
-
-Puedes verificar el saldo acreditado en tu cuenta desde el panel principal o en el historial de transacciones.
+Posteriormente verificar el saldo acreditado en tu cuenta desde el panel principal o en el historial de transacciones.
 {% endstep %}
 {% endstepper %}
 
@@ -85,7 +75,7 @@ Puedes verificar el saldo acreditado en tu cuenta desde el panel principal o en 
 
 <summary>🔽 Funcionamiento de franquicias y pasarelas</summary>
 
-Durante el proceso de depósito, el usuario selecciona una **franquicia** y no una pasarela de pago específica. Cada franquicia agrupa una o varias pasarelas de pago, y el sistema selecciona automáticamente la más adecuada para procesar la transacción según la configuración establecida.
+Durante el proceso de depósito, el usuario selecciona una **franquicia** y no una pasarela de pago específica. Cada franquicia agrupa una o varias pasarelas de pago, y el sistema selecciona automáticamente la más adecuada para procesar la transacción según la configuración establecida en [Depósitos #Gestión de franquicias](https://app.gitbook.com/s/Ojl0Z2z0C78jMb0KvTb8/manual-de-usuario/como-ingresar/productos/depositos#gestion-de-franquicias "mention").
 
 El funcionamiento de las franquicias se basa en las siguientes reglas:
 
@@ -98,7 +88,7 @@ El funcionamiento de las franquicias se basa en las siguientes reglas:
 </details>
 {% endtab %}
 
-{% tab title="2.3. Tarjeta" %}
+{% tab title="3.2. Tarjeta" %}
 {% hint style="warning" %}
 **Nota:** El sistema solo permite agregar tarjetas cuando la operación (_Partner y país_) tiene un proveedor activo desde [BackOffice](/broken/spaces/UadX6RX6l8fMhEZxOqcT/pages/P6ejQH7j6cNHXnY74jAZ). De lo contrario, el botón **"Añadir tarjeta"** no se mostrará.
 {% endhint %}
@@ -147,7 +137,7 @@ En estos casos, el sistema mostrará únicamente las tarjetas que ya estén asoc
 {% endhint %}
 {% endtab %}
 
-{% tab title="2.4. Transferencia bancaria" %}
+{% tab title="3.3. Transferencia bancaria" %}
 Permite realizar un depósito mediante una transferencia bancaria.
 
 {% hint style="warning" %}
@@ -216,6 +206,7 @@ Puedes verificar el saldo acreditado en tu cuenta desde el panel principal o en 
 * No se permiten depósitos realizados desde cuentas de terceros.
 * El sistema puede aplicar bonos automáticamente si se cumplen las condiciones.
 * Los fondos pueden acreditarse en tiempo real o tras validar un comprobante, según el método utilizado.
+* El reporte del backOffice [Reporte Depósitos por franquicias](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/manual-de-usuario-backoffice/reportes/reporte-depositos-por-franquicias "mention") permite visualizar la información de los depósitos procesados mediante franquicias, facilitando su análisis de forma independiente.
 
 ***
 
@@ -239,7 +230,7 @@ Puedes verificar el saldo acreditado en tu cuenta desde el panel principal o en 
 
 <details>
 
-<summary>Control de versiones</summary>
+<summary>🔽 Historial de versiones</summary>
 
 | Versión      | Fecha      | Autor           | Cambios Realizados                                                                                                   |
 | ------------ | ---------- | --------------- | -------------------------------------------------------------------------------------------------------------------- |
