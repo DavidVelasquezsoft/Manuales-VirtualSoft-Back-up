@@ -29,7 +29,7 @@ Desde este módulo el usuario podrá realizar la siguientes acciones.
 Selecciona la opción de depósito que deseas utilizar.
 
 {% tabs %}
-{% tab title="3.1. Pasarela de Pago / Franquicia" %}
+{% tab title="Pasarela de Pago / Franquicia" %}
 Realiza un depósito seleccionando una [franquicia](https://virtualsoft.gitbook.io/untitled/glosario#franquicia) de las disponibles para tu país. Al elegir una franquicia, el sistema selecciona automáticamente la [pasarela de pago](https://virtualsoft.gitbook.io/untitled/glosario#pasarela-de-pago) adecuada para procesar tu depósito.
 
 **Pasos para realizar un depósito:**
@@ -88,12 +88,12 @@ El funcionamiento de las franquicias se basa en las siguientes reglas:
 </details>
 {% endtab %}
 
-{% tab title="3.2. Tarjeta" %}
+{% tab title="Tarjeta" %}
 {% hint style="warning" %}
 **Nota:** El sistema solo permite agregar tarjetas cuando la operación (_Partner y país_) tiene un proveedor activo desde [BackOffice](/broken/spaces/UadX6RX6l8fMhEZxOqcT/pages/P6ejQH7j6cNHXnY74jAZ). De lo contrario, el botón **"Añadir tarjeta"** no se mostrará.
 {% endhint %}
 
-#### 2.3.1. Añadir tarjeta
+#### Añadir tarjeta
 
 Al seleccionar este método de deposito el sistema mostrará los siguientes campos para añadir una tarjeta de crédito.
 
@@ -101,7 +101,7 @@ Al seleccionar este método de deposito el sistema mostrará los siguientes camp
 
 Una vez completado el formulario, presiona el botón **“Depositar”** para validar la tarjeta.
 
-#### 2.3.2. Resultados de la validación
+#### Resultados de la validación
 
 * **✅Si la validación es exitosa**, se mostrará un mensaje de confirmación con los siguientes datos:
 
@@ -109,7 +109,7 @@ Una vez completado el formulario, presiona el botón **“Depositar”** para va
 
 * **❌Si la validación falla**, aparecerá un mensaje de error indicando que la tarjeta no pudo ser registrada.
 
-#### 2.3.3. Validaciones y funcionamiento del sistema
+#### Validaciones y funcionamiento del sistema
 
 * El sistema mostrará únicamente las tarjetas que estén habilitadas según la configuración del **país y proveedor**, pueden ser:
   * Tarjetas asignadas automáticamente por un proveedor.
@@ -119,7 +119,7 @@ Una vez completado el formulario, presiona el botón **“Depositar”** para va
   * Si el proveedor **no permite el registro de tarjetas por parte del usuario**, el botón **no se visualizará**.
   * En proveedores con asignación desde BackOffice (_por ejemplo, Stradacarte_), las tarjetas se asignan automáticamente y el usuario no puede agregar nuevas tarjetas.
 
-#### 2.3.4. **Depósitos posteriores**
+#### **Depósitos posteriores**
 
 Para realizar nuevos depósitos, solo debes:
 
@@ -137,7 +137,7 @@ En estos casos, el sistema mostrará únicamente las tarjetas que ya estén asoc
 {% endhint %}
 {% endtab %}
 
-{% tab title="3.3. Transferencia bancaria" %}
+{% tab title="Transferencia bancaria" %}
 Permite realizar un depósito mediante una transferencia bancaria.
 
 {% hint style="warning" %}
