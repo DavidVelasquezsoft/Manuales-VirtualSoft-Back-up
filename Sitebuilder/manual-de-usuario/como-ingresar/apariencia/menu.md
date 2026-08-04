@@ -78,25 +78,16 @@ Crear nuevas accesos que serán visualizados dentro del menú principal de la pl
 **Configuración**
 
 <table><thead><tr><th width="131" align="center">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td align="center"><img src="../../../.gitbook/assets/image (440).png" alt="" data-size="line"></td><td></td></tr><tr><td align="center"><strong><code>Imagen</code></strong></td><td>Registra la imagen que identificará la categoría dentro del menú.</td></tr><tr><td align="center"><strong><code>Título</code></strong></td><td>Registra el nombre que será mostrado para la categoría.</td></tr><tr><td align="center"><strong><code>URL de redirección</code></strong></td><td>Registra la dirección web a la que será dirigido el usuario al seleccionar la categoría.</td></tr><tr><td align="center"><img src="../../../.gitbook/assets/image (438).png" alt="" data-size="line"></td><td><p>Modifica la posición de la categoría dentro del menú.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Importante:</strong><br>El orden en que se organizan las categorías en esta sección corresponde al mismo orden en que serán visualizadas dentro de la plataforma.</p></div></td></tr><tr><td align="center"><img src="../../../.gitbook/assets/image (439).png" alt="" data-size="line"></td><td>Elimina la categoría seleccionada.</td></tr></tbody></table>
-
-
 {% endtab %}
 
 {% tab title="GIF" %}
+Incorpora elementos gráficos animados al inicio del menú principal para destacar promociones, campañas o accesos específicos.
+
 **Visualización**
-
-Los GIF permiten incorporar elementos gráficos animados al inicio del menú principal para destacar promociones, campañas o accesos específicos.
-
-Durante la configuración se presenta una vista previa que facilita validar la apariencia del GIF antes de guardar los cambios.
 
 **Configuración**
 
-| Campo                    | Tipo              | Descripción                                                       |
-| ------------------------ | ----------------- | ----------------------------------------------------------------- |
-| **`Fondo degradado`**    | Selector de color | Define los colores que conformarán el fondo del GIF.              |
-| **`Imagen izquierda`**   | Imagen            | Registra la imagen que acompañará el GIF.                         |
-| **`GIF`**                | Imagen animada    | Registra el archivo GIF que será visualizado en la plataforma.    |
-| **`URL de redirección`** | URL               | Registra la dirección web que será abierta al seleccionar el GIF. |
+<table><thead><tr><th width="194">Campo</th><th width="124">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td></td><td></td><td></td></tr><tr><td>Vista Previa</td><td>Imagen</td><td></td></tr><tr><td><strong><code>Fondo degradado</code></strong></td><td>Selector de color</td><td>Define los colores que conformarán el fondo del GIF.</td></tr><tr><td><strong><code>Imagen izquierda</code></strong></td><td>Imagen</td><td>Registra la imagen que acompañará el GIF al lado derecho.</td></tr><tr><td><strong><code>GIF</code></strong></td><td>Imagen animada</td><td>Registra el archivo GIF que será visualizado en la plataforma.</td></tr><tr><td><strong><code>URL de redirección</code></strong></td><td>URL</td><td>Registra la dirección web que será redirigido al presionar el GIF.</td></tr></tbody></table>
 {% endtab %}
 {% endtabs %}
 
