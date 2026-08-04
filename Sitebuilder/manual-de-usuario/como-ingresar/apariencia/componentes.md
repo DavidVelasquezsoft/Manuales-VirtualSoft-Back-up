@@ -2,6 +2,7 @@
 description: >-
   En esta sección, se brinda la posibilidad de agregar o eliminar componentes en
   la página de "Usuarios online".
+hidden: true
 ---
 
 # Componentes
