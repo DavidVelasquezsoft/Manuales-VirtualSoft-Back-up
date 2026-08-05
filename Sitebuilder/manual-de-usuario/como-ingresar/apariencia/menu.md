@@ -110,6 +110,6 @@ Incorpora elementos gráficos animados al inicio del menú principal para destac
 
 <summary>🔽 Historial de versiones</summary>
 
-<table><thead><tr><th width="105">Versión</th><th width="141">Fecha</th><th width="118">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>dd/mm/aaaa</td><td><strong>Karol Navia</strong></td><td>Reestructuración adaptado a plantilla.</td></tr></tbody></table>
+<table><thead><tr><th width="105">Versión</th><th width="141">Fecha</th><th width="118">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>05/08/2026</td><td><strong>Karol Navia</strong></td><td>Reestructuración adaptado a plantilla.</td></tr></tbody></table>
 
 </details>
