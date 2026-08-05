@@ -103,6 +103,6 @@ Una vez guardados los cambios, la red social quedará disponible para su visuali
 
 <summary>🔽 Historial de versiones</summary>
 
-<table><thead><tr><th width="109">Versión</th><th width="126">Fecha</th><th width="128">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>04/08/2026</td><td><strong>Karol Navia</strong></td><td>Reestructuración adaptado a plantilla.</td></tr></tbody></table>
+<table><thead><tr><th width="109">Versión</th><th width="126">Fecha</th><th width="128">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>05/08/2026</td><td><strong>Karol Navia</strong></td><td>Reestructuración adaptado a plantilla.</td></tr></tbody></table>
 
 </details>
