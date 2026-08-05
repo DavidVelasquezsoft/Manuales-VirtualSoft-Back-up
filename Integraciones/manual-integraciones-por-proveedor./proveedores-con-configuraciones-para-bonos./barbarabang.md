@@ -16,7 +16,7 @@ description: >-
 
 <figure><img src="../../.gitbook/assets/image (103).png" alt=""><figcaption><p>Figura#1: Captura de pantalla creación bono FreeSpin.</p></figcaption></figure>
 
-### **3. Acciones del Usuario**
+### **3. Formulario para creación de bonos Barbarabang.**
 
 Estas son las configuraciones principales y necesarias para generar un bono FreeSpin con los juegos del proveedor Barbarabang, en caso de necesitar información más detallada sobre cómo crear el bono FreeSpin, puedes acceder a la siguiente página:
 
