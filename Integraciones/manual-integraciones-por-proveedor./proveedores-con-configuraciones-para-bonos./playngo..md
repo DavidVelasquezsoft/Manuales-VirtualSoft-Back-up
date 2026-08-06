@@ -30,7 +30,7 @@ Para consultar el detalle completo de los demás campos y la configuración gene
 
 <summary>🔽 Configuración de moneda</summary>
 
-<table><thead><tr><th width="114">Campo</th><th width="129">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Rondas gratuitas</code></strong></td><td>Numérico</td><td>Establece la cantidad de giros gratis que tendrá este bono.</td></tr><tr><td><strong>Código de plantilla</strong></td><td>Numérico</td><td>Cuando se crea una campaña de PLAYNGO, se genera un código que actúa como código de plantilla. La campaña es creada por el equipo de Marketing desde el BackOffice de PLAYNGO, al momento de crear este código también se debe configurar el valor por ronda del bono.</td></tr><tr><td><strong><code>Jugadores</code></strong></td><td>Botón "Seleccionar archivo"</td><td>Permite cargar un archivo en formato CSV con los ID de los jugadores que recibirán el bono.</td></tr></tbody></table>
+<table><thead><tr><th width="114">Campo</th><th width="129">Tipo de control</th><th width="437.2569580078125">Descripción</th></tr></thead><tbody><tr><td><strong><code>Rondas gratuitas</code></strong></td><td>Numérico</td><td>Establece la cantidad de giros gratis que tendrá este bono.</td></tr><tr><td><strong>Código de plantilla</strong></td><td>Numérico</td><td><p>Ingrese el código de plantilla proporcionado por el equipo de CRM. </p><p></p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota</strong>: Este código se genera automáticamente al crear una campaña de bonos en el BackOffice del proveedor <strong>PLAYNGO</strong> y funciona como el identificador único de la plantilla dentro de la plataforma.</p><p>Durante la creación de la campaña, el equipo de CRM también configura el <strong>valor por ronda del bono</strong>, el cual queda asociado a este código de plantilla. Por lo tanto, para realizar esta configuración es indispensable contar con el código suministrado por CRM.</p></div></td></tr><tr><td><strong><code>Jugadores</code></strong></td><td>Botón "Seleccionar archivo"</td><td>Permite cargar un archivo en formato CSV con los ID de los jugadores que recibirán el bono.</td></tr></tbody></table>
 
 <a href="playngo..md#id-3.-formulario-para-creacion-de-bonos-playngo" class="button secondary">Regresar</a>
 
@@ -43,7 +43,7 @@ Finaliza la configuración del bono guardando y aplicando las configuraciones re
 * La información de este bono estará disponible en la reportería de _Productos No Deportivos_.
 
 {% hint style="warning" %}
-Nota: Si se realiza una compra de giros en la tienda del proveedor, las ganancias de estos giros se reportaran como "**Premios**" y no como "**Premios bonos**"
+Nota: Si se realiza una compra de giros en la tienda del proveedor, las ganancias de estos giros se reportarán como "**Premios**" y no como "**Premios bonos**"
 {% endhint %}
 
 {% content-ref url="https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/manual-de-usuario-backoffice/reportes/reporte-productos-no-deportivos" %}
