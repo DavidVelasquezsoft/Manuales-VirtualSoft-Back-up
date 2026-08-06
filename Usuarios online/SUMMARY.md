@@ -36,7 +36,7 @@
       * [Tienda de premios lealtad.](usuarios-online/manual-de-plataforma/puntos-lealtad/tienda-de-premios-lealtad..md)
     * [Póker](usuarios-online/manual-de-plataforma/poker.md)
     * [Sorteos](usuarios-online/manual-de-plataforma/sorteos.md)
-    * [Verificar cuenta.](usuarios-online/manual-de-plataforma/verificar-cuenta..md)
+    * [Verificar cuenta](usuarios-online/manual-de-plataforma/verificar-cuenta..md)
     * [Chat de atención](usuarios-online/manual-de-plataforma/chat-de-atencion.md)
     * [Consultas](usuarios-online/manual-de-plataforma/consultas/README.md)
       * [Consulta de apuestas deportivas](usuarios-online/manual-de-plataforma/consultas/consulta-de-apuestas-deportivas.md)
