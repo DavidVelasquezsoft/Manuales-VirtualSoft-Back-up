@@ -65,9 +65,6 @@ Nota: Si se realiza una compra de giros en la tienda del proveedor, las ganancia
 ### **4. Validaciones y Reglas de Negocio**
 
 * El bono se crea de forma inmediata, pero la asignación a jugadores puede tardar entre **2 y 3 minutos**.
-* El bono solo puede configurarse para un único juego. Si se seleccionan varios, no se creará el bono y generará un error interno.
-* Este bono una vez creado quedará disponible para **CRM optimove**.
-* Si se crea un bono con un valor por ronda diferente a los permitidos en la lista de cuotas por juego, el sistema asignará automáticamente el valor de apuesta permitido más bajo disponible según la moneda configurada para el juego.
 
 ***
 
