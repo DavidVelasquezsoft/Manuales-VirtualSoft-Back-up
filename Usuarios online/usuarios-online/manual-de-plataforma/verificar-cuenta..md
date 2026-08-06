@@ -61,14 +61,12 @@ Al iniciar el proceso, el usuario será redirigido automáticamente al proveedor
 
 A continuación, se detallan los posibles resultados del proceso de verificación de cuenta:
 
-| ✅ Verificación exitosa    | La identidad fue validada correctamente.                               | No se requiere ninguna acción adicional.                                                                                                                                                                                 |
-| ------------------------- | ---------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| ⚠️ Verificación rechazada | La verificación no fue aprobada, pero aún tienes intentos disponibles. | <ul><li><strong>Documento no válido:</strong> Sube nuevamente tu documento.</li><li><strong>Selfie no válida:</strong> Tómate una nueva selfie.</li><li><strong>Ambos no válidos:</strong> Repite ambos pasos.</li></ul> |
-| ❌ Rechazo final           | Se alcanzó el límite de 5 intentos de verificación sin éxito.          | Contacta con soporte para una revisión manual.                                                                                                                                                                           |
+<table><thead><tr><th width="158.33331298828125">✅ Verificación exitosa</th><th width="279.77783203125">La identidad fue validada correctamente.</th><th>No se requiere ninguna acción adicional.</th></tr></thead><tbody><tr><td>⚠️ Verificación rechazada</td><td>La verificación no fue aprobada, pero aún tienes intentos disponibles.</td><td><ul><li><strong>Documento no válido:</strong> Sube nuevamente tu documento.</li><li><strong>Selfie no válida:</strong> Tómate una nueva selfie.</li><li><strong>Ambos no válidos:</strong> Repite ambos pasos.</li></ul></td></tr><tr><td>❌ Rechazo final</td><td>Se alcanzó el límite de 5 intentos de verificación sin éxito.</td><td>Contacta con soporte para una revisión manual.</td></tr></tbody></table>
 
 ***
 
 #### 7. Control de Versiones <a href="#id-7.-control-de-versiones" id="id-7.-control-de-versiones"></a>
 
-| 1.0 | 09/07/2025 | Ronald Pelaez | Manual inicial |
+|     |            |               |                |
 | --- | ---------- | ------------- | -------------- |
+| 1.0 | 09/07/2025 | Ronald Pelaez | Manual inicial |
