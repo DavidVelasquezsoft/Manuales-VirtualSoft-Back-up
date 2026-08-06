@@ -74,8 +74,6 @@ Finaliza la configuración del bono guardando y aplicando las configuraciones re
 
 <summary>🔽 Historial de versiones.</summary>
 
-| Versión | Fecha      | Autor           | Cambios Realizados |
-| ------- | ---------- | --------------- | ------------------ |
-| 1.0     | 24/06/2025 | David Velásquez | Documento inicial  |
+<table><thead><tr><th width="112.111083984375">Versión</th><th width="135.4444580078125">Fecha</th><th width="170.111083984375">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>24/06/2025</td><td>David Velásquez</td><td>Documento inicial </td></tr></tbody></table>
 
 </details>
