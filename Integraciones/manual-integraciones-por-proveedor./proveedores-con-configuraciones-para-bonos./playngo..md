@@ -65,6 +65,9 @@ Nota: Si se realiza una compra de giros en la tienda del proveedor, las ganancia
 ### **4. Validaciones y Reglas de Negocio**
 
 * El bono se crea de forma inmediata, pero la asignación a jugadores puede tardar entre **2 y 3 minutos**.
+* El **Código de plantilla** debe existir y encontrarse configurado previamente en el BackOffice del proveedor **PLAYNGO**. Si el código no existe o es inválido, el bono no podrá ser creado.
+* El rango máximo de vigencia permitido para un bono de este proveedor es de **30 días**.
+* Cada Free Spin consumido por el jugador generará un registro independiente en el **Historial de movimientos**.
 
 ***
 
