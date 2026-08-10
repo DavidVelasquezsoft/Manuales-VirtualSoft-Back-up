@@ -114,6 +114,8 @@ El rango de tiempo se define entre la **`fecha inicio`** y la **`fecha fin`** de
 * El bono solo puede configurarse para un único juego. Si se seleccionan varios, el sistema asignará uno de ellos de forma aleatoria al momento de la creación.
 * Este bono una vez creado quedará disponible para **CRM optimove**.
 
+***
+
 ### 5. Control de versiones.
 
 <details>
