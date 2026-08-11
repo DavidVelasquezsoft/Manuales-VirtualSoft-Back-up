@@ -88,7 +88,7 @@ Permite visualizar diferentes gráficos que facilitan el análisis de la cantida
 
 #### 5.2.1.1 Visualizacion:
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p>Figura #2. Captura de pantalla del Dashboard Afiliador, vista general – sección Registros.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Figura #2. Captura de pantalla del Dashboard Afiliador, vista general – sección Registros.</p></figcaption></figure>
 
 <table><thead><tr><th width="220">Componente</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Registros por partner</code></strong></td><td>Muestra la cantidad de usuarios registrados agrupados por partner, permitiendo identificar cuáles generan el mayor volumen de registros durante el período consultado.</td></tr><tr><td><strong><code>Registros por afiliados</code></strong></td><td>Presenta el ranking de afiliadores con mayor cantidad de registros generados, facilitando la identificación de los afiliadores con mejor desempeño.</td></tr><tr><td><strong><code>Registros por link</code></strong></td><td>Permite visualizar los enlaces de registro con mayor volumen de usuarios captados, facilitando el análisis del rendimiento de cada enlace.</td></tr><tr><td><strong><code>Tendencia de registros</code></strong></td><td>Muestra el comportamiento diario de los registros generados durante el rango de fechas seleccionado, permitiendo identificar tendencias, incrementos o disminuciones en la captación de usuarios.</td></tr></tbody></table>
 {% endtab %}
@@ -98,7 +98,7 @@ Permite visualizar diferentes gráficos relacionados con los **Primeros Depósit
 
 #### 5.2.2.1 Visualizacion:
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Figura #3. Captura de pantalla del Dashboard Afiliador, vista general – sección FTD.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Figura #3. Captura de pantalla del Dashboard Afiliador, vista general – sección FTD.</p></figcaption></figure>
 
 <table><thead><tr><th width="141">Componente</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Top 5 partner con menos FTD</code></strong></td><td>Muestra los cinco partners con el menor porcentaje de conversión a Primer Depósito <em>(FTD)</em> durante el período consultado, permitiendo identificar oportunidades de mejora en la efectividad de conversión de usuarios registrados a depositantes.</td></tr><tr><td><strong><code>FTD por afiliador</code></strong></td><td>Presenta la cantidad de Primeros Depósitos <em>(FTD)</em> generados por cada afiliador, facilitando la identificación de los afiliadores con mayor volumen de conversiones durante el período seleccionado.</td></tr><tr><td><strong><code>FTD por link</code></strong></td><td>Muestra la cantidad de Primeros Depósitos <em>(FTD)</em> asociados a cada enlace de registro, permitiendo evaluar el desempeño y efectividad de los diferentes enlaces utilizados para la captación de usuarios.</td></tr><tr><td><strong><code>Tendencia de FTD</code></strong></td><td>Presenta mediante un gráfico de líneas la evolución diaria de los Primeros Depósitos <em>(FTD)</em> generados durante el rango de fechas seleccionado, permitiendo analizar tendencias, variaciones y comportamiento de las conversiones a lo largo del tiempo.</td></tr></tbody></table>
 {% endtab %}
