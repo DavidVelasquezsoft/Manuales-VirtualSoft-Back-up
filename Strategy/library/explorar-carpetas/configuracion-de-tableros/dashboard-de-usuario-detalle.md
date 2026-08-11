@@ -7,56 +7,60 @@ description: >-
 
 # Dashboard de Usuario Detalle
 
-#### 1. Acceso al Módulo
+### 1. Acceso al Módulo
 
 **Ruta de acceso:** Virtualsoft > Informes compartidos > Datas TI > Dashboard de Usuario Detalle
 
 ***
 
-#### 2. Configuraciones Previas
+### 2. Configuraciones Previas
 
 Antes de ejecutar el dashboard, asegúrate de configurar los [parámetros](../../#id-2.-configuracion-previa) requeridos.\
 Estos parámetros permiten que la información corresponda al período consultado.
 
 ***
 
-#### 3. 🧩 Filtros del Dashboard
-
-Los filtros permiten segmentar la información por partner, país, período o usuario específico.
-
-<table><thead><tr><th width="165.66668701171875">Filtro</th><th width="161">Tipo de Control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Partner</code></strong></td><td>Lista desplegable</td><td>Selecciona el partner desde el cual se desea consultar información.</td></tr><tr><td><strong><code>País</code></strong></td><td>Lista desplegable</td><td>Filtra la información por país.</td></tr><tr><td><strong><code>Año</code></strong></td><td>Lista desplegable</td><td>Muestra datos del año seleccionado.</td></tr><tr><td><strong><code>Mes</code></strong></td><td>Lista desplegable</td><td>Filtra los datos según el mes del año definido.</td></tr><tr><td><strong><code>Días del mes</code></strong></td><td>Lista desplegable</td><td>Permite consultar información de un día específico.</td></tr><tr><td><strong><code>Buscar ID Usuario</code></strong></td><td>Lista desplegable</td><td>Permite buscar un usuario directamente por su identificador.</td></tr></tbody></table>
-
-***
+### 3.
 
 ### 4. Pestañas disponibles en el reporte.
 
 Este dashboard se compone de **dos pestañas**, cada una orientada a un nivel de análisis distinto de la información. Ambas permiten consultar el comportamiento de los usuarios según los filtros aplicados, ya sea desde una vista detallada o desde un resumen consolidado.
 
 {% tabs %}
-{% tab title="4.1  Detalle general" %}
-### 4.2. Visualización general
+{% tab title="Detalle general" %}
 
-<figure><img src="../../../.gitbook/assets/image (26).png" alt=""><figcaption><p>Figura#1: Captura de pantalla detalle general.</p></figcaption></figure>
+
+#### Filtros&#x20;
+
+Los filtros permiten segmentar la información por partner, país, período o usuario específico.
+
+<table><thead><tr><th width="165.66668701171875">Filtro</th><th width="161">Tipo de Control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Partner</code></strong></td><td>Lista desplegable</td><td>Selecciona el partner desde el cual se desea consultar información.</td></tr><tr><td><strong><code>País</code></strong></td><td>Lista desplegable</td><td>Filtra la información por país.</td></tr><tr><td><strong><code>Año</code></strong></td><td>Lista desplegable</td><td>Muestra datos del año seleccionado.</td></tr><tr><td><strong><code>Mes</code></strong></td><td>Lista desplegable</td><td>Filtra los datos según el mes del año definido.</td></tr><tr><td><strong><code>Días del mes</code></strong></td><td>Lista desplegable</td><td>Permite consultar información de un día específico.</td></tr><tr><td>Subproveedor</td><td></td><td></td></tr><tr><td>Proveedor</td><td></td><td></td></tr><tr><td>apuesta deportiva</td><td></td><td></td></tr><tr><td>Premio deportiva</td><td></td><td></td></tr><tr><td>Apuesta casino</td><td></td><td></td></tr><tr><td>Premio casino</td><td></td><td></td></tr><tr><td>Valor deposito</td><td></td><td></td></tr><tr><td>Retiros</td><td></td><td></td></tr><tr><td>Régimen reforzado</td><td></td><td></td></tr><tr><td><strong><code>Buscar ID Usuario</code></strong></td><td></td><td>Permite buscar un usuario directamente por su identificador.</td></tr></tbody></table>
+
+***
 
 {% tabs %}
 {% tab title="Usuario detalle" %}
-Permite visualizar un resumen consolidado por usuario, mostrando sus principales métricas operativas, movimientos y actividad general según los filtros aplicados.
+Visualiza un resumen consolidado por usuario, mostrando sus principales métricas operativas, movimientos y actividad general según los filtros aplicados.
 
-### 4.3. 📄Tabla de Datos del Usuario
+### Visualización&#x20;
 
-La vista principal resume toda la actividad del usuario aplicando los filtros seleccionados, mostrando únicamente la información relevante para el periodo y criterios definidos.
+Figura#1: Captura de pantalla detalle general.
 
-<table><thead><tr><th width="209.66668701171875">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Total</code></strong></td><td>Muestra el valor total de cada acción. Por ejemplo, en la columna “<em><strong>Cantidad de Depósitos</strong></em>” se visualizará el valor acumulado de todos los depósitos realizados, según los filtros aplicados.</td></tr><tr><td><strong><code>Id Usuario</code></strong></td><td>Identificador único del usuario.</td></tr><tr><td><strong><code>Cantidad Depósito</code></strong></td><td>Número total de depósitos realizados.</td></tr><tr><td><strong><code>Valor Depósito</code></strong></td><td>Valor total depositado.</td></tr><tr><td><strong><code>Cantidad Retiros</code></strong></td><td>Total de retiros realizados.</td></tr><tr><td><strong><code>Valor Retiros</code></strong></td><td>Valor total retirado.</td></tr><tr><td><strong><code>Valor Apuesta Cerrada</code></strong></td><td>Total apostado en <a href="https://virtualsoft.gitbook.io/untitled/glosario/#apuesta-cerrada">apuestas cerradas</a>.</td></tr><tr><td><strong><code>Valor Premio Cerrado</code></strong></td><td>Total ganado en apuestas cerradas.</td></tr><tr><td><strong><code>Valor Bonos Deportivas</code></strong></td><td>Total de bonos asignados en Deportivas.</td></tr><tr><td><strong><code>GGR Deportiva</code></strong></td><td>Ingreso neto de las apuestas realizadas en la vertical deportiva: <em>(Apuestas – Premios – Bonos).</em></td></tr><tr><td><strong><code>Valor Apuesta Casino</code></strong></td><td>Total apostado en Casino.</td></tr><tr><td><strong><code>Valor Saldo Gratis</code></strong></td><td>Total asignado de saldo proveniente de bonos o campañas.</td></tr><tr><td><strong><code>Valor Premio Casino</code></strong></td><td>Total en premios obtenidos en apuestas de Casino.</td></tr><tr><td><strong><code>Valor Premio Bono</code></strong></td><td>Total en premios provenientes de bonos.</td></tr><tr><td><strong><code>Valor Bono Casino</code></strong></td><td>Total de bonos otorgados en Casino.</td></tr><tr><td><strong><code>GGR Casino</code></strong></td><td>Ingreso neto de las apuestas realizadas en la vertical casino: <em>(Apuestas – Premios – Bonos).</em></td></tr></tbody></table>
+### Tabla de Datos del Usuario
+
+Resume toda la actividad del usuario aplicando los filtros seleccionados, mostrando únicamente la información relevante para el periodo y criterios definidos.
+
+<table><thead><tr><th width="209.66668701171875">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Total</code></strong></td><td>Muestra el valor total de cada acción. Por ejemplo, en la columna “<em><strong>Cantidad de Depósitos</strong></em>” se visualizará el valor acumulado de todos los depósitos realizados, según los filtros aplicados.</td></tr><tr><td><strong><code>Id Usuario</code></strong></td><td>Identificador único del usuario.</td></tr><tr><td><strong><code>Cantidad Depósito</code></strong></td><td>Número total de depósitos realizados.</td></tr><tr><td><strong><code>Valor Depósito</code></strong></td><td>Valor total depositado.</td></tr><tr><td><strong><code>Cantidad Retiros</code></strong></td><td>Total de retiros realizados.</td></tr><tr><td><strong><code>Valor Retiros</code></strong></td><td>Valor total retirado.</td></tr><tr><td><strong><code>Valor Apuesta Cerrada</code></strong></td><td>Total apostado en <a href="https://virtualsoft.gitbook.io/untitled/glosario/#apuesta-cerrada">apuestas cerradas</a>.</td></tr><tr><td><strong><code>Valor Premio Cerrado</code></strong></td><td>Total ganado en apuestas cerradas.</td></tr><tr><td><strong><code>Valor Bonos Deportivas</code></strong></td><td>Total de bonos asignados en Deportivas.</td></tr><tr><td><strong><code>GGR Deportiva</code></strong></td><td>Ingreso neto de las apuestas realizadas en la vertical deportiva: <em>(Apuestas – Premios – Bonos).</em></td></tr><tr><td><strong><code>Valor Apuesta Casino</code></strong></td><td>Total apostado en Casino.</td></tr><tr><td><strong><code>Valor Saldo Gratis</code></strong></td><td>Total asignado de saldo proveniente de bonos o campañas.</td></tr><tr><td>Valor premio cerrado</td><td></td></tr><tr><td><strong><code>Valor Premio Casino</code></strong></td><td>Total en premios obtenidos en apuestas de Casino.</td></tr><tr><td><strong><code>Valor Premio Bono</code></strong></td><td>Total en premios provenientes de bonos.</td></tr><tr><td><strong><code>Valor Bono Casino</code></strong></td><td>Total de bonos otorgados en Casino.</td></tr><tr><td><strong><code>GGR Casino</code></strong></td><td>Ingreso neto de las apuestas realizadas en la vertical casino: <em>(Apuestas – Premios – Bonos).</em></td></tr></tbody></table>
 {% endtab %}
 
-{% tab title="PEP y Autoexclusiones " %}
+{% tab title="Info, PEP y Autoexclusiones " %}
 Muestra el estado **PEP (Persona Políticamente Expuesta)** del usuario y las **fechas de autoexclusión por cada vertical**, permitiendo identificar restricciones **activas** o **históricas**.&#x20;
 
 #### ¿Que es una Autoexclusi**ó**n?
 
 La **autoexclusión** es una medida de juego responsable en la que el usuario solicita bloquear su acceso a una vertical por un tiempo definido o indefinido, limitando su operación mientras esté vigente.
 
-<table><thead><tr><th width="209">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Id Usuario</code></strong></td><td>Identificador único del usuario dentro de la plataforma. </td></tr><tr><td><strong><code>PEP</code></strong></td><td>Indicador categórico que señala si el usuario se declaró como Persona Políticamente Expuesta (SI / NO).</td></tr><tr><td><strong><code>Fecha Aceptación PEP</code></strong></td><td>Fecha en la que el usuario acepta su condición como PEP durante el registro u otro flujo habilitado.</td></tr><tr><td><strong><code>Fecha Autoexclusión Inicial Casino</code></strong></td><td>Fecha de inicio de la autoexclusión del usuario para la vertical Casino.</td></tr><tr><td><strong><code>Fecha Autoexclusión Final Casino</code></strong></td><td>Fecha de finalización de la autoexclusión del usuario para la vertical Casino.</td></tr><tr><td><strong><code>Fecha Autoexclusión Inicial Casinolive</code></strong></td><td>Fecha de inicio de la autoexclusión del usuario para la vertical Casino Live.</td></tr><tr><td><strong><code>Fecha Autoexclusión Final Casinolive</code></strong></td><td>Fecha de finalización de la autoexclusión del usuario para la vertical Casino Live.</td></tr><tr><td><strong><code>Fecha Autoexclusión Inicial Deportivas</code></strong></td><td>Fecha de inicio de la autoexclusión del usuario para la vertical Deportivas.</td></tr><tr><td><strong><code>Fecha Autoexclusión Final Deportivas</code></strong></td><td>Fecha de finalización de la autoexclusión del usuario para la vertical Deportivas.</td></tr><tr><td><strong><code>Fecha Autoexclusión Inicial Virtuales</code></strong></td><td>Fecha de inicio de la autoexclusión del usuario para la vertical Virtuales.</td></tr><tr><td><strong><code>Fecha Autoexclusión Final Virtuales</code></strong></td><td>Fecha de finalización de la autoexclusión del usuario para la vertical Virtuales.</td></tr><tr><td><strong><code>Fecha Autoexclusión Inicial Todas las Verticales</code></strong></td><td>Fecha de inicio de la autoexclusión global del usuario, aplicable a todas las verticales.</td></tr><tr><td><strong><code>Fecha Autoexclusión Final Todas las Verticales</code></strong></td><td>Fecha de finalización de la autoexclusión global del usuario, aplicable a todas las verticales.</td></tr></tbody></table>
+<table><thead><tr><th width="209">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Id Usuario</code></strong></td><td>Identificador único del usuario dentro de la plataforma. </td></tr><tr><td>Fecha registro time</td><td></td></tr><tr><td>correo</td><td></td></tr><tr><td>Nombre usuario</td><td></td></tr><tr><td>Cedula</td><td></td></tr><tr><td>Tipo documento</td><td></td></tr><tr><td>Nacionalidad</td><td></td></tr><tr><td>Genero</td><td></td></tr><tr><td>celular</td><td></td></tr><tr><td>Fecha Nacimiento</td><td></td></tr><tr><td>Pais</td><td></td></tr><tr><td>Dirección usuario</td><td></td></tr><tr><td>Departamento Usuario</td><td></td></tr><tr><td>Ciudad Usuario</td><td></td></tr><tr><td><strong><code>PEP</code></strong></td><td>Indicador categórico que señala si el usuario se declaró como Persona Políticamente Expuesta (SI / NO).</td></tr><tr><td>Regimen Reforzado</td><td></td></tr><tr><td><strong><code>Fecha Aceptación PEP</code></strong></td><td>Fecha en la que el usuario acepta su condición como PEP durante el registro u otro flujo habilitado.</td></tr><tr><td><strong><code>Fecha Autoexclusión Inicial Casino</code></strong></td><td>Fecha de inicio de la autoexclusión del usuario para la vertical Casino.</td></tr><tr><td><strong><code>Fecha Autoexclusión Final Casino</code></strong></td><td>Fecha de finalización de la autoexclusión del usuario para la vertical Casino.</td></tr><tr><td><strong><code>Fecha Autoexclusión Inicial Casinolive</code></strong></td><td>Fecha de inicio de la autoexclusión del usuario para la vertical Casino Live.</td></tr><tr><td><strong><code>Fecha Autoexclusión Final Casinolive</code></strong></td><td>Fecha de finalización de la autoexclusión del usuario para la vertical Casino Live.</td></tr><tr><td><strong><code>Fecha Autoexclusión Inicial Deportivas</code></strong></td><td>Fecha de inicio de la autoexclusión del usuario para la vertical Deportivas.</td></tr><tr><td><strong><code>Fecha Autoexclusión Final Deportivas</code></strong></td><td>Fecha de finalización de la autoexclusión del usuario para la vertical Deportivas.</td></tr><tr><td><strong><code>Fecha Autoexclusión Inicial Virtuales</code></strong></td><td>Fecha de inicio de la autoexclusión del usuario para la vertical Virtuales.</td></tr><tr><td><strong><code>Fecha Autoexclusión Final Virtuales</code></strong></td><td>Fecha de finalización de la autoexclusión del usuario para la vertical Virtuales.</td></tr><tr><td><strong><code>Fecha Autoexclusión Inicial Todas las Verticales</code></strong></td><td>Fecha de inicio de la autoexclusión global del usuario, aplicable a todas las verticales.</td></tr><tr><td><strong><code>Fecha Autoexclusión Final Todas las Verticales</code></strong></td><td>Fecha de finalización de la autoexclusión global del usuario, aplicable a todas las verticales.</td></tr><tr><td>Saldo actual</td><td></td></tr></tbody></table>
 {% endtab %}
 {% endtabs %}
 {% endtab %}
@@ -90,11 +94,9 @@ Permite visualizar el desempeño detallado de los usuarios a través de KPIs, te
 {% endtab %}
 {% endtabs %}
 
-
-
 ***
 
-#### 6. ✅ Validaciones y Reglas de Negocio
+### 5.  Validaciones y Reglas de Negocio
 
 * La vista gráfica solo mostrará paneles si existe data relacionada al rango filtrado.
 * Las gráficas muestran siempre la información activa: si aplicas filtros, muestran lo filtrado; si seleccionas un dato en una tabla, se actualizan según esa selección.
@@ -102,10 +104,12 @@ Permite visualizar el desempeño detallado de los usuarios a través de KPIs, te
 
 ***
 
-#### 7. 🕒 Control de Versiones
+### 6.  Control de Versiones
 
-| Versión | Fecha      | Autor         | Cambios Realizados            |
-| ------- | ---------- | ------------- | ----------------------------- |
-| **1.0** | 01/12/2025 | Karol Navia   | Documento inicial.            |
-| 1.1     | 10/12/2025 | Ronald Peláez | Agregar hoja de análisis      |
-| 1.2     | 29/01/2026 | Karol Navia   | Agregar PEP y Autoexclusiones |
+<details>
+
+<summary>🔽Historial de versiones</summary>
+
+<table><thead><tr><th width="100">Versión</th><th width="138">Fecha</th><th width="145">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td><strong>1.0</strong></td><td>01/12/2025</td><td>Karol Navia</td><td>Documento inicial.</td></tr><tr><td>1.1</td><td>10/12/2025</td><td>Ronald Peláez</td><td>Agregar hoja de análisis</td></tr><tr><td>1.2</td><td>29/01/2026</td><td>Karol Navia</td><td>Agregar PEP y Auto Exclusiones</td></tr><tr><td>1.3</td><td>11/08/2026</td><td>Karol Navia</td><td>Agregar columnas <code>PEP</code> Y <code>Régimen reforzado</code></td></tr></tbody></table>
+
+</details>
