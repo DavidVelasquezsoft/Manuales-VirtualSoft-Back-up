@@ -41,7 +41,7 @@ Visualiza un resumen consolidado por usuario, mostrando sus principales métrica
 
 #### Visualización
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p>Figura 1. Captura de pantalla de ejemplo de la vista de detalle general.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p>Figura #1. Captura de pantalla de ejemplo de la vista de detalle general.</p></figcaption></figure>
 
 #### Tabla de Datos del Usuario
 
@@ -55,7 +55,7 @@ Muestra el estado **PEP (Persona Políticamente Expuesta)** del usuario y las **
 
 #### Visualización
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Figura 1. Captura de pantalla de ejemplo de la vista de detalle general.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Figura #2. Captura de pantalla de ejemplo de la vista de detalle general.</p></figcaption></figure>
 
 **¿Que es una Autoexclusión?**
 
@@ -71,7 +71,7 @@ Visualiza el desempeño detallado de los usuarios a través de KPIs, tendencias 
 
 #### Visualización
 
-<figure><img src="../../../.gitbook/assets/image (225).png" alt=""><figcaption><p>Figura#1: Captura de pantalla Dashboard usuario análisis.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (225).png" alt=""><figcaption><p>Figura#3: Captura de pantalla Dashboard usuario análisis.</p></figcaption></figure>
 
 ***
 
