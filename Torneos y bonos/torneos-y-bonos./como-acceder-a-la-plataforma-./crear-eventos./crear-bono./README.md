@@ -18,8 +18,8 @@ Luego de seleccionar el país, podrás escoger el tipo de bono que deseas crear.
 
 Para más información sobre cómo crear el tipo de bono de tu preferencia, puedes seleccionar la página correspondiente.
 
-{% content-ref url="bono-deposito..md" %}
-[bono-deposito..md](bono-deposito..md)
+{% content-ref url="bono-deposito./" %}
+[bono-deposito.](bono-deposito./)
 {% endcontent-ref %}
 
 {% content-ref url="bono-no-deposito./" %}
