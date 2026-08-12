@@ -33,6 +33,10 @@ A diferencia del bono depósito, el bono no depósito **no requiere que el usuar
 
 **Formas de entrega**
 
+{% hint style="info" %}
+**Escenarios posibles:** ambas configuraciones son independientes, por lo que el bono puede entregarse por CSV o por códigos únicos, y en cualquiera de los dos casos quedar disponible de inmediato _(sin rollover)_ o requerir que el usuario complete el rollover con apuestas válidas para liberar el saldo.
+{% endhint %}
+
 <table><thead><tr><th width="158.33331298828125">Forma de entrega</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Asignación directa</strong><br><em>(archivo CSV)</em></td><td>El bono se asigna automáticamente a los usuarios incluidos en el archivo CSV cargado en el campo <strong><code>Jugadores</code></strong>, sin que estos realicen ninguna acción adicional.</td></tr><tr><td><strong>Códigos únicos</strong></td><td>El sistema genera un código único por cada usuario definido en el campo <strong><code>Cantidad de jugadores</code></strong>. El usuario <a href="https://virtualsoft.gitbook.io/plantillas/glosario?select=asociar-franquicia,gesti%C3%B3n-de-franquicias,estados,configuraci%C3%B3n-visual,3.1.-juegos,3.2.-historial-de-cargas#redimir">redime</a> el bono ingresando su código en la sección <strong>Mis bonos</strong> de la plataforma de usuarios online. Por ejemplo, con el valor <strong>5</strong> se generan <strong>5 códigos únicos</strong>, uno por usuario.</td></tr></tbody></table>
 
 {% hint style="danger" %}
@@ -42,10 +46,6 @@ A diferencia del bono depósito, el bono no depósito **no requiere que el usuar
 **Liberación del saldo**
 
 El campo **`Producto Rollover`** determina si el usuario debe apostar para liberar el bono:
-
-{% hint style="info" %}
-**Escenarios posibles:** ambas configuraciones son independientes, por lo que el bono puede entregarse por CSV o por códigos únicos, y en cualquiera de los dos casos quedar disponible de inmediato _(sin rollover)_ o requerir que el usuario complete el rollover con apuestas válidas para liberar el saldo.
-{% endhint %}
 
 <table><thead><tr><th width="160.8333740234375">Configuración</th><th>Funcionamiento</th></tr></thead><tbody><tr><td><strong>Sin rollover</strong><br><em>(opción Directo)</em></td><td>El saldo del bono queda disponible para el usuario de inmediato, sin necesidad de realizar apuestas.</td></tr><tr><td><strong>Con rollover</strong><br><em>(Casino, Live Casino, Virtual o Sportsbook)</em></td><td>El usuario recibe el saldo como saldo bono y debe apostarlo en el producto configurado hasta completar el rollover. Al completarlo, el saldo bono restante se convierte en saldo real; si el usuario agota el saldo antes de cumplirlo o el bono expira, el saldo se pierde.</td></tr></tbody></table>
 

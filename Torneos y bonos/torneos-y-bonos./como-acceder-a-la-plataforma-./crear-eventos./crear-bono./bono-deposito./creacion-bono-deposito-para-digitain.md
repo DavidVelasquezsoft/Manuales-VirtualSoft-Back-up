@@ -16,7 +16,7 @@
 
 ### 3. ¿Cómo funciona este bono para Digitain?
 
-El bono depósito para Digitain entrega al usuario un **saldo bono** cuando realiza un depósito que cumple las condiciones configuradas. Ese saldo no es retirable, para convertirlo en saldo real, el usuario debe apostarlo cumpliendo el **rollover** y las reglas definidas en este formulario.
+El bono no depósito para Digitain **no requiere que el usuario realice un depósito** para obtenerlo: se entrega por asignación directa mediante archivo CSV o mediante códigos únicos. En ambos casos, el usuario recibe un saldo bono que debe apostar hasta completar el **rollover** configurado para convertirlo en saldo real.
 
 #### **3.1. Conceptos clave**
 
@@ -148,7 +148,7 @@ Define las cuotas que debe cumplir la apuesta en su conjunto para ser válida co
 
 ***
 
-<table data-header-hidden><thead><tr><th width="129.27783203125">Campo</th><th width="118.33343505859375">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Producto Rollover</code></strong></td><td>Lista desplegable</td><td><p>Define el producto en el que el usuario debe apostar para que sus apuestas descuenten del rollover. Las opciones disponibles son: <strong>Directo</strong>, <strong>Casino</strong>, <strong>Sportsbook</strong>, <strong>Live Casino</strong> y <strong>Virtual</strong>.</p><ul><li><strong>Directo</strong> <em>(opción por defecto)</em><strong>:</strong> el bono no requiere configuraciones adicionales y las apuestas descuentan del rollover sin restricciones por producto.</li><li><strong>Sportsbook:</strong> habilita configuraciones específicas de apuestas deportivas, detalladas a continuación.</li></ul></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="129.27783203125">Campo</th><th width="118.33343505859375">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Producto Rollover</code></strong></td><td>Lista desplegable</td><td><p>Define en qué producto deben realizarse las apuestas para que descuenten del rollover. Las opciones recoomendadas son:</p><ul><li><strong>Directo</strong> <em>(opción por defecto)</em><strong>:</strong> el bono no requiere configuraciones adicionales y las apuestas descuentan del rollover sin restricciones por producto.</li><li><strong>Casino, Live Casino, Virtual y Sportsbook:</strong> habilitan las configuraciones correspondientes al producto seleccionado, las cuales determinan qué apuestas son válidas para descontar del rollover.</li></ul></td></tr></tbody></table>
 
 {% columns %}
 {% column width="33.33333333333333%" %}
