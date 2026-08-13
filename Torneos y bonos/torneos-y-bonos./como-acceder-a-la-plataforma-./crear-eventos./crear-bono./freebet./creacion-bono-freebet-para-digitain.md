@@ -1,6 +1,6 @@
 # Creación bono Freebet para Digitain
 
-<mark style="color:$info;">Permite crear un bono FreeBet asociado al proveedor Digitain. Este bono entrega al usuario un saldo destinado exclusivamente a realizar apuestas deportivas, el cual queda disponible de inmediato y se utiliza en las apuestas que cumplan las condiciones configuradas.</mark>
+<mark style="color:$info;">Crea un bono FreeBet asociado al proveedor Digitain. Este bono entrega al usuario un saldo destinado exclusivamente a realizar apuestas deportivas, el cual queda disponible de inmediato y se utiliza en las apuestas que cumplan las condiciones configuradas.</mark>
 
 ### 1. Acceso al Módulo
 

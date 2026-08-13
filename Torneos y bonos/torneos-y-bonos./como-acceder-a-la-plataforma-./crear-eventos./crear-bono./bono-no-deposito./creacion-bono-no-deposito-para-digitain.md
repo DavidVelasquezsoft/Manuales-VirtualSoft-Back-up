@@ -1,6 +1,6 @@
 # Creación bono no depósito para Digitain
 
-<mark style="color:$info;">Permite crear un bono no depósito asociado al proveedor Digitain, el cual se entrega al usuario sin necesidad de que realice un depósito previo. El bono puede asignarse directamente a usuarios específicos o entregarse mediante códigos únicos, y se libera cuando el usuario cumple el rollover y las reglas de apuesta configuradas.</mark>
+<mark style="color:$info;">Crea un bono no depósito asociado al proveedor Digitain, el cual se entrega al usuario sin necesidad de que realice un depósito previo. El bono puede asignarse directamente a usuarios específicos o entregarse mediante códigos únicos, y se libera cuando el usuario cumple el rollover y las reglas de apuesta configuradas.</mark>
 
 ### 1. Acceso al Módulo
 
