@@ -232,6 +232,6 @@ Los bonos de tipo **Referidos**, una vez creados y disponibles, se activan y hab
 
 <summary>🔽 Historial de versiones</summary>
 
-<table><thead><tr><th width="107">Versión</th><th width="130">Fecha</th><th width="156.3333740234375">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>12/08/2026</td><td>David Velasquez</td><td>Documento inicial.</td></tr></tbody></table>
+<table><thead><tr><th width="107">Versión</th><th width="130">Fecha</th><th width="156.3333740234375">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>12/08/2026</td><td>David Velasquez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-26895">Documento inicial.</a></td></tr></tbody></table>
 
 </details>
