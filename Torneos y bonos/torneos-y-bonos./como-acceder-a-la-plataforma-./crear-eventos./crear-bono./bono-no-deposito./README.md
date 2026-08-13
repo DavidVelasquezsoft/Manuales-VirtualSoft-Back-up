@@ -10,7 +10,7 @@
 
 ### 2. Visualización
 
-<figure><img src="../../../../../.gitbook/assets/image (4).png" alt=""><figcaption><p>Figura #1: Captura de pantalla creación de Bono No Depósito.</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/nodepo.png" alt=""><figcaption><p>Figura #1: Captura de pantalla creación de Bono No Depósito.</p></figcaption></figure>
 
 ***
 

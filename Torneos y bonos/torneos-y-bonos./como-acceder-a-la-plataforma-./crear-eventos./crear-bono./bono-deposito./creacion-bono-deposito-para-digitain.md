@@ -10,7 +10,7 @@
 
 ### 2. Visualización general
 
-<figure><img src="../../../../../.gitbook/assets/BONO DEPOSITO.png" alt=""><figcaption><p>Figura #1: Captura de pantalla creación de Bono Depósito.</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/depo digi.png" alt=""><figcaption><p>Figura #1: Captura de pantalla creación de Bono Depósito.</p></figcaption></figure>
 
 ***
 

@@ -15,7 +15,7 @@ description: >-
 
 ### 2. Visualización general
 
-<figure><img src="../../../../../.gitbook/assets/image (277).png" alt=""><figcaption><p>Figura #1 Captura de pantalla formulario bono FreeBet.</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/free.png" alt=""><figcaption><p>Figura #1 Captura de pantalla formulario bono FreeBet.</p></figcaption></figure>
 
 ***
 
