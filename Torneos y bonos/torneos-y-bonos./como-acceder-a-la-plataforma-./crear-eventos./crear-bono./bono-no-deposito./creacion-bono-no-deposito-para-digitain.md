@@ -1,7 +1,5 @@
 # Creación bono no depósito para Digitain
 
-## Creación bono no depósito para Digitain
-
 <mark style="color:$info;">Permite crear un bono no depósito asociado al proveedor Digitain, el cual se entrega al usuario sin necesidad de que realice un depósito previo. El bono puede asignarse directamente a usuarios específicos o entregarse mediante códigos únicos, y se libera cuando el usuario cumple el rollover y las reglas de apuesta configuradas.</mark>
 
 ### 1. Acceso al Módulo
@@ -11,6 +9,8 @@
 ***
 
 ### 2. Visualización
+
+<figure><img src="../../../../../.gitbook/assets/image (4).png" alt=""><figcaption><p>Figura #1: Captura de pantalla creación de Bono No Depósito.</p></figcaption></figure>
 
 ***
 
@@ -99,7 +99,7 @@ Un bono de **$10** con factor de rollover **x5** genera un rollover de **$50** _
 
 ### 4. Acciones disponibles en el módulo
 
-<table><thead><tr><th width="200.3333740234375">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Configurar bono no depósito</strong></td><td><p>Permite configurar un bono de tipo no depósito mediante el formulario disponible en este módulo.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota</strong>: Los campos cuyo nombre finaliza con un asterisco (<mark style="color:$danger;">*</mark>) son obligatorios para la creación del bono.</p></div></td></tr><tr><td><strong>Configurar términos y condiciones del bono</strong></td><td>En la parte final del formulario se encuentra el botón <strong>"</strong><em><strong>Ver términos y condiciones</strong></em><strong>"</strong>, el cual despliega un editor de texto donde se ingresan los términos y condiciones aplicables al bono.</td></tr><tr><td><strong>Crear bono</strong></td><td>Envía la información registrada en el formulario y genera el bono en el sistema.</td></tr></tbody></table>
+<table><thead><tr><th width="200.3333740234375">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="creacion-bono-no-deposito-para-digitain.md#id-5.-configuraciones-del-bono"><strong>Configurar bono no depósito</strong></a></td><td><p>Permite configurar un bono de tipo no depósito mediante el formulario disponible en este módulo.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota</strong>: Los campos cuyo nombre finaliza con un asterisco (<mark style="color:$danger;">*</mark>) son obligatorios para la creación del bono.</p></div></td></tr><tr><td><strong>Configurar términos y condiciones del bono</strong></td><td>En la parte final del formulario se encuentra el botón <strong>"</strong><em><strong>Ver términos y condiciones</strong></em><strong>"</strong>, el cual despliega un editor de texto donde se ingresan los términos y condiciones aplicables al bono.</td></tr><tr><td><strong>Crear bono</strong></td><td>Envía la información registrada en el formulario y genera el bono en el sistema.</td></tr></tbody></table>
 
 ***
 
