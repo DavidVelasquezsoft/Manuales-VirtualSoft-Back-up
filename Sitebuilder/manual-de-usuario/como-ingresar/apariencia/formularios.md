@@ -68,6 +68,18 @@ Al hacer clic en la opción editar campo se mostrará un pop up con las siguient
 
 <table><thead><tr><th width="228.20001220703125">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Nombre de variable</code></strong></td><td>Permite establecer el nombre interno que se usará para este campo en el sistema.</td></tr><tr><td><strong><code>hoverText</code></strong></td><td>Campo opcional para mostrar un texto flotante informativo al pasar el cursor.</td></tr><tr><td><strong><code>Validaciones</code></strong></td><td>Abre una ventana para consultar o añadir reglas de validación al campo.</td></tr><tr><td><strong><code>Activar ReCAPTCHA</code></strong></td><td>Habilita o deshabilita el uso de ReCAPTCHA como medida de seguridad para el usuario en el formulario.</td></tr><tr><td><strong><code>Seleccionar estilo</code></strong></td><td>Permite aplicar un estilo visual específico al campo (según catálogo disponible).</td></tr></tbody></table>
 {% endtab %}
+
+{% tab title="Formulario Registro" %}
+### Visualización
+
+<figure><img src="../../../.gitbook/assets/image (446).png" alt=""><figcaption><p>Figura #5: Captura de pantalla formulario de registros.</p></figcaption></figure>
+
+Aunque la interfaz del formulario de registro sea diferente, hay ciertas acciones que son iguales a creación del formulario en general.
+
+### Acciones de usuario.
+
+
+{% endtab %}
 {% endtabs %}
 
 ***
