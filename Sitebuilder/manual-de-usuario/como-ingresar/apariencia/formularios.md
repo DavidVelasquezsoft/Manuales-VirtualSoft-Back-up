@@ -32,7 +32,9 @@ Antes de realizar las acciones disponibles en la sección pop ups, es necesario 
 
 <table><thead><tr><th width="158.09">Acción</th><th width="120.6666259765625">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Panel de formularios</code></strong></td><td>Seleccionar</td><td><p>Visualiza los formularios disponibles: <em>(Registro, Contáctanos, Conviértete en un agente, Cuentas bancarias, Cambiar contraseña, Mi cuenta)</em>.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Actualmente el formulario de registro es el único que tiene una interfaz diferente para crear un formulario.</p></div></td></tr><tr><td><strong><code>Agregar campo (+)</code></strong></td><td>Botón</td><td>Agrega un nuevo campo al formulario desde la esquina superior izquierda.</td></tr><tr><td><strong><code>Agregar imagen</code></strong><br><strong><code>(</code></strong><i class="fa-cloud-arrow-up">:cloud-arrow-up:</i><strong><code>)</code></strong></td><td>Imagen</td><td><p>Carga una imagen o GIF con el tamaño sugerido en el campo. Estará visible en el formulario de la plataforma.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Si el formulario incluye varios campos de imagen, deben cargarse todos para que se visualicen en la plataforma correctamente.</p></div></td></tr><tr><td><strong><code>Editar campo (🖊️)</code></strong></td><td>Botón</td><td>Abre una ventana emergente de configuración para personalizar el campo.</td></tr><tr><td><strong><code>Duplicar campo (📄)</code></strong></td><td>Botón</td><td>Crea una copia exacta del campo actual.</td></tr><tr><td><strong><code>Agregar ícono (🙂)</code></strong></td><td>Botón</td><td>Permite asignar un ícono visual al campo.</td></tr><tr><td><strong><code>Eliminar campo (🗑️)</code></strong></td><td>Botón</td><td>Elimina el campo del formulario permanentemente.</td></tr><tr><td><strong><code>Guardar cambios (💾)</code></strong></td><td>Botón</td><td>Guarda las modificaciones realizadas al formulario.</td></tr></tbody></table>
 
-Luego de seleccionar una&#x20;
+### 5. Gestionar formularios
+
+Luego de seleccionar el formulario se desplegarán diferentes opciones para editarlo y organizarlo, es posible cambiar de formulario desde la lista desplegable que se encuentra en la esquina superior izquierda&#x20;
 
 {% tabs %}
 {% tab title="Editar campo" %}
@@ -86,7 +88,7 @@ Aunque la interfaz del formulario de registro sea diferente, hay ciertas accione
 
 ***
 
-### **5. Validaciones y Reglas de Negocio**
+### **6. Validaciones y Reglas de Negocio**
 
 * Los formularios se pueden modificar campo por campo.
 * Cada campo puede tener validaciones independientes:
@@ -98,7 +100,7 @@ Aunque la interfaz del formulario de registro sea diferente, hay ciertas accione
 
 ***
 
-### **6. Control de Versiones**
+### **7. Control de Versiones**
 
 <details>
 
