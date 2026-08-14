@@ -129,6 +129,10 @@ Usuario responsable de administrar uno o varios puntos de venta dentro del siste
 
 Validación y comparación de una transacción entre VirtualSoft y la pasarela de pago, que permite confirmar si la información registrada en ambas plataformas coincide correctamente en aspectos como existencia de la transacción, valores, estados y fechas.
 
+* #### Cashout
+
+Opción que permite al usuario cerrar una apuesta antes de que finalice el evento, aceptando el valor de retorno que la plataforma calcula en ese momento según cómo se esté desarrollando el resultado. De esta forma, el usuario asegura una ganancia parcial o reduce una posible pérdida, sin esperar al desenlace del evento.
+
 ## D
 
 * #### Dashboard:
