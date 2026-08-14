@@ -44,25 +44,27 @@ El dashboard presenta rankings que identifican a los usuarios con mayor activida
 
 Todas las tablas comparten la misma estructura de columnas:
 
+{% hint style="warning" %}
+**Nota:** Cada tabla muestra los **10 primeros usuarios** del ranking. Sin embargo, cuando existen usuarios empatados con el mismo valor en la última posición, el tablero muestra a todos los usuarios en esa condición, por lo que el listado puede contener más de 10 registros.
+{% endhint %}
+
 <table><thead><tr><th width="200">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Posición</code></strong></td><td>Ubicación del usuario dentro del ranking, según el valor del indicador analizado.</td></tr><tr><td><strong><code>ID de Usuario</code></strong></td><td>Identificador único del usuario dentro de la plataforma.</td></tr><tr><td><strong><code>Categorización</code></strong></td><td>Categoría VIP asignada al usuario dentro de la plataforma, útil para los procesos de segmentación, retención y fidelización. Los niveles disponibles se detallan en <a data-mention href="top-usuarios-movimientos.md#categorizacion-vip-del-usuario">#categorizacion-vip-del-usuario</a>.</td></tr><tr><td><strong><code>Valor del indicador</code></strong></td><td>Monto correspondiente al indicador analizado en cada ranking durante el periodo consultado.</td></tr></tbody></table>
 
 <details>
 
 <summary>🔽 Categorización VIP del usuario</summary>
 
-La categorización corresponde al nivel VIP del usuario dentro de la plataforma. El tablero identifica cada nivel con un valor numérico, según la siguiente equivalencia:
+Un **usuario VIP** es un jugador seleccionado por el equipo de gestión VIP según su actividad y permanencia en la plataforma para acceder a beneficios exclusivos. La categoría se asigna y actualiza según su comportamiento.
 
-<table><thead><tr><th width="88.33331298828125">Valor</th><th width="115">Categoría</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>0</strong> <em>(o sin valor)</em></td><td><strong>Masa</strong></td><td>Usuario sin categoría VIP asignada. Corresponde al nivel base de la plataforma.</td></tr><tr><td><strong>1</strong></td><td><strong>Potencial</strong></td><td>Usuario identificado como candidato a ingresar al programa VIP.</td></tr><tr><td><strong>2</strong></td><td><strong>Bronce</strong></td><td>Primer nivel del programa VIP.</td></tr><tr><td><strong>3</strong></td><td><strong>Plata</strong></td><td>Segundo nivel del programa VIP.</td></tr><tr><td><strong>4</strong></td><td><strong>Oro</strong></td><td>Tercer nivel del programa VIP.</td></tr><tr><td><strong>5</strong></td><td><strong>Diamante</strong></td><td>Nivel más alto del programa VIP.</td></tr></tbody></table>
+La categorización corresponde al **nivel VIP** asignado al usuario, identificado en el tablero mediante un valor numérico según la siguiente equivalencia:
+
+<table><thead><tr><th width="109.16668701171875">Valor</th><th width="127.5">Categoría</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>0</strong> <em>(o sin valor)</em></td><td><strong>Masa</strong></td><td>Usuario sin categoría VIP asignada. Corresponde al nivel base de la plataforma.</td></tr><tr><td><strong>1</strong></td><td><strong>Potencial</strong></td><td>Usuario identificado como candidato a ingresar al programa VIP.</td></tr><tr><td><strong>2</strong></td><td><strong>Bronce</strong></td><td>Primer nivel del programa VIP.</td></tr><tr><td><strong>3</strong></td><td><strong>Plata</strong></td><td>Segundo nivel del programa VIP.</td></tr><tr><td><strong>4</strong></td><td><strong>Oro</strong></td><td>Tercer nivel del programa VIP.</td></tr><tr><td><strong>5</strong></td><td><strong>Diamante</strong></td><td>Nivel más alto del programa VIP, con los mayores beneficios.</td></tr></tbody></table>
 
 {% hint style="warning" %}
-**Nota:** Cuando el usuario no tiene una categoría asignada, el campo se muestra con el valor **0** o vacío, lo que corresponde a la categoría **Masa**.
+**Nota:** Cuando el usuario no tiene una categoría asignada, el campo se muestra con el valor **0** o vacío, lo que corresponde a la categoría **Masa**. A medida que el equipo de gestión VIP actualiza la categoría de un usuario, el valor reflejado en el tablero cambia al nivel correspondiente.
 {% endhint %}
 
 </details>
-
-{% hint style="warning" %}
-**Nota:** Cada tabla muestra los **10 primeros usuarios** del ranking. Sin embargo, cuando existen usuarios empatados con el mismo valor en la última posición, el tablero muestra a todos los usuarios en esa condición, por lo que el listado puede contener más de 10 registros.
-{% endhint %}
 
 #### 6.1. Casino
 
