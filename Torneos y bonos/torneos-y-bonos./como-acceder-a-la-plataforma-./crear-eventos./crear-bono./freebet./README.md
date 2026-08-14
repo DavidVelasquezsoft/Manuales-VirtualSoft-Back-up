@@ -43,6 +43,10 @@ description: >-
 
 ***
 
+{% hint style="danger" %}
+**Nota importante:** Para entregar el bono mediante códigos únicos es obligatorio habilitar el campo [**`¿Habilitar códigos únicos?`**](./#opciones-avanzadas) en las opciones avanzadas. De lo contrario, los códigos generados no funcionarán y los usuarios no podrán redimir el bono.
+{% endhint %}
+
 <details>
 
 <summary>🔽Opciones avanzadas</summary>

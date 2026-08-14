@@ -40,7 +40,7 @@ Se otorga al usuario sin requerir un depósito previo. Su funcionamiento se defi
 <table><thead><tr><th width="145.83331298828125">Forma de entrega</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Asignación directa</strong><br><em>(archivo CSV)</em></td><td>El bono se asigna automáticamente a los usuarios incluidos en el archivo CSV cargado en el campo <strong><code>Jugadores</code></strong>, sin que estos realicen ninguna acción adicional.</td></tr><tr><td><strong>Códigos únicos</strong></td><td>El sistema genera un código único por cada usuario definido en el campo <strong><code>Cantidad de jugadores</code></strong>. El usuario <a href="https://virtualsoft.gitbook.io/plantillas/glosario?select=asociar-franquicia,gesti%C3%B3n-de-franquicias,estados,configuraci%C3%B3n-visual,3.1.-juegos,3.2.-historial-de-cargas#redimir">redime</a> el bono ingresando su código en la sección <strong>Mis bonos</strong> de la plataforma de usuarios online. Por ejemplo, con el valor <strong>5</strong> se generan <strong>5 códigos únicos</strong>, uno por usuario.</td></tr></tbody></table>
 
 {% hint style="danger" %}
-**Nota importante:** Para entregar el bono mediante códigos únicos es obligatorio habilitar el campo [**`¿Habilitar códigos únicos?`**](./#id-5.1.-opciones-avanzadas) en las opciones avanzadas. De lo contrario, los códigos generados no funcionarán y los usuarios no podrán redimir el bono.
+**Nota importante:** Para entregar el bono mediante códigos únicos es obligatorio habilitar el campo [**`¿Habilitar códigos únicos?`**](./#opciones-avanzadas) en las opciones avanzadas. De lo contrario, los códigos generados no funcionarán y los usuarios no podrán redimir el bono.
 {% endhint %}
 
 **Liberación del saldo**
