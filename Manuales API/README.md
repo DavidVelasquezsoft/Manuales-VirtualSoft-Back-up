@@ -48,7 +48,7 @@ Este manual describe el uso y la integración de la API de Información de Jugad
 
 Esta Api permite consultar los depósitos y retiros de un usuario de las diferentes operaciones de Virtualsoft por país, además permite filtros por fechas.
 
-{% file src=".gitbook/assets/Manual_API_consultas-de-retiros-y-depósitos-de-un-usuario (3).pdf" %}
+{% file src=".gitbook/assets/Manual_API_consultas-de-retiros-y-depósitos-de-un-usuario (4).pdf" %}
 
 ### Manual Funciones y modo de uso API GATEWAY
 
