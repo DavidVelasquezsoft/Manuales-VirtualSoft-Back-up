@@ -1,6 +1,6 @@
 # Bono no Depósito.
 
-<mark style="color:$info;">Permite crear un bono que se entrega al usuario sin necesidad de que realice un depósito previo. El bono puede asignarse directamente a usuarios específicos o entregarse mediante códigos únicos, y puede configurarse con o sin rollover según se requiera que el usuario apueste para liberarlo.</mark>
+<mark style="color:$info;">Crea un bono que se entrega al usuario sin necesidad de que realice un depósito previo. El bono puede asignarse directamente a usuarios específicos o entregarse mediante códigos únicos, y puede configurarse con o sin rollover según se requiera que el usuario apueste para liberarlo.</mark>
 
 ### 1. Acceso al Módulo
 
@@ -16,10 +16,10 @@
 
 ### 3. ¿Cómo funciona este bono?
 
-A diferencia del bono depósito, el bono no depósito **no requiere que el usuario realice un depósito** para obtenerlo. Su comportamiento se define con dos configuraciones del formulario que se combinan según el objetivo de la campaña:
+Se otorga al usuario sin requerir un depósito previo. Su funcionamiento se define mediante dos configuraciones:
 
-* **Cómo se entrega:** por asignación directa mediante archivo CSV o mediante códigos únicos.
-* **Si requiere rollover:** disponible de inmediato o sujeto a que el usuario apueste para liberarlo.
+* **Forma de entrega:** mediante asignación directa por archivo CSV o mediante códigos únicos.
+* **Rollover:** puede estar disponible de inmediato o requerir que el usuario realice apuestas para liberarlo.
 
 #### 3.1. Conceptos clave
 
@@ -37,15 +37,15 @@ A diferencia del bono depósito, el bono no depósito **no requiere que el usuar
 **Escenarios posibles:** ambas configuraciones son independientes, por lo que el bono puede entregarse por CSV o por códigos únicos, y en cualquiera de los dos casos quedar disponible de inmediato _(sin rollover)_ o requerir que el usuario complete el rollover con apuestas válidas para liberar el saldo.
 {% endhint %}
 
-<table><thead><tr><th width="158.33331298828125">Forma de entrega</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Asignación directa</strong><br><em>(archivo CSV)</em></td><td>El bono se asigna automáticamente a los usuarios incluidos en el archivo CSV cargado en el campo <strong><code>Jugadores</code></strong>, sin que estos realicen ninguna acción adicional.</td></tr><tr><td><strong>Códigos únicos</strong></td><td>El sistema genera un código único por cada usuario definido en el campo <strong><code>Cantidad de jugadores</code></strong>. El usuario <a href="https://virtualsoft.gitbook.io/plantillas/glosario?select=asociar-franquicia,gesti%C3%B3n-de-franquicias,estados,configuraci%C3%B3n-visual,3.1.-juegos,3.2.-historial-de-cargas#redimir">redime</a> el bono ingresando su código en la sección <strong>Mis bonos</strong> de la plataforma de usuarios online. Por ejemplo, con el valor <strong>5</strong> se generan <strong>5 códigos únicos</strong>, uno por usuario.</td></tr></tbody></table>
+<table><thead><tr><th width="145.83331298828125">Forma de entrega</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Asignación directa</strong><br><em>(archivo CSV)</em></td><td>El bono se asigna automáticamente a los usuarios incluidos en el archivo CSV cargado en el campo <strong><code>Jugadores</code></strong>, sin que estos realicen ninguna acción adicional.</td></tr><tr><td><strong>Códigos únicos</strong></td><td>El sistema genera un código único por cada usuario definido en el campo <strong><code>Cantidad de jugadores</code></strong>. El usuario <a href="https://virtualsoft.gitbook.io/plantillas/glosario?select=asociar-franquicia,gesti%C3%B3n-de-franquicias,estados,configuraci%C3%B3n-visual,3.1.-juegos,3.2.-historial-de-cargas#redimir">redime</a> el bono ingresando su código en la sección <strong>Mis bonos</strong> de la plataforma de usuarios online. Por ejemplo, con el valor <strong>5</strong> se generan <strong>5 códigos únicos</strong>, uno por usuario.</td></tr></tbody></table>
 
 {% hint style="danger" %}
-**Nota importante:** Para entregar el bono mediante códigos únicos es obligatorio habilitar el campo **`¿Habilitar códigos únicos?`** en las opciones avanzadas. De lo contrario, los códigos generados no funcionarán y los usuarios no podrán redimir el bono.
+**Nota importante:** Para entregar el bono mediante códigos únicos es obligatorio habilitar el campo [**`¿Habilitar códigos únicos?`**](./#id-5.1.-opciones-avanzadas) en las opciones avanzadas. De lo contrario, los códigos generados no funcionarán y los usuarios no podrán redimir el bono.
 {% endhint %}
 
 **Liberación del saldo**
 
-El campo **`Producto Rollover`** determina si el usuario debe apostar para liberar el bono:
+El campo **`Producto Rollover`** determina si el bono tendrá **rollover**, es decir, si el usuario deberá realizar apuestas para liberarlo.
 
 <table><thead><tr><th width="160.8333740234375">Configuración</th><th>Funcionamiento</th></tr></thead><tbody><tr><td><strong>Sin rollover</strong><br><em>(opción Directo)</em></td><td>El saldo del bono queda disponible para el usuario de inmediato, sin necesidad de realizar apuestas.</td></tr><tr><td><strong>Con rollover</strong><br><em>(Casino, Live Casino, Virtual o Sportsbook)</em></td><td>El usuario recibe el saldo como saldo bono y debe apostarlo en el producto configurado hasta completar el rollover. Al completarlo, el saldo bono restante se convierte en saldo real; si el usuario agota el saldo antes de cumplirlo o el bono expira, el saldo se pierde.</td></tr></tbody></table>
 
@@ -93,7 +93,7 @@ El campo **`Producto Rollover`** determina si el usuario debe apostar para liber
 
 <details>
 
-<summary><strong>5.1. Opciones avanzadas</strong></summary>
+<summary><strong>Opciones avanzadas</strong></summary>
 
 Configuraciones complementarias que definen cómo se controla el acceso al bono y su redención mediante códigos.
 
@@ -127,7 +127,7 @@ Definen los juegos en los que el usuario debe apostar para que sus apuestas desc
 
 Definen las apuestas deportivas que son válidas para descontar del rollover. Las secciones **Deporte, Mercados, Ligas y Partidos** comparten la misma estructura y configuración: los campos y condiciones son los mismos en todas, variando únicamente el nivel al que se aplican _(deporte, mercado, liga o partido)_.
 
-<table data-search="false"><thead><tr><th width="122.66650390625">Campo</th><th width="258.0103759765625">Descripción</th></tr></thead><tbody><tr><td><strong><code>¿Todas las condiciones son obligatorias?</code></strong></td><td>Define si las condiciones configuradas deben cumplirse en su totalidad. Con la opción "<em><strong>Sí</strong></em>", se revisan una a una y todas deben cumplirse para aplicar la regla. Con la opción "<em><strong>No</strong></em>", cada condición se evalúa de forma independiente y basta con que alguna se cumpla.</td></tr><tr><td><strong><code>¿Se dará un bono del proveedor Altenar?</code></strong></td><td>Indica si se otorga un bono proveniente del proveedor Altenar. Con la opción "<em><strong>Sí</strong></em>", se habilitan los campos <strong><code>Bono plan Id</code></strong> <em>(identificador del plan de bono definido por el proveedor)</em> y <strong><code>Código del bono</code></strong> <em>(código único del bono asignado por el proveedor)</em>, ambos obligatorios y diligenciados con la información proporcionada por el proveedor. Con la opción "<em><strong>No</strong></em>", no se otorga este beneficio y dichos campos no son requeridos.</td></tr><tr><td><strong><code>Deporte, Mercados, Ligas o Partidos</code></strong></td><td>Define los identificadores <em>(ID)</em> de los elementos a los que aplica la configuración <em>(deportes, mercados, ligas o partidos)</em>. Admite múltiples ID separados por comas.</td></tr><tr><td><strong><code>Tipo de apuesta</code></strong></td><td>Define el tipo de apuesta al que aplica la configuración: <strong>Single</strong> <em>(apuesta simple)</em>, <strong>Multiple</strong> <em>(apuesta combinada)</em> o <strong>System</strong> <em>(apuestas de sistema)</em>.</td></tr><tr><td><strong><code>Tipo de evento</code></strong></td><td>Define el tipo de evento al que aplica la configuración: <strong>Both</strong> <em>(pre-match y en vivo)</em>, <strong>Pre-match</strong> <em>(antes del evento)</em> o <strong>Live</strong> <em>(en vivo)</em>.</td></tr><tr><td><strong><code>Mínima cantidad en selecciones</code></strong></td><td>Número mínimo de selecciones que debe tener una apuesta para que aplique la configuración.</td></tr><tr><td><strong><code>Mínima cuota en selecciones</code></strong></td><td>Cuota mínima que debe tener cada selección dentro de la apuesta.</td></tr><tr><td><strong><code>Mínima cuota total</code></strong></td><td>Cuota mínima total que debe cumplir la apuesta.</td></tr><tr><td><strong><code>Repetir Partidos</code></strong></td><td>Define si se permite incluir el mismo partido más de una vez dentro de una apuesta.</td></tr><tr><td><strong><code>Repetir Mercados</code></strong></td><td>Define si se permite incluir el mismo mercado más de una vez dentro de una apuesta.</td></tr></tbody></table>
+<table data-search="false"><thead><tr><th width="122.66650390625">Campo</th><th width="258.0103759765625">Descripción</th></tr></thead><tbody><tr><td><strong><code>¿Todas las condiciones son obligatorias?</code></strong></td><td>Define si las condiciones configuradas deben cumplirse en su totalidad. Con la opción "<em><strong>Sí</strong></em>", se revisan una a una y todas deben cumplirse para aplicar la regla. Con la opción "<em><strong>No</strong></em>", cada condición se evalúa de forma independiente y basta con que alguna se cumpla.</td></tr><tr><td><strong><code>Deporte, Mercados, Ligas o Partidos</code></strong></td><td>Define los identificadores <em>(ID)</em> de los elementos a los que aplica la configuración <em>(deportes, mercados, ligas o partidos)</em>. Admite múltiples ID separados por comas.</td></tr><tr><td><strong><code>Tipo de apuesta</code></strong></td><td>Define el tipo de apuesta al que aplica la configuración: <strong>Single</strong> <em>(apuesta simple)</em>, <strong>Multiple</strong> <em>(apuesta combinada)</em> o <strong>System</strong> <em>(apuestas de sistema)</em>.</td></tr><tr><td><strong><code>Tipo de evento</code></strong></td><td>Define el tipo de evento al que aplica la configuración: <strong>Both</strong> <em>(pre-match y en vivo)</em>, <strong>Pre-match</strong> <em>(antes del evento)</em> o <strong>Live</strong> <em>(en vivo)</em>.</td></tr><tr><td><strong><code>Mínima cantidad en selecciones</code></strong></td><td>Número mínimo de selecciones que debe tener una apuesta para que aplique la configuración.</td></tr><tr><td><strong><code>Mínima cuota en selecciones</code></strong></td><td>Cuota mínima que debe tener cada selección dentro de la apuesta.</td></tr><tr><td><strong><code>Mínima cuota total</code></strong></td><td>Cuota mínima total que debe cumplir la apuesta.</td></tr><tr><td><strong><code>Repetir Partidos</code></strong></td><td>Define si se permite incluir el mismo partido más de una vez dentro de una apuesta.</td></tr><tr><td><strong><code>Repetir Mercados</code></strong></td><td>Define si se permite incluir el mismo mercado más de una vez dentro de una apuesta.</td></tr></tbody></table>
 
 </details>
 {% endcolumn %}

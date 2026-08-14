@@ -1,6 +1,6 @@
 # Creación bono depósito para Digitain
 
-<mark style="color:$info;">Permite crear un bono de tipo depósito asociado al proveedor Digitain. El bono se otorga al usuario cuando realiza un depósito que cumple las condiciones definidas en el formulario, y se acredita como saldo bono, el cual debe utilizarse en apuestas bajo las reglas configuradas para poder convertirse en saldo real.</mark>
+<mark style="color:$info;">Crea un bono de tipo depósito asociado al proveedor Digitain. El bono se otorga al usuario cuando realiza un depósito que cumple las condiciones definidas en el formulario, y se acredita como saldo bono, el cual debe utilizarse en apuestas bajo las reglas configuradas para poder convertirse en saldo real.</mark>
 
 ### 1. Acceso al Módulo
 
