@@ -93,7 +93,7 @@ El bono funciona bajo una lógica de cobertura por apuesta, definida por los val
 
 De esta manera, el bono actúa como un respaldo parcial o total dependiendo del monto apostado y los límites configurados.
 
-<table><thead><tr><th width="135.77777099609375">Campo</th><th width="118.888916015625">Tipo</th><th width="431.44439697265625">Descripción</th></tr></thead><tbody><tr><td><strong><code>Mínimo valor fijo</code></strong></td><td>Numérico</td><td>Valor mínimo de apuesta requerido para que el bono pueda ser aplicado.</td></tr><tr><td><strong><code>Máximo valor fijo</code></strong></td><td>Numérico</td><td>Valor máximo que el sistema podrá cubrir con el bono en una sola apuesta. </td></tr><tr><td><strong><code>Jugadores</code></strong></td><td>Archivo CSV</td><td>Archivo CSV con los ID de los usuarios habilitados para recibir el bono.</td></tr></tbody></table>
+<table><thead><tr><th width="135.77777099609375">Campo</th><th width="118.888916015625">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Mínimo valor fijo</code></strong></td><td>Numérico</td><td>Valor mínimo de apuesta requerido para que el bono pueda ser aplicado.</td></tr><tr><td><strong><code>Máximo valor fijo</code></strong></td><td>Numérico</td><td>Valor máximo que el sistema podrá cubrir con el bono en una sola apuesta. </td></tr><tr><td><strong><code>Jugadores</code></strong></td><td>Archivo CSV</td><td>Archivo CSV con los ID de los usuarios habilitados para recibir el bono.</td></tr></tbody></table>
 
 </details>
 
