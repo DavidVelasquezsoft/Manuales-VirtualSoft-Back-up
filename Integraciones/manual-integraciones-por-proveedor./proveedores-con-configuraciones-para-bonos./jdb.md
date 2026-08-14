@@ -68,8 +68,6 @@ La información de este bono estará disponible en la reportería de _Productos 
 
 <summary>🕛Historial de versiones.</summary>
 
-| Versión | Fecha      | Autor         | Cambios Realizados |
-| ------- | ---------- | ------------- | ------------------ |
-| 1.0     | 16/04/2026 | Ronald Peláez | Documento inicial  |
+<table><thead><tr><th width="132.111083984375">Versión</th><th width="136.111083984375">Fecha</th><th width="161.77783203125">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>16/04/2026</td><td>Ronald Peláez</td><td>Documento inicial </td></tr><tr><td>1.1</td><td>14/08/2026</td><td>Karol Navia</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-32354">Organización del manual en general</a></td></tr></tbody></table>
 
 </details>
