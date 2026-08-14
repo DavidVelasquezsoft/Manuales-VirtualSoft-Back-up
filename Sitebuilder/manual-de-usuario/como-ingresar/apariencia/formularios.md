@@ -82,7 +82,7 @@ Aunque la interfaz del formulario de registro sea diferente, hay ciertas accione
 
 ### Acciones de usuario.
 
-
+<table><thead><tr><th width="172">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/Button (1) (4).png" alt="" data-size="original"></td><td><p>El formulario de registro se configurará por medio de pasos, según la cantidad de pasos configurados, serán los pasos necesarios para que un usuario realice el registro.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Cada paso debe ser configurado de manera independiente, agregando los campos necesarios.</p></div></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr></tbody></table>
 {% endtab %}
 {% endtabs %}
 
