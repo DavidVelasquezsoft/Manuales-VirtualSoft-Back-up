@@ -23,6 +23,8 @@ layout:
 
 Permite crear bonos Cashback que reembolsan al usuario un porcentaje de sus pérdidas o del neto de sus transacciones durante un periodo determinado. Desde aquí puedes configurar el tipo de bono, sus condiciones, criterios y porcentaje de devolución.
 
+***
+
 ### 1. Acceso al Módulo
 
 **Ruta de Acceso**: BackOffice > Torneos y Bonos > Crear Bono > País > Bono Cashback
@@ -268,6 +270,6 @@ Permite definir las condiciones que los usuarios deben cumplir para que el bono 
 
 <summary>🔽Historial de versiones</summary>
 
-<table><thead><tr><th width="118">Versión</th><th width="140">Fecha</th><th width="165">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>08/09/2025</td><td>Ronald Peláez</td><td>Documento inicial </td></tr><tr><td>1.1</td><td>08/09/2025</td><td>Karol Navia</td><td>Agregar columna asignación de bono</td></tr><tr><td>1.2</td><td>14/11/2025</td><td>David Velasquez</td><td>Incorporación del tipo de producto "<strong>Transacciones</strong>"</td></tr><tr><td>1.3</td><td>06/01/2026</td><td>David Velasquez</td><td>Incorporación de la sección <strong>validaciones para el pago</strong></td></tr><tr><td>1.4</td><td>20/01/2026</td><td>David Velasquez</td><td>Incorporación del campo "<strong><code>¿Es para?</code>"</strong></td></tr><tr><td>1.5</td><td>20/01/2026</td><td>Ronald Peláez</td><td>Actualización en la sección "<strong>validaciones para el pago"</strong></td></tr><tr><td>1.6</td><td>04/03/2026</td><td>Ronald Peláez</td><td>Ajuste en el campo <strong><code>¿Es para?</code></strong></td></tr><tr><td>1.7</td><td>16/07/2026</td><td>Karol Navia</td><td>Agregar la opción (<em>tours)</em> en el campo <strong><code>Es para?</code></strong></td></tr></tbody></table>
+<table><thead><tr><th width="118">Versión</th><th width="140">Fecha</th><th width="165">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>08/09/2025</td><td>Ronald Peláez</td><td>Documento inicial </td></tr><tr><td>1.1</td><td>08/09/2025</td><td>Karol Navia</td><td>Agregar columna asignación de bono</td></tr><tr><td>1.2</td><td>14/11/2025</td><td>David Velasquez</td><td>Incorporación del tipo de producto "<strong>Transacciones</strong>"</td></tr><tr><td>1.3</td><td>06/01/2026</td><td>David Velasquez</td><td>Incorporación de la sección <strong>validaciones para el pago</strong></td></tr><tr><td>1.4</td><td>20/01/2026</td><td>David Velasquez</td><td>Incorporación del campo "<strong><code>¿Es para?</code>"</strong></td></tr><tr><td>1.5</td><td>20/01/2026</td><td>Ronald Peláez</td><td>Actualización en la sección "<strong>validaciones para el pago"</strong></td></tr><tr><td>1.6</td><td>04/03/2026</td><td>Ronald Peláez</td><td>Ajuste en el campo <strong><code>¿Es para?</code></strong></td></tr><tr><td>1.7</td><td>16/07/2026</td><td>Karol Navia</td><td>Agregar la opción (<em>tours)</em> en el campo <strong><code>Es para?</code></strong></td></tr><tr><td>1.8</td><td>18/08/2026</td><td>Ronald Peláez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-31442#icft=VSFT-31442">Agregar "<strong>misiones</strong>" en campo "<strong><code>Es para?</code></strong>"</a></td></tr></tbody></table>
 
 </details>
