@@ -49,7 +49,7 @@ Agrega el enlace directo al APK. Se mostrará en el footer para su descarga.
 
 Permite configurar títulos y subtítulos con enlaces a secciones internas o externas.
 
-<table><thead><tr><th width="59.66668701171875">Icono</th><th width="94.5556640625">Acción</th><th width="580.9998779296875" valign="middle">Descripcion</th></tr></thead><tbody><tr><td><div><figure><img src="../../../.gitbook/assets/image (261).png" alt=""><figcaption></figcaption></figure></div></td><td>Agregar elemento</td><td valign="middle"><p>Crea un título principal de menú.</p><ul><li>En el campo <code>Tipo de URL</code> solo se permite seleccionar una única opción.</li></ul></td></tr></tbody></table>
+<table><thead><tr><th width="85.1212158203125" align="center">Icono</th><th width="94.5556640625">Acción</th><th width="580.9998779296875" valign="middle">Descripcion</th></tr></thead><tbody><tr><td align="center"><img src="../../../.gitbook/assets/image (455).png" alt="" data-size="line"></td><td>Agregar elemento</td><td valign="middle"><p>Crea un título principal de menú.</p><ul><li>En el campo <code>Tipo de URL</code> solo se permite seleccionar una única opción.</li></ul></td></tr></tbody></table>
 
 <table><thead><tr><th width="111.185302734375" valign="middle">Campo</th><th>Descripcion</th></tr></thead><tbody><tr><td valign="middle"><code>Titulo</code></td><td>Nombre que identifica el menu.</td></tr><tr><td valign="middle"><code>Eliminar</code></td><td>Borra el menú.</td></tr><tr><td valign="middle"><code>Agregar subtitulo</code></td><td>Añade subcategorias.</td></tr></tbody></table>
 

@@ -34,7 +34,7 @@
       * [Retiros](manual-de-usuario/como-ingresar/productos/retiros.md)
     * [Acuerdos](manual-de-usuario/como-ingresar/acuerdos/README.md)
       * [Términos](manual-de-usuario/como-ingresar/acuerdos/terminos.md)
-      * [Política y privacidad.](manual-de-usuario/como-ingresar/acuerdos/politica-y-privacidad..md)
+      * [Política](manual-de-usuario/como-ingresar/acuerdos/politica.md)
       * [Responsable.](manual-de-usuario/como-ingresar/acuerdos/responsable..md)
       * [Preguntas frecuentes](manual-de-usuario/como-ingresar/acuerdos/preguntas-frecuentes.md)
       * [Lenguajes](manual-de-usuario/como-ingresar/acuerdos/lenguajes.md)
