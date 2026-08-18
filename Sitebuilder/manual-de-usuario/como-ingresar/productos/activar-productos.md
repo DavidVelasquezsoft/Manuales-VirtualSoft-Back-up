@@ -74,7 +74,7 @@ Una vez el sistema halla validado el archivo correctamente, mostrara un resumen 
 
 <table><thead><tr><th width="183.00006103515625">Valor</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Total de filas procesadas</code></strong></td><td>Muestra el total de registros identificados y procesados por el sistema dentro del archivo .CSV, incluyendo válidos y con error.</td></tr><tr><td><strong><code>Total de filas válidadas</code></strong></td><td>Muestra el total de registros procesados correctamente, donde el identificador del producto y la acción ingresada son válidos.</td></tr><tr><td><strong><code>Total de filas erróneas</code></strong></td><td>Muestra el total de registros que presentaron errores durante la validación o procesamiento del archivo .CSV.</td></tr><tr><td><strong><code>Fila</code></strong></td><td>Columna que indica el numero de fila del producto en el archivo que fallo al realizarse la acción.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Columna que indica por cada fila el mensaje de error en especifico por el cual fallo la acción.</td></tr></tbody></table>
 
-Una vez validada la información, si existe al menos un registro válido, se habilitará el botón <img src="../../../.gitbook/assets/Button (2).png" alt="" data-size="line"> para continuar.
+Una vez validada la información, si existe al menos un registro válido, se habilitará el botón <img src="../../../.gitbook/assets/Button (2) (1).png" alt="" data-size="line"> para continuar.
 
 {% hint style="warning" %}
 **Nota:** Si el archivo se encuentra vacío, el sistema mostrará un mensaje de error y no permitirá continuar.
