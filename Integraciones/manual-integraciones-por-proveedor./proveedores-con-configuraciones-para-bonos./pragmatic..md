@@ -75,6 +75,6 @@ Nota: Si se realiza una compra de giros en la tienda del proveedor, las ganancia
 
 <summary>🔽 Historial de versiones.</summary>
 
-<table><thead><tr><th width="104">Versión</th><th width="136">Fecha</th><th width="131">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>18/08/2026</td><td>Karol Navia</td><td>Reestructuración del Manual</td></tr></tbody></table>
+<table><thead><tr><th width="104">Versión</th><th width="136">Fecha</th><th width="131">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>18/08/2026</td><td>Karol Navia</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-32246">Reestructuración del Manual</a></td></tr></tbody></table>
 
 </details>

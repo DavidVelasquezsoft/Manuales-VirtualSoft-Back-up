@@ -60,6 +60,12 @@ La información de este bono estará disponible en la reportería de _Productos 
 
 ### &#x20;**5. Control de Versiones**
 
-| Versión | Fecha      | Autor           | Cambios Realizados |
-| ------- | ---------- | --------------- | ------------------ |
-| 1.0     | 21/01/2026 | David velasquez | Documento inicial  |
+<details>
+
+<summary>🔽Historial de versiones</summary>
+
+<table><thead><tr><th width="124">Versión</th><th width="125">Fecha</th><th width="168">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>21/01/2026</td><td>David velasquez</td><td>Documento inicial </td></tr><tr><td>1.1</td><td>18/08/2026</td><td>Karol Navia</td><td></td></tr></tbody></table>
+
+
+
+</details>
