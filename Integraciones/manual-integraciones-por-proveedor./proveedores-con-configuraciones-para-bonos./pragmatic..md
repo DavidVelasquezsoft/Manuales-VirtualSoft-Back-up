@@ -16,6 +16,8 @@ description: >-
 
 <figure><img src="../../.gitbook/assets/image (125).png" alt=""><figcaption><p>Figura#1: Captura de pantalla creación bono FreeSpin.</p></figcaption></figure>
 
+***
+
 ### **3. Formulario para creación de bonos** PRAGMATIC
 
 Estas configuraciones corresponden a los campos que pueden presentar comportamientos específicos o variaciones propias del proveedor PRAGMATIC dentro del proceso de creación de bonos FreeSpin.
