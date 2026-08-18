@@ -16,7 +16,7 @@ description: >-
 
 <figure><img src="../../.gitbook/assets/image (103).png" alt=""><figcaption><p>Figura#1: Captura de pantalla creación bono FreeSpin.</p></figcaption></figure>
 
-### **3. Acciones del Usuario**
+### **3. Formulario para creación de bonos MASCOT.**
 
 Estas son las configuraciones principales y necesarias para generar un bono FreeSpin con los juegos del proveedor MASCOT, en caso de necesitar información más detallada sobre cómo crear el bono FreeSpin, puedes acceder a la siguiente página:
 
@@ -30,7 +30,7 @@ Estas son las configuraciones principales y necesarias para generar un bono Free
 
 <table><thead><tr><th width="114">Campo</th><th width="129">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Valor por ronda (</code></strong><em><strong><code>Linea</code></strong></em><strong><code>)</code></strong></td><td>Campo numérico</td><td><p>Define el <strong>valor base</strong> de la apuesta por ronda o línea.<br>Este valor se multiplica por la cantidad de líneas del juego y debe coincidir con uno de los montos de apuesta permitidos por el juego.</p><div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p><strong>Ejemplo:</strong> </p><ul><li>El juego tiene <strong>10 líneas activas</strong>.</li><li>El juego permite apuestas totales de <strong>2.0</strong>, <strong>5.0</strong> y <strong>10.0</strong>.</li><li>Si se configura un <strong>valor por línea de 0.5</strong>:<br>→ 0.5 × 10 líneas = <strong>5.0</strong> (apuesta válida).</li></ul></div><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Si el valor por línea multiplicado por la cantidad de líneas <strong>no coincide</strong> con los montos de apuesta <strong>permitidos por el juego</strong>, el sistema tomará por defecto la apuesta mínima del juego.</p></div></td></tr><tr><td><strong><code>Rondas gratuitas</code></strong></td><td>Numérico</td><td>Establece la cantidad de giros gratis que tendrá este bono.</td></tr><tr><td><strong><code>Jugadores</code></strong></td><td>Botón "Seleccionar archivo"</td><td>Permite cargar un archivo en formato CSV con los ID de los jugadores que recibirán el bono.</td></tr></tbody></table>
 
-<a href="https://virtualsoft.gitbook.io/manuales/integraciones./~/changes/199/manual-integraciones-por-proveedor./proveedores-con-configuraciones-para-bonos./epicwin#id-3.-acciones-del-usuario" class="button secondary">Regresar</a>
+<a href="mascot..md#id-3.-acciones-del-usuario" class="button secondary">Regresar</a>
 
 </details>
 
