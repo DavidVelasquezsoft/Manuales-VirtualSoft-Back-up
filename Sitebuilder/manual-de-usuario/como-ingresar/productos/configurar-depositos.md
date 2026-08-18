@@ -34,7 +34,13 @@ layout:
 
 ***
 
-### 2. Visualización
+### 2. **Configuraciones previas.**
+
+Para modificar y acceder a la configuración de las reglas del Módulo de pago automático, es necesario contar con la siguiente configuración. Esta se realiza a través de un pop-up que se despliega al seguir la ruta de acceso indicada al módulo.
+
+<table><thead><tr><th width="131.63641357421875">Parámetro</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>País</code></strong></td><td>País para el cual se realizará la configuración.</td></tr></tbody></table>
+
+### 3. Visualización
 
 La interfaz presenta los métodos de depósito organizados mediante dos tipos de cards:
 
@@ -45,13 +51,13 @@ La interfaz presenta los métodos de depósito organizados mediante dos tipos de
 
 ***
 
-### 3. Acciones disponibles
+### 4. Acciones disponibles
 
 <table><thead><tr><th width="119.81817626953125" align="center">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td align="center"><strong>Arrastrar y soltar</strong></td><td>Reorganiza la posición de las cards dentro de la lista de métodos de depósito.</td></tr><tr><td align="center"><img src="../../../.gitbook/assets/image (447).png" alt="" data-size="line"></td><td>Modifica la posición de una card mediante el ícono de movimiento ubicado en su centro.</td></tr><tr><td align="center"><strong>Guardar</strong></td><td>Almacena el nuevo orden de visualización configurado para los métodos de depósito.</td></tr></tbody></table>
 
 ***
 
-### 4. **Comportamiento**
+### 5. **Comportamiento**
 
 La posición configurada para cada método de depósito determina el orden en que estos serán presentados al usuario en la plataforma.
 
@@ -70,7 +76,7 @@ El comportamiento al seleccionar un método depende de si corresponde a un **mé
 
 ***
 
-### 5. Validaciones y reglas del negocio
+### 6. Validaciones y reglas del negocio
 
 * El nuevo orden de las cards se aplica únicamente después de seleccionar **Guardar**.
 * El orden configurado modifica la posición visual de los métodos de depósito en la plataforma.
@@ -78,7 +84,7 @@ El comportamiento al seleccionar un método depende de si corresponde a un **mé
 
 ***
 
-### 6. Control de Versiones
+### 7. Control de Versiones
 
 <details>
 
