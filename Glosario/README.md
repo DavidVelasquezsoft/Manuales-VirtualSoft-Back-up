@@ -440,6 +440,9 @@ Empresa responsable de la creación, gestión y distribución de los juegos dent
 *   #### Regla programada:
 
     Configuración que modifica de forma temporal la prioridad de una pasarela dentro de una franquicia, elevándola a la **prioridad #1** durante un rango de fechas, horas y días definidos. Mientras la regla está vigente, esa pasarela se ofrece primero al jugador por encima del orden de prioridad permanente; una vez finaliza, el orden vuelve a su configuración habitual.
+*   #### **Régimen Reforzado:**
+
+    Es un control de prevención de lavado de activos que se aplica a usuarios que pueden representar un **mayor nivel de riesgo**. Permite a la empresa conocer mejor al usuario, verificar información como el **origen de sus fondos** e identificar situaciones como si el usuario es una **Persona Expuesta Políticamente (PEP)**.
 
 ## S
 
