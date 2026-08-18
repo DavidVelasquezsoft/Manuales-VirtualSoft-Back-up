@@ -87,6 +87,7 @@ Cuando el usuario selecciona **Turquía** como nacionalidad, el sistema ejecuta 
   * En caso de que el usuario esté en la lista, no se permitirá el registro en la plataforma.
 * La verificación de correo electrónico y/o número de celular será **obligatoria** según la configuración definida por **Partner y país**. Actualmente, esta configuración se gestiona a través de **SiteBuilder** mediante solicitudes al equipo de TI, ya que no se dispone de una vista para su administración directa.
 * El registro no podrá completarse hasta que todas las verificaciones activas hayan sido realizadas correctamente.
+* El formulario de registro puede editarse desde el módulo de [SiteBuilder Registro](https://virtualsoft.gitbook.io/manuales/sitebuilder/manual-de-usuario/como-ingresar/apariencia/formularios#formulario-registro).
 
 ***
 
@@ -96,6 +97,6 @@ Cuando el usuario selecciona **Turquía** como nacionalidad, el sistema ejecuta 
 
 <summary>🔽 Historial de versiones</summary>
 
-<table><thead><tr><th width="107.33331298828125">Versión</th><th width="136.3333740234375">Fecha</th><th width="162.29632568359375">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>17/07/2025</td><td>Karol Navia</td><td>Registro detallado campo por campo (versión base)</td></tr><tr><td>1.1</td><td>30/09/2025</td><td>Karol Navia</td><td>Agregación de nota</td></tr><tr><td>1.2</td><td>18/12/2025</td><td>Ronald Peláez</td><td>Actualización reglas y validaciones por clientes ludópatas.</td></tr><tr><td>1.3</td><td>18/02/2026</td><td>David Velasquez</td><td>Incorporación de validación verificación de correo y celular.</td></tr><tr><td>1.4</td><td>16/03/2026</td><td>David Velasquez</td><td>Incoporación de nota de validación "+" en correo electronico</td></tr><tr><td>1.5</td><td>01/04/2026</td><td>David Velasquez</td><td>Ajuste validaciones en campos</td></tr></tbody></table>
+<table><thead><tr><th width="107.33331298828125">Versión</th><th width="136.3333740234375">Fecha</th><th width="162.29632568359375">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>17/07/2025</td><td>Karol Navia</td><td>Registro detallado campo por campo (versión base)</td></tr><tr><td>1.1</td><td>30/09/2025</td><td>Karol Navia</td><td>Agregación de nota</td></tr><tr><td>1.2</td><td>18/12/2025</td><td>Ronald Peláez</td><td>Actualización reglas y validaciones por clientes ludópatas.</td></tr><tr><td>1.3</td><td>18/02/2026</td><td>David Velasquez</td><td>Incorporación de validación verificación de correo y celular.</td></tr><tr><td>1.4</td><td>16/03/2026</td><td>David Velasquez</td><td>Incoporación de nota de validación "+" en correo electronico</td></tr><tr><td>1.5</td><td>01/04/2026</td><td>David Velasquez</td><td>Ajuste validaciones en campos</td></tr><tr><td>1.6</td><td>08/18/2026</td><td>Ronald Peláez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-31629">Ajustes en reglas y validaciones por edición del formulario.</a></td></tr></tbody></table>
 
 </details>
