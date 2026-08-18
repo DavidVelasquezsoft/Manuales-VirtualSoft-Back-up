@@ -84,6 +84,6 @@ El comportamiento al seleccionar un método depende de si corresponde a un **mé
 
 <summary>🔽Historial de Versiones</summary>
 
-<table><thead><tr><th width="103.45458984375">Versión</th><th width="121.8182373046875">Fecha</th><th width="117.6363525390625">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>18/08/2026</td><td><strong>Karol Navia</strong></td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-32855">Documento inicial.</a></td></tr></tbody></table>
+<table><thead><tr><th width="103.45458984375">Versión</th><th width="121.8182373046875">Fecha</th><th width="117.6363525390625">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>18/08/2026</td><td>Karol Navia</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-32855">Documento inicial.</a></td></tr></tbody></table>
 
 </details>
