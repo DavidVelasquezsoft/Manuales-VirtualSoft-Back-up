@@ -2,60 +2,88 @@
 description: >-
   Permite personalizar la  organización de los tipos de métodos disponibles para
   realizar depósitos.
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # Configurar depósitos
 
-## Configuración general
-
-#### 1. Acceso al Módulo:
-
-**Ruta de Acceso**: Menú lateral > Productos > Configurar depósitos
+<mark style="color:$info;">Administra el orden de visualización de los métodos de depósito disponibles en la plataforma de usuarios. Desde esta sección se organizan los canales informativos y transaccionales según la prioridad definida.</mark>
 
 ***
 
-#### 2. Visualización:
+### 1. Acceso al Módulo
 
-<figure><img src="../../../.gitbook/assets/image (287).png" alt=""><figcaption><p>Figura#1: </p></figcaption></figure>
-
-La interfaz principal está compuesta por **dos tipos de cards**:
-
-* **Cards informativas**: Representan métodos de depósito que no están activos o están disponibles solo como referencia para el usuario.
-* **Cards transaccionales**: Representan métodos de depósito activos, con los cuales el usuario puede realizar transacciones reales.
-
-**🧑‍💻 2. Acciones del Usuario**
-
-| Sección                      | Acción                 | Descripción                                                                                                                   |
-| ---------------------------- | ---------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
-| Card de método informativo   | Arrastrar y soltar     | Puedes reordenar la card informativa arrastrándola hacia arriba o abajo para cambiar su posición visual.                      |
-| Card de método transaccional | Arrastrar y soltar     | También se pueden mover las cards transaccionales en la lista de métodos disponibles para priorizar ciertos canales.          |
-| Ícono de movimiento          | Clic sostenido y mover | Usa el ícono de flechas (↕️) ubicado en el centro de la card para arrastrar y reubicar la card.                               |
-| Guardar                      | Botón                  | Guarda todos los cambios realizados en el orden de visualización. Este botón se encuentra en la parte inferior de la sección. |
-
-\
-**2.1. Otras configuraciones:**
-
-La visualización de esta configuración se reflejará directamente en la **plataforma de usuarios onlíne**, mostrando los métodos de depósito organizados según el orden previamente definido.&#x20;
-
-por ejemplo:
-
-* **PayU (es transaccional)**: Al hacer clic en el botón “Depositar”, el sistema redirigirá automáticamente al usuario a una página externa para continuar con el proceso de recarga.
-* **Tiendas TAMBO (es informativa)**: Al hacer clic en el botón “Depositar”, se mostrará un **pop up** con la información detallada y las instrucciones necesarias para completar el depósito de manera presencial.
-
-<figure><img src="../../../.gitbook/assets/image (288).png" alt=""><figcaption><p>Figura#2: Captura de pantalla depositar. </p></figcaption></figure>
+**Ruta de Acceso:** Menú lateral > Productos > Configurar depósitos
 
 ***
 
-**✅ 3. Validaciones y Reglas de Negocio**
+### 2. Visualización
 
-* El nuevo orden de las cards no se aplicará hasta que el usuario presione el botón **Guardar** ubicado al final de la vista.
-* El orden visual afecta únicamente la experiencia del usuario, no la lógica transaccional.
-* Las configuraciones aplican de forma inmediata tras guardar los cambios.
+La interfaz presenta los métodos de depósito organizados mediante dos tipos de cards:
+
+* **Cards informativas:** Representan métodos de depósito que no realizan una transacción directamente desde la plataforma o que presentan información para completar el depósito por otro medio.
+* **Cards transaccionales:** Representan métodos de depósito activos mediante los cuales el usuario puede iniciar una transacción desde la plataforma.
+
+<figure><img src="../../../.gitbook/assets/image (287).png" alt=""><figcaption><p>Figura#1: Captura de pantalla Configurar depósito.</p></figcaption></figure>
 
 ***
 
-**🕒 4. Control de Versiones**
+### 3. Acciones disponibles
 
-| Versión | Fecha      | Autor       | Cambios Realizados                              |
-| ------- | ---------- | ----------- | ----------------------------------------------- |
-| 1.0     | 23/07/2025 | Karol Navia | Documento inicial de configuración de depósitos |
+<table><thead><tr><th width="119.81817626953125" align="center">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td align="center"><strong>Arrastrar y soltar</strong></td><td>Reorganiza la posición de las cards dentro de la lista de métodos de depósito.</td></tr><tr><td align="center"><img src="../../../.gitbook/assets/image (447).png" alt="" data-size="line"></td><td>Modifica la posición de una card mediante el ícono de movimiento ubicado en su centro.</td></tr><tr><td align="center"><strong>Guardar</strong></td><td>Almacena el nuevo orden de visualización configurado para los métodos de depósito.</td></tr></tbody></table>
+
+***
+
+### 4. **Comportamiento**
+
+La posición configurada para cada método de depósito determina el orden en que estos serán presentados al usuario en la plataforma.
+
+El comportamiento al seleccionar un método depende de si corresponde a un **método transaccional** o **informativo**:
+
+<table><thead><tr><th width="163.45452880859375">Tipo de método</th><th>Comportamiento</th></tr></thead><tbody><tr><td><strong>Transaccional</strong></td><td>Al seleccionar <strong>Depositar</strong>, inicia el flujo de depósito correspondiente y redirige al usuario hacia la página externa definida para completar la transacción.</td></tr><tr><td><strong>Informativo</strong></td><td>Al seleccionar <strong>Depositar</strong>, presenta un <strong>pop-up</strong> con la información e instrucciones necesarias para realizar el depósito mediante el canal indicado.</td></tr></tbody></table>
+
+**Ejemplos de comportamiento**
+
+* **PayU:** corresponde a un método **transaccional**. Al seleccionar **Depositar**, el usuario es redirigido a una página externa para continuar con el proceso de recarga.
+* **Tiendas TAMBO:** corresponde a un método **informativo**. Al seleccionar **Depositar**, se presenta un **pop-up** con la información e instrucciones necesarias para completar el depósito de manera presencial.
+
+{% hint style="warning" %}
+**Nota:** El orden definido en el módulo **Configurar depósitos** determina únicamente la posición visual de los métodos en la plataforma. El comportamiento de cada método depende de su configuración.
+{% endhint %}
+
+***
+
+### 5. Validaciones y reglas del negocio
+
+* El nuevo orden de las cards se aplica únicamente después de seleccionar **Guardar**.
+* El orden configurado modifica la posición visual de los métodos de depósito en la plataforma.
+* La reorganización de las cards no modifica la lógica transaccional de los métodos de depósito.
+
+***
+
+### 6. Control de Versiones
+
+<details>
+
+<summary>🔽Historial de Versiones</summary>
+
+<table><thead><tr><th width="103.45458984375">Versión</th><th width="121.8182373046875">Fecha</th><th width="117.6363525390625">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>23/07/2025</td><td><strong>Karol Navia</strong></td><td>Documento inicial de configuración de depósitos.</td></tr></tbody></table>
+
+</details>
