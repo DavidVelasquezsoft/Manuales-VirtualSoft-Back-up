@@ -14,7 +14,7 @@ description: >-
 
 ### 2. Visualización:
 
-<figure><img src="../../.gitbook/assets/image (103).png" alt=""><figcaption><p>Figura#1: Captura de pantalla creación bono FreeSpin.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (124).png" alt=""><figcaption><p>Figura#1: Captura de pantalla creación bono FreeSpin.</p></figcaption></figure>
 
 ### **3. Formulario para creación de bonos MASCOT.**
 
@@ -30,7 +30,7 @@ Estas son las configuraciones principales y necesarias para generar un bono Free
 
 <table><thead><tr><th width="114">Campo</th><th width="129">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Valor por ronda (</code></strong><em><strong><code>Linea</code></strong></em><strong><code>)</code></strong></td><td>Campo numérico</td><td><p>Define el <strong>valor base</strong> de la apuesta por ronda o línea.<br>Este valor se multiplica por la cantidad de líneas del juego y debe coincidir con uno de los montos de apuesta permitidos por el juego.</p><div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p><strong>Ejemplo:</strong> </p><ul><li>El juego tiene <strong>10 líneas activas</strong>.</li><li>El juego permite apuestas totales de <strong>2.0</strong>, <strong>5.0</strong> y <strong>10.0</strong>.</li><li>Si se configura un <strong>valor por línea de 0.5</strong>:<br>→ 0.5 × 10 líneas = <strong>5.0</strong> (apuesta válida).</li></ul></div><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Si el valor por línea multiplicado por la cantidad de líneas <strong>no coincide</strong> con los montos de apuesta <strong>permitidos por el juego</strong>, el sistema tomará por defecto la apuesta mínima del juego.</p></div></td></tr><tr><td><strong><code>Rondas gratuitas</code></strong></td><td>Numérico</td><td>Establece la cantidad de giros gratis que tendrá este bono.</td></tr><tr><td><strong><code>Jugadores</code></strong></td><td>Botón "Seleccionar archivo"</td><td>Permite cargar un archivo en formato CSV con los ID de los jugadores que recibirán el bono.</td></tr></tbody></table>
 
-<a href="mascot..md#id-3.-acciones-del-usuario" class="button secondary">Regresar</a>
+<a href="mascot..md#id-3.-formulario-para-creacion-de-bonos-mascot" class="button secondary">Regresar</a>
 
 </details>
 
@@ -60,19 +60,12 @@ Nota: Si se realiza una compra de giros en la tienda del proveedor, las ganancia
 
 ***
 
-
-
 ### **4. Validaciones y Reglas de Negocio**
 
 * El bono se crea de forma inmediata, pero la asignación a jugadores puede tardar entre **2 y 3 minutos**.
 * El bono solo se puede configurar para un único juego. En caso de seleccionar varios juegos simultáneamente, el sistema asignará el bono únicamente a uno de ellos de forma aleatoria.
 * Si se ingresa un valor erróneo en el campo **`Valor por ronda`** el bono se creará, pero no se le asignará al usuario.
 * Cada jugada gratuita otorgada a través del **Bonus System** debe registrarse de manera individual en la reportería; no está permitido consolidar múltiples jugadas en un solo registro.
-* Los premios derivados de bonos deben reportarse asociados explícitamente al juego específico en el que fueron otorgados.
-* La información reportada debe permitir identificar de forma clara y diferenciada:
-  * Jugadas estándar.
-  * Jugadas provenientes de bonos.
-  * Premios estándar y premios generados por bonos.
 
 ***
 
@@ -82,6 +75,6 @@ Nota: Si se realiza una compra de giros en la tienda del proveedor, las ganancia
 
 <summary>🔽Historial de versiones</summary>
 
-<table><thead><tr><th width="124">Versión</th><th width="125">Fecha</th><th width="168">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>21/01/2026</td><td>David velasquez</td><td>Documento inicial </td></tr><tr><td>1.1</td><td>18/08/2026</td><td>Karol Navia</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="104">Versión</th><th width="125">Fecha</th><th width="168">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>21/01/2026</td><td>David velasquez</td><td>Documento inicial </td></tr><tr><td>1.1</td><td>18/08/2026</td><td>Karol Navia</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-32145">Mejora del manual en general.</a></td></tr></tbody></table>
 
 </details>
