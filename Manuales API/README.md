@@ -58,4 +58,4 @@ Esta guía está dirigida a los desarrolladores de casino que necesiten interact
 
 ### Control de versiones
 
-<table><thead><tr><th width="99.66665649414062">Versión</th><th width="127.33331298828125">Fecha</th><th width="203.33331298828125">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>03/03/2026</td><td>Equipo documentación</td><td>Inserción de manuales de API.</td></tr><tr><td>1.1</td><td>20/04/2026</td><td>David Velasquez</td><td>Incorporacion del manual de API GATEWAY</td></tr></tbody></table>
+<table><thead><tr><th width="99.66665649414062">Versión</th><th width="127.33331298828125">Fecha</th><th width="203.33331298828125">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>03/03/2026</td><td>Equipo documentación</td><td>Inserción de manuales de API.</td></tr><tr><td>1.1</td><td>20/04/2026</td><td>David Velasquez</td><td>Incorporacion del manual de API GATEWAY</td></tr><tr><td>1.2</td><td>19/08/2026</td><td>David Velasquez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-30043">Actualización del manual consultas de retiros y depósitos de un usuario.</a></td></tr></tbody></table>
