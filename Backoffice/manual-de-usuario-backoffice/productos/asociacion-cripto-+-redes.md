@@ -48,10 +48,74 @@ Abre una ventana emergente que permite asociar una criptomoneda con Red Blockcha
 {% hint style="danger" %}
 **Nota importante:** Para poder asociar una criptomoneda con una red blockchain, **ambas deben encontrarse en estado activo**. Al realizar esta asociación ([Cripto + Red](https://virtualsoft.gitbook.io/untitled/glosario#criptomoneda--red-blockchain)), el sistema generará automáticamente un banco vinculado, cuyo estado dependerá directamente del de la asociación.
 
-&#x20;(Este banco **NO** estará presente para registro de cuentas bancarias en la plataforma).
+Este banco **no está disponible** para el registro de cuentas bancarias en la plataforma de usuarios online. Para que el jugador pueda utilizarlo y realizar retiros en criptomonedas, es necesario completar la configuración descrita en Flujo completo: habilitar retiros en criptomonedas.
 {% endhint %}
 
 <table><thead><tr><th width="162.6666259765625">Campo</th><th width="123">Tipo</th><th width="462.111083984375">Descripcion</th></tr></thead><tbody><tr><td><strong><code>Criptomonedas</code></strong></td><td>Lista desplegable</td><td>Selecciona la <a href="https://virtualsoft.gitbook.io/untitled/glosario#criptomoneda">criptomoneda</a> a vincular</td></tr><tr><td><strong><code>Red Blockchain</code></strong></td><td>Lista desplegable</td><td>Selecciona la <a href="https://virtualsoft.gitbook.io/untitled/glosario#red-blockchain">Red Blockchain</a> a asociar.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Selector</td><td>Indica si la asociación estará Activa o Inactiva desde su creación.</td></tr></tbody></table>
+
+***
+
+### 7. Flujo habilitar retiros en criptomonedas
+
+El banco generado por la asociación Cripto + Red no se muestra por sí solo en la plataforma de usuarios online. Para que el jugador pueda registrar su billetera y retirar en criptomonedas, es necesario completar la siguiente configuración en el orden indicado.
+
+{% stepper %}
+{% step %}
+**Crear la criptomoneda**
+
+Registrar la criptomoneda que se habilitará para retiros y dejarla en estado activo. Consultar el manual de Criptomonedas.
+{% endstep %}
+
+{% step %}
+**Crear la red blockchain**
+
+Registrar la red blockchain sobre la cual operará la criptomoneda y dejarla en estado activo. Consultar el manual de Redes blockchain.
+{% endstep %}
+
+{% step %}
+**Asociar la criptomoneda con la red blockchain**
+
+Realizar la asociación entre ambas. Al completarla, el sistema genera automáticamente un **banco vinculado**, el cual puede consultarse en el módulo de Bancos.
+
+{% hint style="warning" %}
+**Nota:** Este banco aún no es visible en la plataforma de usuarios online. Los pasos siguientes son los que permiten exponerlo al jugador.
+{% endhint %}
+{% endstep %}
+
+{% step %}
+**Crear el producto**
+
+Crear un producto que represente el medio de retiro que verá el jugador en la plataforma. El producto es el elemento con el que el usuario interactúa en la plataforma de usuarios online, por lo que sin él el banco no se muestra.
+
+Al crearlo, debe asociarse un **proveedor que permita realizar retiros en criptomonedas** _(por ejemplo: EukaPay)_ y dejarse habilitado para los canales correspondientes. Consultar el manual de Productos.
+{% endstep %}
+
+{% step %}
+**Asociar el producto al banco**
+
+En **Partner ajustes > Productos > Productos a bancos**, vincular el producto creado con el banco generado por la asociación Cripto + Red, indicando el país correspondiente y dejando la asociación en estado activo. Consultar el manual de Productos a bancos.
+
+{% hint style="info" %}
+Con esta asociación, el medio de retiro en criptomonedas queda visible en la plataforma de usuarios online.
+{% endhint %}
+{% endstep %}
+
+{% step %}
+**El jugador registra su billetera**
+
+Desde la sección **Wallet cripto** de la plataforma de usuarios online, el jugador registra su billetera seleccionando la criptomoneda, la red blockchain y la dirección de wallet correspondiente.
+
+{% hint style="warning" %}
+**Nota:** Las billeteras de criptomonedas se registran en una sección independiente a la de cuentas bancarias, ya que requieren información distinta _(criptomoneda, red y dirección de wallet)_.
+{% endhint %}
+{% endstep %}
+
+{% step %}
+**El jugador realiza el retiro**
+
+En la sección **Retirar**, el jugador selecciona la opción **Criptomonedas**, elige una de las billeteras registradas e ingresa el monto a retirar. Consultar el manual de Retirar.
+{% endstep %}
+{% endstepper %}
 
 ***
 
