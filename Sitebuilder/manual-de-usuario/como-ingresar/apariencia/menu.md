@@ -91,6 +91,6 @@ Incorpora elementos gráficos animados al inicio del menú principal para destac
 
 <summary>🔽 Historial de versiones</summary>
 
-<table><thead><tr><th width="108.3333740234375">Versión</th><th width="141">Fecha</th><th width="118">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>05/08/2026</td><td><strong>Karol Navia</strong></td><td>Reestructuración adaptado a plantilla.</td></tr></tbody></table>
+<table><thead><tr><th width="108.3333740234375">Versión</th><th width="141">Fecha</th><th width="118">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>05/08/2026</td><td><strong>Karol Navia</strong></td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-32812">Reestructuración adaptado a plantilla.</a></td></tr></tbody></table>
 
 </details>
