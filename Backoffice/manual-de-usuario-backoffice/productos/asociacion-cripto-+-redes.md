@@ -46,9 +46,9 @@ Aquí puedes consultar las asociaciones existentes, crear nuevas, modificar su e
 Abre una ventana emergente que permite asociar una criptomoneda con Red Blockchain, completando los siguientes campos obligatorios.
 
 {% hint style="danger" %}
-**Nota importante:** Para poder asociar una criptomoneda con una red blockchain, **ambas deben encontrarse en estado activo**. Al realizar esta asociación ([Cripto + Red](https://virtualsoft.gitbook.io/untitled/glosario#criptomoneda--red-blockchain)), el sistema generará automáticamente un banco vinculado, cuyo estado dependerá directamente del de la asociación.
+**Nota importante:** Para poder asociar una criptomoneda con una red blockchain, **ambas deben encontrarse en estado activo**. Al realizar esta asociación ([Cripto + Red](https://virtualsoft.gitbook.io/untitled/glosario#criptomoneda--red-blockchain)), el sistema generará automáticamente un banco con el nombre conformado por los **primeros 3 caracteres de la criptomoneda y de la red, separados por un guion** (ejemplo: **Bit-Eth**), cuyo estado dependerá de la asociación.
 
-Este banco **no está disponible** para el registro de cuentas bancarias en la plataforma de usuarios online. Para que el jugador pueda utilizarlo y realizar retiros en criptomonedas, es necesario completar la configuración descrita en Flujo completo: habilitar retiros en criptomonedas.
+Este banco **no quedará disponible** para el registro de cuentas bancarias en la plataforma de usuarios online. Para que el jugador pueda utilizarlo y realizar retiros en criptomonedas, es necesario completar la configuración descrita en Flujo completo: [**habilitar retiros en criptomonedas.**](asociacion-cripto-+-redes.md#id-7.-flujo-habilitar-retiros-en-criptomonedas)
 {% endhint %}
 
 <table><thead><tr><th width="162.6666259765625">Campo</th><th width="123">Tipo</th><th width="462.111083984375">Descripcion</th></tr></thead><tbody><tr><td><strong><code>Criptomonedas</code></strong></td><td>Lista desplegable</td><td>Selecciona la <a href="https://virtualsoft.gitbook.io/untitled/glosario#criptomoneda">criptomoneda</a> a vincular</td></tr><tr><td><strong><code>Red Blockchain</code></strong></td><td>Lista desplegable</td><td>Selecciona la <a href="https://virtualsoft.gitbook.io/untitled/glosario#red-blockchain">Red Blockchain</a> a asociar.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Selector</td><td>Indica si la asociación estará Activa o Inactiva desde su creación.</td></tr></tbody></table>
@@ -61,19 +61,19 @@ El banco generado por la asociación Cripto + Red no se muestra por sí solo en 
 
 {% stepper %}
 {% step %}
-**Crear la criptomoneda**
+#### [**Crear la criptomoneda**](criptomonedas.md)
 
 Registrar la criptomoneda que se habilitará para retiros y dejarla en estado activo. Consultar el manual de Criptomonedas.
 {% endstep %}
 
 {% step %}
-**Crear la red blockchain**
+#### [**Crear la red blockchain**](redes-blockchain.md)
 
 Registrar la red blockchain sobre la cual operará la criptomoneda y dejarla en estado activo. Consultar el manual de Redes blockchain.
 {% endstep %}
 
 {% step %}
-**Asociar la criptomoneda con la red blockchain**
+#### [**Asociar la criptomoneda con la red blockchain**](asociacion-cripto-+-redes.md#id-6.-asociar-cripto--red)
 
 Realizar la asociación entre ambas. Al completarla, el sistema genera automáticamente un **banco vinculado**, el cual puede consultarse en el módulo de Bancos.
 
@@ -83,7 +83,7 @@ Realizar la asociación entre ambas. Al completarla, el sistema genera automáti
 {% endstep %}
 
 {% step %}
-**Crear el producto**
+#### [**Crear el producto**](productos.md)
 
 Crear un producto que represente el medio de retiro que verá el jugador en la plataforma. El producto es el elemento con el que el usuario interactúa en la plataforma de usuarios online, por lo que sin él el banco no se muestra.
 
@@ -91,9 +91,25 @@ Al crearlo, debe asociarse un **proveedor que permita realizar retiros en cripto
 {% endstep %}
 
 {% step %}
-**Asociar el producto al banco**
+#### [**Habilitar el producto para el partner y el país**](../herramientas/partner-ajustes/productos-2/habilitacion-productos.md)
 
-En **Partner ajustes > Productos > Productos a bancos**, vincular el producto creado con el banco generado por la asociación Cripto + Red, indicando el país correspondiente y dejando la asociación en estado activo. Consultar el manual de Productos a bancos.
+En **Herramientas > Partner ajustes > Productos 2 > Habilitación de productos**, habilitar el producto creado para el partner y el país correspondientes. Consultar el manual de Habilitación de productos.
+{% endstep %}
+
+{% step %}
+#### [**Activar el producto**](../herramientas/partner-ajustes/productos-2/activacion-productos..md)
+
+En **Herramientas > Partner ajustes > Productos 2 > Activación de productos**, activar el producto habilitado en el paso anterior. Consultar el manual de Activación de productos.
+
+{% hint style="danger" %}
+**Nota importante:** El producto debe estar habilitado y activo para el partner y el país. De lo contrario, no aparecerá disponible en el módulo **Productos a bancos** y no será posible continuar con la configuración.
+{% endhint %}
+{% endstep %}
+
+{% step %}
+#### [**Asociar el producto al banco**](../herramientas/partner-ajustes/productos/productos-a-bancos.md)
+
+En **Herramientas > Partner ajustes > Productos > Productos a bancos**, vincular el producto con el banco generado por la asociación Cripto + Red, indicando el país correspondiente y dejando la asociación en estado activo. Consultar el manual de Productos a bancos.
 
 {% hint style="info" %}
 Con esta asociación, el medio de retiro en criptomonedas queda visible en la plataforma de usuarios online.
@@ -101,9 +117,9 @@ Con esta asociación, el medio de retiro en criptomonedas queda visible en la pl
 {% endstep %}
 
 {% step %}
-**El jugador registra su billetera**
+#### [**El jugador registra su billetera**](https://app.gitbook.com/s/yyrHDz69FZMnpZ9NBm8u/usuarios-online/manual-de-plataforma/gestion/wallets-crypto)
 
-Desde la sección **Wallet cripto** de la plataforma de usuarios online, el jugador registra su billetera seleccionando la criptomoneda, la red blockchain y la dirección de wallet correspondiente.
+Desde la sección **Wallet cripto** dentro de Gestión en la plataforma de usuarios online, el jugador registra su billetera seleccionando la criptomoneda, la red blockchain y la dirección de wallet correspondiente.
 
 {% hint style="warning" %}
 **Nota:** Las billeteras de criptomonedas se registran en una sección independiente a la de cuentas bancarias, ya que requieren información distinta _(criptomoneda, red y dirección de wallet)_.
@@ -111,7 +127,7 @@ Desde la sección **Wallet cripto** de la plataforma de usuarios online, el juga
 {% endstep %}
 
 {% step %}
-**El jugador realiza el retiro**
+#### **El jugador realiza el retiro**
 
 En la sección **Retirar**, el jugador selecciona la opción **Criptomonedas**, elige una de las billeteras registradas e ingresa el monto a retirar. Consultar el manual de Retirar.
 {% endstep %}

@@ -42,7 +42,9 @@ Al hacerlo, se abrirá el formulario de **Edición de Criptomoneda**, donde se m
 
 <table><thead><tr><th width="142.4000244140625">Campo</th><th width="371">Descripción</th><th width="125">Tipo de control</th><th width="105.5999755859375">Editable</th></tr></thead><tbody><tr><td><strong><code>Id Criptomoneda</code></strong></td><td>Identificador único asignado automáticamente a la criptomoneda.</td><td>Texto</td><td>No</td></tr><tr><td><strong><code>Nombre de Criptomoneda</code></strong></td><td>Nombre de la criptomoneda registrada en el sistema.</td><td>Texto</td><td>No</td></tr><tr><td><strong><code>Código ISO</code></strong></td><td>Código ISO correspondiente a la criptomoneda.</td><td>Texto</td><td>No</td></tr><tr><td><strong><code>Tipo de Criptomoneda</code></strong></td><td>Clasificación de la criptomoneda según su naturaleza.</td><td>Desplegable</td><td>Sí</td></tr><tr><td><strong><code>Subir Ícono</code></strong></td><td>Permite cargar o actualizar el ícono representativo de la criptomoneda.</td><td>Botón</td><td>Sí</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Define si la criptomoneda se encuentra <strong>Activa</strong> o <strong>Inactiva</strong>.</td><td>Desplegable</td><td>Sí</td></tr><tr><td><strong><code>Cancelar</code></strong></td><td>Cierra el formulario sin guardar los cambios realizados.</td><td>Botón</td><td>N/A</td></tr><tr><td><strong><code>Guardar</code></strong></td><td>Almacena los cambios realizados en los campos editables.</td><td>Botón</td><td>N/A</td></tr></tbody></table>
 
-### 6. Creación de una Nueva Criptomoneda
+***
+
+### 7. Creación de una Nueva Criptomoneda
 
 Para añadir una criptomoneda, haga clic en el botón **“Nueva criptomoneda”**. Esta acción desplegará una ventana emergente (pop-up) con los campos necesarios para el registro.
 
@@ -50,7 +52,7 @@ Para añadir una criptomoneda, haga clic en el botón **“Nueva criptomoneda”
 
 ***
 
-### **7.  Validaciones y Reglas de Negocio**
+### **8.  Validaciones y Reglas de Negocio**
 
 * Solo los usuarios con permisos habilitados podrán realizar la creación o edición de criptomonedas.
 * El código ISO debe cumplir el estándar de **3 letras en mayúscula**.
@@ -59,7 +61,7 @@ Para añadir una criptomoneda, haga clic en el botón **“Nueva criptomoneda”
 
 ***
 
-### **8. Control de Versiones**
+### **9. Control de Versiones**
 
 <details>
 

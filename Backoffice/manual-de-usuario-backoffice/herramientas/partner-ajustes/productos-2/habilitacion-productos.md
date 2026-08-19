@@ -37,7 +37,7 @@ layout:
 
 ### **3. Acciones disponibles**
 
-<table><thead><tr><th width="135">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="habilitacion-productos.md#id-4.-filtros"><strong>Filtros</strong></a></td><td>Permite definir criterios de búsqueda para ubicar productos específicos según proveedor, nombre, partner o país.</td></tr><tr><td><strong>Limpiar</strong></td><td>Restablece los filtros aplicados, dejando los campos en su estado inicial.</td></tr><tr><td><a href="habilitacion-productos.md#id-5.-resultados-de-consulta"><strong>Consultar</strong></a></td><td>Ejecuta la búsqueda con base en los filtros seleccionados y muestra los resultados en pantalla.</td></tr></tbody></table>
+<table><thead><tr><th width="135">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="habilitacion-productos.md#id-4.-filtros"><strong>Filtros</strong></a></td><td>Permite definir criterios de búsqueda para ubicar productos específicos según proveedor, nombre, partner o país.</td></tr><tr><td><strong>Limpiar</strong></td><td>Restablece los filtros aplicados, dejando los campos en su estado inicial.</td></tr><tr><td><a href="habilitacion-productos.md#id-5.-resultados-de-consulta"><strong>Consultar</strong></a></td><td>Ejecuta la búsqueda con base en los filtros seleccionados y muestra los resultados en pantalla.</td></tr><tr><td><a href="habilitacion-productos.md#id-6.-como-habilitar-e-inhabilitar-productos"><strong>Habilitar / Deshabilitar productos</strong></a></td><td><p>Permite habilitar / deshabilitar el uso de productos para el partner país en le que se esta operando</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Un producto debe estar habilitado y activo para el partner y el país antes de poder asociarse a un banco. Si se está configurando un medio de retiro en criptomonedas, Consultar el <a href="../../../productos/asociacion-cripto-+-redes.md#id-7.-flujo-habilitar-retiros-en-criptomonedas">flujo completo para habilitar retiros en criptomonedas</a>.</p></div></td></tr></tbody></table>
 
 ***
 
@@ -58,7 +58,7 @@ Una vez aplicados los filtros, los productos se visualizarán en dos listas dife
 ### **6. Cómo habilitar e inhabilitar productos**
 
 {% hint style="warning" %}
-**Nota**:
+**Notas**:
 
 * Los cambios realizados en la habilitación de productos afectan directamente la disponibilidad de los mismos para el partner seleccionado.
 * Al intentar mover un producto aparecerá un pop-up que exige una **Observación** mínima de 10 caracteres. Si no se cumple, se mostrará un error y la acción no se completará.
