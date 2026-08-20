@@ -47,4 +47,5 @@
       * [Dashboard Afiliador](library/explorar-carpetas/configuracion-de-tableros/dashboard-afiliador.md)
       * [Transferencia de saldos](library/explorar-carpetas/configuracion-de-tableros/transferencia-de-saldos.md)
       * [Diferencias Casino](library/explorar-carpetas/configuracion-de-tableros/diferencias-casino.md)
+      * [Dashboard Afiliados Interno](library/explorar-carpetas/configuracion-de-tableros/dashboard-afiliados-interno.md)
 * [Workstation](workstation.md)
