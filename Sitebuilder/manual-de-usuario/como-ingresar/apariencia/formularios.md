@@ -1,7 +1,8 @@
 ---
 description: >-
-  En esta sección podrás crear o editar formularios personalizados según las
-  necesidades de la plataforma.
+  Edita y personaliza formularios existentes de acuerdo con las necesidades de
+  la plataforma, permitiendo agregar, eliminar y modificar campos según sea
+  necesario.
 ---
 
 # Formularios
