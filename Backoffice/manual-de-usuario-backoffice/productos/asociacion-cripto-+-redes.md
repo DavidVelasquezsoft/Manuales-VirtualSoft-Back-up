@@ -57,28 +57,32 @@ Este banco **no quedará disponible** para el registro de cuentas bancarias en l
 
 ### 7. Flujo habilitar retiros en criptomonedas
 
-El banco generado por la asociación Cripto + Red no se muestra por sí solo en la plataforma de usuarios online. Para que el jugador pueda registrar su billetera y retirar en criptomonedas, es necesario completar la siguiente configuración en el orden indicado.
+El banco generado por la asociación Cripto + Red es un registro interno que representa esa combinación dentro del sistema; el jugador nunca lo selecciona directamente.&#x20;
+
+Para que la criptomoneda y la red queden disponibles como opción de retiro en la plataforma de usuarios online, es necesario crear un producto, habilitarlo para el partner y el país, y asociarlo a ese banco.
+
+A continuación se describe la configuración completa, en el orden en que debe realizarse.
 
 {% stepper %}
 {% step %}
 #### [**Crear la criptomoneda**](criptomonedas.md)
 
-Registrar la criptomoneda que se habilitará para retiros y dejarla en estado activo. Consultar el manual de Criptomonedas.
+Registrar la criptomoneda que se habilitará para retiros y dejarla en estado activo.
 {% endstep %}
 
 {% step %}
 #### [**Crear la red blockchain**](redes-blockchain.md)
 
-Registrar la red blockchain sobre la cual operará la criptomoneda y dejarla en estado activo. Consultar el manual de Redes blockchain.
+Registrar la red blockchain sobre la cual operará la criptomoneda y dejarla en estado activo
 {% endstep %}
 
 {% step %}
 #### [**Asociar la criptomoneda con la red blockchain**](asociacion-cripto-+-redes.md#id-6.-asociar-cripto--red)
 
-Realizar la asociación entre ambas. Al completarla, el sistema genera automáticamente un **banco vinculado**, el cual puede consultarse en el módulo de Bancos.
+Realizar la asociación entre ambas. Al completarla, el sistema genera automáticamente un **banco vinculado**, el cual puede consultarse en el [módulo de Bancos](bancos.md).
 
 {% hint style="warning" %}
-**Nota:** Este banco aún no es visible en la plataforma de usuarios online. Los pasos siguientes son los que permiten exponerlo al jugador.
+**Nota:** El banco generado es un registro **interno** que representa la combinación de criptomoneda y red blockchain. No se utiliza para el registro de cuentas bancarias ni es visible para el jugador: su función es permitir que esa combinación quede disponible como opción de retiro una vez completada la configuración.
 {% endhint %}
 {% endstep %}
 
@@ -87,19 +91,19 @@ Realizar la asociación entre ambas. Al completarla, el sistema genera automáti
 
 Crear un producto que represente el medio de retiro que verá el jugador en la plataforma. El producto es el elemento con el que el usuario interactúa en la plataforma de usuarios online, por lo que sin él el banco no se muestra.
 
-Al crearlo, debe asociarse un **proveedor que permita realizar retiros en criptomonedas** _(por ejemplo: EukaPay)_ y dejarse habilitado para los canales correspondientes. Consultar el manual de Productos.
+Al crearlo, debe asociarse un **proveedor que permita realizar retiros en criptomonedas** _(por ejemplo: EukaPay)_ y dejarse habilitado para los canales correspondientes.
 {% endstep %}
 
 {% step %}
 #### [**Habilitar el producto para el partner y el país**](../herramientas/partner-ajustes/productos-2/habilitacion-productos.md)
 
-En **Herramientas > Partner ajustes > Productos 2 > Habilitación de productos**, habilitar el producto creado para el partner y el país correspondientes. Consultar el manual de Habilitación de productos.
+En **Herramientas > Partner ajustes > Productos 2 > Habilitación de productos**, habilitar el producto creado para el partner y el país correspondientes.
 {% endstep %}
 
 {% step %}
 #### [**Activar el producto**](../herramientas/partner-ajustes/productos-2/activacion-productos..md)
 
-En **Herramientas > Partner ajustes > Productos 2 > Activación de productos**, activar el producto habilitado en el paso anterior. Consultar el manual de Activación de productos.
+En **Herramientas > Partner ajustes > Productos 2 > Activación de productos**, activar el producto habilitado en el paso anterior.&#x20;
 
 {% hint style="danger" %}
 **Nota importante:** El producto debe estar habilitado y activo para el partner y el país. De lo contrario, no aparecerá disponible en el módulo **Productos a bancos** y no será posible continuar con la configuración.
@@ -109,20 +113,19 @@ En **Herramientas > Partner ajustes > Productos 2 > Activación de productos**, 
 {% step %}
 #### [**Asociar el producto al banco**](../herramientas/partner-ajustes/productos/productos-a-bancos.md)
 
-En **Herramientas > Partner ajustes > Productos > Productos a bancos**, vincular el producto con el banco generado por la asociación Cripto + Red, indicando el país correspondiente y dejando la asociación en estado activo. Consultar el manual de Productos a bancos.
-
-{% hint style="info" %}
-Con esta asociación, el medio de retiro en criptomonedas queda visible en la plataforma de usuarios online.
-{% endhint %}
+En **Herramientas > Partner ajustes > Productos > Productos a bancos**, vincular el producto con el banco generado por la asociación Cripto + Red, indicando el país correspondiente y dejando la asociación en estado activo. Con esta asociación, el medio de retiro en criptomonedas **queda visible** en la plataforma de usuarios online.
 {% endstep %}
 
 {% step %}
 #### [**El jugador registra su billetera**](https://app.gitbook.com/s/yyrHDz69FZMnpZ9NBm8u/usuarios-online/manual-de-plataforma/gestion/wallets-crypto)
 
-Desde la sección **Wallet cripto** dentro de Gestión en la plataforma de usuarios online, el jugador registra su billetera seleccionando la criptomoneda, la red blockchain y la dirección de wallet correspondiente.
+Desde la sección **Wallet cripto** de la plataforma de usuarios online, el jugador registra su billetera seleccionando primero la **criptomoneda** y luego la **red blockchain**, e ingresando la dirección de wallet correspondiente.
 
 {% hint style="warning" %}
-**Nota:** Las billeteras de criptomonedas se registran en una sección independiente a la de cuentas bancarias, ya que requieren información distinta _(criptomoneda, red y dirección de wallet)_.
+**Notas:**&#x20;
+
+* Las billeteras de criptomonedas se registran en una sección independiente a la de cuentas bancarias, ya que requieren información distinta _(criptomoneda, red y dirección de wallet)_.
+* Al seleccionar una criptomoneda, el sistema muestra únicamente las redes blockchain asociadas a ella y habilitadas para retiro. El jugador no selecciona el banco: este opera de forma interna, representando la combinación de criptomoneda y red configurada.
 {% endhint %}
 {% endstep %}
 

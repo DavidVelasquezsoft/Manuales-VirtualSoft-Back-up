@@ -23,6 +23,10 @@ description: >-
 
 <table><thead><tr><th width="265">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="activacion-productos..md#id-4.-filtros-principales"><strong>Filtrar productos</strong></a></td><td>Permite buscar productos aplicando filtros <em>(Proveedor, Subproveedor, País, etc.).</em></td></tr><tr><td><a href="activacion-productos..md#id-4.-gestion-de-productos"><strong>Activar producto</strong></a></td><td>Mueve un producto desde "No Agregados" a "Agregados".</td></tr><tr><td><a href="activacion-productos..md#id-4.-gestion-de-productos"><strong>Desactivar producto</strong></a></td><td>Mueve un producto desde "Agregados" a "No Agregados".</td></tr></tbody></table>
 
+{% hint style="warning" %}
+**Nota:** Un producto debe estar habilitado y activo para el partner y el país antes de poder asociarse a un banco. Si se está configurando un medio de retiro en criptomonedas, Consultar el [flujo completo para habilitar retiros en criptomonedas](../../../productos/asociacion-cripto-+-redes.md#id-7.-flujo-habilitar-retiros-en-criptomonedas).
+{% endhint %}
+
 ### **4.  Filtros principales**
 
 <table><thead><tr><th width="160">Campo</th><th width="160">Tipo de Control</th><th width="430">Descripción</th></tr></thead><tbody><tr><td><strong><code>Proveedor</code></strong></td><td>Lista desplegable</td><td>Selecciona el proveedor al que pertenece el producto.</td></tr><tr><td><strong><code>Subproveedor</code></strong></td><td>Lista desplegable</td><td>Filtra productos de un subproveedor específico.</td></tr><tr><td><strong><code>Nombre</code></strong></td><td>Campo de texto</td><td>Permite buscar productos por nombre.</td></tr><tr><td><p><strong><code>Partner</code></strong> </p><p><strong><code>Referencia</code></strong></p></td><td>Lista desplegable</td><td>Selecciona un partner de referencia asociado al producto.</td></tr><tr><td><strong><code>País</code></strong></td><td>Lista desplegable</td><td>Selecciona el país correspondiente.</td></tr></tbody></table>
