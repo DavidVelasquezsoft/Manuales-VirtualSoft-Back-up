@@ -45,7 +45,7 @@ Los filtros generales permiten establecer el período que será consultado en el
 
 ***
 
-### 5. Contenido del Dashboard
+### 4. Contenido del Dashboard
 
 La información del dashboard se encuentra organizada mediante las siguientes pestañas:
 
@@ -65,7 +65,7 @@ Presenta la información detallada del afiliador, sus links, códigos promociona
 
 <table><thead><tr><th width="147.54547119140625">Indicador</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>NGR</code></strong></td><td>Presenta el valor correspondiente al NGR <em>(Ingreso Neto del Juego).</em></td></tr><tr><td><strong><code>Total Comisión</code></strong></td><td>Presenta el valor total de las comisiones generadas.</td></tr></tbody></table>
 
-#### **Detalle del reporte**
+#### **Tabla de información**&#x20;
 
 <table><thead><tr><th width="198.45458984375">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>ID Afiliador</code></strong></td><td>Identificador del afiliador.</td></tr><tr><td><strong><code>ID Link</code></strong></td><td>Identificador del link asociado al afiliador.</td></tr><tr><td><strong><code>Nombre o código promocional</code></strong></td><td>Nombre o código promocional asociado al registro.</td></tr><tr><td><strong><code>Cantidad de registros</code></strong></td><td>Cantidad de registros asociados al afiliador, link o código promocional consultado.</td></tr><tr><td><strong><code>Cantidad de primeros depósitos</code></strong></td><td>Cantidad de usuarios que realizaron su primer depósito.</td></tr><tr><td><strong><code>Valor de primeros depósitos</code></strong></td><td>Valor correspondiente a los primeros depósitos realizados.</td></tr><tr><td><strong><code>Valor de depósitos generales</code></strong></td><td>Valor correspondiente a los depósitos generales realizados por los usuarios asociados.</td></tr><tr><td><strong><code>Cantidad de usuarios activos</code></strong></td><td>Cantidad de usuarios activos asociados al afiliador.</td></tr><tr><td><strong><code>Sportsbook NGR afiliados</code></strong></td><td>NGR generado por los afiliados en la vertical Sportsbook.</td></tr><tr><td><strong><code>Casino NGR afiliados</code></strong></td><td>NGR generado por los afiliados en la vertical Casino.</td></tr><tr><td><strong><code>Total Comisión</code></strong></td><td>Valor total de la comisión correspondiente al registro.</td></tr></tbody></table>
 {% endtab %}
@@ -85,7 +85,7 @@ Presenta la información general de los afiliadores de acuerdo con el período s
 
 <table><thead><tr><th width="152.0909423828125">Indicador</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>NGR</code></strong></td><td>Presenta el ingreso neto generado por la actividad de juego.</td></tr><tr><td><strong><code>Total Comisión</code></strong></td><td>Presenta el valor total de las comisiones generadas.</td></tr></tbody></table>
 
-#### **Detalle del reporte**
+#### **Tabla de información**&#x20;
 
 <table><thead><tr><th width="183.00006103515625">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Fecha</code></strong></td><td>Fecha correspondiente al registro consultado.</td></tr><tr><td><strong><code>ID Afiliador</code></strong></td><td>Identificador del afiliador.</td></tr><tr><td><strong><code>Cantidad de registros</code></strong></td><td>Cantidad de registros asociados al afiliador.</td></tr><tr><td><strong><code>Primeros depósitos</code></strong></td><td>Cantidad de primeros depósitos realizados por los usuarios asociados.</td></tr><tr><td><strong><code>Sportsbook NGR afiliados</code></strong></td><td>NGR generado por los afiliados en Sportsbook.</td></tr><tr><td><strong><code>Casino NGR afiliados</code></strong></td><td>NGR generado por los afiliados en Casino.</td></tr><tr><td><strong><code>NGR</code></strong></td><td>Ingreso neto generado por la actividad de juego.</td></tr><tr><td><strong><code>Comisión</code></strong></td><td>Valor de la comisión correspondiente al afiliador.</td></tr></tbody></table>
 {% endtab %}
@@ -97,17 +97,9 @@ Presenta la información de los usuarios registrados bajo un afiliador.
 
 <figure><img src="../../../.gitbook/assets/image (235).png" alt=""><figcaption><p>Figura #3: Captura de ejemplo del dashboard.</p></figcaption></figure>
 
-**Detalle de usuarios registrados**
+#### **Tabla de información**&#x20;
 
-| Campo                       | Descripción                                                        |
-| --------------------------- | ------------------------------------------------------------------ |
-| **`ID Usuario`**            | Identificador del usuario registrado.                              |
-| **`Fecha Registro`**        | Fecha en la que se realizó el registro del usuario.                |
-| **`Fecha Primer Depósito`** | Fecha en la que el usuario realizó su primer depósito.             |
-| **`ID Afiliador`**          | Identificador del afiliador asociado al usuario.                   |
-| **`Código Promocional`**    | Código promocional utilizado durante el registro.                  |
-| **`Link Registro`**         | Link asociado al registro del usuario.                             |
-| **`Valor Primer Depósito`** | Valor correspondiente al primer depósito realizado por el usuario. |
+<table><thead><tr><th width="208.45458984375">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>ID Usuario</code></strong></td><td>Identificador del usuario registrado.</td></tr><tr><td><strong><code>Fecha Registro</code></strong></td><td>Fecha en la que se realizó el registro del usuario.</td></tr><tr><td><strong><code>Fecha Primer Depósito</code></strong></td><td>Fecha en la que el usuario realizó su primer depósito.</td></tr><tr><td><strong><code>ID Afiliador</code></strong></td><td>Identificador del afiliador asociado al usuario.</td></tr><tr><td><strong><code>Código Promocional</code></strong></td><td>Código promocional utilizado durante el registro.</td></tr><tr><td><strong><code>Link Registro</code></strong></td><td>Link asociado al registro del usuario.</td></tr><tr><td><strong><code>Valor Primer Depósito</code></strong></td><td>Valor correspondiente al primer depósito realizado por el usuario.</td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Detalle apuestas" %}
@@ -117,7 +109,7 @@ Presenta la información consolidada de las apuestas, premios, bonos y GGR gener
 
 <figure><img src="../../../.gitbook/assets/image (236).png" alt=""><figcaption><p>Figura #4: Captura de ejemplo del dashboard.</p></figcaption></figure>
 
-#### **Detalle de apuestas**
+#### **Tabla de información**&#x20;
 
 <table><thead><tr><th width="232.0909423828125">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>ID Afiliador</code></strong></td><td>Identificador del afiliador.</td></tr><tr><td><strong><code>Valor apuestas deportivas de afiliado</code></strong></td><td>Valor total apostado en deportes por los afiliados.</td></tr><tr><td><strong><code>Valor de premios en deportivas de afiliados</code></strong></td><td>Valor total de premios pagados en apuestas deportivas de los afiliados.</td></tr><tr><td><strong><code>Valor de bonos en deportivas de afiliados</code></strong></td><td>Valor total de bonos utilizados en apuestas deportivas de los afiliados.</td></tr><tr><td><strong><code>GGR en deportivas de afiliados</code></strong></td><td>GGR generado por las apuestas deportivas de los afiliados.</td></tr><tr><td><strong><code>Valor apuestas casino de afiliados</code></strong></td><td>Valor total apostado en Casino por los afiliados.</td></tr><tr><td><strong><code>Valor de premios en casino de afiliados</code></strong></td><td>Valor total de premios pagados en Casino a los afiliados.</td></tr><tr><td><strong><code>Valor de bonos en casino de afiliados</code></strong></td><td>Valor total de bonos utilizados en Casino por los afiliados.</td></tr><tr><td><strong><code>GGR en casino de afiliados</code></strong></td><td>GGR generado por las apuestas de Casino de los afiliados.</td></tr></tbody></table>
 {% endtab %}
@@ -125,7 +117,7 @@ Presenta la información consolidada de las apuestas, premios, bonos y GGR gener
 
 ***
 
-### 6. Validaciones y reglas del negocio
+### 5. Validaciones y reglas del negocio
 
 * La información del dashboard corresponde al período definido mediante los filtros **Desde** y **Hasta**.
 * Los indicadores y tablas presentan la información correspondiente a los filtros aplicados.
@@ -133,7 +125,7 @@ Presenta la información consolidada de las apuestas, premios, bonos y GGR gener
 
 ***
 
-### 7. Control de Versiones
+### 6. Control de Versiones
 
 <details>
 
