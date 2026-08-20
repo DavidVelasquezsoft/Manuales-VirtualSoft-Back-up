@@ -76,6 +76,7 @@
     * [PIXMOVE](manual-integraciones-por-proveedor./proveedores-con-configuraciones-para-bonos./pixmove.md)
     * [GREENTUBE](manual-integraciones-por-proveedor./proveedores-con-configuraciones-para-bonos./greentube.md)
     * [NEVERENDING](manual-integraciones-por-proveedor./proveedores-con-configuraciones-para-bonos./neverending.md)
+    * [BEON](manual-integraciones-por-proveedor./proveedores-con-configuraciones-para-bonos./beon.md)
 * [Capacitación del equipo de integraciones en Altenar](capacitacion-del-equipo-de-integraciones-en-altenar/README.md)
   * [API externa para creación de bonos](capacitacion-del-equipo-de-integraciones-en-altenar/api-externa-para-creacion-de-bonos/README.md)
     * [Métodos](capacitacion-del-equipo-de-integraciones-en-altenar/api-externa-para-creacion-de-bonos/metodos/README.md)
