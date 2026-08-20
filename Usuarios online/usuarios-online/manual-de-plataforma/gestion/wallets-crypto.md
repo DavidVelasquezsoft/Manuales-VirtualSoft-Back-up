@@ -1,6 +1,6 @@
 # Wallets Crypto
 
-<mark style="color:$info;">Permite registrar y gestionar las billeteras de criptomonedas a las que el usuario puede recibir sus retiros. Las wallets se registran de forma independiente a las cuentas bancarias, ya que requieren información distinta: la criptomoneda, la red blockchain y la dirección de destino.</mark>
+<mark style="color:$info;">Esta sección permite registrar y gestionar las billeteras de criptomonedas a las que el usuario puede recibir sus retiros. Las wallets se registran de forma independiente a las cuentas bancarias, ya que requieren información distinta. Una vez registrada la wallet, el usuario puede utilizarla para solicitar retiros mediante la opción Criptomonedas.</mark>
 
 ### 1. Acceso al Módulo
 
@@ -24,11 +24,14 @@
 
 Permite registrar una nueva billetera mediante el siguiente formulario:
 
-<table><thead><tr><th width="163.3333740234375">Campo</th><th width="140">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Criptomonedas</code></strong></td><td>Lista desplegable</td><td>Define la <a href="https://virtualsoft.gitbook.io/untitled/glosario/#criptomoneda">criptomoneda</a> con la que se recibirá el retiro. Se listan únicamente las criptomonedas activas y habilitadas para retiro.</td></tr><tr><td><strong><code>Red Blockchain</code></strong></td><td>Lista desplegable</td><td><p>Define la <a href="https://virtualsoft.gitbook.io/untitled/glosario/#red-blockchain">red blockchain</a> sobre la cual opera la criptomoneda <em>(por ejemplo: TRC20, ERC20, BEP20)</em>.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Se muestran únicamente las redes asociadas a la criptomoneda seleccionada previamente. La red debe coincidir con la red de destino de la billetera.</p></div></td></tr><tr><td><strong><code>Dirección Wallet</code></strong></td><td>Campo de texto</td><td>Corresponde a la <a href="https://virtualsoft.gitbook.io/untitled/glosario/#direccion-wallet">dirección wallet</a> a la que se enviarán los fondos. Debe ser válida y compatible con la red seleccionada.</td></tr><tr><td><strong><code>Confirmar Dirección Wallet</code></strong></td><td>Campo de texto</td><td>Requiere reingresar la dirección para verificar que sea correcta. Ambas direcciones deben coincidir para habilitar el registro.</td></tr></tbody></table>
-
 {% hint style="warning" %}
-**Nota:** Únicamente se visualizan las criptomonedas y redes blockchain que se encuentren activas y configuradas para el partner. Si se selecciona una combinación no habilitada, el sistema muestra el mensaje: _"No es posible realizar transacciones mediante esta red"_.
+**Notas:**&#x20;
+
+* Únicamente se visualizan las criptomonedas y redes blockchain que se encuentren activas y configuradas para el partner y el país. Si se selecciona una combinación no habilitada, el sistema muestra el mensaje: _"No es posible realizar transacciones mediante esta red"_.
+* Las criptomonedas y redes blockchain disponibles para el usuario se definen desde el BackOffice: se registran en los módulos de Criptomonedas y Redes blockchain, se vinculan mediante la Asociación Cripto + Red y se habilitan para la plataforma siguiendo el [flujo completo para habilitar retiros en criptomonedas](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/manual-de-usuario-backoffice/productos/asociacion-cripto-+-redes#id-7.-flujo-habilitar-retiros-en-criptomonedas).
 {% endhint %}
+
+<table><thead><tr><th width="163.3333740234375">Campo</th><th width="140">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Criptomonedas</code></strong></td><td>Lista desplegable</td><td>Define la <a href="https://virtualsoft.gitbook.io/untitled/glosario/#criptomoneda">criptomoneda</a> con la que se recibirá el retiro. Se listan únicamente las criptomonedas activas y habilitadas para retiro.</td></tr><tr><td><strong><code>Red Blockchain</code></strong></td><td>Lista desplegable</td><td><p>Define la <a href="https://virtualsoft.gitbook.io/untitled/glosario/#red-blockchain">red blockchain</a> sobre la cual opera la criptomoneda <em>(por ejemplo: TRC20, ERC20, BEP20)</em>.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Se muestran únicamente las redes asociadas a la criptomoneda seleccionada previamente. La red debe coincidir con la red de destino de la billetera.</p></div></td></tr><tr><td><strong><code>Dirección Wallet</code></strong></td><td>Campo de texto</td><td>Corresponde a la <a href="https://virtualsoft.gitbook.io/untitled/glosario/#direccion-wallet">dirección wallet</a> a la que se enviarán los fondos. Debe ser válida y compatible con la red seleccionada.</td></tr><tr><td><strong><code>Confirmar Dirección Wallet</code></strong></td><td>Campo de texto</td><td>Requiere reingresar la dirección para verificar que sea correcta. Ambas direcciones deben coincidir para habilitar el registro.</td></tr></tbody></table>
 
 ***
 
@@ -44,15 +47,21 @@ Las wallets registradas y activas quedan disponibles para seleccionarse al reali
 
 ***
 
-### 6. Mensajes de validación
+### 6. Uso de la wallet para retirar
 
-Durante el registro de una wallet, el sistema puede mostrar los siguientes mensajes:
+Una vez registrada y activa, la wallet queda disponible como destino de retiro. Para utilizarla, el usuario ingresa a la [sección **Retirar**](retirar.md), selecciona la opción **Criptomonedas**, elige una de sus wallets registradas e indica el monto a retirar en moneda local.
 
-<table><thead><tr><th width="280">Validación</th><th>Mensaje</th></tr></thead><tbody><tr><td>Dirección vacía o no coincidente</td><td><em>"Las direcciones ingresadas no coinciden."</em></td></tr><tr><td>Combinación duplicada en la misma cuenta</td><td><em>"Ya has registrado esta dirección para esta cripto y red."</em></td></tr><tr><td>Dirección ya registrada por otro jugador</td><td><em>"Esta dirección ya fue registrada por otro usuario."</em></td></tr><tr><td>Límite superado por combinación cripto/red</td><td><em>"Solo puedes registrar hasta (número configurado) direcciones para esta criptomoneda y red."</em></td></tr><tr><td>Red no habilitada para transacciones</td><td><em>"No es posible realizar transacciones mediante esta red."</em></td></tr></tbody></table>
+{% hint style="warning" %}
+**Nota:** El retiro se procesa hacia la criptomoneda, red y dirección registradas en la wallet seleccionada, por lo que es responsabilidad del usuario verificar que la dirección sea correcta y compatible con la red antes de registrarla.
+{% endhint %}
 
 ***
 
 ### 7. Validaciones y reglas del negocio:
+
+* Durante el registro de una wallet, el sistema puede mostrar los siguientes mensajes:
+
+<table><thead><tr><th width="280">Validación</th><th>Mensaje</th></tr></thead><tbody><tr><td>Dirección vacía o no coincidente</td><td><em>"Las direcciones ingresadas no coinciden."</em></td></tr><tr><td>Combinación duplicada en la misma cuenta</td><td><em>"Ya has registrado esta dirección para esta cripto y red."</em></td></tr><tr><td>Dirección ya registrada por otro jugador</td><td><em>"Esta dirección ya fue registrada por otro usuario."</em></td></tr><tr><td>Límite superado por combinación cripto/red</td><td><em>"Solo puedes registrar hasta (número configurado) direcciones para esta criptomoneda y red."</em></td></tr><tr><td>Red no habilitada para transacciones</td><td><em>"No es posible realizar transacciones mediante esta red."</em></td></tr></tbody></table>
 
 * Solo pueden registrarse wallets de criptomonedas configuradas y habilitadas previamente desde el BackOffice.
 * Es obligatorio seleccionar la red blockchain asociada a la criptomoneda.
@@ -71,6 +80,6 @@ Durante el registro de una wallet, el sistema puede mostrar los siguientes mensa
 
 <summary>🔽 Historial de versiones</summary>
 
-<table><thead><tr><th width="102">Versión</th><th width="127">Fecha</th><th width="169">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>22/07/2025</td><td>Ronald Peláez</td><td>Documento inicial</td></tr><tr><td>1.1</td><td>06/08/2025</td><td>Ronald Peláez</td><td>Ajuste en función de las condiciones de criptomoneda.</td></tr><tr><td>1.2</td><td>13/08/2026</td><td>David Velasquez</td><td>Actualización del manual al formato estándar.</td></tr></tbody></table>
+<table><thead><tr><th width="102">Versión</th><th width="127">Fecha</th><th width="169">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>22/07/2025</td><td>Ronald Peláez</td><td>Documento inicial</td></tr><tr><td>1.1</td><td>06/08/2025</td><td>Ronald Peláez</td><td>Ajuste en función de las condiciones de criptomoneda.</td></tr><tr><td>1.2</td><td>13/08/2026</td><td>David Velasquez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-21110#icft=VSFT-21110">Actualización del manual e incorporación de notas.</a></td></tr></tbody></table>
 
 </details>
