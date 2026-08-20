@@ -21,7 +21,7 @@ description: >-
 
 ### &#x33;**. Acciones disponibles**
 
-<table><thead><tr><th width="118">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Filtros</strong>​</td><td>Permiten realizar búsquedas específicas mediante la selección de uno o varios filtros</td></tr><tr><td><strong>Limpiar</strong></td><td>Restablece todos los campos de filtros a su estado inicial, eliminando cualquier criterio seleccionado previamente y permitiendo realizar una nueva búsqueda desde cero.</td></tr><tr><td><strong>​Consultar</strong></td><td>Ejecuta la búsqueda de acuerdo con los filtros definidos por el usuario y muestra los resultados en la tabla correspondiente.</td></tr><tr><td><strong>Exportar</strong></td><td>Permite descargar la información resultante de la consulta en un archivo en formato Excel, el cual se descarga desde la parte inferior derecha de la pantalla.</td></tr></tbody></table>
+<table><thead><tr><th width="121.66668701171875">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="asociacion-cripto-+-redes.md#id-2.-filtros"><strong>Filtros</strong></a></td><td>Definen los criterios de búsqueda para consultar las asociaciones existentes.</td></tr><tr><td><strong>Limpiar</strong></td><td>Restablece los filtros aplicados, dejando los campos en su estado inicial.</td></tr><tr><td><a href="asociacion-cripto-+-redes.md#id-5.-consultar"><strong>Consultar</strong></a></td><td>Ejecuta la búsqueda según los filtros definidos y muestra las asociaciones en la tabla de resultados.</td></tr><tr><td><a href="asociacion-cripto-+-redes.md#id-6.-asociar-cripto--red"><strong>Asociar Cripto + Red</strong></a></td><td>Permite vincular una criptomoneda con una red blockchain. Al completarse, el sistema genera automáticamente el banco correspondiente a esa combinación.</td></tr><tr><td><strong>Exportar</strong></td><td>Permite exportar los resultados obtenidos según los filtros aplicados en formato Excel mediante el botón <strong>Exportar</strong>, ubicado en la parte inferior derecha de la pantalla.</td></tr></tbody></table>
 
 ***
 
@@ -138,7 +138,7 @@ En la sección **Retirar**, el jugador selecciona la opción **Criptomonedas**, 
 
 ***
 
-### 7. Control de Versiones
+### 8. Control de Versiones
 
 <details>
 
