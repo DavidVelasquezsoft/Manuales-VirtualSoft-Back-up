@@ -24,7 +24,7 @@ description: >-
 <table><thead><tr><th width="265">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="activacion-productos..md#id-4.-filtros-principales"><strong>Filtrar productos</strong></a></td><td>Permite buscar productos aplicando filtros <em>(Proveedor, Subproveedor, País, etc.).</em></td></tr><tr><td><a href="activacion-productos..md#id-4.-gestion-de-productos"><strong>Activar producto</strong></a></td><td>Mueve un producto desde "No Agregados" a "Agregados".</td></tr><tr><td><a href="activacion-productos..md#id-4.-gestion-de-productos"><strong>Desactivar producto</strong></a></td><td>Mueve un producto desde "Agregados" a "No Agregados".</td></tr></tbody></table>
 
 {% hint style="warning" %}
-**Nota:** Un producto debe estar habilitado y activo para el partner y el país antes de poder asociarse a un banco. Si se está configurando un medio de retiro en criptomonedas, Consultar el [flujo completo para habilitar retiros en criptomonedas](../../../productos/asociacion-cripto-+-redes.md#id-7.-flujo-habilitar-retiros-en-criptomonedas).
+**Nota:** Un producto debe estar habilitado y activo para el partner y el país antes de poder utilizarse. Si se está configurando un medio de retiro en criptomonedas, Consultar el [flujo completo para habilitar retiros en criptomonedas](../../../productos/asociacion-cripto-+-redes.md#id-7.-flujo-habilitar-retiros-en-criptomonedas).
 {% endhint %}
 
 ### **4.  Filtros principales**
@@ -64,6 +64,6 @@ Se visualizan dos secciones principales, en las cuales se pueden ejecutar las si
 
 <summary>🔽Historial de Versiones</summary>
 
-<table><thead><tr><th width="99">Versión</th><th width="138">Fecha</th><th width="154">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>28/08/2025</td><td>Ronald Peláez</td><td>Documento inicial del manual</td></tr><tr><td>1.1</td><td>21/04/206</td><td>Karol Navia</td><td>Refinamiento del manual</td></tr></tbody></table>
+<table><thead><tr><th width="99">Versión</th><th width="138">Fecha</th><th width="154">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>28/08/2025</td><td>Ronald Peláez</td><td>Documento inicial del manual</td></tr><tr><td>1.1</td><td>21/04/206</td><td>Karol Navia</td><td>Refinamiento del manual</td></tr><tr><td>1.2</td><td>20/08/2026</td><td>David Velasquez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-21110#icft=VSFT-21110">Nota del flujo por retiro criptomoneda</a></td></tr></tbody></table>
 
 </details>
