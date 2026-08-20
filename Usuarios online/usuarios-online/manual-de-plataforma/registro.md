@@ -19,11 +19,12 @@ description: >-
 #### **2.1.** formulario de registro
 
 {% hint style="warning" %}
-**Nota:**\
-Cuando el usuario selecciona **Turquía** como nacionalidad, el sistema ejecuta automáticamente un proceso de validación de identidad.
+**Nota:**
 
-* Si la validación es **exitosa**, el registro continúa con normalidad.
-* Si la validación es **fallida**, el sistema bloquea el registro y muestra un mensaje de error
+* Cuando el usuario selecciona **Turquía** como nacionalidad, el sistema ejecuta automáticamente un proceso de validación de identidad.
+  * Si la validación es **exitosa**, el registro continúa con normalidad.
+  * Si la validación es **fallida**, el sistema bloquea el registro y muestra un mensaje de error
+* El registro se puede visualizar en varios pasos, según la configuración realizada en [Sitebuilder](https://virtualsoft.gitbook.io/manuales/sitebuilder/manual-de-usuario/como-ingresar/apariencia/formularios#formulario-registro).
 {% endhint %}
 
 <table><thead><tr><th width="185.28125">Campo</th><th width="121.94256591796875">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>País de Residencia</code></strong></td><td>Lista desplegable</td><td>Selecciona el país de residencia.</td></tr><tr><td><strong><code>Nacionalidad</code></strong></td><td>Lista desplegable</td><td>Selecciona el país de nacionalidad.</td></tr><tr><td><strong><code>Tipo de Documento</code></strong></td><td>Lista desplegable</td><td>Define el tipo de identificación: (<em>DNI, Pasaporte, etc...</em>).</td></tr><tr><td><strong><code>Número de Identificación</code></strong></td><td>Texto</td><td>Ingresa el número de documento del usuario a registrar.</td></tr><tr><td><strong><code>Primer Nombre</code></strong></td><td>Texto</td><td>Nombre(s) tal como aparece en el documento.</td></tr><tr><td><strong><code>Primer Apellido</code></strong></td><td>Texto</td><td>Apellido(s) del usuario.</td></tr><tr><td><strong><code>Fecha de Nacimiento</code></strong></td><td>Selector de fecha</td><td>Indica la fecha de nacimiento.</td></tr><tr><td><strong><code>Sexo</code></strong></td><td>Selector</td><td>Selecciona "Masculino" o "Femenino".</td></tr><tr><td><strong><code>Teléfono Celular</code></strong></td><td>Texto numérico</td><td>Ingresar número celular local.<br><br>Si en la configuración del partner y país está activa la verificación de celular, se habilitará el proceso de validación mediante <strong>código SMS</strong>.</td></tr></tbody></table>
