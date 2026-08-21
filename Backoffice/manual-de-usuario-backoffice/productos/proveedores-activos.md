@@ -51,6 +51,6 @@ Permite visualizar todos los proveedores y sub-proveedores validos segun los fil
 
 <summary>🔽 Historial de versiones</summary>
 
-<table><thead><tr><th width="102">Versión</th><th width="123">Fecha</th><th width="164">Autor</th><th>Descripción del cambio</th></tr></thead><tbody><tr><td>1.0</td><td>2026/01/19</td><td>David velasquez</td><td>Creación de la documentación.</td></tr><tr><td>1.1</td><td>2026/08/21</td><td>David velasquez</td><td>Revisión y ajuste del manual</td></tr></tbody></table>
+<table><thead><tr><th width="102">Versión</th><th width="123">Fecha</th><th width="164">Autor</th><th>Descripción del cambio</th></tr></thead><tbody><tr><td>1.0</td><td>2026/01/19</td><td>David velasquez</td><td>Creación de la documentación.</td></tr><tr><td>1.1</td><td>2026/08/21</td><td>David velasquez</td><td>Revisión y ajuste del formato</td></tr></tbody></table>
 
 </details>

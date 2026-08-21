@@ -56,6 +56,6 @@ Permite agregar un producto partner
 
 <summary>🔽Historial de Versiones</summary>
 
-<table><thead><tr><th width="99.4000244140625">Versión</th><th width="147.79998779296875">Fecha</th><th>Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>28/08/2025</td><td>David Velasquez</td><td>Documento inicial</td></tr><tr><td>1.1</td><td>21/08/2026</td><td>David Velasquez</td><td>Actualización del manual</td></tr></tbody></table>
+<table><thead><tr><th width="99.4000244140625">Versión</th><th width="147.79998779296875">Fecha</th><th>Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>28/08/2025</td><td>David Velasquez</td><td>Documento inicial</td></tr><tr><td>1.1</td><td>21/08/2026</td><td>David Velasquez</td><td>Actualización del formato</td></tr></tbody></table>
 
 </details>

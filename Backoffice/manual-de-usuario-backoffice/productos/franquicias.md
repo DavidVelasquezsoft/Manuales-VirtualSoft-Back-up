@@ -20,17 +20,17 @@ description: >-
 
 ### 3.  Acciones disponibles
 
-<table><thead><tr><th width="120.66668701171875">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="franquicias.md#id-3.-filtros"><strong>Filtros</strong></a></td><td>Permiten filtrar la información para obtener resultados mas precisos.</td></tr><tr><td><strong>Limpiar</strong></td><td>Restablece todos los filtros a su estado inicial.</td></tr><tr><td><a href="franquicias.md#id-4.-resultados-de-consulta"><strong>Consultar</strong></a></td><td>Aplica los filtros seleccionados y muestra los proveedores y subproveedores válidos.</td></tr><tr><td><strong>Exportar</strong></td><td>El botón <strong>Exportar</strong> en la parte inferior derecha del reporte permite descargar los resultados obtenidos con los filtros aplicados en los formatos <strong>Excel (.XLS)</strong> y <strong>PDF.</strong></td></tr></tbody></table>
+<table><thead><tr><th width="120.66668701171875">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="franquicias.md#id-4.-filtros"><strong>Filtros</strong></a></td><td>Permiten filtrar la información para obtener resultados mas precisos.</td></tr><tr><td><strong>Limpiar</strong></td><td>Restablece todos los filtros a su estado inicial.</td></tr><tr><td><a href="franquicias.md#id-5.-resultados-de-consulta"><strong>Consultar</strong></a></td><td>Aplica los filtros seleccionados y muestra los proveedores y subproveedores válidos.</td></tr><tr><td><strong>Exportar</strong></td><td>El botón <strong>Exportar</strong> en la parte inferior derecha del reporte permite descargar los resultados obtenidos con los filtros aplicados en los formatos <strong>Excel (.XLS)</strong> y <strong>PDF.</strong></td></tr></tbody></table>
 
 ***
 
-### 3. Filtros
+### 4. Filtros
 
 <table><thead><tr><th width="146.851806640625">Campo</th><th width="105.888916015625">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Franquicia Id</code></strong></td><td>Numérico</td><td>Ingresa el identificador único de la franquicia.</td></tr><tr><td><strong><code>Nombre</code></strong></td><td>Texto</td><td>Escribe el nombre completo o parcial de la franquicia.</td></tr><tr><td><strong><code>Abreviado</code></strong></td><td>Texto</td><td>Filtra por el nombre abreviado asignado a la franquicia.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Dropdown</td><td>Permite seleccionar el estado de la franquicia (Activado/Inactivo/Todos).</td></tr></tbody></table>
 
 ***
 
-### 4. Resultados de Consulta
+### 5. Resultados de Consulta
 
 Aplica los filtros seleccionados y muestra los registros válidos.
 
@@ -38,7 +38,7 @@ Aplica los filtros seleccionados y muestra los registros válidos.
 
 ***
 
-### 5. Añadir franquicia
+### 6. Añadir franquicia
 
 Abre una ventana emergente que permite crear una nueva franquicia, completando los siguientes campos obligatorios.
 
@@ -46,7 +46,7 @@ Abre una ventana emergente que permite crear una nueva franquicia, completando l
 
 ***
 
-### 6. Control de Versiones
+### 7. Control de Versiones
 
 <details>
 

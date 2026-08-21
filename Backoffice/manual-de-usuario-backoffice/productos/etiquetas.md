@@ -1,69 +1,75 @@
 ---
 description: >-
-  En esta sección se podrán consultar, mediante filtros, la información de una o
-  varias etiquetas.
+  Esta sección permite consultar, crear y gestionar las etiquetas disponibles en
+  el sistema, utilizadas para clasificar y organizar los elementos asociados
+  dentro de la plataforma.
 ---
 
 # Etiquetas
 
-### 1. Acceso al Módulo <a href="#id-1.-acceso-al-modulo" id="id-1.-acceso-al-modulo"></a>
+### 1. Acceso al Módulo
 
-**Ruta de Acceso**: Backoffice > Productos > Etiquetas.
+**Ruta de Acceso**: BackOffice (BO) > Productos > Etiquetas
 
 ***
 
-### 2. Visualización <a href="#id-2.-visualizacion" id="id-2.-visualizacion"></a>
+### 2. Visualización
 
 <figure><img src="../../.gitbook/assets/image (562).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección etiquetas.</p></figcaption></figure>
 
 ***
 
-### 3.  Acciones disponibles
+### 3. Acciones disponibles
 
-<table><thead><tr><th width="120.66668701171875">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Filtros</strong></td><td>Permiten filtrar la información para obtener resultados mas precisos.</td></tr><tr><td><strong>Limpiar</strong></td><td>Restablece todos los filtros a su estado inicial.</td></tr><tr><td><strong>Consultar</strong></td><td>Aplica los filtros seleccionados y muestra los proveedores y subproveedores válidos.</td></tr><tr><td><strong>Exportar</strong></td><td>El botón <strong>Exportar</strong> en la parte inferior derecha del reporte permite descargar los resultados obtenidos con los filtros aplicados en los formatos <strong>Excel (.XLS)</strong> y <strong>PDF.</strong></td></tr></tbody></table>
-
-***
-
-### 4. ¿Cómo buscar una etiqueta?
-
-**📌 Filtros disponibles**
-
-En esta sección se puede consultar información de etiquetas aplicando los siguientes filtros:
-
-<table><thead><tr><th width="124">Campo</th><th width="184">Tipo de Control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>ID</code></strong></td><td>Campo de texto</td><td>Identificador único de la etiqueta.</td></tr><tr><td><strong><code>Nombre</code></strong></td><td>Campo de texto</td><td>Nombre asignado a la etiqueta.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Lista desplegable</td><td>Define si la etiqueta está Activa o Inactiva.</td></tr></tbody></table>
-
-### 5.  Resultados de la consulta
-
-Al realizar la búsqueda se muestran los siguientes datos en la tabla de resultados:
-
-<table><thead><tr><th width="319">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>ID</code></strong></td><td>Identificador único de la etiqueta.</td></tr><tr><td><strong><code>Nombre</code></strong></td><td>Nombre de la etiqueta.</td></tr><tr><td><strong><code>Descripción</code></strong></td><td>Descripción detallada de la etiqueta.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Estado actual de la etiqueta (Activo/Inactivo).</td></tr><tr><td><strong><code>Fecha Creación</code></strong></td><td>Fecha en la que se creó la etiqueta.</td></tr></tbody></table>
+<table><thead><tr><th width="180">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="etiquetas.md#id-4.-filtros"><strong>Filtros</strong></a></td><td>Definen los criterios de búsqueda para consultar la información de las etiquetas.</td></tr><tr><td><strong>Limpiar</strong></td><td>Restablece los filtros aplicados, dejando los campos en su estado inicial.</td></tr><tr><td><a href="etiquetas.md#id-5.-resultados-de-consulta"><strong>Consultar</strong></a></td><td>Ejecuta la búsqueda según los filtros definidos y muestra las etiquetas en la tabla de resultados.</td></tr><tr><td><a href="etiquetas.md#id-7.-anadir-etiqueta"><strong>Añadir Etiqueta</strong></a></td><td>Permite registrar una nueva etiqueta mediante una ventana emergente.</td></tr><tr><td><strong>Exportar</strong></td><td>Permite exportar los resultados obtenidos según los filtros aplicados en formatos Excel (.XLS) y PDF mediante el botón <strong>Exportar</strong>, ubicado en la parte inferior derecha de la pantalla.</td></tr></tbody></table>
 
 ***
 
-### 6. Editar Etiqueta
+### 4. Filtros
 
-En la primer coluna se encuentra un icono de lápiz que permite  la modificación de una etiqueta existente.
+<table><thead><tr><th width="124">Campo</th><th width="184">Tipo de Control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>ID</code></strong></td><td>Numérico</td><td>Indica el identificador único de la etiqueta.</td></tr><tr><td><strong><code>Nombre</code></strong></td><td>Campo de texto</td><td>Filtra por el nombre asignado a la etiqueta.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Lista desplegable</td><td>Filtra las etiquetas según su estado <em>(Activa o Inactiva)</em>.</td></tr></tbody></table>
+
+***
+
+### 5. Resultados de consulta
+
+Al ejecutar la consulta, en la parte inferior de la pantalla se despliega una tabla con las etiquetas que cumplen con los filtros aplicados.
+
+<table><thead><tr><th width="155.66668701171875">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Editar</code></strong> <em>(✏️)</em></td><td>Permite modificar la información de la etiqueta seleccionada. Su funcionamiento se detalla en Editar etiqueta.</td></tr><tr><td><strong><code>ID</code></strong></td><td>Identificador único de la etiqueta.</td></tr><tr><td><strong><code>Nombre</code></strong></td><td>Nombre asignado a la etiqueta.</td></tr><tr><td><strong><code>Descripción</code></strong></td><td>Detalle descriptivo de la etiqueta.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Estado actual de la etiqueta <em>(Activa o Inactiva)</em>.</td></tr><tr><td><strong><code>Fecha Creación</code></strong></td><td>Fecha en la que se registró la etiqueta.</td></tr></tbody></table>
+
+***
+
+### 6. Editar etiqueta
+
+Al seleccionar el ícono de lápiz _(✏️)_ ubicado en la primera columna de la tabla de resultados, se abre una ventana que permite modificar la información de la etiqueta.
+
+<table><thead><tr><th width="129">Campo</th><th width="150">Tipo de Control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>ID</code></strong></td><td>No editable</td><td>Identificador único de la etiqueta. Se muestra solo como referencia.</td></tr><tr><td><strong><code>Nombre</code></strong></td><td>Campo de texto</td><td>Nombre asignado a la etiqueta. Es un campo obligatorio.</td></tr><tr><td><strong><code>Descripción</code></strong></td><td>Campo de texto</td><td>Detalle descriptivo de la etiqueta. Es un campo opcional.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Lista desplegable</td><td>Define si la etiqueta queda <em>Activa</em> o <em>Inactiva</em>.</td></tr></tbody></table>
 
 {% hint style="warning" %}
-**Nota:**\
-El campo **ID** no puede ser editado, ya que corresponde al identificador único.
+**Nota:** Para que las modificaciones queden registradas, es necesario seleccionar el botón **Guardar**. El botón **Cancelar** cierra el formulario sin aplicar los cambios.
 {% endhint %}
-
-<table><thead><tr><th width="129">Campo</th><th>Tipo de Control</th><th width="303">Descripción</th><th>Validaciones</th></tr></thead><tbody><tr><td><strong><code>ID</code></strong></td><td>Campo de texto (solo lectura)</td><td>Identificador único de la etiqueta.</td><td>No se puede modificar.</td></tr><tr><td><strong><code>Nombre</code></strong></td><td>Campo de texto</td><td>Nombre asignado a la etiqueta.</td><td>Obligatorio.</td></tr><tr><td><strong><code>Descripción</code></strong></td><td>Campo de texto</td><td>Detalle descriptivo de la etiqueta.</td><td>Opcional.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Lista desplegable</td><td>Define si la etiqueta está <strong>Activa</strong> o <strong>Inactiva</strong>.</td><td>Solo admite valores: <strong>Activo</strong> / <strong>Inactivo</strong>.</td></tr><tr><td><strong><code>Guardar</code></strong></td><td>Botón</td><td>Actualiza los datos de la etiqueta con los cambios realizados.</td><td>N/A</td></tr><tr><td><strong>Cancelar</strong></td><td>Botón</td><td>Cierra el formulario sin guardar cambios.</td><td>N/A</td></tr></tbody></table>
-
-### 7.  Añadir Etiqueta
-
-Para registrar una nueva etiqueta, ubica y haz clic en el botón **"Añadir Etiqueta"**.\
-A continuación, completa los campos requeridos en el formulario, estos son obligatorios para la creación:
-
-<table><thead><tr><th width="152">Campo</th><th width="185">Tipo de Control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Nombre</code></strong></td><td>Campo de texto</td><td>Nombre o detalle de la etiqueta.</td></tr><tr><td><strong><code>Descripción</code></strong></td><td>Campo de texto</td><td>Detalle o información adicional de la etiqueta.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Lista desplegable</td><td>Define si la etiqueta está Activa o Inactiva.</td></tr><tr><td><strong><code>Guardar</code></strong></td><td>Botón</td><td>Almacena la etiqueta creada.</td></tr><tr><td><strong><code>Cancelar</code></strong></td><td>Botón</td><td>Cierra la ventana sin guardar cambios.</td></tr></tbody></table>
 
 ***
 
-### 8.  Validaciones y Reglas de Negocio
+### 7. Añadir etiqueta
 
-* El campo **Estado** es obligatorio (Activo/Inactivo).
+Permite registrar una nueva etiqueta en el sistema. Al seleccionar el botón **Añadir Etiqueta**, se abre una ventana emergente con los siguientes campos:
+
+<table><thead><tr><th width="152">Campo</th><th width="150">Tipo de Control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Nombre</code></strong></td><td>Campo de texto</td><td>Nombre con el que se identifica la etiqueta.</td></tr><tr><td><strong><code>Descripción</code></strong></td><td>Campo de texto</td><td>Detalle o información adicional de la etiqueta.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Lista desplegable</td><td>Define si la etiqueta queda <em>Activa</em> o <em>Inactiva</em> desde su creación.</td></tr></tbody></table>
+
+{% hint style="warning" %}
+**Nota:** Para completar el registro, es necesario seleccionar el botón **Guardar**. El botón **Cancelar** cierra la ventana sin guardar la etiqueta.
+{% endhint %}
+
+***
+
+### 8. Validaciones y reglas del negocio:
+
+* Los campos **`Nombre`** y **`Estado`** son obligatorios para crear o editar una etiqueta.
+* El campo **`Descripción`** es opcional.
+* El campo **`ID`** no puede modificarse, ya que corresponde al identificador único de la etiqueta.
 * No se permiten etiquetas duplicadas con el mismo nombre.
+* Los cambios realizados al crear o editar una etiqueta requieren seleccionar el botón **Guardar** para aplicarse.
 
 ***
 
@@ -71,8 +77,8 @@ A continuación, completa los campos requeridos en el formulario, estos son obli
 
 <details>
 
-<summary>🔽Historial de Versiones</summary>
+<summary>🔽 Historial de versiones</summary>
 
-<table><thead><tr><th width="98">Versión</th><th width="143">Fecha</th><th width="164">Autor</th><th>Descripción del cambio</th></tr></thead><tbody><tr><td>1.0</td><td>28/08/2025</td><td>Karol Navia</td><td>Creación del documento.</td></tr></tbody></table>
+<table><thead><tr><th width="98">Versión</th><th width="143">Fecha</th><th width="164">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>28/08/2025</td><td>Karol Navia</td><td>Creación del documento.</td></tr><tr><td>1.1</td><td>21/08/2026</td><td>David Velasquez</td><td>Actualización de formato.</td></tr></tbody></table>
 
 </details>
