@@ -1,31 +1,6 @@
 # Política
 
-Esta será la vista inicial de esta sección, aquí podrás configurar las políticas y privacidad de la plataforma.
-
-<figure><img src="../../../.gitbook/assets/image (225).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Política y privacidad.</p></figcaption></figure>
-
-Desde este apartado podrás realizar búsquedas de las políticas y privacidad ya creados o crear términos y condiciones nuevos para la plataforma.
-
-Con el botón "**Agregar**" podrás agregar nuevos términos y condiciones desde el siguiente formulario:&#x20;
-
-<figure><img src="../../../.gitbook/assets/image (227).png" alt=""><figcaption><p>Figura #2: Captura de pantalla configurar Política y privacidad.</p></figcaption></figure>
-
-* **Ordenar**: Desde este botón podrás alternar entre las demás políticas y privacidad creadas, para establecer el orden en el que se verán en la plataforma.
-* **Ruta de política y privacidad**: Agrega la ruta en la que irán las políticas y privacidad.
-* **Título**: Establece el título que tendrán las políticas y privacidad.
-* **Botón agregar**: Podrás agregar un submenú enlazado a las políticas y privacidad principales, este botón desplegará los siguientes campos:
-  * **Ruta de política y privacidad**: Agrega la ruta en la que irán las políticas y privacidad.
-  * **Subtítulo**: Establece el subtítulo que tendrán las políticas y privacidad.
-  * **botón texto**: Se desplegará un editor de texto en el que podrás configurar el texto que tendrá el submenú de las políticas y privacidad.
-  * **Eliminar**: Este botón eliminará el submenú creado.
-* **Botón eliminar**: Eliminarás las políticas y privacidad creados.
-* **Botón desplegar**: Al seleccionar este botón, se desplegarán los submenús creados a partir de las políticas y privacidad principales.
-
-Finalmente podrás completar las configuraciones con el botón "**Guardar**"\
-\
-<br>
-
-Administra las políticas y términos de privacidad que serán visualizados en la plataforma. Desde esta sección se pueden consultar las políticas existentes, crear nuevas políticas y organizar su estructura mediante submenús.
+<mark style="color:$info;">Administra las políticas y términos de privacidad que serán visualizados en la plataforma. Desde esta sección se pueden consultar las políticas existentes, crear nuevas políticas y organizar su estructura mediante submenús.</mark>
 
 ***
 
@@ -37,7 +12,7 @@ Administra las políticas y términos de privacidad que serán visualizados en l
 
 ### 2. Visualización
 
-La vista principal presenta las políticas y términos de privacidad configurados en la plataforma. Desde esta sección se pueden consultar los registros existentes y crear nuevas políticas mediante el botón **Agregar**.
+<figure><img src="../../../.gitbook/assets/image (460).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Política y privacidad.</p></figcaption></figure>
 
 ***
 
@@ -49,21 +24,23 @@ La vista principal presenta las políticas y términos de privacidad configurado
 
 ### 4. Agregar
 
-Al seleccionar **Agregar**, se presenta el formulario para configurar una nueva política o término de privacidad.
+Al seleccionar <img src="../../../.gitbook/assets/image (466).png" alt="" data-size="line">, se presenta el formulario para configurar una nueva política o término de privacidad.
 
-**Configuración de la política principal**
+<table><thead><tr><th width="141.3636474609375" align="center">Campo</th><th width="115.1817626953125">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td align="center"><img src="../../../.gitbook/assets/image (461).png" alt="" data-size="line"></td><td>Control de orden</td><td>Modifica la posición de la política dentro del listado configurado.</td></tr><tr><td align="center"><strong><code>Ruta de política y privacidad</code></strong></td><td>Texto / URL</td><td>Registra la ruta donde estará disponible la política o término de privacidad.</td></tr><tr><td align="center"><strong><code>Título</code></strong></td><td>Texto</td><td>Define el título que será mostrado para la política o término de privacidad.</td></tr><tr><td align="center"><img src="../../../.gitbook/assets/image (463).png" alt="" data-size="line"></td><td>Botón</td><td>Crea un submenú asociado a la política principal, en el cual se deben configuran los siguientes campos.</td></tr></tbody></table>
 
-<table><thead><tr><th width="141.3636474609375">Campo</th><th width="115.1817626953125">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Ordenar</strong></td><td>Control de orden</td><td>Modifica la posición de la política dentro del listado configurado.</td></tr><tr><td><strong>Ruta de política y privacidad</strong></td><td>Texto / URL</td><td>Registra la ruta donde estará disponible la política o término de privacidad.</td></tr><tr><td><strong>Título</strong></td><td>Texto</td><td>Define el título que será mostrado para la política o término de privacidad.</td></tr><tr><td><strong>Agregar</strong></td><td>Botón</td><td>Crea un submenú asociado a la política principal.</td></tr><tr><td><strong>Eliminar</strong></td><td>Botón</td><td>Elimina la política o término de privacidad seleccionado.</td></tr><tr><td><strong>Desplegar</strong></td><td>Botón</td><td>Muestra los submenús asociados a la política principal.</td></tr></tbody></table>
+{% columns %}
+{% column width="41.66666666666667%" %}
 
-#### **Submenú**
+{% endcolumn %}
 
-Al seleccionar **Agregar** dentro de una política principal, se habilitan los campos necesarios para configurar un submenú.
+{% column width="58.33333333333333%" %}
+<table><thead><tr><th width="116.6363525390625" align="center" valign="middle">Campo</th><th width="86.727294921875">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td align="center" valign="middle"><strong><code>Ruta de política y privacidad</code></strong></td><td>URL</td><td>Registra la ruta donde estará disponible el contenido del submenú.</td></tr><tr><td align="center" valign="middle"><strong><code>Subtítulo</code></strong></td><td>Texto</td><td>Define el subtítulo que identificará el submenú.</td></tr><tr><td align="center" valign="middle"><img src="../../../.gitbook/assets/image (468).png" alt="" data-size="line"></td><td>Editor de texto</td><td>Configura el contenido que será presentado dentro del submenú de la política.</td></tr><tr><td align="center" valign="middle"><img src="../../../.gitbook/assets/image (469).png" alt=""></td><td>Botón</td><td>Elimina el submenú creado.</td></tr></tbody></table>
+{% endcolumn %}
+{% endcolumns %}
 
-<table><thead><tr><th width="178.6363525390625">Campo</th><th width="117.727294921875">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Ruta de política y privacidad</strong></td><td>Texto / URL</td><td>Registra la ruta donde estará disponible el contenido del submenú.</td></tr><tr><td><strong>Subtítulo</strong></td><td>Texto</td><td>Define el subtítulo que identificará el submenú.</td></tr><tr><td><strong>Texto</strong></td><td>Editor de texto</td><td>Configura el contenido que será presentado dentro del submenú de la política o privacidad.</td></tr><tr><td><strong>Eliminar</strong></td><td>Botón</td><td>Elimina el submenú creado.</td></tr></tbody></table>
 
-{% hint style="info" %}
-**Nota:** El botón **Desplegar** permite visualizar los submenús asociados a cada política principal y consultar su estructura configurada.
-{% endhint %}
+
+<table data-header-hidden><thead><tr><th width="141.3636474609375" align="center">Campo</th><th width="115.1817626953125">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td align="center"><img src="../../../.gitbook/assets/image (464).png" alt=""></td><td>Botón</td><td>Elimina la política o término de privacidad seleccionado.</td></tr><tr><td align="center"><img src="../../../.gitbook/assets/image (465).png" alt="" data-size="line"></td><td>Botón</td><td><p>Muestra los submenús asociados a la política principal.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> El botón <strong>Desplegar</strong> permite visualizar los submenús asociados a cada política principal y consultar su estructura configurada.</p></div></td></tr></tbody></table>
 
 ***
 
@@ -83,6 +60,6 @@ Al seleccionar **Agregar** dentro de una política principal, se habilitan los c
 
 <summary>🔽 Historial de versiones</summary>
 
-<table><thead><tr><th width="104.3636474609375">Versión</th><th width="124.54541015625">Fecha</th><th width="116.54541015625">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>19/08/2026</td><td><strong>Karol Navia</strong></td><td>Reestructuración adaptada a plantilla.</td></tr></tbody></table>
+<table><thead><tr><th width="104.3636474609375">Versión</th><th width="124.54541015625">Fecha</th><th width="116.54541015625">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>21/08/2026</td><td><strong>Karol Navia</strong></td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-32854">Reestructuración adaptada a plantilla.</a></td></tr></tbody></table>
 
 </details>
