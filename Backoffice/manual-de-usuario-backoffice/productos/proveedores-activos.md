@@ -38,7 +38,7 @@ Permite visualizar todos los proveedores y sub-proveedores validos segun los fil
 
 ***
 
-### 6.  Validaciones y reglas de negocio
+### 6. Validaciones y reglas de negocio
 
 * La información se actualiza en tiempo real, reflejando de forma inmediata los cambios en los estados.
 * La información mostrada estará limitada según la configuración del perfil en el BackOffice. Solo podrá acceder y visualizar las operaciones (_Partners y países_) que tenga habilitadas en su perfil.
@@ -51,6 +51,6 @@ Permite visualizar todos los proveedores y sub-proveedores validos segun los fil
 
 <summary>🔽 Historial de versiones</summary>
 
-<table><thead><tr><th width="102">Versión</th><th width="123">Fecha</th><th width="164">Autor</th><th>Descripción del cambio</th></tr></thead><tbody><tr><td>1.0</td><td>2026-01-19</td><td>David velasquez</td><td>Creación de la documentación.</td></tr></tbody></table>
+<table><thead><tr><th width="102">Versión</th><th width="123">Fecha</th><th width="164">Autor</th><th>Descripción del cambio</th></tr></thead><tbody><tr><td>1.0</td><td>2026/01/19</td><td>David velasquez</td><td>Creación de la documentación.</td></tr><tr><td>1.1</td><td>2026/08/21</td><td>David velasquez</td><td>Revisión y ajuste del manual</td></tr></tbody></table>
 
 </details>
