@@ -93,6 +93,6 @@ Después de establecer el rango de fecha y hora, se genera una nueva card para c
 
 <summary>🔽 Historial de versiones</summary>
 
-<table><thead><tr><th width="108">Versión</th><th width="130">Fecha</th><th width="140">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>21/08/2026</td><td><strong>Karol Navia</strong></td><td>Reestructuración adaptada a plantilla.</td></tr></tbody></table>
+<table><thead><tr><th width="108">Versión</th><th width="130">Fecha</th><th width="140">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>21/08/2026</td><td><strong>Karol Navia</strong></td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-32852">Reestructuración adaptada a plantilla.</a></td></tr></tbody></table>
 
 </details>
