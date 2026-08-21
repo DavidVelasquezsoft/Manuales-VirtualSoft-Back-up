@@ -21,7 +21,7 @@ layout:
 
 # Dashboard Afiliados Interno
 
-<mark style="color:$info;">Consulta y analiza la información relacionada con los afiliados, usuarios registrados, depósitos, apuestas, NGR y comisiones generadas durante el período seleccionado.</mark>
+<mark style="color:$info;">Consulta y analiza la información relacionada con los</mark> [<mark style="color:$info;">afiliados</mark>](https://virtualsoft.gitbook.io/plantillas/glosario#afiliador)<mark style="color:$info;">, usuarios registrados, depósitos, apuestas,</mark> [<mark style="color:$info;">NGR</mark> ](https://virtualsoft.gitbook.io/plantillas/glosario#net-gaming-revenue-ngr)<mark style="color:$info;">y comisiones generadas durante el período seleccionado.</mark>
 
 ***
 
@@ -37,7 +37,7 @@ Antes de visualizar el reporte, establece las [configuraciones previas](https://
 
 ***
 
-### 3. Filtros
+### 3. Filtros Generales
 
 Los filtros generales permiten establecer el período que será consultado en el dashboard.
 
@@ -49,9 +49,17 @@ Los filtros generales permiten establecer el período que será consultado en el
 
 La información del dashboard se encuentra organizada mediante las siguientes pestañas:
 
+* #### **Indicadores**
+
+{% hint style="warning" %}
+**Nota:** Los indicadores son generales y se mantienen iguales en las pestañas [Detalle ](dashboard-afiliados-interno.md#detalle)y [General ](dashboard-afiliados-interno.md#general)del dashboard.&#x20;
+{% endhint %}
+
+<table><thead><tr><th width="147.54547119140625">Indicador</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>NGR</code></strong></td><td>Presenta el valor correspondiente al NGR <em>(Ingreso Neto del Juego).</em></td></tr><tr><td><strong><code>Total Comisión</code></strong></td><td>Presenta el valor total de las comisiones generadas por los usuarios pertenecientes a los afiliadores consultados.</td></tr></tbody></table>
+
 {% tabs %}
 {% tab title="Detalle" %}
-Presenta la información detallada del afiliador, sus links, códigos promocionales, registros, primeros depósitos, usuarios activos, NGR y comisiones.
+Presenta la información detallada del afiliador, sus [links](https://virtualsoft.gitbook.io/plantillas/glosario#links), códigos promocionales, registros, primeros depósitos, usuarios activos, NGR y comisiones.
 
 #### Visualización :
 
@@ -59,15 +67,13 @@ Presenta la información detallada del afiliador, sus links, códigos promociona
 
 #### **Filtros de consulta**
 
-<table><thead><tr><th width="137.63641357421875">Campo</th><th width="118">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>ID Afiliador</code></strong></td><td>Numérico </td><td>Consulta la información asociada a un afiliador específico.</td></tr><tr><td><strong><code>ID Link</code></strong></td><td>Texto</td><td>Consulta la información asociada a un link específico.</td></tr><tr><td><strong><code>Código promocional</code></strong></td><td>Numérico </td><td>Consulta la información relacionada con un código promocional específico.</td></tr></tbody></table>
-
-#### **Indicadores**
-
-<table><thead><tr><th width="147.54547119140625">Indicador</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>NGR</code></strong></td><td>Presenta el valor correspondiente al NGR <em>(Ingreso Neto del Juego).</em></td></tr><tr><td><strong><code>Total Comisión</code></strong></td><td>Presenta el valor total de las comisiones generadas.</td></tr></tbody></table>
+<table><thead><tr><th width="137.63641357421875">Campo</th><th width="118">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>ID</code></strong> <a href="https://virtualsoft.gitbook.io/plantillas/glosario#afiliador"><strong><code>Afiliador</code></strong></a></td><td>Numérico </td><td>Consulta la información asociada a un afiliador específico.</td></tr><tr><td><strong><code>ID</code></strong> <a href="https://virtualsoft.gitbook.io/plantillas/glosario#links"><strong><code>Link</code></strong></a></td><td>Texto</td><td>Consulta la información asociada a un link específico.</td></tr><tr><td><a href="https://virtualsoft.gitbook.io/plantillas/glosario#codigo-promocional"><strong><code>Código promocional</code></strong></a></td><td>Numérico </td><td>Consulta la información relacionada con un código promocional específico.</td></tr></tbody></table>
 
 #### **Tabla de información**&#x20;
 
-<table><thead><tr><th width="198.45458984375">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>ID Afiliador</code></strong></td><td>Identificador del afiliador.</td></tr><tr><td><strong><code>ID Link</code></strong></td><td>Identificador del link asociado al afiliador.</td></tr><tr><td><strong><code>Nombre o código promocional</code></strong></td><td>Nombre o código promocional asociado al registro.</td></tr><tr><td><strong><code>Cantidad de registros</code></strong></td><td>Cantidad de registros asociados al afiliador, link o código promocional consultado.</td></tr><tr><td><strong><code>Cantidad de primeros depósitos</code></strong></td><td>Cantidad de usuarios que realizaron su primer depósito.</td></tr><tr><td><strong><code>Valor de primeros depósitos</code></strong></td><td>Valor correspondiente a los primeros depósitos realizados.</td></tr><tr><td><strong><code>Valor de depósitos generales</code></strong></td><td>Valor correspondiente a los depósitos generales realizados por los usuarios asociados.</td></tr><tr><td><strong><code>Cantidad de usuarios activos</code></strong></td><td>Cantidad de usuarios activos asociados al afiliador.</td></tr><tr><td><strong><code>Sportsbook NGR afiliados</code></strong></td><td>NGR generado por los afiliados en la vertical Sportsbook.</td></tr><tr><td><strong><code>Casino NGR afiliados</code></strong></td><td>NGR generado por los afiliados en la vertical Casino.</td></tr><tr><td><strong><code>Total Comisión</code></strong></td><td>Valor total de la comisión correspondiente al registro.</td></tr></tbody></table>
+Presenta el detalle de la información asociada a los [**afiliadores** ](https://virtualsoft.gitbook.io/plantillas/glosario#afiliador)**consultados**, incluyendo sus registros, depósitos, usuarios activos, NGR y comisiones generadas.
+
+<table><thead><tr><th width="198.45458984375">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>ID Afiliador</code></strong></td><td>Identificador único del afiliador.</td></tr><tr><td><strong><code>ID Link</code></strong></td><td>Identificador del link asociado al afiliador.</td></tr><tr><td><strong><code>Nombre o código promocional</code></strong></td><td>Nombre o código promocional asociado al registro.</td></tr><tr><td><strong><code>Cantidad de registros</code></strong></td><td>Cantidad de registros asociados al afiliador, link o código promocional consultado.</td></tr><tr><td><strong><code>Cantidad de primeros depósitos</code></strong></td><td>Cantidad de usuarios que realizaron su primer depósito.</td></tr><tr><td><strong><code>Valor de primeros depósitos</code></strong></td><td>Valor correspondiente a los primeros depósitos realizados.</td></tr><tr><td><strong><code>Valor de depósitos generales</code></strong></td><td>Valor correspondiente a los depósitos generales realizados por los usuarios asociados.</td></tr><tr><td><strong><code>Cantidad de usuarios activos</code></strong></td><td>Cantidad de usuarios activos asociados al afiliador.</td></tr><tr><td><strong><code>Sportsbook NGR afiliados</code></strong></td><td><a href="https://virtualsoft.gitbook.io/plantillas/glosario#net-gaming-revenue-ngr">NGR </a>generado por los afiliados en la vertical Sportsbook.</td></tr><tr><td><strong><code>Casino NGR afiliados</code></strong></td><td><a href="https://virtualsoft.gitbook.io/plantillas/glosario#net-gaming-revenue-ngr">NGR </a>generado por los afiliados en la vertical Casino.</td></tr><tr><td><strong><code>Total Comisión</code></strong></td><td>Valor total de la comisión correspondiente al registro.</td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="General" %}
@@ -80,10 +86,6 @@ Presenta la información general de los afiliadores de acuerdo con el período s
 #### **Filtros de consulta**
 
 <table><thead><tr><th width="129.8182373046875">Campo</th><th width="117.0909423828125">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>ID Afiliador</code></strong></td><td>Numérico</td><td>Consulta la información asociada a un Identificador de afiliador específico.</td></tr></tbody></table>
-
-#### **Indicadores**
-
-<table><thead><tr><th width="152.0909423828125">Indicador</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>NGR</code></strong></td><td>Presenta el ingreso neto generado por la actividad de juego.</td></tr><tr><td><strong><code>Total Comisión</code></strong></td><td>Presenta el valor total de las comisiones generadas.</td></tr></tbody></table>
 
 #### **Tabla de información**&#x20;
 
