@@ -60,6 +60,6 @@ Al seleccionar <img src="../../../.gitbook/assets/image (466).png" alt="" data-s
 
 <summary>🔽 Historial de versiones</summary>
 
-<table><thead><tr><th width="104.3636474609375">Versión</th><th width="124.54541015625">Fecha</th><th width="116.54541015625">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>21/08/2026</td><td><strong>Karol Navia</strong></td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-32854">Reestructuración adaptada a plantilla.</a></td></tr></tbody></table>
+<table><thead><tr><th width="104.3636474609375">Versión</th><th width="124.54541015625">Fecha</th><th width="116.54541015625">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>21/08/2026</td><td>Karol Navia</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-32854">Reestructuración adaptada a plantilla.</a></td></tr></tbody></table>
 
 </details>
