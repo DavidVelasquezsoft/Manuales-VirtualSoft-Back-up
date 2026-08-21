@@ -29,16 +29,16 @@ Al seleccionar <img src="../../../.gitbook/assets/image (466).png" alt="" data-s
 <table><thead><tr><th width="141.3636474609375" align="center">Campo</th><th width="115.1817626953125">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td align="center"><img src="../../../.gitbook/assets/image (461).png" alt="" data-size="line"></td><td>Control de orden</td><td>Modifica la posición de la política dentro del listado configurado.</td></tr><tr><td align="center"><strong><code>Ruta de política y privacidad</code></strong></td><td>Texto / URL</td><td>Registra la ruta donde estará disponible la política o término de privacidad.</td></tr><tr><td align="center"><strong><code>Título</code></strong></td><td>Texto</td><td>Define el título que será mostrado para la política o término de privacidad.</td></tr><tr><td align="center"><img src="../../../.gitbook/assets/image (463).png" alt="" data-size="line"></td><td>Botón</td><td>Crea un submenú asociado a la política principal, en el cual se deben configuran los siguientes campos.</td></tr></tbody></table>
 
 {% columns %}
-{% column width="41.66666666666667%" %}
+{% column width="33.33333333333333%" %}
 
 {% endcolumn %}
 
-{% column width="58.33333333333333%" %}
+{% column width="66.66666666666667%" %}
 <table><thead><tr><th width="116.6363525390625" align="center" valign="middle">Campo</th><th width="86.727294921875">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td align="center" valign="middle"><strong><code>Ruta de política y privacidad</code></strong></td><td>URL</td><td>Registra la ruta donde estará disponible el contenido del submenú.</td></tr><tr><td align="center" valign="middle"><strong><code>Subtítulo</code></strong></td><td>Texto</td><td>Define el subtítulo que identificará el submenú.</td></tr><tr><td align="center" valign="middle"><img src="../../../.gitbook/assets/image (468).png" alt="" data-size="line"></td><td>Editor de texto</td><td>Configura el contenido que será presentado dentro del submenú de la política.</td></tr><tr><td align="center" valign="middle"><img src="../../../.gitbook/assets/image (469).png" alt=""></td><td>Botón</td><td>Elimina el submenú creado.</td></tr></tbody></table>
 {% endcolumn %}
 {% endcolumns %}
 
-
+***
 
 <table data-header-hidden><thead><tr><th width="141.3636474609375" align="center">Campo</th><th width="115.1817626953125">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td align="center"><img src="../../../.gitbook/assets/image (464).png" alt=""></td><td>Botón</td><td>Elimina la política o término de privacidad seleccionado.</td></tr><tr><td align="center"><img src="../../../.gitbook/assets/image (465).png" alt="" data-size="line"></td><td>Botón</td><td><p>Muestra los submenús asociados a la política principal.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> El botón <strong>Desplegar</strong> permite visualizar los submenús asociados a cada política principal y consultar su estructura configurada.</p></div></td></tr></tbody></table>
 
