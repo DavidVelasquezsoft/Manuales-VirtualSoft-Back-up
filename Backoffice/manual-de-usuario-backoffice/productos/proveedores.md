@@ -16,13 +16,23 @@ description: >-
 
 <figure><img src="https://1262136405-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FUadX6RX6l8fMhEZxOqcT%2Fuploads%2FmHYYRqohBLTROYktY6BV%2Fimage.png?alt=media&#x26;token=3019108b-7954-4eef-98fb-5c53e5df8acb" alt=""><figcaption><p>Figura #1: Captura de pantalla sección Proveedores.</p></figcaption></figure>
 
+***
+
 ### **3. Acciones del Usuario**
 
 <table><thead><tr><th width="156">Acción</th><th width="586.39990234375">Descripción</th></tr></thead><tbody><tr><td><a href="proveedores.md#id-4.-filtros-de-busqueda"><strong>Consultar</strong></a></td><td>Ejecuta la búsqueda según los filtros aplicados, mostrando en la tabla los registros que cumplen con los criterios definidos.</td></tr><tr><td><strong>Limpiar</strong></td><td>Restablece todos los campos de los filtros a su valor predeterminado, eliminando cualquier criterio aplicado para permitir una nueva búsqueda desde cero.</td></tr><tr><td><strong>Exportar</strong></td><td>Permite descargar la información visualizada en pantalla en formato <em>(<strong>Excel</strong> o <strong>CSV)</strong></em>, utilizando el botón <em><strong>(Exportar)</strong></em> ubicado en la parte inferior de la página.</td></tr><tr><td><a href="proveedores.md#id-7.-editar-proveedor"><strong>Editar</strong></a></td><td>Habilita la modificación de un registro existente, permitiendo actualizar su información o ajustar configuraciones previamente guardadas.</td></tr><tr><td><a href="proveedores.md#id-6.-anadir-proveedor"><strong>Agregar</strong></a></td><td>permite registrar un nuevo proveedor en el sistema .</td></tr></tbody></table>
 
+***
+
 ### 4. Filtros de Búsqueda
 
-<table><thead><tr><th width="128">Filtro</th><th width="121">Tipo de Control</th><th width="472.5999755859375">Descripción</th></tr></thead><tbody><tr><td><strong><code>Proveedor ID</code></strong></td><td>Texto</td><td>Permite buscar un proveedor específico ingresando su identificador único.</td></tr><tr><td><strong><code>Nombre</code></strong></td><td>Texto</td><td>Filtra proveedores según el nombre registrado en el sistema.</td></tr><tr><td><strong><code>Tipo</code></strong></td><td>Lista desplegable</td><td>Filtra  por la categoría a la que pertenecen <em>(ejemplo: Casino, CRM).</em></td></tr><tr><td><strong><code>Estado</code></strong></td><td>Lista desplegable</td><td>Permite filtrar proveedores según su estado en la plataforma.</td></tr></tbody></table>
+<table><thead><tr><th width="128">Filtro</th><th width="121">Tipo de Control</th><th width="472.5999755859375">Descripción</th></tr></thead><tbody><tr><td><strong><code>Proveedor ID</code></strong></td><td>Texto</td><td>Permite buscar un proveedor específico ingresando su identificador único.</td></tr><tr><td><strong><code>Nombre</code></strong></td><td>Texto</td><td>Proveedores según el nombre registrado en el sistema.</td></tr><tr><td><strong><code>Tipo</code></strong></td><td>Lista desplegable</td><td>Filtra por la categoría a la que pertenecen <em>(ejemplo: Casino, CRM).</em></td></tr><tr><td><strong><code>Estado</code></strong></td><td>Lista desplegable</td><td>Permite filtrar proveedores según su estado en la plataforma.</td></tr></tbody></table>
+
+#### 4.1. Filtros avanzados
+
+<table><thead><tr><th width="123.5">Campo</th><th width="129.16668701171875">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Verificado</code></strong></td><td>Lista desplegable</td><td>Filtra los proveedores según su estado de verificación: <strong>Todos, Activo o Inactivo</strong>.</td></tr><tr><td><strong><code>Abreviado</code></strong></td><td>Texto</td><td>Filtra los proveedores por el abreviado registrado para identificarlos.</td></tr></tbody></table>
+
+***
 
 ### 5. Resultados de la Consulta
 
@@ -52,6 +62,6 @@ Para acceder a la edición, se debe seleccionar el **icono de lápiz 🖉**, ubi
 
 <summary>🔽Historial de versiones </summary>
 
-<table><thead><tr><th width="113.4000244140625">Versión</th><th width="138.79998779296875">Fecha</th><th width="128.2000732421875">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>26/08/2025</td><td>Karol Navia</td><td>Documento inicial</td></tr><tr><td>1.1</td><td>09/10/2025</td><td>Karol Navia</td><td>Incorporación de Añadir proveedor , editar.</td></tr><tr><td>1.2</td><td>29/10/2025</td><td>Karol Navia</td><td>Mejoramiento del campo tipo</td></tr></tbody></table>
+<table><thead><tr><th width="113.4000244140625">Versión</th><th width="138.79998779296875">Fecha</th><th width="128.2000732421875">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>26/08/2025</td><td>Karol Navia</td><td>Documento inicial</td></tr><tr><td>1.1</td><td>09/10/2025</td><td>Karol Navia</td><td>Incorporación de Añadir proveedor , editar.</td></tr><tr><td>1.2</td><td>29/10/2025</td><td>Karol Navia</td><td>Mejoramiento del campo tipo</td></tr><tr><td>1.3</td><td>21/08/2026</td><td>David Velasquez</td><td>Incorporación de filtros avanzados</td></tr></tbody></table>
 
 </details>
