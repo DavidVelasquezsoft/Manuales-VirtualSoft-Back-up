@@ -84,6 +84,14 @@ Aunque la interfaz del formulario de registro sea diferente, hay ciertas accione
 ### Acciones de usuario.
 
 <table><thead><tr><th width="140">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/Button (1) (4).png" alt="" data-size="original"></td><td><p>El formulario de registro se configurará por medio de pasos, según la cantidad de pasos configurados, serán los pasos necesarios para que un usuario realice el registro.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> </p><ul><li>Cada paso debe ser configurado de manera independiente, agregando los campos necesarios.</li><li>Los pasos agregados se pueden eliminar, siempre que se elimine un paso la numeración continuará en el orden consecuente.</li></ul></div></td></tr><tr><td><img src="../../../.gitbook/assets/Button (2).png" alt="" data-size="original"></td><td><p>Previsualiza un ejemplo de las configuraciones realizadas en cada paso.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Para poder previsualizar es necesario que los pasos creados ya tengan como mínimo un componente agregado.</p></div></td></tr><tr><td><img src="../../../.gitbook/assets/Frame 1321316449 (1).png" alt="" data-size="original"></td><td><p>Establece la estructura del formulario.</p><ul><li>1 col: Los componentes agregados se visualizarán en una sola columna.</li><li>2 cols: Los componentes agregados se visualizarán en 2 columnas.</li></ul></td></tr><tr><td>         <img src="../../../.gitbook/assets/icon-button (1).png" alt="" data-size="line"> </td><td><p>Agrega los componentes para formar el formulario, cada componente que se agrega se puede personalizar.</p><ul><li><a href="https://virtualsoft.gitbook.io/manuales/sitebuilder/manual-de-usuario/como-ingresar/apariencia/formularios#editar-campo">Editar componente</a>.</li><li><a href="https://virtualsoft.gitbook.io/manuales/sitebuilder/manual-de-usuario/como-ingresar/apariencia/formularios#asignar-icono">Asignar ícono</a>.</li><li><a href="https://virtualsoft.gitbook.io/manuales/sitebuilder/manual-de-usuario/como-ingresar/apariencia/formularios#opciones-avanzadas">Ajustes avanzados</a>.</li></ul></td></tr></tbody></table>
+
+<details>
+
+<summary>erte</summary>
+
+**.ererer**
+
+</details>
 {% endtab %}
 {% endtabs %}
 
