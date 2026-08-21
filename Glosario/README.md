@@ -257,7 +257,9 @@ Deporte que consiste en carreras de caballos, concurso de saltos de obstáculos,
 
 Registros automáticos que documentan acciones, eventos,movimientos o transacciones dentro del sistema.
 
+* #### Links
 
+Enlaces que se generan para que un afiliado promocione la plataforma.
 
 ## M
 
