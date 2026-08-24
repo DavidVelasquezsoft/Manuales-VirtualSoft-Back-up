@@ -21,7 +21,7 @@ layout:
 
 # Habilitación productos
 
-<mark style="color:$info;">En esta sección, puedes gestionar la habilitación de productos para un Partner y sus proveedores asociados. Utiliza los filtros disponibles para buscar y seleccionar los productos que deseas habilitar</mark>
+<mark style="color:$info;">Gestiona la habilitación de productos para un Partner y sus proveedores asociados. Utiliza los filtros disponibles para buscar y seleccionar los productos que deseas habilitar</mark>
 
 ### **1. Acceso al Módulo**
 
@@ -43,7 +43,7 @@ layout:
 
 ### **4. Filtros**
 
-<table><thead><tr><th width="181">Campo</th><th width="177">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Proveedor</code></strong></td><td>Lista desplegable</td><td>Permite filtrar los productos según el proveedor seleccionado.</td></tr><tr><td><strong><code>Sub Proveedor</code></strong></td><td>Lista desplegable</td><td>Permite filtrar por un subproveedor específico.</td></tr><tr><td><strong><code>Nombre</code></strong></td><td>Campo de texto</td><td>Permite buscar productos por nombre.</td></tr><tr><td><strong><code>Partner Referencia</code></strong></td><td>Lista desplegable</td><td>Permite filtrar los productos según el partner de referencia.</td></tr><tr><td><strong><code>País</code></strong></td><td>Lista desplegable</td><td>Permite seleccionar el país para la consulta. Es obligatorio.</td></tr></tbody></table>
+<table><thead><tr><th width="181">Campo</th><th width="177">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Proveedor</code></strong></td><td>Lista desplegable</td><td>Filtrar los productos según el proveedor seleccionado.</td></tr><tr><td><strong><code>Sub Proveedor</code></strong></td><td>Lista desplegable</td><td>Busca por un subproveedor específico.</td></tr><tr><td><strong><code>Nombre</code></strong></td><td>Campo de texto</td><td>Permite filtrar productos por nombre.</td></tr><tr><td><strong><code>Partner Referencia</code></strong></td><td>Lista desplegable</td><td>Filtra los productos según el partner de referencia.</td></tr><tr><td><strong><code>País</code></strong></td><td>Lista desplegable</td><td>Selecciona el país para la consulta. Es obligatorio.</td></tr></tbody></table>
 
 ***
 

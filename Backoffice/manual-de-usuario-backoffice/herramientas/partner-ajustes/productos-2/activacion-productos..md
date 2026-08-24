@@ -1,8 +1,8 @@
 ---
 description: >-
-  En esta sección, podrás activar o desactivar productos asociados. Para
-  realizar esta acción, se deben aplicar filtros específicos que faciliten la
-  búsqueda de los productos deseados.
+  Activa o desactiva productos asociados. Para realizar esta acción, se deben
+  aplicar filtros específicos que faciliten la búsqueda de los productos
+  deseados.
 ---
 
 # Activación Productos.
@@ -21,7 +21,7 @@ description: >-
 
 ### 3. Acciones disponibles
 
-<table><thead><tr><th width="265">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="activacion-productos..md#id-4.-filtros-principales"><strong>Filtrar productos</strong></a></td><td>Permite buscar productos aplicando filtros <em>(Proveedor, Subproveedor, País, etc.).</em></td></tr><tr><td><a href="activacion-productos..md#id-4.-gestion-de-productos"><strong>Activar producto</strong></a></td><td>Mueve un producto desde "No Agregados" a "Agregados".</td></tr><tr><td><a href="activacion-productos..md#id-4.-gestion-de-productos"><strong>Desactivar producto</strong></a></td><td>Mueve un producto desde "Agregados" a "No Agregados".</td></tr></tbody></table>
+<table><thead><tr><th width="265">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="activacion-productos..md#id-4.-filtros-principales"><strong>Filtrar productos</strong></a></td><td>Permite buscar productos aplicando filtros <em>(Proveedor, Subproveedor, País, etc.).</em></td></tr><tr><td><a href="activacion-productos..md#id-6.-gestion-de-productos"><strong>Activar producto</strong></a></td><td>Mueve un producto desde "No Agregados" a "Agregados".</td></tr><tr><td><a href="activacion-productos..md#id-6.-gestion-de-productos"><strong>Desactivar producto</strong></a></td><td>Mueve un producto desde "Agregados" a "No Agregados".</td></tr></tbody></table>
 
 {% hint style="warning" %}
 **Nota:** Un producto debe estar habilitado y activo para el partner y el país antes de poder utilizarse. Si se está configurando un medio de retiro en criptomonedas, Consultar el [flujo completo para habilitar retiros en criptomonedas](../../../productos/asociacion-cripto-+-redes.md#id-7.-flujo-habilitar-retiros-en-criptomonedas).

@@ -42,10 +42,10 @@ Al ejecutar la consulta, en la parte inferior de la pantalla se despliega una ta
 
 Permite vincular un producto con un banco específico. Al seleccionar el botón **Añadir Producto a Banco**, se abre una ventana emergente con los siguientes campos, todos obligatorios:
 
-<table><thead><tr><th width="128.5">Campo</th><th width="123">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>País</code></strong></td><td>Lista desplegable</td><td>Define el país en el que se encuentra el banco.</td></tr><tr><td><strong><code>Productos</code></strong></td><td>Lista desplegable</td><td><p>Define el producto que se asociará al banco.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> El producto debe estar previamente habilitado y activo para el partner y el país; de lo contrario, no aparece disponible para asociar.</p></div></td></tr><tr><td><strong><code>Banco</code></strong></td><td>Lista desplegable</td><td>Define el banco al cual se asociará el producto seleccionado.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Interruptor</td><td>Define si la asociación queda <em>Activa</em> o <em>Inactiva</em> desde su creación.</td></tr></tbody></table>
+<table><thead><tr><th width="128.5">Campo</th><th width="123">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>País</code></strong></td><td>Lista desplegable</td><td>Seleccionael país en el que se encuentra el banco.</td></tr><tr><td><strong><code>Productos</code></strong></td><td>Lista desplegable</td><td><p>Define el producto que se asociará al banco.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> El producto debe estar previamente habilitado y activo para el partner y el país; de lo contrario, no aparece disponible para asociar.</p></div></td></tr><tr><td><strong><code>Banco</code></strong></td><td>Lista desplegable</td><td>Selecciona el banco al cual se asociará el producto seleccionado.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Interruptor</td><td>Especifica si la asociación queda <em>Activa</em> o <em>Inactiva</em> desde su creación.</td></tr></tbody></table>
 
-{% hint style="info" %}
-Esta asociación es el paso que permite que un banco generado por una asociación Cripto + Red se visualice en la plataforma de usuarios online. Consultar el flujo completo para habilitar retiros en criptomonedas.
+{% hint style="warning" %}
+**Nota:** Esta asociación es el paso que permite que un banco generado por una asociación Cripto + Red se visualice en la plataforma de usuarios online. Consultar el flujo completo para habilitar retiros en criptomonedas.
 {% endhint %}
 
 ***
