@@ -38,6 +38,6 @@ Este modulo solo esta disponible para efectuar una apuesta, se solicitar√° el n√
 
 * **Apuestas Antiguas:** Revisa el historial de apuestas anteriores.
 
-{% content-ref url="apuestas-antiguas.md" %}
-[apuestas-antiguas.md](apuestas-antiguas.md)
+{% content-ref url="/broken/pages/9uEqFCvnceFkfjvbZo5G" %}
+[Broken link](/broken/pages/9uEqFCvnceFkfjvbZo5G)
 {% endcontent-ref %}

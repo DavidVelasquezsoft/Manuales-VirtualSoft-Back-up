@@ -27,7 +27,6 @@
     * [Apuestas deportivas en vivo](manual-de-usuario-backoffice/apuestas-punto-de-venta/apuestas-deportivas-en-vivo.md)
     * [Apuestas virtuales](manual-de-usuario-backoffice/apuestas-punto-de-venta/apuestas-virtuales.md)
     * [Reporte de apuestas](manual-de-usuario-backoffice/apuestas-punto-de-venta/reporte-de-apuestas.md)
-    * [Apuestas antiguas](manual-de-usuario-backoffice/apuestas-punto-de-venta/apuestas-antiguas.md)
   * [Jugadores](manual-de-usuario-backoffice/jugadores/README.md)
     * [Información sección Jugadores](manual-de-usuario-backoffice/jugadores/informacion-seccion-jugadores.md)
     * [Finanzas sección Jugadores](manual-de-usuario-backoffice/jugadores/finanzas-seccion-jugadores.md)
