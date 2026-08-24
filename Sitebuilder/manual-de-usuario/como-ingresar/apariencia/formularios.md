@@ -93,6 +93,10 @@ Estos son los componentes disponibles a agregar en el formulario de Registro.
 
 <table><thead><tr><th width="139">Componente</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Campo de texto</code></strong></td><td>Texto editable en el que el usuario ingresará información.</td></tr><tr><td><strong><code>Select</code></strong></td><td>Lista desplegable con opciones seleccionables.</td></tr><tr><td><strong><code>Radio</code></strong></td><td>Grupo de opciones en el que el usuario seleccionará una única alternativa.</td></tr><tr><td><strong><code>Fecha</code></strong></td><td>Campo destinado al ingreso o selección de una fecha.</td></tr><tr><td><strong><code>Número</code></strong></td><td>Campo destinado al ingreso de valores numéricos.</td></tr><tr><td><strong><code>Contraseña</code></strong></td><td>Campo de texto oculto para el ingreso de información confidencial.</td></tr><tr><td><strong><code>Check</code></strong></td><td>Casilla de selección para activar o desactivar una opción.</td></tr><tr><td><strong><code>Textarea</code></strong></td><td>Campo de texto de múltiples líneas para ingresar información extensa.</td></tr><tr><td><strong><code>TextSearch</code></strong></td><td>Campo de texto destinado a la búsqueda de información.</td></tr><tr><td><strong><code>PhoneSearch</code></strong></td><td>Campo destinado a la búsqueda mediante un número telefónico.</td></tr><tr><td><strong><code>Banner/Imagen</code></strong></td><td><p>Elemento visual destinado a mostrar una imagen o banner dentro del formulario.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Solo se puede agregar un banner por formulario, independientemente de la cantidad de pasos que tenga.</p></div></td></tr></tbody></table>
 
+{% hint style="warning" %}
+**Nota:** Los componentes se logran editar desde el módulo [Editar componentes.](https://virtualsoft.gitbook.io/manuales/sitebuilder/manual-de-usuario/como-ingresar/apariencia/formularios#editar-campo)
+{% endhint %}
+
 </details>
 {% endtab %}
 {% endtabs %}
