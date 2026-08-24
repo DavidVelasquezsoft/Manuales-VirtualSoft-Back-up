@@ -1,6 +1,6 @@
 # Wallets Crypto
 
-<mark style="color:$info;">Esta sección permite registrar y gestionar las billeteras de criptomonedas a las que el usuario puede recibir sus retiros. Las wallets se registran de forma independiente a las cuentas bancarias, ya que requieren información distinta. Una vez registrada la wallet, el usuario puede utilizarla para solicitar retiros mediante la opción Criptomonedas.</mark>
+<mark style="color:$info;">Registra y gestiona las billeteras de criptomonedas a las que el usuario puede recibir sus retiros. Las wallets se registran de forma independiente a las cuentas bancarias, ya que requieren información distinta. Una vez registrada la wallet, el usuario puede utilizarla para solicitar retiros mediante la opción Criptomonedas.</mark>
 
 ### 1. Acceso al Módulo
 
@@ -16,11 +16,11 @@
 
 ### 3. Acciones disponibles
 
-<table><thead><tr><th width="126.42425537109375">Ícono</th><th width="95.00006103515625">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/image (213).png" alt="" data-size="original"></td><td><strong>Guardar</strong></td><td>Registra una nueva wallet cripto con la información diligenciada en el formulario.</td></tr><tr><td><img src="../../../.gitbook/assets/image (214).png" alt="" data-size="original"></td><td><strong>Eliminar</strong></td><td>Elimina de forma permanente la wallet cripto registrada. Disponible únicamente para wallets en estado <em>Activa</em>.</td></tr></tbody></table>
+<table><thead><tr><th width="126.42425537109375">Ícono</th><th>Descripción</th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/image (213).png" alt="" data-size="original"></td><td>Registra una nueva <a href="https://virtualsoft.gitbook.io/plantillas/glosario#wallet-cripto">wallet</a> cripto con la información diligenciada en el formulario.</td></tr><tr><td><img src="../../../.gitbook/assets/image (214).png" alt="" data-size="original"></td><td>Elimina de forma permanente la <a href="https://virtualsoft.gitbook.io/plantillas/glosario#wallet-cripto">wallet</a> cripto registrada. Disponible únicamente para wallets en estado <em>Activa</em>.</td></tr></tbody></table>
 
 ***
 
-### 4. Registro de wallets
+### 4. Registro de [wallets](https://virtualsoft.gitbook.io/plantillas/glosario#wallet-cripto)
 
 Permite registrar una nueva billetera mediante el siguiente formulario:
 
@@ -41,8 +41,8 @@ Las billeteras registradas se muestran en una tabla con la siguiente informació
 
 <table><thead><tr><th width="180">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Criptomoneda</code></strong></td><td>Criptomoneda asociada a la wallet registrada.</td></tr><tr><td><strong><code>Red Blockchain</code></strong></td><td>Red blockchain seleccionada al momento del registro de la wallet.</td></tr><tr><td><strong><code>Dirección Wallet</code></strong></td><td>Dirección cripto registrada, visualizada en formato abreviado.</td></tr><tr><td><strong><code>Estado</code></strong></td><td><p>Estado actual de la wallet:</p><ul><li><strong>Activa:</strong> habilitada para ser utilizada en solicitudes de retiro.</li><li><strong>Inactiva:</strong> deshabilitada; no puede seleccionarse para retiros.</li></ul></td></tr></tbody></table>
 
-{% hint style="info" %}
-Las wallets registradas y activas quedan disponibles para seleccionarse al realizar un retiro mediante la opción **Criptomonedas**. Consultar el manual de Retirar.
+{% hint style="warning" %}
+**Nota:** Las wallets registradas y activas quedan disponibles para seleccionarse al realizar un retiro mediante la opción **Criptomonedas**. Consultar el manual de Retirar.
 {% endhint %}
 
 ***
