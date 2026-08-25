@@ -20,7 +20,7 @@ description: >-
 
 <table><thead><tr><th width="188">Acción</th><th width="142">Control</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="https://virtualsoft.gitbook.io/manuales/usuarios/usuarios-online/manual-de-plataforma/depositos/depositos-en-partner-camanbet#id-3.1-pasos-para-un-deposito"><strong><code>Depositar saldo</code></strong></a></td><td>Botón</td><td>Realiza un depósito en la cuenta de camanbet.</td></tr></tbody></table>
 
-#### 3.1 Pasos para un depósito
+### 4. Pasos a realizar para un depósito
 
 {% stepper %}
 {% step %}
@@ -60,7 +60,7 @@ Verifica que la información mostrada en el resumen sea correcta antes de enviar
 
 ***
 
-### **4. Validaciones y Reglas de Negocio**
+### **5. Validaciones y Reglas de Negocio**
 
 * El monto mínimo de depósito puede variar según el método.
 * Algunos métodos generan una referencia de pago válida por tiempo limitado.
@@ -71,7 +71,7 @@ Verifica que la información mostrada en el resumen sea correcta antes de enviar
 * Si la solicitud es rechazada, se deberá crear una nueva solicitud con un nuevo comprobante.
 * Los depósitos realizados se visualizarán y se gestionarán en la siguiente reportería: [Solicitudes de depósito](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/manual-de-usuario-backoffice/financiero/solicitudes-de-deposito "mention")
 
-### **5. Control de Versiones**
+### **6. Control de Versiones**
 
 <details>
 
