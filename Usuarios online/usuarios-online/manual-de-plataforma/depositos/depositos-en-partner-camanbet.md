@@ -62,4 +62,4 @@ Tendrás 2 métodos disponibles para realizar un depósito
 
 ### **5. Control de Versiones**
 
-<table><thead><tr><th width="108">Versión</th><th width="123">Fecha</th><th width="140">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>17/07/2025</td><td>Ronald Peláez</td><td>Documento inicial.</td></tr><tr><td>1.1</td><td>06/04/2025</td><td>Ronald Peláez</td><td>Ajustes por depósito en transferencia bancaria</td></tr></tbody></table>
+<table><thead><tr><th width="108">Versión</th><th width="123">Fecha</th><th width="140">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>17/07/2025</td><td>Ronald Peláez</td><td>Documento inicial.</td></tr><tr><td>1.1</td><td>06/04/2026</td><td>Ronald Peláez</td><td>Ajustes por depósito en transferencia bancaria</td></tr></tbody></table>
