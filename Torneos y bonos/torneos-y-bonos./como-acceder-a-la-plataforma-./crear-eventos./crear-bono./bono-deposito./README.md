@@ -52,7 +52,7 @@ description: >-
 
 ***
 
-<table data-header-hidden><thead><tr><th width="131.5">Campo</th><th width="118.33343505859375">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Pasarelas de pago</code></strong></td><td>Lista desplegable</td><td>Elige una o varias pasarelas de pago las cuales el usuario debe utilizar para adquirir el bono.</td></tr><tr><td><strong><code>Puntos de venta es permitido</code></strong></td><td>Selector</td><td>Permite habilitar el uso del bono para depósitos realizados en puntos de venta. Al seleccionar esta opción, se desplegarán las siguientes configuraciones.</td></tr><tr><td><strong><code>Franquicias</code></strong></td><td></td><td><p>selecciona una o varias franquicias a las que se asociará el bono. </p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Los depósitos realizados mediante cualquiera de las pasarelas pertenecientes a las franquicias seleccionadas serán considerados para el otorgamiento del bono, siempre que cumplan las demás condiciones configuradas.</p></div></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="131.5">Campo</th><th width="118.33343505859375">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Pasarelas de pago</code></strong></td><td>Lista desplegable</td><td>Elige una o varias pasarelas de pago las cuales el usuario debe utilizar para adquirir el bono.</td></tr><tr><td><strong><code>Puntos de venta es permitido</code></strong></td><td>Lista desplegable</td><td>Permite habilitar el uso del bono para depósitos realizados en puntos de venta. Al seleccionar esta opción, se desplegarán las siguientes configuraciones.</td></tr><tr><td><strong><code>Franquicias</code></strong></td><td>Lista desplegable</td><td><p>Selecciona una o varias franquicias a las que se asociará el bono. </p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Los depósitos realizados mediante cualquiera de las pasarelas pertenecientes a las franquicias seleccionadas serán considerados para el otorgamiento del bono, siempre que cumplan las demás condiciones configuradas.</p></div></td></tr></tbody></table>
 
 {% columns %}
 {% column width="33.33333333333333%" %}
@@ -128,6 +128,7 @@ Al dar clic en la moneda correspondiente al país con el que se ingresó a la pl
 
     <div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p><strong>Ejemplo:</strong> <br>Para bonos de tipo <strong>Referidos</strong>, una vez creados y disponibles, podrán activarse y habilitarse desde el siguiente módulo de referidos: <a data-mention href="https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/manual-de-usuario-backoffice/herramientas/partner-ajustes/configuracion-1#referidos">Configuración #🔽 Referidos</a></p></div>
 * Para que un depósito sea válido para la redención del bono, debe **completarse y quedar aprobado**.
+* Las franquicias que se muestran en el campo **`Franquicias`** son configuradas previamente en el módulo [**Gestión de Franquicias**.](https://virtualsoft.gitbook.io/manuales/sitebuilder/manual-de-usuario/como-ingresar/productos/depositos#gestion-de-franquicias)
 
 ***
 
