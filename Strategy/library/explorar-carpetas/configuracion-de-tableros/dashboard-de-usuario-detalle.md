@@ -108,6 +108,7 @@ Visualiza el desempeño detallado de los usuarios a través de KPIs, tendencias 
 * La vista gráfica solo mostrará paneles si existe data relacionada al rango filtrado.
 * Las gráficas muestran siempre la información activa: si aplicas filtros, muestran lo filtrado; si seleccionas un dato en una tabla, se actualizan según esa selección.
 * Si no hay datos disponibles, los paneles no se mostrarán.
+* La información del dashboard se puede exportar como PDF, teniendo en cuenta que si la información a exportar es muy extensa se deben realizar configuraciones avanzadas
 
 ***
 
@@ -117,6 +118,6 @@ Visualiza el desempeño detallado de los usuarios a través de KPIs, tendencias 
 
 <summary>🔽Historial de versiones</summary>
 
-<table><thead><tr><th width="100">Versión</th><th width="138">Fecha</th><th width="145">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td><strong>1.0</strong></td><td>01/12/2025</td><td>Karol Navia</td><td>Documento inicial.</td></tr><tr><td>1.1</td><td>10/12/2025</td><td>Ronald Peláez</td><td>Agregar hoja de análisis</td></tr><tr><td>1.2</td><td>29/01/2026</td><td>Karol Navia</td><td>Agregar PEP y Auto Exclusiones</td></tr><tr><td>1.3</td><td>11/08/2026</td><td>Karol Navia</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-32309">Agregar columnas <code>PEP</code> Y <code>Régimen reforzado</code></a></td></tr></tbody></table>
+<table><thead><tr><th width="100">Versión</th><th width="138">Fecha</th><th width="145">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td><strong>1.0</strong></td><td>01/12/2025</td><td>Karol Navia</td><td>Documento inicial.</td></tr><tr><td>1.1</td><td>10/12/2025</td><td>Ronald Peláez</td><td>Agregar hoja de análisis</td></tr><tr><td>1.2</td><td>29/01/2026</td><td>Karol Navia</td><td>Agregar PEP y Auto Exclusiones</td></tr><tr><td>1.3</td><td>11/08/2026</td><td>Karol Navia</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-32309">Agregar columnas <code>PEP</code> Y <code>Régimen reforzado</code></a></td></tr><tr><td>1.4</td><td>26/08/2026</td><td>Ronald Peláez</td><td>Nueva nota en reglas y validaciones.</td></tr></tbody></table>
 
 </details>
