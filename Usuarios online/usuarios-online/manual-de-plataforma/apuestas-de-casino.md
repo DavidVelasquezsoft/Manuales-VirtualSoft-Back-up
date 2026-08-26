@@ -26,8 +26,9 @@ En el caso del juego **Poker Lobby**, al momento de cerrar sesión, se mostrará
 
 ***
 
-### 3.✅Validaciones y Reglas de Negocio
+### 3.Validaciones y Reglas de Negocio
 
+* Para poder filtrar los juegos de casino por los proveedores, deben estar activos los proveedores en [BackOffice](https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/herramientas/partner-ajustes/productos-2/partners-proveedores.).
 * El usuario debe estar registrado y tener sesión iniciada para jugar con dinero real.
 * Algunos juegos pueden tener restricciones geográficas según el proveedor.
 * La plataforma verifica el saldo disponible antes de permitir el inicio de cualquier slot.
@@ -48,6 +49,6 @@ En el caso del juego **Poker Lobby**, al momento de cerrar sesión, se mostrará
 
 <summary>🔽 Historial de versiones</summary>
 
-<table><thead><tr><th width="109">Versión</th><th width="136">Fecha</th><th width="143">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>18/07/2025</td><td>Karol Navia</td><td>Documento Inicial.</td></tr><tr><td>1.2</td><td>25/08/2025</td><td>Ronald Peláez</td><td>Actualización de información en los banners.</td></tr><tr><td>1.3</td><td>22/09/2025</td><td>Karol Navia</td><td>Agregar sección de favoritos.</td></tr><tr><td>1.4</td><td>18/12/2025</td><td>Ronald Peláez</td><td>Implementación pantalla completa.</td></tr></tbody></table>
+<table><thead><tr><th width="109">Versión</th><th width="136">Fecha</th><th width="143">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>18/07/2025</td><td>Karol Navia</td><td>Documento Inicial.</td></tr><tr><td>1.2</td><td>25/08/2025</td><td>Ronald Peláez</td><td>Actualización de información en los banners.</td></tr><tr><td>1.3</td><td>22/09/2025</td><td>Karol Navia</td><td>Agregar sección de favoritos.</td></tr><tr><td>1.4</td><td>18/12/2025</td><td>Ronald Peláez</td><td>Implementación pantalla completa.</td></tr><tr><td>1.5</td><td>26/08/2026</td><td>Ronald Peláez</td><td>Nueva regla y validación sobre los proveedores disponibles.</td></tr></tbody></table>
 
 </details>
