@@ -97,6 +97,7 @@ Actualización de la información de un regalo previamente creado. Al selecciona
 * La acción **Inactivar Regalo** solicita una confirmación antes de ejecutar el cambio de estado.
 * La acción **Editar** únicamente permite modificar los campos habilitados por el sistema.
 * El botón **Premios** redirecciona al módulo correspondiente para consultar los premios entregados mediante los regalos.
+* Como los KPI´s dependen de los filtros aplicados, al momento de filtrar se debe tener en cuenta las configuraciones realizadas en los regalos para validar los kpis visualizados.
 
 ***
 
