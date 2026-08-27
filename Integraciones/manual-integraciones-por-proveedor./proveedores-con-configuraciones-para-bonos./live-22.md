@@ -6,6 +6,10 @@ description: >-
 
 # Live 22
 
+{% hint style="warning" %}
+**Nota:** En este proveedor, los **FreeSpins**, aunque no tienen costo para el usuario, se procesan como giros normales y requieren que la cuenta tenga un saldo suficiente para ejecutarlos. Por recomendación del proveedor, se debe garantizar un saldo superior a **100 USD** para evitar errores de **saldo insuficiente** durante la redención.
+{% endhint %}
+
 ### 1. Acceso al Módulo:
 
 **Ruta de Acceso**: BackOffice > Torneos y Bonos > Bono FreeSpin
@@ -73,6 +77,15 @@ La información de este bono estará disponible en la reportería de _Productos 
 
 ### &#x20;**5. Control de Versiones**
 
-| Versión | Fecha      | Autor       | Cambios Realizados |
-| ------- | ---------- | ----------- | ------------------ |
-| 1.0     | 31/03/2026 | Karol Navia | Documento inicial  |
+<details>
+
+<summary>🔽 Historial de versiones</summary>
+
+| Versión | Fecha      | Autor           | Cambios Realizados                                                                |
+| ------- | ---------- | --------------- | --------------------------------------------------------------------------------- |
+| 1.0     | 31/03/2026 | Karol Navia     | Documento inicial                                                                 |
+| 1.1     | 27/08/2026 | David vealsquez | [Incorporación de nota](https://virtualsoftlatam.atlassian.net/browse/VSFT-32166) |
+
+
+
+</details>
