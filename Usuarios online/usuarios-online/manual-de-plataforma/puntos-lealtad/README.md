@@ -228,6 +228,7 @@ Visualiza el historial de cambios de niveles lealtad en la cuenta del usuario.
 * Si ya está en el nivel máximo, en la barra de progreso no se visualizará un siguiente nivel, se visualizará un mensaje indicando "**Meta alcanzada**".
 * Las categorías de premios se configuran desde la herramienta [Sitebuilder](https://virtualsoft.gitbook.io/manuales/sitebuilder/manual-de-usuario/como-ingresar/promocionales/premios).
 * Los premios que aparecerán se configuran desde la herramienta [Torneos y Bonos](https://virtualsoft.gitbook.io/manuales/torneos-y-bonos/torneos-y-bonos./como-acceder-a-la-plataforma-./crear-eventos./crear-regalo).
+* Los cambios en las metas de nivel se realizan al finalizar el mes, momento en el cual la barra de progreso se reinicia. Si la meta de un nivel es modificada durante el período, el usuario conserva el nivel alcanzado, pero la barra de progreso se ajusta a la nueva meta establecida y puede visualizarse vacía hasta que alcance los puntos requeridos. A partir de ese momento, la barra comenzará a avanzar hacia el siguiente nivel.
 
 ***
 
