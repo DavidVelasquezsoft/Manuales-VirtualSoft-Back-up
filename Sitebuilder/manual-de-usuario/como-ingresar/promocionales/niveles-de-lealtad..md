@@ -81,7 +81,7 @@ Esta sección dispone de dos vistas de configuración para la administración de
 
 El sistema de **Niveles de lealtad** opera con dos tipos de puntos:
 
-<table><thead><tr><th width="176.39996337890625">Tipo de puntos</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="https://virtualsoft.gitbook.io/untitled/glosario/#puntos-calificables"><strong>Puntos calificables</strong></a></td><td>Se obtienen de forma automática cada vez que el jugador realiza una apuesta válida. Sirven para definir su nivel dentro del programa de lealtad y se reinician al concluir el tiempo de permanencia.</td></tr><tr><td><strong>Puntos canjeables</strong></td><td>Se acumulan automáticamente cada vez que el jugador realiza una apuesta válida. Estos puntos pueden utilizarse para obtener recompensas en la tienda de premios, como bonos, giros gratis u otros beneficios disponibles. A diferencia de los puntos calificables, los puntos canjeables no afectan el nivel del jugador dentro del programa de lealtad, pero sí permiten disfrutar de beneficios exclusivos al intercambiarlos.</td></tr></tbody></table>
+<table><thead><tr><th width="176.39996337890625">Tipo de puntos</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="https://virtualsoft.gitbook.io/untitled/glosario/#puntos-calificables"><strong>Puntos calificables</strong></a></td><td>Se obtienen de forma automática cada vez que el jugador realiza una apuesta válida. Sirven para definir su nivel dentro del programa de lealtad y se reinician al concluir el tiempo de permanencia.</td></tr><tr><td><strong>Puntos canjeables</strong></td><td>Se acumulan automáticamente cada vez que el jugador realiza una apuesta válida o depósitos validos. Estos puntos pueden utilizarse para obtener recompensas en la tienda de premios, como bonos, giros gratis u otros beneficios disponibles. A diferencia de los puntos calificables, los puntos canjeables no afectan el nivel del jugador dentro del programa de lealtad, pero sí permiten disfrutar de beneficios exclusivos al intercambiarlos.</td></tr></tbody></table>
 
 ***
 
@@ -155,6 +155,7 @@ Los submenús disponen de las siguientes opciones:
 * El **tiempo de permanencia** debe ser un valor entero entre **1 y 12 meses**.
 * Los niveles correctamente configurados serán visibles en la plataforma de usuarios online.
 * Los campos **Depósito requerido** y **Puntos requeridos** no serán obligatorios cuando su valor sea **0** o se encuentren vacíos.
+* El depósito únicamente suma puntos canjeables pero no calificables para subir de nivel.
 * Si se configura una condición por **Depósito requerido** o **Puntos requeridos**, el campo correspondiente deberá diligenciarse.
 * Los valores configurados en cada nivel deberán ser mayores a los del nivel anterior.
 * El período de vigencia de los depósitos deberá coincidir con el período configurado para los puntos calificables.
