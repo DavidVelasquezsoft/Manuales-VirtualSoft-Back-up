@@ -129,7 +129,7 @@ En el segundo modal se define el comportamiento operativo de la franquicia y se 
 {% hint style="warning" %}
 **Notas:**
 
-* Solo aparecen disponibles las pasarelas que se encuentren **activas** en la operación (_Partner y país_) sobre la cual se está trabajando configurados desde la sección [productos del BackOffice](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/manual-de-usuario-backoffice/productos/productos)
+* Solo aparecen disponibles las pasarelas que se encuentren **activas** en la operación (_Partner y país_) sobre la cual se está trabajando configurados desde la sección [productos del BackOffice](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/manual-de-usuario-backoffice/herramientas/partner-ajustes/productos-2/activacion-productos.)
 * Debe asociarse **como mínimo una pasarela de pago** para poder guardar la franquicia.
 {% endhint %}
 
