@@ -82,6 +82,6 @@ Permite registrar una nueva categoría para el partner y país seleccionados. Al
 
 <summary>🔽 Historial de versiones</summary>
 
-<table><thead><tr><th width="102">Versión</th><th width="127">Fecha</th><th width="169">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>31/08/2025</td><td>David Velasquez</td><td>Documento inicial</td></tr></tbody></table>
+<table><thead><tr><th width="102">Versión</th><th width="127">Fecha</th><th width="169">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>31/08/2025</td><td>David Velasquez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-27402">Documento inicial</a></td></tr></tbody></table>
 
 </details>
