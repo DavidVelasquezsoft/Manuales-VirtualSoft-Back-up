@@ -16,13 +16,21 @@
 
 ***
 
-### 3. Acciones disponibles
+### 3. **Configuraciones previas.**
+
+Antes de realizar las acciones disponibles, es necesario contar con las siguientes configuraciones:
+
+<table><thead><tr><th width="220">Parámetro</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>País</code></strong></td><td>País para el cual se realizará la configuración</td></tr><tr><td><strong><code>Idioma</code></strong></td><td>Idioma en el que estará las configuraciones</td></tr></tbody></table>
+
+***
+
+### 4. Acciones disponibles
 
 <table><thead><tr><th width="131.63641357421875" align="center">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td align="center"><img src="../../../.gitbook/assets/image (453).png" alt="" data-size="line">/<img src="../../../.gitbook/assets/image (450).png" alt="" data-size="line"></td><td>Crea una nueva política o término de privacidad.</td></tr><tr><td align="center"><img src="../../../.gitbook/assets/image (449).png" alt="" data-size="line"></td><td>Modifica la posición de las políticas y privacidad dentro de la plataforma.</td></tr><tr><td align="center"><img src="../../../.gitbook/assets/image (454).png" alt="" data-size="line"></td><td>Muestra los submenús asociados a una política principal.</td></tr><tr><td align="center"><img src="../../../.gitbook/assets/image (451).png" alt="" data-size="original"></td><td>Elimina una política o privacidad configurada.</td></tr><tr><td align="center"><img src="../../../.gitbook/assets/image (456).png" alt="" data-size="line"></td><td>Almacena las configuraciones realizadas.</td></tr></tbody></table>
 
 ***
 
-### 4. Agregar
+### 5. Agregar
 
 Al seleccionar <img src="../../../.gitbook/assets/image (466).png" alt="" data-size="line">, se presenta el formulario para configurar una nueva política o término de privacidad.
 
@@ -44,7 +52,7 @@ Al seleccionar <img src="../../../.gitbook/assets/image (466).png" alt="" data-s
 
 ***
 
-### 5. Validaciones y reglas del negocio
+### 6. Validaciones y reglas del negocio
 
 * Cada política o término de privacidad debe contar con una **ruta** y un **título** para completar su configuración.
 * Los submenús se asocian a una política principal mediante el botón **Agregar**.
@@ -54,7 +62,7 @@ Al seleccionar <img src="../../../.gitbook/assets/image (466).png" alt="" data-s
 
 ***
 
-### 6. Control de Versiones
+### 7. Control de Versiones
 
 <details>
 

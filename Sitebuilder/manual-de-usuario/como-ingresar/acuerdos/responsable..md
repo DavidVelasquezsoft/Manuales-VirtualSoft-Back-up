@@ -27,7 +27,7 @@ layout:
 
 ### 1. Acceso al Módulo
 
-**Ruta de Acceso:**  > Responsable
+**Ruta de Acceso:** SiteBuilder > Partner > Acuerdos > Responsable
 
 ***
 
@@ -37,13 +37,21 @@ layout:
 
 ***
 
-### 3. Acciones disponibles
+### 3. **Configuraciones previas.**
+
+Antes de realizar las acciones disponibles, es necesario contar con las siguientes configuraciones:
+
+<table><thead><tr><th width="220">Parámetro</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>País</code></strong></td><td>País para el cual se realizará la configuración</td></tr><tr><td><strong><code>Idioma</code></strong></td><td>Idioma en el que estará las configuraciones</td></tr></tbody></table>
+
+***
+
+### 4. Acciones disponibles
 
 <table><thead><tr><th width="131.63641357421875" align="center">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td align="center"><a href="responsable..md#id-4.-agregar"><img src="../../../.gitbook/assets/image (450).png" alt="" data-size="line"></a></td><td>Crea una nueva política de juego responsable y configura la información que será presentada en la plataforma.</td></tr><tr><td align="center"><img src="../../../.gitbook/assets/image (471).png" alt="" data-size="line"></td><td>Modifica la posición de las políticas de juego responsable para establecer el orden en que serán visualizadas en la plataforma.</td></tr><tr><td align="center"><img src="../../../.gitbook/assets/image (453).png" alt="" data-size="line"></td><td>Crea un submenú asociado a una política principal para organizar su contenido.</td></tr><tr><td align="center"><img src="../../../.gitbook/assets/image (472).png" alt="" data-size="line"></td><td>Muestra los submenús asociados a una política principal.</td></tr><tr><td align="center"><img src="../../../.gitbook/assets/image (473).png" alt=""></td><td>Elimina una política de juego responsable o un submenú configurado.</td></tr><tr><td align="center"><img src="../../../.gitbook/assets/image (474).png" alt="" data-size="line"></td><td>Almacena las configuraciones realizadas en el módulo.</td></tr></tbody></table>
 
 ***
 
-### 4. Agregar
+### 5. Agregar
 
 Al seleccionar el botón <img src="../../../.gitbook/assets/image (475).png" alt="" data-size="line">, se presenta el formulario para configurar una nueva política de juego responsable.
 
@@ -67,7 +75,7 @@ Al seleccionar el botón <img src="../../../.gitbook/assets/image (475).png" alt
 
 ***
 
-### 5. Validaciones y reglas del negocio
+### 6. Validaciones y reglas del negocio
 
 * Cada política de juego responsable debe contar con una **ruta** y un **título** para completar su configuración.
 * Los submenús se asocian a una política principal mediante el botón **Agregar submenú**.
@@ -78,7 +86,7 @@ Al seleccionar el botón <img src="../../../.gitbook/assets/image (475).png" alt
 
 ***
 
-### 6. Control de Versiones
+### 7. Control de Versiones
 
 <details>
 
