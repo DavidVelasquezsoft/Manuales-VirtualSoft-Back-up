@@ -91,6 +91,6 @@ Al seleccionar el botón <img src="../../../.gitbook/assets/image (489).png" alt
 
 <summary>🔽 Historial de versiones</summary>
 
-<table><thead><tr><th width="104">Versión</th><th width="125">Fecha</th><th width="117">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>01/08/2026</td><td>Karol Navia</td><td>Reestructuración adaptada a plantilla.</td></tr></tbody></table>
+<table><thead><tr><th width="104">Versión</th><th width="125">Fecha</th><th width="117">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>01/08/2026</td><td>Karol Navia</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-33474">Reestructuración adaptada a plantilla.</a></td></tr></tbody></table>
 
 </details>
