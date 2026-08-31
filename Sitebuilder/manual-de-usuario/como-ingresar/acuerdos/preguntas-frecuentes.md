@@ -44,10 +44,7 @@ layout:
 
 Antes de realizar las acciones disponibles, es necesario contar con las siguientes configuraciones:
 
-| Parámetro    | Descripción                                     |
-| ------------ | ----------------------------------------------- |
-| **`País`**   | País para el cual se realizará la configuración |
-| **`Idioma`** | Idioma en el que estará las configuraciones     |
+<table><thead><tr><th width="225">Parámetro</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>País</code></strong></td><td>País para el cual se realizará la configuración</td></tr><tr><td><strong><code>Idioma</code></strong></td><td>Idioma en el que estará las configuraciones</td></tr></tbody></table>
 
 ***
 
@@ -59,7 +56,7 @@ Antes de realizar las acciones disponibles, es necesario contar con las siguient
 
 ### 5. Agregar
 
-Al seleccionar el botón **Agregar**, se presenta una tarjeta para configurar una nueva categoría de preguntas frecuentes.
+Al seleccionar el botón <img src="../../../.gitbook/assets/image (489).png" alt="" data-size="line">, se presenta una tarjeta para configurar una nueva categoría de preguntas frecuentes.
 
 <table><thead><tr><th width="150" align="center">Campo</th><th width="120">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td align="center"><strong><code>Ruta de Preguntas</code></strong></td><td>Texto / URL</td><td>Registra la ruta URL interna asociada a la categoría de preguntas frecuentes.</td></tr><tr><td align="center"><strong><code>Título</code></strong></td><td>Texto</td><td>Define el nombre que identificará la categoría de preguntas frecuentes.</td></tr><tr><td align="center"><strong>Agregar (+)</strong></td><td>Botón</td><td>Crea una subcategoría asociada a la categoría principal.</td></tr></tbody></table>
 
