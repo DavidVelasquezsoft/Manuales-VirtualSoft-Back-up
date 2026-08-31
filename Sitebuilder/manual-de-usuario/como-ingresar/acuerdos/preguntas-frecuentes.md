@@ -76,20 +76,6 @@ Al seleccionar el botón **Agregar (+)** dentro de una categoría, se presenta u
 
 ***
 
-#### Configuración del contenido
-
-Al seleccionar el ícono de **Texto**, se presenta un pop-up donde se configura el contenido explicativo de la pregunta o sección.
-
-<table data-header-hidden><thead><tr><th width="150" align="center">Campo</th><th width="120">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td align="center"><strong><code>Texto</code></strong></td><td>Editor de texto</td><td>Configura el contenido explicativo que será mostrado al usuario dentro de la pregunta o sección.</td></tr></tbody></table>
-
-{% hint style="info" %}
-**Nota:** El contenido puede incluir código HTML para aplicar formatos personalizados al texto.
-{% endhint %}
-
-***
-
-#### 5. Configuraciones adicionales
-
 <table><thead><tr><th width="150" align="center">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td align="center"><strong>Ordenar</strong></td><td>Modifica la posición de las categorías, subcategorías o preguntas para establecer el orden de visualización en la plataforma.</td></tr><tr><td align="center"><strong>Eliminar</strong></td><td>Elimina la sección o pregunta seleccionada de la configuración.</td></tr><tr><td align="center"><strong>Buscar</strong></td><td>Localiza preguntas mediante el texto original o personalizado registrado en la configuración.</td></tr></tbody></table>
 
 {% hint style="warning" %}
