@@ -58,7 +58,7 @@ Antes de realizar las acciones disponibles, es necesario contar con las siguient
 
 Al seleccionar el botón <img src="../../../.gitbook/assets/image (489).png" alt="" data-size="line">, se presenta una tarjeta para configurar una nueva categoría de preguntas frecuentes.
 
-<table><thead><tr><th width="150" align="center">Campo</th><th width="120">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td align="center"><strong><code>Ruta de Preguntas</code></strong></td><td>Texto / URL</td><td>Registra la ruta URL interna asociada a la categoría de preguntas frecuentes.</td></tr><tr><td align="center"><strong><code>Título</code></strong></td><td>Texto</td><td>Define el nombre que identificará la categoría de preguntas frecuentes.</td></tr><tr><td align="center"><strong>Agregar (+)</strong></td><td>Botón</td><td>Crea una subcategoría asociada a la categoría principal.</td></tr></tbody></table>
+<table><thead><tr><th width="150" align="center">Campo</th><th width="120">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td align="center"><strong><code>Ruta de Preguntas</code></strong></td><td>Texto / URL</td><td>Registra la ruta URL interna asociada a la categoría de preguntas frecuentes.</td></tr><tr><td align="center"><strong><code>Título</code></strong></td><td>Texto</td><td>Define el nombre que identificará la categoría de preguntas frecuentes.</td></tr><tr><td align="center"><img src="../../../.gitbook/assets/image (496).png" alt="" data-size="line"></td><td>Botón</td><td>Crea una subcategoría asociada a la categoría principal.</td></tr></tbody></table>
 
 {% columns %}
 {% column width="33.33333333333333%" %}
