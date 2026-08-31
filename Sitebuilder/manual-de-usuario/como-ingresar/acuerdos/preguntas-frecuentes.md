@@ -66,21 +66,13 @@ Al seleccionar el botón <img src="../../../.gitbook/assets/image (489).png" alt
 {% endcolumn %}
 
 {% column width="66.66666666666667%" %}
-#### Configuración de subcategorías
-
-Al seleccionar el botón **Agregar (+)** dentro de una categoría, se presenta un nuevo apartado para configurar la subcategoría.
-
 <table><thead><tr><th width="130" align="center">Campo</th><th width="100">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td align="center"><strong><code>Ruta de Preguntas</code></strong></td><td>Texto / URL</td><td>Registra la ruta específica asociada a la subcategoría.</td></tr><tr><td align="center"><strong><code>Subtítulo Preguntas</code></strong></td><td>Texto</td><td>Define el nombre que identificará la subcategoría dentro de la categoría principal.</td></tr><tr><td align="center"><strong>Texto</strong></td><td>Botón</td><td>Abre el contenido de la subcategoría para configurar la información que será presentada en la plataforma.</td></tr></tbody></table>
 {% endcolumn %}
 {% endcolumns %}
 
 ***
 
-<table><thead><tr><th width="150" align="center">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td align="center"><strong>Ordenar</strong></td><td>Modifica la posición de las categorías, subcategorías o preguntas para establecer el orden de visualización en la plataforma.</td></tr><tr><td align="center"><strong>Eliminar</strong></td><td>Elimina la sección o pregunta seleccionada de la configuración.</td></tr><tr><td align="center"><strong>Buscar</strong></td><td>Localiza preguntas mediante el texto original o personalizado registrado en la configuración.</td></tr></tbody></table>
-
-{% hint style="warning" %}
-**Importante:** El orden establecido en la configuración determina la posición en la que las categorías, subcategorías y preguntas serán presentadas en la plataforma.
-{% endhint %}
+<table data-header-hidden><thead><tr><th width="150" align="center">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td align="center"><strong>Ordenar</strong></td><td><p>Modifica la posición de las categorías, subcategorías o preguntas para establecer el orden de visualización en la plataforma.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Importante:</strong> El orden establecido en la configuración determina la posición en la que las categorías, subcategorías y preguntas serán presentadas en la plataforma.</p></div></td></tr><tr><td align="center"><strong>Eliminar</strong></td><td>Elimina la sección o pregunta seleccionada de la configuración.</td></tr><tr><td align="center"><strong>Buscar</strong></td><td>Localiza preguntas mediante el texto original o personalizado registrado en la configuración.</td></tr></tbody></table>
 
 ***
 
