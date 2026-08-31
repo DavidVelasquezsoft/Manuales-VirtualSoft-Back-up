@@ -63,8 +63,6 @@ Al seleccionar el botón <img src="../../../.gitbook/assets/image (475).png" alt
 {% endcolumn %}
 
 {% column width="66.66666666666667%" %}
-#### Configuración del submenú
-
 <table><thead><tr><th width="123.6363525390625" align="center" valign="middle">Campo</th><th width="86.727294921875">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td align="center" valign="middle"><strong><code>Ruta de juego responsable</code></strong></td><td>URL</td><td>Registra la ruta donde estará disponible el contenido del submenú.</td></tr><tr><td align="center" valign="middle"><strong><code>Título</code></strong></td><td>Texto</td><td>Define el título que identificará el submenú dentro de la política principal.</td></tr><tr><td align="center" valign="middle"><img src="../../../.gitbook/assets/image (478).png" alt="" data-size="line"></td><td>Editor de texto</td><td>Configura el contenido que será presentado dentro del submenú de juego responsable.</td></tr><tr><td align="center" valign="middle"><img src="../../../.gitbook/assets/image (479).png" alt=""></td><td>Botón</td><td>Elimina el submenú creado.</td></tr></tbody></table>
 {% endcolumn %}
 {% endcolumns %}
