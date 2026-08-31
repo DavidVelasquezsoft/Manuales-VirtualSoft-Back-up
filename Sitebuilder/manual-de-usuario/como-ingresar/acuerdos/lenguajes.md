@@ -21,7 +21,7 @@ layout:
 
 # Lenguajes
 
-Este módulo permite gestionar los textos personalizados que se muestran en la plataforma, reemplazando mensajes originales por contenidos adaptados según el país y el idioma configurados. Además, facilita la administración de estas personalizaciones mediante opciones para crear, editar, buscar y eliminar registros.
+<mark style="color:$info;">Este módulo permite gestionar los textos personalizados que se muestran en la plataforma, reemplazando mensajes originales por contenidos adaptados según el país y el idioma configurados. Además, facilita la administración de estas personalizaciones mediante opciones para crear, editar, buscar y eliminar registros</mark>.
 
 ### **1. Acceso al módulo**
 
