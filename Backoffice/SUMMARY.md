@@ -158,6 +158,7 @@
         * [Partners SubProveedores](manual-de-usuario-backoffice/herramientas/partner-ajustes/productos-2/partners-subproveedores.md)
         * [Credenciales Por SubProveedor](manual-de-usuario-backoffice/herramientas/partner-ajustes/productos-2/credenciales-por-subproveedor.md)
         * [Partner sub proveedores Orden](manual-de-usuario-backoffice/herramientas/partner-ajustes/productos-2/partner-sub-proveedores-orden.md)
+        * [Partners Categorías](manual-de-usuario-backoffice/herramientas/partner-ajustes/productos-2/partners-categorias.md)
         * [Ordenar Juegos](manual-de-usuario-backoffice/herramientas/partner-ajustes/productos-2/ordenar-juegos.md)
         * [Banco País](manual-de-usuario-backoffice/herramientas/partner-ajustes/productos-2/banco-pais.md)
         * [Partners Franquicias](manual-de-usuario-backoffice/herramientas/partner-ajustes/productos-2/partners-franquicias.md)
