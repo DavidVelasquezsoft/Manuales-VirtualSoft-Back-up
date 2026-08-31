@@ -6,7 +6,7 @@
 
 ### 1. Acceso al Módulo
 
-**Ruta de Acceso:** Backoffice > Configuración > Política y privacidad
+**Ruta de Acceso:** SiteBuilder > Partner > Acuerdos > Política y privacidad
 
 ***
 
