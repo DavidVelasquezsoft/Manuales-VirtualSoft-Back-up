@@ -87,6 +87,6 @@ Para cada texto personalizado se permiten realizar las siguientes acciones:
 
 <summary>🔽 Historial de versiones</summary>
 
-<table><thead><tr><th width="103">Versión</th><th width="137">Fecha</th><th width="149">Autor</th><th>Descripción del cambio</th></tr></thead><tbody><tr><td>1.0</td><td>03/07/2026</td><td>Ronald Peláez</td><td>Creación inicial.</td></tr><tr><td>1.1</td><td>01/08/2026</td><td>Karol Navia </td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-33465">Arreglos en la estructura</a></td></tr></tbody></table>
+<table><thead><tr><th width="104">Versión</th><th width="121">Fecha</th><th width="137">Autor</th><th>Descripción del cambio</th></tr></thead><tbody><tr><td>1.0</td><td>03/07/2026</td><td>Ronald Peláez</td><td>Creación inicial.</td></tr><tr><td>1.1</td><td>01/08/2026</td><td>Karol Navia </td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-33465">Arreglos en la estructura de todo el manual</a></td></tr></tbody></table>
 
 </details>
