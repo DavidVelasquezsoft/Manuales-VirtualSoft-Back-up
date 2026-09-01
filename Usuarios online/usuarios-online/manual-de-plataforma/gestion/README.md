@@ -43,8 +43,6 @@ layout:
 
 <summary>🔽Historial de versiones</summary>
 
-<table><thead><tr><th width="125.4000244140625">Versión</th><th width="142.79998779296875">Fecha</th><th width="160.2000732421875">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>21/07/2025</td><td>Ronald Pelaez</td><td>Nuevo formato.</td></tr><tr><td>1.1</td><td>01/09/2026</td><td>Karol Navia</td><td>Organización general del manual y mejora en la aplicación de la plantilla.</td></tr></tbody></table>
-
-
+<table><thead><tr><th width="125.4000244140625">Versión</th><th width="142.79998779296875">Fecha</th><th width="160.2000732421875">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>21/07/2025</td><td>Ronald Pelaez</td><td>Nuevo formato.</td></tr><tr><td>1.1</td><td>01/09/2026</td><td>Karol Navia</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-33464">Organización general del manual y mejora en la aplicación de la plantilla.</a></td></tr></tbody></table>
 
 </details>
