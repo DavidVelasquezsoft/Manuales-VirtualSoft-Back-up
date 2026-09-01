@@ -523,9 +523,6 @@ Si el jackpot está configurado con reinicio, el sistema **crea automáticamente
 
 <summary>Historial de versiones</summary>
 
-| Versión | Fecha      | Autor       | Cambios realizados                |
-| ------- | ---------- | ----------- | --------------------------------- |
-| 1.0     | 03/12/2025 | David Ortiz | Documento inicial                 |
-| 1.1     | 18/12/2025 | David Ortiz | Incorporación del funcionamiento. |
+<table><thead><tr><th width="107">Versión</th><th width="122">Fecha</th><th width="129">Autor</th><th>Cambios realizados</th></tr></thead><tbody><tr><td>1.0</td><td>03/12/2025</td><td>David Ortiz</td><td>Documento inicial</td></tr><tr><td>1.1</td><td>18/12/2025</td><td>David Ortiz</td><td>Incorporación del funcionamiento.</td></tr></tbody></table>
 
 </details>
