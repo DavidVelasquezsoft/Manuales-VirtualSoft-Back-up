@@ -94,6 +94,6 @@ Nota: Si se realiza una compra de giros en la tienda del proveedor, las ganancia
 
 <summary>🔽Historial de versiones.</summary>
 
-<table><thead><tr><th width="105.8148193359375">Versión</th><th>Fecha</th><th>Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>05/06/2026</td><td>Ronald Peláez</td><td>Documento inicial </td></tr></tbody></table>
+<table><thead><tr><th width="105.8148193359375">Versión</th><th>Fecha</th><th>Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>02/09/2026</td><td>Ronald Peláez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-29868">Documento inicial </a></td></tr></tbody></table>
 
 </details>
