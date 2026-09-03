@@ -65,11 +65,21 @@ Incorpora elementos gráficos animados al inicio del menú principal para destac
 
 ### **Visualización**
 
-<figure><img src="../../../.gitbook/assets/image (445).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Gif.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (510).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Gif.</p></figcaption></figure>
 
 ### **Configuración**
 
-<table><thead><tr><th width="194">Campo</th><th width="124">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Vista Previa</code></strong></td><td>Imagen</td><td>Presenta una simulación del GIF con la configuración realizada antes de guardar los cambios.</td></tr><tr><td><strong><code>Fondo degradado</code></strong></td><td>Selector de color</td><td>Define los colores que conformarán el fondo del GIF.</td></tr><tr><td><strong><code>Imagen izquierda</code></strong></td><td>Imagen</td><td>Registra la imagen que acompañará el GIF al lado derecho.</td></tr><tr><td><strong><code>GIF</code></strong></td><td>Imagen animada</td><td>Archivo GIF que será visualizado en la plataforma.</td></tr><tr><td><strong><code>URL de redirección</code></strong></td><td>URL</td><td>Dirección web que será redirigido al presionar el GIF.</td></tr></tbody></table>
+<table><thead><tr><th width="129">Campo</th><th width="124">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td>        <img src="../../../.gitbook/assets/icon-button (1).png" alt="" data-size="line"> </td><td>Botón</td><td>Despliega el formulario para crear un nuevo GIF</td></tr><tr><td><strong><code>Vista Previa</code></strong></td><td>Imagen</td><td>Presenta una simulación del GIF con la configuración realizada antes de guardar los cambios.</td></tr><tr><td>        <img src="../../../.gitbook/assets/icon.png" alt="" data-size="line"></td><td>Botón</td><td>Arrastra los gifs configurados para asignarle un orden en la plataforma Usuarios Online.</td></tr><tr><td>       <img src="../../../.gitbook/assets/image (443).png" alt="" data-size="line"></td><td></td><td></td></tr><tr><td>        <img src="../../../.gitbook/assets/image (439).png" alt="" data-size="line"></td><td></td><td></td></tr></tbody></table>
+
+<details>
+
+<summary><strong>Formulario para creación de un GIF</strong></summary>
+
+<table><thead><tr><th width="148">Campo</th><th width="131">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Fondo degradado</code></strong></td><td>Selector de color</td><td>Define los colores que conformarán el fondo del GIF.</td></tr><tr><td><strong><code>Imagen izquierda</code></strong></td><td>Imagen</td><td>Registra la imagen que acompañará el GIF al lado derecho.</td></tr><tr><td><strong><code>GIF</code></strong></td><td>Imagen animada</td><td>Archivo GIF que será visualizado en la plataforma.</td></tr><tr><td><strong><code>URL de redirección</code></strong></td><td>URL</td><td>Dirección web que será redirigido al presionar el GIF.</td></tr></tbody></table>
+
+</details>
+
+
 {% endtab %}
 {% endtabs %}
 
