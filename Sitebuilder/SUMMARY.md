@@ -41,6 +41,7 @@
     * [Promocionales](manual-de-usuario/como-ingresar/promocionales/README.md)
       * [Promociones.](manual-de-usuario/como-ingresar/promocionales/promociones..md)
       * [Referidos](manual-de-usuario/como-ingresar/promocionales/referidos.md)
+      * [Misiones](manual-de-usuario/como-ingresar/promocionales/misiones.md)
       * [Niveles de lealtad.](manual-de-usuario/como-ingresar/promocionales/niveles-de-lealtad..md)
       * [Premios](manual-de-usuario/como-ingresar/promocionales/premios.md)
     * [Configuración](manual-de-usuario/como-ingresar/configuracion/README.md)
