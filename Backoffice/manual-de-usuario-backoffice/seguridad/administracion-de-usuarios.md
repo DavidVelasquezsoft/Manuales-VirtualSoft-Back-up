@@ -111,7 +111,7 @@ Reúne las configuraciones relacionadas con la seguridad del usuario y su operac
 
 ### 7. Añadir usuario
 
-Registra un nuevo usuario en el sistema vinculándolo a un país y a uno o varios partners.
+Permite registrar un nuevo usuario administrativo, vinculándolo a un país y a uno o varios partners.
 
 <figure><img src="../../.gitbook/assets/image (524).png" alt=""><figcaption></figcaption></figure>
 
@@ -119,47 +119,87 @@ Registra un nuevo usuario en el sistema vinculándolo a un país y a uno o vario
 
 <summary><strong>Datos principales</strong></summary>
 
-<table><thead><tr><th width="138.2222900390625">Campo</th><th width="122.77783203125">Tipo control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Login para Acceso</code></strong></td><td>Correo</td><td>Correo electronico del usuario.</td></tr><tr><td><strong><code>Nombre del usuario</code></strong></td><td>Texto</td><td>Nombre que se mostrará públicamente en la plataforma.</td></tr><tr><td><strong><code>País</code></strong></td><td>Lista desplegable</td><td>Selecciona pais del usuario.</td></tr><tr><td><strong><code>Clave</code></strong></td><td>Numerico</td><td>Código que se envía por correo al completar el registro. Sirve para generar un token para el inicio de sesión.</td></tr><tr><td><strong><code>Idioma preferido</code></strong></td><td>Lista desplegable</td><td>Selecciona idioma para la interfaz del usuario.</td></tr><tr><td><strong><code>Moneda</code></strong></td><td>Lista desplegable</td><td>Moneda del pais seleccionado.</td></tr><tr><td><strong><code>Tipo de usuario</code></strong></td><td>Lista desplegable</td><td>Según el tipo seleccionado, se asignan diferentes niveles de permisos y accesos.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Lista desplegable</td><td>Permite seleccionar el estado actual del usuario</td></tr><tr><td><strong><code>Partners</code></strong></td><td>Lista doble</td><td>Permite seleccionar uno o varios partners en los que estara creado el usuario.</td></tr><tr><td><strong><code>Usuario de País</code></strong></td><td>Lista desplegable</td><td>Indica si el registro se limita únicamente al país seleccionado.</td></tr><tr><td><strong><code>Consesionario</code></strong></td><td>Dropdown</td><td>No requiere ingreso manual, el sistema lo gestiona automáticamente.</td></tr></tbody></table>
+<table><thead><tr><th width="160">Campo</th><th width="140">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Login para Acceso</code></strong></td><td>Campo de texto</td><td>Correo electrónico con el que el usuario accederá al sistema.</td></tr><tr><td><strong><code>Nombre del usuario</code></strong></td><td>Campo de texto</td><td>Nombre que se mostrará públicamente en la plataforma.</td></tr><tr><td><strong><code>País</code></strong></td><td>Lista desplegable</td><td>País al que se asociará el usuario.</td></tr><tr><td><strong><code>Clave</code></strong></td><td>Numérico</td><td>Código que se envía por correo al completar el registro y que permite generar el token para el inicio de sesión.</td></tr><tr><td><strong><code>Idioma preferido</code></strong></td><td>Lista desplegable</td><td>Idioma en el que se mostrará la interfaz al usuario.</td></tr><tr><td><strong><code>Moneda</code></strong></td><td>Lista desplegable</td><td>Moneda asociada al país seleccionado.</td></tr><tr><td><strong><code>Tipo de usuario</code></strong></td><td>Lista desplegable</td><td>Define el tipo de usuario y, con ello, los niveles de permisos y accesos asignados.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Lista desplegable</td><td>Define el estado con el que quedará el usuario tras su creación.</td></tr><tr><td><strong><code>Partners</code></strong></td><td>Lista doble</td><td>Permite seleccionar uno o varios partners en los que estará creado el usuario.</td></tr><tr><td><strong><code>Usuario de País</code></strong></td><td>Lista desplegable</td><td>Indica si el usuario queda limitado únicamente al país seleccionado.</td></tr><tr><td><strong><code>Concesionario</code></strong></td><td>Lista desplegable</td><td>Concesionario asociado al usuario. No requiere ingreso manual, ya que el sistema lo gestiona automáticamente.</td></tr></tbody></table>
 
 </details>
 
 <details>
 
-<summary><strong>Datos configuración</strong></summary>
+<summary><strong>Datos de configuración</strong></summary>
 
-Establece los permisos y acciones disponibles para el usuario, Todos son campos **obligatorios**.
+Establece los permisos y acciones disponibles para el usuario. Todos los campos son **obligatorios**.
 
-<table><thead><tr><th width="138.77783203125">Campo</th><th width="119.22222900390625">Tipo control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Estado especial</code></strong></td><td>Toggle switch</td><td>Debe estar "<strong>Activado</strong>" para garantizar el correcto funcionamiento del usuario en la plataforma.</td></tr><tr><td><strong><code>Bloqueado para ventas</code></strong></td><td>Toggle switch</td><td>Restringe las ventas al usuario. Se sugiere seleccionar "<strong>Sí</strong>".</td></tr><tr><td><strong><code>Permite recargas</code></strong></td><td>Toggle switch</td><td>Permite o bloquea la posibilidad de realizar recargas. Por defecto, debe estar en "<strong>No</strong>".</td></tr><tr><td><strong><code>Pinagent</code></strong></td><td>Toggle switch</td><td>Define si aplica para código de referencia que asocia al nuevo usuario con el agente o punto de venta. Se sugiere seleccionar "<strong>No</strong>".</td></tr><tr><td><strong><code>Imprime recibo caja</code></strong></td><td>Toggle switch</td><td>Activa o desactiva el permiso de hacer la impresión del recibo de caja. La opción recomendada es "<strong>No</strong>".</td></tr><tr><td><strong><code>Permite activar reg</code></strong></td><td>Toggle switch</td><td>Indica si el usuario tiene permiso para activar <strong>regalos</strong> en la plataforma. La opción recomendada es "<strong>No</strong>".</td></tr></tbody></table>
-
-</details>
-
-<details>
-
-<summary><strong>Activación de acceso a la plataforma</strong></summary>
-
-Para habilitar el acceso al usuario:
-
-* **Buscar** el usuario en la sección Usuarios administrativos.
-* **Seleccionar** el ícono 🔎 del usuario correspondiente.
-* &#x20;**Ingresar** a la sección Configuración > Seguridad cambios.
-* Hacer clic en "**Desbloquear usuario**" para habilitarlo.
-* **Activar** el "**Token Google**".
-* Hacer clic en "**Generar contraseña**" para enviar la contraseña al correo del usuario.
-
-📍**Ruta:** BackOffice > Seguridad > Usuarios administrativos > 🔎 usuario > Configuración > Seguridad cambios.
-
-{% @guideflow/guideflow-embed requestedUrl="https://app.guideflow.com/player/ok8e7veixk" %}
+<table><thead><tr><th width="180">Campo</th><th width="130">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Estado especial</code></strong></td><td>Interruptor</td><td>Debe permanecer <strong>activado</strong> para garantizar el correcto funcionamiento del usuario en la plataforma.</td></tr><tr><td><strong><code>Bloqueado para ventas</code></strong></td><td>Interruptor</td><td>Restringe las ventas al usuario. Se recomienda seleccionar <strong>Sí</strong>.</td></tr><tr><td><strong><code>Permite recargas</code></strong></td><td>Interruptor</td><td>Habilita o bloquea la posibilidad de realizar recargas. Por defecto debe permanecer en <strong>No</strong>.</td></tr><tr><td><strong><code>Pinagent</code></strong></td><td>Interruptor</td><td>Define si aplica el código de referencia que asocia al nuevo usuario con el agente o punto de venta. Se recomienda seleccionar <strong>No</strong>.</td></tr><tr><td><strong><code>Imprime recibo caja</code></strong></td><td>Interruptor</td><td>Habilita el permiso para imprimir el recibo de caja. Se recomienda seleccionar <strong>No</strong>.</td></tr><tr><td><strong><code>Permite activar reg</code></strong></td><td>Interruptor</td><td>Indica si el usuario tiene permiso para activar regalos en la plataforma. Se recomienda seleccionar <strong>No</strong>.</td></tr></tbody></table>
 
 </details>
+
+{% hint style="warning" %}
+**Nota:** Una vez completados todos los campos requeridos para crear el usuario correctamente, selecciona el botón **Guardar**.
+{% endhint %}
 
 ***
 
-### 8. Control de Versiones
+### 8. Activación de acceso a la plataforma
+
+Una vez creado el usuario, es necesario habilitar su acceso mediante los siguientes pasos:
+
+{% stepper %}
+{% step %}
+**Ubicar el usuario**
+
+Buscar el usuario en la sección **Usuarios administrativos** y seleccionar el ícono de lupa _(🔎)_ del registro correspondiente.
+{% endstep %}
+
+{% step %}
+**Ingresar a la configuración de seguridad**
+
+Acceder a la pestaña **Configuración > Seguridad y Cambios**.
+{% endstep %}
+
+{% step %}
+**Desbloquear el usuario**
+
+Seleccionar la opción **Desbloquear usuario** para habilitar su acceso.
+{% endstep %}
+
+{% step %}
+**Activar el token**
+
+Activar la opción **Token Google** para asegurar el inicio de sesión.
+{% endstep %}
+
+{% step %}
+**Generar la contraseña**
+
+Seleccionar la opción **Generar contraseña** para que el sistema envíe la contraseña al correo electrónico del usuario.
+{% endstep %}
+{% endstepper %}
+
+{% hint style="info" %}
+**Ruta:** BackOffice > Seguridad > Usuarios administrativos > 🔎 usuario > Configuración > Seguridad y Cambios.
+{% endhint %}
+
+{% @guideflow/guideflow-embed requestedUrl="https://app.guideflow.com/player/ok8e7veixk" %}
+
+***
+
+### 9. Validaciones y reglas del negocio:
+
+* Todos los campos del formulario de creación son obligatorios.
+* Tras crear el usuario, es necesario desbloquearlo, activar su token y generar su contraseña para habilitar su acceso a la plataforma.
+* El campo **`Estado especial`** debe permanecer activado para garantizar el correcto funcionamiento del usuario.
+* El campo **`Concesionario`** es gestionado automáticamente por el sistema y no requiere ingreso manual.
+* Un usuario puede estar vinculado a uno o varios partners, los cuales pueden modificarse posteriormente desde el detalle del usuario.
+* La cancelación de una cuenta requiere registrar una observación con el motivo.
+
+***
+
+### 10. Control de Versiones
 
 <details>
 
-<summary><strong>🔽Historial de versiones</strong></summary>
+<summary>🔽 Historial de versiones</summary>
 
-<table><thead><tr><th width="161.8148193359375">Versión</th><th>Fecha</th><th>Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>2025-07-15</td><td>David velasquez</td><td>Documento inicial</td></tr></tbody></table>
+<table><thead><tr><th width="102">Versión</th><th width="127">Fecha</th><th width="169">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>15/07/2025</td><td>David Velasquez</td><td>Documento inicial</td></tr><tr><td>1.1</td><td>04/09/2026</td><td>David Velasquez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-32081">Actualización del manual.</a></td></tr></tbody></table>
 
 </details>
