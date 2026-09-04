@@ -1,8 +1,8 @@
 ---
 description: >-
-  Permite consultar, crear y administrar los usuarios administrativos del
-  BackOffice, gestionando sus datos, permisos, partners asociados y
-  configuraciones de seguridad.
+  Consultar, crea y administra los usuarios administrativos del BackOffice,
+  gestionando sus datos, permisos, partners asociados y configuraciones de
+  seguridad.
 ---
 
 # Administración de Usuarios
