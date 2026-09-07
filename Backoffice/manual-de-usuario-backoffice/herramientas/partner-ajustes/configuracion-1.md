@@ -626,7 +626,7 @@ Permite agregar recompensas de referidos según dos modalidades: por primer dep�
 * Solo se pueden agregar **tres premios en total** entre todas las categorías.
 {% endhint %}
 
-**4.1. Agregar recompensa por primer deposito**
+#### **4.1. Agregar recompensa por primer deposito**
 
 Esta opción permite configurar un premio que los usuarios recibirán tras realizar su primer depósito.
 
@@ -647,7 +647,7 @@ Esta opción permite configurar un premio para los usuarios que realicen apuesta
 * Si no se agregan premios, se mostrará el mensaje: _“No hay premios agregados”_.
 * Para aplicar los cambios realizados, haz clic en el botón **Guardar** ubicado en la parte inferior.\
   Si deseas descartar la información ingresada, utiliza el botón **Limpiar** para restablecer los campos a su estado inicial.
-* Solo se mostrarán los bonos disponibles en esta sección que se encuentren vigentes, activos en la plataforma y hayan sido creados desde el módulo de bonos. [Crear Bono.](https://app.gitbook.com/s/rLdGx9JdTz3uLoquKvJw/torneos-y-bonos./como-acceder-a-la-plataforma-./crear-eventos./crear-bono. "mention")
+* Solo se mostrarán los bonos disponibles en esta sección que se encuentren vigentes, activos en la plataforma y hayan sido creados desde el módulo de bonos. [Crear Bono.](https://app.gitbook.com/s/rLdGx9JdTz3uLoquKvJw/torneos-y-bonos./como-acceder-a-la-plataforma-./crear-eventos./crear-bono. "mention") y que en el campo "Es para" se haya seleccionado _"**referidos**"_
 * Las configuraciones realizadas en este módulo no dependen de alguna plantilla previamente creada en la plataforma [Marketing](https://virtualsoft.gitbook.io/manuales/marketing).
 * Los referidos de pueden gestionar en la plataforma Usuarios Online desde el módulo _"_[_Referidos_](https://virtualsoft.gitbook.io/manuales/usuarios/usuarios-online/manual-de-plataforma/referidos#id-2.1-agregar-referidos)_"_
 
