@@ -46,7 +46,7 @@ Aplica los filtros seleccionados y muestra los registros válidos en una tabla
 
 ***
 
-<table data-header-hidden><thead><tr><th width="142.6666259765625"></th><th></th></tr></thead><tbody><tr><td><img src="../../.gitbook/assets/image (717).png" alt="" data-size="original"></td><td><p>Despliega un pop-up que permite aprobar o rechazar una solicitud de depósito.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Si la opción de autorización temporal está activa, el token se solicitará solo en la primera <strong>aprobación o rechazo</strong> y tendrá una validez de <strong>30 minutos</strong> para las siguientes operaciones. Si está inactiva, el sistema exigirá el token en cada transacción.</p></div></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="142.6666259765625"></th><th></th></tr></thead><tbody><tr><td><img src="../../.gitbook/assets/image (717).png" alt="" data-size="original"></td><td>Despliega un pop-up que permite aprobar o rechazar una solicitud de depósito.</td></tr></tbody></table>
 
 {% columns %}
 {% column width="16.666666666666664%" %}
@@ -54,20 +54,20 @@ Aplica los filtros seleccionados y muestra los registros válidos en una tabla
 {% endcolumn %}
 
 {% column width="83.33333333333334%" %}
-Al seleccionar la opción de aprobar una solicitud de depósito, el sistema muestra un modal con la información de la transacción para su revisión antes de confirmar la acción:
+Al seleccionar la opción de aprobar, el sistema muestra un modal con la información de la transacción para su revisión antes de confirmar la acción:
 
 <table><thead><tr><th width="150">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Comprobante de pago</code></strong></td><td>Imagen del comprobante adjuntado por el usuario, cuando el depósito se realizó mediante transferencia bancaria.</td></tr><tr><td><a href="https://virtualsoft.gitbook.io/untitled/glosario#external-id"><strong><code>External ID</code></strong></a></td><td><p>Número de referencia externo del depósito registrado por el usuario al generar la solicitud.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Este campo es editable únicamente para los operadores que cuenten con el permiso correspondiente, con el fin de corregir errores de digitación identificados durante la revisión. Los operadores sin el permiso lo visualizan bloqueado.</p></div></td></tr><tr><td><strong><code>Fecha</code></strong></td><td>Fecha en la que se realizó la transacción.</td></tr><tr><td><strong><code>Valor</code></strong></td><td>Monto del depósito solicitado.</td></tr></tbody></table>
 
-Una vez revisada la información, se selecciona el botón **Aprobar** para continuar con el proceso. Posteriormente, el sistema solicita el **token de autenticación** para confirmar la operación.
+Una vez revisada la información, se selecciona el botón **Aprobar** para continuar con el proceso.
 
 {% hint style="danger" %}
-**Validación de External ID:** antes de aprobar, el sistema verifica que el External ID no haya sido utilizado en otra solicitud de depósito **previamente aprobada**. Si ya fue utilizado, la solicitud no se aprueba y se muestra el mensaje:
+**Validación de External ID:** antes de aprobar, el sistema verifica que el External ID no haya sido utilizado en otra solicitud de depósito **previamente aprobada**. Si ya fue utilizado, la solicitud no se aprueba y se muestra el mensaje de error.
 
-_"No es posible aprobar la solicitud de depósito. El External ID ya fue utilizado para aprobar la transacción \[ID final de la transacción]."_
+Si el operador corrige el External ID desde esta vista, el sistema ejecuta nuevamente la validación antes de permitir la aprobación.
 {% endhint %}
 
-{% hint style="info" %}
-Si el operador corrige el External ID desde esta vista, el sistema ejecuta nuevamente la validación antes de permitir la aprobación.
+{% hint style="warning" %}
+**Nota:** Tanto la aprobación como el rechazo requieren confirmarse mediante el **token de autenticación**. Si la opción de autorización temporal está activa, el token se solicita únicamente en la primera operación y mantiene una validez de **30 minutos** para las siguientes; si está inactiva, el sistema lo exige en cada transacción.
 {% endhint %}
 {% endcolumn %}
 {% endcolumns %}
