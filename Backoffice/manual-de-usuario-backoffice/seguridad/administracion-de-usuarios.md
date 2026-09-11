@@ -81,10 +81,10 @@ Aplica los filtros seleccionados y muestra los [logs](https://virtualsoft.gitboo
 {% endtab %}
 
 {% tab title="Configuración" %}
-Reúne las opciones de gestión y personalización de la cuenta del usuario.
+Muestra las siguientes subsecciones disponibles para la gestión, configuración y personalización de la cuenta del usuario:
 
-**Cambio de contraseña**
-
+{% tabs %}
+{% tab title="Cambio de contraseña" %}
 Permite actualizar la contraseña del usuario mediante los siguientes campos:
 
 <table><thead><tr><th width="200">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Nueva Contraseña</code></strong></td><td>Nueva clave de acceso del usuario.</td></tr><tr><td><strong><code>Confirmar Contraseña</code></strong></td><td>Confirmación de la nueva clave de acceso.</td></tr></tbody></table>
@@ -92,20 +92,22 @@ Permite actualizar la contraseña del usuario mediante los siguientes campos:
 {% hint style="warning" %}
 **Nota:** Para aplicar el cambio es necesario seleccionar el botón **Guardar**.
 {% endhint %}
+{% endtab %}
 
-**Generar Token**
-
+{% tab title="Generar Token" %}
 Genera un token de autenticación requerido para los procesos de seguridad del usuario.
+{% endtab %}
 
-**QR Google**
-
-Genera un código QR para configurar la autenticación de dos factores mediante Google Authenticator.
-
-**Seguridad y Cambios**
-
+{% tab title="Seguridad y Cambios" %}
 Reúne las configuraciones relacionadas con la seguridad del usuario y su operación en la plataforma.
 
 <table><thead><tr><th width="230">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Desbloquear Usuario por Clave</code></strong></td><td>Habilita el acceso del usuario a la plataforma.</td></tr><tr><td><strong><code>Generar contraseña</code></strong></td><td>Envía una contraseña al correo electrónico registrado del usuario.</td></tr><tr><td><strong><code>Estado de Usuario</code></strong></td><td>Indica si la cuenta se encuentra activa o inactiva.</td></tr><tr><td><strong><code>Usuario es Global</code></strong></td><td>Habilita la cuenta para operar en todos los países.</td></tr><tr><td><strong><code>Usuario es de País</code></strong></td><td>Limita la operación del usuario únicamente al país seleccionado.</td></tr><tr><td><strong><code>Estado de Contingencia</code></strong></td><td>Indica si el usuario se encuentra restringido por un evento inesperado en el sistema.</td></tr><tr><td><strong><code>Contingencia Deportivas</code></strong></td><td>Restringe las operaciones del usuario en la vertical de apuestas deportivas.</td></tr><tr><td><strong><code>Contingencia Casino</code></strong></td><td>Restringe las operaciones del usuario en la vertical de casino.</td></tr><tr><td><strong><code>Contingencia Casino en Vivo</code></strong></td><td>Restringe las operaciones del usuario en la vertical de casino en vivo.</td></tr><tr><td><strong><code>Estado de Contingencia Virtuales</code></strong></td><td>Restringe el acceso del usuario a los juegos virtuales.</td></tr><tr><td><strong><code>Estado de Contingencia Poker</code></strong></td><td>Restringe las operaciones del usuario en la vertical de póker.</td></tr><tr><td><strong><code>Restricción IP</code></strong></td><td>Limita el acceso del usuario a las direcciones IP definidas en el campo.</td></tr><tr><td><strong><code>Token Google</code></strong></td><td>Habilita el token de Google para asegurar el inicio de sesión.</td></tr><tr><td><strong><code>Token Local</code></strong></td><td>Habilita el token local para el usuario.</td></tr><tr><td><strong><code>Cancelar cuenta</code></strong></td><td><p>Cancela la cuenta del usuario.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Al ejecutar esta acción es obligatorio registrar una observación que indique el motivo de la cancelación.</p></div></td></tr></tbody></table>
+{% endtab %}
+
+{% tab title="QR Google" %}
+Genera un código QR para configurar la autenticación de dos factores mediante Google Authenticator.
+{% endtab %}
+{% endtabs %}
 {% endtab %}
 {% endtabs %}
 
