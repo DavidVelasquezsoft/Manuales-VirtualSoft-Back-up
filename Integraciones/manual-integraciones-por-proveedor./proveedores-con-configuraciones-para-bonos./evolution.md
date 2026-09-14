@@ -31,7 +31,7 @@ layout:
 
 ### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/image (130).png" alt=""><figcaption><p>Figura#1: Captura de pantalla creación bono Free Spin.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (136).png" alt=""><figcaption><p>Figura #1: Captura de pantalla freeSpin</p></figcaption></figure>
 
 ### **3. Formulario para creación de bonos** EVOLUTION
 
@@ -94,6 +94,6 @@ Nota: Si se realiza una compra de giros en la tienda del proveedor, las ganancia
 
 <summary>🔽 Historial de versiones.</summary>
 
-<table><thead><tr><th width="105.8148193359375">Versión</th><th>Fecha</th><th>Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>03/09/2026</td><td>David Velasquez</td><td>Documento inicial </td></tr></tbody></table>
+<table><thead><tr><th width="105.8148193359375">Versión</th><th>Fecha</th><th>Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>03/09/2026</td><td>David Velasquez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-32980#icft=VSFT-32980">Documento inicial </a></td></tr></tbody></table>
 
 </details>
