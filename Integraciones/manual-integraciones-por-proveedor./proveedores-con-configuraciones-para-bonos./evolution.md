@@ -21,7 +21,7 @@ layout:
 
 # EVOLUTION
 
-<mark style="color:$info;">Aquí encontrarás información importante que se debe tener en cuenta al momento de la creación de un bono FreeSpin para el proveedor EVOLUTION..</mark>
+<mark style="color:$info;">Aquí encontrarás información importante que se debe tener en cuenta al momento de la creación de un bono FreeSpin para el proveedor EVOLUTION.</mark>
 
 ### 1. Acceso al Módulo:
 
@@ -31,7 +31,7 @@ layout:
 
 ### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/image (136).png" alt=""><figcaption><p>Figura #1: Captura de pantalla freeSpin</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (136).png" alt=""><figcaption><p>Figura #1: Captura de pantalla creación bono freeSpin</p></figcaption></figure>
 
 ### **3. Formulario para creación de bonos** EVOLUTION
 
