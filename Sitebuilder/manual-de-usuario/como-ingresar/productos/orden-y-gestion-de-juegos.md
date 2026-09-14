@@ -20,7 +20,7 @@
 **Nota:** Cada juego se muestra como una tarjeta con la siguiente información:
 {% endhint %}
 
-<table><thead><tr><th width="189.99993896484375">Elemento</th><th>Descripción</th></tr></thead><tbody><tr><td> <strong>Control de arrastre</strong></td><td>Ubicado en la esquina superior derecha de la tarjeta, permite mover el juego a otra posición.</td></tr><tr><td><strong>Casilla de selección</strong></td><td>Ubicada en la esquina superior izquierda de la tarjeta, permite seleccionar el juego para aplicar acciones sobre él.</td></tr><tr><td><strong>Imagen</strong></td><td>Miniatura del juego, tal como se muestra en el lobby.</td></tr><tr><td><strong>Nombre</strong></td><td>Nombre del juego.</td></tr><tr><td><strong>ID</strong></td><td>Identificador único del juego.</td></tr><tr><td><strong>Vertical</strong></td><td><a href="https://virtualsoft.gitbook.io/plantillas/glosario#vertical">Vertical</a> a la que pertenece el juego <em>(Casino, Casino en vivo o Virtuales)</em>.</td></tr></tbody></table>
+<table><thead><tr><th width="150.833251953125">Elemento</th><th>Descripción</th></tr></thead><tbody><tr><td> <strong>Control de arrastre</strong> <img src="../../../.gitbook/assets/icon_drag_indicator (1).png" alt=""></td><td>Ubicado en la esquina superior derecha de la tarjeta, permite mover el juego a otra posición.</td></tr><tr><td><strong>Casilla de selección</strong>  <i class="fa-square-full">:square-full:</i> </td><td>Ubicada en la esquina superior izquierda de la tarjeta, permite seleccionar el juego para aplicar acciones sobre él.</td></tr><tr><td><strong>Imagen</strong></td><td>Miniatura del juego, tal como se muestra en el lobby.</td></tr><tr><td><strong>Nombre</strong></td><td>Nombre del juego.</td></tr><tr><td><strong>ID</strong></td><td>Identificador único del juego.</td></tr><tr><td><strong>Vertical</strong></td><td><a href="https://virtualsoft.gitbook.io/plantillas/glosario#vertical">Vertical</a> a la que pertenece el juego <em>(Casino, Casino en vivo o Virtuales)</em>.</td></tr></tbody></table>
 
 ***
 
@@ -66,12 +66,12 @@ Al seleccionar uno o varios juegos en esta vista, la barra de acciones habilita 
 
 #### **Cambiar orden**
 
-Abre un modal que permite reorganizar la posición de los juegos seleccionados mediante el botón <img src="../../../.gitbook/assets/Button (8).png" alt="" data-size="line">.
+Abre un modal que permite reordenar la posición de los juegos seleccionados mediante el botón <img src="../../../.gitbook/assets/Button (8).png" alt="" data-size="line">.
 
-<table><thead><tr><th width="117.629638671875">Campo</th><th width="102.74078369140625">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Posición</code></strong></td><td>Numérico</td><td>Define la posición desde la cual se ubicarán los juegos seleccionados, de forma consecutiva. Admite valores entre <strong>1 y 999</strong>.</td></tr><tr><td><strong><code>Comentario</code></strong></td><td>Campo de texto</td><td>Registra el motivo del reordenamiento. Este comentario queda asociado al cambio para fines de control y auditoría.</td></tr></tbody></table>
+<table><thead><tr><th width="117.629638671875">Campo</th><th width="102.74078369140625">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Posición</code></strong></td><td>Numérico</td><td>Indica la <strong>posición en la que comenzará la reorganización</strong> de los juegos seleccionados. A partir de esta posición, los juegos se ubicarán de forma consecutiva. Admite valores entre <strong>1 y 999</strong>.</td></tr><tr><td><strong><code>Comentario</code></strong></td><td>Campo de texto</td><td>Registra el motivo del reordenamiento. Este comentario queda asociado al cambio para fines de control y auditoría.</td></tr><tr><td><strong><code>Cancelar</code></strong></td><td>Botón</td><td>Cierra el modal y no cambia el orden de ninguno de los juegos.</td></tr><tr><td><img src="../../../.gitbook/assets/Button (12).png" alt=""></td><td>Botón</td><td>Una vez seleccionada la nueva posición e ingresado el comentario, selecciona este botón para confirmar el reordenamiento.</td></tr></tbody></table>
 
 {% hint style="info" %}
-**Ejemplo:** Si se seleccionan los juegos de las posiciones 10 a 15 y se indica la posición **1**, esos juegos pasan a ocupar las primeras posiciones y los que estaban antes se desplazan a continuación.
+**Ejemplo:** Si se seleccionan 3 juegos y se ingresa **5** en el campo **`Posición`**, los juegos se ubicarán en las posiciones **5, 6 y 7**. Y los que estaban antes se desplazan a continuación.
 {% endhint %}
 
 #### **Agregar a la categoría**&#x20;
@@ -86,7 +86,7 @@ Abre un modal que permite asignar los juegos seleccionados a una o varias catego
 {% endtab %}
 
 {% tab title="Vista de categoría" %}
-Al trabajar sobre una categoría específica, además de las acciones sobre los juegos seleccionados, la vista habilita opciones propias para administrar el contenido de la categoría:
+Esta vista habilita las siguientes acciones para administrar el contenido de la categoría seleccionada:
 
 #### **Agregar juegos**
 
@@ -100,9 +100,9 @@ Abre un modal que permite buscar y agregar uno o varios juegos a la categoría m
 
 #### **Cambiar orden**
 
-Abre un modal que permite reorganizar la posición de los juegos seleccionados dentro de la categoría.
+Permite reorganizar la posición de uno o varios juegos dentro de la categoría. Al seleccionar los juegos y pulsar el botón <img src="../../../.gitbook/assets/Button (8).png" alt="" data-size="line">, el sistema abre un modal con los siguientes campos:
 
-<table><thead><tr><th width="117.629638671875">Campo</th><th width="102.74078369140625">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Posición</code></strong></td><td>Numérico</td><td>Define la posición desde la cual se ubicarán los juegos seleccionados, de forma consecutiva. Admite valores entre <strong>1 y 999</strong>.</td></tr><tr><td><strong><code>Comentario</code></strong></td><td>Campo de texto</td><td>Registra el motivo del reordenamiento. Este comentario queda asociado al cambio para fines de control y auditoría.</td></tr></tbody></table>
+<table><thead><tr><th width="117.629638671875">Campo</th><th width="102.74078369140625">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Posición</code></strong></td><td>Numérico</td><td>Indica la <strong>posición en la que comenzará la reorganización</strong> de los juegos seleccionados. A partir de esta posición, los juegos se ubicarán de forma consecutiva. Admite valores entre <strong>1 y 999</strong>.</td></tr><tr><td><strong><code>Comentario</code></strong></td><td>Campo de texto</td><td>Registra el motivo del reordenamiento. Este comentario queda asociado al cambio para fines de control y auditoría.</td></tr><tr><td><strong><code>Cancelar</code></strong></td><td>Botón</td><td>Cierra el modal y no cambia el orden de ninguno de los juegos.</td></tr><tr><td><img src="../../../.gitbook/assets/Button (12).png" alt=""></td><td>Botón</td><td>Una vez seleccionada la nueva posición e ingresado el comentario, selecciona este botón para confirmar el reordenamiento.</td></tr></tbody></table>
 
 #### **Vaciar categoría**
 
@@ -114,7 +114,9 @@ Permite quitar todos los juegos de la categoría seleccionada mediante el botón
 
 #### **Eliminar de la categoría**
 
-Permite quitar uno o varios juegos de la categoría seleccionada mediante el botón . Los juegos **no se eliminan del sistema** y permanecen disponibles en la vista general.
+Permite quitar uno o varios juegos previamente seleccionados de la categoría seleccionada mediante el botón
+
+Permite quitar de la categoría uno o varios juegos previamente seleccionados mediante el botón <img src="../../../.gitbook/assets/Button (10).png" alt="" data-size="line">. Los juegos **no se eliminan del sistema** y permanecen disponibles en la vista general.
 
 {% hint style="warning" %}
 **Nota:** El sistema solicita confirmación antes de ejecutar la acción, advirtiendo que los elementos seleccionados se eliminarán de la categoría y que la acción no puede deshacerse.
@@ -166,13 +168,11 @@ Los cambios realizados en el módulo, como **reordenar, agregar, eliminar, vacia
 
 ### 9. Validaciones y Reglas de Negocio
 
-* El acceso al módulo requiere permisos específicos; de lo contrario, no será visible en el sistema.
 * En el filtro de categoría solo se muestran las categorías activas creadas previamente desde el módulo [Partners Categorias](https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/herramientas/partner-ajustes/productos-2/partners-categorias) del backoffice.
 * Los cambios realizados son visuales hasta seleccionar el botón **Guardar cambios**; una vez guardados, se reflejan en la plataforma de usuarios online.
 * Al cambiar el orden de los juegos es obligatorio registrar un comentario que justifique el reordenamiento.
 * Al reordenar un bloque de juegos, estos se ubican de forma consecutiva desde la posición indicada y los juegos existentes se desplazan a las siguientes posiciones.
-* Los juegos eliminados de una categoría o quitados mediante **Vaciar categoría** no se eliminan del sistema y permanecen disponibles en la vista general.
-* La vista general de ala vertical _(Todas las categorías)_ incluye los juegos con y sin categorías asignadas.
+* La vista general de la vertical _(Todas las categorías)_ incluye los juegos con y sin categorías asignadas.
 * Las acciones de eliminar juegos y vaciar categoría requieren confirmación previa y no pueden deshacerse.
 * Cuando la categoría seleccionada no tiene juegos asignados, el sistema muestra un mensaje informativo indicando que aún no cuenta con juegos y que deben agregarse para que se visualicen en el lobby.
 
