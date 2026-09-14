@@ -31,7 +31,7 @@ layout:
 
 ### 2. Visualización
 
-<figure><img src="../../../../.gitbook/assets/image (713).png" alt=""><figcaption><p>Figura #1: </p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (713).png" alt=""><figcaption><p>Figura #1: Captura de pantalla sección partner categorias</p></figcaption></figure>
 
 ***
 
@@ -43,7 +43,7 @@ layout:
 
 ### 4. Filtros
 
-<table><thead><tr><th width="130">Campo</th><th width="150">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Descripción</code></strong></td><td>Campo de texto</td><td>Filtra por el nombre con el que se identifica la categoría.</td></tr><tr><td><strong><code>Slug</code></strong></td><td>Campo de texto</td><td>Filtra por el identificador de la categoría utilizado internamente por el sistema.</td></tr><tr><td><strong><code>País</code></strong></td><td>Lista desplegable</td><td><p>Selecciona el país sobre el cual se consultarán las categorías.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Este campo es <strong>obligatorio</strong> para ejecutar la consulta.</p></div></td></tr><tr><td><strong><code>Estado</code></strong></td><td>Lista desplegable</td><td>Filtra las categorías según su estado <em>(Activa o Inactiva)</em>.</td></tr><tr><td><strong><code>Tipo</code></strong></td><td>Lista desplegable</td><td>Filtra las categorías según la vertical a la que pertenecen <em>(Casino, Virtuales, Mini Games o Bingo)</em>.</td></tr></tbody></table>
+<table><thead><tr><th width="130">Campo</th><th width="150">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Descripción</code></strong></td><td>Campo de texto</td><td>Indica el nombre con el que se identifica la categoría.</td></tr><tr><td><strong><code>Slug</code></strong></td><td>Campo de texto</td><td>Filtra por el identificador de la categoría utilizado internamente por el sistema.</td></tr><tr><td><strong><code>País</code></strong></td><td>Lista desplegable</td><td><p>Selecciona el país sobre el cual se consultarán las categorías.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Este campo es <strong>obligatorio</strong> para ejecutar la consulta.</p></div></td></tr><tr><td><strong><code>Estado</code></strong></td><td>Lista desplegable</td><td>Selecciona las categorías según su estado <em>(Activa o Inactiva)</em>.</td></tr><tr><td><strong><code>Tipo</code></strong></td><td>Lista desplegable</td><td>Filtra las categorías según la vertical a la que pertenecen <em>(Casino, Virtuales, Mini Games o Bingo)</em>.</td></tr></tbody></table>
 
 ***
 
@@ -82,6 +82,6 @@ Permite registrar una nueva categoría para el partner y país seleccionados. Al
 
 <summary>🔽 Historial de versiones</summary>
 
-<table><thead><tr><th width="102">Versión</th><th width="127">Fecha</th><th width="169">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>31/08/2025</td><td>David Velasquez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-27402">Documento inicial</a></td></tr></tbody></table>
+<table><thead><tr><th width="102">Versión</th><th width="127">Fecha</th><th width="169">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>31/08/2026</td><td>David Velasquez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-27402">Documento inicial</a></td></tr></tbody></table>
 
 </details>
