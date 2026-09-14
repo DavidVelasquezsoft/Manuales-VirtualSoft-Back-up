@@ -20,11 +20,11 @@ description: >-
 
 ### 3.  Acciones del usuario
 
-<table><thead><tr><th width="217">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="productos.md#id-5.-filtros"><strong>Buscar productos</strong></a></td><td>Utiliza los filtros disponibles para consultar uno o varios productos.</td></tr><tr><td><a href="productos.md#id-6.-edicion-de-productos"><strong>Editar producto</strong></a></td><td>Mediante el ícono de lápiz se accede al formulario de configuración.</td></tr><tr><td><a href="productos.md#id-4.-anadir-producto"><strong>Añadir producto</strong></a></td><td>Despliega formulario para añadir un nuevo producto</td></tr><tr><td><a href="productos.md#id-7.-anadir-productos-masivamente"><strong>Añadir producto masivo</strong></a></td><td>Añade productos de manera masiva desde un archivo CSV con los ID´s de los productos a agregar.</td></tr><tr><td><strong>Exportar</strong></td><td>El botón <strong>Exportar</strong> en la parte inferior derecha del reporte permite descargar los resultados obtenidos con los filtros aplicados en los formatos <strong>Excel (.XLS)</strong> y <strong>PDF.</strong></td></tr></tbody></table>
+<table><thead><tr><th width="217">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="productos.md#id-5.-filtros"><strong>Buscar productos</strong></a></td><td>Utiliza los filtros disponibles para consultar uno o varios productos.</td></tr><tr><td><a href="productos.md#id-7.-edicion-de-productos"><strong>Editar producto</strong></a></td><td>Mediante el ícono de lápiz se accede al formulario de configuración.</td></tr><tr><td><a href="productos.md#id-4.-anadir-producto"><strong>Añadir producto</strong></a></td><td>Despliega formulario para añadir un nuevo producto</td></tr><tr><td><a href="productos.md#id-6.-resultados-de-consulta"><strong>Consultar</strong></a></td><td>Ejecuta la búsqueda según los filtros definidos mostrando los productos en la tabla de resultados.</td></tr><tr><td><a href="productos.md#id-8.-anadir-productos-masivamente"><strong>Añadir producto masivo</strong></a></td><td>Añade productos de manera masiva desde un archivo CSV con los ID´s de los productos a agregar.</td></tr><tr><td><strong>Exportar</strong></td><td>El botón <strong>Exportar</strong> en la parte inferior derecha del reporte permite descargar los resultados obtenidos con los filtros aplicados en los formatos <strong>Excel (.XLS)</strong> y <strong>PDF.</strong></td></tr></tbody></table>
 
 ### 4. Añadir Producto
 
-La opción **Añadir Producto** permite registrar un nuevo juego o elemento en la plataforma, configurando sus datos principales, proveedores y condiciones de visibilidad.\
+La opción **Añadir Producto** permite registrar un nuevo juego en la plataforma, configurando sus datos principales, proveedores y condiciones de visibilidad.\
 Al dar clic en el botón **`Añadir Producto`**, se despliega un formulario con diferentes campos que deben completarse según la necesidad del negocio.
 
 {% hint style="warning" %}
@@ -50,13 +50,13 @@ Los filtros permiten refinar la búsqueda de productos de acuerdo con parámetro
 Una vez seleccionados los criterios, utiliza el botón **"Buscar"** para realizar la consulta.\
 Para limpiar los filtros aplicados, utiliza el botón **"Limpiar"**.
 
-#### 5.1. Resultados de consulta
+### 6. Resultados de consulta
 
 En esta sección se muestran todos los productos registrados en la plataforma. La información se despliega en una tabla que permite consultar y gestionar detalles de cada producto.
 
 <table><thead><tr><th width="175">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><code>🖊️</code></td><td>Abre modal, que permite editar las propiedades del producto. <a href="productos.md#id-6.-edicion-de-productos"><strong>Ver detalles</strong></a></td></tr><tr><td><strong><code>Dispositivo</code></strong></td><td>Dispositivos en los que se encuentra disponible <em>(móvil, escritorio).</em></td></tr><tr><td><strong><code>Nombre</code></strong></td><td>Nombre del producto.</td></tr><tr><td><strong><code>Imagen</code></strong></td><td>Imagen asociada al producto.</td></tr><tr><td><strong><code>Imagen cuadrada</code></strong></td><td><p>Imagen complementaria del producto</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota</strong>: Esta imagen no se utiliza en todos los partners.</p></div></td></tr><tr><td><strong><code>Proveedor</code></strong></td><td>Nombre del proveedor que ofrece el producto.</td></tr><tr><td><strong><code>Categoría</code></strong></td><td>Categoría a la que pertenece el producto asociado. (<em>ej: Tragamonedas</em>)</td></tr><tr><td><strong><code>Sub Proveedor</code></strong></td><td>Nombre del sub proveedor asociado.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Estado actual del producto <em>(Activo/Inactivo).</em></td></tr><tr><td><strong><code>Verificado</code></strong></td><td>Indica si el producto ha sido validado en el sistema.</td></tr><tr><td><strong><code>ID Externo</code></strong></td><td>Identificador único del producto asignado y proporcionado por el proveedor.</td></tr><tr><td><strong><code>ID Externo 2</code></strong></td><td>Segundo identificador único externo que puede ser requerido.</td></tr><tr><td><strong><code>Visible</code></strong></td><td>Indica para que tipo de dispositivos está visible el producto.</td></tr><tr><td><strong><code>Producto ID</code></strong></td><td>Identificador único del producto en la plataforma.</td></tr></tbody></table>
 
-### 6. Edición de productos
+### 7. Edición de productos
 
 En la lista de productos, en la primera columna encontrarás el ícono de lápiz ✏️, el cual permite acceder al **formulario de configuración del producto**.
 
@@ -67,7 +67,7 @@ Dentro del formulario se pueden gestionar los siguientes campos:
 ✅ Una vez configurados los campos, se debe hacer clic en **Guardar** para aplicar los cambios.\
 ❌ Si no se desea guardar, se puede presionar **Cancelar** para descartar la edición.
 
-### 7. Añadir productos masivamente
+### 8. Añadir productos masivamente
 
 Permite añadir varios productos de manera masiva atreves de un [archivo tipo CSV](https://virtualsoft.gitbook.io/untitled/glosario/#csv), con los siguientes parámetros:
 
@@ -83,7 +83,7 @@ Para añadir los productos correctamente, después de cargar el archivo CSV debe
 
 ***
 
-### 8. Control de Versiones
+### 9. Control de Versiones
 
 <details>
 
