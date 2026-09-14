@@ -1,18 +1,16 @@
 # Anular nota retiro.
 
-### Configuración general
-
-#### 1. Acceso al Módulo:
+### 1. Acceso al Módulo:
 
 **Ruta de Acceso**: Menú principal → Gestión → Anular nota retiro.
 
 ***
 
-#### 2. Visualización:
+### 2. Visualización:
 
 <figure><img src="../../../.gitbook/assets/image (27) (2).png" alt=""><figcaption><p>Figura #1: Captura de pantalla anular nota de retiro.</p></figcaption></figure>
 
-**🧑‍💻 2.1. Acciones del Usuario**
+**3.Acciones del Usuario**
 
 | Sección         | Tipo de control    | Acción                                                  |
 | --------------- | ------------------ | ------------------------------------------------------- |
