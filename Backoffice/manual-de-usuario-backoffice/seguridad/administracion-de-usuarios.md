@@ -53,6 +53,12 @@ Al seleccionar el ícono de lupa _(🔎)_ ubicado en la primera columna de la ta
 {% tab title="Información del Usuario" %}
 Presenta la información registrada del usuario dentro del sistema.
 
+#### Visualización
+
+<figure><img src="../../.gitbook/assets/image (719).png" alt=""><figcaption><p>Figura #2: Camptura de pantalla información de usuario</p></figcaption></figure>
+
+#### Información del usuario
+
 <table><thead><tr><th width="282.33331298828125">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>ID</code></strong></td><td>Identificador único asignado al usuario dentro del sistema.</td></tr><tr><td><strong><code>Primer Nombre</code></strong></td><td>Nombre principal del usuario registrado.</td></tr><tr><td><strong><code>Segundo Nombre</code></strong></td><td>Segundo nombre del usuario, si aplica.</td></tr><tr><td><strong><code>Apellidos</code></strong></td><td>Apellido o apellidos registrados del usuario.</td></tr><tr><td><strong><code>Número de Documento</code></strong></td><td>Numero de identificación del usuario, como DNI, cédula o pasaporte.</td></tr><tr><td><strong><code>Género</code></strong></td><td>Género del usuario (Masculino, Femenino, Otro).</td></tr><tr><td><strong><code>Cumpleaños</code></strong></td><td>Día, mes y año en que nació el usuario.</td></tr><tr><td><strong><code>Login para Acceso</code></strong></td><td>Nombre de usuario o credenciales utilizadas para ingresar al sistema.</td></tr><tr><td><strong><code>Email Registrado</code></strong></td><td>Dirección de correo electrónico asociada a la cuenta del usuario.</td></tr><tr><td><strong><code>Estado de Cuenta</code></strong></td><td>Indica si el usuario está activo, inactivo o bloqueado en la plataforma.</td></tr><tr><td><strong><code>Fecha de Registro</code></strong></td><td>Fecha en la que el usuario creó su cuenta en la plataforma.</td></tr><tr><td><strong><code>Fecha del Último Login</code></strong></td><td>Última vez que el usuario accedió a su cuenta.</td></tr><tr><td><strong><code>Fecha del Último Cambio de Contraseña</code></strong></td><td>Última vez que el usuario modificó su contraseña de acceso.</td></tr><tr><td><strong><code>Fecha Cuenta Activo/Desactivo</code></strong></td><td>Fecha en la que la cuenta fue activada o desactivada dentro del sistema.</td></tr><tr><td><strong><code>Perfil de Usuario</code></strong></td><td>Rol o tipo de perfil asignado al usuario dentro de la plataforma (Ejemplo: Administrador, Cliente, Agente).</td></tr><tr><td><strong><code>Balance</code></strong></td><td>Saldo disponible en la cuenta del usuario en la moneda asignada.</td></tr><tr><td><strong><code>País de Residencia</code></strong></td><td>País en el que el usuario está registrado y opera dentro de la plataforma.</td></tr><tr><td><strong><code>Provincia/Región de Residencia</code></strong></td><td>División territorial dentro del país donde reside el usuario.</td></tr><tr><td><strong><code>Ciudad de Residencia</code></strong></td><td>Ciudad específica donde el usuario se encuentra registrado.</td></tr><tr><td><strong><code>Dirección</code></strong></td><td>Dirección exacta del usuario según los datos ingresados.</td></tr><tr><td><strong><code>Código ZIP</code></strong></td><td>Código postal asociado a la dirección del usuario.</td></tr><tr><td><strong><code>Teléfono</code></strong></td><td>Número de contacto del usuario registrado en la plataforma.</td></tr><tr><td><strong><code>Celular</code></strong></td><td>Número de teléfono móvil asociado a la cuenta del usuario.</td></tr><tr><td><strong><code>¿Está Bloqueado?</code></strong></td><td>Indica si la cuenta del usuario está restringida por alguna razón.</td></tr><tr><td><strong><code>Concesionario</code></strong></td><td>Identifica si el usuario está asociado a algún concesionario dentro de la plataforma.</td></tr><tr><td><strong><code>Partners Seleccionados</code></strong></td><td>Lista de los partners a los que está vinculado el usuario.</td></tr><tr><td><strong><code>Partners No Seleccionados</code></strong></td><td>Lista de partners disponibles que no están asociados al usuario.</td></tr><tr><td><strong><code>Lista partners seleccionados/ no seleccionados</code></strong></td><td>Permite editar los partners en los que esta creado el usuario.</td></tr></tbody></table>
 {% endtab %}
 
@@ -61,7 +67,7 @@ Presenta el registro de [logs](https://virtualsoft.gitbook.io/untitled/glosario#
 
 #### Visualización
 
-<figure><img src="../../.gitbook/assets/image (592).png" alt=""><figcaption><p>Figrua #2: Captura de pantalla reporte logs</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (592).png" alt=""><figcaption><p>Figura #3: Captura de pantalla reporte logs</p></figcaption></figure>
 
 #### Filtros
 
@@ -75,8 +81,6 @@ Aplica los filtros seleccionados y muestra los [logs](https://virtualsoft.gitboo
 **Nota:** Los resultados pueden exportarse en formatos Excel (.XLS) y PDF mediante el botón **Exportar**, ubicado en la parte inferior derecha del reporte.
 {% endhint %}
 
-
-
 <table><thead><tr><th width="142.8887939453125">Campo</th><th width="117.99993896484375">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>ID</code></strong></td><td>Numérico</td><td>Identificador único de el reporte.</td></tr><tr><td><strong><code>Fecha</code></strong></td><td>Calendario y hora</td><td>Fecha exacta en el que el usuario realizo la acción.</td></tr><tr><td><strong><code>Tipo</code></strong></td><td>Texto</td><td>Indica el tipo de acción registrada por el usuario. (<em>Logueo, cambio de contraseña, etc..</em>)</td></tr><tr><td><strong><code>Elemento</code></strong></td><td>Texto</td><td>Nombre del evento o acción ejecutada por el usuario.</td></tr><tr><td><strong><code>Valor antes</code></strong></td><td>Numérico</td><td>Identificador del dispositivo que ejecutó la acción.</td></tr><tr><td><strong><code>Valor despues</code></strong></td><td>Numérico</td><td>Token o IP del usuario después de la acción.</td></tr><tr><td><strong><code>Usuario Modificó</code></strong></td><td>Numérico</td><td>identificador único del usuario que hizo la acción.</td></tr><tr><td><strong><code>Dirección IP</code></strong></td><td>Numérico</td><td>Dirección IP desde la cual el usuario ejecutó la acción.</td></tr><tr><td><strong><code>Sistema operativo</code></strong></td><td>Texto</td><td>Nombre sistema operativo del dispositivo usado en la acción.</td></tr></tbody></table>
 {% endtab %}
 
@@ -87,6 +91,10 @@ Muestra las siguientes subsecciones disponibles para la gestión, configuración
 {% tab title="Cambio de contraseña" %}
 Permite actualizar la contraseña del usuario mediante los siguientes campos:
 
+#### Visualización
+
+<figure><img src="../../.gitbook/assets/image (720).png" alt=""><figcaption><p>Figura #4: Captura de pantalla cambiar contraseña</p></figcaption></figure>
+
 <table><thead><tr><th width="200">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Nueva Contraseña</code></strong></td><td>Nueva clave de acceso del usuario.</td></tr><tr><td><strong><code>Confirmar Contraseña</code></strong></td><td>Confirmación de la nueva clave de acceso.</td></tr></tbody></table>
 
 {% hint style="warning" %}
@@ -95,17 +103,29 @@ Permite actualizar la contraseña del usuario mediante los siguientes campos:
 {% endtab %}
 
 {% tab title="Generar Token" %}
-Genera un token de autenticación requerido para los procesos de seguridad del usuario.
+{% hint style="warning" %}
+**Nota:** Esta sección no se encuentra habilitada para usuarios administrativos, ya que no cuenta con una funcionalidad de autenticación mediante token. La autenticación se realiza mediante un código generado por [#qr-google](administracion-de-usuarios.md#qr-google "mention")
+{% endhint %}
 {% endtab %}
 
 {% tab title="Seguridad y Cambios" %}
 Reúne las configuraciones relacionadas con la seguridad del usuario y su operación en la plataforma.
+
+#### Visualización
+
+<figure><img src="../../.gitbook/assets/image (721).png" alt=""><figcaption><p>Figura #5: Captura de pantalla seguridad y cambios</p></figcaption></figure>
+
+#### Seguridad y cambios
 
 <table><thead><tr><th width="230">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Desbloquear Usuario por Clave</code></strong></td><td>Habilita el acceso del usuario a la plataforma.</td></tr><tr><td><strong><code>Generar contraseña</code></strong></td><td>Envía una contraseña al correo electrónico registrado del usuario.</td></tr><tr><td><strong><code>Estado de Usuario</code></strong></td><td>Indica si la cuenta se encuentra activa o inactiva.</td></tr><tr><td><strong><code>Usuario es Global</code></strong></td><td>Habilita la cuenta para operar en todos los países.</td></tr><tr><td><strong><code>Usuario es de País</code></strong></td><td>Limita la operación del usuario únicamente al país seleccionado.</td></tr><tr><td><strong><code>Estado de Contingencia</code></strong></td><td>Indica si el usuario se encuentra restringido por un evento inesperado en el sistema.</td></tr><tr><td><strong><code>Contingencia Deportivas</code></strong></td><td>Restringe las operaciones del usuario en la vertical de apuestas deportivas.</td></tr><tr><td><strong><code>Contingencia Casino</code></strong></td><td>Restringe las operaciones del usuario en la vertical de casino.</td></tr><tr><td><strong><code>Contingencia Casino en Vivo</code></strong></td><td>Restringe las operaciones del usuario en la vertical de casino en vivo.</td></tr><tr><td><strong><code>Estado de Contingencia Virtuales</code></strong></td><td>Restringe el acceso del usuario a los juegos virtuales.</td></tr><tr><td><strong><code>Estado de Contingencia Poker</code></strong></td><td>Restringe las operaciones del usuario en la vertical de póker.</td></tr><tr><td><strong><code>Restricción IP</code></strong></td><td>Limita el acceso del usuario a las direcciones IP definidas en el campo.</td></tr><tr><td><strong><code>Token Google</code></strong></td><td>Habilita el token de Google para asegurar el inicio de sesión.</td></tr><tr><td><strong><code>Token Local</code></strong></td><td>Habilita el token local para el usuario.</td></tr><tr><td><strong><code>Cancelar cuenta</code></strong></td><td><p>Cancela la cuenta del usuario.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Al ejecutar esta acción es obligatorio registrar una observación que indique el motivo de la cancelación.</p></div></td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="QR Google" %}
 Genera un código QR para configurar la autenticación de dos factores mediante Google Authenticator.
+
+#### Visualización
+
+<figure><img src="../../.gitbook/assets/image (723).png" alt=""><figcaption><p>Figura #6: Captura de pantalla QR google</p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 {% endtab %}
@@ -117,7 +137,7 @@ Genera un código QR para configurar la autenticación de dos factores mediante 
 
 Permite registrar un nuevo usuario administrativo, vinculándolo a un país y a uno o varios partners.
 
-<figure><img src="../../.gitbook/assets/image (524).png" alt=""><figcaption><p>Figura #3:Captrua de pantalla Añadir usuario</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (524).png" alt=""><figcaption><p>Figura #7:Captrua de pantalla Añadir usuario</p></figcaption></figure>
 
 <details>
 
