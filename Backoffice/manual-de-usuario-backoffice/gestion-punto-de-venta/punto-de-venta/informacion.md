@@ -87,7 +87,14 @@ Para conservar cualquier modificación realizada en la información, haga clic e
 
 ***
 
-### 4. Control de versiones
+### 4. Reglas y validaciones
+
+* Los campos de configuración para **máximo y mínimo de recarga son opcionales**, en caso de no configurarse, se aplicará la misma que tenga la plataforma.
+* Algunas acciones y campos disponibles en este módulo son dependientes de permisos específicos.
+
+***
+
+### 5. Control de versiones
 
 <details>
 
