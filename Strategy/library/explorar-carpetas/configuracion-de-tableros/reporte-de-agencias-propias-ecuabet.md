@@ -82,12 +82,18 @@ La vista Detalle se complementa de una tabla con la información de los depósit
 <table><thead><tr><th width="163">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Id Usuario</code></strong></td><td></td></tr><tr><td><strong><code>Nombre punto venta</code></strong></td><td></td></tr><tr><td><strong><code>Depósito</code></strong></td><td></td></tr><tr><td><strong><code>Retiros</code></strong></td><td></td></tr><tr><td><strong><code>Coincidencia TRX</code></strong></td><td></td></tr></tbody></table>
 {% endtab %}
 {% endtabs %}
+
+.
 {% endtab %}
 
 {% tab title="Comparación" %}
 .
 
+<figure><img src="../../../.gitbook/assets/image (248).png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
 
+{% tab title="Detalle histórico" %}
+.
 
 {% tabs %}
 {% tab title="Gráficas" %}
@@ -97,29 +103,27 @@ Visualiza la información correspondiente a los depósitos, retiros y puntos de 
 
 #### Visualización
 
-<figure><img src="../../../.gitbook/assets/image (246).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (250).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
-{% tab title="Detalle" %}
+{% tab title="Retiros" %}
 La vista Detalle se complementa de una tabla con la información de los depósitos y los retiros.
 
 ***
 
 #### Visualización
 
-<figure><img src="../../../.gitbook/assets/vsft ecuabet.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (251).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
 <table><thead><tr><th width="163">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Id Usuario</code></strong></td><td></td></tr><tr><td><strong><code>Nombre punto venta</code></strong></td><td></td></tr><tr><td><strong><code>Depósito</code></strong></td><td></td></tr><tr><td><strong><code>Retiros</code></strong></td><td></td></tr><tr><td><strong><code>Coincidencia TRX</code></strong></td><td></td></tr></tbody></table>
+
+
 {% endtab %}
 {% endtabs %}
 
 .
-{% endtab %}
-
-{% tab title="Detalle histórico" %}
-
 {% endtab %}
 {% endtabs %}
 
