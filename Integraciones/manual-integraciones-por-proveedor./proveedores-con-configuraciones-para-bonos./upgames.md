@@ -49,7 +49,7 @@ Para consultar el detalle completo de los demás campos y la configuración gene
 
 El FreeSpin con este proveedor funciona con un valor total asignado, que el usuario puede utilizar en varias apuestas dentro de un mismo juego, hasta agotar el monto otorgado.
 
-<table><thead><tr><th width="114">Campo</th><th width="129">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Monto total</code></strong></td><td>Numérico</td><td>Cantidad total disponible para realizar apuestas con este bono.</td></tr><tr><td><strong><code>Apuesta Máxima</code></strong></td><td>Numérico</td><td>Valor máximo que puede utilizarse en una apuesta con este bono.</td></tr><tr><td><strong><code>Apuesta Mínima</code></strong></td><td>Numérico</td><td>Valor mínimo requerido para realizar una apuesta con este bono.</td></tr><tr><td><strong><code>Jugadores</code></strong></td><td>Botón "Seleccionar archivo"</td><td>Permite cargar un archivo en formato CSV con los ID de los jugadores que recibirán el bono.</td></tr></tbody></table>
+<table><thead><tr><th width="114">Campo</th><th width="129">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Monto total</code></strong></td><td>Numérico</td><td><p>Cantidad total disponible para realizar apuestas con este bono.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota</strong>: Este valor no tiene alguna condicion.</p></div></td></tr><tr><td><strong><code>Apuesta Máxima</code></strong></td><td>Numérico</td><td>Valor máximo que puede utilizarse en una apuesta con este bono.</td></tr><tr><td><strong><code>Apuesta Mínima</code></strong></td><td>Numérico</td><td>Valor mínimo requerido para realizar una apuesta con este bono.</td></tr><tr><td><strong><code>Jugadores</code></strong></td><td>Botón "Seleccionar archivo"</td><td>Permite cargar un archivo en formato CSV con los ID de los jugadores que recibirán el bono.</td></tr></tbody></table>
 
 <a href="https://virtualsoft.gitbook.io/manuales/integraciones./manual-integraciones-por-proveedor./proveedores-con-configuraciones-para-bonos./upgames#id-3.-formulario-para-creacion-de-bonos-upgames" class="button secondary">Regresar</a>
 
@@ -62,7 +62,7 @@ Finaliza la configuración del bono guardando y aplicando las configuraciones re
 * La información de este bono estará disponible en la reportería de _Productos No Deportivos_.
 
 {% hint style="warning" %}
-Nota: Si se realiza una compra de giros en la tienda del proveedor, las ganancias de estos giros se reportarán como "**Premios**" y no como "**Premios bonos**"
+**Nota**: Si se realiza una compra de giros en la tienda del proveedor, las ganancias de estos giros se reportarán como "**Premios**" y no como "**Premios bonos**"
 {% endhint %}
 
 {% content-ref url="https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/manual-de-usuario-backoffice/reportes/reporte-productos-no-deportivos" %}
