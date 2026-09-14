@@ -49,5 +49,5 @@
       * [Diferencias Casino](library/explorar-carpetas/configuracion-de-tableros/diferencias-casino.md)
       * [Dashboard Afiliados Interno](library/explorar-carpetas/configuracion-de-tableros/dashboard-afiliados-interno.md)
       * [Dashboard de Ruletas](library/explorar-carpetas/configuracion-de-tableros/dashboard-de-ruletas.md)
-      * [Reporte de agencias propias](library/explorar-carpetas/configuracion-de-tableros/reporte-de-agencias-propias.md)
+      * [Reporte de agencias propias Ecuabet](library/explorar-carpetas/configuracion-de-tableros/reporte-de-agencias-propias-ecuabet.md)
 * [Workstation](workstation.md)
