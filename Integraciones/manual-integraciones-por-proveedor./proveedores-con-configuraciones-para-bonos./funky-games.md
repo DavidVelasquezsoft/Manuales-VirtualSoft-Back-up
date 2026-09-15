@@ -51,7 +51,7 @@ Para consultar el detalle completo de los demás campos y la configuración gene
 
 <table><thead><tr><th width="114">Campo</th><th width="129">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Valor por ronda</code></strong></td><td>Numérico</td><td><p>Cantidad total disponible para realizar apuestas con este bono.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota</strong>: Los valores ingresados en este campo deben ser exactamente iguales a las cuotas de apuestas permitidas en el juego.</p></div></td></tr><tr><td><strong><code>Rondas gratuitas</code></strong></td><td>Numérico</td><td>Cantidad de giros gratis que dará el bono.</td></tr><tr><td><strong><code>Jugadores</code></strong></td><td>Botón "Seleccionar archivo"</td><td>Permite cargar un archivo en formato CSV con los ID de los jugadores que recibirán el bono.</td></tr></tbody></table>
 
-<a href="https://virtualsoft.gitbook.io/manuales/integraciones./manual-integraciones-por-proveedor./proveedores-con-configuraciones-para-bonos./upgames#id-3.-formulario-para-creacion-de-bonos-upgames" class="button secondary">Regresar</a>
+<a href="https://virtualsoft.gitbook.io/manuales/integraciones./manual-integraciones-por-proveedor./proveedores-con-configuraciones-para-bonos./funky-games#id-3.-formulario-para-creacion-de-bonos-funky-games" class="button secondary">Regresar</a>
 
 </details>
 
