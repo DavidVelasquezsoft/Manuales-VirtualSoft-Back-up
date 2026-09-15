@@ -96,6 +96,6 @@ Finaliza la configuración del bono guardando y aplicando las configuraciones re
 
 <summary>🔽 Historial de versiones.</summary>
 
-<table><thead><tr><th width="105.8148193359375">Versión</th><th>Fecha</th><th>Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>09/15/2026</td><td>Ronald Peláez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-33177">Documento inicial </a></td></tr></tbody></table>
+<table><thead><tr><th width="105.8148193359375">Versión</th><th>Fecha</th><th>Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>15/09/2026</td><td>Ronald Peláez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-33177">Documento inicial </a></td></tr></tbody></table>
 
 </details>
