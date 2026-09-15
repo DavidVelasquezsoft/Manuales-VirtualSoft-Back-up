@@ -79,6 +79,7 @@
     * [BEON](manual-integraciones-por-proveedor./proveedores-con-configuraciones-para-bonos./beon.md)
     * [EVOLUTION](manual-integraciones-por-proveedor./proveedores-con-configuraciones-para-bonos./evolution.md)
     * [UPGAMES](manual-integraciones-por-proveedor./proveedores-con-configuraciones-para-bonos./upgames.md)
+    * [INOUT](manual-integraciones-por-proveedor./proveedores-con-configuraciones-para-bonos./inout.md)
 * [Capacitación del equipo de integraciones en Altenar](capacitacion-del-equipo-de-integraciones-en-altenar/README.md)
   * [API externa para creación de bonos](capacitacion-del-equipo-de-integraciones-en-altenar/api-externa-para-creacion-de-bonos/README.md)
     * [Métodos](capacitacion-del-equipo-de-integraciones-en-altenar/api-externa-para-creacion-de-bonos/metodos/README.md)
