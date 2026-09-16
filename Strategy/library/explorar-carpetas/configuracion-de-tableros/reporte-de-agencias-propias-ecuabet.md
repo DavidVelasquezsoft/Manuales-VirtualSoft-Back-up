@@ -17,11 +17,13 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Reporte de agencias propias Ecuabet
 
-Este reporte permite visualziar el comportamiento general de los depósitos y retiros mediante indicadores, tendencias históricas y ranking de puntos de venta.
+Este reporte permite visualizar el comportamiento general de los depósitos y retiros mediante indicadores, tendencias históricas y ranking de puntos de venta.
 
 ***
 
@@ -41,25 +43,29 @@ Antes de visualizar el reporte, establece las [configuraciones previas](https://
 
 El reporte se divide en tres pestañas que responden a los mismos filtros ubicados en el panel izquierdo
 
-<table><thead><tr><th width="171">Filtro</th><th width="150">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Año</code></strong></td><td>Selector / lista desplegable</td><td>Año correspondiente a la búsqueda ejecutada.</td></tr><tr><td><strong><code>Mes</code></strong></td><td>Selector / lista desplegable</td><td>Mes correspondiente a la búsqueda ejecutada.</td></tr><tr><td><strong><code>Nombre PV</code></strong></td><td>Selector / Buscador</td><td>Nombre del punto de venta al cual se desea consultar.</td></tr><tr><td><strong><code>Id usuario</code></strong></td><td>Selector / Buscador</td><td>Identificador único del usuario al cual se desea consultar.</td></tr></tbody></table>
+<table><thead><tr><th width="171">Filtro</th><th width="150">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Año</code></strong></td><td>Lista desplegable</td><td>Año correspondiente al periodo que se desea consultar.</td></tr><tr><td><strong><code>Mes</code></strong></td><td>Lista desplegable</td><td>Mes correspondiente al periodo que se desea consultar.</td></tr><tr><td><strong><code>Nombre PV</code></strong></td><td>Selector / Buscador</td><td>Nombre del punto de venta que se desea consultar.</td></tr><tr><td><strong><code>Id usuario</code></strong></td><td>Selector / Buscador</td><td>Identificador único del usuario que se desea consultar.</td></tr></tbody></table>
 
 ***
 
 ### 4. Contenido del Dashboard
 
-Este dashboard consta de tres pestañas: [**General**](https://virtualsoft.gitbook.io/manuales/microstrategy/library/explorar-carpetas/configuracion-de-tableros/reporte-de-agencias-propias-ecuabet#general), [**Comparación**](https://virtualsoft.gitbook.io/manuales/microstrategy/library/explorar-carpetas/configuracion-de-tableros/reporte-de-agencias-propias-ecuabet#comparacion) y [**Detalle histórico**](https://virtualsoft.gitbook.io/manuales/microstrategy/library/explorar-carpetas/configuracion-de-tableros/reporte-de-agencias-propias-ecuabet#detalle-historico). Las pestañas **General** y **Comparación** contienen los mismos KPI. La pestaña **Detalle histórico** no incluye KPI.
+Este dashboard consta de tres pestañas: [**General**](https://virtualsoft.gitbook.io/manuales/microstrategy/library/explorar-carpetas/configuracion-de-tableros/reporte-de-agencias-propias-ecuabet#general), [**Comparación**](https://virtualsoft.gitbook.io/manuales/microstrategy/library/explorar-carpetas/configuracion-de-tableros/reporte-de-agencias-propias-ecuabet#comparacion) y [**Detalle histórico**](https://virtualsoft.gitbook.io/manuales/microstrategy/library/explorar-carpetas/configuracion-de-tableros/reporte-de-agencias-propias-ecuabet#detalle-historico). Las pestañas **General** y **Comparación** contienen los mismos KPI.&#x20;
 
-#### 4.1 kips&#x20;
+{% hint style="warning" %}
+**Nota**: La pestaña **Detalle histórico** no incluye KPI.
+{% endhint %}
+
+#### 4.1 Kips&#x20;
 
 <table><thead><tr><th width="176">Nombre</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Depósitos</code></strong></td><td>Monto total de los depósitos realizados en el ralgo de fechas consultado.</td></tr><tr><td><strong><code>Cantidad depósitos</code></strong></td><td>Cantidad total de depósitos realizados en el rango de fechas consultado.</td></tr><tr><td><strong><code>Valor promedio depósitos</code></strong></td><td>Valor promedio de depósitos correspondientes al valor total de depósitos realizados.</td></tr><tr><td><strong><code>Retiros</code></strong></td><td>Monto total de los retiros realizados en el rango de fechas consultado.</td></tr><tr><td><strong><code>Cantidad retiros</code></strong></td><td>Cantidad total de retiros realizados en el rango de fechas consultado.</td></tr><tr><td><strong><code>Valor promedio retiros</code></strong></td><td>Valor promedio de retiros correspondientes al valor total de retiros realizados.</td></tr></tbody></table>
 
-#### 4.2. Pestañas
+#### 4.2. Tipos de informes
 
 Estas son las pestañas disponibles para visualizar la información del dashboard.
 
 {% tabs %}
 {% tab title="General" %}
-La pestaña **General** presenta un resumen de los depósitos y retiros realizados por los puntos de venta. La información se puede consultar en dos modos, seleccionables desde la esquina superior derecha: **Gráficas** y **Detalle**.
+La pestaña **General** presenta un resumen de los depósitos y retiros realizados por los puntos de venta. La información se puede consultar en dos modos, seleccionables desde la esquina superior derecha.
 
 {% tabs %}
 {% tab title="Gráficas" %}
@@ -69,7 +75,7 @@ Visualiza la información correspondiente a los depósitos, retiros y puntos de 
 
 #### Visualización
 
-<figure><img src="../../../.gitbook/assets/image (246).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (246).png" alt=""><figcaption><p>Figura #1: Captura de pantalla pestaña general-gráficas.</p></figcaption></figure>
 
 ***
 
@@ -85,7 +91,7 @@ La vista Detalle se complementa de una tabla con la información de los depósit
 
 #### Visualización
 
-<figure><img src="../../../.gitbook/assets/vsft ecuabet.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/vsft ecuabet.jpg" alt=""><figcaption><p>Figura #2: Captura de pantalla pestaña general-detalle.</p></figcaption></figure>
 
 **Tabla Depósitos y retiro por punto de venta.**
 
@@ -98,10 +104,10 @@ La vista Detalle se complementa de una tabla con la información de los depósit
 Esta pestaña presenta la información en 2 gráficos lineales, comparando los depósitos realizados con los retiros.
 
 {% hint style="warning" %}
-**Nota**: Aunque esta pestaña también contenga 3 vistas diferentes, todas las vistas contienen la misma infornación, lo único que cambia es el tiempo de comparación _(Diario, Mensual y anual)_.
+**Nota**: Aunque esta pestaña contiene tres vistas, todas presentan la misma información. La única diferencia corresponde al período de comparación _(Diario, Mensual y anual)_.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (248).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p>Figura #3: Captura de pantalla pestaña comparación.</p></figcaption></figure>
 
 <table><thead><tr><th width="171">Gráfico</th><th width="154">Tipo de gráfico</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>% variación diaria de depósitos</code></strong></td><td>Lineal</td><td>Comparativa diaria de los depósitos realizados según las fechas establecidas en los filtros.</td></tr><tr><td><strong><code>% variación diaria de retiros</code></strong></td><td>Lineal</td><td>Comparativa diaria de los retiros realizados según las fechas establecidas en los filtros.</td></tr></tbody></table>
 {% endtab %}
@@ -117,13 +123,11 @@ La tabla de depósitos compara los depósitos realizados del mes anterior y el a
 
 #### Visualización
 
-<figure><img src="../../../.gitbook/assets/image (250).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (250).png" alt=""><figcaption><p>Figura #4: Captura de pantalla pestaña detalle histórico-depósitos.</p></figcaption></figure>
 
 #### Tabla Comparación del valor de depósito vs mes anterior y vs año pasado.
 
 <table><thead><tr><th width="163">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Año</code></strong></td><td>Año en el que se está realizando la comparativa.</td></tr><tr><td><strong><code>Mes</code></strong></td><td>Mes en el que se está realizando la comparativa.</td></tr><tr><td><strong><code>Depósitos</code></strong></td><td>Monto total de depósitos realizados en ese mes.</td></tr><tr><td><strong><code>Depósitos mes anterior</code></strong></td><td>Monto total de depósitos realizados el mes anterior al mes comparado.</td></tr><tr><td><strong><code>% variación respecto al mes anterior</code></strong></td><td>Porcentaje de variación entre el mes inicial y el mes anterior.</td></tr><tr><td><strong><code>Depósitos mismo mes año anterior</code></strong></td><td>Monto total de depósitos realizados ese mismo mes, pero del año aneterior.</td></tr><tr><td><strong><code>% variación respecto al mismo mes año anterior</code></strong></td><td>Porcentaje de variación entre el mes inicial de el año comparado, con el año anterior.</td></tr></tbody></table>
-
-.
 {% endtab %}
 
 {% tab title="Retiros" %}
@@ -133,7 +137,7 @@ La tabla de depósitos compara los depósitos realizados del mes anterior y el a
 
 #### Visualización
 
-<figure><img src="../../../.gitbook/assets/image (250).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (252).png" alt=""><figcaption><p>Figura #5: Captura de pantalla pestaña detalle histórico -retiros.</p></figcaption></figure>
 
 #### Tabla Comparación del valor de retiros vs mes anterior y vs año pasado
 

@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Dashboard Afiliador
@@ -98,7 +100,7 @@ Permite visualizar diferentes gráficos relacionados con los **Primeros Depósit
 
 #### 5.2.2.1 Visualizacion:
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Figura #3. Captura de pantalla del Dashboard Afiliador, vista general – sección FTD.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Figura #3. Captura de pantalla del Dashboard Afiliador, vista general – sección FTD.</p></figcaption></figure>
 
 <table><thead><tr><th width="141">Componente</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Top 5 partner con menos FTD</code></strong></td><td>Muestra los cinco partners con el menor porcentaje de conversión a Primer Depósito <em>(FTD)</em> durante el período consultado, permitiendo identificar oportunidades de mejora en la efectividad de conversión de usuarios registrados a depositantes.</td></tr><tr><td><strong><code>FTD por afiliador</code></strong></td><td>Presenta la cantidad de Primeros Depósitos <em>(FTD)</em> generados por cada afiliador, facilitando la identificación de los afiliadores con mayor volumen de conversiones durante el período seleccionado.</td></tr><tr><td><strong><code>FTD por link</code></strong></td><td>Muestra la cantidad de Primeros Depósitos <em>(FTD)</em> asociados a cada enlace de registro, permitiendo evaluar el desempeño y efectividad de los diferentes enlaces utilizados para la captación de usuarios.</td></tr><tr><td><strong><code>Tendencia de FTD</code></strong></td><td>Presenta mediante un gráfico de líneas la evolución diaria de los Primeros Depósitos <em>(FTD)</em> generados durante el rango de fechas seleccionado, permitiendo analizar tendencias, variaciones y comportamiento de las conversiones a lo largo del tiempo.</td></tr></tbody></table>
 {% endtab %}
