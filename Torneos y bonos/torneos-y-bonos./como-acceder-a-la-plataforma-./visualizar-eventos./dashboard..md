@@ -48,7 +48,7 @@ layout:
 Los filtros son dinámicos, según el tipo de información a consultar, cambian.
 
 {% tabs %}
-{% tab title="First Tab" %}
+{% tab title="Bonos" %}
 <table><thead><tr><th width="89">Campo</th><th width="135">Descripción</th><th>Tipo de control</th></tr></thead><tbody><tr><td><strong><code>Fecha</code></strong></td><td>Calendario</td><td>Permite definir el rango de fechas sobre el cual se realizará la consulta de información, seleccionando la fecha inicial y la fecha final para realizar la búsqueda.</td></tr><tr><td><strong><code>Moneda</code></strong></td><td>Lista desplegable</td><td>Moneda correspondiente al país seleccionado previamente en la plataforma. Este valor es informativo y no permite seleccionar otra moneda.</td></tr><tr><td><strong><code>Tipo de visualización</code></strong></td><td>Lista desplegable</td><td>Define la agrupación temporal de la información mostrada en la gráfica. Las opciones disponibles son <strong>Hora</strong>, <strong>Día</strong> o <strong>Mes</strong>.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Lista desplegable</td><td>Filtra la información según el estado de los bonos o torneos seleccionados.</td></tr><tr><td><strong><code>Tipo de valor</code></strong></td><td>Lista desplegable</td><td>Permite seleccionar el tipo de información que se representará en la gráfica.</td></tr></tbody></table>
 {% endtab %}
 
