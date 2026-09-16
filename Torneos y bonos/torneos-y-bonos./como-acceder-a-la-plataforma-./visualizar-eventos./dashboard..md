@@ -17,42 +17,13 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Dashboard.
 
-Esta será la visual principal que tendrás al momento de ingresar a esta opción:
-
-Podrás realizar una búsqueda filtrando la información según tu necesidad. Los filtros disponibles son los siguientes:
-
-* **Dato**: Permite seleccionar si deseas visualizar la información relacionada con los bonos o los torneos en la gráfica.
-* **Fecha**: Permite establecer un rango de fechas para visualizar los datos dentro del período seleccionado.
-* **Moneda**: Muestra la moneda correspondiente al país seleccionado previamente en la plataforma. No permite cambiar entre diferentes monedas, sino que se adapta automáticamente a la del país con el que estás trabajando.
-* **Tipo de visualización**: Permite configurar la escala temporal en la que se mostrará la gráfica, ya sea por hora, día o mes.
-* **Estado**: Filtra los bonos o torneos según el estado en el que se encuentren, mostrando solo la información relevante a la selección realizada.
-* **Tipo de valor**: Permite elegir entre tres opciones para determinar qué datos se visualizarán en la gráfica:
-  * **Valor bono**: Muestra el valor otorgado al usuario por cada bono redimido. En este caso, la gráfica reflejará únicamente los bonos entregados y su respectivo valor.
-  * **Valor base**: Representa un valor auxiliar que puede utilizarse de diferentes maneras según el tipo de bono. Puede funcionar como un límite o como un parámetro adicional para determinar el valor final que recibe el usuario. Al seleccionar esta opción, la gráfica mostrará el valor base del bono, sin que este represente necesariamente el monto entregado al usuario.
-  * **Cantidad de bonos**: Muestra el número total de bonos según el estado seleccionado en el filtro de estado.
-
-Una vez configurados los filtros según tu necesidad, puedes hacer clic en el botón "**Aplicar**", ubicado en la parte superior derecha del apartado de filtros. Esto actualizará la gráfica con la información correspondiente a los parámetros seleccionados, a continuación, encontrarás un ejemplo de la gráfica que podrás ver.
-
-<figure><img src="../../../.gitbook/assets/image (199).png" alt=""><figcaption><p>Figura #3: Captura de pantalla Grafico.</p></figcaption></figure>
-
-En este caso, podrás visualizar una gráfica con distintos parámetros. En la parte inferior, se mostrará la línea de tiempo, mientras que en el eje lateral se representará el valor total de los bonos correspondientes a cada fecha.
-
-En la parte inferior veremos los siguientes campos:&#x20;
-
-* Bonos activos: La cantidad de bonos activos según el rango de fechas.
-* Bonos redimidos: La cantidad de bonos redimidos según el rango de fechas y el monto de dichos bonos.
-* Bonos expirados: La cantidad de bonos expirados según el rango de fechas, junto con el monto total de dichos bonos.
-* Todos los bonos: La cantidad de bonos totales según el rango de fechas junto con el monto total de dichos bonos.
-
-***
-
-## Dashboard
-
-El módulo Dashboard centraliza la visualización de los principales indicadores de los bonos y torneos creados, permitiendo consultar su comportamiento mediante gráficos e información resumida a partir de diferentes criterios de filtrado.
+<mark style="color:$info;">El módulo Dashboard centraliza la visualización de los principales indicadores de los bonos y torneos creados, permitiendo consultar su comportamiento mediante gráficos e información resumida a partir de diferentes criterios de filtrado.</mark>
 
 ### 1. Acceso al Módulo
 
@@ -74,9 +45,17 @@ El módulo Dashboard centraliza la visualización de los principales indicadores
 
 ### 4. Filtros Disponibles
 
-Los filtros permiten personalizar la información que se visualizará en la gráfica.
+Los filtros son dinámicos, según el tipo de información a consultar, cambian.
 
-<table><thead><tr><th width="168">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Dato</strong></td><td>Permite seleccionar si la información a consultar corresponde a <strong>Bonos</strong> o <strong>Torneos</strong>.</td></tr><tr><td><strong>Fecha</strong></td><td>Permite definir el rango de fechas sobre el cual se realizará la consulta de información.</td></tr><tr><td><strong>Moneda</strong></td><td>Muestra la moneda correspondiente al país seleccionado previamente en la plataforma. Este valor es informativo y no permite seleccionar otra moneda.</td></tr><tr><td><strong>Tipo de visualización</strong></td><td>Define la agrupación temporal de la información mostrada en la gráfica. Las opciones disponibles son <strong>Hora</strong>, <strong>Día</strong> o <strong>Mes</strong>.</td></tr><tr><td><strong>Estado</strong></td><td>Filtra la información según el estado de los bonos o torneos seleccionados.</td></tr><tr><td><strong>Tipo de valor</strong></td><td>Permite seleccionar el tipo de información que se representará en la gráfica.</td></tr></tbody></table>
+{% tabs %}
+{% tab title="First Tab" %}
+<table><thead><tr><th width="89">Campo</th><th width="135">Descripción</th><th>Tipo de control</th></tr></thead><tbody><tr><td><strong><code>Fecha</code></strong></td><td>Calendario</td><td>Permite definir el rango de fechas sobre el cual se realizará la consulta de información, seleccionando la fecha inicial y la fecha final para realizar la búsqueda.</td></tr><tr><td><strong><code>Moneda</code></strong></td><td>Lista desplegable</td><td>Moneda correspondiente al país seleccionado previamente en la plataforma. Este valor es informativo y no permite seleccionar otra moneda.</td></tr><tr><td><strong><code>Tipo de visualización</code></strong></td><td>Lista desplegable</td><td>Define la agrupación temporal de la información mostrada en la gráfica. Las opciones disponibles son <strong>Hora</strong>, <strong>Día</strong> o <strong>Mes</strong>.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Lista desplegable</td><td>Filtra la información según el estado de los bonos o torneos seleccionados.</td></tr><tr><td><strong><code>Tipo de valor</code></strong></td><td>Lista desplegable</td><td>Permite seleccionar el tipo de información que se representará en la gráfica.</td></tr></tbody></table>
+{% endtab %}
+
+{% tab title="Torneos" %}
+
+{% endtab %}
+{% endtabs %}
 
 #### Opciones del filtro **Tipo de valor**
 
