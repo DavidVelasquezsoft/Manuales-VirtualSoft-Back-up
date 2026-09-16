@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Sorteo punto de venta.
@@ -45,7 +47,7 @@ El módulo **Sorteo Punto de Venta** permite crear sorteos dirigidos a los usuar
 
 ### 4. Formulario para creación de sorteos punto de venta.
 
-<table><thead><tr><th width="151">Campo</th><th width="155">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Fecha inicial</code></strong></td><td>Fecha</td><td>Establece la fecha desde la cual el sorteo estará disponible para participar.</td></tr><tr><td><strong><code>Fecha final</code></strong></td><td>Fecha</td><td>Establece la fecha hasta la cual el sorteo permanecerá activo.</td></tr><tr><td><strong><code>Nombre</code></strong></td><td>Texto</td><td>Registra el nombre con el que será identificado el sorteo.</td></tr><tr><td><strong><code>Orden</code></strong></td><td>Numérico</td><td>Define la posición en la que se visualizará el sorteo frente a los demás eventos disponibles.</td></tr><tr><td><strong><code>Descripción</code></strong></td><td>Texto</td><td>Registra una descripción general del sorteo.</td></tr><tr><td><strong><code>Tipo de Producto</code></strong></td><td>Lista desplegable</td><td>Selecciona la vertical sobre la cual se configurará el sorteo. Para este tipo de evento únicamente se encuentra disponible <strong>Sportsbook</strong>.</td></tr></tbody></table>
+<table><thead><tr><th width="151">Campo</th><th width="129">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Fecha inicial</code></strong></td><td>Fecha</td><td>Establece la fecha desde la cual el sorteo estará disponible para participar.</td></tr><tr><td><strong><code>Fecha final</code></strong></td><td>Fecha</td><td>Establece la fecha hasta la cual el sorteo permanecerá activo.</td></tr><tr><td><strong><code>Nombre</code></strong></td><td>Texto</td><td>Registra el nombre con el que será identificado el sorteo.</td></tr><tr><td><strong><code>Orden</code></strong></td><td>Numérico</td><td>Define la posición en la que se visualizará el sorteo frente a los demás eventos disponibles.</td></tr><tr><td><strong><code>Descripción</code></strong></td><td>Texto</td><td>Registra una descripción general del sorteo.</td></tr><tr><td><strong><code>Tipo de Producto</code></strong></td><td>Lista desplegable</td><td>Selecciona la vertical sobre la cual se configurará el sorteo. Para este tipo de evento únicamente se encuentra disponible <strong>Sportsbook</strong>.</td></tr></tbody></table>
 
 {% columns %}
 {% column width="33.33333333333333%" %}
@@ -65,74 +67,33 @@ El segmento seleccionado determina los eventos deportivos que serán considerado
 
 {% tabs %}
 {% tab title="Deportes" %}
-| Campo                        | Tipo     | Descripción                                                  |
-| ---------------------------- | -------- | ------------------------------------------------------------ |
-| **`Añadir Manual`**          | Botón    | Agrega deportes manualmente mediante su identificador.       |
-| **`ID`**                     | Numérico | Registra el identificador del deporte.                       |
-| **`Deportes seleccionados`** | Texto    | Muestra el nombre del deporte agregado.                      |
-| **`Imagen`**                 | URL      | Registra la dirección de la imagen asociada al deporte.      |
-| **`Acción`**                 | Botón    | Elimina el deporte agregado.                                 |
-| **`Deportes`**               | Texto    | Agrega varios deportes mediante IDs separados por comas (,). |
+<table><thead><tr><th width="147">Campo</th><th width="112">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Añadir Manual</code></strong></td><td>Botón</td><td>Agrega deportes manualmente mediante su identificador.</td></tr><tr><td><strong><code>ID</code></strong></td><td>Numérico</td><td>Registra el identificador del deporte.</td></tr><tr><td><strong><code>Deportes seleccionados</code></strong></td><td>Texto</td><td>Muestra el nombre del deporte agregado.</td></tr><tr><td><strong><code>Imagen</code></strong></td><td>URL</td><td>Registra la dirección de la imagen asociada al deporte.</td></tr><tr><td><strong><code>Acción</code></strong></td><td>Botón</td><td>Elimina el deporte agregado.</td></tr><tr><td><strong><code>Deportes</code></strong></td><td>Texto</td><td>Agrega varios deportes mediante IDs separados por comas (,).</td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Mercados" %}
-| Campo                        | Tipo     | Descripción                                                  |
-| ---------------------------- | -------- | ------------------------------------------------------------ |
-| **`Añadir Manual`**          | Botón    | Agrega mercados manualmente mediante su identificador.       |
-| **`ID`**                     | Numérico | Registra el identificador del mercado.                       |
-| **`Mercados seleccionados`** | Texto    | Muestra el nombre del mercado agregado.                      |
-| **`Imagen`**                 | URL      | Registra la dirección de la imagen asociada al mercado.      |
-| **`Acción`**                 | Botón    | Elimina el mercado agregado.                                 |
-| **`Mercados`**               | Texto    | Agrega varios mercados mediante IDs separados por comas (,). |
+<table><thead><tr><th width="155">Campo</th><th width="112">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Añadir Manual</code></strong></td><td>Botón</td><td>Agrega mercados manualmente mediante su identificador.</td></tr><tr><td><strong><code>ID</code></strong></td><td>Numérico</td><td>Registra el identificador del mercado.</td></tr><tr><td><strong><code>Mercados seleccionados</code></strong></td><td>Texto</td><td>Muestra el nombre del mercado agregado.</td></tr><tr><td><strong><code>Imagen</code></strong></td><td>URL</td><td>Registra la dirección de la imagen asociada al mercado.</td></tr><tr><td><strong><code>Acción</code></strong></td><td>Botón</td><td>Elimina el mercado agregado.</td></tr><tr><td><strong><code>Mercados</code></strong></td><td>Texto</td><td>Agrega varios mercados mediante IDs separados por comas (,).</td></tr></tbody></table>
 
 
 {% endtab %}
 
 {% tab title="Ligas" %}
-| Campo               | Tipo     | Descripción                                               |
-| ------------------- | -------- | --------------------------------------------------------- |
-| **`Añadir Manual`** | Botón    | Agrega ligas manualmente mediante su identificador.       |
-| **`ID`**            | Numérico | Registra el identificador de la liga.                     |
-| **`Nombre`**        | Texto    | Muestra el nombre de la liga agregada.                    |
-| **`Imagen`**        | URL      | Registra la dirección de la imagen asociada a la liga.    |
-| **`Acción`**        | Botón    | Elimina la liga agregada.                                 |
-| **`Ligas`**         | Texto    | Agrega varias ligas mediante IDs separados por comas (,). |
+<table><thead><tr><th width="135">Campo</th><th width="110">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Añadir Manual</code></strong></td><td>Botón</td><td>Agrega ligas manualmente mediante su identificador.</td></tr><tr><td><strong><code>ID</code></strong></td><td>Numérico</td><td>Registra el identificador de la liga.</td></tr><tr><td><strong><code>Nombre</code></strong></td><td>Texto</td><td>Muestra el nombre de la liga agregada.</td></tr><tr><td><strong><code>Imagen</code></strong></td><td>URL</td><td>Registra la dirección de la imagen asociada a la liga.</td></tr><tr><td><strong><code>Acción</code></strong></td><td>Botón</td><td>Elimina la liga agregada.</td></tr><tr><td><strong><code>Ligas</code></strong></td><td>Texto</td><td>Agrega varias ligas mediante IDs separados por comas (,).</td></tr></tbody></table>
 
 
 {% endtab %}
 
 {% tab title="Partidos" %}
-| Campo                        | Tipo              | Descripción                                                           |
-| ---------------------------- | ----------------- | --------------------------------------------------------------------- |
-| **`Deporte`**                | Lista desplegable | Define el deporte sobre el cual se realizará la búsqueda de partidos. |
-| **`País`**                   | Lista desplegable | Define el país correspondiente al evento deportivo.                   |
-| **`Campeonato`**             | Lista desplegable | Define el campeonato del cual se seleccionarán los partidos.          |
-| **`Añadir Manual`**          | Botón             | Agrega partidos manualmente mediante su identificador.                |
-| **`ID`**                     | Numérico          | Registra el identificador del partido.                                |
-| **`Partidos seleccionados`** | Texto             | Muestra el nombre del partido agregado.                               |
-| **`Imagen`**                 | URL               | Registra la dirección de la imagen asociada al partido.               |
-| **`Acción`**                 | Botón             | Elimina el partido agregado.                                          |
-| **`Partidos`**               | Texto             | Agrega varios partidos mediante IDs separados por comas (,).          |
+<table><thead><tr><th width="149">Campo</th><th width="166">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Deporte</code></strong></td><td>Lista desplegable</td><td>Define el deporte sobre el cual se realizará la búsqueda de partidos.</td></tr><tr><td><strong><code>País</code></strong></td><td>Lista desplegable</td><td>Define el país correspondiente al evento deportivo.</td></tr><tr><td><strong><code>Campeonato</code></strong></td><td>Lista desplegable</td><td>Define el campeonato del cual se seleccionarán los partidos.</td></tr><tr><td><strong><code>Añadir Manual</code></strong></td><td>Botón</td><td>Agrega partidos manualmente mediante su identificador.</td></tr><tr><td><strong><code>ID</code></strong></td><td>Numérico</td><td>Registra el identificador del partido.</td></tr><tr><td><strong><code>Partidos seleccionados</code></strong></td><td>Texto</td><td>Muestra el nombre del partido agregado.</td></tr><tr><td><strong><code>Imagen</code></strong></td><td>URL</td><td>Registra la dirección de la imagen asociada al partido.</td></tr><tr><td><strong><code>Acción</code></strong></td><td>Botón</td><td>Elimina el partido agregado.</td></tr><tr><td><strong><code>Partidos</code></strong></td><td>Texto</td><td>Agrega varios partidos mediante IDs separados por comas (,).</td></tr></tbody></table>
 {% endtab %}
 {% endtabs %}
 
-<table><thead><tr><th width="186">Campo</th><th width="170">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Tipo de apuesta</code></strong></td><td>Selección múltiple</td><td>Define los tipos de apuesta que serán tenidos en cuenta para participar en el sorteo.</td></tr><tr><td><strong><code>Tipo de evento</code></strong></td><td>Lista desplegable</td><td>Define el tipo de evento deportivo considerado para el sorteo.</td></tr><tr><td><strong><code>Mínima cantidad en selecciones</code></strong></td><td>Numérico</td><td>Establece la cantidad mínima de selecciones requeridas en apuestas múltiples o System.</td></tr><tr><td><strong><code>Mínima cuota en selecciones</code></strong></td><td>Decimal</td><td>Establece la cuota mínima permitida para cada selección.</td></tr><tr><td><strong><code>Mínima cuota total</code></strong></td><td>Decimal</td><td>Establece la cuota mínima total de la apuesta.</td></tr><tr><td><strong><code>Repetir partidos</code></strong></td><td>Interruptor</td><td>Define si un mismo partido puede repetirse dentro del sorteo.</td></tr><tr><td><strong><code>Repetir mercados</code></strong></td><td>Interruptor</td><td>Define si un mismo mercado puede repetirse dentro del sorteo.</td></tr><tr><td>Configuración moneda</td><td>Botón</td><td>Moneda </td></tr><tr><td>Opciones avanzadas</td><td>Botón</td><td>Al hacer clic en "<strong>Opciones avanzadas</strong>", se desplegarán los siguientes campos:</td></tr></tbody></table>
+<table><thead><tr><th width="186">Campo</th><th width="164">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Tipo de apuesta</code></strong></td><td>Selección múltiple</td><td>Define los tipos de apuesta que serán tenidos en cuenta para participar en el sorteo.</td></tr><tr><td><strong><code>Tipo de evento</code></strong></td><td>Lista desplegable</td><td>Define el tipo de evento deportivo considerado para el sorteo.</td></tr><tr><td><strong><code>Mínima cantidad en selecciones</code></strong></td><td>Numérico</td><td>Establece la cantidad mínima de selecciones requeridas en apuestas múltiples o System.</td></tr><tr><td><strong><code>Mínima cuota en selecciones</code></strong></td><td>Numérico</td><td>Establece la cuota mínima permitida para cada selección.</td></tr><tr><td><strong><code>Mínima cuota total</code></strong></td><td>Numérico</td><td>Establece la cuota mínima total de la apuesta.</td></tr><tr><td><strong><code>Repetir partidos</code></strong></td><td>Interruptor</td><td>Define si un mismo partido puede repetirse dentro del sorteo.</td></tr><tr><td><strong><code>Repetir mercados</code></strong></td><td>Interruptor</td><td>Define si un mismo mercado puede repetirse dentro del sorteo.</td></tr><tr><td>Configuración moneda</td><td>Botón</td><td>Moneda </td></tr><tr><td>Opciones avanzadas</td><td>Botón</td><td>Al hacer clic en "<strong>Opciones avanzadas</strong>", se desplegarán los siguientes campos:</td></tr></tbody></table>
 
 <details>
 
 <summary><strong>Configuración de Moneda</strong></summary>
 
-| Campo                            | Tipo              | Descripción                                                                                                               |
-| -------------------------------- | ----------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| **`Mínimo valor de la apuesta`** | Valor monetario   | Establece el valor mínimo que debe tener una apuesta para participar en el sorteo.                                        |
-| **`Tipo Premio`**                | Lista desplegable | Define el tipo de premio que entregará el sorteo. Para este evento únicamente se encuentra disponible el tipo **Físico**. |
-| **`Posición`**                   | Numérico          | Define la posición que ocupará el premio dentro de la tabla de premiación.                                                |
-| **`Descripción Premio`**         | Texto             | Registra la descripción del premio.                                                                                       |
-| **`URL Imagen Premio`**          | URL               | Registra la dirección de la imagen asociada al premio.                                                                    |
-| **`Hora`**                       | Hora              | Establece la hora en la que se realizará el sorteo para la posición configurada.                                          |
-| **`Agregar`**                    | Botón             | Incorpora el premio a la configuración del sorteo.                                                                        |
-
-
+<table><thead><tr><th width="157">Campo</th><th width="117">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Mínimo valor de la apuesta</code></strong></td><td>Numérico</td><td>Establece el valor mínimo que debe tener una apuesta para participar en el sorteo.</td></tr><tr><td><strong><code>Tipo Premio</code></strong></td><td>Lista desplegable</td><td>Define el tipo de premio que entregará el sorteo. Para este evento únicamente se encuentra disponible el tipo <strong>Físico</strong>.</td></tr><tr><td><strong><code>Posición</code></strong></td><td>Numérico</td><td>Define la posición que ocupará el premio dentro de la tabla de premiación.</td></tr><tr><td><strong><code>Descripción Premio</code></strong></td><td>Texto</td><td>Registra la descripción del premio.</td></tr><tr><td><strong><code>URL Imagen Premio</code></strong></td><td>URL</td><td>Registra la dirección de la imagen asociada al premio.</td></tr><tr><td><strong><code>Hora</code></strong></td><td>Hora</td><td>Establece la hora en la que se realizará el sorteo para la posición configurada.</td></tr><tr><td><strong><code>Agregar</code></strong></td><td>Botón</td><td>Incorpora el premio a la configuración del sorteo.</td></tr></tbody></table>
 
 </details>
 
@@ -140,13 +101,7 @@ El segmento seleccionado determina los eventos deportivos que serán considerado
 
 <summary><strong>Opciones Avanzadas</strong></summary>
 
-| Campo                       | Tipo               | Descripción                                                   |
-| --------------------------- | ------------------ | ------------------------------------------------------------- |
-| **`URL Imagen Principal`**  | URL                | Registra la imagen principal que se visualizará en el sorteo. |
-| **`URL de Fondo`**          | URL                | Registra la imagen de fondo del sorteo.                       |
-| **`Regiones Usuario`**      | Selección múltiple | Define las regiones donde el sorteo estará disponible.        |
-| **`Departamentos Usuario`** | Selección múltiple | Define los departamentos donde el sorteo estará disponible.   |
-| **`Ciudades Usuario`**      | Selección múltiple | Define las ciudades donde el sorteo estará disponible.        |
+<table><thead><tr><th width="153">Campo</th><th width="151">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>URL Imagen Principal</code></strong></td><td>URL</td><td>Registra la imagen principal que se visualizará en el sorteo.</td></tr><tr><td><strong><code>URL de Fondo</code></strong></td><td>URL</td><td>Registra la imagen de fondo del sorteo.</td></tr><tr><td><strong><code>Regiones Usuario</code></strong></td><td>Selección múltiple</td><td>Define las regiones donde el sorteo estará disponible.</td></tr><tr><td><strong><code>Departamentos Usuario</code></strong></td><td>Selección múltiple</td><td>Define los departamentos donde el sorteo estará disponible.</td></tr><tr><td><strong><code>Ciudades Usuario</code></strong></td><td>Selección múltiple</td><td>Define las ciudades donde el sorteo estará disponible.</td></tr></tbody></table>
 
 </details>
 
