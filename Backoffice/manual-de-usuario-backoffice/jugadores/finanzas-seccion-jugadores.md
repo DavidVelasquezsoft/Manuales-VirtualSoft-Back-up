@@ -7,8 +7,6 @@ description: >-
 
 # Finanzas sección Jugadores
 
-***
-
 ### 1. Acceso al módulo
 
 **Ruta de acceso**: BackOffice > Jugadores > Finanzas
@@ -20,54 +18,68 @@ description: >-
 Tendrás 2 opciones para gestionar las finanzas del jugador.
 
 {% tabs %}
-{% tab title="2.1. Financiero" %}
+{% tab title="Financiero" %}
 Permite visualizar un desglose detallado de la actividad financiera del usuario.
 
-#### 2.1.1🖼️ Visualización&#x20;
+#### Visualización&#x20;
 
 <figure><img src="../../.gitbook/assets/image (27).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección financiero.</p></figcaption></figure>
 
-#### 2.1.2📑 Descripción de campos
+#### Descripción de campos
 
 <table><thead><tr><th width="218.666748046875">Campo</th><th width="106.3333740234375">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Total  Depósitos</code></strong></td><td>Numérico</td><td>Monto total depositado por el usuario.</td></tr><tr><td><strong><code>Total Apuestas deportivas</code></strong></td><td>Numérico</td><td>Total de apuestas realizadas en deportes.</td></tr><tr><td><strong><code>Total Ganancias deportivas</code></strong></td><td>Numérico</td><td>Monto ganado en apuestas deportivas.</td></tr><tr><td><strong><code>Total Apuestas casino</code></strong></td><td>Numérico</td><td>Total de apuestas realizadas en juegos de casino.</td></tr><tr><td><strong><code>Ganancias totales casino</code></strong></td><td>Numérico</td><td>Monto ganado en apuestas de casino.</td></tr><tr><td><strong><code>Total Retiros</code></strong></td><td>Numérico</td><td>Valor total retirado por el usuario.</td></tr><tr><td><strong><code>Ajustes de entrada</code></strong></td><td>Numérico</td><td>Modificaciones en el saldo del usuario por ajustes entradas.</td></tr><tr><td><strong><code>Ajustes de salida</code></strong></td><td>Numérico</td><td>Modificaciones en el saldo del usuario por ajustes de salidas.</td></tr></tbody></table>
 
-#### 2.1.3📄 Resumen
+#### Resumen
 
 Además, se muestra un **resumen financiero**, donde se reflejan los montos de cada categoría, junto con indicadores visuales que diferencian valores positivos y negativos.
 
 <table><thead><tr><th width="119.6666259765625">Categoría</th><th>Resumen</th></tr></thead><tbody><tr><td><strong><code>Depósitos</code></strong></td><td>Resumen del monto total depositado en la cuenta del usuario.</td></tr><tr><td><strong><code>Apuestas</code></strong></td><td>Resumen </td></tr><tr><td><strong><code>Premios</code></strong></td><td>Resumen de los premios adquiridos por el usuario.</td></tr><tr><td><strong><code>Retiros</code></strong></td><td>Resumen de los retiros solicitados por el usuario.</td></tr><tr><td><strong><code>Saldo de bonos</code></strong></td><td>Resumen de los bonos adquiridos por el usuario.</td></tr><tr><td><strong><code>Ajustes</code></strong></td><td>Resumen de los ajustes realizados en la cuenta del usuario.</td></tr><tr><td><strong><code>Indicadores de juego</code></strong></td><td>Muestra los indicadores de rendimiento económico del jugador</td></tr></tbody></table>
 {% endtab %}
 
-{% tab title="2.2. Cuentas Bancarias" %}
+{% tab title="Cuentas Bancarias" %}
 Permite consultar las cuentas bancarias vinculadas al usuario.
 
-#### 2.2.1🖼️ Visualización
+#### Visualización
 
 <figure><img src="../../.gitbook/assets/image (578).png" alt=""><figcaption><p>Figura#2: Captura de pantalla sección cuentas bancarias.</p></figcaption></figure>
 
-#### 2.2.2🔍 Filtros
+#### Acciones Disponibles
+
+<table><thead><tr><th width="127.88885498046875">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="finanzas-seccion-jugadores.md#registrar-tarjeta-stradacarte"><strong>Registrar tarjeta Stradacarte</strong></a></td><td>Despliega un pop-up que permite registrar una tarjeta para retiros y recargas.</td></tr><tr><td><a href="finanzas-seccion-jugadores.md#filtros"><strong>Filtrar</strong></a></td><td>Permiten realizar búsquedas específicas mediante la selección de uno o varios criterios</td></tr><tr><td><a href="finanzas-seccion-jugadores.md#resultados-de-consulta"><strong>Consultar</strong></a></td><td>Realiza la consulta según los filtros completados.</td></tr><tr><td><strong>Limpiar</strong></td><td>Limpia todos los filtros con información</td></tr></tbody></table>
+
+#### Filtros
 
 <table><thead><tr><th width="110.22216796875"> Campo</th><th width="166.77777099609375">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>ID Cuenta</code></strong></td><td>Numérico</td><td>Identificador único asignada a la cuenta bancaria.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Lista desplegable</td><td>Permite seleccionar el estado actual de la cuenta. (Todos, Activo o Inactivo)</td></tr></tbody></table>
 
-#### 2.2.4🚀 Resultados de consulta
+#### Resultados de consulta
 
 Aplica los filtros seleccionados y muestra las cuentas bancarias válidas.
 
-<table><thead><tr><th width="143.111083984375">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><code>🖋️</code></td><td>Despliega un pop-up con información de la tarjeta ya registrada y con la posibilidad de editar solo el estado de la tarjeta.</td></tr><tr><td><strong><code>ID</code></strong></td><td>Código único identificador de la tarjeta.</td></tr><tr><td><strong><code>Banco</code></strong></td><td>Nombre de la entidad bancaria.</td></tr><tr><td><strong><code>Número de cuenta bancaria</code></strong></td><td>Clave única de la cuenta registrada.</td></tr><tr><td><strong><code>Código interbancario</code></strong></td><td>Código asignado para transacciones interbancarias.</td></tr><tr><td><strong><code>Tipo de cuenta</code></strong></td><td>Clasificación de la cuenta <em>(ejemplo: ahorro, corriente).</em></td></tr><tr><td><strong><code>Estado</code></strong></td><td>Indica si la cuenta está: <em>(activa o inactiva).</em></td></tr><tr><td><strong><code>Fecha registro</code></strong></td><td>Fecha en la que se registró la tarjeta.</td></tr></tbody></table>
+<table><thead><tr><th width="143.111083984375">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><code>🖋️</code></td><td>Despliega un pop-up con información de la tarjeta ya registrada y con la posibilidad de editar solo el estado de la tarjeta.</td></tr><tr><td><strong><code>ID</code></strong></td><td>Código único identificador de la tarjeta.</td></tr><tr><td><strong><code>Banco</code></strong></td><td>Nombre de la entidad bancaria.</td></tr><tr><td><strong><code>Número de cuenta bancaria</code></strong></td><td>Clave única de la cuenta registrada.</td></tr><tr><td><strong><code>Código interbancario</code></strong></td><td>Código asignado para transacciones interbancarias. En las tarjetas <strong>Stradacarte</strong>, esta columna muestra el <strong>ID CARD</strong> registrado.</td></tr><tr><td><strong><code>Tipo de cuenta</code></strong></td><td>Clasificación de la cuenta <em>(ejemplo: ahorro, corriente).</em></td></tr><tr><td><strong><code>Estado</code></strong></td><td>Indica si la cuenta está: <em>(activa o inactiva).</em></td></tr><tr><td><strong><code>Fecha registro</code></strong></td><td>Fecha en la que se registró la tarjeta.</td></tr></tbody></table>
 
-#### 2.2.3⚡Acciones Disponibles
+#### Registrar tarjeta Stradacarte
 
-<table><thead><tr><th width="127.88885498046875">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Registrar tarjeta Stradacarte</strong></td><td>Despliega un pop-up que permite registrar una tarjeta para retiros y recargas.</td></tr><tr><td><strong>Limpiar</strong></td><td>Limpia todos los filtros con información</td></tr><tr><td><strong>Consultar</strong></td><td>Realiza la consulta según los filtros completados.</td></tr></tbody></table>
+Permite registrar una tarjeta del proveedor **Stradacarte** en el perfil del jugador, habilitándola como medio disponible para realizar depósitos y retiros en la plataforma de usuarios online. A diferencia de otros medios de pago, estas tarjetas son asignadas por el operador desde el BackOffice y no las registra el jugador.
 
-#### 2.2.5✅Validaciones y reglas del negocio
+Al seleccionar el botón **Registrar tarjeta Stradacarte**, se abre una ventana emergente con los siguientes campos obligatorios:
 
-* Las acciones para registrar, editar o eliminar tarjetas, solo estarán disponibles si el usuario cuenta con los permisos correspondientes.
-* En caso de intentar registrar una tarjeta con un ID duplicado se visualizará el siguiente mensaje: _**"Este ID CARD ya está registrado para otro jugador. Verifica la información ingresada."**_
-* Un jugador puede tener un máximo de 5 tarjetas activas.
-* No es posible editar una tarjeta en caso de que tenga un retiro/recarga procesando, en caso de intentarlo se visualizará el siguiente mensaje: _**“Esta tarjeta tiene un retiro activo y no puede ser modificada ni eliminada.”**_
-* Si se elimina una tarjeta o se inactiva, esta dejará de visualizarse en la plataforma de usuarios online.
+<table><thead><tr><th width="105">Campo</th><th width="110">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>ID CARD</code></strong></td><td>Numérico</td><td><p>Identificador único de la tarjeta Stradacarte asignada al jugador.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Admite únicamente números, sin espacios. Este identificador se muestra posteriormente en la columna <strong><code>Código interbancario</code></strong> de la tabla de resultados.</p></div></td></tr><tr><td><strong><code>Número de tarjeta</code></strong></td><td>Numérico</td><td><p>Número de la tarjeta registrada.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> El sistema almacena y muestra únicamente los últimos cuatro dígitos de la tarjeta, los cuales se visualizan de forma enmascarada en la columna <strong><code>Número de cuenta bancaria</code></strong>.</p></div></td></tr></tbody></table>
 
-#### 2.2.6📩Mensajes y confirmaciones&#x20;
+{% hint style="warning" %}
+**Nota:** Para completar el registro es necesario seleccionar el botón **Guardar**. Una vez registrada, la tarjeta se muestra en la tabla de cuentas bancarias del jugador y queda disponible para depósitos y retiros.
+{% endhint %}
+
+#### Validaciones y reglas del negocio
+
+* Las tarjetas Stradacarte son registradas por el operador desde el BackOffice y habilitan al jugador para realizar depósitos y retiros con ellas.
+* Cada **`ID CARD`** debe ser único a nivel global: no puede registrarse en más de un jugador ni repetirse dentro del mismo jugador.
+* Del número de tarjeta se almacenan y visualizan únicamente los últimos cuatro dígitos.
+* Un jugador puede tener un máximo de **5 tarjetas activas**.
+* No es posible modificar ni eliminar una tarjeta que tenga depósitos o retiros en proceso.
+* Si una tarjeta se elimina o se marca como inactiva, deja de mostrarse en las secciones de depósitos y retiros del jugador en la plataforma de usuarios online.
+* Las acciones de registrar, editar o eliminar tarjetas requieren el permiso **Gestionar tarjetas Stradacarte**. Los intentos de acceso sin permiso quedan registrados en el sistema.
+
+#### Mensajes y confirmaciones&#x20;
 
 * Registro exitoso:
 
