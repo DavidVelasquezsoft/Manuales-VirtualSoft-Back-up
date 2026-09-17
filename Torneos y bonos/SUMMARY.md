@@ -40,6 +40,7 @@
         * [Usuarios Afiliados al regalo](torneos-y-bonos./como-acceder-a-la-plataforma-./visualizar-eventos./regalos./usuarios-afiliados-al-regalo.md)
       * [Sorteos.](torneos-y-bonos./como-acceder-a-la-plataforma-./visualizar-eventos./sorteos..md)
       * [Ruletas.](torneos-y-bonos./como-acceder-a-la-plataforma-./visualizar-eventos./ruletas..md)
+      * [Copy of Ruletas.](torneos-y-bonos./como-acceder-a-la-plataforma-./visualizar-eventos./copy-of-ruletas..md)
       * [Jackpot.](torneos-y-bonos./como-acceder-a-la-plataforma-./visualizar-eventos./jackpot..md)
       * [Visualizar multiplicador lealtad](torneos-y-bonos./como-acceder-a-la-plataforma-./visualizar-eventos./visualizar-multiplicador-lealtad.md)
   * [Solución de problemas.](torneos-y-bonos./solucion-de-problemas..md)
