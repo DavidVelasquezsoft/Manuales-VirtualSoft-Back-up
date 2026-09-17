@@ -17,7 +17,6 @@
           * [Creación bono FreeCasino para Penka](torneos-y-bonos./como-acceder-a-la-plataforma-./crear-eventos./crear-bono./freecasino./creacion-bono-freecasino-para-penka.md)
         * [FreeBet.](torneos-y-bonos./como-acceder-a-la-plataforma-./crear-eventos./crear-bono./freebet./README.md)
           * [Creación Bono FreeBet para penka](torneos-y-bonos./como-acceder-a-la-plataforma-./crear-eventos./crear-bono./freebet./creacion-bono-freebet-para-penka.md)
-          * [Creación bono Freebet para Digitain](torneos-y-bonos./como-acceder-a-la-plataforma-./crear-eventos./crear-bono./freebet./creacion-bono-freebet-para-digitain.md)
         * [FreeSpin](torneos-y-bonos./como-acceder-a-la-plataforma-./crear-eventos./crear-bono./freespin.md)
         * [Cashback](torneos-y-bonos./como-acceder-a-la-plataforma-./crear-eventos./crear-bono./cashback.md)
       * [Crear Regalo](torneos-y-bonos./como-acceder-a-la-plataforma-./crear-eventos./crear-regalo.md)

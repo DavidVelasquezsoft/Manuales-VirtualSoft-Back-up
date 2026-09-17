@@ -82,7 +82,7 @@ Permite visualizar la información completa de una ruleta.
 
 #### Visualización&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (306).png" alt=""><figcaption><p>Figura #2: Captura de pantalla Ranking Ruleta.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (306) (1).png" alt=""><figcaption><p>Figura #2: Captura de pantalla Ranking Ruleta.</p></figcaption></figure>
 
 ***
 
