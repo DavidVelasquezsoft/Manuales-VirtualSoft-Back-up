@@ -1,3 +1,10 @@
+---
+description: >-
+  Consulta y analiza la información relacionada con los usuarios referidos y sus
+  referentes. La información puede consultarse en vistas Totales o Detallado,
+  según el nivel de información requerido.
+---
+
 # Reporte de referidos
 
 ### 1. Acceso al módulo
