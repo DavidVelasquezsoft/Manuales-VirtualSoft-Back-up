@@ -1,8 +1,8 @@
 ---
 description: >-
-  Consulta el historial de los bonos redimidos por los usuarios, mostrando el
+  Consulta el historial de los bonos redimidos por el usuario, mostrando el
   detalle de cada bono otorgado. Adicionalmente, permite asignar saldo en forma
-  de bono a un usuario específico.
+  de bono al usuario.
 ---
 
 # Reporte de bonos redimidos
