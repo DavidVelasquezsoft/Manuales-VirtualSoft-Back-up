@@ -1,7 +1,7 @@
 ---
 description: >-
-  Consulta los reportes de las apuestas realizadas en loterías por los usuarios
-  en la plataforma Usuarios Online.
+  Permite consultar el resumen y detalle de actividad del usuario en juegos que
+  no son deportivos, como loterías, casino y live casino.
 ---
 
 # Reporte productos no deportivos (Por usuario)

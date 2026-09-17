@@ -1,7 +1,7 @@
 ---
 description: >-
-  Este reporte te permite consultar el resumen de actividad de todos los
-  usuarios en juegos que no son deportivos, como loterías, casino.
+  Permite consultar el resumen de actividad de todos los usuarios en juegos que
+  no son deportivos, como loterías, casino.
 layout:
   width: default
   title:
@@ -19,6 +19,8 @@ layout:
   tags:
     visible: true
   actions:
+    visible: true
+  anchors:
     visible: true
 ---
 

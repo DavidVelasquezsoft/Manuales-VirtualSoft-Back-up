@@ -1,3 +1,10 @@
+---
+description: >-
+  Consulta el historial de los bonos redimidos por los usuarios, mostrando el
+  detalle de cada bono otorgado. Adicionalmente, permite asignar saldo en forma
+  de bono a un usuario específico.
+---
+
 # Reporte de bonos redimidos
 
 ### 1. Acceso al módulo
@@ -14,7 +21,7 @@
 
 ### &#x33;**. Acciones disponibles**
 
-<table><thead><tr><th width="119.66668701171875">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Filtro</strong></td><td>Permite filtrar la información para obtener resultados más precisos</td></tr><tr><td><strong>Limpiar</strong></td><td>Restablece todos los filtros a su estado inicial.</td></tr><tr><td><a href="reporte-de-bonos-redimidos.md#id-3.1.-consultar"><strong>Consultar</strong></a></td><td>Aplica los filtros seleccionados y muestra los registros válidos.</td></tr><tr><td><strong>Exportar</strong></td><td>El botón <strong>Exportar</strong> en la parte inferior derecha del reporte permite descargar los resultados obtenidos con los filtros aplicados en los formatos <strong>Excel (.XLS)</strong> y <strong>PDF.</strong></td></tr></tbody></table>
+<table><thead><tr><th width="128.83331298828125">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="reporte-de-bonos-redimidos.md#id-6.-anadir-bono-a-saldo"><strong>Añadir bono a saldo</strong></a></td><td> Permite añadir saldo en forma de bono al usuario.</td></tr><tr><td><strong>Filtro</strong></td><td>Permite filtrar la información para obtener resultados más precisos</td></tr><tr><td><strong>Limpiar</strong></td><td>Restablece todos los filtros a su estado inicial.</td></tr><tr><td><a href="reporte-de-bonos-redimidos.md#id-3.1.-consultar"><strong>Consultar</strong></a></td><td>Aplica los filtros seleccionados y muestra los registros válidos.</td></tr><tr><td><strong>Exportar</strong></td><td>El botón <strong>Exportar</strong> en la parte inferior derecha del reporte permite descargar los resultados obtenidos con los filtros aplicados en los formatos <strong>Excel (.XLS)</strong> y <strong>PDF.</strong></td></tr></tbody></table>
 
 ***
 
@@ -50,6 +57,6 @@ Despliega un formulario emergente para añadir saldo en forma de bono a un usuar
 
 <summary>🔽Historial de versiones</summary>
 
-<table><thead><tr><th width="116.22216796875" align="right">Versión</th><th>Fecha</th><th>Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td align="right">1.0</td><td>2025-09-22</td><td>David velasquez</td><td>Documento inicial.</td></tr></tbody></table>
+<table><thead><tr><th width="116.22216796875" align="right">Versión</th><th width="142.1666259765625">Fecha</th><th>Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td align="right">1.0</td><td>2025-09-22</td><td>David velasquez</td><td>Documento inicial.</td></tr></tbody></table>
 
 </details>
