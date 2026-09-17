@@ -70,7 +70,7 @@ En esta sección se muestran todos las ruletas creados. La información se despl
 
 ***
 
-<table data-header-hidden><thead><tr><th width="206.8887939453125">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>ID Sorteo</code></strong></td><td>Identificador único asignado al sorteo.</td></tr><tr><td><strong><code>Nombre Sorteo</code></strong></td><td>Nombre definido para el sorteo.</td></tr><tr><td><strong><code>Descripción Sorteo</code></strong></td><td>Breve descripción con detalles del sorteo, que esta la visualizaran los usuarios en la plataforma en usuarios online.</td></tr><tr><td><strong><code>Fecha de Inicio</code></strong></td><td>Fecha en la que comenzó el sorteo.</td></tr><tr><td><strong><code>Fecha de Fin</code></strong></td><td>Fecha en la que finalizó el sorteo.</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="206.8887939453125">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>ID ruleta</code></strong></td><td>Identificador único asignado al sorteo.</td></tr><tr><td><strong><code>Nombre ruleta</code></strong></td><td>Nombre definido para el sorteo.</td></tr><tr><td><strong><code>Descripción ruleta</code></strong></td><td>Breve descripción con detalles del sorteo, que esta la visualizaran los usuarios en la plataforma en usuarios online.</td></tr><tr><td><strong><code>Fecha de Inicio</code></strong></td><td>Fecha en la que comenzó el sorteo.</td></tr><tr><td><strong><code>Fecha de Fin</code></strong></td><td>Fecha en la que finalizó el sorteo.</td></tr></tbody></table>
 
 <details>
 
@@ -96,7 +96,7 @@ Permiten visualizar un resumen general del estado y desempeño del sorteo, a tra
 
 #### Filtros
 
-<table><thead><tr><th width="132.99993896484375">Campo</th><th width="119.00006103515625">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Id</code></strong></td><td>Numérico</td><td>Filtra por una ruleta específica con su identificador único.</td></tr><tr><td><strong><code>Usuario Id</code></strong></td><td>Numérico</td><td>Permite filtrar la información asociada a un usuario específico mediante su identificador único.</td></tr><tr><td><strong><code>Nombre</code></strong></td><td>Texto</td><td>Permite filtrar los resultados por el nombre de la ruleta.</td></tr></tbody></table>
+<table><thead><tr><th width="132.99993896484375">Campo</th><th width="119.00006103515625">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Id</code></strong></td><td>Numérico</td><td>Filtra por una ruleta específica con su identificador único.</td></tr><tr><td><strong><code>Usuario Id</code></strong></td><td>Numérico</td><td>Permite filtrar la información asociada a un usuario específico mediante su identificador único.</td></tr><tr><td><strong><code>Nombre</code></strong></td><td>Texto</td><td>Permite filtrar los resultados por el nombre de los usuarios que participaron en la ruleta.</td></tr></tbody></table>
 
 ***
 
@@ -110,19 +110,12 @@ Permite visualizar todos los jugadores participantes y consultar los detalles de
 
 ***
 
-### 4. Validaciones y reglas del negocio:
-
-* Los sorteos activos también se muestran en los **banners de la plataforma** con el número de inscritos y un cronómetro con el tiempo restante.
-* La información de participantes y progreso se actualiza automáticamente cada **120 segundos**.
-
-***
-
-### 5. Control de Versiones
+### 4. Control de Versiones
 
 <details>
 
 <summary> 🕒Historial de versiones.</summary>
 
-<table><thead><tr><th width="107.88897705078125">Versión</th><th width="132.111083984375">Fecha</th><th width="170.333251953125">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>2025-08-25</td><td>Ronald Pelaez</td><td>Documento inicial</td></tr></tbody></table>
+<table><thead><tr><th width="107.88897705078125">Versión</th><th width="132.111083984375">Fecha</th><th width="170.333251953125">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>2026-09-17</td><td>Ronald Pelaez</td><td>Documento inicial</td></tr></tbody></table>
 
 </details>
