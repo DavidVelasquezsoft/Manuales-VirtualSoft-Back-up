@@ -206,7 +206,8 @@ Puedes verificar el saldo acreditado en tu cuenta desde el panel principal o en 
 * No se permiten depósitos realizados desde cuentas de terceros.
 * El sistema puede aplicar bonos automáticamente si se cumplen las condiciones.
 * Los fondos pueden acreditarse en tiempo real o tras validar un comprobante, según el método utilizado.
-* El reporte del backOffice [Reporte Depósitos por franquicias](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/manual-de-usuario-backoffice/reportes/reporte-depositos-por-franquicias "mention") permite visualizar la información de los depósitos procesados mediante franquicias, facilitando su análisis de forma independiente.
+* El reporte del BackOffice [Reporte Depósitos por franquicias](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/manual-de-usuario-backoffice/reportes/reporte-depositos-por-franquicias "mention") permite visualizar la información de los depósitos procesados mediante franquicias, facilitando su análisis de forma independiente.
+* Para que un depósito sea válido es necesario que la pasarela tenga configurado un valor máximo y un valor mínimo de depósitos desde [BackOffice](https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/herramientas/partner-ajustes/productos/partners-sub-proveedores#id-3.3.-editar-subproveedor).
 
 ***
 
