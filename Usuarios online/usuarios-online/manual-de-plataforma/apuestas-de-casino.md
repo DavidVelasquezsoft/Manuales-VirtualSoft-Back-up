@@ -41,6 +41,8 @@ En el caso del juego **Poker Lobby**, al momento de cerrar sesión, se mostrará
 **Nota:** Cuando existan torneos o sorteos activos, estos se mostrarán en los banners con la cantidad de usuarios participantes (torneos) o inscritos (sorteos). La información aparecerá en la parte inferior junto al cronómetro correspondiente y se actualizará automáticamente cada 120 segundos.
 {% endhint %}
 
+* Para que el usuario pueda realizar algún tipo de apuesta, debe estar previamente verificado y con los permisos necesarios.
+
 ***
 
 ### 4. Control de Versiones
