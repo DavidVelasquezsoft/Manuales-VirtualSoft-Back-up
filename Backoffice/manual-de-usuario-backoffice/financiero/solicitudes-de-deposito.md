@@ -67,7 +67,7 @@ Si el operador corrige el External ID desde esta vista, el sistema ejecuta nueva
 {% endhint %}
 
 {% hint style="warning" %}
-**Nota:** Tanto la aprobación como el rechazo requieren confirmarse mediante el **token de autenticación**. Si la opción de autorización temporal está activa, el token se solicita únicamente en la primera operación y mantiene una validez de **30 minutos** para las siguientes; si está inactiva, el sistema lo exige en cada transacción.
+**Nota:** Tanto la aprobación como el rechazo requieren confirmarse mediante el **token de autenticación**. Si la autorización temporal está activa en la configuración del partner **y el usuario cuenta con el permiso correspondiente**, el token se solicita únicamente en la primera operación y mantiene una validez de **30 minutos** para las siguientes; en caso contrario, el sistema lo exige en cada transacción.
 {% endhint %}
 {% endcolumn %}
 {% endcolumns %}
