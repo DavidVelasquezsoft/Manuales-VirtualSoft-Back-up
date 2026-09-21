@@ -4,8 +4,12 @@ description: >-
   mensajes para la plataforma. Aquí encontrarás las siguientes opciones:
 ---
 
-# Mensajes.
+# Interacciones.
 
 {% content-ref url="cupon-de-apuestas..md" %}
 [cupon-de-apuestas..md](cupon-de-apuestas..md)
+{% endcontent-ref %}
+
+{% content-ref url="tours.md" %}
+[tours.md](tours.md)
 {% endcontent-ref %}
