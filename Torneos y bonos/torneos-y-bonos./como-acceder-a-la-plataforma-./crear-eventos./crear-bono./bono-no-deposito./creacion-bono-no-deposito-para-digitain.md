@@ -180,7 +180,7 @@ Define las cuotas que debe cumplir la apuesta en su conjunto para ser válida co
 
 ***
 
-<table data-header-hidden data-search="false"><thead><tr><th width="130.33343505859375">Campo</th><th width="116.33331298828125">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Tipo de campaña</code></strong></td><td>Lista desplegable</td><td>Define el objetivo principal del bono dentro de la estrategia de campaña. Las opciones disponibles son:</td></tr></tbody></table>
+<table data-header-hidden data-search="false"><thead><tr><th width="130.33343505859375">Campo</th><th width="119.88885498046875">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Tipo de campaña</code></strong></td><td>Lista desplegable</td><td>Define el objetivo principal del bono dentro de la estrategia de campaña. Las opciones disponibles son:</td></tr></tbody></table>
 
 {% columns %}
 {% column width="33.33333333333333%" %}
@@ -194,7 +194,77 @@ Define las cuotas que debe cumplir la apuesta en su conjunto para ser válida co
 
 ***
 
-<table data-header-hidden data-search="false"><thead><tr><th width="122.8333740234375">Campo</th><th width="121.33331298828125">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Detalle de Campaña</code></strong></td><td>Lista desplegable</td><td><p>Define la clasificación específica del bono, facilitando su identificación, trazabilidad y análisis desde la administración de bonos.</p><p>Este campo es <strong>obligatorio</strong> y admite una única categoría entre las opciones del sistema <em>(por ejemplo: Bono de registro, Referidos, CRM fidelización)</em>. Si no se selecciona, el sistema muestra un mensaje de error.</p></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="128.00006103515625">Campo</th><th width="119.4444580078125">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Detalle de Campaña</code></strong></td><td>Lista desplegable</td><td><p>Define la clasificación específica del bono, facilitando su identificación, trazabilidad y análisis desde la administración de bonos.</p><p>Este campo es <strong>obligatorio</strong> y admite una única categoría entre las opciones del sistema <em>(por ejemplo: Bono de registro, Referidos, CRM fidelización)</em>. Si no se selecciona, el sistema muestra un mensaje de error.</p></td></tr><tr><td><strong><code>Deportes, Ligas y Partidos</code></strong></td><td>Secciones</td><td><p>Definen en qué eventos deportivos puede utilizarse el saldo del bono dentro del sportsbook de Digitain:</p><ul><li><strong>Sin configurar</strong> <em>(Directo)</em><strong>:</strong> al no agregar ningún deporte, liga ni partido, el usuario puede utilizar el bono en cualquier evento disponible en la plataforma.</li><li><strong>Configurado:</strong> al agregar uno o varios deportes, ligas o partidos, el usuario únicamente puede utilizar el saldo del bono en las apuestas que correspondan a los elementos configurados.</li></ul><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Esta configuración aplica en ambas modalidades del bono, con rollover y FreeBet, ya que determina dónde puede utilizarse el saldo, independientemente de si debe completarse un rollover para liberarlo.</p></div></td></tr></tbody></table>
+
+{% tabs %}
+{% tab title="Deporte" %}
+Permite limitar el uso del bono a uno o varios deportes específicos _(por ejemplo: fútbol, tenis o baloncesto)_.
+
+**Visualización**
+
+<figure><img src="https://1957026231-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FrLdGx9JdTz3uLoquKvJw%2Fuploads%2FSL5jL9ZNqq9pUKPSjznO%2Fimage.png?alt=media&#x26;token=bde76d19-691e-4536-bbf7-8ec293034596" alt=""><figcaption><p>Figura #2: Captura de pantalla configuraciones deporte.</p></figcaption></figure>
+
+**Acciones del usuario**
+
+<table><thead><tr><th width="245.111083984375">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Añadir deportes</strong></td><td>Agrega los deportes en los que podrá utilizarse el bono.</td></tr><tr><td><strong>Eliminar deportes agregados</strong></td><td>Retira un deporte previamente agregado al bono.</td></tr></tbody></table>
+
+**¿Cómo añadir un deporte?**
+
+Al seleccionar el botón **Añadir**, se habilita un registro en la tabla con los siguientes campos:
+
+<table><thead><tr><th width="211.77783203125">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>ID</code></strong></td><td>Identificador único del deporte que se desea agregar.</td></tr><tr><td><strong><code>Deportes seleccionados</code></strong></td><td>Nombre del deporte agregado. Admite un único nombre por registro.</td></tr><tr><td><strong><code>Acción</code></strong></td><td>Permite eliminar el deporte agregado.</td></tr></tbody></table>
+
+{% hint style="warning" %}
+**Nota:** Adicionalmente, el campo **`Deportes`**, ubicado debajo del botón **Añadir**, permite registrar varios deportes a la vez ingresando sus **ID separados por comas (,)**.
+{% endhint %}
+{% endtab %}
+
+{% tab title="Partidos" %}
+Permite limitar el uso del bono a uno o varios partidos o eventos específicos.
+
+**Visualización**
+
+<figure><img src="https://1957026231-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FrLdGx9JdTz3uLoquKvJw%2Fuploads%2FcB3AofBf5bo5l1UnOpiG%2Fimage.png?alt=media&#x26;token=137fe70a-f793-49a7-bf02-b80cea9f0728" alt=""><figcaption><p>Figura #3: Captura de pantalla configuraciones partidos.</p></figcaption></figure>
+
+**Acciones del usuario**
+
+<table><thead><tr><th width="245.111083984375">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Añadir partidos</strong></td><td>Agrega los partidos en los que podrá utilizarse el bono.</td></tr><tr><td><strong>Eliminar partidos agregados</strong></td><td>Retira un partido previamente agregado al bono.</td></tr></tbody></table>
+
+**¿Cómo añadir un partido?**
+
+Al seleccionar el botón **Añadir**, se habilita un registro en la tabla con los siguientes campos:
+
+<table><thead><tr><th width="211.77783203125">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>ID</code></strong></td><td>Identificador único del partido que se desea agregar.</td></tr><tr><td><strong><code>Partidos seleccionados</code></strong></td><td>Nombre del partido agregado. Admite un único nombre por registro.</td></tr><tr><td><strong><code>Acción</code></strong></td><td>Permite eliminar el partido agregado.</td></tr></tbody></table>
+
+{% hint style="warning" %}
+**Nota:** Adicionalmente, el campo **`Partidos`**, ubicado debajo del botón **Añadir**, permite registrar varios partidos a la vez ingresando sus **ID separados por comas (,)**.
+{% endhint %}
+{% endtab %}
+
+{% tab title="Ligas" %}
+Permite limitar el uso del bono a una o varias ligas o torneos específicos _(por ejemplo: LaLiga o Champions League)_.
+
+**Visualización**
+
+<figure><img src="https://1957026231-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FrLdGx9JdTz3uLoquKvJw%2Fuploads%2FT6ayAYOqvd2IthM7UhP2%2Fimage.png?alt=media&#x26;token=b0ea0948-cbc2-4edf-8e18-ce41418d4134" alt=""><figcaption><p>Figura #4: Captura de pantalla configuraciones ligas.</p></figcaption></figure>
+
+**Acciones del usuario**
+
+<table><thead><tr><th width="245.111083984375">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Añadir ligas</strong></td><td>Agrega las ligas en las que podrá utilizarse el bono.</td></tr><tr><td><strong>Eliminar ligas agregadas</strong></td><td>Retira una liga previamente agregada al bono.</td></tr></tbody></table>
+
+**¿Cómo añadir una liga?**
+
+Al seleccionar el botón **Añadir**, se habilita un registro en la tabla con los siguientes campos:
+
+<table><thead><tr><th width="211.77783203125">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>ID</code></strong></td><td>Identificador único de la liga que se desea agregar.</td></tr><tr><td><strong><code>Ligas seleccionadas</code></strong></td><td>Nombre de la liga agregada. Admite un único nombre por registro.</td></tr><tr><td><strong><code>Imagen</code></strong></td><td>URL de la imagen representativa de la liga.</td></tr><tr><td><strong><code>Acción</code></strong></td><td>Permite eliminar la liga agregada.</td></tr></tbody></table>
+
+{% hint style="warning" %}
+**Nota:** Adicionalmente, el campo **`Ligas`**, ubicado debajo del botón **Añadir**, permite registrar varias ligas a la vez ingresando sus **ID separados por comas (,)**.
+{% endhint %}
+{% endtab %}
+{% endtabs %}
+
+<table data-header-hidden><thead><tr><th width="125.22222900390625">Campo</th><th width="122.00006103515625"></th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Tipo de apuesta</code></strong></td><td>Selector</td><td><p>Define el tipo de apuesta en el que puede utilizarse el saldo del bono:</p><ul><li><strong>Single:</strong> apuesta simple a un único pronóstico con un monto definido <em>(ejemplo: apostar $10 a que gana Real Madrid)</em>.</li><li><strong>Múltiple:</strong> combina varias selecciones en una sola apuesta <em>(ejemplo: apostar $10 a que ganan Real Madrid y Barcelona en sus respectivos partidos)</em>.</li><li><strong>All:</strong> el bono puede utilizarse en cualquiera de los tipos de apuesta disponibles, sin restricción. <em>(ejemplo: apostar $10 a que gana Real Madrid en una apuesta simple, o combinar varios partidos en una múltiple; ambas opciones son válidas para el bono)</em>.</li></ul></td></tr><tr><td><strong><code>Tipo de evento</code></strong></td><td>Selector</td><td><p>Define el tipo de evento en el que puede utilizarse el saldo del bono:</p><ul><li><strong>Both:</strong> aplica tanto a eventos pre-match como en vivo <em>(ejemplo: apostar $10 en un partido disponible en ambas modalidades)</em>.</li><li><strong>Pre-match:</strong> eventos que se pronostican antes de iniciar <em>(ejemplo: apostar $10 a que gana Real Madrid antes del inicio del partido)</em>.</li><li><strong>Live:</strong> eventos en curso, que solo pueden apostarse mientras se desarrollan <em>(ejemplo: apostar $10 a que habrá gol en el segundo tiempo mientras el partido está en juego)</em>.</li></ul></td></tr></tbody></table>
 
 ***
 
@@ -210,27 +280,7 @@ Configuraciones complementarias que definen cómo se controla el acceso al bono 
 
 ***
 
-<table data-header-hidden><thead><tr><th width="129.83331298828125">Campo</th><th width="117.33331298828125">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Producto Rollover</code></strong></td><td>Lista desplegable</td><td><p>Define si el bono requiere que el usuario realice apuestas para liberarlo y, en caso de requerirlo, en qué producto deben realizarse. Las opciones recomendadas para este caso son:</p><ul><li><strong>Directo:</strong> el bono no requiere rollover; el saldo queda disponible para el usuario sin necesidad de apostar.</li><li><strong>Sportsbook:</strong> el bono requiere rollover y habilita las configuraciones correspondientes al producto seleccionado, las cuales determinan qué apuestas son válidas para liberarlo.</li></ul></td></tr></tbody></table>
-
-{% columns %}
-{% column width="33.33333333333333%" %}
-
-{% endcolumn %}
-
-{% column width="66.66666666666667%" %}
-<details>
-
-<summary><strong>Configuraciones: Sportsbook</strong></summary>
-
-Definen las apuestas deportivas que son válidas para descontar del rollover. Las secciones **Deporte, Mercados, Ligas y Partidos** comparten la misma estructura y configuración: los campos y condiciones son los mismos en todas, variando únicamente el nivel al que se aplican _(deporte, mercado, liga o partido)_.
-
-<table data-search="false"><thead><tr><th width="122.66650390625">Campo</th><th width="258.0103759765625">Descripción</th></tr></thead><tbody><tr><td><strong><code>¿Todas las condiciones son obligatorias?</code></strong></td><td>Define si las condiciones configuradas deben cumplirse en su totalidad. Con la opción "<em><strong>Sí</strong></em>", se revisan una a una y todas deben cumplirse para aplicar la regla. Con la opción "<em><strong>No</strong></em>", cada condición se evalúa de forma independiente y basta con que alguna se cumpla.</td></tr><tr><td><strong><code>Deporte, Mercados, Ligas o Partidos</code></strong></td><td>Define los identificadores <em>(ID)</em> de los elementos a los que aplica la configuración <em>(deportes, mercados, ligas o partidos)</em>. Admite múltiples ID separados por comas.</td></tr><tr><td><strong><code>Tipo de apuesta</code></strong></td><td>Define el tipo de apuesta al que aplica la configuración: <strong>Single</strong> <em>(apuesta simple)</em>, <strong>Multiple</strong> <em>(apuesta combinada)</em> o <strong>System</strong> <em>(apuestas de sistema)</em>.</td></tr><tr><td><strong><code>Tipo de evento</code></strong></td><td>Define el tipo de evento al que aplica la configuración: <strong>Both</strong> <em>(pre-match y en vivo)</em>, <strong>Pre-match</strong> <em>(antes del evento)</em> o <strong>Live</strong> <em>(en vivo)</em>.</td></tr><tr><td><strong><code>Mínima cantidad en selecciones</code></strong></td><td>Número mínimo de selecciones que debe tener una apuesta para que aplique la configuración.</td></tr><tr><td><strong><code>Mínima cuota en selecciones</code></strong></td><td>Cuota mínima que debe tener cada selección dentro de la apuesta.</td></tr><tr><td><strong><code>Mínima cuota total</code></strong></td><td>Cuota mínima total que debe cumplir la apuesta.</td></tr><tr><td><strong><code>Repetir Partidos</code></strong></td><td>Define si se permite incluir el mismo partido más de una vez dentro de una apuesta.</td></tr><tr><td><strong><code>Repetir Mercados</code></strong></td><td>Define si se permite incluir el mismo mercado más de una vez dentro de una apuesta.</td></tr></tbody></table>
-
-</details>
-{% endcolumn %}
-{% endcolumns %}
-
-<table data-header-hidden data-search="false"><thead><tr><th width="134.166748046875">Campo</th><th width="120.5">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Asignación de bono</code></strong></td><td>Lista desplegable</td><td>Define si se otorga dinero directo o un bono previamente creado.</td></tr><tr><td><strong><code>Todas las condiciones son obligatorias</code></strong></td><td>Botón de selección</td><td>Define si todas las condiciones configuradas previamente deben cumplirse para que la apuesta sea válida y descuente del rollover.</td></tr><tr><td><strong><code>Campaña de marketing</code></strong></td><td>Sección</td><td>Configura las notificaciones que llegan al inbox de la plataforma.</td></tr><tr><td><strong><code>Saldo a asignar</code></strong></td><td>Lista desplegable</td><td>Define el tipo de saldo que recibe el usuario al <a href="https://virtualsoft.gitbook.io/plantillas/glosario#redimir">redimir</a> el bono.</td></tr><tr><td><strong><code>Tipo de máximo monto para rollover</code></strong></td><td>Lista desplegable</td><td><p>Define cómo se determina el tope máximo aplicado al cálculo del rollover:</p><ul><li><strong>Depende del bono redimido:</strong> el tope se calcula a partir del valor del bono que recibió el usuario.</li><li><strong>No depende del bono redimido:</strong> el tope corresponde a un valor fijo, independiente del monto del bono entregado.</li></ul></td></tr><tr><td><strong><code>Valor del bono como máximo valor a sumar para rollover</code></strong></td><td>Botón de selección</td><td>Define si el valor del bono se toma hasta un tope máximo al calcular el monto que el usuario debe apostar, en lugar de considerar su valor total.</td></tr></tbody></table>
+<table data-header-hidden data-search="false"><thead><tr><th width="134.166748046875">Campo</th><th width="120.5">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Todas las condiciones son obligatorias</code></strong></td><td>Botón de selección</td><td>Define si todas las condiciones configuradas previamente deben cumplirse para que la apuesta sea válida y descuente del rollover.</td></tr><tr><td><strong><code>Valor del bono como máximo valor a sumar para rollover</code></strong></td><td>Botón de selección</td><td>Define si el valor del bono se toma hasta un tope máximo al calcular el monto que el usuario debe apostar, en lugar de considerar su valor total.</td></tr><tr><td><strong><code>Asignación de bono</code></strong></td><td>Lista desplegable</td><td>Define si se otorga dinero directo o un bono previamente creado.</td></tr><tr><td><strong><code>Campaña de marketing</code></strong></td><td>Sección</td><td>Configura las notificaciones que llegan al inbox de la plataforma.</td></tr><tr><td><strong><code>Saldo a asignar</code></strong></td><td>Lista desplegable</td><td>Define el tipo de saldo que recibe el usuario al <a href="https://virtualsoft.gitbook.io/plantillas/glosario#redimir">redimir</a> el bono.</td></tr><tr><td><strong><code>Tipo de máximo monto para rollover</code></strong></td><td>Lista desplegable</td><td><p>Define cómo se determina el tope máximo aplicado al cálculo del rollover:</p><ul><li><strong>Depende del bono redimido:</strong> el tope se calcula a partir del valor del bono que recibió el usuario.</li><li><strong>No depende del bono redimido:</strong> el tope corresponde a un valor fijo, independiente del monto del bono entregado.</li></ul></td></tr></tbody></table>
 
 ***
 
@@ -240,7 +290,7 @@ Definen las apuestas deportivas que son válidas para descontar del rollover. La
 
 Al dar clic en la moneda correspondiente al país con el que se ingresó a la plataforma, se despliegan las siguientes configuraciones:
 
-<figure><img src="../../../../../.gitbook/assets/image (306).png" alt=""><figcaption><p>Figura #2: Captura de pantalla configuración de moneda</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (306).png" alt=""><figcaption><p>Figura #5: Captura de pantalla configuración de moneda</p></figcaption></figure>
 
 <table><thead><tr><th width="142">Campo</th><th width="119">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Monto de Bono Fijo</code></strong></td><td>Numérico</td><td>Valor fijo del bono que recibe el usuario.</td></tr><tr><td><strong><code>Máxima apuesta tomada para rollover</code></strong></td><td>Numérico</td><td><p>Monto máximo de una apuesta que se contabiliza para el rollover. Si el usuario apuesta un valor superior, el excedente no descuenta del rollover pendiente.</p><div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p><strong>Ejemplo:</strong> Con una máxima apuesta de <strong>$20</strong>, si el usuario realiza una apuesta de <strong>$50</strong>, solo se descuentan <strong>$20</strong> del rollover pendiente.</p></div></td></tr><tr><td><strong><code>Pago máximo</code></strong></td><td>Numérico</td><td>Monto máximo que puede recibir el usuario como saldo real al liberar este bono.</td></tr><tr><td><strong><code>Jugadores</code></strong></td><td>Botón</td><td><p>Permite cargar un archivo CSV con los ID de los usuarios que reciben el bono.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Este campo se utiliza cuando el bono se entrega mediante asignación directa. Los usuarios incluidos en el archivo reciben el bono sin necesidad de redimir un código.</p></div></td></tr></tbody></table>
 
@@ -276,6 +326,6 @@ Al dar clic en la moneda correspondiente al país con el que se ingresó a la pl
 
 <summary>🔽 Historial de versiones</summary>
 
-<table><thead><tr><th width="107">Versión</th><th width="130">Fecha</th><th width="156.3333740234375">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>12/08/2026</td><td>David Velasquez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-26895">Documento inicial.</a></td></tr></tbody></table>
+<table><thead><tr><th width="99.888916015625">Versión</th><th width="128.87872314453125">Fecha</th><th width="153.94952392578125">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>11/08/2026</td><td>David Velasquez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-26895">Documento inicial</a></td></tr><tr><td>1.1</td><td>28/09/2026</td><td>David Velasquez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-26895">Ajuste en los eventos del formulario</a></td></tr></tbody></table>
 
 </details>
