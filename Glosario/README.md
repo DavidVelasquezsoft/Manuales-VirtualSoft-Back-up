@@ -449,6 +449,12 @@ Empresa responsable de la creación, gestión y distribución de los juegos dent
 *   #### **Régimen Reforzado:**
 
     Es un control de prevención de lavado de activos que se aplica a usuarios que pueden representar un **mayor nivel de riesgo**. Permite a la empresa conocer mejor al usuario, verificar información como el **origen de sus fondos** e identificar situaciones como si el usuario es una **Persona Expuesta Políticamente (PEP)**.
+*   #### &#x20;Referido:
+
+    Usuario que se registra en la plataforma a través del link de referido de otro usuario y que, al cumplir las condiciones del programa, genera la recompensa para quien lo invitó.
+*   #### Referente:
+
+    Usuario que invita a otras personas a registrarse en la plataforma mediante su link de referido y recibe una recompensa cuando estas cumplen las condiciones del programa.
 
 ## S
 
