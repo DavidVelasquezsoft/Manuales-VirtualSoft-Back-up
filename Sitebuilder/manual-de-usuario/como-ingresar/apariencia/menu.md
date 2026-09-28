@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Menú
@@ -75,7 +77,7 @@ Incorpora elementos gráficos animados al inicio del menú principal para destac
 
 <summary><strong>Formulario para creación/edición de un GIF</strong></summary>
 
-<table><thead><tr><th width="148">Campo</th><th width="131">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Fondo degradado</code></strong></td><td>Selector de color</td><td>Define los colores que conformarán el fondo del GIF.</td></tr><tr><td><strong><code>Imagen izquierda</code></strong></td><td>Imagen</td><td>Registra la imagen que acompañará el GIF al lado derecho.</td></tr><tr><td><strong><code>GIF</code></strong></td><td>Imagen animada</td><td>Archivo GIF que será visualizado en la plataforma.</td></tr><tr><td><strong><code>URL de redirección</code></strong></td><td>URL</td><td>Dirección web que será redirigido al presionar el GIF.</td></tr></tbody></table>
+<table><thead><tr><th width="148">Campo</th><th width="131">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td></td><td></td><td></td></tr><tr><td><strong><code>Fondo degradado</code></strong></td><td>Selector de color</td><td>Define los colores que conformarán el fondo del GIF.</td></tr><tr><td><strong><code>Imagen izquierda</code></strong></td><td>Imagen</td><td>Registra la imagen que acompañará el GIF al lado derecho.</td></tr><tr><td><strong><code>GIF</code></strong></td><td>Imagen animada</td><td>Archivo GIF que será visualizado en la plataforma.</td></tr><tr><td><strong><code>URL de redirección</code></strong></td><td>URL</td><td>Dirección web que será redirigido al presionar el GIF.</td></tr></tbody></table>
 
 </details>
 {% endtab %}
