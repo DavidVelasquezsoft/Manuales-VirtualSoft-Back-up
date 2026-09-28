@@ -10,7 +10,7 @@
 
 ### 2. Acciones disponibles
 
-<table><thead><tr><th width="175.92572021484375">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Aplicar filtros</strong></td><td>Permite filtrar la información según los criterios disponibles en el panel de filtros. Todos los indicadores, gráficas y tablas se actualizan automáticamente al aplicarlos, y los filtros pueden combinarse entre sí.</td></tr><tr><td><strong>Visualizar contenido del tablero</strong></td><td><p>Utiliza las herramientas del dashboard, tales como:</p><ul><li>Filtros dinámicos.</li><li>KPIs generales.</li><li>Gráficas de barras y embudo de conversión.</li><li>Tablas con el detalle por referente y por referido.</li></ul><p>Permite navegar entre las vistas del dashboard, manteniendo los filtros previamente aplicados.</p></td></tr><tr><td><strong>Exportar contenido</strong></td><td>El dashboard permite exportar su contenido en formatos Excel, CSV y PDF, respetando los filtros activos. Para más información, consulte la guía de exportación  <a data-mention href="./#id-3.-exportar-contenido">#id-3.-exportar-contenido</a>.</td></tr></tbody></table>
+<table><thead><tr><th width="175.92572021484375">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Aplicar filtros</strong></td><td>Permite filtrar la información según los criterios disponibles en el panel de filtros. Todos los indicadores, gráficas y tablas se actualizan automáticamente al aplicarlos, y los filtros pueden combinarse entre sí.</td></tr><tr><td><strong>Visualizar contenido del tablero</strong></td><td><p>Utiliza las herramientas del dashboard, tales como:</p><ul><li>Filtros dinámicos.</li><li>KPIs generales.</li><li>Gráficas de barras y embudo de conversión.</li><li>Tablas con el detalle por referente y por referido.</li></ul><p>Permite navegar e interactuar con los diferentes contenidos y las diferentes vistas como: Dashboard, detalle referente y detalle referido.</p></td></tr><tr><td><strong>Exportar contenido</strong></td><td>El dashboard permite exportar su contenido en formatos Excel, CSV y PDF, respetando los filtros activos. Para más información, consulte la guía de exportación  <a data-mention href="./#id-3.-exportar-contenido">#id-3.-exportar-contenido</a>.</td></tr></tbody></table>
 
 ***
 
@@ -18,7 +18,19 @@
 
 Ubicados en el **Panel de filtros** a la izquierda de la pantalla, permiten visualizar la información del tablero según los criterios seleccionados.
 
-<table><thead><tr><th width="160">Campo</th><th width="130">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Partner</code></strong></td><td>Lista desplegable</td><td>Filtra la información por partner.</td></tr><tr><td><strong><code>País</code></strong></td><td>Lista desplegable</td><td>Segmenta la información según el país.</td></tr><tr><td><strong><code>Desde / Hasta</code></strong></td><td>Rango de fechas</td><td><p>Define el periodo de análisis.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> El rango de fechas filtra según la <strong>fecha de registro del referido</strong>.</p></div></td></tr><tr><td><strong><code>Id Referente</code></strong></td><td>Numérico</td><td>Consulta la información de un referente específico por su identificador único.</td></tr><tr><td><strong><code>ID Referido</code></strong></td><td>Numérico</td><td>Consulta la información de un referido específico por su identificador único.</td></tr><tr><td><strong><code>Tipo Condición</code></strong></td><td>Lista desplegable</td><td>Tipo de condición del programa de referidos <em>(condición de depósito, condición de primera apuesta o de verificado)</em>.</td></tr><tr><td><strong><code>Estado Global</code></strong></td><td>Lista desplegable</td><td>Estado actual del referido <em>(Registrado, Verificado, Depositó o Apostó)</em>.</td></tr><tr><td><strong><code>Estado Condición</code></strong></td><td>Lista desplegable</td><td>Filtra según el estado de la condición <em>(Pendiente, Cumplida o Vencida)</em>.</td></tr><tr><td><strong><code>Estado Bono</code></strong></td><td>Lista desplegable</td><td>Filtra según el estado del bono o recompensa <em>(Pendiente, Disponible, Redimida o Vencida)</em>.</td></tr></tbody></table>
+<table><thead><tr><th width="148.3333740234375">Campo</th><th width="130">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Partner</code></strong></td><td>Lista desplegable</td><td>Filtra la información por partner.</td></tr><tr><td><strong><code>País</code></strong></td><td>Lista desplegable</td><td>Segmenta la información según el país.</td></tr><tr><td><strong><code>Desde / Hasta</code></strong></td><td>Rango de fechas</td><td><p>Define el periodo de análisis.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> El rango de fechas filtra según la <strong>fecha de registro del referido</strong>.</p></div></td></tr><tr><td><strong><code>Id Referente</code></strong></td><td>Numérico</td><td>Consulta la información de un referente específico por su identificador único.</td></tr><tr><td><strong><code>ID Referido</code></strong></td><td>Numérico</td><td>Consulta la información de un referido específico por su identificador único.</td></tr><tr><td><strong><code>Tipo Condición</code></strong></td><td>Lista desplegable</td><td>Tipo de condición del programa de referidos <em>(condición de depósito, condición de primera apuesta o de verificado)</em>.</td></tr><tr><td><strong><code>Estado Global</code></strong></td><td>Lista desplegable</td><td>Filtra según el estado general del premio generado por el referido. Las opciones disponibles son:</td></tr></tbody></table>
+
+{% columns %}
+{% column width="33.33333333333333%" %}
+
+{% endcolumn %}
+
+{% column width="66.66666666666667%" %}
+<table><thead><tr><th width="161.6666259765625">Opción</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Cumplido</code></strong></td><td>Muestra los referidos que cumplieron la condición configurada y generaron la recompensa correspondiente al referente.</td></tr><tr><td><strong><code>Fallido</code></strong></td><td>Muestra los referidos que no cumplieron la condición configurada dentro del plazo establecido.</td></tr><tr><td><strong><code>Pendiente</code></strong></td><td>Muestra los referidos que aún no han cumplido la condición configurada y cuyo plazo continúa vigente.</td></tr><tr><td><strong><code>Premio Cancelado</code></strong></td><td>Muestra los referidos cuya recompensa fue cancelada, por lo que no puede ser redimida por el referente.</td></tr><tr><td><strong><code>Premio expirado - Causado por el referente</code></strong></td><td>Muestra los referidos cuya recompensa expiró sin ser redimida dentro del plazo de vigencia por parte del referente.</td></tr><tr><td><strong><code>Redimido - Causado por el referente</code></strong></td><td>Muestra los referidos cuya recompensa ya fue redimida por el referente.</td></tr></tbody></table>
+{% endcolumn %}
+{% endcolumns %}
+
+<table data-header-hidden><thead><tr><th width="124.16668701171875">Campo</th><th width="130">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Estado Condición</code></strong></td><td>Lista desplegable</td><td>Filtra según el estado de la condición <em>(Pendiente, Cumplida o Vencida)</em>.</td></tr><tr><td><strong><code>Estado Bono</code></strong></td><td>Lista desplegable</td><td>Filtra según el estado del bono o recompensa <em>(Pendiente, Disponible, Redimida, sin bono o Vencida)</em>.</td></tr></tbody></table>
 
 ***
 
@@ -42,41 +54,57 @@ El dashboard se organiza en tres vistas que se seleccionan desde las pestañas u
 {% tab title="Dashboard" %}
 Vista ejecutiva orientada al análisis gerencial y al monitoreo del desempeño del programa.
 
-**Visualización**
+#### **Visualización**
 
 <figure><img src="../../../.gitbook/assets/image (253).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Dashboard referidos</p></figcaption></figure>
 
-**Gráficas**
+#### **Gráficas**
 
-<table><thead><tr><th width="180">Nombre</th><th width="130">Tipo de gráfica</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Evolución Mensual Referidos Registrados</code></strong></td><td>Barras verticales</td><td>Representa la cantidad de referidos registrados en cada mes, agrupados por año, lo que permite identificar la tendencia de captación del programa a lo largo del tiempo.</td></tr><tr><td><strong><code>Top 10 Referente</code></strong></td><td>Barras verticales</td><td>Presenta los diez referentes con mayor cantidad de referidos, identificados por su ID, lo que permite reconocer a los usuarios que más aportan a la captación del programa.</td></tr><tr><td><strong><code>Cumplimiento Por Condición</code></strong></td><td>Barras horizontales</td><td>Compara la cantidad de referidos que cumplieron cada etapa o condición del programa <em>(verificación, depósito y apuesta)</em>, facilitando identificar cuál concentra mayor cumplimiento.</td></tr><tr><td><strong><code>Funnel de conversión</code></strong></td><td>Embudo</td><td><p>Representa el avance de los referidos a través de las etapas del programa: <strong>Registrados</strong>, <strong>Verificados</strong>, <strong>Primer depósito</strong> y <strong>Primera apuesta</strong>.</p><div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p>Cada etapa muestra cuántos referidos avanzan desde la anterior: del total de registrados, cuántos verifican su cuenta; de los verificados, cuántos realizan su primer depósito; y de estos, cuántos realizan su primera apuesta.</p></div></td></tr></tbody></table>
+<table><thead><tr><th width="180">Nombre</th><th width="130">Tipo de gráfica</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Evolución Mensual Referidos Registrados</code></strong></td><td>Barras verticales</td><td>Representa la cantidad de referidos registrados en cada mes, agrupados por año, lo que permite identificar la tendencia de captación del programa a lo largo del tiempo.</td></tr><tr><td><strong><code>Top 10 Referente</code></strong></td><td>Barras verticales</td><td>Presenta los diez referentes con mayor cantidad de referidos, identificados por su ID, lo que permite reconocer a los usuarios que más aportan a la captación del programa.</td></tr><tr><td><strong><code>Cumplimiento Por Condición</code></strong></td><td>Barras horizontales</td><td>Compara la cantidad de referidos que cumplieron cada etapa o condición del programa <em>(verificación, depósito y apuesta)</em>, facilitando identificar cuál concentra mayor cumplimiento.</td></tr><tr><td><strong><code>Funnel de conversión</code></strong></td><td>Embudo</td><td><p>Representa el avance de los referidos a través de las etapas del programa: <strong>Registrados</strong>, <strong>Verificados</strong>, <strong>Primer depósito</strong> y <strong>Primera apuesta</strong>.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Cada etapa muestra cuántos referidos avanzan desde la anterior: del total de registrados, cuántos verifican su cuenta; de los verificados, cuántos realizan su primer depósito; y de estos, cuántos realizan su primera apuesta.</p></div></td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Detalle Referente" %}
-Vista operativa orientada a la trazabilidad individual de cada referente. Presenta dos tablas ordenables, con paginación y búsqueda rápida.
+Vista operativa que presenta la información individual de cada referente, permitiendo consultar su actividad dentro del programa, la cantidad de referidos que ha generado y las recompensas obtenidas.
 
-**Visualización**
+#### **Visualización**
 
 <figure><img src="../../../.gitbook/assets/image (254).png" alt=""><figcaption><p>Figura #2: Captura de pantalla Detalle referente</p></figcaption></figure>
 
-**Tabla de referentes**
+#### **Tabla de referentes**
 
-<table><thead><tr><th width="200">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>ID Referente</code></strong></td><td>Identificador único del referente.</td></tr><tr><td><strong><code>Fecha de ingreso al programa</code></strong></td><td>Fecha en la que el referente ingresó al programa de referidos.</td></tr><tr><td><strong><code>Cantidad total de referidos</code></strong></td><td>Número total de referidos registrados por el referente.</td></tr><tr><td><strong><code>Cantidad de referidos efectivos</code></strong></td><td>Número de referidos que han generado alguna recompensa al referente.</td></tr><tr><td><strong><code>Última fecha de bono entregado</code></strong></td><td>Fecha del último bono entregado al referente.</td></tr><tr><td><strong><code>ID Bono</code></strong></td><td>Identificador del bono seleccionado por el referente.</td></tr><tr><td><strong><code>Estado del referente</code></strong></td><td>Estado actual del referente <em>(Activo, Inactivo o Bloqueado)</em>.</td></tr></tbody></table>
+<table><thead><tr><th width="200">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>ID Referente</code></strong></td><td>Identificador único del referente.</td></tr><tr><td><strong><code>Estado del referente</code></strong></td><td>Estado actual del referente <em>(Activo, Inactivo o Bloqueado)</em>.</td></tr><tr><td><strong><code>Fecha de ingreso al programa</code></strong></td><td>Fecha en la que el referente ingresó al programa de referidos.</td></tr><tr><td><strong><code>Cantidad total de referidos</code></strong></td><td>Número total de referidos registrados por el referente.</td></tr><tr><td><strong><code>Cantidad de referidos efectivos</code></strong></td><td>Número de referidos que han generado alguna recompensa al referente.</td></tr><tr><td><strong><code>Última fecha de bono entregado</code></strong></td><td>Fecha del último bono entregado al referente.</td></tr><tr><td><strong><code>Cantidad Bonos entregados</code></strong></td><td><p>Número total de bonos entregados al referente como recompensa.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Este campo presenta únicamente la cantidad. El detalle de cada bono, con su identificador y nombre, se consulta en <a href="dashboard-referidos.md#detalle-premios-entregados">Detalle premios entregados</a>.</p></div></td></tr></tbody></table>
 
-**Tabla de condiciones**
+#### **Detalle premios entregados**
 
-<table><thead><tr><th width="200">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Tipo de condición</code></strong></td><td>Condición del programa asociada <em>(por ejemplo: primer depósito o primera apuesta)</em>.</td></tr><tr><td><strong><code>Fecha de cumplimiento</code></strong></td><td>Fecha en la que se cumplió la condición.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Estado de la condición <em>(Pendiente, Cumplida o Vencida)</em>.</td></tr><tr><td><strong><code>Bono asociado</code></strong></td><td>Bono que se entrega al referente al cumplirse la condición.</td></tr></tbody></table>
+Muestra los bonos unicos entregados al referente
+
+<table><thead><tr><th width="200">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Id Referente</code></strong></td><td>Identificador único del referente.</td></tr><tr><td><strong><code>ID bono</code></strong></td><td>Identificador único del bono entregado al referente.</td></tr><tr><td><strong><code>Nombre bono</code></strong></td><td>Nombre del bono entregado al referente</td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Detalle Referido" %}
-Vista que presenta el detalle de los referidos, con información no sensible, en una tabla ordenable, con paginación y búsqueda rápida.
+Vista que presenta el detalle de los referidos y el cumplimiento de cada una de las condiciones del programa.
 
-**Visualización**
+#### **Visualización**
 
 <figure><img src="../../../.gitbook/assets/image (255).png" alt=""><figcaption><p>Figura #3: Captura de pantalla Detalle referido</p></figcaption></figure>
 
-**Tabla de referidos**
+#### **¿Cómo se organiza la información?**
 
-<table><thead><tr><th width="200">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>ID Referido</code></strong></td><td>Identificador único del referido.</td></tr><tr><td><strong><code>Fecha de registro</code></strong></td><td>Fecha en la que el referido se registró mediante el link de referido.</td></tr><tr><td><strong><code>Estado de verificación</code></strong></td><td>Indica si el referido verificó su cuenta.</td></tr><tr><td><strong><code>Fecha condición depósito</code></strong></td><td>Fecha en la que el referido cumplió la condición de depósito.</td></tr><tr><td><strong><code>Fecha condición apuesta</code></strong></td><td>Fecha en la que el referido cumplió la condición de apuesta.</td></tr><tr><td><strong><code>Estado actual</code></strong></td><td>Etapa en la que se encuentra el referido <em>(Registrado, Verificado, Depositó o Apostó)</em>.</td></tr><tr><td><strong><code>Recompensas generadas</code></strong></td><td>Recompensas que el referido ha generado al referente.</td></tr><tr><td><strong><code>Estado de la recompensa</code></strong></td><td>Estado de la recompensa generada <em>(Pendiente, Disponible, Redimida o Vencida)</em>.</td></tr></tbody></table>
+Una **condición** es un requisito que el referido debe cumplir para que el referente obtenga su recompensa _(verificación de cuenta, primer depósito o primera apuesta)_.
+
+La tabla muestra **una fila por cada condición** asociada al referido, por lo que un mismo referido puede aparecer en varios registros, cada uno con su fecha de cumplimiento y su estado.
+
+{% hint style="warning" %}
+**Nota:** El premio se entrega una sola vez al referente cuando el referido cumple **todas** las condiciones configuradas. Por esa razón, el **ID y el nombre del premio se repiten en todas las filas del referido**, sin que ello signifique que se haya entregado un premio por cada condición.
+{% endhint %}
+
+{% hint style="info" %}
+Un referido puede no generar el premio por distintos motivos: porque su depósito fue rechazado, porque no cumplió las condiciones dentro del plazo establecido o porque el referente dejó expirar el bono sin redimirlo.
+{% endhint %}
+
+#### **Tabla de referidos**
+
+<table><thead><tr><th width="192.5">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>ID Referido</code></strong></td><td>Identificador único del referido.</td></tr><tr><td><strong><code>Fecha de registro</code></strong></td><td>Fecha en la que el referido se registró mediante el link de referido.</td></tr><tr><td><strong><code>Verificación cuenta</code></strong></td><td>Indica si el referido verificó su cuenta.</td></tr><tr><td><strong><code>Estado actual Referido</code></strong></td><td>Condición a la que corresponde el registro <em>(Registrado, Verificado, Depositó o Apostó)</em>.</td></tr><tr><td><strong><code>Fecha cumplimiento Condición</code></strong></td><td>Fecha en la que el referido cumplió la condición correspondiente al registro.</td></tr><tr><td><strong><code>Estado</code></strong></td><td><p>Estado de cumplimiento de la condición:</p><ul><li><strong>Pendiente:</strong> el referido aún no ha cumplido la condición y el plazo continúa vigente.</li><li><strong>Cumplido:</strong> el referido cumplió la condición dentro del plazo establecido.</li><li><strong>Fallido:</strong> el referido no cumplió la condición.</li><li><strong>Condición Expirada:</strong> el plazo para cumplir la condición finalizó sin que el referido la completara.</li><li><strong>Redimido:</strong> el referido cumplió todas las condiciones y el referente redimió el premio generado.</li></ul></td></tr><tr><td><strong><code>Estado Global</code></strong></td><td><p>Estado general del premio generado por el referido:</p><ul><li><strong>Pendiente:</strong> el referido aún no ha completado todas las condiciones, por lo que el premio no ha sido generado.</li><li><strong>Cumplido:</strong> el referido cumplió todas las condiciones y el premio quedó disponible para el referente.</li><li><strong>Fallido:</strong> el referido no completó todas las condiciones, por lo que no se generó premio para el referente.</li><li><strong>Premio Cancelado:</strong> el premio generado fue cancelado, por lo que no puede ser redimido por el referente.</li><li><strong>Premio expirado - Causado por el referente:</strong> el premio expiró sin que el referente lo redimiera dentro del plazo de vigencia.</li><li><strong>Redimido - Causado por el referente:</strong> el referente redimió el premio generado por el referido.</li></ul></td></tr><tr><td><strong><code>ID premio</code></strong></td><td>Identificador único del bono generado como recompensa para el referente.</td></tr><tr><td><strong><code>Nombre recompensa</code></strong></td><td>Nombre del bono generado como recompensa para el referente.</td></tr></tbody></table>
 {% endtab %}
 {% endtabs %}
 
@@ -91,6 +119,8 @@ Vista que presenta el detalle de los referidos, con información no sensible, en
 * El dashboard admite múltiples condiciones configurables del programa, no limitadas únicamente a primer depósito y primera apuesta.
 * Las exportaciones en Excel, CSV y PDF respetan los filtros activos.
 * La información se actualiza de forma automática según la periodicidad definida por BI, como mínimo una vez al día.
+* En la vista **Detalle Referido**, cada fila corresponde a una condición del programa, por lo que un mismo referido puede aparecer en varios registros.
+* El premio se entrega una sola vez al referente cuando el referido cumple todas las condiciones configuradas, aunque el ID y el nombre del premio se muestren en todas las filas del referido.
 
 ***
 
@@ -100,6 +130,6 @@ Vista que presenta el detalle de los referidos, con información no sensible, en
 
 <summary>🔽 Historial de versiones</summary>
 
-<table><thead><tr><th width="99.888916015625">Versión</th><th width="128.87872314453125">Fecha</th><th width="153.94952392578125">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>22/09/2026</td><td>David Velasquez</td><td>Documento inicial</td></tr></tbody></table>
+<table><thead><tr><th width="99.888916015625">Versión</th><th width="128.87872314453125">Fecha</th><th width="153.94952392578125">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>28/09/2026</td><td>David Velasquez</td><td>Documento inicial</td></tr></tbody></table>
 
 </details>
