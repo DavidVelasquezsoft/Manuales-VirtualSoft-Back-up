@@ -36,7 +36,11 @@ Permite visualizar la información del tablero de acuerdo con los criterios sele
 
 ***
 
-### 4. KPIs generales
+### 4. Contenido del dashboard
+
+El dashboard se organiza en tres vistas que se seleccionan desde las pestañas ubicadas debajo de los KPIs. Cada vista ofrece un nivel distinto de análisis, desde el resumen ejecutivo hasta el detalle de cada referido.
+
+#### 4.1. KPIs generales
 
 En la parte superior del dashboard se muestran los indicadores clave del programa de referidos según los filtros aplicados.
 
@@ -46,11 +50,7 @@ En la parte superior del dashboard se muestran los indicadores clave del program
 **Nota:** Los indicadores de referidos toman como referencia la **fecha de registro del referido**, mientras que los indicadores de cumplimiento de condiciones _(depósito y apuesta)_ consideran la **fecha en la que el referido cumplió cada condición**.
 {% endhint %}
 
-***
-
-### 5. Contenido del dashboard
-
-El dashboard se organiza en tres vistas que se seleccionan desde las pestañas ubicadas debajo de los KPIs. Cada vista ofrece un nivel distinto de análisis, desde el resumen ejecutivo hasta el detalle de cada referido.
+#### 4.2. Información del dashboard
 
 {% tabs %}
 {% tab title="Dashboard" %}
@@ -111,7 +111,7 @@ La tabla muestra **una fila por cada condición** asociada al referido, por lo q
 
 ***
 
-### 6. Validaciones y reglas del negocio:
+### 5. Validaciones y reglas del negocio:
 
 * Todos los indicadores, gráficas y tablas se actualizan automáticamente al aplicar los filtros, sin necesidad de recargar el dashboard.
 * Los filtros pueden combinarse entre sí.
@@ -125,7 +125,7 @@ La tabla muestra **una fila por cada condición** asociada al referido, por lo q
 
 ***
 
-### 7. Control de Versiones
+### 6. Control de Versiones
 
 <details>
 
