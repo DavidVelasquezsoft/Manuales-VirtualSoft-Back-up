@@ -16,7 +16,7 @@
 
 ### 3. ¿Cómo funciona este bono para Digitain?
 
-El bono depósito para Digitain se otorga al usuario cuando realiza un depósito que cumple las condiciones configuradas en el formulario. El saldo se acredita dentro del **sportsbook de Digitain**, donde el usuario lo utiliza para realizar apuestas deportivas respetando las reglas definidas _(cuotas, selecciones, tipo de apuesta y evento)_.
+El bono depósito para Digitain se otorga al usuario cuando realiza un depósito que cumple las condiciones configuradas en el formulario. El saldo se acredita dentro del **sportsbook de Digitain**, donde el usuario lo utiliza para realizar apuestas deportivas respetando las reglas definidas _(cuotas, selecciones, tipo de apuesta y evento)_ y, cuando se configuran, los deportes, ligas o partidos habilitados para el bono.
 
 El campo **`¿Se dará bono freebet?`** determina cómo se libera ese saldo:
 
@@ -32,7 +32,7 @@ El campo **`¿Se dará bono freebet?`** determina cómo se libera ese saldo:
 **Nota:** Estos conceptos son la base del funcionamiento del bono y se utilizan a lo largo de todo el manual, por lo que conocerlos facilita la comprensión de cada configuración del formulario.
 {% endhint %}
 
-<table><thead><tr><th width="118.4259033203125">Concepto</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Saldo bono</strong></td><td>Saldo que recibe el usuario al obtener el bono, acreditado dentro del sportsbook de Digitain. Puede utilizarse únicamente para apostar y no es retirable hasta cumplir las condiciones del bono.</td></tr><tr><td><strong>Factor de rollover</strong></td><td><p>Número por el cual se multiplica el valor del bono para obtener el rollover. Un factor mayor exige apostar más veces el valor entregado.</p><div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p><strong>Ejemplo:</strong> Si el bono es de <strong>$10</strong> y el factor de rollover es <strong>5</strong>, el jugador deberá realizar apuestas por un total de <strong>$50</strong> para completar el rollover y liberar el bono.</p></div></td></tr><tr><td><strong>Rollover</strong></td><td>Monto total que el usuario debe apostar para liberar el bono. Se calcula multiplicando el valor del bono por el factor de rollover configurado. Contabiliza el dinero apostado, no las ganancias obtenidas.</td></tr><tr><td><strong>Saldo real</strong></td><td>Saldo disponible del usuario, el cual puede retirar o utilizar libremente.</td></tr></tbody></table>
+<table><thead><tr><th width="118.4259033203125">Concepto</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Saldo bono</strong></td><td>Saldo que recibe el usuario al obtener el bono, acreditado dentro del sportsbook de Digitain. Puede utilizarse únicamente para apostar y no es retirable hasta cumplir las condiciones del bono.</td></tr><tr><td><strong>Factor de rollover</strong></td><td><p>Número por el cual se multiplica el valor del bono para obtener el rollover. Un factor mayor exige apostar más veces el valor entregado.</p><div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p><strong>Ejemplo:</strong> Si el bono es de <strong>$10</strong> y el factor de rollover es <strong>5</strong>, el jugador deberá realizar apuestas por un total de <strong>$50</strong> para completar el rollover y liberar el bono.</p></div></td></tr><tr><td><strong>Rollover</strong></td><td>Monto total que el usuario debe apostar para liberar el bono. Se calcula multiplicando el valor del bono por el factor de rollover configurado. Contabiliza el dinero apostado, no las ganancias obtenidas.</td></tr><tr><td><strong>Saldo real</strong></td><td>Saldo disponible del usuario, el cual puede retirar o utilizar libremente.</td></tr><tr><td><strong>Apuesta válida</strong></td><td>Apuesta que cumple las condiciones configuradas en el bono <em>(cuotas, cantidad de selecciones, tipo de apuesta y evento, y los deportes, ligas o partidos habilitados)</em>. Únicamente estas apuestas descuentan del rollover pendiente.</td></tr></tbody></table>
 
 #### **3.2. Ciclo del bono, paso a paso**
 
@@ -303,6 +303,8 @@ Al seleccionar la moneda correspondiente al país con el que se ingresó a la pl
 * En la modalidad **FreeBet**, el saldo queda disponible de inmediato y las ganancias obtenidas se acreditan como saldo real, sin necesidad de completar un rollover.
 * En ambas modalidades, el usuario debe cumplir las condiciones de apuesta configuradas _(cuotas, cantidad de selecciones, tipo de apuesta y evento)_ para poder utilizar el saldo del bono.
 * El saldo del bono se acredita dentro del sportsbook de Digitain.
+* La configuración de deportes, ligas o partidos delimita los eventos en los que el usuario puede utilizar el saldo del bono. Si no se configura ninguno, el bono puede utilizarse en cualquier evento disponible.
+* Esta restricción aplica tanto en la modalidad con rollover como en la modalidad FreeBet.
 
 ***
 
@@ -312,6 +314,6 @@ Al seleccionar la moneda correspondiente al país con el que se ingresó a la pl
 
 <summary>🔽 Historial de versiones</summary>
 
-<table><thead><tr><th width="99.888916015625">Versión</th><th width="128.87872314453125">Fecha</th><th width="153.94952392578125">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>11/08/2026</td><td>David Velasquez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-26895">Documento inicial</a></td></tr><tr><td>1.1</td><td>28/09/2026</td><td>David Velasquez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-26895">Ajuste en los eventos del formulario</a></td></tr></tbody></table>
+<table><thead><tr><th width="99.888916015625">Versión</th><th width="128.87872314453125">Fecha</th><th width="153.94952392578125">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>11/08/2026</td><td>David Velasquez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-26895">Documento inicial</a></td></tr><tr><td>1.1</td><td>28/09/2026</td><td>David Velasquez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-26895">Ajuste en incorporación de campos Deportes, partidos, ligas, tipo de evento y tipo de apuesta en el formulario</a></td></tr></tbody></table>
 
 </details>

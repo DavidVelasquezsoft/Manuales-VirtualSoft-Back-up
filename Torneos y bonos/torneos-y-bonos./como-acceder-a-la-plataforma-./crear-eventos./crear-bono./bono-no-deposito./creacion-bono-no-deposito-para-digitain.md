@@ -16,7 +16,7 @@
 
 ### 3. ¿Cómo funciona este bono para Digitain?
 
-El bono no depósito para Digitain **no requiere que el usuario realice un depósito** para obtenerlo: se entrega por asignación directa mediante archivo CSV o mediante códigos únicos. El saldo se acredita dentro del **sportsbook de Digitain**, donde el usuario lo utiliza para realizar apuestas deportivas respetando las reglas definidas _(cuotas, selecciones, tipo de apuesta y evento)_.
+El bono no depósito para Digitain **no requiere que el usuario realice un depósito** para obtenerlo: se entrega por asignación directa mediante archivo CSV o mediante códigos únicos. El saldo se acredita dentro del **sportsbook de Digitain**, donde el usuario lo utiliza para realizar apuestas deportivas respetando las reglas definidas _(cuotas, selecciones, tipo de apuesta y evento)_ y cuando se configuran, los deportes, ligas o partidos habilitados para el bono.
 
 El campo **`¿Se dará bono freebet?`** determina cómo se libera ese saldo:
 
@@ -32,7 +32,9 @@ El campo **`¿Se dará bono freebet?`** determina cómo se libera ese saldo:
 **Nota:** Comprender estos conceptos es fundamental para configurar correctamente el bono, ya que cada uno determina cómo se entrega el saldo al usuario, qué debe cumplir para liberarlo y en qué momento se convierte en saldo real.
 {% endhint %}
 
-<table><thead><tr><th width="141.6666259765625">Concepto</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Saldo bono</strong></td><td>Saldo que recibe el usuario al obtener el bono, acreditado dentro del sportsbook de Digitain. Su disponibilidad depende de si el bono requiere rollover.</td></tr><tr><td><strong>Rollover</strong></td><td><p>Monto total que el usuario debe apostar para liberar el bono. Se calcula multiplicando el valor del bono por el factor de rollover configurado, y contabiliza el dinero apostado, no las ganancias obtenidas.</p><p><strong>Fórmula:</strong><br><em>Rollover = Valor del bono × Factor de rollover</em></p></td></tr><tr><td><strong>Apuesta válida</strong></td><td>Apuesta que cumple las condiciones configuradas <em>(producto, cuotas, selecciones y eventos habilitados)</em>. Únicamente estas apuestas descuentan del rollover pendiente.</td></tr><tr><td><strong>Saldo real</strong></td><td>Saldo disponible del usuario, el cual puede retirar o utilizar libremente.</td></tr></tbody></table>
+<table><thead><tr><th width="141.6666259765625">Concepto</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Saldo bono</strong></td><td>Saldo que recibe el usuario al obtener el bono, acreditado dentro del sportsbook de Digitain. Su disponibilidad depende de si el bono requiere rollover.</td></tr><tr><td><strong>Rollover</strong></td><td><p>Monto total que el usuario debe apostar para liberar el bono. Se calcula multiplicando el valor del bono por el factor de rollover configurado, y contabiliza el dinero apostado, no las ganancias obtenidas.</p><p><strong>Fórmula:</strong><br><em>Rollover = Valor del bono × Factor de rollover</em></p></td></tr><tr><td><strong>Apuesta válida</strong></td><td>Apuesta que cumple las condiciones configuradas <em>(producto, cuotas, selecciones y eventos habilitados)</em>. Únicamente estas apuestas descuentan del rollover pendiente.</td></tr><tr><td><strong>Saldo real</strong></td><td>Saldo disponible del usuario, el cual puede retirar o utilizar libremente.</td></tr><tr><td><strong>Apuesta válida</strong></td><td>Apuesta que cumple las condiciones configuradas en el bono <em>(cuotas, cantidad de selecciones, tipo de apuesta y evento, y los deportes, ligas o partidos habilitados)</em>. Únicamente estas apuestas descuentan del rollover pendiente.</td></tr></tbody></table>
+
+
 
 #### **3.2. Formas de entrega**
 
@@ -326,6 +328,6 @@ Al dar clic en la moneda correspondiente al país con el que se ingresó a la pl
 
 <summary>🔽 Historial de versiones</summary>
 
-<table><thead><tr><th width="99.888916015625">Versión</th><th width="128.87872314453125">Fecha</th><th width="153.94952392578125">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>11/08/2026</td><td>David Velasquez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-26895">Documento inicial</a></td></tr><tr><td>1.1</td><td>28/09/2026</td><td>David Velasquez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-26895">Ajuste en los eventos del formulario</a></td></tr></tbody></table>
+<table><thead><tr><th width="99.888916015625">Versión</th><th width="128.87872314453125">Fecha</th><th width="153.94952392578125">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>11/08/2026</td><td>David Velasquez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-26895">Documento inicial</a></td></tr><tr><td>1.1</td><td>28/09/2026</td><td>David Velasquez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-26895">Ajuste en incorporación de campos Deportes, partidos, ligas, tipo de evento y tipo de apuesta en el formulario</a></td></tr></tbody></table>
 
 </details>
