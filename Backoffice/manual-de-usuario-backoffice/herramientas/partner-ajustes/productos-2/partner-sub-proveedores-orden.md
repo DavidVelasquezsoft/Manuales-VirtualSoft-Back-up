@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Partner sub proveedores Orden
@@ -63,24 +65,50 @@ Estas listas permiten gestionar de forma visual el estado de cada sub proveedor,
 
 #### ¿Como alternar el estado de un sub proveedor?
 
+{% hint style="warning" %}
+**Nota:** Al activar un sub proveedor, el sistema lo ubica automáticamente en la **última posición** del menú de proveedores de su vertical _(Slots, Live Casino, Virtuales o Bingo)_, sin modificar el orden de los demás. Si es el primer sub proveedor de la vertical, queda en la primera posición.
+{% endhint %}
+
 <table><thead><tr><th width="173">Acción</th><th width="122">Control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Activar todos</code></strong></td><td>Flechas dobles (>>)</td><td>Mueve todos los sub proveedores desde la lista de no agregados hacia la lista de agregados, cambiando su estado de <strong>inactivo a activo.</strong></td></tr><tr><td><strong><code>Desactivar todos</code></strong></td><td>Flechas dobles (&#x3C;&#x3C;)</td><td>Mueve todos los sub proveedores desde la lista de agregados hacia la lista de no agregados, cambiando su estado de <strong>activo a inactivo</strong>.</td></tr><tr><td><strong><code>Agregar un sólo un</code></strong> <a href="https://virtualsoft.gitbook.io/untitled/glosario#subproveedor"><strong><code>sub proveedor</code></strong></a><strong><code>.</code></strong></td><td>Arrastrar</td><td>Permite mover un sub proveedor específico entre listas. Para hacerlo, selecciona el sub proveedor y arrástralo hacia la lista destino según el estado que desees asignar.</td></tr></tbody></table>
 
 {% hint style="warning" %}
-**Nota**:  Al realizar un cambio de estado en algún [sub proveedor](https://virtualsoft.gitbook.io/untitled/glosario#subproveedor) se desplegará un pop-up con la opción de cancelar los cambios realizados o confirmar los cambios luego de agregar una observación.
+**Nota**: Al realizar un cambio de estado en algún [sub proveedor](https://virtualsoft.gitbook.io/untitled/glosario#subproveedor) se desplegará un pop-up con la opción de cancelar los cambios realizados o confirmar los cambios luego de agregar una observación obligatoria.
 {% endhint %}
 
 ***
 
-### 6. Validaciones y Reglas de Negocio
+### 6. Orden de los sub proveedores
+
+Cada vertical administra el orden de sus sub proveedores de forma independiente, y este orden determina la posición en la que se muestran al jugador dentro del menú de proveedores de la plataforma.
+
+<table><thead><tr><th width="194.16668701171875">Comportamiento</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Ubicación automática</strong></td><td>Al activar un sub proveedor, el sistema le asigna automáticamente la última posición disponible dentro de su vertical. Esto permite validar su funcionamiento sin alterar el orden comercial de los proveedores ya visibles para los jugadores.</td></tr><tr><td><strong>Reordenamiento manual</strong></td><td>Una vez validado el sub proveedor, su posición puede modificarse manualmente dentro de la misma vertical. Al hacerlo, el sistema reorganiza automáticamente las posiciones restantes para mantener una numeración continua y sin duplicados.</td></tr></tbody></table>
+
+{% hint style="warning" %}
+**Nota:** El orden definido manualmente se conserva hasta que vuelva a modificarse, y los cambios de posición de una vertical no afectan el orden de las demás.
+{% endhint %}
+
+***
+
+### 7. Validaciones y Reglas de Negocio
 
 * Los cambios aplicados sobre sub proveedores aplican al país seleccionado en los filtros.
 * Solo permite activar sub proveedores que estén asociados a un proveedor específico.
 * Los cambios realizados en este módulo registran logs internos.
 * Para que un sub proveedor aparezca en este módulo, es necesario que se encuentre activo para el partner desde el módulo [Partners Sub proveedores](https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/herramientas/partner-ajustes/productos-2/partners-subproveedores).
 * Los sub proveedores se crean desde el módulo [**productos**](https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/productos/subproveedores).
+* Al activar un sub proveedor, el sistema lo ubica automáticamente en la última posición del menú de su vertical, sin modificar el orden de los demás sub proveedores.
+* Cada vertical _(Slots, Live Casino, Virtuales y Bingo)_ administra el orden de sus sub proveedores de forma independiente.
+* Al modificar manualmente la posición de un sub proveedor, el sistema reorganiza las posiciones de esa vertical para mantener una numeración continua y sin duplicados.
+* El orden definido manualmente se conserva hasta que sea modificado nuevamente.
 
 ***
 
-### 7. Control de Versiones
+### 8. Control de Versiones
 
-<table><thead><tr><th width="161">Versión</th><th width="167">Fecha</th><th width="126">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>29/10/2025</td><td>Karol Navia</td><td>Documento inicial adaptado a la plantilla</td></tr><tr><td>1.1</td><td>25/03/2026</td><td>Ronald Peláez</td><td>Refinamiento de manual y ajuste en validaciones y reglas del negocio.</td></tr></tbody></table>
+<details>
+
+<summary>🔽 Historial de versiones</summary>
+
+<table><thead><tr><th width="87.66668701171875">Versión</th><th width="140.33331298828125">Fecha</th><th width="156.8333740234375">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>29/10/2025</td><td>Karol Navia</td><td>Documento inicial adaptado a la plantilla</td></tr><tr><td>1.1</td><td>25/03/2026</td><td>Ronald Peláez</td><td>Refinamiento de manual y ajuste en validaciones y reglas del negocio.</td></tr><tr><td>1.2</td><td>28/09/2026</td><td>David Velasquez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-33893">Incorporación de nota de ubicación automática de proveedores activos.</a></td></tr></tbody></table>
+
+</details>
