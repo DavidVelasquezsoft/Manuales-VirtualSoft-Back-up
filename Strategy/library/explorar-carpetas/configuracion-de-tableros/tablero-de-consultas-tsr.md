@@ -33,7 +33,7 @@ layout:
 
 ### 2. Configuraciones previas
 
-Antes de visualizar el reporte, es necesario confirmar las [configuraciones previas](https://virtualsoft.gitbook.io/manuales/microstrategy/tableros#id-2.-configuracion-previa).
+Antes de visualizar el reporte, es necesario confirmar las [configuraciones previas](https://virtualsoft.gitbook.io/manuales/microstrategy/library/explorar-carpetas/configuracion-de-tableros#id-1.-configuraciones-previas) para aplicar los filtros que aplicarán a el tablero.
 
 ***
 
