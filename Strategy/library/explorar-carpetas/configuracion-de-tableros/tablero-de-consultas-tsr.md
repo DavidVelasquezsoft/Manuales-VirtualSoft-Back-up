@@ -33,7 +33,7 @@ Este tablero presenta información general consolidada de todas las campañas y 
 
 ### 2. Configuraciones previas
 
-Antes ingresar a este tablero, es necesario completar los filtros que se visualizarán al momento de realizar las [configuraciones previas](https://virtualsoft.gitbook.io/manuales/microstrategy/library/explorar-carpetas/configuracion-de-tableros#id-1.-configuraciones-previas).
+Antes de ingresar a este tablero, es necesario completar los filtros que se visualizarán durante las [configuraciones previas](https://virtualsoft.gitbook.io/manuales/microstrategy/library/explorar-carpetas/configuracion-de-tableros#id-1.-configuraciones-previas).
 
 <table><thead><tr><th width="145">Filtro</th><th width="136">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Id Torneo</code></strong></td><td>Numérico</td><td>Identificador único del torneo a consultar.</td></tr><tr><td><strong><code>Id Usuario</code></strong></td><td>Numérico</td><td>Identificador único del usuario asocioado a las campañas a consultar.</td></tr><tr><td><strong><code>Id Sorteo</code></strong></td><td>Numérico</td><td>Identificador único del sorteo a consultar.</td></tr><tr><td><strong><code>ID Ruleta</code></strong></td><td>Numérico</td><td>Identificador único de la ruleta a consultar.</td></tr><tr><td><strong><code>Id Jackpot</code></strong></td><td>Numérico</td><td>Identificador único del jackpot <em>(local)</em> a consultar.</td></tr><tr><td><strong><code>Id Jackpot Internacional</code></strong></td><td>Numérico</td><td>Identificador único del jackpot internacional a consultar.</td></tr><tr><td><strong><code>ID Ronda</code></strong></td><td>Numérico</td><td>Identificador único de la ronda en la que el usuario ganó la campaña.</td></tr></tbody></table>
 
@@ -45,17 +45,27 @@ Antes ingresar a este tablero, es necesario completar los filtros que se visuali
 
 ### 3. Acciones disponibles
 
-<table><thead><tr><th width="175.92572021484375">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="tablero-de-consultas-tsr.md#id-5.-kpis-generales"><strong>Aplicar filtros</strong></a></td><td>Permite filtrar la información según los criterios disponibles y utilizar el dashboard de forma dinámica para enfocar el análisis.</td></tr><tr><td><strong>Visualizar contenido del tablero</strong></td><td><p>Utiliza las herramientas del dashboard, tales como:</p><ul><li>Filtros dinámicos.</li><li>KPIs generales</li><li>Gráficas de barras horizontales (<em><strong>Rankings Top 10</strong></em>)</li><li>Gráficos de torta (<em>porcentaje de participación</em>)</li><li>Tablas con detalle por cada <a href="https://virtualsoft.gitbook.io/plantillas/glosario#punto-de-venta">punto de venta</a>.</li></ul><p>Permite navegar e interactuar con los diferentes contenidos del dashboard, visualizando distintas métricas, vistas y niveles de detalle de la información según las opciones seleccionadas, manteniendo los filtros previamente aplicados.</p></td></tr><tr><td><strong>Exportar contenido</strong></td><td>El dashboard permite exportar su contenido. Para más información, consulte la guía de exportación <a data-mention href="./#id-3.-exportar-contenido">#id-3.-exportar-contenido</a>.</td></tr><tr><td></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="175.92572021484375">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="https://virtualsoft.gitbook.io/manuales/microstrategy/library/explorar-carpetas/configuracion-de-tableros/tablero-de-consultas-tsr#id-2.-configuraciones-previas"><strong>Aplicar filtros</strong></a></td><td>Utiliza los filtros visualizados en las configuraciones previas para realizar la consulta directa antes de ingresar al tablero.</td></tr><tr><td><strong>Visualizar contenido del tablero</strong></td><td>Visualiza el contenido del tablero, el cuál está compuesto por tablas y separado por verticales.</td></tr><tr><td><strong>Exportar contenido</strong></td><td>El tablero permite exportar su contenido. Para más información, consulte la guía de exportación <a data-mention href="./#id-3.-exportar-contenido">#id-3.-exportar-contenido</a>.</td></tr></tbody></table>
 
 ***
 
-### 4. Filtros&#x20;
+### 4. Contenido del dashboard
 
-Estos son los filtros disponibles del dashboard, los cuales permiten visualizar la información del tablero según los criterios seleccionados.
+El dashboad se compone de varias pestañas, cada pestaña es una de las campañas dispinibles.}
 
-<table><thead><tr><th width="151.3333740234375">Campo</th><th width="122">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td></td><td></td><td></td></tr></tbody></table>
+{% hint style="warning" %}
+Nota: Debido a la cantidad de pestañas disponibles, algunas no se visualizarán inicialmente. Para consultar todas las opciones, es necesario desplazarse por las pestañas _(Rondas, Torneos, Sorteos, Ruleta, Jackpot, Jackpot internacional)._
+{% endhint %}
 
-***
+{% tabs %}
+{% tab title="First Tab" %}
+
+{% endtab %}
+
+{% tab title="Second Tab" %}
+
+{% endtab %}
+{% endtabs %}
 
 ### 7. Control de Versiones
 
