@@ -23,7 +23,7 @@ layout:
 
 # Tablero de consultas TSR
 
-
+Este tablero presenta información general consolidada de todas las campañas y verticales de los diferentes partners, centralizando la información en un solo lugar.
 
 ### 1. Acceso al Módulo
 
@@ -33,7 +33,13 @@ layout:
 
 ### 2. Configuraciones previas
 
-Antes de visualizar el reporte, es necesario confirmar las [configuraciones previas](https://virtualsoft.gitbook.io/manuales/microstrategy/library/explorar-carpetas/configuracion-de-tableros#id-1.-configuraciones-previas) para aplicar los filtros que aplicarán a el tablero.
+Antes ingresar a este tablero, es necesario completar los filtros que se visualizarán al momento de realizar las [configuraciones previas](https://virtualsoft.gitbook.io/manuales/microstrategy/library/explorar-carpetas/configuracion-de-tableros#id-1.-configuraciones-previas).
+
+<table><thead><tr><th width="145">Filtro</th><th width="136">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Id Torneo</code></strong></td><td>Numérico</td><td>Identificador único del torneo a consultar.</td></tr><tr><td><strong><code>Id Usuario</code></strong></td><td>Numérico</td><td>Identificador único del usuario asocioado a las campañas a consultar.</td></tr><tr><td><strong><code>Id Sorteo</code></strong></td><td>Numérico</td><td>Identificador único del sorteo a consultar.</td></tr><tr><td><strong><code>ID Ruleta</code></strong></td><td>Numérico</td><td>Identificador único de la ruleta a consultar.</td></tr><tr><td><strong><code>Id Jackpot</code></strong></td><td>Numérico</td><td>Identificador único del jackpot <em>(local)</em> a consultar.</td></tr><tr><td><strong><code>Id Jackpot Internacional</code></strong></td><td>Numérico</td><td>Identificador único del jackpot internacional a consultar.</td></tr><tr><td><strong><code>ID Ronda</code></strong></td><td>Numérico</td><td>Identificador único de la ronda en la que el usuario ganó la campaña.</td></tr></tbody></table>
+
+{% hint style="warning" %}
+**Nota**: Si no se ingresa un valor en un filtro, por defecto se asignará **0** y la pestaña correspondiente del tablero no mostrará información.
+{% endhint %}
 
 ***
 
