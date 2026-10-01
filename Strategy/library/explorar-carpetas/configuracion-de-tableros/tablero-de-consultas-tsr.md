@@ -27,7 +27,7 @@ Este tablero presenta información general consolidada de todas las campañas y 
 
 ### 1. Acceso al Módulo
 
-**Ruta de acceso**: Virtualsoft > Informes compartidos > Datas TI > Paneles Visuales > Tablero de consultas TSR
+**Ruta de acceso**: Virtualsoft > Informes compartidos > Datas TI > Paneles Visuales > Tablero de consultas TSR.
 
 ***
 
@@ -35,34 +35,67 @@ Este tablero presenta información general consolidada de todas las campañas y 
 
 Antes de ingresar a este tablero, es necesario completar los filtros que se visualizarán durante las [configuraciones previas](https://virtualsoft.gitbook.io/manuales/microstrategy/library/explorar-carpetas/configuracion-de-tableros#id-1.-configuraciones-previas).
 
-<table><thead><tr><th width="145">Filtro</th><th width="136">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Id Torneo</code></strong></td><td>Numérico</td><td>Identificador único del torneo a consultar.</td></tr><tr><td><strong><code>Id Usuario</code></strong></td><td>Numérico</td><td>Identificador único del usuario asocioado a las campañas a consultar.</td></tr><tr><td><strong><code>Id Sorteo</code></strong></td><td>Numérico</td><td>Identificador único del sorteo a consultar.</td></tr><tr><td><strong><code>ID Ruleta</code></strong></td><td>Numérico</td><td>Identificador único de la ruleta a consultar.</td></tr><tr><td><strong><code>Id Jackpot</code></strong></td><td>Numérico</td><td>Identificador único del jackpot <em>(local)</em> a consultar.</td></tr><tr><td><strong><code>Id Jackpot Internacional</code></strong></td><td>Numérico</td><td>Identificador único del jackpot internacional a consultar.</td></tr><tr><td><strong><code>ID Ronda</code></strong></td><td>Numérico</td><td>Identificador único de la ronda en la que el usuario ganó la campaña.</td></tr></tbody></table>
+<table><thead><tr><th width="145">Filtro</th><th width="136">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Id Torneo</code></strong></td><td>Alfanuméricos</td><td>Identificador único del torneo a consultar.</td></tr><tr><td><strong><code>Id Usuario</code></strong></td><td>Alfanuméricos</td><td><p>Identificador único del usuario asociado a las campañas a consultar.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota</strong>: Este es el único filtro cuyo valor <strong>0</strong> no representa ausencia de información. Al ingresar <strong>0</strong>, se consultará la información correspondiente a <strong>todos los usuarios</strong>, en lugar de filtrar por un usuario específico.</p></div></td></tr><tr><td><strong><code>Id Sorteo</code></strong></td><td>Alfanuméricos</td><td>Identificador único del sorteo a consultar.</td></tr><tr><td><strong><code>ID Ruleta</code></strong></td><td>Alfanuméricos</td><td>Identificador único de la ruleta a consultar.</td></tr><tr><td><strong><code>Id Jackpot</code></strong></td><td>Alfanuméricos</td><td>Identificador único del jackpot <em>(local)</em> a consultar.</td></tr><tr><td><strong><code>Id Jackpot Internacional</code></strong></td><td>Alfanuméricos</td><td>Identificador único del jackpot internacional a consultar.</td></tr><tr><td><strong><code>ID Ronda</code></strong></td><td>Alfanuméricos</td><td>Identificador único de la ronda en la que el usuario ganó la campaña.</td></tr></tbody></table>
 
 {% hint style="warning" %}
-**Nota**: Si no se ingresa un valor en un filtro, por defecto se asignará **0** y la pestaña correspondiente del tablero no mostrará información.
+**Nota**:&#x20;
+
+* Si no se ingresa un valor en un filtro, por defecto se asignará **0** y la pestaña correspondiente del tablero no mostrará información.
+* Cada filtro aplica únicamente a su respectiva pestaña. El único filtro que aplica a todas las pestañas del tablero es **`Id Usuario`**.
 {% endhint %}
 
 ***
 
 ### 3. Acciones disponibles
 
-<table><thead><tr><th width="175.92572021484375">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="https://virtualsoft.gitbook.io/manuales/microstrategy/library/explorar-carpetas/configuracion-de-tableros/tablero-de-consultas-tsr#id-2.-configuraciones-previas"><strong>Aplicar filtros</strong></a></td><td>Utiliza los filtros visualizados en las configuraciones previas para realizar la consulta directa antes de ingresar al tablero.</td></tr><tr><td><strong>Visualizar contenido del tablero</strong></td><td>Visualiza el contenido del tablero, el cuál está compuesto por tablas y separado por verticales.</td></tr><tr><td><strong>Exportar contenido</strong></td><td>El tablero permite exportar su contenido. Para más información, consulte la guía de exportación <a data-mention href="./#id-3.-exportar-contenido">#id-3.-exportar-contenido</a>.</td></tr></tbody></table>
+<table><thead><tr><th width="175.92572021484375">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="https://virtualsoft.gitbook.io/manuales/microstrategy/library/explorar-carpetas/configuracion-de-tableros/tablero-de-consultas-tsr#id-2.-configuraciones-previas"><strong>Aplicar filtros</strong></a></td><td>Utiliza los filtros visualizados en las configuraciones previas para realizar la consulta directa antes de ingresar al tablero.</td></tr><tr><td><strong>Visualizar contenido del tablero</strong></td><td>Visualiza el contenido del tablero, el cual está compuesto por tablas y separado por verticales.</td></tr><tr><td><strong>Exportar contenido</strong></td><td>El tablero permite exportar su contenido. Para más información, consulte la guía de exportación <a data-mention href="./#id-3.-exportar-contenido">#id-3.-exportar-contenido</a>.</td></tr></tbody></table>
 
 ***
 
 ### 4. Contenido del dashboard
 
-El dashboad se compone de varias pestañas, cada pestaña es una de las campañas dispinibles.}
-
-{% hint style="warning" %}
-Nota: Debido a la cantidad de pestañas disponibles, algunas no se visualizarán inicialmente. Para consultar todas las opciones, es necesario desplazarse por las pestañas _(Rondas, Torneos, Sorteos, Ruleta, Jackpot, Jackpot internacional)._
-{% endhint %}
+El dashboad se compone de varias pestañas, cada pestaña es una de las campañas disponibles.
 
 {% tabs %}
-{% tab title="First Tab" %}
+{% tab title="Rondas" %}
+Visualiza una tabla con los movimientos asociados a las rondas filtradas o el usuario.
+
+### Visualización&#x20;
+
+<figure><img src="../../../.gitbook/assets/image (256).png" alt=""><figcaption><p>Figura #1: Captura de pantalla pestaña Rondas.</p></figcaption></figure>
+
+<table><thead><tr><th width="147">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>IdRonda</code></strong></td><td>Identificador único de la ronda.</td></tr><tr><td><strong><code>FechaApi</code></strong></td><td>Fecha exacta en la que se realizó la ronda.</td></tr><tr><td><strong><code>IdTransaccion</code></strong></td><td>Identificador único relaiconado a la transacción realizada por la ronda.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Tipo de movimiento que realizó la ronda <em>(debit, credit)</em>.</td></tr><tr><td><strong><code>Monto</code></strong></td><td>Valor por el cuál fue realizado el movimiento de la ronda.</td></tr><tr><td><strong><code>Respuesta</code></strong></td><td>Respuesta obtenida al realizar la apuesta.</td></tr><tr><td><strong><code>Json</code></strong></td><td>Texto en formato Json que contiene información asociada a la ronda.</td></tr></tbody></table>
+{% endtab %}
+
+{% tab title="Torneos" %}
+
+
+### Visualización&#x20;
+
+<figure><img src="../../../.gitbook/assets/image (257).png" alt=""><figcaption><p>Figura #2: Captura de pantalla pestaña torneos.</p></figcaption></figure>
+{% endtab %}
+
+{% tab title="Sorteos" %}
+
+
+Visualización
+
+<figure><img src="../../../.gitbook/assets/image (258).png" alt=""><figcaption><p>Visualización #3: Captura de pantalla pestaña sorteos.</p></figcaption></figure>
+{% endtab %}
+
+{% tab title="Ruleta" %}
+
+
+### Visualización&#x20;
+
 
 {% endtab %}
 
-{% tab title="Second Tab" %}
+{% tab title="Jackpot" %}
+
+{% endtab %}
+
+{% tab title="Jackpot internacional" %}
 
 {% endtab %}
 {% endtabs %}
