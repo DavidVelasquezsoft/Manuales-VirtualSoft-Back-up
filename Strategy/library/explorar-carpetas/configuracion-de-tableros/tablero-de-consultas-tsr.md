@@ -97,6 +97,28 @@ Visualización
 Visualización
 
 <figure><img src="../../../.gitbook/assets/image (260).png" alt=""><figcaption></figcaption></figure>
+
+Esta pestaña se compone de 3 tablas, cada tabla está en su respectiva pestaña
+
+{% tabs %}
+{% tab title="Información interna del jackpot" %}
+
+
+<table><thead><tr><th width="174">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Partner</code></strong></td><td></td></tr><tr><td><strong><code>Pais</code></strong></td><td></td></tr><tr><td><strong><code>IdJackpot</code></strong></td><td></td></tr><tr><td><strong><code>JackpotPadre</code></strong></td><td></td></tr><tr><td><strong><code>FechaInicio</code></strong></td><td></td></tr><tr><td><strong><code>FechaFin</code></strong></td><td></td></tr><tr><td><strong><code>Descripción</code></strong></td><td></td></tr><tr><td><strong><code>Tipo</code></strong></td><td></td></tr><tr><td><strong><code>Reinicio</code></strong></td><td></td></tr><tr><td><strong><code>Nombre</code></strong></td><td></td></tr><tr><td><strong><code>Estado</code></strong></td><td></td></tr><tr><td><strong><code>ValorAvtual</code></strong></td><td></td></tr><tr><td><strong><code>fechaCreación</code></strong></td><td></td></tr><tr><td><strong><code>FechaModificación</code></strong></td><td></td></tr><tr><td><strong><code>Orden</code></strong></td><td></td></tr><tr><td><strong><code>ValorBase</code></strong></td><td></td></tr><tr><td><strong><code>ValorMáximo</code></strong></td><td></td></tr></tbody></table>
+{% endtab %}
+
+{% tab title="jackpot detalle" %}
+
+
+<table><thead><tr><th width="149">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Partner</code></strong></td><td></td></tr><tr><td><strong><code>País</code></strong></td><td></td></tr><tr><td><strong><code>IdJackpot</code></strong></td><td></td></tr><tr><td><strong><code>Tipo</code></strong></td><td></td></tr><tr><td><strong><code>ValorTipo</code></strong></td><td></td></tr><tr><td><strong><code>FechaCreacion</code></strong></td><td></td></tr></tbody></table>
+{% endtab %}
+
+{% tab title="Jackpot detalle ganador" %}
+
+
+<table><thead><tr><th width="125">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Partner</code></strong></td><td></td></tr><tr><td><strong><code>Pais</code></strong></td><td></td></tr><tr><td><strong><code>Id Jackpot</code></strong></td><td></td></tr><tr><td><strong><code>ID Usuario</code></strong></td><td></td></tr><tr><td><strong><code>Estado Jackpot ganador</code></strong></td><td></td></tr><tr><td><strong><code>Fecha Ganador Jackpot</code></strong></td><td></td></tr><tr><td><strong><code>Fecha Time Ganador Jakcpot</code></strong></td><td></td></tr><tr><td><strong><code>Hay ganador jackpot?</code></strong></td><td></td></tr><tr><td><strong><code>Id Usujackpotganador</code></strong></td><td></td></tr><tr><td><strong><code>Ticket Ganador</code></strong></td><td></td></tr></tbody></table>
+{% endtab %}
+{% endtabs %}
 {% endtab %}
 
 {% tab title="Jackpot internacional" %}
@@ -106,9 +128,11 @@ Visualización
 
 <figure><img src="../../../.gitbook/assets/image (261).png" alt=""><figcaption></figcaption></figure>
 
-<table><thead><tr><th width="123">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td>Id Jackpot Internacional</td><td></td></tr><tr><td>Id Usuario Ganador</td><td></td></tr><tr><td>Ticket Ganador</td><td></td></tr><tr><td>Vertical Ganadora</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="123">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Id Jackpot Internacional</code></strong></td><td></td></tr><tr><td><strong><code>Id Usuario Ganador</code></strong></td><td></td></tr><tr><td><strong><code>Ticket Ganador</code></strong></td><td></td></tr><tr><td><strong><code>Vertical Ganadora</code></strong></td><td></td></tr></tbody></table>
 {% endtab %}
 {% endtabs %}
+
+
 
 ### 7. Control de Versiones
 
