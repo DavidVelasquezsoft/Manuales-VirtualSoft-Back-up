@@ -93,10 +93,20 @@ Visualización
 
 {% tab title="Jackpot" %}
 
+
+Visualización
+
+<figure><img src="../../../.gitbook/assets/image (260).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Jackpot internacional" %}
 
+
+Visualización
+
+<figure><img src="../../../.gitbook/assets/image (261).png" alt=""><figcaption></figcaption></figure>
+
+<table><thead><tr><th width="123">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td>Id Jackpot Internacional</td><td></td></tr><tr><td>Id Usuario Ganador</td><td></td></tr><tr><td>Ticket Ganador</td><td></td></tr><tr><td>Vertical Ganadora</td><td></td></tr></tbody></table>
 {% endtab %}
 {% endtabs %}
 
