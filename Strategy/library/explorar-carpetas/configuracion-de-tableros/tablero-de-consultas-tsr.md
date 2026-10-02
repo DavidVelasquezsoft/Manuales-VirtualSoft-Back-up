@@ -89,6 +89,12 @@ Visualización
 ### Visualización&#x20;
 
 <figure><img src="../../../.gitbook/assets/image (259).png" alt=""><figcaption></figcaption></figure>
+
+|   |   |   |
+| - | - | - |
+|   |   |   |
+|   |   |   |
+|   |   |   |
 {% endtab %}
 
 {% tab title="Jackpot" %}
