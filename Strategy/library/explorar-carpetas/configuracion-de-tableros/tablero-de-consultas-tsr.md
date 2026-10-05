@@ -349,7 +349,13 @@ Presenta la información de los usuarios ganadores de jackpots internacionales.
 
 ***
 
-### 7. Control de Versiones
+### 5. Reglas y validaciones.
+
+* Se recomienda filtrar el tablero solo por una vertical, ya que al traer toda la información, filtrar por todas las verticales hace que la consulta sea más pesada.
+
+***
+
+### 6. Control de Versiones
 
 <details>
 
