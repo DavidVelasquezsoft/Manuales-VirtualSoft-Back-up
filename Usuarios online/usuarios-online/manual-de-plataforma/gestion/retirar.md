@@ -69,11 +69,29 @@ Permite elegir y crear una opción para hacer el retiro (_ej. Criptomonedas, tar
 
 <summary>Retiro cuenta bancaria</summary>
 
-<table><thead><tr><th width="129.09088134765625">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Agregar cuenta bancaria</code></strong></td><td><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota</strong>: Estas configuraciones aplican para la <strong>nueva visual</strong>.</p></div><p>Para agregar una cuenta bancaria, ubica el botón <strong>“+”</strong>.<br>Al seleccionarlo, se mostrará una ventana emergente (<em>pop-up</em>) con los siguientes campos:</p><p>Los campos de este formulario pueden modificarse desde el Site Builder, desde el apartado <a href="https://virtualsoft.gitbook.io/manuales/sitebuilder/manual-de-usuario/como-ingresar/apariencia/formularios"><strong>Formularios.</strong></a></p></td></tr><tr><td><strong><code>Retirar</code></strong></td><td><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong><br>Esta configuración aplica únicamente cuando se utiliza la <strong>visual antigua</strong> del sistema, pueden variar según las configuraciones establecidas, desde el <a href="https://virtualsoft.gitbook.io/manuales/sitebuilder/manual-de-usuario/como-ingresar/apariencia/formularios">sitebuilder</a>.</p></div></td></tr></tbody></table>
+#### **Agregar cuenta bancaria**
 
-<table><thead><tr><th width="149.09088134765625">Campo</th><th width="120.20001220703125">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Cuenta bancaria</code></strong></td><td>Lista desplegable</td><td>Selecciona la cuenta bancaria desde la cual se realizará el retiro.</td></tr><tr><td><strong><code>Cantidad</code></strong></td><td>Campo numérico</td><td>Permite ingresar el monto a retirar. El valor debe ser mayor a 50.</td></tr><tr><td><strong><code>Retirar</code></strong></td><td>Botón</td><td>Al dar clic se ejecuta la solicitud de retiro y se muestra un mensaje de confirmación.</td></tr></tbody></table>
+**Nueva visual**
 
-<table><thead><tr><th width="136">Campo</th><th width="146">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Nombre de usuario</code></strong></td><td>Campo de texto (no editable)</td><td>Muestra el nombre del usuario.</td></tr><tr><td><strong><code>Banco</code></strong></td><td>Lista desplegable</td><td>Permite seleccionar el banco asociado a la cuenta bancaria.</td></tr><tr><td><strong><code>Confirmar banco</code></strong></td><td>Lista desplegable</td><td>Se debe volver a seleccionar el banco para confirmar que la información es correcta.</td></tr><tr><td><strong><code>Tipo de cuenta</code></strong></td><td>Lista desplegable</td><td>Define el tipo de cuenta bancaria <em>(Ejemplo: Ahorros)</em>.</td></tr><tr><td><strong><code>Tipo de cliente</code></strong></td><td>Campo de texto (no editable)</td><td>Indica el tipo de cliente registrado.</td></tr><tr><td><strong><code>Número de cuenta</code></strong></td><td>Numérico</td><td>Permite ingresar el número de cuenta bancaria.</td></tr><tr><td><strong><code>Confirmar número de cuenta</code></strong></td><td>Numérico</td><td>Se debe volver a ingresar el número de cuenta para validarlo y evitar errores.</td></tr></tbody></table>
+Para agregar una cuenta bancaria, selecciona el botón **“+”**. El sistema mostrará una ventana emergente (_pop-up_) con los campos requeridos para registrar la cuenta bancaria.
+
+**Visual anterior**
+
+Para agregar una cuenta bancaria, accede a la sección [**Cuentas bancarias**](cuentas-bancarias..md) y completa el formulario de registro.
+
+{% hint style="warning" %}
+**Nota:** Los campos disponibles en el formulario pueden configurarse o modificarse desde [**Site Builder > Formularios**](https://app.gitbook.com/s/Ojl0Z2z0C78jMb0KvTb8/manual-de-usuario/como-ingresar/apariencia/formularios).
+{% endhint %}
+
+A continuación, se describen los campos que pueden formar parte del formulario:
+
+<table><thead><tr><th width="140.44451904296875">Campo</th><th width="146">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Nombre de usuario</code></strong></td><td>Campo de texto (no editable)</td><td>Muestra el nombre del usuario.</td></tr><tr><td><strong><code>Banco</code></strong></td><td>Lista desplegable</td><td>Permite seleccionar el banco asociado a la cuenta bancaria.</td></tr><tr><td><strong><code>Confirmar banco</code></strong></td><td>Lista desplegable</td><td>Se debe volver a seleccionar el banco para confirmar que la información es correcta.</td></tr><tr><td><strong><code>Tipo de cuenta</code></strong></td><td>Lista desplegable</td><td>Define el tipo de cuenta bancaria <em>(Ejemplo: Ahorros, corriente)</em>.</td></tr><tr><td><strong><code>Tipo de cliente</code></strong></td><td>Campo de texto (no editable)</td><td>Indica el tipo de cliente registrado. (<em>Ejemplo: Personal</em>)</td></tr><tr><td><strong><code>Número de cuenta</code></strong></td><td>Numérico</td><td>Permite ingresar el número de cuenta bancaria.</td></tr><tr><td><strong><code>Confirmar número de cuenta</code></strong></td><td>Numérico</td><td>Se debe volver a ingresar el número de cuenta para validarlo y evitar errores.</td></tr><tr><td><strong><code>Código interbancario</code></strong></td><td>Texto</td><td>Código proporcionado por el banco para transferencias.</td></tr></tbody></table>
+
+#### Crear solicitud de retiro
+
+Una vez creada la cuenta bancaria, completa los siguientes campos para generar la solicitud de retiro correctamente.
+
+<table><thead><tr><th width="149.09088134765625">Campo</th><th width="120.20001220703125">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Cuenta bancaria</code></strong></td><td>Lista desplegable</td><td>Selecciona la cuenta bancaria desde la cual se realizará el retiro.</td></tr><tr><td><strong><code>Cantidad</code></strong></td><td>Campo numérico</td><td>Ingresa el monto a retirar. El valor debe ser mayor a 50.</td></tr></tbody></table>
 
 </details>
 
