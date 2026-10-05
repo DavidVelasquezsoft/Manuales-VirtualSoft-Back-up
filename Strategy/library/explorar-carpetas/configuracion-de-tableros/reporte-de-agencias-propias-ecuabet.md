@@ -107,7 +107,7 @@ Esta pestaña presenta la información en 2 gráficos lineales, comparando los d
 **Nota**: Aunque esta pestaña contiene tres vistas, todas presentan la misma información. La única diferencia corresponde al período de comparación _(Diario, Mensual y anual)_.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p>Figura #3: Captura de pantalla pestaña comparación.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption><p>Figura #3: Captura de pantalla pestaña comparación.</p></figcaption></figure>
 
 <table><thead><tr><th width="171">Gráfico</th><th width="154">Tipo de gráfico</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>% variación diaria de depósitos</code></strong></td><td>Lineal</td><td>Comparativa diaria de los depósitos realizados según las fechas establecidas en los filtros.</td></tr><tr><td><strong><code>% variación diaria de retiros</code></strong></td><td>Lineal</td><td>Comparativa diaria de los retiros realizados según las fechas establecidas en los filtros.</td></tr></tbody></table>
 {% endtab %}
@@ -158,4 +158,3 @@ La tabla de depósitos compara los depósitos realizados del mes anterior y el a
 <table><thead><tr><th width="106.77777099609375">Versión</th><th width="112.444580078125">Fecha</th><th width="160.44439697265625">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>14/08/2029</td><td>Ronald Peláez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-33122">Documento inicial</a></td></tr></tbody></table>
 
 </details>
-

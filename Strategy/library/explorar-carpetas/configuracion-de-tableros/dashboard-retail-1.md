@@ -51,9 +51,22 @@ Antes de ingresar a este tablero, es necesario completar los filtros que se visu
 
 ### 4. KPIs
 
-El dashboard se complementa de uns KIPs principales los cuales muestran información general de todos los retiros realizados en los puntos de venta
+El dashboard presenta indicadores generales de la red de puntos de venta según los filtros aplicados.
 
-<table><thead><tr><th width="150">KPI</th><th>Descripción</th></tr></thead><tbody><tr><td></td><td></td></tr><tr><td><strong><code>#concesionario</code></strong> </td><td>Número de concesionarios activos en el rango de ubicación según los filtros aplicados.</td></tr><tr><td><strong><code>#Puntos de venta</code></strong></td><td>Número de puntos de venta activos en el rango de ubicación según los filtros aplicados.</td></tr></tbody></table>
+| KPI                     | Descripción                                                    |
+| ----------------------- | -------------------------------------------------------------- |
+| **`# Concesionario`**   | Número de concesionarios activos según los filtros aplicados.  |
+| **`# Puntos de venta`** | Número de puntos de venta activos según los filtros aplicados. |
+
+#### **4.1. Indicadores de actividad**
+
+Los indicadores de actividad se presentan mediante una tabla de lectura vertical. Para cada indicador, la fila **`Retail`** muestra el resultado correspondiente a la operación Retail, la fila **`% Total`** muestra el porcentaje de participación de dicho resultado respecto al **`Total`**, y la fila **`Total`** presenta el resultado consolidado.
+
+{% hint style="info" %}
+**Ejemplo:** En el indicador **`Registros`**, se muestran **90 registros** para Retail, que representan el **90,91 %** del total de **99 registros**.
+{% endhint %}
+
+<table><thead><tr><th width="215">Indicador</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Registros</code></strong></td><td>Cantidad de registros obtenidos según los filtros aplicados.</td></tr><tr><td><strong><code>Cantidad FTDs</code></strong></td><td>Cantidad de usuarios que realizaron su primer depósito (FTD).</td></tr><tr><td><strong><code>Valor FTD prom</code></strong></td><td>Valor promedio de los primeros depósitos (FTD).</td></tr><tr><td><strong><code>Cantidad depósitos</code></strong></td><td>Cantidad de depósitos realizados en los puntos de venta.</td></tr><tr><td><strong><code>Valor depósito prom</code></strong></td><td>Valor promedio de los depósitos realizados en los puntos de venta.</td></tr><tr><td><strong><code>Cantidad retiros</code></strong></td><td>Cantidad de retiros realizados en los puntos de venta.</td></tr><tr><td><strong><code>Valor retiro prom</code></strong></td><td>Valor promedio de los retiros realizados en los puntos de venta.</td></tr></tbody></table>
 
 ***
 
@@ -63,15 +76,52 @@ El dasboard se compone de 3 pestañas las cuales segmentan la información consu
 
 {% tabs %}
 {% tab title="ciudad y concesionario" %}
+Visualiza información sobre el comportamiento de los concecionarios según la ciudad.
 
+#### Visualización
+
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p>Figura #1: Captura de pantalla pestaña ciudad y concesionario.</p></figcaption></figure>
+
+<table><thead><tr><th width="112">Gráfico</th><th width="162">Tipo de gráfico</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Cantidad de registros y FTDs a tráves del tiempo</code></strong></td><td>Líneal</td><td></td></tr><tr><td><strong><code>Cantidad registros por ciudad - top 10</code></strong></td><td>Torta</td><td></td></tr><tr><td><strong><code>Cantidad FTDs por ciudad - top 10</code></strong></td><td>Torta</td><td></td></tr><tr><td><strong><code>Cantidad registros por concecionario - top 10</code></strong></td><td>Torta</td><td></td></tr><tr><td><strong><code>Cantidad FTDs por concesionario - top 10</code></strong></td><td>Torta</td><td></td></tr></tbody></table>
+
+* Tabla Mapa de calor por cantidades
+
+La tabla presenta las columnas día y 1. las filas corresponden a la información
+
+<table><thead><tr><th width="230">Fila</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Registros</code></strong></td><td>Cantidad de retiros realizados en ese día</td></tr><tr><td><strong><code>FTDs</code></strong></td><td>Cantidad de </td></tr><tr><td><strong><code>Depósitos</code></strong></td><td></td></tr><tr><td><strong><code>Retiros</code></strong></td><td></td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="top PV y detalle" %}
+(descripción)&#x20;
+
+Visualización
+
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Figura #1: Captura de pantalla pestaña Top PV y detalle.</p></figcaption></figure>
+
+<table><thead><tr><th width="171">Gráfico</th><th>Tipo de gráfico</th><th>Descripción</th></tr></thead><tbody><tr><td>Top 10 PV - valor depósitos</td><td>Barras</td><td></td></tr><tr><td>Top 10 PV - Valor retiros</td><td>Barras</td><td></td></tr><tr><td>Top 10 pv - Cantidad registros</td><td>Barras</td><td></td></tr><tr><td>Top 10 PV - Valor FTDs</td><td>Barras</td><td></td></tr></tbody></table>
+
+* Tabla detalle
+
+Esta tabla contiene información más a detalle&#x20;
+
+<table><thead><tr><th width="210">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>ID PDV</code></strong></td><td>Identificador único del punto de venta</td></tr><tr><td><strong><code>Nombre PDV</code></strong></td><td></td></tr><tr><td><strong><code>Id concesionario</code></strong></td><td></td></tr><tr><td><strong><code>Nombre concesionario</code></strong></td><td></td></tr><tr><td><strong><code>Ciudad pdv</code></strong></td><td>Ciudad donde se encuentra el punto de venta</td></tr><tr><td><strong><code>Cantidad depósitos</code></strong></td><td></td></tr><tr><td><strong><code>Valor total depósitos</code></strong></td><td></td></tr><tr><td><strong><code>Depósitos promedio</code></strong></td><td></td></tr><tr><td><strong><code>Cantidad retiros</code></strong></td><td></td></tr><tr><td><strong><code>Valor total retiros</code></strong></td><td></td></tr><tr><td><strong><code>Retiro promedio</code></strong></td><td></td></tr><tr><td><strong><code>Registros</code></strong> </td><td></td></tr><tr><td><strong><code>FTD</code></strong></td><td></td></tr><tr><td><strong><code>Valor FTD promedio</code></strong></td><td></td></tr></tbody></table>
+
 
 {% endtab %}
 
 {% tab title="Distribución por ciudad" %}
+(descripción)&#x20;
 
+Visualización
+
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+| Gráfico                                                        | Tipo de gráfico | Descripción |
+| -------------------------------------------------------------- | --------------- | ----------- |
+| **`Relación entre cantidad y valor de depósitos por ciudad`**  | Lineal          |             |
+| **`Relación entre cantidad y valor de retiros por ciudad`**    | lineal          |             |
+| **`Relación entre cantidad registros y valor FTD por ciudad`** | lineal          |             |
+| **`Relación entre cantidad y valor FTDs por ciudad.`**         | Lineal          |             |
 {% endtab %}
 {% endtabs %}
 
