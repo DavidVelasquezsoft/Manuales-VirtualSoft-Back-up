@@ -52,5 +52,4 @@
       * [Dashboard de Ruletas](library/explorar-carpetas/configuracion-de-tableros/dashboard-de-ruletas.md)
       * [Reporte de agencias propias Ecuabet](library/explorar-carpetas/configuracion-de-tableros/reporte-de-agencias-propias-ecuabet.md)
       * [Tablero de consultas TSR](library/explorar-carpetas/configuracion-de-tableros/tablero-de-consultas-tsr.md)
-      * [Page 1](library/explorar-carpetas/configuracion-de-tableros/page-1.md)
 * [Workstation](workstation.md)
