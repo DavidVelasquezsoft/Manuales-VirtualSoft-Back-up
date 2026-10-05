@@ -361,6 +361,6 @@ Presenta la información de los usuarios ganadores de jackpots internacionales.
 
 <summary>🔽 Historial de versiones</summary>
 
-<table><thead><tr><th width="94.7037353515625">Versión</th><th width="133.25927734375">Fecha</th><th width="161.77777099609375">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>26/06/2026</td><td>David velasquez</td><td>Documento inicial</td></tr></tbody></table>
+<table><thead><tr><th width="94.7037353515625">Versión</th><th width="133.25927734375">Fecha</th><th width="161.77777099609375">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>05/10/2026</td><td>Ronald Pelaéz</td><td>Documento inicial</td></tr></tbody></table>
 
 </details>
