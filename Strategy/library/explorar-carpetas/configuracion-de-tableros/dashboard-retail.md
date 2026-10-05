@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Dashboard Retail
 
 <mark style="color:$info;">Ofrece una vista analítica del desempeño de la red de puntos de venta físicos de cada partner por país. Permite medir y dar seguimiento a los principales KPIs, analizando la información por partner, país y estructura territorial para apoyar la toma de decisiones sobre la gestión de la red.</mark>
