@@ -54,7 +54,7 @@ Antes de ingresar a este tablero, es necesario completar los filtros que se visu
 
 ### 4. Contenido del dashboard
 
-El dashboad se compone de varias pestañas, cada pestaña es una de las campañas disponibles.
+El dashboard se compone de varias pestañas, cada pestaña es una de las campañas disponibles.
 
 {% tabs %}
 {% tab title="Rondas" %}
@@ -68,73 +68,163 @@ Visualiza una tabla con los movimientos asociados a las rondas filtradas o el us
 {% endtab %}
 
 {% tab title="Torneos" %}
-
+(Descripción)&#x20;
 
 ### Visualización&#x20;
 
 <figure><img src="../../../.gitbook/assets/image (257).png" alt=""><figcaption><p>Figura #2: Captura de pantalla pestaña torneos.</p></figcaption></figure>
+
+* Detalle del torneo
+
+(Descripción)&#x20;
+
+<table><thead><tr><th width="151">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Auto Detalle Torneo</code></strong></td><td></td></tr><tr><td><strong><code>Tipo</code></strong></td><td></td></tr><tr><td><strong><code>Moneda</code></strong></td><td></td></tr><tr><td><strong><code>Valor</code></strong></td><td></td></tr><tr><td><strong><code>Fecha Creación</code></strong></td><td></td></tr><tr><td><strong><code>Usuarios Crea</code></strong></td><td></td></tr><tr><td><strong><code>Fecha Modificación</code></strong></td><td></td></tr><tr><td><strong><code>Usuario Modificación</code></strong></td><td></td></tr><tr><td><strong><code>Detalle</code></strong></td><td></td></tr><tr><td><strong><code>Valor2</code></strong></td><td></td></tr><tr><td><strong><code>Valor3</code></strong></td><td></td></tr></tbody></table>
+
+* Información interna del torneo
+
+(Descripción)&#x20;
+
+<table><thead><tr><th width="148">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Torneo</code></strong></td><td></td></tr><tr><td><strong><code>Fecha inicio</code></strong></td><td></td></tr><tr><td><strong><code>Fecha Expiración</code></strong></td><td></td></tr><tr><td><strong><code>Detalle</code></strong></td><td></td></tr><tr><td><strong><code>Tipo</code></strong></td><td></td></tr><tr><td><strong><code>Nombre Torneo</code></strong></td><td></td></tr><tr><td><strong><code>Estado</code></strong></td><td></td></tr><tr><td><strong><code>Partner</code></strong></td><td></td></tr><tr><td><strong><code>Fecha Creación</code></strong></td><td></td></tr><tr><td><strong><code>Usuario Crea</code></strong></td><td>Id usuario que creó el torneo</td></tr><tr><td><strong><code>Fecha Modificación</code></strong></td><td></td></tr><tr><td><strong><code>Usuario Modificación</code></strong></td><td></td></tr><tr><td><strong><code>TYC</code></strong></td><td></td></tr><tr><td><strong><code>Json</code></strong></td><td></td></tr></tbody></table>
+
+* Torneo Asignado a usuario
+
+(Descripción)&#x20;
+
+<table><thead><tr><th width="143">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Auto Torneo</code></strong></td><td></td></tr><tr><td><strong><code>Partner</code></strong></td><td></td></tr><tr><td><strong><code>Torneo</code></strong></td><td></td></tr><tr><td><strong><code>Usuario</code></strong></td><td></td></tr><tr><td><strong><code>Fecha Creación</code></strong></td><td></td></tr><tr><td><strong><code>Usuario Crea</code></strong></td><td></td></tr><tr><td><strong><code>Fecha Modificación</code></strong></td><td></td></tr><tr><td><strong><code>Usuario Modificación</code></strong></td><td></td></tr><tr><td><strong><code>Estado</code></strong></td><td></td></tr><tr><td><strong><code>Valor apostado</code></strong></td><td></td></tr><tr><td><strong><code>Código</code></strong></td><td></td></tr><tr><td><strong><code>Valor Torneo</code></strong></td><td></td></tr><tr><td><strong><code>Valor base</code></strong></td><td></td></tr><tr><td><strong><code>Valor premio</code></strong></td><td></td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Sorteos" %}
+(Descripción)&#x20;
 
-
-Visualización
+#### Visualización
 
 <figure><img src="../../../.gitbook/assets/image (258).png" alt=""><figcaption><p>Visualización #3: Captura de pantalla pestaña sorteos.</p></figcaption></figure>
+
+
+
+{% tabs %}
+{% tab title="Iinformación interna del sorteo" %}
+(Descripción)&#x20;
+
+<table><thead><tr><th width="174">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr></tbody></table>
+{% endtab %}
+
+{% tab title="Detalle del sorteo" %}
+(Descripción)&#x20;
+
+<table><thead><tr><th width="149">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr></tbody></table>
+{% endtab %}
+
+{% tab title="Sorteo asignado a usuario" %}
+(Descripción)&#x20;
+
+<table><thead><tr><th width="125">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr></tbody></table>
+{% endtab %}
+
+{% tab title="Usuario que acumulan stikers" %}
+(Descripción)&#x20;
+{% endtab %}
+{% endtabs %}
+
+
 {% endtab %}
 
 {% tab title="Ruleta" %}
-
+(Descripción)&#x20;
 
 ### Visualización&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (259).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (259).png" alt=""><figcaption><p>Visualización #4: Captura de pantalla pestaña ruleta.</p></figcaption></figure>
 
-|   |   |   |
-| - | - | - |
-|   |   |   |
-|   |   |   |
-|   |   |   |
+
+
+{% tabs %}
+{% tab title="Información interna de la ruleta" %}
+(Descripción)&#x20;
+
+<table><thead><tr><th width="174">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Id Ruleta</code></strong></td><td></td></tr><tr><td><strong><code>Fecha inicio ruleta</code></strong></td><td></td></tr><tr><td><strong><code>Fecha fin ruleta</code></strong></td><td></td></tr><tr><td><strong><code>Nombre ruleta</code></strong></td><td></td></tr><tr><td><strong><code>Tipo ruleta</code></strong></td><td></td></tr><tr><td><strong><code>Descripción</code></strong></td><td></td></tr><tr><td><strong><code>Estado ruleta</code></strong></td><td></td></tr><tr><td><strong><code>Partner</code></strong></td><td></td></tr><tr><td><strong><code>Fecha cración</code></strong></td><td></td></tr><tr><td><strong><code>Fecha modificación</code></strong></td><td></td></tr><tr><td><strong><code>Condicional</code></strong></td><td></td></tr><tr><td><strong><code>Cupo Actual</code></strong></td><td></td></tr><tr><td><strong><code>Cupo Máximo</code></strong></td><td></td></tr><tr><td><strong><code>Máximo ruleta</code></strong></td><td></td></tr><tr><td><strong><code>Cantidad Ruletas</code></strong></td><td></td></tr><tr><td><strong><code>Terminos y condiciones</code></strong> </td><td></td></tr></tbody></table>
+{% endtab %}
+
+{% tab title="Ruleta detalle" %}
+(Descripción)&#x20;
+
+<table><thead><tr><th width="149">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Id Ruleta</code></strong></td><td></td></tr><tr><td><strong><code>Tipo</code></strong></td><td></td></tr><tr><td><strong><code>Moneda</code></strong></td><td></td></tr><tr><td><strong><code>Valor Tipo</code></strong></td><td></td></tr><tr><td><strong><code>Fecha Creación</code></strong></td><td></td></tr><tr><td><strong><code>Fecha Modificación</code></strong></td><td></td></tr><tr><td><strong><code>Descripción</code></strong></td><td></td></tr><tr><td><strong><code>Porcentaje</code></strong></td><td></td></tr></tbody></table>
+{% endtab %}
+
+{% tab title="Ruleta asignada a usuario" %}
+(Descripción)&#x20;
+
+<table><thead><tr><th width="151">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Partner</code></strong></td><td></td></tr><tr><td><strong><code>País</code></strong></td><td></td></tr><tr><td><strong><code>Id Ruleta</code></strong></td><td>Identificador único de la ruleta.</td></tr><tr><td><strong><code>usuario</code></strong></td><td></td></tr><tr><td><strong><code>Valor</code></strong></td><td></td></tr><tr><td><strong><code>Posición</code></strong></td><td></td></tr><tr><td><strong><code>Fecha Creación</code></strong></td><td></td></tr><tr><td><strong><code>Fecha Modificación</code></strong></td><td></td></tr><tr><td><strong><code>Estado</code></strong></td><td></td></tr><tr><td><strong><code>Error</code></strong></td><td>Código de error al momento de ejecutar la ruleta (si aplica) </td></tr><tr><td><strong><code>Fecha Creación</code></strong></td><td></td></tr><tr><td><strong><code>premio</code></strong></td><td></td></tr><tr><td><strong><code>Valor base</code></strong></td><td></td></tr><tr><td><strong><code>Apostado</code></strong></td><td></td></tr><tr><td><strong><code>Valor Premio</code></strong></td><td></td></tr></tbody></table>
+{% endtab %}
+{% endtabs %}
+
+
 {% endtab %}
 
 {% tab title="Jackpot" %}
-
+(Descripción)&#x20;
 
 Visualización
 
-<figure><img src="../../../.gitbook/assets/image (260).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (260).png" alt=""><figcaption><p>Visualización #5: Captura de pantalla pestaña jackpot.</p></figcaption></figure>
 
-Esta pestaña se compone de 3 tablas, cada tabla está en su respectiva pestaña
+Esta pestaña se compone de 3 tablas, cada tabla está en su respectiva pestaña.
 
 {% tabs %}
 {% tab title="Información interna del jackpot" %}
-
+(Descripción)&#x20;
 
 <table><thead><tr><th width="174">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Partner</code></strong></td><td></td></tr><tr><td><strong><code>Pais</code></strong></td><td></td></tr><tr><td><strong><code>IdJackpot</code></strong></td><td></td></tr><tr><td><strong><code>JackpotPadre</code></strong></td><td></td></tr><tr><td><strong><code>FechaInicio</code></strong></td><td></td></tr><tr><td><strong><code>FechaFin</code></strong></td><td></td></tr><tr><td><strong><code>Descripción</code></strong></td><td></td></tr><tr><td><strong><code>Tipo</code></strong></td><td></td></tr><tr><td><strong><code>Reinicio</code></strong></td><td></td></tr><tr><td><strong><code>Nombre</code></strong></td><td></td></tr><tr><td><strong><code>Estado</code></strong></td><td></td></tr><tr><td><strong><code>ValorAvtual</code></strong></td><td></td></tr><tr><td><strong><code>fechaCreación</code></strong></td><td></td></tr><tr><td><strong><code>FechaModificación</code></strong></td><td></td></tr><tr><td><strong><code>Orden</code></strong></td><td></td></tr><tr><td><strong><code>ValorBase</code></strong></td><td></td></tr><tr><td><strong><code>ValorMáximo</code></strong></td><td></td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="jackpot detalle" %}
-
+(Descripción)&#x20;
 
 <table><thead><tr><th width="149">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Partner</code></strong></td><td></td></tr><tr><td><strong><code>País</code></strong></td><td></td></tr><tr><td><strong><code>IdJackpot</code></strong></td><td></td></tr><tr><td><strong><code>Tipo</code></strong></td><td></td></tr><tr><td><strong><code>ValorTipo</code></strong></td><td></td></tr><tr><td><strong><code>FechaCreacion</code></strong></td><td></td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Jackpot detalle ganador" %}
-
+(Descripción)&#x20;
 
 <table><thead><tr><th width="125">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Partner</code></strong></td><td></td></tr><tr><td><strong><code>Pais</code></strong></td><td></td></tr><tr><td><strong><code>Id Jackpot</code></strong></td><td></td></tr><tr><td><strong><code>ID Usuario</code></strong></td><td></td></tr><tr><td><strong><code>Estado Jackpot ganador</code></strong></td><td></td></tr><tr><td><strong><code>Fecha Ganador Jackpot</code></strong></td><td></td></tr><tr><td><strong><code>Fecha Time Ganador Jakcpot</code></strong></td><td></td></tr><tr><td><strong><code>Hay ganador jackpot?</code></strong></td><td></td></tr><tr><td><strong><code>Id Usujackpotganador</code></strong></td><td></td></tr><tr><td><strong><code>Ticket Ganador</code></strong></td><td></td></tr></tbody></table>
 {% endtab %}
 {% endtabs %}
+
+.
 {% endtab %}
 
 {% tab title="Jackpot internacional" %}
-
+(Descripción)&#x20;
 
 Visualización
 
-<figure><img src="../../../.gitbook/assets/image (261).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (261).png" alt=""><figcaption><p>Visualización #6: Captura de pantalla pestaña jackpot internacional.</p></figcaption></figure>
+
+.
+
+{% tabs %}
+{% tab title="Información interna del jackpot" %}
+(Descripción)&#x20;
+
+<table><thead><tr><th width="174">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Jd Jacopot Internacional</code></strong></td><td></td></tr><tr><td><strong><code>Id jackpor padre internacional</code></strong></td><td></td></tr><tr><td><strong><code>Nombre jackpot intenacional</code></strong></td><td></td></tr><tr><td><strong><code>Fecha inicio</code></strong></td><td></td></tr><tr><td>Fecha caída</td><td></td></tr><tr><td><strong><code>Moneda Base</code></strong></td><td></td></tr><tr><td><strong><code>Descripción</code></strong></td><td></td></tr></tbody></table>
+{% endtab %}
+
+{% tab title="jackpot detalle" %}
+(Descripción)&#x20;
+
+<table><thead><tr><th width="149">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Id jackpot internacional</code></strong></td><td></td></tr><tr><td><strong><code>Tipo</code></strong></td><td></td></tr><tr><td><strong><code>Valor Tipo</code></strong></td><td></td></tr><tr><td><strong><code>Fecha Creación</code></strong></td><td></td></tr><tr><td><strong><code>Fecha Modificación</code></strong></td><td></td></tr><tr><td><strong><code>Usuario Crea</code></strong></td><td></td></tr><tr><td><strong><code>Usuario Modificación</code></strong></td><td></td></tr></tbody></table>
+{% endtab %}
+
+{% tab title="Usuario jackpot internacional ganador" %}
+(Descripción)&#x20;
 
 <table><thead><tr><th width="123">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Id Jackpot Internacional</code></strong></td><td></td></tr><tr><td><strong><code>Id Usuario Ganador</code></strong></td><td></td></tr><tr><td><strong><code>Ticket Ganador</code></strong></td><td></td></tr><tr><td><strong><code>Vertical Ganadora</code></strong></td><td></td></tr></tbody></table>
+
+
+{% endtab %}
+{% endtabs %}
+
+.
 {% endtab %}
 {% endtabs %}
 
