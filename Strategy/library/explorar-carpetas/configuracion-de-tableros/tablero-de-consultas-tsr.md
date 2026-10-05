@@ -23,7 +23,7 @@ layout:
 
 # Tablero de consultas TSR
 
-Este tablero presenta información general consolidada de todas las campañas y verticales de los diferentes partners, centralizando la información en un solo lugar.
+haEste tablero presenta información general consolidada de todas las campañas y verticales de los diferentes partners, centralizando la información en un solo lugar.
 
 ### 1. Acceso al Módulo
 
@@ -106,23 +106,27 @@ Visualiza una tabla con los movimientos asociados a las rondas filtradas o el us
 {% tab title="Iinformación interna del sorteo" %}
 (Descripción)&#x20;
 
-<table><thead><tr><th width="174">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="174">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Mandante</code></strong></td><td></td></tr><tr><td><strong><code>Sorteo</code></strong></td><td></td></tr><tr><td><strong><code>Fecha Inicio</code></strong></td><td></td></tr><tr><td><strong><code>Fecha Expiración</code></strong></td><td></td></tr><tr><td><strong><code>Descripción</code></strong></td><td></td></tr><tr><td><strong><code>Tipo</code></strong></td><td></td></tr><tr><td><strong><code>Nombre</code></strong></td><td></td></tr><tr><td><strong><code>Estado</code></strong></td><td></td></tr><tr><td><strong><code>Fecha creación</code></strong></td><td></td></tr><tr><td><strong><code>Usuario crea</code></strong></td><td></td></tr><tr><td><strong><code>usuario Modifica</code></strong></td><td></td></tr><tr><td><strong><code>Fecha Modificación</code></strong></td><td></td></tr><tr><td><strong><code>TYC</code></strong></td><td></td></tr><tr><td><strong><code>Cupo Actual</code></strong></td><td></td></tr><tr><td><strong><code>Cupo Máximo</code></strong></td><td></td></tr><tr><td><strong><code>Código</code></strong></td><td></td></tr><tr><td><strong><code>Cantidad Sorteos</code></strong></td><td></td></tr><tr><td><strong><code>Máximo sorteos</code></strong></td><td></td></tr><tr><td><strong><code>Orden</code></strong></td><td></td></tr><tr><td><strong><code>Pegatinas</code></strong></td><td></td></tr><tr><td><strong><code>Habilita Deportivas</code></strong></td><td></td></tr><tr><td><strong><code>Habilita Casino</code></strong></td><td></td></tr><tr><td><strong><code>Habilita Depósito</code></strong></td><td></td></tr><tr><td><strong><code>Json Temp</code></strong></td><td></td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Detalle del sorteo" %}
 (Descripción)&#x20;
 
-<table><thead><tr><th width="149">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="149">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Auto Sorteo</code></strong></td><td>identificador incremental de la fila en la tabla (esto es lo mismo para todos los que tengan esta misma columna, esto no hace parte del a descripción, es una instrucción interna para chatgpt)</td></tr><tr><td><strong><code>sorteo</code></strong></td><td></td></tr><tr><td><strong><code>Fecha Sorteo</code></strong></td><td></td></tr><tr><td><strong><code>Tipo</code></strong></td><td></td></tr><tr><td><strong><code>Moneda</code></strong></td><td></td></tr><tr><td><strong><code>Valor</code></strong></td><td></td></tr><tr><td><strong><code>Fecha Creación</code></strong></td><td></td></tr><tr><td><strong><code>Usuario crea</code></strong></td><td></td></tr><tr><td><strong><code>Fecha Modificación</code></strong></td><td></td></tr><tr><td><strong><code>Valor2</code></strong></td><td></td></tr><tr><td><strong><code>Valor3</code></strong></td><td></td></tr><tr><td><strong><code>Usuario Modificación</code></strong></td><td></td></tr><tr><td><strong><code>Estado</code></strong></td><td></td></tr><tr><td><strong><code>Descripción</code></strong></td><td></td></tr><tr><td><strong><code>Permite Ganador</code></strong></td><td></td></tr><tr><td><strong><code>Jugador excluido</code></strong></td><td></td></tr><tr><td><strong><code>Múltiple premio jugador</code></strong></td><td></td></tr><tr><td><strong><code>Imagen</code></strong></td><td>URL de la imagen del sorteo.</td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Sorteo asignado a usuario" %}
 (Descripción)&#x20;
 
-<table><thead><tr><th width="125">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="125">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Mandante</code></strong></td><td></td></tr><tr><td><strong><code>Sorteo</code></strong></td><td></td></tr><tr><td><strong><code>Usuario</code></strong></td><td></td></tr><tr><td><strong><code>Valor</code></strong></td><td></td></tr><tr><td><strong><code>Valor Base</code></strong></td><td></td></tr><tr><td><strong><code>Valor Premio</code></strong></td><td></td></tr><tr><td><strong><code>Estado</code></strong></td><td></td></tr><tr><td><strong><code>Premio</code></strong></td><td></td></tr><tr><td><strong><code>Premio ID</code></strong></td><td></td></tr><tr><td><strong><code>Fecha Creación</code></strong></td><td></td></tr><tr><td><strong><code>Fecha Modificación</code></strong></td><td></td></tr><tr><td><strong><code>Usuario Crea</code></strong></td><td></td></tr><tr><td><strong><code>Usuario Modifica</code></strong></td><td></td></tr><tr><td><strong><code>Versión</code></strong></td><td></td></tr><tr><td><strong><code>Posición</code></strong></td><td></td></tr><tr><td><strong><code>Apostado</code></strong></td><td></td></tr><tr><td><strong><code>Error</code></strong></td><td></td></tr><tr><td><strong><code>Externo ID</code></strong></td><td>Identificador único del sorteo utilizado por proveedores externos</td></tr><tr><td><strong><code>Id Externo</code></strong></td><td>Identificadór único del sorteo utilizado de manera interna.</td></tr><tr><td><strong><code>Código</code></strong></td><td>Código habilitado para inscribirse al sorteo</td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Usuario que acumulan stikers" %}
 (Descripción)&#x20;
+
+<table><thead><tr><th width="128">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Mandante</code></strong></td><td>Partner por el cuál obtuvo el stike el usuario</td></tr><tr><td><strong><code>Sorteo</code></strong></td><td>Ide del sorteo</td></tr><tr><td><strong><code>Usuario</code></strong></td><td>Ud del usuario</td></tr><tr><td><strong><code>Valor</code></strong></td><td></td></tr><tr><td><strong><code>Valor Base</code></strong></td><td></td></tr><tr><td><strong><code>Tipo</code></strong></td><td></td></tr><tr><td><strong><code>Estado</code></strong></td><td></td></tr><tr><td><strong><code>Apostado</code></strong></td><td></td></tr><tr><td><strong><code>Fecha Creación</code></strong></td><td></td></tr><tr><td><strong>Usuario crea</strong></td><td></td></tr><tr><td><strong><code>Fecha Modificación</code></strong></td><td></td></tr><tr><td><strong><code>Usuario Modifica</code></strong></td><td></td></tr><tr><td><strong><code>Premio</code></strong></td><td></td></tr><tr><td><strong><code>Valor premio</code></strong></td><td></td></tr></tbody></table>
+
+
 {% endtab %}
 {% endtabs %}
 
