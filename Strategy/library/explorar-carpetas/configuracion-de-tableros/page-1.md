@@ -1,58 +1,50 @@
----
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
-  tags:
-    visible: true
-  actions:
-    visible: true
-  anchors:
-    visible: true
----
+# Page 1
 
-# Tablero de consultas TSR
+## Tablero de consultas TSR
 
-haEste tablero presenta información general consolidada de todas las campañas y verticales de los diferentes partners, centralizando la información en un solo lugar.
+Este tablero presenta información general consolidada de las campañas y verticales de los diferentes partners, centralizando la información en un solo lugar.
 
-### 1. Acceso al Módulo
+#### 1. Acceso al Módulo
 
 **Ruta de acceso**: Virtualsoft > Informes compartidos > Datas TI > Paneles Visuales > Tablero de consultas TSR.
 
 ***
 
-### 2. Configuraciones previas
+#### 2. Configuraciones previas
 
 Antes de ingresar a este tablero, es necesario completar los filtros que se visualizarán durante las [configuraciones previas](https://virtualsoft.gitbook.io/manuales/microstrategy/library/explorar-carpetas/configuracion-de-tableros#id-1.-configuraciones-previas).
 
-<table><thead><tr><th width="145">Filtro</th><th width="136">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Id Torneo</code></strong></td><td>Alfanuméricos</td><td>Identificador único del torneo a consultar.</td></tr><tr><td><strong><code>Id Usuario</code></strong></td><td>Alfanuméricos</td><td><p>Identificador único del usuario asociado a las campañas a consultar.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota</strong>: Este es el único filtro cuyo valor <strong>0</strong> no representa ausencia de información. Al ingresar <strong>0</strong>, se consultará la información correspondiente a <strong>todos los usuarios</strong>, en lugar de filtrar por un usuario específico.</p></div></td></tr><tr><td><strong><code>Id Sorteo</code></strong></td><td>Alfanuméricos</td><td>Identificador único del sorteo a consultar.</td></tr><tr><td><strong><code>ID Ruleta</code></strong></td><td>Alfanuméricos</td><td>Identificador único de la ruleta a consultar.</td></tr><tr><td><strong><code>Id Jackpot</code></strong></td><td>Alfanuméricos</td><td>Identificador único del jackpot <em>(local)</em> a consultar.</td></tr><tr><td><strong><code>Id Jackpot Internacional</code></strong></td><td>Alfanuméricos</td><td>Identificador único del jackpot internacional a consultar.</td></tr><tr><td><strong><code>ID Ronda</code></strong></td><td>Alfanuméricos</td><td>Identificador único de la ronda en la que el usuario ganó la campaña.</td></tr></tbody></table>
+| Filtro                         | Tipo de control | Descripción                                                          |
+| ------------------------------ | --------------- | -------------------------------------------------------------------- |
+| **`Id Torneo`**                | Alfanuméricos   | Identificador único del torneo a consultar.                          |
+| **`Id Usuario`**               | Alfanuméricos   | Identificador único del usuario asociado a las campañas a consultar. |
+| **`Id Sorteo`**                | Alfanuméricos   | Identificador único del sorteo a consultar.                          |
+| **`ID Ruleta`**                | Alfanuméricos   | Identificador único de la ruleta a consultar.                        |
+| **`Id Jackpot`**               | Alfanuméricos   | Identificador único del jackpot local a consultar.                   |
+| **`Id Jackpot Internacional`** | Alfanuméricos   | Identificador único del jackpot internacional a consultar.           |
+| **`ID Ronda`**                 | Alfanuméricos   | Identificador único de la ronda a consultar.                         |
 
 {% hint style="warning" %}
-**Nota**:&#x20;
+**Notas:**
 
 * Si no se ingresa un valor en un filtro, por defecto se asignará **0** y la pestaña correspondiente del tablero no mostrará información.
 * Cada filtro aplica únicamente a su respectiva pestaña. El único filtro que aplica a todas las pestañas del tablero es **`Id Usuario`**.
+* El valor **0** en **`Id Usuario`** consulta la información correspondiente a todos los usuarios, en lugar de filtrar por un usuario específico.
 {% endhint %}
 
 ***
 
-### 3. Acciones disponibles
+#### 3. Acciones disponibles
 
-<table><thead><tr><th width="175.92572021484375">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="https://virtualsoft.gitbook.io/manuales/microstrategy/library/explorar-carpetas/configuracion-de-tableros/tablero-de-consultas-tsr#id-2.-configuraciones-previas"><strong>Aplicar filtros</strong></a></td><td>Utiliza los filtros visualizados en las configuraciones previas para realizar la consulta directa antes de ingresar al tablero.</td></tr><tr><td><strong>Visualizar contenido del tablero</strong></td><td>Visualiza el contenido del tablero, el cual está compuesto por tablas y separado por verticales.</td></tr><tr><td><strong>Exportar contenido</strong></td><td>El tablero permite exportar su contenido. Para más información, consulte la guía de exportación <a data-mention href="./#id-3.-exportar-contenido">#id-3.-exportar-contenido</a>.</td></tr></tbody></table>
+| Acción                               | Descripción                                                                                                          |
+| ------------------------------------ | -------------------------------------------------------------------------------------------------------------------- |
+| **Aplicar filtros**                  | Utiliza los filtros definidos en las configuraciones previas para realizar la consulta antes de ingresar al tablero. |
+| **Visualizar contenido del tablero** | Permite consultar la información del tablero, organizada en tablas y separada por verticales.                        |
+| **Exportar contenido**               | Permite exportar el contenido del tablero. Para más información, consulte la guía de exportación correspondiente.    |
 
 ***
 
-### 4. Contenido del dashboard
+#### 4. Contenido del dashboard
 
 El dashboard se compone de varias pestañas, cada una correspondiente a una de las campañas o verticales disponibles.
 
@@ -351,12 +343,14 @@ Presenta la información de los usuarios ganadores de jackpots internacionales.
 
 ***
 
-### 7. Control de Versiones
+#### 7. Control de Versiones
 
 <details>
 
 <summary>🔽 Historial de versiones</summary>
 
-<table><thead><tr><th width="94.7037353515625">Versión</th><th width="133.25927734375">Fecha</th><th width="161.77777099609375">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>26/06/2026</td><td>David velasquez</td><td>Documento inicial</td></tr></tbody></table>
+| Versión | Fecha      | Autor           | Cambios realizados |
+| ------- | ---------- | --------------- | ------------------ |
+| 1.0     | 26/06/2026 | David Velásquez | Documento inicial. |
 
 </details>
