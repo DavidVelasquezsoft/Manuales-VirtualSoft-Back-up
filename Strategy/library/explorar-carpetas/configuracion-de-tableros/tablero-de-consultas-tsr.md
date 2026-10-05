@@ -64,15 +64,7 @@ Presenta una tabla con los movimientos asociados a las rondas consultadas, inclu
 
 <figure><img src="https://580350895-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FqV6PKDTPGEG39u2whMHJ%2Fuploads%2FLVe5U0GYbswg3oIZxtRh%2Fimage.png?alt=media&#x26;token=49525d33-015b-4f63-88f0-6dbb879df2df" alt=""><figcaption><p>Figura #1: Captura de pantalla pestaña Rondas.</p></figcaption></figure>
 
-| Columna             | Descripción                                                                |
-| ------------------- | -------------------------------------------------------------------------- |
-| **`IdRonda`**       | Identificador único de la ronda.                                           |
-| **`FechaApi`**      | Fecha exacta en la que se realizó la ronda.                                |
-| **`IdTransaccion`** | Identificador único relacionado con la transacción realizada por la ronda. |
-| **`Estado`**        | Tipo de movimiento realizado por la ronda _(debit, credit)_.               |
-| **`Monto`**         | Valor por el cual se realizó el movimiento de la ronda.                    |
-| **`Respuesta`**     | Respuesta obtenida al realizar la apuesta.                                 |
-| **`Json`**          | Texto en formato JSON que contiene información asociada a la ronda.        |
+<table><thead><tr><th width="151">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>IdRonda</code></strong></td><td>Identificador único de la ronda.</td></tr><tr><td><strong><code>FechaApi</code></strong></td><td>Fecha exacta en la que se realizó la ronda.</td></tr><tr><td><strong><code>IdTransaccion</code></strong></td><td>Identificador único relacionado con la transacción realizada por la ronda.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Tipo de movimiento realizado por la ronda <em>(debit, credit)</em>.</td></tr><tr><td><strong><code>Monto</code></strong></td><td>Valor por el cual se realizó el movimiento de la ronda.</td></tr><tr><td><strong><code>Respuesta</code></strong></td><td>Respuesta obtenida al realizar la apuesta.</td></tr><tr><td><strong><code>Json</code></strong></td><td>Texto en formato JSON que contiene información asociada a la ronda.</td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Torneos" %}
@@ -86,61 +78,19 @@ Presenta información relacionada con la configuración de los torneos, su detal
 
 Contiene la información de configuración y los valores asociados al detalle del torneo.
 
-| Columna                    | Descripción                                   |
-| -------------------------- | --------------------------------------------- |
-| **`Auto Detalle Torneo`**  | Identificador interno del detalle del torneo. |
-| **`Tipo`**                 | Tipo asociado al detalle del torneo.          |
-| **`Moneda`**               | Moneda asociada al registro.                  |
-| **`Valor`**                | Valor principal configurado para el registro. |
-| **`Fecha Creación`**       | Fecha de creación del registro.               |
-| **`Usuarios Crea`**        | Usuario asociado a la creación del registro.  |
-| **`Fecha Modificación`**   | Fecha de la última modificación del registro. |
-| **`Usuario Modificación`** | Usuario que realizó la última modificación.   |
-| **`Detalle`**              | Información adicional asociada al registro.   |
-| **`Valor2`**               | Valor complementario del registro.            |
-| **`Valor3`**               | Valor complementario adicional del registro.  |
+<table><thead><tr><th width="210">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Auto Detalle Torneo</code></strong></td><td>Identificador interno del detalle del torneo.</td></tr><tr><td><strong><code>Tipo</code></strong></td><td>Tipo asociado al detalle del torneo.</td></tr><tr><td><strong><code>Moneda</code></strong></td><td>Moneda asociada al registro.</td></tr><tr><td><strong><code>Valor</code></strong></td><td>Valor principal configurado para el registro.</td></tr><tr><td><strong><code>Fecha Creación</code></strong></td><td>Fecha de creación del registro.</td></tr><tr><td><strong><code>Usuarios Crea</code></strong></td><td>Usuario asociado a la creación del registro.</td></tr><tr><td><strong><code>Fecha Modificación</code></strong></td><td>Fecha de la última modificación del registro.</td></tr><tr><td><strong><code>Usuario Modificación</code></strong></td><td>Usuario que realizó la última modificación.</td></tr><tr><td><strong><code>Detalle</code></strong></td><td>Información adicional asociada al registro.</td></tr><tr><td><strong><code>Valor2</code></strong></td><td>Valor complementario del registro.</td></tr><tr><td><strong><code>Valor3</code></strong></td><td>Valor complementario adicional del registro.</td></tr></tbody></table>
 
 * Información interna del torneo
 
 Contiene la información general, administrativa y de configuración del torneo.
 
-| Columna                    | Descripción                                     |
-| -------------------------- | ----------------------------------------------- |
-| **`Torneo`**               | Identificador del torneo.                       |
-| **`Fecha inicio`**         | Fecha de inicio del torneo.                     |
-| **`Fecha Expiración`**     | Fecha de expiración del torneo.                 |
-| **`Detalle`**              | Información adicional asociada al torneo.       |
-| **`Tipo`**                 | Tipo de torneo.                                 |
-| **`Nombre Torneo`**        | Nombre asignado al torneo.                      |
-| **`Estado`**               | Estado actual del torneo.                       |
-| **`Partner`**              | Partner asociado al torneo.                     |
-| **`Fecha Creación`**       | Fecha de creación del torneo.                   |
-| **`Usuario Crea`**         | Identificador del usuario que creó el torneo.   |
-| **`Fecha Modificación`**   | Fecha de la última modificación del torneo.     |
-| **`Usuario Modificación`** | Usuario que realizó la última modificación.     |
-| **`TYC`**                  | Términos y condiciones asociados al torneo.     |
-| **`Json`**                 | Información asociada al torneo en formato JSON. |
+<table><thead><tr><th width="176">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Torneo</code></strong></td><td>Identificador del torneo.</td></tr><tr><td><strong><code>Fecha inicio</code></strong></td><td>Fecha de inicio del torneo.</td></tr><tr><td><strong><code>Fecha Expiración</code></strong></td><td>Fecha de expiración del torneo.</td></tr><tr><td><strong><code>Detalle</code></strong></td><td>Información adicional asociada al torneo.</td></tr><tr><td><strong><code>Tipo</code></strong></td><td>Tipo de torneo.</td></tr><tr><td><strong><code>Nombre Torneo</code></strong></td><td>Nombre asignado al torneo.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Estado actual del torneo.</td></tr><tr><td><strong><code>Partner</code></strong></td><td>Partner asociado al torneo.</td></tr><tr><td><strong><code>Fecha Creación</code></strong></td><td>Fecha de creación del torneo.</td></tr><tr><td><strong><code>Usuario Crea</code></strong></td><td>Identificador del usuario que creó el torneo.</td></tr><tr><td><strong><code>Fecha Modificación</code></strong></td><td>Fecha de la última modificación del torneo.</td></tr><tr><td><strong><code>Usuario Modificación</code></strong></td><td>Usuario que realizó la última modificación.</td></tr><tr><td><strong><code>TYC</code></strong></td><td>Términos y condiciones asociados al torneo.</td></tr><tr><td><strong><code>Json</code></strong></td><td>Información asociada al torneo en formato JSON.</td></tr></tbody></table>
 
 * Torneo asignado a usuario
 
 Presenta la información de los torneos asignados a los usuarios y los valores relacionados con su participación.
 
-| Columna                    | Descripción                                           |
-| -------------------------- | ----------------------------------------------------- |
-| **`Auto Torneo`**          | Identificador interno de la asignación del torneo.    |
-| **`Partner`**              | Partner asociado al torneo.                           |
-| **`Torneo`**               | Identificador del torneo asignado.                    |
-| **`Usuario`**              | Identificador del usuario al que se asignó el torneo. |
-| **`Fecha Creación`**       | Fecha de creación de la asignación.                   |
-| **`Usuario Crea`**         | Usuario que realizó la asignación.                    |
-| **`Fecha Modificación`**   | Fecha de la última modificación de la asignación.     |
-| **`Usuario Modificación`** | Usuario que realizó la última modificación.           |
-| **`Estado`**               | Estado de la asignación del torneo.                   |
-| **`Valor apostado`**       | Valor apostado por el usuario en el torneo.           |
-| **`Código`**               | Código asociado al registro del torneo.               |
-| **`Valor Torneo`**         | Valor configurado para el torneo.                     |
-| **`Valor base`**           | Valor base asociado al torneo.                        |
-| **`Valor premio`**         | Valor del premio asociado al usuario.                 |
+<table><thead><tr><th width="172">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Auto Torneo</code></strong></td><td>Identificador interno de la asignación del torneo.</td></tr><tr><td><strong><code>Partner</code></strong></td><td>Partner asociado al torneo.</td></tr><tr><td><strong><code>Torneo</code></strong></td><td>Identificador del torneo asignado.</td></tr><tr><td><strong><code>Usuario</code></strong></td><td>Identificador del usuario al que se asignó el torneo.</td></tr><tr><td><strong><code>Fecha Creación</code></strong></td><td>Fecha de creación de la asignación.</td></tr><tr><td><strong><code>Usuario Crea</code></strong></td><td>Usuario que realizó la asignación.</td></tr><tr><td><strong><code>Fecha Modificación</code></strong></td><td>Fecha de la última modificación de la asignación.</td></tr><tr><td><strong><code>Usuario Modificación</code></strong></td><td>Usuario que realizó la última modificación.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Estado de la asignación del torneo.</td></tr><tr><td><strong><code>Valor apostado</code></strong></td><td>Valor apostado por el usuario en el torneo.</td></tr><tr><td><strong><code>Código</code></strong></td><td>Código asociado al registro del torneo.</td></tr><tr><td><strong><code>Valor Torneo</code></strong></td><td>Valor configurado para el torneo.</td></tr><tr><td><strong><code>Valor base</code></strong></td><td>Valor base asociado al torneo.</td></tr><tr><td><strong><code>Valor premio</code></strong></td><td>Valor del premio asociado al usuario.</td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Sorteos" %}
@@ -188,39 +138,13 @@ Presenta información relacionada con la configuración de las ruletas, su detal
 {% tab title="Información interna de la ruleta" %}
 Contiene la configuración general de la ruleta, sus fechas de vigencia, estado, cupos y condiciones.
 
-| Columna                      | Descripción                                                     |
-| ---------------------------- | --------------------------------------------------------------- |
-| **`Id Ruleta`**              | Identificador único de la ruleta.                               |
-| **`Fecha inicio ruleta`**    | Fecha de inicio de la ruleta.                                   |
-| **`Fecha fin ruleta`**       | Fecha de finalización de la ruleta.                             |
-| **`Nombre ruleta`**          | Nombre asignado a la ruleta.                                    |
-| **`Tipo ruleta`**            | Tipo de ruleta configurada.                                     |
-| **`Descripción`**            | Descripción de la ruleta.                                       |
-| **`Estado ruleta`**          | Estado actual de la ruleta.                                     |
-| **`Partner`**                | Partner asociado a la ruleta.                                   |
-| **`Fecha cración`**          | Fecha de creación de la ruleta.                                 |
-| **`Fecha modificación`**     | Fecha de la última modificación de la ruleta.                   |
-| **`Condicional`**            | Condición asociada a la participación o ejecución de la ruleta. |
-| **`Cupo Actual`**            | Cantidad de cupos registrada actualmente.                       |
-| **`Cupo Máximo`**            | Cantidad máxima de cupos configurados para la ruleta.           |
-| **`Máximo ruleta`**          | Valor máximo configurado para la ruleta.                        |
-| **`Cantidad Ruletas`**       | Cantidad de ruletas asociadas al registro.                      |
-| **`Terminos y condiciones`** | Términos y condiciones asociados a la ruleta.                   |
+<table><thead><tr><th width="208">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Id Ruleta</code></strong></td><td>Identificador único de la ruleta.</td></tr><tr><td><strong><code>Fecha inicio ruleta</code></strong></td><td>Fecha de inicio de la ruleta.</td></tr><tr><td><strong><code>Fecha fin ruleta</code></strong></td><td>Fecha de finalización de la ruleta.</td></tr><tr><td><strong><code>Nombre ruleta</code></strong></td><td>Nombre asignado a la ruleta.</td></tr><tr><td><strong><code>Tipo ruleta</code></strong></td><td>Tipo de ruleta configurada.</td></tr><tr><td><strong><code>Descripción</code></strong></td><td>Descripción de la ruleta.</td></tr><tr><td><strong><code>Estado ruleta</code></strong></td><td>Estado actual de la ruleta.</td></tr><tr><td><strong><code>Partner</code></strong></td><td>Partner asociado a la ruleta.</td></tr><tr><td><strong><code>Fecha cración</code></strong></td><td>Fecha de creación de la ruleta.</td></tr><tr><td><strong><code>Fecha modificación</code></strong></td><td>Fecha de la última modificación de la ruleta.</td></tr><tr><td><strong><code>Condicional</code></strong></td><td>Condición asociada a la participación o ejecución de la ruleta.</td></tr><tr><td><strong><code>Cupo Actual</code></strong></td><td>Cantidad de cupos registrada actualmente.</td></tr><tr><td><strong><code>Cupo Máximo</code></strong></td><td>Cantidad máxima de cupos configurados para la ruleta.</td></tr><tr><td><strong><code>Máximo ruleta</code></strong></td><td>Valor máximo configurado para la ruleta.</td></tr><tr><td><strong><code>Cantidad Ruletas</code></strong></td><td>Cantidad de ruletas asociadas al registro.</td></tr><tr><td><strong><code>Terminos y condiciones</code></strong></td><td>Términos y condiciones asociados a la ruleta.</td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Ruleta detalle" %}
 Presenta la información de los elementos o premios configurados para la ruleta.
 
-| Columna                  | Descripción                                       |
-| ------------------------ | ------------------------------------------------- |
-| **`Id Ruleta`**          | Identificador único de la ruleta.                 |
-| **`Tipo`**               | Tipo de elemento o premio configurado.            |
-| **`Moneda`**             | Moneda asociada al valor configurado.             |
-| **`Valor Tipo`**         | Valor asociado al tipo configurado.               |
-| **`Fecha Creación`**     | Fecha de creación del registro.                   |
-| **`Fecha Modificación`** | Fecha de la última modificación del registro.     |
-| **`Descripción`**        | Descripción del elemento o premio.                |
-| **`Porcentaje`**         | Porcentaje configurado para el elemento o premio. |
+<table><thead><tr><th width="198">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Id Ruleta</code></strong></td><td>Identificador único de la ruleta.</td></tr><tr><td><strong><code>Tipo</code></strong></td><td>Tipo de elemento o premio configurado.</td></tr><tr><td><strong><code>Moneda</code></strong></td><td>Moneda asociada al valor configurado.</td></tr><tr><td><strong><code>Valor Tipo</code></strong></td><td>Valor asociado al tipo configurado.</td></tr><tr><td><strong><code>Fecha Creación</code></strong></td><td>Fecha de creación del registro.</td></tr><tr><td><strong><code>Fecha Modificación</code></strong></td><td>Fecha de la última modificación del registro.</td></tr><tr><td><strong><code>Descripción</code></strong></td><td>Descripción del elemento o premio.</td></tr><tr><td><strong><code>Porcentaje</code></strong></td><td>Porcentaje configurado para el elemento o premio.</td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Ruleta asignada a usuario" %}
@@ -244,55 +168,19 @@ Esta pestaña se compone de tres tablas, cada una organizada en su respectiva pe
 {% tab title="Información interna del jackpot" %}
 Contiene la información de configuración general del jackpot, sus valores, vigencia y estado.
 
-| Columna                 | Descripción                                            |
-| ----------------------- | ------------------------------------------------------ |
-| **`Partner`**           | Partner asociado al jackpot.                           |
-| **`Pais`**              | País asociado al jackpot.                              |
-| **`IdJackpot`**         | Identificador único del jackpot.                       |
-| **`JackpotPadre`**      | Identificador del jackpot padre asociado.              |
-| **`FechaInicio`**       | Fecha de inicio de vigencia del jackpot.               |
-| **`FechaFin`**          | Fecha de finalización de vigencia del jackpot.         |
-| **`Descripción`**       | Descripción del jackpot.                               |
-| **`Tipo`**              | Tipo de jackpot.                                       |
-| **`Reinicio`**          | Configuración relacionada con el reinicio del jackpot. |
-| **`Nombre`**            | Nombre asignado al jackpot.                            |
-| **`Estado`**            | Estado actual del jackpot.                             |
-| **`ValorAvtual`**       | Valor actual acumulado del jackpot.                    |
-| **`fechaCreación`**     | Fecha de creación del jackpot.                         |
-| **`FechaModificación`** | Fecha de la última modificación del jackpot.           |
-| **`Orden`**             | Orden asociado al jackpot.                             |
-| **`ValorBase`**         | Valor base configurado para el jackpot.                |
-| **`ValorMáximo`**       | Valor máximo configurado para el jackpot.              |
+<table><thead><tr><th width="159">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Partner</code></strong></td><td>Partner asociado al jackpot.</td></tr><tr><td><strong><code>Pais</code></strong></td><td>País asociado al jackpot.</td></tr><tr><td><strong><code>IdJackpot</code></strong></td><td>Identificador único del jackpot.</td></tr><tr><td><strong><code>JackpotPadre</code></strong></td><td>Identificador del jackpot padre asociado.</td></tr><tr><td><strong><code>FechaInicio</code></strong></td><td>Fecha de inicio de vigencia del jackpot.</td></tr><tr><td><strong><code>FechaFin</code></strong></td><td>Fecha de finalización de vigencia del jackpot.</td></tr><tr><td><strong><code>Descripción</code></strong></td><td>Descripción del jackpot.</td></tr><tr><td><strong><code>Tipo</code></strong></td><td>Tipo de jackpot.</td></tr><tr><td><strong><code>Reinicio</code></strong></td><td>Configuración relacionada con el reinicio del jackpot.</td></tr><tr><td><strong><code>Nombre</code></strong></td><td>Nombre asignado al jackpot.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Estado actual del jackpot.</td></tr><tr><td><strong><code>ValorAvtual</code></strong></td><td>Valor actual acumulado del jackpot.</td></tr><tr><td><strong><code>fechaCreación</code></strong></td><td>Fecha de creación del jackpot.</td></tr><tr><td><strong><code>FechaModificación</code></strong></td><td>Fecha de la última modificación del jackpot.</td></tr><tr><td><strong><code>Orden</code></strong></td><td>Orden asociado al jackpot.</td></tr><tr><td><strong><code>ValorBase</code></strong></td><td>Valor base configurado para el jackpot.</td></tr><tr><td><strong><code>ValorMáximo</code></strong></td><td>Valor máximo configurado para el jackpot.</td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="jackpot detalle" %}
 Presenta el detalle de configuración del jackpot.
 
-| Columna             | Descripción                              |
-| ------------------- | ---------------------------------------- |
-| **`Partner`**       | Partner asociado al jackpot.             |
-| **`País`**          | País asociado al jackpot.                |
-| **`IdJackpot`**     | Identificador único del jackpot.         |
-| **`Tipo`**          | Tipo de configuración del jackpot.       |
-| **`ValorTipo`**     | Valor asociado al tipo de configuración. |
-| **`FechaCreacion`** | Fecha de creación del registro.          |
+<table><thead><tr><th width="155">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Partner</code></strong></td><td>Partner asociado al jackpot.</td></tr><tr><td><strong><code>País</code></strong></td><td>País asociado al jackpot.</td></tr><tr><td><strong><code>IdJackpot</code></strong></td><td>Identificador único del jackpot.</td></tr><tr><td><strong><code>Tipo</code></strong></td><td>Tipo de configuración del jackpot.</td></tr><tr><td><strong><code>ValorTipo</code></strong></td><td>Valor asociado al tipo de configuración.</td></tr><tr><td><strong><code>FechaCreacion</code></strong></td><td>Fecha de creación del registro.</td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Jackpot detalle ganador" %}
 Presenta la información relacionada con el usuario ganador del jackpot.
 
-| Columna                          | Descripción                                           |
-| -------------------------------- | ----------------------------------------------------- |
-| **`Partner`**                    | Partner asociado al jackpot.                          |
-| **`Pais`**                       | País asociado al jackpot.                             |
-| **`Id Jackpot`**                 | Identificador único del jackpot.                      |
-| **`ID Usuario`**                 | Identificador del usuario relacionado con el jackpot. |
-| **`Estado Jackpot ganador`**     | Estado del jackpot asociado al ganador.               |
-| **`Fecha Ganador Jackpot`**      | Fecha en la que se registró el ganador del jackpot.   |
-| **`Fecha Time Ganador Jakcpot`** | Fecha y hora asociadas al registro del ganador.       |
-| **`Hay ganador jackpot?`**       | Indica si existe un usuario ganador registrado.       |
-| **`Id Usujackpotganador`**       | Identificador del usuario ganador del jackpot.        |
-| **`Ticket Ganador`**             | Ticket asociado al ganador del jackpot.               |
+<table><thead><tr><th width="210">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Partner</code></strong></td><td>Partner asociado al jackpot.</td></tr><tr><td><strong><code>Pais</code></strong></td><td>País asociado al jackpot.</td></tr><tr><td><strong><code>Id Jackpot</code></strong></td><td>Identificador único del jackpot.</td></tr><tr><td><strong><code>ID Usuario</code></strong></td><td>Identificador del usuario relacionado con el jackpot.</td></tr><tr><td><strong><code>Estado Jackpot ganador</code></strong></td><td>Estado del jackpot asociado al ganador.</td></tr><tr><td><strong><code>Fecha Ganador Jackpot</code></strong></td><td>Fecha en la que se registró el ganador del jackpot.</td></tr><tr><td><strong><code>Fecha Time Ganador Jakcpot</code></strong></td><td>Fecha y hora asociadas al registro del ganador.</td></tr><tr><td><strong><code>Hay ganador jackpot?</code></strong></td><td>Indica si existe un usuario ganador registrado.</td></tr><tr><td><strong><code>Id Usujackpotganador</code></strong></td><td>Identificador del usuario ganador del jackpot.</td></tr><tr><td><strong><code>Ticket Ganador</code></strong></td><td>Ticket asociado al ganador del jackpot.</td></tr></tbody></table>
 {% endtab %}
 {% endtabs %}
 {% endtab %}
@@ -308,40 +196,19 @@ Presenta información relacionada con los jackpots internacionales, incluyendo s
 {% tab title="Información interna del jackpot" %}
 Contiene la información general de configuración del jackpot internacional.
 
-| Columna                              | Descripción                                               |
-| ------------------------------------ | --------------------------------------------------------- |
-| **`Jd Jacopot Internacional`**       | Identificador único del jackpot internacional.            |
-| **`Id jackpor padre internacional`** | Identificador del jackpot padre internacional asociado.   |
-| **`Nombre jackpot intenacional`**    | Nombre asignado al jackpot internacional.                 |
-| **`Fecha inicio`**                   | Fecha de inicio de vigencia del jackpot internacional.    |
-| **`Fecha caída`**                    | Fecha registrada para la caída del jackpot internacional. |
-| **`Moneda Base`**                    | Moneda base asociada al jackpot internacional.            |
-| **`Descripción`**                    | Descripción del jackpot internacional.                    |
+<table><thead><tr><th width="299">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Jd Jacopot Internacional</code></strong></td><td>Identificador único del jackpot internacional.</td></tr><tr><td><strong><code>Id jackpor padre internacional</code></strong></td><td>Identificador del jackpot padre internacional asociado.</td></tr><tr><td><strong><code>Nombre jackpot intenacional</code></strong></td><td>Nombre asignado al jackpot internacional.</td></tr><tr><td><strong><code>Fecha inicio</code></strong></td><td>Fecha de inicio de vigencia del jackpot internacional.</td></tr><tr><td><strong><code>Fecha caída</code></strong></td><td>Fecha registrada para la caída del jackpot internacional.</td></tr><tr><td><strong><code>Moneda Base</code></strong></td><td>Moneda base asociada al jackpot internacional.</td></tr><tr><td><strong><code>Descripción</code></strong></td><td>Descripción del jackpot internacional.</td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="jackpot detalle" %}
 Presenta el detalle de configuración del jackpot internacional.
 
-| Columna                        | Descripción                                    |
-| ------------------------------ | ---------------------------------------------- |
-| **`Id jackpot internacional`** | Identificador único del jackpot internacional. |
-| **`Tipo`**                     | Tipo de configuración del jackpot.             |
-| **`Valor Tipo`**               | Valor asociado al tipo de configuración.       |
-| **`Fecha Creación`**           | Fecha de creación del registro.                |
-| **`Fecha Modificación`**       | Fecha de la última modificación del registro.  |
-| **`Usuario Crea`**             | Usuario que realizó la creación del registro.  |
-| **`Usuario Modificación`**     | Usuario que realizó la última modificación.    |
+<table><thead><tr><th width="238">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Id jackpot internacional</code></strong></td><td>Identificador único del jackpot internacional.</td></tr><tr><td><strong><code>Tipo</code></strong></td><td>Tipo de configuración del jackpot.</td></tr><tr><td><strong><code>Valor Tipo</code></strong></td><td>Valor asociado al tipo de configuración.</td></tr><tr><td><strong><code>Fecha Creación</code></strong></td><td>Fecha de creación del registro.</td></tr><tr><td><strong><code>Fecha Modificación</code></strong></td><td>Fecha de la última modificación del registro.</td></tr><tr><td><strong><code>Usuario Crea</code></strong></td><td>Usuario que realizó la creación del registro.</td></tr><tr><td><strong><code>Usuario Modificación</code></strong></td><td>Usuario que realizó la última modificación.</td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Usuario jackpot internacional ganador" %}
 Presenta la información de los usuarios ganadores de jackpots internacionales.
 
-| Columna                        | Descripción                                      |
-| ------------------------------ | ------------------------------------------------ |
-| **`Id Jackpot Internacional`** | Identificador único del jackpot internacional.   |
-| **`Id Usuario Ganador`**       | Identificador del usuario ganador.               |
-| **`Ticket Ganador`**           | Ticket asociado al usuario ganador.              |
-| **`Vertical Ganadora`**        | Vertical en la que se generó el jackpot ganador. |
+<table><thead><tr><th width="246">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Id Jackpot Internacional</code></strong></td><td>Identificador único del jackpot internacional.</td></tr><tr><td><strong><code>Id Usuario Ganador</code></strong></td><td>Identificador del usuario ganador.</td></tr><tr><td><strong><code>Ticket Ganador</code></strong></td><td>Ticket asociado al usuario ganador.</td></tr><tr><td><strong><code>Vertical Ganadora</code></strong></td><td>Vertical en la que se generó el jackpot ganador.</td></tr></tbody></table>
 {% endtab %}
 {% endtabs %}
 {% endtab %}
