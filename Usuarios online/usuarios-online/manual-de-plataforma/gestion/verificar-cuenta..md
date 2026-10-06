@@ -92,6 +92,7 @@ Proceso por el cual una cuenta verificada pierde su estado de validación, queda
   * Volver a tomarse una selfie.
   * Hacer ambas acciones.
 * La información de verificaciones se registra en el reporte **Verificación de usuarios** en el backoffice
+* El proveedor de verificación se configura desde Configuración proveedores internos
 
 {% hint style="warning" %}
 **Nota:** La notificación de rechazo le llegará al usuario por el medio configurado en el BackOffice (correo, mensaje, etc.) y lo redirigirá nuevamente a la plataforma de Doradobet para que pueda repetir el proceso si aún tiene intentos disponibles.
