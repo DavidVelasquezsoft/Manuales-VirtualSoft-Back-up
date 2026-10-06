@@ -54,14 +54,14 @@ Al iniciar el proceso, el usuario será redirigido automáticamente al proveedor
 1. El usuario accede a la sección **Verificar cuenta** desde el menú Gestión.
 2. Si ya está verificado, el proceso finaliza.
 3. Si no está verificado:
-   * Es redirigido a Sumsub.
+   * Es redirigido al proveedor de verificación configurado _(Jumio, SEON o Sumsub)_
    * Carga foto del documento de identidad.
    * Se toma una selfie.
 4. Posibles resultados del proceso de verificación
 
 A continuación, se detallan los posibles resultados del proceso de verificación de cuenta:
 
-<table><thead><tr><th width="173.44439697265625">Resultado</th><th width="271.88885498046875">Descripción</th><th>Acción requerida</th></tr></thead><tbody><tr><td><strong>✅ Verificación exitosa</strong></td><td>La identidad fue validada correctamente.</td><td>No se requiere ninguna acción adicional.</td></tr><tr><td><strong>⚠️ Verificación rechazada</strong></td><td>La verificación no fue aprobada, pero aún tienes intentos disponibles.</td><td><ul><li><strong>Documento no válido:</strong> Sube nuevamente tu documento.</li><li><strong>Selfie no válida:</strong> Tómate una nueva selfie.</li><li><strong>Ambos no válidos:</strong> Repite ambos pasos.</li></ul></td></tr><tr><td><strong>❌ Rechazo final</strong></td><td>Se alcanzó el límite de 5 intentos de verificación sin éxito.</td><td>Contacta con soporte para una revisión manual.</td></tr><tr><td><strong>Pendiente</strong></td><td>La validación requiere revisión manual por parte de un operador.</td><td>Esperar revisión por parte del operador.</td></tr></tbody></table>
+<table><thead><tr><th width="173.44439697265625">Resultado</th><th width="271.88885498046875">Descripción</th><th>Acción requerida</th></tr></thead><tbody><tr><td><strong>✅ Verificación exitosa</strong></td><td>La identidad fue validada correctamente.</td><td>No se requiere ninguna acción adicional.</td></tr><tr><td><strong>⚠️ Verificación rechazada</strong></td><td>La verificación no fue aprobada, pero aún tienes intentos disponibles.</td><td><ul><li><strong>Documento no válido:</strong> Sube nuevamente tu documento.</li><li><strong>Selfie no válida:</strong> Tómate una nueva selfie.</li><li><strong>Ambos no válidos:</strong> Repite ambos pasos.</li></ul></td></tr><tr><td><strong>❌ Rechazo final</strong></td><td>Se alcanzó el límite de 5 intentos de verificación sin éxito.</td><td>Contacta con soporte para una revisión manual.</td></tr><tr><td><strong>Pendiente</strong></td><td>La validación requiere revisión manual por parte de un operador.</td><td>Esperar revisión por parte del operador.</td></tr><tr><td><strong>⏳ En proceso</strong></td><td>La verificación fue iniciada y continúa en ejecución por parte del proveedor.</td><td>Esperar el resultado del proceso.</td></tr></tbody></table>
 
 ***
 
@@ -91,8 +91,9 @@ Proceso por el cual una cuenta verificada pierde su estado de validación, queda
   * Volver a subir el documento de identidad.
   * Volver a tomarse una selfie.
   * Hacer ambas acciones.
-* La información de verificaciones se registra en el reporte **Verificación de usuarios** en el backoffice
-* El proveedor de verificación se configura desde Configuración proveedores internos
+* La información de verificaciones se registra en el reporte [**Verificación de usuarios**](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/manual-de-usuario-backoffice/seguridad/verificacion-de-usuarios) en el backoffice.
+* El proveedor de verificación se configura desde [**Configuración proveedores internos**](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/manual-de-usuario-backoffice/herramientas/partner-ajustes/configuracion-1#proveedores-internos).
+* Si el número de documento retornado por el proveedor no coincide con el registrado por el usuario, la verificación se rechaza con el motivo **Número de documento incorrecto**.
 
 {% hint style="warning" %}
 **Nota:** La notificación de rechazo le llegará al usuario por el medio configurado en el BackOffice (correo, mensaje, etc.) y lo redirigirá nuevamente a la plataforma de Doradobet para que pueda repetir el proceso si aún tiene intentos disponibles.
@@ -106,11 +107,11 @@ Proceso por el cual una cuenta verificada pierde su estado de validación, queda
 
 <summary>🔽 Historial de verisones</summary>
 
-| Versión | Fecha       | Autor           | Cambios Realizados                   |
-| ------- | ----------- | --------------- | ------------------------------------ |
-| 1.0     | 09/07/2025  | Ronald Pelaez   | Manual inicial                       |
-| 1.1     | 09/16/2025  | David velasquez | incorporación de la desverificación. |
-| 1.2     | 060/10/2026 | David velasquez | Actualización del manual             |
+| Versión | Fecha      | Autor           | Cambios Realizados                                                                   |
+| ------- | ---------- | --------------- | ------------------------------------------------------------------------------------ |
+| 1.0     | 09/07/2025 | Ronald Pelaez   | Manual inicial                                                                       |
+| 1.1     | 09/16/2025 | David velasquez | incorporación de la desverificación.                                                 |
+| 1.2     | 06/10/2026 | David velasquez | [Actualización del manual](https://virtualsoftlatam.atlassian.net/browse/VSFT-33140) |
 
 
 
