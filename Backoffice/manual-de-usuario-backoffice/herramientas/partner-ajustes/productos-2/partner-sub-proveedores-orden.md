@@ -79,12 +79,15 @@ Estas listas permiten gestionar de forma visual el estado de cada sub proveedor,
 
 ### 6. Orden de los sub proveedores
 
-Cada vertical administra el orden de sus sub proveedores de forma independiente, y este orden determina la posición en la que se muestran al jugador dentro del menú de proveedores de la plataforma.
+Cada vertical administra el orden de sus sub proveedores de forma independiente. El orden establecido en este módulo es el que se visualiza en el menú de proveedores de la plataforma de usuarios online.
 
 <table><thead><tr><th width="194.16668701171875">Comportamiento</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Ubicación automática</strong></td><td>Al activar un sub proveedor, el sistema le asigna automáticamente la última posición disponible dentro de su vertical. Esto permite validar su funcionamiento sin alterar el orden comercial de los proveedores ya visibles para los jugadores.</td></tr><tr><td><strong>Reordenamiento manual</strong></td><td>Una vez validado el sub proveedor, su posición puede modificarse manualmente dentro de la misma vertical. Al hacerlo, el sistema reorganiza automáticamente las posiciones restantes para mantener una numeración continua y sin duplicados.</td></tr></tbody></table>
 
 {% hint style="warning" %}
-**Nota:** El orden definido manualmente se conserva hasta que vuelva a modificarse, y los cambios de posición de una vertical no afectan el orden de las demás.
+**Nota:**&#x20;
+
+* El orden definido manualmente se conserva hasta que vuelva a modificarse, y los cambios de posición de una vertical no afectan el orden de las demás.
+* El orden establecido en este módulo es el que se visualizará en el menú de proveedores de la plataforma de usuarios online.
 {% endhint %}
 
 ***
@@ -93,6 +96,7 @@ Cada vertical administra el orden de sus sub proveedores de forma independiente,
 
 * Los cambios aplicados sobre sub proveedores aplican al país seleccionado en los filtros.
 * Solo permite activar sub proveedores que estén asociados a un proveedor específico.
+* El orden establecido en este módulo es el que se visualiza en el menú de proveedores de la plataforma de usuarios online.
 * Los cambios realizados en este módulo registran logs internos.
 * Para que un sub proveedor aparezca en este módulo, es necesario que se encuentre activo para el partner desde el módulo [Partners Sub proveedores](https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/herramientas/partner-ajustes/productos-2/partners-subproveedores).
 * Los sub proveedores se crean desde el módulo [**productos**](https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/productos/subproveedores).
