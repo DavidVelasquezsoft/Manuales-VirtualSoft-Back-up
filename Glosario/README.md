@@ -56,6 +56,9 @@ Su objetivo es ayudar a los usuarios a comprender el significado de palabras cla
 
 ## C
 
+*   #### **Campaña:**&#x20;
+
+    Evento creado para la plataforma Usuarios Online, ya sea bonos, jackpots, ruletas, etc..
 * #### **Cookie:**
 
 Fragmento de información almacenado en el navegador del usuario que permite mantener sesiones o preferencias.
