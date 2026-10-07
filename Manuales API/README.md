@@ -56,6 +56,12 @@ Esta guía está dirigida a los desarrolladores de casino que necesiten interact
 
 {% file src=".gitbook/assets/Funciones y modo de uso API GATEWAY.pdf" %}
 
+### Manual Virtual Wallet Sporkbook
+
+Esta guía describe la API de Virtual Wallet de VirtualSoft, el servicio que permite al Sportbook comunicarse en tiempo real con la billetera del jugador. A través de ella se autentica al jugador, se consulta su saldo y se registran los movimientos de dinero asociados a sus apuestas deportivas: débito del valor apostado, crédito de premios, reembolsos, cashout y reversos (rollback) de transacciones.
+
+{% file src=".gitbook/assets/VIRTUAL_WALLET_API_Sporbook.pdf" %}
+
 ### Control de versiones
 
 <details>
