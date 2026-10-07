@@ -54,8 +54,8 @@ Adicionalmente, se muestran los campos enviados por el proveedor una vez el usua
 
 <table><thead><tr><th width="235">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Nuevo primer nombre</code></strong></td><td>Primer nombre actualizado tras el proceso de verificación.</td></tr><tr><td><strong><code>Nuevo segundo nombre</code></strong></td><td>Segundo nombre actualizado tras el proceso de verificación.</td></tr><tr><td><strong><code>Nuevo primer apellido</code></strong></td><td>Primer apellido actualizado tras el proceso de verificación.</td></tr><tr><td><strong><code>Nuevo segundo apellido</code></strong></td><td>Segundo apellido actualizado tras el proceso de verificación.</td></tr><tr><td><strong><code>Nueva fecha de nacimiento</code></strong></td><td>Fecha de nacimiento actualizada tras el proceso de verificación.</td></tr><tr><td><strong><code>DNI Anterior</code></strong></td><td>Imagen de la parte frontal del documento de identidad.</td></tr><tr><td><strong><code>DNI Posterior</code></strong></td><td>Imagen de la parte trasera del documento de identidad.</td></tr><tr><td><strong><code>Imagen verificación</code></strong></td><td>Imagen del usuario capturada al momento de realizar la verificación con el proveedor.</td></tr></tbody></table>
 
-{% hint style="info" %}
-Desde esta ventana emergente es posible aprobar o rechazar manualmente la verificación de la cuenta del usuario.
+{% hint style="warning" %}
+**Nota:** Desde esta ventana emergente es posible aprobar o rechazar manualmente la verificación de la cuenta del usuario.
 {% endhint %}
 
 </details>
