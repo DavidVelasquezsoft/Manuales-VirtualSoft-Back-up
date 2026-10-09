@@ -66,16 +66,14 @@ Estos indicadores se actualizan al modificar cualquiera de los filtros del dashb
 Los indicadores de actividad presentan las principales métricas de la operación [Retail](https://virtualsoft.gitbook.io/plantillas/glosario#retail). Para cada indicador se muestran tres niveles de información:
 
 * [**Retail**](https://virtualsoft.gitbook.io/plantillas/glosario#retail)**:** resultado correspondiente al canal Retail según los filtros aplicados.
-* **% Total:** porcentaje que representa el resultado de Retail frente al resultado total de la operación.
+*   **% Total:** porcentaje que representa el resultado de Retail frente al resultado total de la operación.
+
+    <div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p><strong>Ejemplo:</strong> En el indicador <strong><code>Registros</code></strong>, si Retail presenta <strong>90 registros</strong> y el resultado total es de <strong>99 registros</strong>, la participación de Retail corresponde al <strong>90,91 %</strong>.</p></div>
 * **Total:** resultado consolidado de la operación, incluyendo Retail y los demás canales correspondientes.
 
 El porcentaje se calcula tomando el resultado de **Retail** sobre el **Total** de cada indicador. Cuando el valor **Total** es cero, el porcentaje se muestra como **0 %**.
 
-{% hint style="info" %}
-**Ejemplo:** En el indicador **`Registros`**, si Retail presenta **90 registros** y el resultado total es de **99 registros**, la participación de Retail corresponde al **90,91 %**.
-{% endhint %}
-
-<table><thead><tr><th width="215">Indicador</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Registros</code></strong></td><td>Cantidad de usuarios registrados según los filtros aplicados.</td></tr><tr><td><strong><code>Cantidad FTDs</code></strong></td><td>Cantidad de usuarios que realizaron su primer depósito (FTD) según los filtros aplicados.</td></tr><tr><td><strong><code>Valor FTD prom</code></strong></td><td>Valor promedio de los primeros depósitos realizados (FTD).</td></tr><tr><td><strong><code>Cantidad depósitos</code></strong></td><td>Cantidad total de operaciones de depósito realizadas.</td></tr><tr><td><strong><code>Valor depósito prom</code></strong></td><td>Valor promedio de las operaciones de depósito realizadas.</td></tr><tr><td><strong><code>Cantidad retiros</code></strong></td><td>Cantidad total de operaciones de retiro realizadas.</td></tr><tr><td><strong><code>Valor retiro prom</code></strong></td><td>Valor promedio de las operaciones de retiro realizadas.</td></tr></tbody></table>
+<table><thead><tr><th width="215">Indicador</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Registros</code></strong></td><td>Cantidad de usuarios registrados según los filtros aplicados.</td></tr><tr><td><strong><code>Cantidad FTDs</code></strong></td><td>Cantidad de usuarios que realizaron su primer depósito según los filtros aplicados.</td></tr><tr><td><strong><code>Valor FTD prom</code></strong></td><td>Valor promedio de los primeros depósitos realizados.</td></tr><tr><td><strong><code>Cantidad depósitos</code></strong></td><td>Cantidad total de operaciones de depósito realizadas.</td></tr><tr><td><strong><code>Valor depósito prom</code></strong></td><td>Valor promedio de las operaciones de depósito realizadas.</td></tr><tr><td><strong><code>Cantidad retiros</code></strong></td><td>Cantidad total de operaciones de retiro realizadas.</td></tr><tr><td><strong><code>Valor retiro prom</code></strong></td><td>Valor promedio de las operaciones de retiro realizadas.</td></tr></tbody></table>
 
 Los valores de esta sección se actualizan de forma conjunta al modificar uno o varios filtros, manteniendo la correspondencia entre la información de Retail, su porcentaje de participación y el total de la operación.
 
@@ -85,10 +83,6 @@ Los valores de esta sección se actualizan de forma conjunta al modificar uno o 
 
 El dashboard se compone de tres pestañas que permiten analizar la información de la red de puntos de venta desde diferentes perspectivas:
 
-* **Ciudad y concesionario:** análisis de registros y FTDs por ciudad y concesionario, además de la evolución de las principales operaciones a través del tiempo.
-* **Top PV y detalle:** identificación de los puntos de venta con mayor participación en depósitos, retiros, registros y FTDs, junto con el detalle de sus principales indicadores.
-* **Distribución por ciudad:** análisis de la relación entre cantidades y valores de las principales operaciones según la ciudad.
-
 {% tabs %}
 {% tab title="Ciudad y concesionario" %}
 Presenta información sobre el comportamiento de los registros y FTDs según la ciudad y el concesionario, así como la evolución de las principales operaciones a través del tiempo.
@@ -96,6 +90,8 @@ Presenta información sobre el comportamiento de los registros y FTDs según la 
 #### **Visualización**
 
 <figure><img src="https://580350895-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FqV6PKDTPGEG39u2whMHJ%2Fuploads%2FNRmWzABt0aFrODjiAhYa%2Fimage.png?alt=media&#x26;token=87ddd451-0716-4bab-8dce-ccbd70cfdcfe" alt=""><figcaption><p>Figura #1: Captura de pantalla pestaña Ciudad y concesionario.</p></figcaption></figure>
+
+#### Gráficos
 
 <table><thead><tr><th width="192">Gráfico</th><th width="122">Tipo de gráfico</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Cantidad de registros y FTDs a través del tiempo</code></strong></td><td>Lineal</td><td>Muestra la evolución de la cantidad de registros y FTDs durante el periodo seleccionado.</td></tr><tr><td><strong><code>Cantidad registros por ciudad - top 10</code></strong></td><td>Torta</td><td>Muestra la distribución de los registros entre las diez ciudades con mayor cantidad de registros.</td></tr><tr><td><strong><code>Cantidad FTDs por ciudad - top 10</code></strong></td><td>Torta</td><td>Muestra la distribución de los FTDs entre las diez ciudades con mayor cantidad de FTDs.</td></tr><tr><td><strong><code>Cantidad registros por concesionario - top 10</code></strong></td><td>Torta</td><td>Muestra la distribución de los registros entre los diez concesionarios con mayor cantidad de registros.</td></tr><tr><td><strong><code>Cantidad FTDs por concesionario - top 10</code></strong></td><td>Torta</td><td>Muestra la distribución de los FTDs entre los diez concesionarios con mayor cantidad de FTDs.</td></tr></tbody></table>
 
@@ -113,6 +109,8 @@ Presenta los puntos de venta con mayor participación en las principales métric
 
 <figure><img src="https://580350895-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FqV6PKDTPGEG39u2whMHJ%2Fuploads%2FR2fabknxlZZaB26a4xtj%2Fimage.png?alt=media&#x26;token=bfa2047c-ceae-4d92-b194-4f16d018a123" alt=""><figcaption><p>Figura #2: Captura de pantalla pestaña Top PV y detalle.</p></figcaption></figure>
 
+#### Gráficos
+
 <table><thead><tr><th width="171">Gráfico</th><th width="135">Tipo de gráfico</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Top 10 PV - valor depósitos</code></strong></td><td>Barras</td><td>Muestra los diez puntos de venta con mayor valor de depósitos.</td></tr><tr><td><strong><code>Top 10 PV - valor retiros</code></strong></td><td>Barras</td><td>Muestra los diez puntos de venta con mayor valor de retiros.</td></tr><tr><td><strong><code>Top 10 PV - cantidad registros</code></strong></td><td>Barras</td><td>Muestra los diez puntos de venta con mayor cantidad de registros.</td></tr><tr><td><strong><code>Top 10 PV - valor FTDs</code></strong></td><td>Barras</td><td>Muestra los diez puntos de venta con mayor valor de FTDs.</td></tr></tbody></table>
 
 **Tabla detalle**
@@ -129,13 +127,15 @@ Presenta la relación entre las cantidades y los valores de las principales oper
 
 <figure><img src="https://580350895-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FqV6PKDTPGEG39u2whMHJ%2Fuploads%2FWVdFeNVQWiLmR2VmNrGp%2Fimage.png?alt=media&#x26;token=ef9a647b-431d-4cbc-b91d-989d865ac68f" alt=""><figcaption><p>Figura #3: Captura de pantalla pestaña Distribución por ciudad.</p></figcaption></figure>
 
+#### Gráficos
+
 <table><thead><tr><th width="219">Gráfico</th><th width="126">Tipo de gráfico</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Relación entre cantidad y valor de depósitos por ciudad</code></strong></td><td>Lineal</td><td>Compara la cantidad de operaciones y el valor de los depósitos según la ciudad.</td></tr><tr><td><strong><code>Relación entre cantidad y valor de retiros por ciudad</code></strong></td><td>Lineal</td><td>Compara la cantidad de operaciones y el valor de los retiros según la ciudad.</td></tr><tr><td><strong><code>Relación entre cantidad de registros y valor FTD por ciudad</code></strong></td><td>Lineal</td><td>Compara la cantidad de registros y el valor de los FTDs según la ciudad.</td></tr><tr><td><strong><code>Relación entre cantidad y valor FTDs por ciudad</code></strong></td><td>Lineal</td><td>Presenta la relación entre las cantidades y los valores de FTDs según la ciudad.</td></tr></tbody></table>
 {% endtab %}
 {% endtabs %}
 
 ***
 
-### 7. Consideraciones de la información
+### 7. Validaciones y reglas del negocio
 
 * Los indicadores y visualizaciones se actualizan de acuerdo con los filtros seleccionados en el dashboard.
 * Todos los valores mostrados corresponden a la misma selección de filtros.
@@ -152,6 +152,6 @@ Presenta la relación entre las cantidades y los valores de las principales oper
 
 <summary>🔽 Historial de versiones</summary>
 
-<table><thead><tr><th width="94.7037353515625">Versión</th><th width="133.25927734375">Fecha</th><th width="161.77777099609375">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>05/10/2026</td><td>Ronald Peláez</td><td>Documento inicial.</td></tr></tbody></table>
+<table><thead><tr><th width="94.7037353515625">Versión</th><th width="133.25927734375">Fecha</th><th width="161.77777099609375">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>05/10/2026</td><td>Ronald Peláez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-33889#icft=VSFT-33889">Documento inicial.</a></td></tr></tbody></table>
 
 </details>
