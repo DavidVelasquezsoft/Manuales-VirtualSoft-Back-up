@@ -51,7 +51,7 @@ Antes de ingresar a este tablero, es necesario completar los filtros que se visu
 
 ### 5. KPIs
 
-El dashboard presenta un resumen de las principales métricas de la operación Retail y de la cobertura comercial según los filtros aplicados.
+El dashboard presenta un resumen de las principales métricas de la operación [Retail ](https://virtualsoft.gitbook.io/plantillas/glosario#retail)y de la cobertura comercial según los filtros aplicados.
 
 #### **5.1. Indicadores de cobertura comercial**
 
@@ -63,9 +63,9 @@ Estos indicadores se actualizan al modificar cualquiera de los filtros del dashb
 
 #### **5.2. Indicadores de actividad**
 
-Los indicadores de actividad presentan las principales métricas de la operación Retail. Para cada indicador se muestran tres niveles de información:
+Los indicadores de actividad presentan las principales métricas de la operación [Retail](https://virtualsoft.gitbook.io/plantillas/glosario#retail). Para cada indicador se muestran tres niveles de información:
 
-* **Retail:** resultado correspondiente al canal Retail según los filtros aplicados.
+* [**Retail**](https://virtualsoft.gitbook.io/plantillas/glosario#retail)**:** resultado correspondiente al canal Retail según los filtros aplicados.
 * **% Total:** porcentaje que representa el resultado de Retail frente al resultado total de la operación.
 * **Total:** resultado consolidado de la operación, incluyendo Retail y los demás canales correspondientes.
 
