@@ -413,6 +413,9 @@ Empresa responsable de la creación, gestión y distribución de los juegos dent
 *   #### **Redimir:**
 
     Acción de **canjear o hacer válido** un bono o beneficio otorgado, ya sea para utilizarlo de inmediato o reservarlo para aplicarlo en una ocasión posterior, según las condiciones establecidas.
+*   #### Retail:
+
+    Información general consolidada de todos los puntos de venta y las redes aliadas. <br>
 *   #### Return To Player (RTP)
 
     Es el porcentaje de retorno teórico al jugador, representa cuánto dinero, en promedio, devuelve un juego a los jugadores en relación con el total de apuestas realizadas.
