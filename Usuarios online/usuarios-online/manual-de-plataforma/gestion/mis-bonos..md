@@ -18,6 +18,10 @@ En la sección de Mis Bonos, puedes gestionar y visualizar todos los bonos que h
 
 Permite redimir un bono mediante el siguiente campo:
 
+{% hint style="warning" %}
+**Nota:** La plataforma solo permite tener un bono activo por usuario de forma simultánea. Si se intenta redimir uno nuevo mientras hay otro activo, el sistema mostrará un mensaje de error.
+{% endhint %}
+
 <table><thead><tr><th width="178">Campo</th><th width="166">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Código del bono</code></strong></td><td>Ingreso de datos</td><td>Ingresa el identificador único del bono que desea redimir.</td></tr><tr><td><strong><code>Botón "Obtener"</code></strong></td><td>Confirmación</td><td>Valida el código ingresado y asigna el bono en caso de ser correcto y estar activo.</td></tr></tbody></table>
 
 ***
