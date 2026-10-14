@@ -194,6 +194,10 @@ Es una red de pagos (_como Visa o Mastercard_) que integra y conecta a múltiple
 
 Campo que determina si el producto está activo únicamente para pruebas; en caso de estar desactivado, permanece disponible y visible para los usuarios en las plataformas.
 
+*   #### FTDS:
+
+    cantidad de usuarios que realizaron su primer depósito _(En puntos de venta o redes aliadas)._
+
 ## G
 
 * #### **Gamificación:**&#x20;
