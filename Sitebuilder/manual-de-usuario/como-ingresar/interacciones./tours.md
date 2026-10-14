@@ -23,7 +23,7 @@ layout:
 
 # Tours
 
-<mark style="color:$info;">Los tours son un conjunto de pasos que se crean para ayudar en el conocimiento de la plataforma Usuarios Online, desde este módulo se podrá realizar la creación y gestión de dichos tours.</mark>
+<mark style="color:$info;">Los tours son secuencias de pasos diseñadas para facilitar el conocimiento y aprendizaje de la plataforma Usuarios Online. Desde este módulo se gestiona la creación y administración de tours y tutoriales que guían el uso de las funcionalidades de la plataforma.</mark>
 
 ***
 
@@ -33,29 +33,31 @@ layout:
 
 ***
 
-### 2. Visualización
+### 2. Acciones disponibles
 
-<figure><img src="../../../.gitbook/assets/image (513).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Tours.</p></figcaption></figure>
-
-***
-
-### 3. Acciones disponibles
-
-<table><thead><tr><th width="150">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Gestionar tours</strong></td><td>Visualiza y gestiona los tours creados para la plataforma Usuarios Online.</td></tr><tr><td><strong>Crear tours</strong></td><td>Crea tours para secciones específicas de la plataforma Usuarios Online.</td></tr></tbody></table>
+<table><thead><tr><th width="150">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Gestionar tours</strong></td><td>Visualiza y gestiona los tours creados para la plataforma Usuarios Online.</td></tr><tr><td><strong>Crear tours</strong></td><td>Crea tours para secciones específicas de la plataforma Usuarios Online.</td></tr><tr><td><strong>Crear tutoriales</strong></td><td>Crea y administra los videos que utilizarán los jugadores para aprender a utilizar la plataforma Usuarios Online.</td></tr></tbody></table>
 
 ***
 
-### 4. Módulo inicial
+### 3. Contenido del módulo Tours
 
-Inicialmente el módulo se complementará de KPIs, listas e indicadores relacionados a los tours previamente creados para la plataforma.
+Esta sección se compone de tres módulos que complementan los tours disponibles en la plataforma Usuarios Online. Cada módulo corresponde a una etapa del proceso de configuración y funcionamiento de los tours.
 
-#### 4.1. KPIs
+{% tabs %}
+{% tab title="① Lista de tours" %}
+El módulo presenta indicadores, listas y métricas relacionadas con los tours previamente creados.
 
-Los KPIs se conforman de las cantidades totales de tours.
+#### Visualización
 
-<table><thead><tr><th width="145">KPI</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Total</code></strong></td><td>Tours creados para la plataforma Usuarios Oline.</td></tr><tr><td><strong><code>Activos</code></strong></td><td>Tours activos actualmente para la plataforma Usuarios Online.</td></tr><tr><td><strong><code>Borradores</code></strong></td><td>Tours que iniciaron la creación, pero no se guardaron.</td></tr><tr><td><strong><code>Inactivo</code></strong></td><td>Tours que fueron creados, pero ya se encuentran inactivos para la plataforma Usuarios Online.</td></tr></tbody></table>
+<figure><img src="../../../.gitbook/assets/image (515).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Tours.</p></figcaption></figure>
 
-#### 4.2. Lista de tours
+#### KPIs
+
+Los indicadores KPI se componen de las cantidades totales de tours registrados en la plataforma.
+
+<table><thead><tr><th width="145">KPI</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Total</code></strong></td><td>Tours creados para la plataforma Usuarios Oline.</td></tr><tr><td><strong><code>Activos</code></strong></td><td>Tours activos actualmente en la plataforma Usuarios Online.</td></tr><tr><td><strong><code>Borradores</code></strong></td><td>Tours que iniciaron la creación, pero no se guardaron.</td></tr><tr><td><strong><code>Inactivo</code></strong></td><td>Tours que fueron creados, pero ya se encuentran inactivos para la plataforma Usuarios Online.</td></tr></tbody></table>
+
+#### Lista de tours
 
 Es esta tabla se visualizarán cada uno de los tours previamente creados.
 
@@ -63,33 +65,15 @@ Es esta tabla se visualizarán cada uno de los tours previamente creados.
 **Nota**: La tabla corresponde a los filtros ![](<../../../.gitbook/assets/Frame 1321316418.png>) que ayudan a obtener una información más precisa, o se puede filtrar directamente por el nombre de un tour desde <img src="../../../.gitbook/assets/Text Input.png" alt="" data-size="line">.
 {% endhint %}
 
-<table><thead><tr><th width="174">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>ID</code></strong></td><td>Identificador único del tour.</td></tr><tr><td><strong><code>Nombre</code></strong></td><td>Nombre asignado al tour.</td></tr><tr><td><strong><code>Prioridad</code></strong></td><td><p>Prioridad que tiene el tour respecto a los demás tours creados.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota</strong>: Desde <img src="../../../.gitbook/assets/icon_drag_indicator (2).png" alt=""> también se podrá modificar la prioridad del tour, al momento de arrastrar el tour seleccionado se establecerá una nueva prioridad correspondiente a la ubicación establecida.</p></div></td></tr><tr><td><strong><code>Estado</code></strong></td><td>Estado en el que se encuentra en tour.</td></tr><tr><td><strong><code>Recompensa</code></strong></td><td>Recompensa que obtienen los usuarios de la plataforma Usuarios Online al momento de finalizar el tour.</td></tr><tr><td><strong><code>ID bono</code></strong></td><td>Identificador del bono que obtienen los usuarios al finalizar el tour.</td></tr><tr><td><strong><code>Audiencia</code></strong></td><td>Audiencia que tendrá disponible y visible el tour.</td></tr><tr><td><strong><code>Inicio</code></strong></td><td>Fecha en la que el tour inició su vigencia.</td></tr><tr><td><strong><code>Fin</code></strong></td><td>Fecha en la que el tour finalizó su vigencia.</td></tr><tr><td><strong><code>Acciones</code></strong></td><td>Acciones disponibles para gestionar el tour.</td></tr></tbody></table>
+<table><thead><tr><th width="174">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>ID</code></strong></td><td>Identificador único del tour.</td></tr><tr><td><strong><code>Nombre</code></strong></td><td>Nombre asignado al tour.</td></tr><tr><td><strong><code>Prioridad</code></strong></td><td><p>Prioridad que tiene el tour respecto a los demás tours creados.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota</strong>: Desde <img src="../../../.gitbook/assets/icon_drag_indicator (2).png" alt=""> también se podrá modificar la prioridad del tour, al momento de arrastrar el tour seleccionado se establecerá una nueva prioridad correspondiente a la ubicación establecida.</p></div></td></tr><tr><td><strong><code>Estado</code></strong></td><td>Estado en el que se encuentra en tour.</td></tr><tr><td><strong><code>Recompensa</code></strong></td><td>Recompensa que obtienen los usuarios de la plataforma Usuarios Online al momento de finalizar el tour.</td></tr><tr><td><strong><code>ID bono</code></strong></td><td>Identificador del bono que obtienen los usuarios al finalizar el tour.</td></tr><tr><td><strong><code>Audiencia</code></strong></td><td>Audiencia que tendrá disponible y visible el tour.</td></tr><tr><td><strong><code>Inicio</code></strong></td><td>Fecha en la que el tour inició su vigencia.</td></tr><tr><td><strong><code>Fin</code></strong></td><td>Fecha en la que el tour finalizó su vigencia.</td></tr><tr><td><strong><code>Acciones</code></strong></td><td>Acciones disponibles para gestionar el tour.<br><a class="button secondary">Lista de acciones</a></td></tr></tbody></table>
 
-{% columns %}
-{% column width="25%" %}
+<details>
 
-{% endcolumn %}
+<summary><strong>Lista de acciones</strong></summary>
 
-{% column width="75%" %}
-<table><thead><tr><th width="76">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/Vector (1) (2).png" alt=""></td><td>Edita las condiciones del tour.</td></tr><tr><td><img src="../../../.gitbook/assets/Vector (10).png" alt=""></td><td>Previsualiza el funcionamiento del tour.</td></tr><tr><td><img src="../../../.gitbook/assets/Vector (2) (2).png" alt="" data-size="original"></td><td>Copia el tour</td></tr><tr><td><img src="../../../.gitbook/assets/settings_power.png" alt=""></td><td>Inactiva/activa el tour seleccionado.</td></tr></tbody></table>
-{% endcolumn %}
-{% endcolumns %}
+<table><thead><tr><th width="74">Acción</th><th width="557">Descripción</th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/Vector (1) (2).png" alt=""></td><td>Redirige hacia el formulario de creación de tours para editar el tour seleccionado.</td></tr><tr><td><img src="../../../.gitbook/assets/Vector (10).png" alt=""></td><td>Previsualiza el funcionamiento del tour.</td></tr><tr><td><img src="../../../.gitbook/assets/Vector (2) (2).png" alt="" data-size="original"></td><td><p>Despliega el pop-up para confirmar si se desea duplicar el tour seleccionado.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota</strong>: Al momento de duplicar un tour, este se duplicará con las mismas configuraciones que el seleccionado, pero en estado "<strong>Borrador</strong>".</p></div></td></tr><tr><td><img src="../../../.gitbook/assets/settings_power.png" alt=""></td><td><p>Despliega un pop-up para confirmar si se desea activar o desactivar un tour.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota</strong>: Esta acción estará bloqueada para los tours que estén en estado "<strong>Borrador</strong>".</p></div></td></tr></tbody></table>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</details>
 
 ***
 
@@ -107,15 +91,31 @@ En el calendario se deben configurar los siguientes campos:
 * No se pueden configurar mensajes activos con períodos de vigencia que se superpongan.
 * Cuando existe un mensaje activo dentro del período seleccionado, el sistema muestra el mensaje: **"Ya existe un mensaje activo en este período. Ajuste las fechas o edite el mensaje existente."**
 * Para aplicar los cambios en la plataforma de usuarios es necesario seleccionar **Guardar**.
+{% endtab %}
+
+{% tab title="② Indicadores" %}
+{% hint style="warning" %}
+Nota: Este módulo aún se encuentra en desarrollo, por lo que todavía no cuenta con acceso habilitado ni documentación relacionada.
+{% endhint %}
+{% endtab %}
+
+{% tab title="③ Tutoriales" %}
+
+{% endtab %}
+{% endtabs %}
 
 ***
 
-### 7. Control de Versiones
+### 4. Reglas y validaciones
+
+***
+
+### 5. Control de Versiones
 
 <details>
 
 <summary>🔽 Historial de versiones</summary>
 
-<table><thead><tr><th width="108">Versión</th><th width="130">Fecha</th><th width="140">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>21/09/2026</td><td>Ronald Peláez</td><td>Documento inicial</td></tr></tbody></table>
+<table><thead><tr><th width="108">Versión</th><th width="130">Fecha</th><th width="140">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>14/10/2026</td><td>Ronald Peláez</td><td>Documento inicial (incluye <a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-32313?xpis=eyJicmlkZ2UiOiJzbWFydExpbmtzIiwiaWQiOiIxNzkyMDA2MDU5NjgxIiwic291cmNlIjoiamlyYS1KU1cifQ%3D%3D#icft=VSFT-32313">tours</a>, <a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-32312?xpis=eyJicmlkZ2UiOiJzbWFydExpbmtzIiwiaWQiOiIxNzkyMDA2MDczODc3Iiwic291cmNlIjoiamlyYS1KU1cifQ%3D%3D#icft=VSFT-32312">pasos </a>y <a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-33143#icft=VSFT-33143">tutoriales</a>).</td></tr></tbody></table>
 
 </details>
