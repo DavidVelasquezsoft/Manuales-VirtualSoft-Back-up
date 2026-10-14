@@ -18,7 +18,7 @@ description: >-
 
 ### 2. Visualización:
 
-<figure><img src="../../.gitbook/assets/image (103).png" alt=""><figcaption><p>Figura#1: Captura de pantalla creación bono Free Spin.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (142).png" alt=""><figcaption><p>Figura#1: Captura de pantalla creación bono Free Spin.</p></figcaption></figure>
 
 ### **3. Acciones del Usuario**
 
@@ -41,12 +41,12 @@ El Total bet Corresponde al valor total que se apuesta en cada giro otorgado por
 
 Este valor no es configurable directamente, ya que se calcula automáticamente con base en la configuración del juego y los parámetros definidos en el bono. En los juegos de este proveedor, el **Total Bet** (apuesta total) se obtiene mediante la siguiente fórmula:
 
-> **Total Bet = Valor por línea × Valor por ronda × Total de líneas del juego**
+> **Total Bet = Valor de línea × Valor por ronda × Total de líneas del juego**
 
 Este resultado representa el monto que se consume del bono en cada giro realizado.
 {% endhint %}
 
-<table><thead><tr><th width="114">Campo</th><th width="121">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Valor por ronda</code></strong></td><td>Campo numérico</td><td><p>Valor que tendrá el bono por cada ronda jugada, este debe ser configurado obligatoriamente, aunque el valor que realmente se utiliza dentro del juego es el <strong>Total Bet</strong>. Sin embargo, su configuración es necesaria, ya que hace parte de la fórmula de cálculo previamente definida.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> El valor ingresado en este campo debe ser igual a los valores disponibles en apuestas dentro del juego.</p></div></td></tr><tr><td><strong><code>Rondas gratuitas</code></strong></td><td>Numérico</td><td>Establece la cantidad de giros gratis que tendrá este bono.</td></tr><tr><td><strong><code>Limite de ganancia</code></strong></td><td>Numérico</td><td><p>Define monto máximo que un usuario puede ganar en una apuesta.</p><div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p><strong>Ejemplo:</strong></p><p>Se realiza una apuesta cuya ganancia potencial es de <strong>$500.000</strong>.<br>Sin embargo, el sistema tiene configurado un <strong>límite de ganancia de $300.000</strong>. Aunque la apuesta genere una ganancia mayor, el usuario <strong>sólo recibirá $300.000</strong>, ya que este valor corresponde al límite máximo permitido.</p></div></td></tr><tr><td><strong><code>valor por línea</code></strong></td><td>Numérico</td><td>Corresponde al valor que se asigna a cada línea o línea de pago dentro del juego, el cual se utiliza como base para el cálculo de la apuesta total.</td></tr><tr><td><strong><code>Jugadores</code></strong></td><td>Botón "Seleccionar archivo"</td><td>Permite cargar un archivo en formato CSV con los ID de los jugadores que recibirán el bono.</td></tr></tbody></table>
+<table><thead><tr><th width="114">Campo</th><th width="121">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Valor por ronda</code></strong></td><td>Campo numérico</td><td><p>Valor que tendrá el bono por cada ronda jugada, este debe ser configurado obligatoriamente, aunque el valor que realmente se utiliza dentro del juego es el <strong>Total Bet</strong>. Sin embargo, su configuración es necesaria, ya que hace parte de la fórmula previamente definida.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> El valor ingresado en este campo debe ser igual a los valores disponibles en apuestas dentro del juego.</p></div></td></tr><tr><td><strong><code>Rondas gratuitas</code></strong></td><td>Numérico</td><td>Establece la cantidad de giros gratis que tendrá este bono.</td></tr><tr><td><strong><code>Limite de ganancia</code></strong></td><td>Numérico</td><td><p>Define monto máximo que un usuario puede ganar en una apuesta.</p><div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p><strong>Ejemplo:</strong></p><p>Se realiza una apuesta cuya ganancia potencial es de <strong>$500.000</strong>.<br>Sin embargo, el sistema tiene configurado un <strong>límite de ganancia de $300.000</strong>. Aunque la apuesta genere una ganancia mayor, el usuario <strong>sólo recibirá $300.000</strong>, ya que este valor corresponde al límite máximo permitido.</p></div></td></tr><tr><td><strong><code>valor de línea</code></strong></td><td>Numérico</td><td>Corresponde al valor que se asigna a cada línea o línea de pago dentro del juego, el cual se utiliza como base para el cálculo de la apuesta total.</td></tr><tr><td><strong><code>Jugadores</code></strong></td><td>Botón "Seleccionar archivo"</td><td>Permite cargar un archivo en formato CSV con los ID de los jugadores que recibirán el bono.</td></tr></tbody></table>
 
 <a href="live-22.md#id-3.-acciones-del-usuario" class="button secondary">Regresar</a>
 
@@ -81,10 +81,11 @@ La información de este bono estará disponible en la reportería de _Productos 
 
 <summary>🔽 Historial de versiones</summary>
 
-| Versión | Fecha      | Autor           | Cambios Realizados                                                                |
-| ------- | ---------- | --------------- | --------------------------------------------------------------------------------- |
-| 1.0     | 31/03/2026 | Karol Navia     | Documento inicial                                                                 |
-| 1.1     | 27/08/2026 | David vealsquez | [Incorporación de nota](https://virtualsoftlatam.atlassian.net/browse/VSFT-32166) |
+| Versión | Fecha      | Autor           | Cambios Realizados                                                                         |
+| ------- | ---------- | --------------- | ------------------------------------------------------------------------------------------ |
+| 1.0     | 31/03/2026 | Karol Navia     | Documento inicial                                                                          |
+| 1.1     | 27/08/2026 | David vealsquez | [Incorporación de nota](https://virtualsoftlatam.atlassian.net/browse/VSFT-32166)          |
+| 1.2     | 14/10/2026 | Ronald Peláez   | [Refiniamiento.](https://virtualsoftlatam.atlassian.net/browse/VSFT-32981#icft=VSFT-32981) |
 
 
 
