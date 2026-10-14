@@ -124,8 +124,8 @@ Cada categoría de reporte está diseñada para ofrecer información detallada y
 [historico-saldos-administrativos.md](historico-saldos-administrativos.md)
 {% endcontent-ref %}
 
-{% content-ref url="documentos-registrados..md" %}
-[documentos-registrados..md](documentos-registrados..md)
+{% content-ref url="documentos-registrados.md" %}
+[documentos-registrados.md](documentos-registrados.md)
 {% endcontent-ref %}
 
 {% content-ref url="puntos-lealtad.md" %}

@@ -78,7 +78,7 @@
     * [Histórico saldos punto de venta](manual-de-usuario-backoffice/reportes/historico-saldos-punto-de-venta.md)
     * [Histórico Saldos Agentes](manual-de-usuario-backoffice/reportes/historico-saldos-agentes.md)
     * [Histórico Saldos Administrativos](manual-de-usuario-backoffice/reportes/historico-saldos-administrativos.md)
-    * [Documentos registrados.](manual-de-usuario-backoffice/reportes/documentos-registrados..md)
+    * [Documentos registrados](manual-de-usuario-backoffice/reportes/documentos-registrados.md)
     * [Puntos lealtad](manual-de-usuario-backoffice/reportes/puntos-lealtad.md)
     * [Reporte de transferencias de saldo Recibidas](manual-de-usuario-backoffice/reportes/reporte-de-transferencias-de-saldo-recibidas.md)
     * [Reporte de transferencias de saldo Realizadas](manual-de-usuario-backoffice/reportes/reporte-de-transferencias-de-saldo-realizadas.md)
