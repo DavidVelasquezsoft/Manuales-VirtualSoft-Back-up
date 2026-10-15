@@ -65,7 +65,7 @@ Es esta tabla se visualizarán cada uno de los tours previamente creados.
 **Nota**: La tabla corresponde a los filtros ![](<../../../.gitbook/assets/Frame 1321316418.png>) que ayudan a obtener una información más precisa, o se puede filtrar directamente por el nombre de un tour desde <img src="../../../.gitbook/assets/Text Input.png" alt="" data-size="line">.
 {% endhint %}
 
-<table><thead><tr><th width="174">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>ID</code></strong></td><td>Identificador único del tour.</td></tr><tr><td><strong><code>Nombre</code></strong></td><td>Nombre asignado al tour.</td></tr><tr><td><strong><code>Prioridad</code></strong></td><td><p>Prioridad que tiene el tour respecto a los demás tours creados.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota</strong>: Desde <img src="../../../.gitbook/assets/icon_drag_indicator (2).png" alt=""> también se podrá modificar la prioridad del tour, al momento de arrastrar el tour seleccionado se establecerá una nueva prioridad correspondiente a la ubicación establecida.</p></div></td></tr><tr><td><strong><code>Estado</code></strong></td><td>Estado en el que se encuentra en tour.</td></tr><tr><td><strong><code>Recompensa</code></strong></td><td>Recompensa que obtienen los usuarios de la plataforma Usuarios Online al momento de finalizar el tour.</td></tr><tr><td><strong><code>ID bono</code></strong></td><td>Identificador del bono que obtienen los usuarios al finalizar el tour.</td></tr><tr><td><strong><code>Audiencia</code></strong></td><td>Audiencia que tendrá disponible y visible el tour.</td></tr><tr><td><strong><code>Inicio</code></strong></td><td>Fecha en la que el tour inició su vigencia.</td></tr><tr><td><strong><code>Fin</code></strong></td><td>Fecha en la que el tour finalizó su vigencia.</td></tr><tr><td><strong><code>Acciones</code></strong></td><td>Acciones disponibles para gestionar el tour.<br><a class="button secondary">Lista de acciones</a></td></tr></tbody></table>
+<table><thead><tr><th width="174">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>ID</code></strong></td><td>Identificador único del tour.</td></tr><tr><td><strong><code>Nombre</code></strong></td><td>Nombre asignado al tour.</td></tr><tr><td><strong><code>Prioridad</code></strong></td><td><p>Prioridad que tiene el tour respecto a los demás tours creados.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota</strong>: Desde <img src="../../../.gitbook/assets/icon_drag_indicator (2).png" alt=""> también se podrá modificar la prioridad del tour, al momento de arrastrar el tour seleccionado se establecerá una nueva prioridad correspondiente a la ubicación establecida.</p></div></td></tr><tr><td><strong><code>Estado</code></strong></td><td>Estado en el que se encuentra en tour.</td></tr><tr><td><strong><code>Recompensa</code></strong></td><td>Recompensa que obtienen los usuarios de la plataforma Usuarios Online al momento de finalizar el tour.</td></tr><tr><td><strong><code>ID bono</code></strong></td><td>Identificador del bono que obtienen los usuarios al finalizar el tour.</td></tr><tr><td><strong><code>Audiencia</code></strong></td><td>Audiencia que tendrá disponible y visible el tour.</td></tr><tr><td><strong><code>Inicio</code></strong></td><td>Fecha en la que el tour inició su vigencia.</td></tr><tr><td><strong><code>Fin</code></strong></td><td>Fecha en la que el tour finalizó su vigencia.</td></tr><tr><td><strong><code>Acciones</code></strong></td><td>Acciones disponibles para gestionar el tour.<br><a href="https://virtualsoft.gitbook.io/manuales/sitebuilder/manual-de-usuario/como-ingresar/interacciones./tours#lista-de-acciones" class="button secondary">Lista de acciones</a></td></tr></tbody></table>
 
 <details>
 
@@ -75,9 +75,13 @@ Es esta tabla se visualizarán cada uno de los tours previamente creados.
 
 </details>
 
+{% hint style="warning" %}
+**Nota**: Al final de esta tabla se puede modificar la cantidad de registros visualizados&#x20;
+{% endhint %}
+
 ***
 
-### 4. Agregar
+#### Crear tour
 
 Al seleccionar el botón <img src="../../../.gitbook/assets/Button (13).png" alt="" data-size="line">, se despliega un calendario para establecer el período durante el cual estará vigente el mensaje.
 
@@ -103,6 +107,10 @@ Nota: Este módulo aún se encuentra en desarrollo, por lo que todavía no cuent
 
 {% endtab %}
 {% endtabs %}
+
+***
+
+
 
 ***
 
