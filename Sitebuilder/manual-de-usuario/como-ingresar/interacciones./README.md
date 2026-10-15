@@ -10,6 +10,6 @@ description: >-
 [cupon-de-apuestas..md](cupon-de-apuestas..md)
 {% endcontent-ref %}
 
-{% content-ref url="tours.md" %}
-[tours.md](tours.md)
+{% content-ref url="tours/" %}
+[tours](tours/)
 {% endcontent-ref %}
