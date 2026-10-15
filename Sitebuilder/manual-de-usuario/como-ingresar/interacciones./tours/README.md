@@ -85,7 +85,22 @@ Es esta tabla se visualizarán cada uno de los tours previamente creados.
 
 Al seleccionar el botón <img src="../../../../.gitbook/assets/Button (13).png" alt="" data-size="line"> se redirigirá al formulario para la creación de tours.
 
+{% content-ref url="creacion-de-tours.md" %}
+[creacion-de-tours.md](creacion-de-tours.md)
+{% endcontent-ref %}
 
+***
+
+#### Reglas y validaciones
+
+* Las acciones disponibles en los torus registrados dependen de permisos específicos.
+* En la columna Prioridad se puede ingresar directamente el número que definirá el orden del tour. No se permiten prioridades duplicadas; al asignar una prioridad que ya está ocupada, se ajustará el orden de los tours afectados para mantener una secuencia única y consecutiva.
+
+{% hint style="info" %}
+**Ejemplo**: Si existen 5 tours y el tour con prioridad 3 pasa a tener prioridad 5, el tour que ocupaba la prioridad 5 pasará a la prioridad 4, y los demás tours se reorganizarán según corresponda. La prioridad se organiza de menor a mayor.
+{% endhint %}
+
+* Los cambios realizados desde este módulo aplicaran de manera inmediata sin necesidad de realizar alguna otra confirmación.
 {% endtab %}
 
 {% tab title="② Indicadores" %}
@@ -96,17 +111,65 @@ Nota: Este módulo aún se encuentra en desarrollo, por lo que todavía no cuent
 
 {% tab title="③ Tutoriales" %}
 
-{% endtab %}
-{% endtabs %}
+
+#### Visualización
+
+<figure><img src="../../../../.gitbook/assets/image (517).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Tours.</p></figcaption></figure>
+
+#### Filtros
+
+Los filtros permiten consultar y gestionar de forma más precisa los tutoriales creados para la plataforma Usuarios Online.
+
+<table><thead><tr><th width="145">Filtro</th><th width="132">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Estado</code></strong></td><td>Lista desplegable</td><td></td></tr><tr><td><strong><code>Clasificación</code></strong></td><td>Lista desplegable</td><td></td></tr><tr><td><strong><code>Vigencia</code></strong></td><td>Calendario</td><td></td></tr><tr><td><strong><code>Nombre</code></strong></td><td>Buscador</td><td></td></tr></tbody></table>
+
+{% hint style="warning" %}
+**Nota**: Desde las acciones <img src="../../../../.gitbook/assets/Frame 1321316631.png" alt="" data-size="line"> se pueden aplicar filtros o restablecer los filtros previamente aplicados.
+{% endhint %}
+
+#### Lista de tutoriales
+
+Es esta tabla se visualizarán cada uno de los tutoriales previamente creados.
+
+<table><thead><tr><th width="174">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><img src="../../../../.gitbook/assets/icon_drag_indicator (2).png" alt=""> </td><td></td></tr><tr><td><strong><code>ID</code></strong></td><td>Identificador único del tour.</td></tr><tr><td><strong><code>Nombre</code></strong></td><td>Nombre asignado al tour.</td></tr><tr><td><strong><code>Descripción corta</code></strong></td><td></td></tr><tr><td><strong><code>Clasific</code></strong></td><td></td></tr><tr><td><strong><code>Vigencia</code></strong></td><td></td></tr><tr><td><strong><code>Estado</code></strong></td><td>Estado en el que se encuentra en tour.</td></tr><tr><td><strong><code>Acciones</code></strong></td><td>Acciones disponibles para gestionar el tour.<br><a href="https://virtualsoft.gitbook.io/manuales/sitebuilder/manual-de-usuario/como-ingresar/interacciones./tours#lista-de-acciones" class="button secondary">Lista de acciones</a></td></tr></tbody></table>
+
+<details>
+
+<summary><strong>Lista de acciones</strong></summary>
+
+<table><thead><tr><th width="74">Acción</th><th width="557">Descripción</th></tr></thead><tbody><tr><td>   <img src="../../../../.gitbook/assets/Vector (10).png" alt="" data-size="original"></td><td>Previsualiza el funcionamiento del tour.</td></tr><tr><td>   <img src="../../../../.gitbook/assets/Vector (1) (2).png" alt=""></td><td>Redirige hacia el formulario de creación de tours para editar el tour seleccionado.</td></tr><tr><td>   <img src="../../../../.gitbook/assets/settings_power.png" alt=""></td><td><p>Despliega un pop-up para confirmar si se desea activar o desactivar un tour.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota</strong>: Esta acción estará bloqueada para los tours que estén en estado "<strong>Borrador</strong>".</p></div></td></tr><tr><td>   <img src="../../../../.gitbook/assets/Vector (3) (1).png" alt="" data-size="original"></td><td><p>Despliega el pop-up para confirmar si se desea duplicar el tour seleccionado.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota</strong>: Al momento de duplicar un tour, este se duplicará con las mismas configuraciones que el seleccionado, pero en estado "<strong>Borrador</strong>".</p></div></td></tr></tbody></table>
+
+</details>
+
+{% hint style="warning" %}
+**Nota**: Al final de esta tabla se puede modificar la cantidad de registros visualizados&#x20;
+{% endhint %}
 
 ***
 
-### 5. Reglas y validaciones
+#### Crear tour
 
-* La fecha y hora de inicio deben ser anteriores a la fecha y hora de finalización.
-* No se pueden configurar mensajes activos con períodos de vigencia que se superpongan.
-* Cuando existe un mensaje activo dentro del período seleccionado, el sistema muestra el mensaje: **"Ya existe un mensaje activo en este período. Ajuste las fechas o edite el mensaje existente."**
-* Para aplicar los cambios en la plataforma de usuarios es necesario seleccionar **Guardar**.
+Al seleccionar el botón <img src="../../../../.gitbook/assets/Button (13).png" alt="" data-size="line"> se redirigirá al formulario para la creación de tours.
+
+{% content-ref url="creacion-de-tours.md" %}
+[creacion-de-tours.md](creacion-de-tours.md)
+{% endcontent-ref %}
+
+***
+
+#### Reglas y validaciones
+
+* Las acciones disponibles en los torus registrados dependen de permisos específicos.
+* En la columna Prioridad se puede ingresar directamente el número que definirá el orden del tour. No se permiten prioridades duplicadas; al asignar una prioridad que ya está ocupada, se ajustará el orden de los tours afectados para mantener una secuencia única y consecutiva.
+
+{% hint style="info" %}
+**Ejemplo**: Si existen 5 tours y el tour con prioridad 3 pasa a tener prioridad 5, el tour que ocupaba la prioridad 5 pasará a la prioridad 4, y los demás tours se reorganizarán según corresponda. La prioridad se organiza de menor a mayor.
+{% endhint %}
+
+* Los cambios realizados desde este módulo aplicaran de manera inmediata sin necesidad de realizar alguna otra confirmación.
+{% endtab %}
+{% endtabs %}
+
+
 
 ***
 
