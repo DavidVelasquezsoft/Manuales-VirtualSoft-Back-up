@@ -110,7 +110,7 @@ Nota: Este módulo aún se encuentra en desarrollo, por lo que todavía no cuent
 {% endtab %}
 
 {% tab title="③ Tutoriales" %}
-
+Los tours&#x20;
 
 #### Visualización
 
@@ -130,7 +130,7 @@ Los filtros permiten consultar y gestionar de forma más precisa los tutoriales 
 
 Es esta tabla se visualizarán cada uno de los tutoriales previamente creados.
 
-<table><thead><tr><th width="174">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><img src="../../../../.gitbook/assets/icon_drag_indicator (2).png" alt=""> </td><td></td></tr><tr><td><strong><code>ID</code></strong></td><td>Identificador único del tour.</td></tr><tr><td><strong><code>Nombre</code></strong></td><td>Nombre asignado al tour.</td></tr><tr><td><strong><code>Descripción corta</code></strong></td><td></td></tr><tr><td><strong><code>Clasific</code></strong></td><td></td></tr><tr><td><strong><code>Vigencia</code></strong></td><td></td></tr><tr><td><strong><code>Estado</code></strong></td><td>Estado en el que se encuentra en tour.</td></tr><tr><td><strong><code>Acciones</code></strong></td><td>Acciones disponibles para gestionar el tour.<br><a href="https://virtualsoft.gitbook.io/manuales/sitebuilder/manual-de-usuario/como-ingresar/interacciones./tours#lista-de-acciones" class="button secondary">Lista de acciones</a></td></tr></tbody></table>
+<table><thead><tr><th width="174">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><img src="../../../../.gitbook/assets/icon_drag_indicator (2).png" alt=""> </td><td></td></tr><tr><td><strong><code>ID</code></strong></td><td>Identificador único del tour.</td></tr><tr><td><strong><code>Nombre</code></strong></td><td>Nombre asignado al tour.</td></tr><tr><td><strong><code>Descripción corta</code></strong></td><td></td></tr><tr><td><strong><code>Clasific</code></strong></td><td></td></tr><tr><td><strong><code>Vigencia</code></strong></td><td></td></tr><tr><td><strong><code>Estado</code></strong></td><td>Estado en el que se encuentra en tour.<br>Activo: El tutorial está activo y funcional en la plataforma Usuarios Online<br>Inactivo: El tutorial fue inactivado y no está visible en usuarios online<br>Está programado: Tiene fecha de inicio futura a la actual<br>Vencido: La fecha final es interior a la actual</td></tr><tr><td><strong><code>Acciones</code></strong></td><td>Acciones disponibles para gestionar el tour.<br><a href="https://virtualsoft.gitbook.io/manuales/sitebuilder/manual-de-usuario/como-ingresar/interacciones./tours#lista-de-acciones" class="button secondary">Lista de acciones</a></td></tr></tbody></table>
 
 <details>
 
@@ -158,14 +158,7 @@ Al seleccionar el botón <img src="../../../../.gitbook/assets/Button (13).png" 
 
 #### Reglas y validaciones
 
-* Las acciones disponibles en los torus registrados dependen de permisos específicos.
-* En la columna Prioridad se puede ingresar directamente el número que definirá el orden del tour. No se permiten prioridades duplicadas; al asignar una prioridad que ya está ocupada, se ajustará el orden de los tours afectados para mantener una secuencia única y consecutiva.
-
-{% hint style="info" %}
-**Ejemplo**: Si existen 5 tours y el tour con prioridad 3 pasa a tener prioridad 5, el tour que ocupaba la prioridad 5 pasará a la prioridad 4, y los demás tours se reorganizarán según corresponda. La prioridad se organiza de menor a mayor.
-{% endhint %}
-
-* Los cambios realizados desde este módulo aplicaran de manera inmediata sin necesidad de realizar alguna otra confirmación.
+*
 {% endtab %}
 {% endtabs %}
 
