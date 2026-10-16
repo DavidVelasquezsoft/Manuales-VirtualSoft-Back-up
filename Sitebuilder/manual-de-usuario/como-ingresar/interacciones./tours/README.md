@@ -110,7 +110,7 @@ Nota: Este módulo aún se encuentra en desarrollo, por lo que todavía no cuent
 {% endtab %}
 
 {% tab title="③ Tutoriales" %}
-Los tours&#x20;
+Los tours son videos que sirven para ayudar a conocer proceso que se pueden realizar en la plataforma Usuarios Online, desde este módulo es posible gestionar y crear dichos tutoriales.
 
 #### Visualización
 
@@ -120,7 +120,7 @@ Los tours&#x20;
 
 Los filtros permiten consultar y gestionar de forma más precisa los tutoriales creados para la plataforma Usuarios Online.
 
-<table><thead><tr><th width="145">Filtro</th><th width="132">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Estado</code></strong></td><td>Lista desplegable</td><td></td></tr><tr><td><strong><code>Clasificación</code></strong></td><td>Lista desplegable</td><td></td></tr><tr><td><strong><code>Vigencia</code></strong></td><td>Calendario</td><td></td></tr><tr><td><strong><code>Nombre</code></strong></td><td>Buscador</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="145">Filtro</th><th width="132">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Estado</code></strong></td><td>Lista desplegable</td><td><p>Filtra por los estados en los que se encuentran los tutoriales.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota</strong>: Aunque para filtrar estén disponibles todos los estados, el filtro funciona de la siguiente manera: </p><ul><li><strong>Activo</strong>: Filtra solo por los tours en estado activo.</li><li><strong>Inactivo</strong>: Filtra por los tours expirados e inactivos al mismo tiempo.</li><li><strong>Programados</strong>: Solo los tours que estén en estado Programados.</li></ul></div></td></tr><tr><td><strong><code>Calificación</code></strong></td><td>Lista desplegable</td><td>Filtra los tutoriales según la calificación que han obtenido desde la plataforma usuarios online.</td></tr><tr><td><strong><code>Vigencia</code></strong></td><td>Calendario</td><td>Filtra según la fecha de vigencia que tenga configurado el tutorial.</td></tr><tr><td><strong><code>Nombre</code></strong></td><td>Buscador</td><td>Filtra por el nombre del tutorial.</td></tr></tbody></table>
 
 {% hint style="warning" %}
 **Nota**: Desde las acciones <img src="../../../../.gitbook/assets/Frame 1321316631.png" alt="" data-size="line"> se pueden aplicar filtros o restablecer los filtros previamente aplicados.
@@ -130,7 +130,7 @@ Los filtros permiten consultar y gestionar de forma más precisa los tutoriales 
 
 Es esta tabla se visualizarán cada uno de los tutoriales previamente creados.
 
-<table><thead><tr><th width="174">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><img src="../../../../.gitbook/assets/icon_drag_indicator (2).png" alt=""> </td><td></td></tr><tr><td><strong><code>ID</code></strong></td><td>Identificador único del tour.</td></tr><tr><td><strong><code>Nombre</code></strong></td><td>Nombre asignado al tour.</td></tr><tr><td><strong><code>Descripción corta</code></strong></td><td></td></tr><tr><td><strong><code>Clasific</code></strong></td><td></td></tr><tr><td><strong><code>Vigencia</code></strong></td><td></td></tr><tr><td><strong><code>Estado</code></strong></td><td>Estado en el que se encuentra en tour.<br>Activo: El tutorial está activo y funcional en la plataforma Usuarios Online<br>Inactivo: El tutorial fue inactivado y no está visible en usuarios online<br>Está programado: Tiene fecha de inicio futura a la actual<br>Vencido: La fecha final es interior a la actual</td></tr><tr><td><strong><code>Acciones</code></strong></td><td>Acciones disponibles para gestionar el tour.<br><a href="https://virtualsoft.gitbook.io/manuales/sitebuilder/manual-de-usuario/como-ingresar/interacciones./tours#lista-de-acciones" class="button secondary">Lista de acciones</a></td></tr></tbody></table>
+<table><thead><tr><th width="174">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><img src="../../../../.gitbook/assets/icon_drag_indicator (2).png" alt=""> </td><td>Edita la priprodad </td></tr><tr><td><strong><code>ID</code></strong></td><td>Identificador único del tour.</td></tr><tr><td><strong><code>Nombre</code></strong></td><td>Nombre asignado al tour.</td></tr><tr><td><strong><code>Descripción corta</code></strong></td><td></td></tr><tr><td><strong><code>Clasific</code></strong></td><td></td></tr><tr><td><strong><code>Vigencia</code></strong></td><td></td></tr><tr><td><strong><code>Estado</code></strong></td><td><p></p><ul><li><strong>Activo</strong>: Tutoriales que están disponibles para que el jugador los visualice.</li><li><strong>Inactivo</strong>: tutoriales que fueron inactivados manualmente.</li><li><strong>Programado</strong>: tutoriales que tienen fecha de inicio futura a la actual.</li><li><strong>Vencido</strong>: La fecha final es interior a la actual.</li></ul></td></tr><tr><td><strong><code>Acciones</code></strong></td><td>Acciones disponibles para gestionar el tour.<br><a href="https://virtualsoft.gitbook.io/manuales/sitebuilder/manual-de-usuario/como-ingresar/interacciones./tours#lista-de-acciones" class="button secondary">Lista de acciones</a></td></tr></tbody></table>
 
 <details>
 
@@ -157,10 +157,10 @@ Al seleccionar el botón <img src="../../../../.gitbook/assets/Button (13).png" 
 ***
 
 #### Reglas y validaciones
-
-*
 {% endtab %}
 {% endtabs %}
+
+
 
 
 
