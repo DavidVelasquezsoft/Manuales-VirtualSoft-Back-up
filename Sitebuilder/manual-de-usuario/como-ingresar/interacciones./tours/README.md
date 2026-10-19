@@ -76,7 +76,7 @@ Es esta tabla se visualizarán cada uno de los tours previamente creados.
 </details>
 
 {% hint style="warning" %}
-**Nota**: Al final de esta tabla se puede modificar la cantidad de registros visualizados&#x20;
+**Nota**: Al final de esta tabla se puede modificar la cantidad de registros visualizados en el registro.
 {% endhint %}
 
 ***
@@ -94,10 +94,10 @@ Al seleccionar el botón <img src="../../../../.gitbook/assets/Button (13).png" 
 #### Reglas y validaciones
 
 * Las acciones disponibles en los torus registrados dependen de permisos específicos.
-* En la columna Prioridad se puede ingresar directamente el número que definirá el orden del tour. No se permiten prioridades duplicadas; al asignar una prioridad que ya está ocupada, se ajustará el orden de los tours afectados para mantener una secuencia única y consecutiva.
+* En la columna Prioridad se puede ingresar directamente el número que definirá el orden del tour. **No se permiten prioridades duplicadas**; al asignar una prioridad que ya está ocupada, se ajustará el orden de los tours afectados para mantener una secuencia única y consecutiva.
 
 {% hint style="info" %}
-**Ejemplo**: Si existen 5 tours y el tour con prioridad 3 pasa a tener prioridad 5, el tour que ocupaba la prioridad 5 pasará a la prioridad 4, y los demás tours se reorganizarán según corresponda. La prioridad se organiza de menor a mayor.
+**Ejemplo**: Si existen 5 tours y el tour con prioridad 3 pasa a tener prioridad 5, el tour que ocupaba la prioridad 5 pasará a la prioridad 4, y los demás tours se reorganizarán según corresponda. **La prioridad se organiza de menor a mayor.**
 {% endhint %}
 
 * Los cambios realizados desde este módulo aplicaran de manera inmediata sin necesidad de realizar alguna otra confirmación.
