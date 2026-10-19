@@ -29,13 +29,13 @@ layout:
 
 ### 1. Acceso al Módulo
 
-**Ruta de Acceso:** Site Builder > Seleccionar Partner > interacciones > Tours.
+**Ruta de Acceso:** SiteBuilder > Seleccionar Partner > interacciones > Tours.
 
 ***
 
 ### 2. Acciones disponibles
 
-<table><thead><tr><th width="150">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Gestionar tours</strong></td><td>Visualiza y gestiona los tours creados para la plataforma Usuarios Online.</td></tr><tr><td><strong>Crear tours</strong></td><td>Crea tours para secciones específicas de la plataforma Usuarios Online.</td></tr><tr><td><strong>Crear tutoriales</strong></td><td>Crea y administra los videos que utilizarán los jugadores para aprender a utilizar la plataforma Usuarios Online.</td></tr><tr><td><strong>Gestionar tutoriales</strong></td><td>Visualiza y gestiona los tutoriales creados para la plataforma Usuarios Online.</td></tr></tbody></table>
+<table><thead><tr><th width="150">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="https://virtualsoft.gitbook.io/manuales/sitebuilder/manual-de-usuario/como-ingresar/interacciones./tours#id-1-lista-de-tours"><strong>Gestionar tours</strong></a></td><td>Visualiza y gestiona los tours creados para la plataforma Usuarios Online.</td></tr><tr><td><a href="https://virtualsoft.gitbook.io/manuales/sitebuilder/manual-de-usuario/como-ingresar/interacciones./tours/creacion-de-tours"><strong>Crear tours</strong></a></td><td>Crea tours para secciones específicas de la plataforma Usuarios Online.</td></tr><tr><td><a href="https://virtualsoft.gitbook.io/manuales/sitebuilder/manual-de-usuario/como-ingresar/interacciones./tours#id-3-tutoriales"><strong>Gestionar tutoriales</strong></a></td><td>Visualiza y gestiona los tutoriales creados para la plataforma Usuarios Online.</td></tr><tr><td><a href="https://virtualsoft.gitbook.io/manuales/sitebuilder/manual-de-usuario/como-ingresar/interacciones./tours#crear-tutorial"><strong>Crear tutoriales</strong></a></td><td>Crea y administra los videos que utilizarán los jugadores para aprender a utilizar la plataforma Usuarios Online.</td></tr></tbody></table>
 
 ***
 
@@ -168,13 +168,9 @@ El botón <img src="../../../../.gitbook/assets/Button (2) (5).png" alt="" data-
 {% endtab %}
 {% endtabs %}
 
-
-
-
-
 ***
 
-### 6. Control de Versiones
+### 4. Control de Versiones
 
 <details>
 
