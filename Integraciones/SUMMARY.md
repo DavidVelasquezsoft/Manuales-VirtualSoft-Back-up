@@ -83,6 +83,7 @@
     * [FUNKY GAMES](manual-integraciones-por-proveedor./proveedores-con-configuraciones-para-bonos./funky-games.md)
     * [IGT PLAYDIGITAL](manual-integraciones-por-proveedor./proveedores-con-configuraciones-para-bonos./igt-playdigital.md)
     * [155.IO](manual-integraciones-por-proveedor./proveedores-con-configuraciones-para-bonos./155.io.md)
+    * [PLAYSON](manual-integraciones-por-proveedor./proveedores-con-configuraciones-para-bonos./playson.md)
 * [Capacitación del equipo de integraciones en Altenar](capacitacion-del-equipo-de-integraciones-en-altenar/README.md)
   * [API externa para creación de bonos](capacitacion-del-equipo-de-integraciones-en-altenar/api-externa-para-creacion-de-bonos/README.md)
     * [Métodos](capacitacion-del-equipo-de-integraciones-en-altenar/api-externa-para-creacion-de-bonos/metodos/README.md)
