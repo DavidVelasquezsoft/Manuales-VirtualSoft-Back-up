@@ -1,76 +1,80 @@
----
-description: >-
-  Permite consultar toda la información relacionada con los giros realizados en
-  ruletas promocionales.
----
-
 # Reporte de ruleta
 
-### Configuración General
+<mark style="color:$info;">Consulta los giros de las ruletas promocionales asignados a los usuarios. Cada registro muestra a qué jugador y a qué ruleta pertenece el giro, cuándo se le asignó, si llegó a utilizarlo y qué premio obtuvo, lo que permite auditar la entrega de premios de cada campaña.</mark>
+
+### 1. Acceso al Módulo
+
+**Ruta de Acceso**: BackOffice (BO) > Reportes > Reporte Ruleta
 
 {% hint style="warning" %}
-⚠️ **Nota:** Solo los usuarios con permisos asignados podrán acceder al módulo y generar consultas, si no cuenta con este permiso comuníquese con el equipo de soporte.
+**Nota:** Únicamente los usuarios con el permiso asignado pueden acceder al módulo y ejecutar consultas. Si no cuenta con este permiso, debe comunicarse con el equipo de soporte.
 {% endhint %}
 
-### **1.  Acceso al Módulo**
+***
 
-**Ruta de acceso:** BackOffice > Reportes > Reporte Ruleta
+### 2. Visualización
+
+<figure><img src="https://1262136405-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FUadX6RX6l8fMhEZxOqcT%2Fuploads%2FVH7cgdwcHbhSCP0d0aJQ%2Fimage.png?alt=media&#x26;token=0b41d6fd-4967-4e8e-bf90-48a23f4430b5" alt=""><figcaption><p>Figura #1: Captura de pantalla Reporte de ruleta.</p></figcaption></figure>
 
 ***
 
-### **2. Visualización**
+### 3. Acciones disponibles
 
-<figure><img src="../../.gitbook/assets/image (567).png" alt=""><figcaption><p>Figura#1: Captura de pantalla reporte de ruleta</p></figcaption></figure>
+<table><thead><tr><th width="164">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="reporte-de-ruleta.md#id-4.-filtros"><strong>Filtros</strong></a></td><td>Definen los criterios de búsqueda para consultar los giros registrados.</td></tr><tr><td><strong>Limpiar</strong></td><td>Restablece los filtros aplicados, dejando los campos en su estado inicial.</td></tr><tr><td><a href="reporte-de-ruleta.md#id-5.-resultados-de-consulta"><strong>Consultar</strong></a></td><td>Ejecuta la búsqueda según los filtros definidos y muestra los giros en la tabla de resultados.</td></tr><tr><td><strong>Exportar</strong></td><td>Permite exportar los resultados obtenidos según los filtros aplicados en formatos Excel <em>(.XLS)</em> y PDF mediante el botón <strong>Exportar</strong>, ubicado en la parte inferior derecha de la pantalla.</td></tr></tbody></table>
 
 ***
 
-### 🧑‍💻 3. Acciones del Usuario <a href="#id-3.-acciones-del-usuario" id="id-3.-acciones-del-usuario"></a>
+### 4. Filtros
 
-#### 3.1.🔍 ¿Cómo buscar los registros de ruleta?
-
-Se puede consultar información aplicando los siguientes filtros:
+<table><thead><tr><th width="212">Campo</th><th width="152">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Fecha de Activación</code></strong></td><td>Calendario</td><td>Delimita los resultados según el período en el que se asignó el giro al usuario.</td></tr><tr><td><strong><code>Fecha de Redención</code></strong></td><td>Calendario</td><td>Delimita los resultados según el período en el que el usuario utilizó su giro.</td></tr><tr><td><strong><code>Fecha de Expiración</code></strong></td><td>Calendario</td><td>Delimita los resultados según el período en el que vence el giro.</td></tr><tr><td><strong><code>ID Usuario</code></strong></td><td>Campo de texto</td><td>Consulta los giros asignados a un jugador específico mediante su identificador.</td></tr><tr><td><strong><code>ID Ruleta</code></strong></td><td>Campo numérico</td><td>Acota la consulta a una ruleta determinada mediante su identificador interno.</td></tr><tr><td><strong><code>Nombre Ruleta</code></strong></td><td>Campo de texto</td><td>Localiza los giros a partir del nombre con el que se configuró la ruleta.</td></tr><tr><td><strong><code>Estado del Giro</code></strong></td><td>Lista desplegable</td><td>Filtra los giros según la situación en la que se encuentran <em>(Pendiente, Pendiente Rollback, Activa, Redimido o Expirado)</em>. El detalle de cada estado se describe en la tabla de resultados.</td></tr><tr><td><strong><code>Tipo de Premio</code></strong></td><td>Lista desplegable</td><td>Acota la consulta según la clase de premio obtenido <em>(Freebet, Freespin, Bono, Dinero, Premio físico o Giro Extra)</em>.</td></tr><tr><td><strong><code>Partner</code></strong></td><td>Lista desplegable</td><td>Muestra únicamente los giros del operador seleccionado.</td></tr><tr><td><strong><code>País</code></strong></td><td>Lista desplegable</td><td>Muestra únicamente los giros de los usuarios del país seleccionado.</td></tr></tbody></table>
 
 {% hint style="warning" %}
-⚠️ **Nota:**
-
-* &#x20;Si no existen datos que cumplan los criterios del filtro, el sistema no mostrará resultados en la tabla.
-* Para consultar todos los registros disponibles, es necesario presionar el botón **Limpiar** y ejecutar la búsqueda nuevamente.
-* El uso de filtros es opcional; no es obligatorio aplicar criterios de búsqueda.
+**Nota:** El uso de filtros es opcional. Si ningún registro cumple los criterios aplicados, la tabla de resultados aparece vacía; para volver a consultar la totalidad de los registros debe presionarse el botón **Limpiar** y ejecutar la búsqueda nuevamente.
 {% endhint %}
 
-<table><thead><tr><th width="152">Campo</th><th width="183">Tipo de Filtro</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Fecha de Activación</code></strong></td><td>Fecha (desde/hasta)</td><td>Selecciona el período en el que se activó el giro al usuario.</td></tr><tr><td><strong><code>Fecha de Redención</code></strong></td><td>Fecha (desde/hasta)</td><td>Selecciona el período en el que el giro fue redimido.</td></tr><tr><td><strong><code>Fecha de Expiración</code></strong></td><td>Fecha (desde/hasta)</td><td>Selecciona la fecha final de la ruleta.</td></tr><tr><td><strong><code>ID Usuario</code></strong></td><td>Texto</td><td>Busca por identificador único del jugador.</td></tr><tr><td><strong><code>Estado del Giro</code></strong></td><td>Lista desplegable</td><td><p>Filtra por el estado: </p><ul><li><strong>Pendiente:</strong> Giro aún no disponible, falta cumplir condición.</li><li><strong>Pendiente Rollback:</strong> Giro realizado pero sujeto a validación.</li><li><strong>Activa:</strong> Giro habilitado y disponible para el jugador.</li><li><strong>Redimido:</strong> Giro utilizado, con premio entregado o no.</li><li><strong>Expirado:</strong> Giro no utilizado y ya vencido.</li></ul></td></tr><tr><td><strong><code>ID Ruleta</code></strong></td><td>Numérico</td><td>Filtra por identificador interno de la ruleta.</td></tr><tr><td><strong><code>Nombre Ruleta</code></strong></td><td>Texto</td><td>Búsqueda por el nombre configurado de la ruleta.</td></tr><tr><td><strong><code>Tipo de Premio</code></strong></td><td>Lista desplegable</td><td>Selecciona el tipo de premio como: Freebet, Freespin, Bono, Dinero, Premio físico, Giro Extra.</td></tr><tr><td><strong><code>Partner</code></strong></td><td>Lista desplegable</td><td>Busca por el nombre del operador (ej. Doradobet, Betplay, etc.).</td></tr><tr><td><strong><code>País</code></strong></td><td>Lista desplegable</td><td>Selecciona el país asignado al usuario.</td></tr></tbody></table>
+***
+
+### 5. Resultados de consulta
+
+Al ejecutar la consulta, en la parte inferior de la pantalla se despliega una tabla con los giros que cumplen con los filtros aplicados.
+
+<table><thead><tr><th width="169.33331298828125">Campo</th><th width="104">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>ID Usuario</code></strong></td><td>Numérico</td><td>Identificador del jugador al que se asignó el giro.</td></tr><tr><td><strong><code>Nombre Usuario</code></strong></td><td>Texto</td><td>Nombre o alias del jugador.</td></tr><tr><td><strong><code>ID Ruleta</code></strong></td><td>Numérico</td><td>Identificador interno de la ruleta promocional.</td></tr><tr><td><strong><code>Nombre Ruleta</code></strong></td><td>Texto</td><td>Nombre con el que la ruleta se muestra al jugador.</td></tr><tr><td><strong><code>Fecha Activación</code></strong></td><td>Fecha</td><td>Fecha y hora en la que se asignó el giro al jugador.</td></tr><tr><td><strong><code>Fecha Redención</code></strong></td><td>Fecha</td><td>Fecha y hora en la que el jugador utilizó su giro. Aparece vacía mientras el giro no se haya redimido.</td></tr><tr><td><strong><code>Estado del Giro</code></strong></td><td>Texto</td><td>Situación actual del giro dentro de su ciclo de vida.</td></tr></tbody></table>
+
+{% columns %}
+{% column width="33.33333333333333%" %}
+
+{% endcolumn %}
+
+{% column width="66.66666666666667%" %}
+<table><thead><tr><th width="186">Estado del Giro</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Pendiente</strong></td><td>El giro aún no está disponible para el jugador porque no se ha cumplido la condición configurada para habilitarlo.</td></tr><tr><td><strong>Pendiente Rollback</strong></td><td>El jugador ya realizó el giro, pero este se encuentra en validación y el premio todavía no se confirma.</td></tr><tr><td><strong>Activa</strong></td><td>El giro está habilitado y disponible para que el jugador lo utilice.</td></tr><tr><td><strong>Redimido</strong></td><td>El jugador utilizó el giro. El resultado puede haber entregado un premio o no, según lo que haya caído en la ruleta.</td></tr><tr><td><strong>Expirado</strong></td><td>El giro venció sin que el jugador lo utilizara y ya no puede redimirse.</td></tr></tbody></table>
+{% endcolumn %}
+{% endcolumns %}
+
+<table data-header-hidden><thead><tr><th width="174.6666259765625">Campo</th><th width="104">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Premio Entregado</code></strong></td><td>Texto</td><td>Nombre del premio que obtuvo el jugador con el giro.</td></tr><tr><td><strong><code>Tipo de Premio</code></strong></td><td>Texto</td><td>Clase de beneficio otorgado <em>(Freebet, Freespin, Bono, Dinero, Premio físico o Giro Extra)</em>.</td></tr><tr><td><strong><code>Detalle Premio</code></strong></td><td>Texto</td><td>Información concreta de lo entregado: el ID del bono, el monto o saldo acreditado, o la descripción del premio físico, según corresponda al tipo de premio.</td></tr><tr><td><strong><code>Fecha Expiración</code></strong></td><td>Fecha</td><td>Fecha y hora en la que el giro vence si el jugador no lo utiliza.</td></tr><tr><td><strong><code>Partner</code></strong></td><td>Texto</td><td>Operador al que pertenece la ruleta.</td></tr><tr><td><strong><code>País</code></strong></td><td>Texto</td><td>País registrado por el usuario.</td></tr></tbody></table>
+
+{% hint style="warning" %}
+**Nota:** Los tres campos de premio se complementan y deben leerse en conjunto: **`Tipo de Premio`** indica de qué clase de beneficio se trata, **`Premio Entregado`** el nombre con el que se configuró en la ruleta, y **`Detalle Premio`** el valor concreto que recibió el jugador.
+{% endhint %}
 
 ***
 
-#### 3.2. 🔄 Limpiar <a href="#id-4.2.-limpiar" id="id-4.2.-limpiar"></a>
+### 6. Validaciones y reglas del negocio:
 
-Restablece los filtros por defecto.
-
-#### 3.3. 🚀 Consultar
-
-&#x20;Al realizar la búsqueda se muestran los siguientes datos en la tabla de resultados:
-
-<table><thead><tr><th width="222">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>ID Usuario</code></strong></td><td>Identificador único del jugador.</td></tr><tr><td><strong><code>Nombre Usuario</code></strong></td><td>Nombre o alias del jugador.</td></tr><tr><td><strong><code>ID Ruleta</code></strong></td><td>Identificador interno de la ruleta.</td></tr><tr><td><strong><code>Nombre Ruleta</code></strong></td><td>Nombre visible de la ruleta promocional.</td></tr><tr><td><strong><code>Fecha Activación</code></strong></td><td>Fecha y hora en que se asignó el giro al jugador.</td></tr><tr><td><strong><code>Fecha Redención</code></strong></td><td>Fecha y hora en que el jugador usó su giro (si aplica).</td></tr><tr><td><strong><code>Estado del Giro</code></strong></td><td>Estado actual: Pendiente, Pendiente Rollback, Activa, Redimido o Expirado.</td></tr><tr><td><strong><code>Premio Entregado</code></strong></td><td>Nombre del premio que se le dio al usuario.</td></tr><tr><td><strong><code>Tipo de Premio</code></strong></td><td>Tipo de beneficio otorgado, (saldo freeBet, saldo premio, premio físico, etc)</td></tr><tr><td><strong><code>Detalle Premio</code></strong></td><td>ID del bono, monto, saldo entregado o descripción del premio físico.</td></tr><tr><td><strong><code>Fecha Expiración</code></strong></td><td>Fecha y hora en que expira la ruleta.</td></tr><tr><td><strong><code>Partner</code></strong></td><td>Nombre del operador asignada al jugador.</td></tr><tr><td><strong><code>País</code></strong></td><td>País de residencia registrado por el usuario.</td></tr></tbody></table>
-
-***
-
-### 4. ¿Cómo exportar los resultados?
-
-Para exportar los resultados de la búsqueda, acceda al **selector de exportación** ubicado en la parte inferior derecha, debajo de la tabla de resultados, y elija uno de los formatos disponibles.
-
-<table><thead><tr><th width="188">Sección</th><th width="121">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Exportar XLSX</code></strong></td><td>Selector</td><td>Descarga el reporte en formato <strong>Excel</strong>.</td></tr><tr><td><strong><code>Exportar PDF</code></strong></td><td>Selector</td><td>Descarga el reporte en formato <strong>PDF</strong>.</td></tr></tbody></table>
+* Únicamente los usuarios con el permiso asignado pueden acceder al módulo y ejecutar consultas.
+* No es obligatorio diligenciar ningún filtro para ejecutar la consulta.
+* Los resultados mostrados corresponden únicamente a los criterios seleccionados en los filtros.
+* Un giro en estado **Redimido** indica que el jugador lo utilizó, no necesariamente que haya obtenido un premio.
+* Un giro en estado **Expirado** no puede redimirse ni reactivarse desde este módulo.
+* El reporte es informativo: desde este módulo no es posible asignar, anular ni modificar giros ni premios.
 
 ***
 
-### 5. Validaciones y Reglas de Negocio
+### 7. Control de Versiones
 
-* Solo los usuarios con permisos habilitados podrán acceder al módulo.
-* Los filtros permiten limitar la búsqueda de giros según fechas, usuario, ruleta, estado, premio, partner y país.
+<details>
 
-***
+<summary>🔽 Historial de versiones</summary>
 
-### 6. Control de Versiones
+<table><thead><tr><th width="99.888916015625">Versión</th><th width="128.87872314453125">Fecha</th><th width="153.94952392578125">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>25/08/2025</td><td>Karol Navia</td><td>Documento inicial</td></tr><tr><td>1.1</td><td>19/10/2026</td><td>David Velasquez</td><td>Actualización de formato</td></tr></tbody></table>
 
-| Versión | Fecha      | Autor       | Cambios Realizados |
-| ------- | ---------- | ----------- | ------------------ |
-| 1.0     | 25/08/2025 | Karol Navia | Documento inicial  |
+</details>

@@ -1,7 +1,7 @@
 ---
 description: >-
-  Este reporte permite consultar el detalle de las sesiones de juego de poker
-  realizadas por los usuarios en la plataforma.
+  Permite consultar el detalle de las sesiones de juego de poker realizadas por
+  los usuarios en la plataforma.
 ---
 
 # Reporte de Póker
@@ -20,20 +20,15 @@ description: >-
 
 ### **3. Funcionalidades**
 
-| Acción                  | Descripción                                                                                 |
-| ----------------------- | ------------------------------------------------------------------------------------------- |
-| **Aplicar filtros**     | Permite segmentar la información por fecha, proveedor, país, tipo de comisión, entre otros. |
-| **Consultar reporte**   | Genera el reporte según los filtros seleccionados.                                          |
-| **Limpiar filtros**     | Restablece todos los valores de búsqueda a su estado inicial.                               |
-| **Exportar resultados** | Descarga la información mostrada en formato Excel.                                          |
+<table><thead><tr><th width="220.7777099609375">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="reporte-de-poker.md#id-3.1.-filtros-principales"><strong>Aplicar filtros</strong></a></td><td>Permite segmentar la información por fecha, proveedor, país, tipo de comisión, entre otros.</td></tr><tr><td><a href="reporte-de-poker.md#id-4.-tabla-de-resultados"><strong>Consultar reporte</strong></a></td><td>Genera el reporte según los filtros seleccionados.</td></tr><tr><td><strong>Limpiar filtros</strong></td><td>Restablece todos los valores de búsqueda a su estado inicial.</td></tr><tr><td><strong>Exportar resultados</strong></td><td>Descarga la información mostrada en formato Excel.</td></tr></tbody></table>
 
-#### &#x20;**3.1. 🔎 Filtros principales**
+#### &#x20;**3.1. Filtros principales**
 
 <table><thead><tr><th width="170">Campo</th><th width="165">Tipo de Control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Fecha</code></strong></td><td>Calendario</td><td>Selecciona el rango de fechas para visualizar la información del reporte de poker.</td></tr><tr><td><strong><code>Tipo Transacción</code></strong></td><td>Texto</td><td>Filtra por el ID del tipo de transacción asociado al reporte.</td></tr><tr><td><strong><code>ID Usuario Plataforma</code></strong></td><td>Campo de texto</td><td>Identificador del usuario dentro de la plataforma.</td></tr><tr><td><strong><code>País</code></strong></td><td>Buscador / Lista desplegable</td><td>Selecciona el país de origen del usuario.</td></tr><tr><td><strong><code>Producto</code></strong></td><td>Buscador / Lista desplegable</td><td>Filtra por el nombre del juego relacionado al producto.</td></tr><tr><td><strong><code>Proveedor</code></strong></td><td>Buscador / Lista desplegable</td><td>Filtra los resultados por proveedor principal del juego.</td></tr><tr><td><strong><code>Tipo de Reporte</code></strong></td><td>Lista desplegable</td><td>Define el nivel de detalle del reporte: <a href="reporte-de-poker.md#id-4.1-detallado-por-sesion-del-usuario">Detallado por sesión</a>, <a href="reporte-de-poker.md#id-4.2-resumido-por-jugador">Resumido por jugador</a> o <a href="reporte-de-poker.md#id-4.3-resumido-por-proveedor">Resumido por proveedor</a>.</td></tr></tbody></table>
 
 ***
 
-### **4. 📊 Tabla de Resultados**
+### **4. Tabla de Resultados**
 
 Los resultados se presentan en una tabla cuya estructura varía según el tipo de reporte seleccionado.
 
