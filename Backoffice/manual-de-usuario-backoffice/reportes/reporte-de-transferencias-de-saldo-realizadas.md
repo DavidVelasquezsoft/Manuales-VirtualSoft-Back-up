@@ -1,49 +1,75 @@
----
-description: >-
-  Este reporte permite consultar las transferencias de saldo realizadas,
-  aplicando diversos filtros para obtener la información deseada de manera
-  precisa.
----
-
 # Reporte de transferencias de saldo Realizadas
 
-#### 1. Acceso al Módulo
+<mark style="color:$info;">Consulta las transferencias de saldo y cupo efectuadas entre los usuarios de la red comercial. Cada registro indica quién realizó la transferencia, sobre qué cupo se aplicó, en qué sentido se movió el dinero y por qué valor, lo que permite hacer seguimiento a la distribución de saldo entre concesionarios, subconcesionarios y puntos de venta.</mark>
 
-**Ruta de Acceso**: BackOffice > Menú principal > Reportes > Transferencias de Saldo Realizadas
+### 1. Acceso al Módulo
 
-***
-
-#### 2. Visualización
-
-<figure><img src="../../.gitbook/assets/image (38).png" alt=""><figcaption><p>Figura #1: Captura de pantalla filtros de búsqueda.</p></figcaption></figure>
+**Ruta de Acceso**: BackOffice (BO) > Reportes > Transferencias de Saldo Realizadas
 
 ***
 
-#### 3. **Acciones disponibles**
+### 2. Visualización
 
-<table><thead><tr><th width="163">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td>Filtrar transferencias</td><td>Permite aplicar filtros de búsqueda por usuario, fecha, concesionario, país o tipo de reporte.</td></tr><tr><td>Visualizar tabla de resultados</td><td>Muestra la información de las transferencias según los filtros aplicados.</td></tr><tr><td>Exportar los resultados</td><td>Permite descargar en formato Excel los resultados obtenidos en la consulta.</td></tr></tbody></table>
-
-**🔎 3.1. Filtros principales**
-
-<table><thead><tr><th width="123">Campo</th><th width="155">Tipo de Control</th><th width="484">Descripción</th></tr></thead><tbody><tr><td><code>ID Usuario</code></td><td>Campo de texto</td><td>Identificador único del usuario que realizó la transferencia.</td></tr><tr><td><code>Nombre del Usuario</code></td><td>Campo de texto</td><td>Permite buscar por el nombre del usuario que efectuó la transferencia.</td></tr><tr><td><code>Fecha</code></td><td>Calendario</td><td>Filtra las transferencias realizadas dentro de un rango de fechas específico.</td></tr><tr><td><code>ID Concesionario</code></td><td>Campo de texto</td><td>Identificador del concesionario asociado a la transferencia.</td></tr><tr><td><code>Subconcesionario</code></td><td>Campo de texto</td><td>Permite filtrar por el subconcesionario relacionado a la transferencia.</td></tr><tr><td><code>País</code></td><td>Lista desplegable</td><td>Selecciona el país donde se realizó la transferencia.</td></tr><tr><td><code>Tipo de Usuario</code></td><td>Lista desplegable</td><td>Clasifica al usuario según su rol o perfil dentro del sistema.</td></tr><tr><td><code>Tipo</code></td><td>Lista desplegable</td><td><p>Selecciona el tipo de reporte a generar:</p><ul><li><strong>Detallado</strong>: Muestra información específica de cada transferencia.</li><li><strong>Totales</strong>: Presenta un resumen general de las transferencias realizadas.</li></ul></td></tr><tr><td><code>Asignado Por</code></td><td>Campo de texto</td><td>Permite buscar las transferencias realizadas por un usuario específico que asignó el saldo.</td></tr></tbody></table>
-
-**📊 Tabla de Resultados**\
-Los resultados de la consulta se presentan en una tabla con las siguientes columnas:
-
-<table><thead><tr><th width="177">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>ID</strong></td><td>Identificador único que distingue cada transferencia realizada.</td></tr><tr><td><strong>Fecha</strong></td><td>Fecha y hora en que se efectuó la transferencia.</td></tr><tr><td><strong>ID Usuario</strong></td><td>Identificador del usuario que realizó la transferencia.</td></tr><tr><td><strong>Nombre del Usuario</strong></td><td>Nombre del usuario responsable de la transferencia.</td></tr><tr><td><strong>Tipo Cupo</strong></td><td>Clasificación del cupo transferido (por ejemplo: apuestas, recargas, etc.).</td></tr><tr><td><strong>Tipo Transacción</strong></td><td>Tipo de operación realizada (por ejemplo: salida, entrada, etc.).</td></tr><tr><td><strong>Valor</strong></td><td>Monto total transferido en la operación.</td></tr><tr><td><strong>Moneda</strong></td><td>Tipo de moneda utilizada en la transacción.</td></tr><tr><td><strong>Asignado Por</strong></td><td>Nombre o identificador del usuario que asignó o procesó el saldo transferido.</td></tr></tbody></table>
+<figure><img src="https://1262136405-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FUadX6RX6l8fMhEZxOqcT%2Fuploads%2F7h1fxtKmbEJc5tYWgGCX%2Fimage.png?alt=media&#x26;token=46603cc1-14db-4cb9-8a62-e499a5f973da" alt=""><figcaption><p>Figura #1: Captura de pantalla filtros de búsqueda.</p></figcaption></figure>
 
 ***
 
-**4. Validaciones y Reglas de Negocio**
+### 3. Acciones disponibles
 
-* No es obligatorio completar todos los filtros para realizar una búsqueda.
-* La información mostrada dependerá de los filtros seleccionados en la consulta.
-* Solo los usuarios con los permisos correspondientes pueden visualizar o exportar la información.
+<table><thead><tr><th width="164">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="reporte-de-transferencias-de-saldo-realizadas.md#id-4.-filtros"><strong>Filtros</strong></a></td><td>Definen los criterios de búsqueda para consultar las transferencias registradas.</td></tr><tr><td><strong>Limpiar</strong></td><td>Restablece los filtros aplicados, dejando los campos en su estado inicial.</td></tr><tr><td><a href="reporte-de-transferencias-de-saldo-realizadas.md#id-5.-resultados-de-consulta"><strong>Consultar</strong></a></td><td>Ejecuta la búsqueda según los filtros definidos y muestra las transferencias en la tabla de resultados.</td></tr><tr><td><strong>Exportar</strong></td><td>Permite exportar los resultados obtenidos según los filtros aplicados en formato Excel <em>(.XLS)</em> mediante el botón <strong>Exportar</strong>.</td></tr></tbody></table>
 
 ***
 
-**5. Control de Versiones**
+### 4. Filtros
 
-| Versión | Fecha      | Autor         | Cambios Realizados |
-| ------- | ---------- | ------------- | ------------------ |
-| 1.0     | 08/10/2025 | Ronald Peláez | Documento inicial  |
+<table><thead><tr><th width="176">Campo</th><th width="152">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>ID Usuario</code></strong></td><td>Campo de texto</td><td>Consulta las transferencias asociadas a un usuario específico mediante su identificador.</td></tr><tr><td><strong><code>Nombre del Usuario</code></strong></td><td>Campo de texto</td><td>Localiza las transferencias a partir del nombre del usuario.</td></tr><tr><td><strong><code>Fecha</code></strong></td><td>Calendario</td><td>Delimita los resultados según el rango de fechas en el que se realizaron las transferencias.</td></tr><tr><td><strong><code>ID Concesionario</code></strong></td><td>Campo de texto</td><td>Acota la consulta al concesionario asociado a la transferencia.</td></tr><tr><td><strong><code>Subconcesionario</code></strong></td><td>Campo de texto</td><td>Restringe la consulta al subconcesionario vinculado a la transferencia.</td></tr><tr><td><strong><code>País</code></strong></td><td>Lista desplegable</td><td>Muestra únicamente las transferencias realizadas en el país seleccionado.</td></tr><tr><td><strong><code>Tipo de Usuario</code></strong></td><td>Lista desplegable</td><td>Filtra los resultados según el perfil del usuario dentro de la red comercial.</td></tr><tr><td><strong><code>Asignado Por</code></strong></td><td>Campo de texto</td><td>Reúne las transferencias ejecutadas por un usuario determinado.</td></tr><tr><td><strong><code>Tipo</code></strong></td><td>Lista desplegable</td><td><p>Determina el nivel de detalle con el que se presenta el reporte.</p><ul><li><strong>Detallado:</strong> muestra cada transferencia de forma individual.</li><li><strong>Totales:</strong> muestra la información consolidada de las transferencias realizadas.</li></ul></td></tr></tbody></table>
+
+***
+
+### 5. Resultados de consulta
+
+Al ejecutar la consulta, en la parte inferior de la pantalla se despliega una tabla con las transferencias que cumplen con los filtros aplicados.
+
+<table><thead><tr><th width="196">Campo</th><th width="104">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>ID</code></strong></td><td>Numérico</td><td>Identificador único de la transferencia.</td></tr><tr><td><strong><code>Fecha</code></strong></td><td>Fecha</td><td>Fecha y hora en la que se registró la transferencia.</td></tr><tr><td><strong><code>ID Usuario</code></strong></td><td>Numérico</td><td>Identificador del usuario cuyo saldo o cupo se vio afectado por la transferencia.</td></tr><tr><td><strong><code>Nombre del Usuario</code></strong></td><td>Texto</td><td>Nombre del usuario correspondiente a la transferencia.</td></tr><tr><td><strong><code>Tipo Cupo</code></strong></td><td>Texto</td><td>Cupo sobre el que se aplicó la transferencia <em>(por ejemplo: apuestas o recargas)</em>.</td></tr><tr><td><strong><code>Tipo Transacción</code></strong></td><td>Texto</td><td>Sentido en el que se movió el saldo para el usuario del registro.</td></tr></tbody></table>
+
+{% columns %}
+{% column width="33.33333333333333%" %}
+
+{% endcolumn %}
+
+{% column width="66.66666666666667%" %}
+<table><thead><tr><th width="150">Tipo Transacción</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Entrada</strong></td><td>El usuario <strong>recibió</strong> el saldo o cupo. El valor de la transferencia incrementa su disponible.</td></tr><tr><td><strong>Salida</strong></td><td>El usuario <strong>entregó</strong> el saldo o cupo a otro usuario de la red. El valor de la transferencia disminuye su disponible.</td></tr></tbody></table>
+{% endcolumn %}
+{% endcolumns %}
+
+<table data-header-hidden><thead><tr><th width="196">Campo</th><th width="104">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Valor</code></strong></td><td>Numérico</td><td>Monto transferido en la operación.</td></tr><tr><td><strong><code>Moneda</code></strong></td><td>Texto</td><td>Moneda en la que se realizó la transferencia.</td></tr><tr><td><strong><code>Asignado Por</code></strong></td><td>Texto</td><td>Usuario que ejecutó la transferencia y asignó el saldo.</td></tr></tbody></table>
+
+{% hint style="info" %}
+**Nota:** Una misma transferencia se registra desde la perspectiva del usuario de cada fila. Por esta razón, el campo **`Tipo Transacción`** indica si ese usuario recibió o entregó el saldo, mientras que el campo **`Asignado Por`** identifica siempre a quien ejecutó la operación.
+{% endhint %}
+
+{% hint style="warning" %}
+**Nota:** Las columnas mostradas corresponden a la vista **Detallado**. Al seleccionar la opción **Totales** en el filtro **`Tipo`**, el reporte presenta la información consolidada y no el detalle de cada transferencia.
+{% endhint %}
+
+***
+
+### 6. Validaciones y reglas del negocio:
+
+* No es obligatorio diligenciar todos los filtros para ejecutar la consulta.
+* Los resultados mostrados corresponden únicamente a los criterios seleccionados en los filtros.
+* Únicamente los usuarios con el permiso asignado pueden consultar y exportar la información de este reporte.
+* El contenido de la tabla de resultados varía según la opción seleccionada en el filtro **`Tipo`** _(Detallado o Totales)_.
+* El reporte es informativo: las transferencias no pueden modificarse, revertirse ni eliminarse desde este módulo.
+
+***
+
+### 7. Control de Versiones
+
+<details>
+
+<summary>🔽 Historial de versiones</summary>
+
+<table><thead><tr><th width="99.888916015625">Versión</th><th width="128.87872314453125">Fecha</th><th width="153.94952392578125">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>08/10/2025</td><td>Ronald Peláez</td><td>Documento inicial</td></tr><tr><td>1.1</td><td>16/10/2026</td><td>David Velasquez</td><td>Actualización del manual</td></tr></tbody></table>
+
+</details>
