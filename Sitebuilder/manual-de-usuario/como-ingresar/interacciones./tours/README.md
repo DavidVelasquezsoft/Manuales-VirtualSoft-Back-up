@@ -35,7 +35,7 @@ layout:
 
 ### 2. Acciones disponibles
 
-<table><thead><tr><th width="150">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Gestionar tours</strong></td><td>Visualiza y gestiona los tours creados para la plataforma Usuarios Online.</td></tr><tr><td><strong>Crear tours</strong></td><td>Crea tours para secciones específicas de la plataforma Usuarios Online.</td></tr><tr><td><strong>Crear tutoriales</strong></td><td>Crea y administra los videos que utilizarán los jugadores para aprender a utilizar la plataforma Usuarios Online.</td></tr></tbody></table>
+<table><thead><tr><th width="150">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Gestionar tours</strong></td><td>Visualiza y gestiona los tours creados para la plataforma Usuarios Online.</td></tr><tr><td><strong>Crear tours</strong></td><td>Crea tours para secciones específicas de la plataforma Usuarios Online.</td></tr><tr><td><strong>Crear tutoriales</strong></td><td>Crea y administra los videos que utilizarán los jugadores para aprender a utilizar la plataforma Usuarios Online.</td></tr><tr><td><strong>Gestionar tutoriales</strong></td><td>Visualiza y gestiona los tutoriales creados para la plataforma Usuarios Online.</td></tr></tbody></table>
 
 ***
 
@@ -105,7 +105,7 @@ Al seleccionar el botón <img src="../../../../.gitbook/assets/Button (13).png" 
 
 {% tab title="② Indicadores" %}
 {% hint style="warning" %}
-Nota: Este módulo aún se encuentra en desarrollo, por lo que todavía no cuenta con acceso habilitado ni documentación relacionada.
+**Nota**: Este módulo aún se encuentra en desarrollo, por lo que todavía no cuenta con acceso habilitado ni documentación relacionada.
 {% endhint %}
 {% endtab %}
 
@@ -130,7 +130,7 @@ Los filtros permiten consultar y gestionar de forma más precisa los tutoriales 
 
 Es esta tabla se visualizarán cada uno de los tutoriales previamente creados.
 
-<table><thead><tr><th width="174">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><img src="../../../../.gitbook/assets/icon_drag_indicator (2).png" alt=""> </td><td>Arrastra los tutoriales para modificar su orden de visualización. El orden establecido en esta tabla será el mismo que se mostrará en Usuarios Online.</td></tr><tr><td><strong><code>ID</code></strong></td><td>Identificador único del tutorial.</td></tr><tr><td><strong><code>Nombre</code></strong></td><td>Nombre asignado al tutorial.</td></tr><tr><td><strong><code>Descripción corta</code></strong></td><td>Breve contexto de lo que enseña el tutorial.</td></tr><tr><td><strong><code>Calific.</code></strong></td><td>Calificación obtenida por el tutorial en Usuarios Online.</td></tr><tr><td><strong><code>Vigencia</code></strong></td><td>Rango de fechas en las que estará activo el tour.</td></tr><tr><td><strong><code>Estado</code></strong></td><td><p>Estado en el que se encuentra el tour.</p><ul><li><strong>Activo</strong>: Tutoriales que están disponibles para que el jugador los visualice.</li><li><strong>Inactivo</strong>: tutoriales que fueron inactivados manualmente.</li><li><strong>Programado</strong>: tutoriales que tienen fecha de inicio futura a la actual.</li><li><strong>Vencido</strong>: La fecha final es interior a la actual.</li></ul></td></tr><tr><td><strong><code>Acciones</code></strong></td><td>Acciones disponibles para gestionar el tour.<br><a href="https://virtualsoft.gitbook.io/manuales/sitebuilder/manual-de-usuario/como-ingresar/interacciones./tours#lista-de-acciones-1" class="button secondary">Lista de acciones</a></td></tr></tbody></table>
+<table><thead><tr><th width="174">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><img src="../../../../.gitbook/assets/icon_drag_indicator (2).png" alt=""> </td><td>Arrastra los tutoriales para modificar su orden de visualización. El orden establecido en esta tabla será el mismo que se mostrará en Usuarios Online.</td></tr><tr><td><strong><code>ID</code></strong></td><td>Identificador único del tutorial.</td></tr><tr><td><strong><code>Nombre</code></strong></td><td>Nombre asignado al tutorial.</td></tr><tr><td><strong><code>Descripción corta</code></strong></td><td>Breve contexto de lo que enseña el tutorial.</td></tr><tr><td><strong><code>Calific.</code></strong></td><td>Calificación obtenida por el tutorial en Usuarios Online.</td></tr><tr><td><strong><code>Vigencia</code></strong></td><td>Rango de fechas en las que estará activo el tour.</td></tr><tr><td><strong><code>Estado</code></strong></td><td><p>Estado en el que se encuentra el tour.</p><ul><li><strong>Activo</strong>: Tutoriales que están disponibles para que el jugador los visualice.</li><li><strong>Inactivo</strong>: tutoriales que fueron inactivados manualmente.</li><li><strong>Programado</strong>: tutoriales que tienen fecha de inicio futura a la actual.</li><li><strong>Vencido</strong>: La fecha final es interior a la actual.</li></ul></td></tr><tr><td><strong><code>Acciones</code></strong></td><td>Acciones disponibles para gestionar el tutorial.<br><a href="https://virtualsoft.gitbook.io/manuales/sitebuilder/manual-de-usuario/como-ingresar/interacciones./tours#lista-de-acciones-1" class="button secondary">Lista de acciones</a></td></tr></tbody></table>
 
 <details>
 
@@ -146,17 +146,25 @@ Es esta tabla se visualizarán cada uno de los tutoriales previamente creados.
 
 ***
 
-#### Crear tour
+#### Crear tutorial
 
-Al seleccionar el botón <img src="../../../../.gitbook/assets/Button (13).png" alt="" data-size="line"> se redirigirá al formulario para la creación de tours.
+Al seleccionar el botón <img src="../../../../.gitbook/assets/Button (1) (5).png" alt="" data-size="line"> se redirigirá al formulario para la creación de tutorial.
 
-{% content-ref url="creacion-de-tours.md" %}
-[creacion-de-tours.md](creacion-de-tours.md)
-{% endcontent-ref %}
+**Formulario para creación de tutorial**
+
+Desde esta pestaña se gestionan los tutoriales de la plataforma Usuarios Online mediante la carga de videos previamente grabados y la configuración de los parámetros necesarios para su organización y distribución en la biblioteca de tutoriales.
+
+<table><thead><tr><th width="135">Campo</th><th width="121">Tipo de control</th><th>Descipción</th></tr></thead><tbody><tr><td><strong><code>Nombre del tutorial</code></strong></td><td>Texto</td><td>Nombre que tendrá el tutorial en la biblioteca de usuarios online.</td></tr><tr><td><strong><code>Descripción interna</code></strong></td><td>Texto</td><td>Breve contexto del contenido del tutotial.</td></tr><tr><td><strong><code>Contenido del video</code></strong></td><td>Selector</td><td><p>Establece si el video se subirá por medio de una URL externa o cargando el archivo directamente desde el dispositivo.</p><ul><li><p><strong>URL externa:</strong> Se desplegará el campo para ingresar la URL del video que tendrá el tutorial.<br></p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota</strong>: Cuándo se ingrese la URL es necesario seleccionar el botón <img src="../../../../.gitbook/assets/Button (3) (2).png" alt="" data-size="line"> para validar la URL ingresada y obtener la vista previa del video.</p></div><p></p></li><li><p><strong>Subir video:</strong> Se desplegará un pop-up con el gestor de archivos del dispositivo para seleccionar el video que tendrá el tutorial.</p><p></p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota</strong>: El video ingresado debe tener un peso máximo de 100 MB.</p></div></li></ul><p></p></td></tr><tr><td><strong><code>Estado del tutorial</code></strong></td><td>Botón</td><td>Establece si al momento de crear el tutorial se creará inicialmente activo o inactivo.</td></tr><tr><td><strong><code>Miniatura</code></strong></td><td>Archivo</td><td><p>Establece la imagen que se visualizará como miniatura del video.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota</strong>: La imagen debe tener un <strong>tamaño recomendado de 50 x 50 px</strong>, <strong>peso máximo de 200kb</strong>, y <strong>solo permite formatos JPG y PNG.</strong></p></div></td></tr><tr><td><strong><code>Vigencia</code></strong></td><td>Calendario</td><td>Rango de tiempo en el que el tutorial estará activo y visible en la biblioteca de tutoriales.</td></tr></tbody></table>
 
 ***
 
-#### Reglas y validaciones
+#### Visualizar tutoriales.
+
+El botón <img src="../../../../.gitbook/assets/Button (2) (5).png" alt="" data-size="line"> redirige a la pestaña **Vista previa**, donde se encuentra una biblioteca con los videos tutoriales activos en la plataforma, lo que permite visualizar cómo se presentan en Usuarios Online.
+
+{% hint style="danger" %}
+**Importante**: Actualmente, la biblioteca de tutoriales no está disponible en Usuarios Online. Por lo tanto, aunque los tutoriales se pueden crear, no es posible visualizarlos en la plataforma.
+{% endhint %}
 {% endtab %}
 {% endtabs %}
 
@@ -172,6 +180,6 @@ Al seleccionar el botón <img src="../../../../.gitbook/assets/Button (13).png" 
 
 <summary>🔽 Historial de versiones</summary>
 
-<table><thead><tr><th width="108">Versión</th><th width="130">Fecha</th><th width="140">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>14/10/2026</td><td>Ronald Peláez</td><td>Documento inicial (incluye <a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-32313?xpis=eyJicmlkZ2UiOiJzbWFydExpbmtzIiwiaWQiOiIxNzkyMDA2MDU5NjgxIiwic291cmNlIjoiamlyYS1KU1cifQ%3D%3D#icft=VSFT-32313">tours</a>, <a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-32312?xpis=eyJicmlkZ2UiOiJzbWFydExpbmtzIiwiaWQiOiIxNzkyMDA2MDczODc3Iiwic291cmNlIjoiamlyYS1KU1cifQ%3D%3D#icft=VSFT-32312">pasos </a>y <a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-33143#icft=VSFT-33143">tutoriales</a>).</td></tr></tbody></table>
+<table><thead><tr><th width="108">Versión</th><th width="130">Fecha</th><th width="140">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>14/10/2026</td><td>Ronald Peláez</td><td>Documento inicial <em>(incluye</em> <a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-32313?xpis=eyJicmlkZ2UiOiJzbWFydExpbmtzIiwiaWQiOiIxNzkyMDA2MDU5NjgxIiwic291cmNlIjoiamlyYS1KU1cifQ%3D%3D#icft=VSFT-32313"><em>tours</em></a><em>,</em> <a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-32312?xpis=eyJicmlkZ2UiOiJzbWFydExpbmtzIiwiaWQiOiIxNzkyMDA2MDczODc3Iiwic291cmNlIjoiamlyYS1KU1cifQ%3D%3D#icft=VSFT-32312"><em>pasos</em> </a><em>y</em> <a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-33143#icft=VSFT-33143"><em>tutoriales</em></a><em>).</em></td></tr></tbody></table>
 
 </details>

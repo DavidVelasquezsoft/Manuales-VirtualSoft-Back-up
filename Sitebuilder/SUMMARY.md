@@ -25,7 +25,6 @@
       * [Cupón de apuestas.](manual-de-usuario/como-ingresar/interacciones./cupon-de-apuestas..md)
       * [Tours](manual-de-usuario/como-ingresar/interacciones./tours/README.md)
         * [Creación de tours](manual-de-usuario/como-ingresar/interacciones./tours/creacion-de-tours.md)
-        * [Creación de tutoriales](manual-de-usuario/como-ingresar/interacciones./tours/creacion-de-tutoriales.md)
     * [Productos](manual-de-usuario/como-ingresar/productos/README.md)
       * [Orden y gestión de juegos](manual-de-usuario/como-ingresar/productos/orden-y-gestion-de-juegos.md)
       * [Activar productos](manual-de-usuario/como-ingresar/productos/activar-productos.md)
