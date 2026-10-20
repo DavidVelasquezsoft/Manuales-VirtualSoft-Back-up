@@ -101,6 +101,7 @@
     * [Premios Jackpot](manual-de-usuario-backoffice/reportes/premios-jackpot.md)
     * [Reporte de comisiones -](manual-de-usuario-backoffice/reportes/reporte-de-comisiones.md)
     * [Relación Usuario Aggregato](manual-de-usuario-backoffice/reportes/relacion-usuario-aggregato.md)
+  * [Documentos](manual-de-usuario-backoffice/documentos.md)
   * [Seguridad](manual-de-usuario-backoffice/seguridad/README.md)
     * [Reporte de listas de observados](manual-de-usuario-backoffice/seguridad/reporte-de-listas-de-observados.md)
     * [Verificar Cuenta](manual-de-usuario-backoffice/seguridad/verificar-cuenta.md)

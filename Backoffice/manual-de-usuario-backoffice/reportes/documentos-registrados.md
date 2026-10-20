@@ -70,6 +70,10 @@ Mediante el botón **Añadir nueva versión** se despliega una ventana emergente
 
 Mediante el botón **Añadir documento** se despliega una ventana emergente con el formulario para registrar un nuevo documento.
 
+{% hint style="warning" %}
+**Nota:** Los documentos registrados en este módulo quedan disponibles para los usuarios en la sección [**Documentos**](../documentos.md), donde cada uno visualiza únicamente los documentos activos que estén asignados a su perfil. Los documentos de tipo **Aprobación** se muestran además mediante la ventana emergente de aceptación al ingresar.
+{% endhint %}
+
 <table><thead><tr><th width="141.3333740234375">Campo</th><th width="119.111083984375">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Nombre</code></strong></td><td>Campo de texto</td><td>Nombre con el que se identificará el documento en la plataforma.</td></tr><tr><td><strong><code>Ruta</code></strong></td><td>Campo de texto</td><td>URL en la que se encuentra almacenado el documento.</td></tr><tr><td><strong><code>Versión</code></strong></td><td>Campo de texto</td><td>Número de versión del documento.</td></tr><tr><td><strong><code>Encriptación</code></strong></td><td>Campo de texto</td><td>Método de encriptación aplicado al documento.</td></tr><tr><td><strong><code>Tipo documento</code></strong></td><td>Lista desplegable</td><td><p>Categoría a la que pertenece el documento. Determina cómo se agrupa y se localiza dentro del módulo.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> El listado es ampliable: pueden habilitarse nuevas categorías sin afectar los documentos ya registrados.</p></div></td></tr></tbody></table>
 
 {% columns %}
@@ -90,7 +94,9 @@ Mediante el botón **Añadir documento** se despliega una ventana emergente con 
 {% endcolumn %}
 
 {% column width="66.66666666666667%" %}
-<table><thead><tr><th width="126">Tipo de acceso</th><th>Comportamiento</th></tr></thead><tbody><tr><td><strong>Informativo</strong></td><td>El documento queda disponible para que los perfiles autorizados lo consulten y lo descarguen cuando lo necesiten. No interrumpe el uso de la plataforma ni requiere ninguna acción por parte del usuario.</td></tr><tr><td><strong>Aprobación</strong></td><td>Al ingresar al BackOffice, el usuario visualiza una ventana emergente con el documento para que lo lea y lo acepte. La ventana <strong>continúa apareciendo en cada ingreso hasta que el usuario lo acepta</strong>.</td></tr></tbody></table>
+
+
+<table><thead><tr><th width="126">Tipo de acceso</th><th>Comportamiento</th></tr></thead><tbody><tr><td><strong>Informativo</strong></td><td>El documento <strong>no se presenta mediante ventana emergente</strong>. Queda disponible en la sección <a href="../documentos.md"><strong>Documentos</strong></a> para que los perfiles autorizados lo consulten y lo descarguen cuando lo necesiten, sin interrumpir el uso de la plataforma ni requerir ninguna aceptación.</td></tr><tr><td><strong>Aprobación</strong></td><td>Al ingresar al BackOffice, el usuario visualiza una ventana emergente con el documento para que lo lea y lo acepte. La ventana <strong>continúa apareciendo en cada ingreso hasta que el usuario lo acepta</strong>. Además, el documento queda disponible en la sección <a href="../documentos.md"><strong>Documentos</strong></a> para su consulta y descarga; la aceptación <strong>no lo oculta</strong> del listado.</td></tr></tbody></table>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -113,8 +119,10 @@ Mediante el botón **Añadir documento** se despliega una ventana emergente con 
 * Los formatos de archivo admitidos son **PDF, DOC, DOCX, JPG, JPEG** y **PNG**. Si el archivo cargado no corresponde a uno de ellos, la plataforma muestra un mensaje indicando que el formato no es válido.
 * El peso máximo permitido para el archivo corresponde al límite que el BackOffice admite para documentos e imágenes.
 * Al reemplazar el archivo de un documento de tipo **Aprobación**, la plataforma lo registra como una nueva versión y vuelve a solicitar la aceptación a los usuarios autorizados. Las aceptaciones de versiones anteriores se conservan en el historial de auditoría.
-* Antes de inactivar un documento, la plataforma solicita confirmación.
 * Al inactivarlo, el documento deja de estar disponible de inmediato para los perfiles autorizados, pero su información y su historial de auditoría se conservan.
+* Los documentos de tipo **Aprobación** se presentan mediante ventana emergente hasta su aceptación y, adicionalmente, quedan disponibles en la sección **Documentos**. La aceptación no los oculta del listado.
+* Un documento se muestra en la sección [**Documentos**](../documentos.md) únicamente si está **activo**, **asignado al perfil** del usuario y este cuenta con el **permiso de consulta**; la descarga requiere además el **permiso de descarga**.
+* Al **inactivar** un documento, deja de mostrarse tanto en la ventana emergente como en la sección **Documentos**.
 
 ***
 
