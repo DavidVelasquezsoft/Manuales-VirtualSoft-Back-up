@@ -62,12 +62,18 @@ Esta guía describe la API de Virtual Wallet de VirtualSoft, el servicio que per
 
 {% file src=".gitbook/assets/Manual_API_Virtual_Wallet_Aggregador_Sportbook.pdf" %}
 
+### Manual Lotobola integración
+
+Describe la configuración y el uso de la API del proveedor, incluyendo las operaciones de autenticación, apuestas, ganancias, devoluciones y consulta de saldo. Esta sección define la estructura de las peticiones y respuestas, los parámetros requeridos para cada operación y el mecanismo de autenticación mediante firmas HMAC, incluyendo la construcción del contenido a firmar y la generación de la firma requerida para cada petición.
+
+{% file src=".gitbook/assets/Manual_API_Lotobola_integración.pdf" %}
+
 ### Control de versiones
 
 <details>
 
 <summary>🔽 Historial de versiones</summary>
 
-<table><thead><tr><th width="99.66665649414062">Versión</th><th width="127.33331298828125">Fecha</th><th width="203.33331298828125">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>03/03/2026</td><td>Equipo documentación</td><td>Inserción de manuales de API.</td></tr><tr><td>1.1</td><td>20/04/2026</td><td>David Velasquez</td><td>Incorporación del manual de API GATEWAY</td></tr><tr><td>1.2</td><td>19/08/2026</td><td>David Velasquez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-30043">Actualización del manual consultas de retiros y depósitos de un usuario.</a></td></tr><tr><td>1.3</td><td>07/10/2026</td><td>David Velasquez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-26427#icft=VSFT-26427">Incorporación del manual Aggregador Sportbook</a></td></tr></tbody></table>
+<table><thead><tr><th width="99.66665649414062">Versión</th><th width="127.33331298828125">Fecha</th><th width="203.33331298828125">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>03/03/2026</td><td>Equipo documentación</td><td>Inserción de manuales de API.</td></tr><tr><td>1.1</td><td>20/04/2026</td><td>David Velasquez</td><td>Incorporación del manual de API GATEWAY</td></tr><tr><td>1.2</td><td>19/08/2026</td><td>David Velasquez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-30043">Actualización del manual consultas de retiros y depósitos de un usuario.</a></td></tr><tr><td>1.3</td><td>07/10/2026</td><td>David Velasquez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-26427#icft=VSFT-26427">Incorporación del manual Aggregador Sportbook</a></td></tr><tr><td>1.4</td><td>21/10/2026</td><td>David Velasquez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-33903#icft=VSFT-33903">Incorporación Manual Lotobola integración</a></td></tr></tbody></table>
 
 </details>
