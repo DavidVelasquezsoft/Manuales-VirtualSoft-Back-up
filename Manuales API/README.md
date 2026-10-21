@@ -60,7 +60,7 @@ Esta guía está dirigida a los desarrolladores de casino que necesiten interact
 
 Esta guía describe la API de Virtual Wallet de VirtualSoft, el servicio que permite al Sportbook comunicarse en tiempo real con la billetera del jugador. A través de ella se autentica al jugador, se consulta su saldo y se registran los movimientos de dinero asociados a sus apuestas deportivas: débito del valor apostado, crédito de premios, reembolsos, cashout y reversos (_rollback_) de transacciones.
 
-{% file src=".gitbook/assets/VIRTUAL_WALLET_API_Sporbook (1).pdf" %}
+{% file src=".gitbook/assets/Manual_API_Virtual_Wallet_Aggregador_Sportbook.pdf" %}
 
 ### Control de versiones
 
@@ -68,6 +68,6 @@ Esta guía describe la API de Virtual Wallet de VirtualSoft, el servicio que per
 
 <summary>🔽 Historial de versiones</summary>
 
-<table><thead><tr><th width="99.66665649414062">Versión</th><th width="127.33331298828125">Fecha</th><th width="203.33331298828125">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>03/03/2026</td><td>Equipo documentación</td><td>Inserción de manuales de API.</td></tr><tr><td>1.1</td><td>20/04/2026</td><td>David Velasquez</td><td>Incorporacion del manual de API GATEWAY</td></tr><tr><td>1.2</td><td>19/08/2026</td><td>David Velasquez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-30043">Actualización del manual consultas de retiros y depósitos de un usuario.</a></td></tr></tbody></table>
+<table><thead><tr><th width="99.66665649414062">Versión</th><th width="127.33331298828125">Fecha</th><th width="203.33331298828125">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>03/03/2026</td><td>Equipo documentación</td><td>Inserción de manuales de API.</td></tr><tr><td>1.1</td><td>20/04/2026</td><td>David Velasquez</td><td>Incorporación del manual de API GATEWAY</td></tr><tr><td>1.2</td><td>19/08/2026</td><td>David Velasquez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-30043">Actualización del manual consultas de retiros y depósitos de un usuario.</a></td></tr><tr><td>1.3</td><td>07/10/2026</td><td>David Velasquez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-26427#icft=VSFT-26427">Incorporación del manual Aggregador Sportbook</a></td></tr></tbody></table>
 
 </details>
