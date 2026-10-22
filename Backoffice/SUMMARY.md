@@ -172,6 +172,7 @@
     * [Países](manual-de-usuario-backoffice/herramientas/paises.md)
     * [Gestión de monedas](manual-de-usuario-backoffice/herramientas/gestion-de-monedas.md)
   * [Reportes de regulación](manual-de-usuario-backoffice/reportes-de-regulacion/README.md)
+    * [Reporte declaración de impuestos](manual-de-usuario-backoffice/reportes-de-regulacion/reporte-declaracion-de-impuestos.md)
     * [Informe Del Premio Mayor - Deportivas (8.7.6)](manual-de-usuario-backoffice/reportes-de-regulacion/informe-del-premio-mayor-deportivas-8.7.6.md)
     * [Reporte de rendimiento del juego (3.7.2)](manual-de-usuario-backoffice/reportes-de-regulacion/reporte-de-rendimiento-del-juego-3.7.2.md)
     * [Reporte de los ingresos consolidados del titular (Deportivas) (8.7.3)](manual-de-usuario-backoffice/reportes-de-regulacion/reporte-de-los-ingresos-consolidados-del-titular-deportivas-8.7.3.md)
