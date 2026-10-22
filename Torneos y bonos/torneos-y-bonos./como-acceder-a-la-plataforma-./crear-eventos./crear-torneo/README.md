@@ -15,11 +15,19 @@ description: >-
 
 ### &#x20;2. visualización general
 
-<figure><img src="../../../../.gitbook/assets/image (294).png" alt=""><figcaption><p>Figura #1: Captura de pantalla sección crear torneo.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (313).png" alt=""><figcaption><p>Figura #1: Captura de pantalla sección crear torneo.</p></figcaption></figure>
 
 ***
 
-### 3. Formulario para creación de torneos
+### 3. ¿Como crear torneos por medio de excel?
+
+Adicional a este formulario, los torneos también se pueden crear por medio de un archivo de excel. dicho archivo tiene las columnas con los campos necesarios (Descargar plantilla).
+
+
+
+***
+
+### 4. Formulario para creación de torneos
 
 <table><thead><tr><th width="133.111083984375">Campo</th><th width="104.1851806640625">Tipo de Control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Fecha inicial</code></strong></td><td>Fecha</td><td>Fecha en la que el torneo va a iniciar.</td></tr><tr><td><strong><code>Fecha final</code></strong></td><td>Fecha</td><td>Fecha en la que finalizará el torneo.</td></tr><tr><td><strong><code>Nombre</code></strong></td><td>Texto</td><td>Nombre que tendrá el torneo.</td></tr><tr><td><strong><code>Orden</code></strong></td><td>Numérico</td><td><p>Orden de prioridad que tendrá el torneo para ser reclamado.</p><div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p> <strong>Ejemplo</strong>: <em>Si Torneo A (1), B (2), C (3); para reclamar C, primero se deben completar A y B.</em></p></div></td></tr><tr><td><strong><code>Descripción</code></strong></td><td>Texto</td><td>Descripción breve del torneo.</td></tr><tr><td><strong><code>Tipo</code></strong></td><td>Selector</td><td><p>Define la accesibilidad del torneo y los usuarios que podrán visualizarlo y participar en él.<br></p><ul><li><strong>Público</strong>: Todos los usuarios de la plataforma podrán visualizar y participar en el torneo <em>(siempre que cumplan las condiciones configuradas)</em>.</li><li><p><strong>Privado</strong>: Solo podrán participar los usuarios definidos manualmente mediante configuraciones adicionales.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Al seleccionar el tipo <strong>“Privado”</strong>, se habilitarán los siguientes campos:</p><ul><li><strong><code>Jugadores</code>:</strong> Carga un archivo <strong>.CSV</strong> con los ID de los usuarios autorizados para participar en el torneo <em>(El funcionamiento de este campo es con el</em><a href="https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/reportes/relacion-usuario-aggregato"> <em>ID agregador de los usuarios</em></a><em>)</em>.</li><li><strong><code>Visto para todos los jugadores</code>:</strong> Define si el torneo será visible únicamente para los usuarios incluidos en el listado o para todos los usuarios de la plataforma.</li></ul></div></li></ul></td></tr><tr><td><strong><code>¿Usuario debe inscribirse?</code></strong></td><td>Selector</td><td><p>Define si el jugador debe inscribirse explícitamente en el torneo para que sus apuestas sumen puntos.<br>Si está <strong>habilitado</strong>, únicamente los usuarios suscritos acumulan puntos; si no, las <strong>apuestas cuentan automáticamente a todos</strong> los usuarios participantes.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Este campo aplica tanto para torneos <strong>públicos</strong> como <strong>privados</strong>.</p></div></td></tr><tr><td><strong><code>Es para?</code></strong> </td><td>Selector</td><td><p>Define la campaña a la cual estará asociado el sorteo.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong>  Cada campaña puede incluir reglas y validaciones específicas que condicionan los campos requeridos para la creación del torneo. Se recomienda revisar la sección <a href="https://virtualsoft.gitbook.io/manuales/torneos-y-bonos/torneos-y-bonos./como-acceder-a-la-plataforma-./crear-eventos./crear-torneo/flujos-de-creacion-de-torneos"><strong>Flujos de creación de torneos</strong></a> para conocer las particularidades de cada caso.</p></div></td></tr></tbody></table>
 
@@ -192,13 +200,13 @@ Este tipo de torneo asigna puntos a los jugadores según los depósitos realizad
 {% endtab %}
 {% endtabs %}
 
-#### 3.1 Moneda
+#### 4.1 Moneda
 
 Al seleccionar la moneda correspondiente al país, se muestran estas configuraciones:
 
 <table><thead><tr><th width="151.22216796875">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Mínimo valor de la apuesta</code></strong></td><td>Monto mínimo para que la apuesta sume puntos en el torneo.</td></tr><tr><td><strong><code>Tipo de Premio</code></strong></td><td>Selecciona y agrega diferentes premios y tipos de premios al torneo.</td></tr></tbody></table>
 
-#### 3.2 Ranking
+#### 4.2 Ranking
 
 {% hint style="warning" %}
 **Nota:** La sección **Ranking** no aparece cuando el Tipo de Ranking es **Ganancia neta** o **Cuotas**.
@@ -215,13 +223,13 @@ Para agregar más rangos, da clic en el botón "**Agregar**".
 * Si el tipo de ranking es **Montó Dinero** o **Líneas de apuestas**, esta sección se usa para definir cómo se traducen las apuestas o líneas en puntos según rangos.
 * Si es **Ganancia neta** o **Cuotas**, no se usan rangos externos y esta sección queda oculta.
 
-#### 3.3 Opciones avanzadas
+#### 4.3 Opciones avanzadas
 
 <table><thead><tr><th width="270.111083984375">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Código Global</code></strong></td><td>Código configurado desde BackOffice, asociado al bono, con límite máximo de usuarios.</td></tr><tr><td><strong><code>URL imagen principal</code></strong></td><td>URL de la imagen principal visible para todos los usuarios.</td></tr><tr><td><strong><code>Máximo de jugadores</code></strong></td><td>Cantidad máxima de jugadores permitidos en el torneo.</td></tr><tr><td><strong><code>Mínimo de jugadores</code></strong></td><td>Cantidad mínima de jugadores requerida para iniciar el torneo.</td></tr><tr><td><strong><code>Regiones de usuario</code></strong></td><td>Regiones donde el torneo estará disponible.</td></tr><tr><td><strong><code>Departamentos de usuario</code></strong></td><td>Departamentos donde estará habilitado el torneo.</td></tr><tr><td><strong><code>Ciudades de usuario</code></strong></td><td>Ciudades donde el torneo estará disponible.</td></tr><tr><td><strong><code>URL fondo</code></strong></td><td>URL de la imagen de fondo para el torneo.</td></tr><tr><td><strong><code>URL imagen central</code></strong></td><td>URL de la imagen central del torneo.</td></tr><tr><td><strong><code>URL imagen derecha</code></strong></td><td>URL de la imagen del lado derecho del torneo.</td></tr><tr><td><strong><code>URL fondo detallado</code></strong></td><td>URL del fondo interno del torneo.</td></tr><tr><td><strong><code>URL imagen central detallada</code></strong></td><td>URL de la imagen central detallada del torneo.</td></tr><tr><td><strong><code>URL imagen premios</code></strong></td><td>URL de la imagen que representa los premios del torneo.</td></tr></tbody></table>
 
 ***
 
-### 4. Validaciones y Reglas de Negocio
+### 5. Validaciones y Reglas de Negocio
 
 * La selección de verticales afecta dinámicamente los campos del formulario.
 * El orden define el flujo obligatorio de torneos; Un usuario no podrá reclamar un torneo de orden superior sin haber reclamado los anteriores.
@@ -233,13 +241,13 @@ Para agregar más rangos, da clic en el botón "**Agregar**".
 
 ***
 
-### 5. Glosario
+### 6. Glosario
 
 <table><thead><tr><th width="150">Término</th><th>Definición</th></tr></thead><tbody><tr><td><strong>Tipo Producto</strong></td><td>Categoría de juegos que aportan puntos en el torneo <em>(ej. Sportsbook, Casino, Virtuales).</em></td></tr><tr><td><strong>Ranking</strong></td><td>Mecanismo de puntuación que define cómo se otorgan los premios.</td></tr><tr><td><strong>Cuotas</strong></td><td>Nuevo tipo de ranking exclusivo para Sportsbook. Calcula puntos en base a las cuotas ganadas.</td></tr><tr><td><strong>Valor Punto</strong></td><td>Factor de multiplicación aplicado a la cuota para determinar los puntos ganados en torneos tipo "<strong>Cuotas</strong>".</td></tr></tbody></table>
 
 ***
 
-### 6. Control de Versiones
+### 7. Control de Versiones
 
 <details>
 
