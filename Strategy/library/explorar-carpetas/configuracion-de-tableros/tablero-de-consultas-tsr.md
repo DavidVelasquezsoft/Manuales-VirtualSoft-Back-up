@@ -23,7 +23,7 @@ layout:
 
 # Tablero de consultas TSR
 
-haEste tablero presenta información general consolidada de todas las [campañas](https://virtualsoft.gitbook.io/plantillas/glosario#campana) de los diferentes partners, centralizando la información en un solo lugar.
+<mark style="color:$info;">Este tablero presenta información general consolidada de todas las</mark> [<mark style="color:$info;">campañas</mark>](https://virtualsoft.gitbook.io/plantillas/glosario#campana) <mark style="color:$info;">de los diferentes partners, centralizando la información en un solo lugar.</mark>
 
 ### 1. Acceso al Módulo
 

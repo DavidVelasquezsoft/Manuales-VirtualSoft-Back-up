@@ -53,4 +53,5 @@
       * [Reporte de agencias propias Ecuabet](library/explorar-carpetas/configuracion-de-tableros/reporte-de-agencias-propias-ecuabet.md)
       * [Tablero de consultas TSR](library/explorar-carpetas/configuracion-de-tableros/tablero-de-consultas-tsr.md)
       * [Dashboard - Retail](library/explorar-carpetas/configuracion-de-tableros/dashboard-retail-1.md)
+      * [Rondas casino](library/explorar-carpetas/configuracion-de-tableros/rondas-casino.md)
 * [Workstation](workstation.md)
