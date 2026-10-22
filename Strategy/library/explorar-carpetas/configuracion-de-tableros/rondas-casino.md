@@ -23,7 +23,7 @@ layout:
 
 # Rondas casino
 
-Este tablero presenta información general consolidada de todas las [campañas](https://virtualsoft.gitbook.io/plantillas/glosario#campana) de los diferentes partners, centralizando la información en un solo lugar.
+<mark style="color:$info;">Este tablero presenta la información general de las rondas realizas por los usuarios en la vertical casino.</mark>
 
 ### 1. Acceso al Módulo
 
@@ -51,9 +51,9 @@ Antes de ingresar a este tablero, es necesario completar los filtros que se visu
 
 ### 4. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (263).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (264).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Dashboard consulta de rondas casino.</p></figcaption></figure>
 
-### 4. Contenido del dashboard
+### 5. Contenido del dashboard
 
 Este dashboard se compone de una tabla que centraliza la información de las rondas de casino filtradas anteriormente.
 
@@ -61,7 +61,7 @@ Este dashboard se compone de una tabla que centraliza la información de las ron
 
 ***
 
-### 5. Control de Versiones
+### 6. Control de Versiones
 
 <details>
 
