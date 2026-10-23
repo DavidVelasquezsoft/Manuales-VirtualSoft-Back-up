@@ -19,11 +19,13 @@ description: >-
 
 ***
 
-### 3. ¿Como crear torneos por medio de excel?
+### 3. ¿Cómo crear torneos por medio de excel?
 
-Adicional a este formulario, los torneos también se pueden crear por medio de un archivo de excel. dicho archivo tiene las columnas con los campos necesarios (Descargar plantilla).
+Adicional a este formulario, los torneos se pueden crear mediante la carga de un archivo de Excel que contiene las columnas correspondientes a los campos requeridos para su configuración.
 
+{% file src="../../../../.gitbook/assets/Creacion Torneos.xlsx" %}
 
+Al hacer clic en el ícono de carga (↑), se abrirá una ventana del explorador de archivos para seleccionar el archivo de Excel previamente diligenciado. Una vez cargado, los campos del formulario se completarán automáticamente con la información contenida en el archivo.
 
 ***
 
