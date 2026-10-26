@@ -85,6 +85,7 @@
     * [PLAYSON](manual-integraciones-por-proveedor./proveedores-con-configuraciones-para-bonos./playson.md)
     * [LEPRECOINS](manual-integraciones-por-proveedor./proveedores-con-configuraciones-para-bonos./leprecoins.md)
     * [GAME2SLOT](manual-integraciones-por-proveedor./proveedores-con-configuraciones-para-bonos./game2slot.md)
+    * [HACKSAW](manual-integraciones-por-proveedor./proveedores-con-configuraciones-para-bonos./hacksaw.md)
 * [Capacitación del equipo de integraciones en Altenar](capacitacion-del-equipo-de-integraciones-en-altenar/README.md)
   * [API externa para creación de bonos](capacitacion-del-equipo-de-integraciones-en-altenar/api-externa-para-creacion-de-bonos/README.md)
     * [Métodos](capacitacion-del-equipo-de-integraciones-en-altenar/api-externa-para-creacion-de-bonos/metodos/README.md)
