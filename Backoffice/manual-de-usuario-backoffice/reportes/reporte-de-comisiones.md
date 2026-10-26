@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Reporte de comisiones -
@@ -35,13 +37,13 @@ layout:
 
 ***
 
-### 3. Funcionalidades
+### 3. Acciones disponibles
 
-<table><thead><tr><th width="163">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Filtrar comisiones</code></strong></td><td>Permite aplicar filtros de búsqueda para obtener información más detallada.</td></tr><tr><td><strong><code>Visualizar tabla de resultados</code></strong></td><td>Muestra la información de las comisiones pagadas o pendientes según los filtros seleccionados.</td></tr><tr><td><strong><code>Exportar resultados</code></strong></td><td>Genera un archivo en formato Excel con los datos obtenidos de la consulta.</td></tr></tbody></table>
+<table><thead><tr><th width="163">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Filtrar comisiones</strong></td><td>Permite aplicar filtros de búsqueda para obtener información más detallada.</td></tr><tr><td><strong>Visualizar tabla de resultados</strong></td><td>Muestra la información de las comisiones pagadas o pendientes según los filtros seleccionados.</td></tr><tr><td><strong>Exportar resultados</strong></td><td>Genera un archivo en formato Excel con los datos obtenidos de la consulta.</td></tr></tbody></table>
 
 ***
 
-#### **🔎 3.1 Filtros de búsqueda**
+### **4. Filtros de búsqueda**
 
 Los filtros permiten segmentar la información del reporte según distintos criterios operativos y comerciales.
 
@@ -49,17 +51,17 @@ Los filtros permiten segmentar la información del reporte según distintos crit
 
 ***
 
-#### **🧾 3.2 Resultado de la Consulta**
+#### **4.1 Resultado de la Consulta**
 
 La consulta generará una tabla basada en los filtros aplicados, la cual presenta columnas principales y secundarias que organizan la información de forma clara y estructurada.
 
-<table><thead><tr><th width="142">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Click to configure</code></strong></td><td>Abre una ventana emergente que permite personalizar la visualización de la tabla, organizando la información mediante parámetros específicos, los cuales pueden configurarse como filtros, columnas, filas o valores, según las necesidades del usuario.</td></tr><tr><td><strong><code>Notas de retiro Punto Venta</code></strong></td><td>Esta columna agrupa la información correspondiente sobre las notas de retiro generadas por cada punto de venta.</td></tr><tr><td><strong><code>Depósitos afiliados</code></strong></td><td>Agrupa los reportes relacionados con las comisiones obtenidas por los depósitos realizados por medio de afiliados.</td></tr><tr><td><strong><code>(SC#) Casino NGR Afiliados</code></strong></td><td>Agrupa la información del <a href="https://virtualsoft.gitbook.io/untitled/glosario/#net-gaming-revenue-ngr">Net Gaming Revenue</a> (NGR) generado por los afiliados en juegos de casino.</td></tr><tr><td><strong><code>(SC#) Sportbook NGR Afiliados con impuesto del 12%</code></strong></td><td>Agrupa la información del <a href="https://virtualsoft.gitbook.io/untitled/glosario/#net-gaming-revenue-ngr">NGR</a> generado por afiliados en apuestas deportivas, considerando la deducción del 12% por impuestos, y mostrando las métricas correspondientes.</td></tr><tr><td><strong><code>(SC#) Sportbook NGR Afiliados</code></strong></td><td>Agrupa la información del <a href="https://virtualsoft.gitbook.io/untitled/glosario/#net-gaming-revenue-ngr">Net Gaming Revenue (NGR)</a> generado por afiliados en apuestas deportivas sin aplicar deducciones por impuestos, utilizando las métricas estándar del reporte.</td></tr><tr><td>(SC#) Sportbook GGR Afiliados</td><td>Agrupa la información del <a href="https://virtualsoft.gitbook.io/untitled/glosario/#ggr">Gross Gaming Revenue (GGR)</a> generado por afiliados en apuestas deportivas, mostrando las métricas estándar del reporte.</td></tr><tr><td>Total</td><td>Consolida el total acumulado de todas las métricas mostradas en la tabla, de acuerdo con los filtros aplicados en la consulta.</td></tr></tbody></table>
+<table><thead><tr><th width="142">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Click to configure</code></strong></td><td>Abre una ventana emergente que permite personalizar la visualización de la tabla, organizando la información mediante parámetros específicos, los cuales pueden configurarse como filtros, columnas, filas o valores, según las necesidades del usuario.</td></tr><tr><td><strong><code>Notas de retiro Punto Venta</code></strong></td><td>Esta columna agrupa la información correspondiente sobre las notas de retiro generadas por cada punto de venta.</td></tr><tr><td><strong><code>Depósitos afiliados</code></strong></td><td>Agrupa los reportes relacionados con las comisiones obtenidas por los depósitos realizados por medio de afiliados.</td></tr><tr><td><strong><code>(SC#) Casino NGR Afiliados</code></strong></td><td>Agrupa la información del <a href="https://virtualsoft.gitbook.io/untitled/glosario/#net-gaming-revenue-ngr">Net Gaming Revenue</a> (NGR) generado por los afiliados en juegos de casino.</td></tr><tr><td><strong><code>(SC#) Sportbook NGR Afiliados con impuesto del 12%</code></strong></td><td>Agrupa la información del <a href="https://virtualsoft.gitbook.io/untitled/glosario/#net-gaming-revenue-ngr">NGR</a> generado por afiliados en apuestas deportivas, considerando la deducción del 12% por impuestos, y mostrando las métricas correspondientes.</td></tr><tr><td><strong><code>(SC#) Sportbook NGR Afiliados</code></strong></td><td>Agrupa la información del <a href="https://virtualsoft.gitbook.io/untitled/glosario/#net-gaming-revenue-ngr">Net Gaming Revenue (NGR)</a> generado por afiliados en apuestas deportivas sin aplicar deducciones por impuestos, utilizando las métricas estándar del reporte.</td></tr><tr><td><strong><code>(SC#) Sportbook GGR Afiliados</code></strong></td><td>Agrupa la información del <a href="https://virtualsoft.gitbook.io/untitled/glosario/#ggr">Gross Gaming Revenue (GGR)</a> generado por afiliados en apuestas deportivas, mostrando las métricas estándar del reporte.</td></tr><tr><td><strong><code>Total</code></strong></td><td>Consolida el total acumulado de todas las métricas mostradas en la tabla, de acuerdo con los filtros aplicados en la consulta.</td></tr></tbody></table>
 
 En la parte inferior de la tabla se presenta una **fila de totales**, donde se consolidan todos los valores del período consultado de cada columna en el reporte.
 
 ***
 
-### 5.✅ Validaciones y Reglas de Negocio
+### 5.Validaciones y Reglas de Negocio
 
 * El reporte muestra únicamente registros que **generan comisión**.
 * Los valores negativos en la columna **Monto** indican escenarios donde los premios superan las apuestas.
@@ -74,6 +76,12 @@ Los porcentajes de impuestos se configuran desde [esta sección del BackOffice](
 
 ***
 
-### 7.🕒 Control de Versiones
+### 7. Control de Versiones
 
-<table><thead><tr><th width="106">Versión</th><th width="129">Fecha</th><th width="149">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>2025-12-22</td><td>Ronald Peláez</td><td>Documentación inicial.</td></tr></tbody></table>
+<details>
+
+<summary></summary>
+
+<table><thead><tr><th width="106">Versión</th><th width="129">Fecha</th><th width="149">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>2025-12-22</td><td>Ronald Peláez</td><td>Documentación inicial.</td></tr><tr><td>1.1</td><td>2026-10-26</td><td>Ronald Peláez</td><td>Ajuste en numeración</td></tr></tbody></table>
+
+</details>
