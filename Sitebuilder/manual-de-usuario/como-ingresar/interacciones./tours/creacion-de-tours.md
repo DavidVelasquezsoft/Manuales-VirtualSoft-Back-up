@@ -39,7 +39,7 @@ En este paso se configura la información básica y los parámetros generales de
 
 #### Visualización
 
-<figure><img src="../../../../.gitbook/assets/image (519).png" alt=""><figcaption><p>Figura #1: Captura de pantalla paso 1.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (522).png" alt=""><figcaption><p>Figura #1: Captura de pantalla creación de Tour - paso 1.</p></figcaption></figure>
 
 **Datos generales**
 
@@ -55,9 +55,9 @@ Esta es la información general sobre el tour.
 
 En este paso se configuran los criterios que determinan a qué usuarios se les mostrará el tour en la plataforma.
 
-Visualización
+#### Visualización
 
-<figure><img src="../../../../.gitbook/assets/image (520).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (523).png" alt=""><figcaption><p>Figura #1: Captura de pantalla creación de Tour - paso 2.</p></figcaption></figure>
 
 #### Público objetivo
 
@@ -73,43 +73,65 @@ En este paso se configura la recompensa que tendrá el usuario al finalizar el t
 
 #### Visualización
 
-<figure><img src="../../../../.gitbook/assets/image (521).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (524).png" alt=""><figcaption><p>Figura #1: Captura de pantalla creación de Tour - paso 2.</p></figcaption></figure>
 
-**Configuración de recompensa create**
+**Configuración de recompensa**
 
-<table><thead><tr><th width="142">Configuració</th><th width="124">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>El tour entrega recompensa</code></strong></td><td>Interruptor</td><td><p>Establece si el tour entregará o no recompensa.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Notas</strong>: </p><ul><li>Cuando esta opción se active, se habilitará la opción para seleccionar el tipo de bono que se dará (solo están dispobles los bonos freebet, FreeSpin, Bonos no depósitos).</li><li>También se habilitará la lista desplegable para seleccionar el bono previamente creado.</li><li>Para que un bono aparezca en lista de bonos, en el campo "Es para?" en el formulario de creación de bonos, debe seleccionar "tours".</li></ul></div></td></tr><tr><td><strong><code>Tipo de modal final que deseas configurar.</code></strong></td><td>Selector</td><td><p>Establece qué tipo de modal se va a configurar para que el usuario vea al finalizar el tour, cada modal tendrá configuraciones diferentes. </p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota</strong>: Por defecto en esta configuración siempre estará seleccionada la opción "<strong>Recompensa</strong>".</p></div></td></tr></tbody></table>
+<table><thead><tr><th width="142">Configuració</th><th width="124">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>El tour entrega recompensa</code></strong></td><td>Interruptor</td><td><p>Establece si el tour entregará o no recompensa.</p><ul><li><strong>Habilitado</strong>: Se desplegarán las configuraciones de bonos y el modal de recompensa.</li><li><strong>Deshabilitado</strong>: No se exigirá este paso para la creación del tour.</li></ul><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota</strong>: Para que un bono aparezca en lista de bonos, en el campo "¿<strong>Es para</strong>?" en el formulario de creación de bonos, debe seleccionar "<strong>tours</strong>".</p></div></td></tr></tbody></table>
 
-**Configurar modal final**
+**Tipo de modal final**
+
+Establece qué tipo de modal se va a configurar para que el usuario vea al finalizar el tour, cada modal tendrá configuraciones diferentes.&#x20;
+
+{% hint style="warning" %}
+**Nota**: Por defecto en esta configuración siempre estará seleccionada la opción "**Recompensa**"
+{% endhint %}
 
 {% tabs %}
 {% tab title="Recompensa" %}
-El modal recompensa tiene una visual predeterminada, en este modal están disponibles las siguientes configuraciones
+El pop recompensa se complementa de diferentes tipos de textos, imágenes y botones y un solo botón.
 
-<table><thead><tr><th width="136">Configuración</th><th width="121">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Título del modal</code></strong></td><td>Texto</td><td>Título principal que el usuario verá en el modal de recompensa</td></tr><tr><td><strong><code>Mensaje principal</code></strong></td><td>Texto</td><td>Mensaje secundario que el usuario verá en el modal de recompensa</td></tr><tr><td><strong><code>Texto secundario</code></strong></td><td>Texto</td><td>Texto adicional que el usuario visualizará en otro párrafo en el modal de recompensa</td></tr><tr><td><strong><code>Texto del botón</code></strong></td><td>Texto</td><td>Texto que tendrá el botón que visualizará el usuario en el modal</td></tr><tr><td><strong><code>Activar imagen o ilustración</code></strong></td><td>Interruptor</td><td><p>Establece si el pop-up de recompensa tendrá una imagen.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota</strong>: Cuándo se activa esta opción, se habilitará la configuración Imagen o ilustración, en la cuál se debe ingresar la imagen que tendrá el pop-up</p></div></td></tr></tbody></table>
+<table><thead><tr><th width="136">Configuración</th><th width="121">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Título del modal</code></strong></td><td>Texto</td><td>Título principal que el usuario verá en el modal de recompensa</td></tr><tr><td><strong><code>Mensaje principal</code></strong></td><td>Texto</td><td>Mensaje secundario que el usuario verá en el modal de recompensa</td></tr><tr><td><strong><code>Texto secundario</code></strong></td><td>Texto</td><td>Texto adicional que el usuario visualizará en otro párrafo en el modal de recompensa</td></tr><tr><td><strong><code>Texto del botón</code></strong></td><td>Texto</td><td>Texto que tendrá el botón que visualizará el usuario en el modal</td></tr><tr><td><strong><code>Activar imagen o ilustración</code></strong></td><td>Interruptor</td><td><p>Establece si el pop-up de recompensa tendrá una imagen.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota</strong>: Cuándo se activa esta opción, se habilitará la configuración <strong><code>Imagen o ilustración</code></strong>, en la cuál se debe ingresar la imagen que tendrá el pop-up</p></div></td></tr></tbody></table>
 {% endtab %}
 
-{% tab title="Second Tab" %}
-(Agregar descripción)
+{% tab title="Display" %}
+El pop-up display tiene un diseño combinado entre imagen y texto, con la posibilidad de agregar una cantidad de botones determinada.
 
-<table><thead><tr><th width="139">Configuración</th><th width="121">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Agregar imagen</code></strong></td><td>Cargar archivo</td><td></td></tr><tr><td><strong><code>Título</code></strong></td><td>Texto</td><td></td></tr><tr><td><strong><code>Información</code></strong></td><td>Texto</td><td></td></tr><tr><td><strong><code>Configuración de botones</code></strong></td><td>Formulario</td><td><p>Para el modal display se posible crearlo con varios botones (máximo 3), desde aquí se pueden configurar su orden arrastrándolo con  <img src="../../../../.gitbook/assets/icon_drag_indicator (2).png" alt=""> o eliminar los botones creados con  <img src="../../../../.gitbook/assets/Vector (4) (1).png" alt="" data-size="original">, con los siguientes campos disponibles<br> </p><ul><li>Texto del botón: Texto que tendrá el botón que verá el usuario.</li><li>URL de redirección: URL donde será redirigido el usuario al dar Click al botón.  </li></ul><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Los botones tienen una prioridad predeterminada, en caso de crear 3 botones, el de la izquierda será acción primaria, el del centro secundaria y el derecho terciaria, aunque se cambie el orden de los botones, siempre tendrá la misma prioridad según la ubicación.</p></div></td></tr></tbody></table>
+<table><thead><tr><th width="139">Configuración</th><th width="121">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Agregar imagen</code></strong></td><td>Cargar archivo</td><td>Agrega la imagen principal que tendrá el pop-up</td></tr><tr><td><strong><code>Título</code></strong></td><td>Texto</td><td>Agrega el título que tendrá el pop-up.</td></tr><tr><td><strong><code>Información</code></strong></td><td>Texto</td><td>Párrafo que se visualizará en el pop-up de recompensa.</td></tr><tr><td><strong><code>Configuración de botones</code></strong></td><td>Formulario</td><td><p>Este pop-up es posible crearlo con varios botones <em>(máximo 3)</em>, desde aquí se pueden configurar su orden arrastrándolo con  <img src="../../../../.gitbook/assets/icon_drag_indicator (2).png" alt=""> o eliminar los botones creados con  <img src="../../../../.gitbook/assets/Vector (4) (1).png" alt="" data-size="original">, los botones se configuran utillizando lo siguientes campos:<br> </p><ul><li><strong>Texto del botón</strong>: Texto que tendrá el botón que verá el usuario.</li><li><strong>URL de redirección</strong>: URL donde será redirigido el usuario al dar Click al botón.  </li></ul><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Los botones tienen una prioridad predeterminada, en caso de crear 3 botones, el de la izquierda será acción primaria, el del centro secundaria y el derecho terciario, aunque se cambie el orden de los botones, siempre tendrá la misma prioridad según la ubicación.</p></div></td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Texto" %}
+El pop-up texto solo se conforma de textos y botones.
 
+<table><thead><tr><th width="125">Configuración</th><th width="121">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Título</code></strong></td><td>Texto</td><td>Agrega el título que tendrá el pop-up.</td></tr><tr><td><strong><code>Información</code></strong></td><td>Texto</td><td>Párrafo que se visualizará en el pop-up de recompensa.</td></tr><tr><td><strong><code>Botón</code></strong></td><td>Formulario</td><td><p>Este pop-up es posible crearlo con varios botones <em>(máximo 3)</em>, desde aquí se pueden configurar su orden arrastrándolo con  <img src="../../../../.gitbook/assets/icon_drag_indicator (2).png" alt=""> o eliminar los botones creados con  <img src="../../../../.gitbook/assets/Vector (4) (1).png" alt="" data-size="original">, los botones se configuran utillizando lo siguientes campos:<br> </p><ul><li><strong>Texto del botón</strong>: Texto que tendrá el botón que verá el usuario.</li><li><strong>URL de redirección</strong>: URL donde será redirigido el usuario al dar Click al botón.  </li></ul><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Los botones tienen una prioridad predeterminada, en caso de crear 3 botones, el de la izquierda será acción primaria, el del centro secundaria y el derecho terciario, aunque se cambie el orden de los botones, siempre tendrá la misma prioridad según la ubicación.</p></div></td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Visual" %}
+El pop visual tiene un diseño más enfocado en imágenes.
 
+<table><thead><tr><th width="125">Configuración</th><th width="121">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Agregar imagen</code></strong></td><td>Archivo</td><td>Imagen principal que tendrá el pop-up</td></tr><tr><td><strong><code>Título</code></strong></td><td>Texto</td><td>Agrega el título que tendrá el pop-up.</td></tr><tr><td><strong><code>Botón</code></strong></td><td>Formulario</td><td><p>Este pop-up es posible crearlo con varios botones <em>(máximo 3)</em>, desde aquí se pueden configurar su orden arrastrándolo con  <img src="../../../../.gitbook/assets/icon_drag_indicator (2).png" alt=""> o eliminar los botones creados con  <img src="../../../../.gitbook/assets/Vector (4) (1).png" alt="" data-size="original">, los botones se configuran utillizando lo siguientes campos:<br> </p><ul><li><strong>Texto del botón</strong>: Texto que tendrá el botón que verá el usuario.</li><li><strong>URL de redirección</strong>: URL donde será redirigido el usuario al dar Click al botón.  </li></ul><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Los botones tienen una prioridad predeterminada, en caso de crear 3 botones, el de la izquierda será acción primaria, el del centro secundaria y el derecho terciario, aunque se cambie el orden de los botones, siempre tendrá la misma prioridad según la ubicación.</p></div></td></tr></tbody></table>
 {% endtab %}
 {% endtabs %}
+
+Vista previa del modal final
+
+Ofrece la opción de visualizar cómo se verá el pop-up configurado, con la opción de cambiar la vista, ya sea desde escritorio o desde dispositivo móvil.
 {% endtab %}
 
 {% tab title="Paso 4" %}
 
+
+Visualización
+
+<figure><img src="../../../../.gitbook/assets/image (525).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Paso 5" %}
 
+
+Visualización
+
+<figure><img src="../../../../.gitbook/assets/image (526).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
