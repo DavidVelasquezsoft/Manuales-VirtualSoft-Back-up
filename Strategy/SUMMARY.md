@@ -54,4 +54,5 @@
       * [Tablero de consultas TSR](library/explorar-carpetas/configuracion-de-tableros/tablero-de-consultas-tsr.md)
       * [Dashboard - Retail](library/explorar-carpetas/configuracion-de-tableros/dashboard-retail-1.md)
       * [Rondas casino](library/explorar-carpetas/configuracion-de-tableros/rondas-casino.md)
+      * [Seguimiento de casos GEP](library/explorar-carpetas/configuracion-de-tableros/seguimiento-de-casos-gep.md)
 * [Workstation](workstation.md)
