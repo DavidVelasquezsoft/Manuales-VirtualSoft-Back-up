@@ -332,6 +332,10 @@ Valor numérico que representa la probabilidad implícita de un resultado deport
 
 &#x20;Persona encargada de gestionar y ejecutar procesos dentro de la plataforma.
 
+*   #### OTP:
+
+    Código de un solo uso utilizado para verificar la identidad de un usuario y autorizar la continuidad de un proceso que requiere autenticación adicional.
+
 ## P
 
 * #### Partner:
