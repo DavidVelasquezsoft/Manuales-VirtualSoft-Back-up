@@ -13,7 +13,7 @@ description: >-
 
 ***
 
-### 🖼️ 2. Visualización general <a href="#id-4.-visualizacion" id="id-4.-visualizacion"></a>
+### 2. Visualización general <a href="#id-4.-visualizacion" id="id-4.-visualizacion"></a>
 
 <figure><img src="../../.gitbook/assets/image (311).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección verificar cuenta.</p></figcaption></figure>
 
@@ -25,8 +25,15 @@ Al seleccionarlo, el sistema te redirige a una **plataforma externa especializad
 
 ***
 
-### 🕒 4. Control de Versiones
+### 4. Control de Versiones
 
-| Versión | Fecha      | Autor           | Cambios Realizados |
-| ------- | ---------- | --------------- | ------------------ |
-| 1.0     | 2025/12/10 | David velasquez | Documento inicial  |
+<details>
+
+<summary></summary>
+
+| Versión | Fecha      | Autor           | Cambios Realizados     |
+| ------- | ---------- | --------------- | ---------------------- |
+| 1.0     | 2025/12/10 | David velasquez | Documento inicial      |
+| 1.1     | 2026/10/26 | Ronald Peláez   | Ajustes en numeración. |
+
+</details>
