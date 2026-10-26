@@ -52,3 +52,7 @@ Cada opción tiene un propósito específico estas secciones son:
 {% content-ref url="contingencias-totales.md" %}
 [contingencias-totales.md](contingencias-totales.md)
 {% endcontent-ref %}
+
+{% content-ref url="perfiles.md" %}
+[perfiles.md](perfiles.md)
+{% endcontent-ref %}
