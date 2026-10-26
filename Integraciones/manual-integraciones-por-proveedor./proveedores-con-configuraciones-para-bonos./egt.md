@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # EGT
@@ -47,7 +49,7 @@ Para consultar el detalle completo de los demás campos y la configuración gene
 
 <summary>🔽 Configuración de moneda</summary>
 
-<table><thead><tr><th width="112">Campo</th><th width="146">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Valor por ronda</code></strong></td><td>Numérico</td><td><p>Monto asignado a cada giro del juego, al configurar esta opción, es crucial verificar previamente el monto de apuesta permitido en los juegos seleccionados, ya que este debe coincidir exactamente con el valor ingresado en este campo.</p><div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p><strong>Ejemplo:</strong> Si se configura un valor por ronda de <strong>10</strong>, pero el juego únicamente permite una apuesta máxima de <strong>5</strong>, el bono no funcionará debido a que los valores no coinciden.</p></div></td></tr><tr><td><strong><code>Rondas gratuitas</code></strong></td><td>Numérico</td><td>Define la cantidad de rondas gratuitas que recibirá el usuario con este bono.</td></tr><tr><td><strong><code>Jugadores</code></strong></td><td>Botón "Seleccionar archivo"</td><td>Permite cargar un archivo en formato <strong>CSV</strong> con los ID de los jugadores que recibirán el bono. El sistema procesará automáticamente el archivo y asignará el bono a los usuarios incluidos.</td></tr></tbody></table>
+<table><thead><tr><th width="112">Campo</th><th width="146">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Valor por ronda</code></strong></td><td>Numérico</td><td><p>Monto asignado a cada giro del juego.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Notas</strong>: </p><ul><li>El valor ingresado debe corresponder a la <strong>cuota deseada</strong> <strong>multiplicada por 100</strong>. </li><li>Si se ingresa <strong>0</strong>, se utilizará la cuota mínima del juego. </li><li>Si el valor ingresado no corresponde a una cuota disponible, se asignará la cuota inferior más cercana.</li></ul><p><strong>Ejemplo</strong>: Para asignar una cuota de <strong>2.4</strong>, ingresar <strong>240</strong> <em>(2.4 × 100)</em>. Si se ingresa una cuota de <strong>3.0</strong> <em>(300)</em>  y no está disponible, se utilizará la cuota inferior más cercana permitida por el juego.</p></div></td></tr><tr><td><strong><code>Rondas gratuitas</code></strong></td><td>Numérico</td><td>Define la cantidad de rondas gratuitas que recibirá el usuario con este bono.</td></tr><tr><td><strong><code>Jugadores</code></strong></td><td>Botón "Seleccionar archivo"</td><td>Permite cargar un archivo en formato <strong>CSV</strong> con los ID de los jugadores que recibirán el bono. El sistema procesará automáticamente el archivo y asignará el bono a los usuarios incluidos.</td></tr></tbody></table>
 
 <a href="https://virtualsoft.gitbook.io/manuales/integraciones./manual-integraciones-por-proveedor./proveedores-con-configuraciones-para-bonos./egt#id-3.-formulario-para-creacion-de-bonos-egt" class="button secondary">Regresar</a>
 
