@@ -1,6 +1,6 @@
 # Reporte declaración de impuestos
 
-<mark style="color:$info;">Administra los porcentajes con los que se distribuyen los valores de Apuestas y Premios entre Deportivas y Casino para la operación. Permitiendo consultar y actualizar directamente por período mensual, y el resultado alimenta la reportería regulatoria.</mark>
+<mark style="color:$info;">Administra los porcentajes con los que se distribuyen los valores de Apuestas y Premios entre Deportivas y Casino para la operación. Permitiendo consultar y actualizar directamente por período mensual, y el resultado alimenta a los reportes de regulación.</mark>
 
 ### 1. Acceso al Módulo
 
@@ -30,15 +30,15 @@
 
 ### 4. Filtros
 
-<table><thead><tr><th width="152">Campo</th><th width="152">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Fecha</code></strong></td><td>Calendario</td><td>Consulta el mes en especifico que se va revisar la configuración de porcentajes.</td></tr></tbody></table>
+<table><thead><tr><th width="152">Campo</th><th width="152">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Fecha</code></strong></td><td>Calendario</td><td>Consulta el mes en específico que se va revisar la configuración de porcentajes.</td></tr></tbody></table>
 
 ***
 
 ### 5. Resultados de consulta
 
-Al ejecutar la consulta, en la parte inferior de la pantalla se despliega una tabla con la configuración registrada para el período consultado.
+Al ejecutar la consulta se despliega la configuración registrada para el período. El sistema registra un **total de dinero apostado** y un **total de dinero pagado en premios**; estos porcentajes definen qué parte de cada total corresponde a **deportivas** y qué parte a **casino**. Por eso funcionan en dos pares, y cada par suma siempre el **100%**.
 
-<table><thead><tr><th width="212">Campo</th><th width="104">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Editar</code></strong> <i class="fa-pencil">:pencil:</i></td><td>Acción</td><td>Despliega el formulario con los porcentajes registrados para el período, permitiendo modificarlos.</td></tr><tr><td><strong><code>ID</code></strong></td><td>Numérico</td><td>Identificador único de la configuración registrada.</td></tr><tr><td><strong><code>Apuestas Deportivas</code></strong></td><td>Numérico</td><td>Porcentaje del total apostado que se asigna a la vertical de deportivas.</td></tr><tr><td><strong><code>Apuestas Casino</code></strong></td><td>Numérico</td><td>Porcentaje del total apostado que se asigna a la vertical de casino.</td></tr><tr><td><strong><code>Premios Deportivas</code></strong></td><td>Numérico</td><td>Porcentaje del total pagado en premios que se asigna a la vertical de deportivas.</td></tr><tr><td><strong><code>Premios Casino</code></strong></td><td>Numérico</td><td>Porcentaje del total pagado en premios que se asigna a la vertical de casino.</td></tr></tbody></table>
+<table><thead><tr><th width="200.75">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Editar</code></strong> <i class="fa-pencil">:pencil:</i></td><td>Despliega el <a href="reporte-declaracion-de-impuestos.md#id-6.-configuracion-de-porcentajes">formulario de configuración</a> con los porcentajes registrados para el período, permitiendo modificarlos.</td></tr><tr><td><strong><code>ID</code></strong></td><td>Identificador único de la configuración de porcentajes registrada.</td></tr><tr><td><strong><code>Apuestas Deportivas</code></strong></td><td><p>Porcentaje del dinero total apostado que se registra como apuestas de <strong>deportivas</strong>.</p><div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p><strong>Ejemplo:</strong> Con un <strong>60%</strong> configurado, de cada 100 apostados en el período se registran <strong>60</strong> como apuestas de deportivas y los <strong>40</strong> restantes como apuestas de casino.</p></div></td></tr><tr><td><strong><code>Apuestas Casino</code></strong></td><td>Porcentaje del dinero total apostado que se registra como apuestas de <strong>casino</strong>.</td></tr><tr><td><strong><code>Premios Deportivas</code></strong></td><td>Porcentaje del dinero total pagado en premios que se registra como premios de <strong>deportivas</strong>.</td></tr><tr><td><strong><code>Premios Casino</code></strong></td><td>Porcentaje del dinero total pagado en premios que se registra como premios de <strong>casino</strong>.</td></tr></tbody></table>
 
 {% hint style="warning" %}
 **Nota:** Cada período mensual admite **una sola configuración vigente**, por lo que la consulta devuelve un único registro por mes. Las configuraciones anteriores no se eliminan: se conservan en el historial de&#x20;
@@ -52,7 +52,7 @@ modificaciones para mantener la trazabilidad.
 
 Mediante el botón **Crear**, o la acción **Editar** de un registro existente, se despliega una ventana emergente con el formulario de porcentajes del período.
 
-Los valores monetarios sobre los que se aplica la distribución provienen del **Historial de Saldo**: el total de **Apuestas** y el total de **Retiros Pagados**. Los porcentajes configurados determinan qué proporción de cada uno corresponde a deportivas y cuál a casino.
+Los valores monetarios sobre los que se aplica la distribución provienen del [**Historial de Saldo**](../reportes/historico-de-saldos.md): el total de **Apuestas** y el total de **Retiros Pagados**. Los porcentajes configurados determinan qué proporción de cada uno corresponde a deportivas y cuál a casino.
 
 <table><thead><tr><th width="212">Campo</th><th width="140">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Fecha</code></strong></td><td>Calendario</td><td>Período mensual al que aplica la configuración.</td></tr><tr><td><strong><code>Apuestas Deportivas (%)</code></strong></td><td>Campo numérico</td><td><p>Porcentaje del total apostado que se asigna a la vertical de deportivas.</p><p><strong>Fórmula:</strong><br><em>Apuestas Deportivas = Apuestas × % Apuestas Deportivas</em></p></td></tr><tr><td><strong><code>Apuestas Casino (%)</code></strong></td><td>Campo numérico</td><td><p>Porcentaje del total apostado que se asigna a la vertical de casino.</p><p><strong>Fórmula:</strong><br><em>Apuestas Casino = Apuestas × % Apuestas Casino</em></p></td></tr><tr><td><strong><code>Premios Deportivas (%)</code></strong></td><td>Campo numérico</td><td><p>Porcentaje del total pagado en premios que se asigna a la vertical de deportivas.</p><p><strong>Fórmula:</strong><br><em>Premios Deportivas = Retiros Pagados × % Premios Deportivas</em></p></td></tr><tr><td><strong><code>Premios Casino (%)</code></strong></td><td>Campo numérico</td><td><p>Porcentaje del total pagado en premios que se asigna a la vertical de casino.</p><p><strong>Fórmula:</strong><br><em>Premios Casino = Retiros Pagados × % Premios Casino</em></p></td></tr></tbody></table>
 
