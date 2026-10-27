@@ -133,6 +133,7 @@
     * [Pago premio virtuales](manual-de-usuario-backoffice/caja/pago-premio-virtuales.md)
   * [GoldenRace](manual-de-usuario-backoffice/goldenrace.md)
   * [Mensajes](manual-de-usuario-backoffice/mensajes/README.md)
+    * [Historial de mensajes](manual-de-usuario-backoffice/mensajes/historial-de-mensajes.md)
     * [Lista](manual-de-usuario-backoffice/mensajes/lista.md)
     * [Crear mensaje](manual-de-usuario-backoffice/mensajes/crear-mensaje.md)
   * [Herramientas](manual-de-usuario-backoffice/herramientas/README.md)
