@@ -1,6 +1,6 @@
 # Documentos
 
-<mark style="color:$info;">Reúne los documentos que la operación ha publicado para el perfil del usuario, desde esta sección el usuario consulta y descarga la documentación vigente que le corresponde, sin depender del envío manual de archivos por parte de otras áreas.</mark>
+<mark style="color:$info;">Reúne los documentos que el partner ha publicado para el perfil del usuario, desde esta sección el usuario consulta y descarga la documentación vigente que le corresponde, sin depender del envío manual de archivos por parte de otras áreas.</mark>
 
 ### 1. Acceso al Módulo
 
@@ -26,19 +26,19 @@
 
 ### 4. Filtros
 
-<table><thead><tr><th width="184">Campo</th><th width="152">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Nombre</code></strong></td><td>Campo de texto</td><td>Localiza un documento específico por su nombre.</td></tr><tr><td><strong><code>Tipo de documento</code></strong></td><td>Lista desplegable</td><td>Acota la búsqueda a una categoría de documento <em>(Formularios, Contratos, Manuales, Configuraciones o Términos y Condiciones)</em>.</td></tr><tr><td><strong><code>Fecha de publicación</code></strong></td><td>Calendario</td><td>Delimita los resultados según la fecha en la que se publicó el documento.</td></tr></tbody></table>
+<table><thead><tr><th width="184">Campo</th><th width="152">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Nombre</code></strong></td><td>Campo de texto</td><td>Localiza un documento específico por el nombre en que se registró.</td></tr><tr><td><strong><code>Tipo de documento</code></strong></td><td>Lista desplegable</td><td>Filtra por una categoría de documento <em>(Formularios, Contratos, Manuales, Configuraciones o Términos y Condiciones)</em>.</td></tr><tr><td><strong><code>Fecha de publicación</code></strong></td><td>Calendario</td><td>Delimita los resultados según la fecha en la que se publicó el documento.</td></tr></tbody></table>
 
 ***
 
 ### 5. Resultados de consulta
 
-Al ejecutar la consulta, en la parte inferior de la pantalla se despliega una tabla con los documentos disponibles para el perfil del usuario que cumplen con los filtros aplicados.
+Al ejecutar la consulta, en la parte inferior de la pantalla se despliega una tabla con los documentos que cumplen con los filtros aplicados. El listado incluye únicamente los documentos publicados para el perfil del usuario.
 
 {% hint style="warning" %}
 **Nota:** Los documentos de esta sección se cargan y administran desde el reporte [**Documentos registrados**](reportes/documentos-registrados.md). Allí se define su nombre, su categoría, los perfiles que pueden acceder a ellos y si requieren aceptación del usuario. Esta sección únicamente los presenta para su consulta y descarga.
 {% endhint %}
 
-<table><thead><tr><th width="143.111083984375">Campo</th><th width="104">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Acciones</code></strong></td><td>Acción</td><td>Reúne las operaciones disponibles sobre cada documento.</td></tr></tbody></table>
+<table><thead><tr><th width="143.111083984375">Campo</th><th width="104">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Acciones</code></strong></td><td>Acción</td><td>Muestra las acciones disponibles sobre cada documento.</td></tr></tbody></table>
 
 {% columns %}
 {% column width="33.33333333333333%" %}
@@ -46,7 +46,7 @@ Al ejecutar la consulta, en la parte inferior de la pantalla se despliega una ta
 {% endcolumn %}
 
 {% column width="66.66666666666667%" %}
-<table><thead><tr><th width="150">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Visualizar</strong> <i class="fa-file-lines">:file-lines:</i></td><td>Abre el documento directamente en el navegador para consultarlo, cuando su formato lo permite. Muestra siempre la última versión vigente.</td></tr><tr><td><strong>Descargar</strong> <i class="fa-down-long-to-line">:down-long-to-line:</i></td><td>Descarga el archivo al equipo del usuario, conservando su formato original.</td></tr></tbody></table>
+<table><thead><tr><th width="150">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Visualizar</strong> <i class="fa-file-lines">:file-lines:</i></td><td>Abre pop-up para visualizar el documento, mostrando siempre la última versión vigente.</td></tr><tr><td><strong>Descargar</strong> <i class="fa-down-long-to-line">:down-long-to-line:</i></td><td>Descarga el archivo, conservando su formato original.</td></tr></tbody></table>
 {% endcolumn %}
 {% endcolumns %}
 
