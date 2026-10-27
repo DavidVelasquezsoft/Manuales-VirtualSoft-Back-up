@@ -23,7 +23,7 @@ layout:
 
 # Rondas casino
 
-<mark style="color:$info;">Este tablero presenta la información general de las rondas realizas por los usuarios en la vertical casino.</mark>
+Este tablero presenta información general sobre las rondas de juego realizadas por los usuarios en la vertical de Casino.
 
 ### 1. Acceso al Módulo
 
@@ -45,7 +45,7 @@ Antes de ingresar a este tablero, es necesario completar los filtros que se visu
 
 ### 3. Acciones disponibles
 
-<table><thead><tr><th width="175.92572021484375">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Aplicar filtros</strong></td><td>Utiliza los filtros visualizados en las configuraciones previas para realizar la consulta directa antes de ingresar al tablero.</td></tr><tr><td><strong>Visualizar contenido del tablero</strong></td><td>Visualiza información detallada sobre las rondas de casino en la tabla que contiene el dashboard.</td></tr><tr><td><strong>Exportar contenido</strong></td><td>El tablero permite exportar su contenido. Para más información, consulte la guía de exportación <a data-mention href="./#id-3.-exportar-contenido">#id-3.-exportar-contenido</a>.</td></tr></tbody></table>
+<table><thead><tr><th width="175.92572021484375">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="https://virtualsoft.gitbook.io/manuales/microstrategy/library/explorar-carpetas/configuracion-de-tableros/rondas-casino#id-2.-configuraciones-previas"><strong>Aplicar filtros</strong></a></td><td>Utiliza los filtros visualizados en las configuraciones previas para realizar la consulta directa antes de ingresar al tablero.</td></tr><tr><td><a href="https://virtualsoft.gitbook.io/manuales/microstrategy/library/explorar-carpetas/configuracion-de-tableros/rondas-casino#id-5.-contenido-del-dashboard"><strong>Visualizar contenido del tablero</strong></a></td><td>Visualiza información detallada sobre las rondas de casino en la tabla que contiene el dashboard.</td></tr><tr><td><strong>Exportar contenido</strong></td><td>El tablero permite exportar su contenido. Para más información, consulte la guía de exportación <a data-mention href="./#id-3.-exportar-contenido">#id-3.-exportar-contenido</a>.</td></tr></tbody></table>
 
 ***
 
@@ -57,7 +57,7 @@ Antes de ingresar a este tablero, es necesario completar los filtros que se visu
 
 Este dashboard se compone de una tabla que centraliza la información de las rondas de casino filtradas anteriormente.
 
-<table><thead><tr><th width="169">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Fecha de creación</code></strong></td><td>Fecha y hora en la que se registró la ronda.</td></tr><tr><td><strong><code>ID Aggregator</code></strong></td><td>Identificador asociado al agregador o proveedor.</td></tr><tr><td><strong><code>ID B.O.</code></strong></td><td>Identificador de la operación o registro en BackOffice.</td></tr><tr><td><strong><code>Identificador de la ronda</code></strong></td><td>ID único correspondiente a la ronda consultada.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Tipo de movimiento registrado <em>(ejemplo: Debit, Credit u otros).</em></td></tr><tr><td><strong><code>Monto</code></strong></td><td>Valor monetario asociado al movimiento.</td></tr><tr><td><strong><code>Respuesta</code></strong></td><td><p>Resultado de la transacción, mostrando <strong>OK</strong> o el código de error correspondiente.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p>Nota: Con el fin de facilitar la lectura de la información, el tablero no mostrará el <strong>JSON</strong> completo.</p></div></td></tr><tr><td><strong><code>Transjuegolog_id</code></strong></td><td>Identificador del registro transaccional.</td></tr></tbody></table>
+<table><thead><tr><th width="169">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Fecha de creación</code></strong></td><td>Fecha y hora en la que se registró la ronda.</td></tr><tr><td><strong><code>ID Aggregator</code></strong></td><td>Identificador asociado al <a href="https://virtualsoft.gitbook.io/plantillas/glosario#id-aggregator">agregador</a> o proveedor.</td></tr><tr><td><strong><code>ID B.O.</code></strong></td><td>Identificador de la ronda en la BackOffice.</td></tr><tr><td><strong><code>Identificador de la ronda</code></strong></td><td>ID único correspondiente a la ronda consultada.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Tipo de movimiento registrado <em>(ejemplo: Debit, Credit u otros).</em></td></tr><tr><td><strong><code>Monto</code></strong></td><td>Valor monetario asociado al movimiento.</td></tr><tr><td><strong><code>Respuesta</code></strong></td><td><p>Resultado de la transacción, mostrando <strong>OK</strong> o el código de error correspondiente.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota</strong>: Con el fin de facilitar la lectura de la información, el tablero no mostrará el <strong>JSON</strong> completo.</p></div></td></tr><tr><td><strong><code>Transjuegolog_id</code></strong></td><td>Identificador del registro transaccional.</td></tr></tbody></table>
 
 ***
 
