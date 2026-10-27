@@ -17,7 +17,7 @@ description: >-
 
 ### 2. Visualización
 
-<figure><img src="https://1262136405-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FUadX6RX6l8fMhEZxOqcT%2Fuploads%2FPo01zJFX3Ss2pqblcSpQ%2Fimage.png?alt=media&#x26;token=4b578383-bffb-4534-8ee0-c93e2d6f227b" alt=""><figcaption><p>Figura #1: Captura de pantalla filtros de búsqueda.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (733).png" alt=""><figcaption><p>Figura #1: Captura de pantalla filtros de búsqueda.</p></figcaption></figure>
 
 ***
 
