@@ -79,6 +79,7 @@
     * [EVOLUTION](manual-integraciones-por-proveedor./proveedores-con-configuraciones-para-bonos./evolution.md)
     * [UPGAMES](manual-integraciones-por-proveedor./proveedores-con-configuraciones-para-bonos./upgames.md)
     * [INOUT](manual-integraciones-por-proveedor./proveedores-con-configuraciones-para-bonos./inout.md)
+    * [GAMES GLOBAL](manual-integraciones-por-proveedor./proveedores-con-configuraciones-para-bonos./games-global.md)
     * [FUNKY GAMES](manual-integraciones-por-proveedor./proveedores-con-configuraciones-para-bonos./funky-games.md)
     * [IGT PLAYDIGITAL](manual-integraciones-por-proveedor./proveedores-con-configuraciones-para-bonos./igt-playdigital.md)
     * [155.IO](manual-integraciones-por-proveedor./proveedores-con-configuraciones-para-bonos./155.io.md)
