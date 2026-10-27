@@ -38,7 +38,7 @@ Sección con diversas configuraciones relacionadas con la seguridad del usuario 
 
 #### Visualización
 
-<figure><img src="../../.gitbook/assets/image (712).png" alt=""><figcaption><p>Figura #2: Captura de pantalla sección seguridad y cambios</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (734).png" alt=""><figcaption><p>Figura #2: Captura de pantalla sección seguridad y cambios</p></figcaption></figure>
 
 {% hint style="warning" %}
 **Nota:** Al modificar una opción, el sistema aplica el cambio de manera inmediata.
