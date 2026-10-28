@@ -209,6 +209,7 @@ Puedes verificar el saldo acreditado en tu cuenta desde el panel principal o en 
 * El reporte del BackOffice [Reporte Depósitos por franquicias](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/manual-de-usuario-backoffice/reportes/reporte-depositos-por-franquicias "mention") permite visualizar la información de los depósitos procesados mediante franquicias, facilitando su análisis de forma independiente.
 * Para que un depósito sea válido es necesario que la pasarela tenga configurado un valor máximo y un valor mínimo de depósitos desde [BackOffice](https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/herramientas/partner-ajustes/productos/partners-sub-proveedores#id-3.3.-editar-subproveedor).
 * Un mismo jugador puede cargar un número limitado de comprobantes para una misma referencia bancaria de un mismo banco. La cantidad máxima la configura la operación desde  [Configuración #🔽Ajustes Generales](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/manual-de-usuario-backoffice/herramientas/partner-ajustes/configuracion-1#ajustes-generales "mention"). Si la referencia corresponde a otro banco o fue utilizada por otro jugador, la carga se permite sin restricción.
+* Cuando un usuario realice su primer depósito se realizará una validación regulatoria con proveedores externos para validar coincidencias en listas de observados, los proveedores con los que se realiza esta validación se configuran dese [BackOffice](https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/seguridad/reporte-de-listas-de-observados).
 
 ***
 
