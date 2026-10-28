@@ -32,7 +32,7 @@
 
 ### 5. Resultados de consulta
 
-Al ejecutar la consulta, en la parte inferior de la pantalla se despliega una tabla con los documentos que cumplen con los filtros aplicados. El listado incluye únicamente los documentos publicados para el perfil del usuario.
+Al ejecutar la consulta, en la parte inferior de la pantalla se despliega una tabla con los documentos que cumplen con los filtros aplicados. El listado incluye únicamente los documentos publicados para el perfil del usuario con el que inicio sesión en el BackOffice.
 
 {% hint style="warning" %}
 **Nota:** Los documentos de esta sección se cargan y administran desde el reporte [**Documentos registrados**](reportes/documentos-registrados.md). Allí se define su nombre, su categoría, los perfiles que pueden acceder a ellos y si requieren aceptación del usuario. Esta sección únicamente los presenta para su consulta y descarga.
@@ -46,7 +46,7 @@ Al ejecutar la consulta, en la parte inferior de la pantalla se despliega una ta
 {% endcolumn %}
 
 {% column width="66.66666666666667%" %}
-<table><thead><tr><th width="150">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Visualizar</strong> <i class="fa-file-lines">:file-lines:</i></td><td>Abre pop-up para visualizar el documento, mostrando siempre la última versión vigente.</td></tr><tr><td><strong>Descargar</strong> <i class="fa-down-long-to-line">:down-long-to-line:</i></td><td>Descarga el archivo, conservando su formato original.</td></tr></tbody></table>
+<table><thead><tr><th width="150">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Visualizar</strong> <i class="fa-file-lines">:file-lines:</i></td><td>Abre un pop-up para visualizar el documento, mostrando siempre la última versión vigente.</td></tr><tr><td><strong>Descargar</strong> <i class="fa-down-long-to-line">:down-long-to-line:</i></td><td>Descarga el archivo, conservando su formato original.</td></tr></tbody></table>
 {% endcolumn %}
 {% endcolumns %}
 
