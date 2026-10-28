@@ -75,11 +75,11 @@ En este paso se configura la recompensa que tendrá el usuario al finalizar el t
 
 <figure><img src="../../../../.gitbook/assets/image (524).png" alt=""><figcaption><p>Figura #1: Captura de pantalla creación de Tour - paso 2.</p></figcaption></figure>
 
-**Configuración de recompensa**
+#### **Configuración de recompensa**
 
 <table><thead><tr><th width="142">Configuració</th><th width="124">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>El tour entrega recompensa</code></strong></td><td>Interruptor</td><td><p>Establece si el tour entregará o no recompensa.</p><ul><li><strong>Habilitado</strong>: Se desplegarán las configuraciones de bonos y el modal de recompensa.</li><li><strong>Deshabilitado</strong>: No se exigirá este paso para la creación del tour.</li></ul><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota</strong>: Para que un bono aparezca en lista de bonos, en el campo "¿<strong>Es para</strong>?" en el formulario de creación de bonos, debe seleccionar "<strong>tours</strong>".</p></div></td></tr></tbody></table>
 
-**Tipo de modal final**
+#### **Tipo de modal final**
 
 Establece qué tipo de modal se va a configurar para que el usuario vea al finalizar el tour, cada modal tendrá configuraciones diferentes.&#x20;
 
@@ -113,25 +113,57 @@ El pop visual tiene un diseño más enfocado en imágenes.
 {% endtab %}
 {% endtabs %}
 
-Vista previa del modal final
+#### Vista previa del modal final
 
 Ofrece la opción de visualizar cómo se verá el pop-up configurado, con la opción de cambiar la vista, ya sea desde escritorio o desde dispositivo móvil.
 {% endtab %}
 
 {% tab title="Paso 4" %}
+#### Calificación del tour
 
+Da la posibilidad a los usuarios de darle una puntuación al momento de finalizar el tour.
 
-Visualización
+#### Visualización
 
 <figure><img src="../../../../.gitbook/assets/image (525).png" alt=""><figcaption></figcaption></figure>
+
+#### Configuraciones de calificación
+
+<table><thead><tr><th width="145">Configuración</th><th width="133">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Activar calificación</code></strong></td><td>Interruptor</td><td><p>Establece si los usuarios podrán darme una puntuación al tour al momento de finalizarlo.</p><ul><li><strong>Habilitado</strong>: Se desplegarán las configuraciones necesarias para configurar la calificación</li><li><strong>Deshabilitado</strong>: No se exigirá este paso para la creación del tour.</li></ul></td></tr><tr><td><strong><code>Tipo de calificación</code></strong></td><td>Selector</td><td><p>Establece con qué método calificará el tour el usuario.</p><ul><li><strong>Estrellas</strong>: El usuario podrá seleccionar la cantidad de estrellas con la que califica el tour <em>(de 1 a 5 estrellas)</em>.</li><li><strong>Numérica 1-5</strong>: El usuario podrá dar una calificación numérica del 1 hasta el 5, siendo 1 la calificación más baja y 5 la más alta.</li></ul></td></tr><tr><td><strong><code>Título de la pantalla de calificación</code></strong></td><td>Texto</td><td></td></tr><tr><td><strong><code>Texto descriptivo o mensaje de retroalimentación</code></strong></td><td>Texto</td><td></td></tr><tr><td><strong><code>Permitir comentario abierto</code></strong></td><td>Interruptor</td><td></td></tr><tr><td><strong><code>Texto del botón</code></strong></td><td>Texto</td><td></td></tr></tbody></table>
+
+{% hint style="warning" %}
+Nota: Si se activa la calificación, será obligatorio completar los campos para seguir al siguiente paso, pero para el usuario será opcional responder, en caso de que el usuario cierre sin responder, no se le volverá a solicitar.
+{% endhint %}
+
+#### Vista del jugador
+
+Ofrece la opción de visualizar cómo se verá el pop-up configurado, con la opción de cambiar la vista, ya sea desde escritorio o desde dispositivo móvil.
 {% endtab %}
 
 {% tab title="Paso 5" %}
+Este es el paso final de la configuración de tours, desde aquí se podrán agregar los pasos que el usuario va a seguir en la plataforma usuarios online y también previsualizar el resulotado final.
 
-
-Visualización
+#### Visualización
 
 <figure><img src="../../../../.gitbook/assets/image (526).png" alt=""><figcaption></figcaption></figure>
+
+#### ¿Como crear un paso para el tuor?
+
+Al ingresar a este paso se visualizará un prototipo de la plataforma Usuarios Online, desde ese prototipo se deben seleccionar las partes de la plataforma que serán los pasos que seguirá el usuario
+
+{% @guideflow/guideflow-embed requestedUrl="https://app.guideflow.com/player/qkq9m27u1r" %}
+
+#### Formulario para la creación de un paso
+
+<table><thead><tr><th width="133">Campo</th><th width="163">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td>Título</td><td>Texto</td><td></td></tr><tr><td>Texto principal</td><td>Texto</td><td></td></tr><tr><td>Agregar imagen de fondo</td><td>Archivo</td><td></td></tr><tr><td>Agregar mascotas</td><td>Interruptor</td><td>Establece si se agregarán mascotas al lado del paso Nota: Cuándo este campo esté habilitado se desplegará un campo en el cual se debe cargar el archivo de la mascota que aparecerá </td></tr><tr><td>Abandonar tour</td><td>Interruptor</td><td></td></tr><tr><td>¿Este es el último paso?</td><td>Interruptor</td><td></td></tr></tbody></table>
+
+Para crear el paso es necesario seleccionar el botón **`Guardar paso`**
+
+#### ¿Como gestionar los pasos creados?
+
+Desde el botón Pasos se desplegará un listado de los pasos que se han creado hasta el momento, con la opción de gestionar cada uno de los pasos previamente creado
+
+<table><thead><tr><th width="149">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr></tbody></table>
 {% endtab %}
 {% endtabs %}
 
