@@ -23,13 +23,13 @@ layout:
 
 # Creación de tours
 
-<mark style="color:$info;">Desde este módulo se crean y configuran los tours que se visualizarán en la plataforma Usuarios Online, definiendo los parámetros necesarios para su funcionamiento y presentación.</mark>
+<mark style="color:$info;">Módulo para crear y configurar los tours que se visualizan en la plataforma Usuarios Online, definiendo los parámetros de funcionamiento y presentación.</mark>
 
 ***
 
 ### 2. Formulario para creación de tours
 
-El formulario se divide en pasos, cada paso hace parte de un segmento de configuraciones para la creación del tour.
+El formulario se divide en pasos, cada uno correspondiente a un segmento de configuración del tour.
 
 {% tabs %}
 {% tab title="Paso 1" %}
@@ -153,9 +153,13 @@ Al ingresar a este paso se visualizará un prototipo de la plataforma Usuarios O
 
 {% @guideflow/guideflow-embed requestedUrl="https://app.guideflow.com/player/qkq9m27u1r" %}
 
+{% hint style="warning" %}
+**Nota**: Antes de empezar a crear los pasos del tour es necesario seleccionar si se creará para dispositivo Móvil o escritorio desde ![](<../../../../.gitbook/assets/Frame 1321316373.png>) _(Por defecto siempre estará en Escritorio)._
+{% endhint %}
+
 #### Formulario para la creación de un paso
 
-<table><thead><tr><th width="133">Campo</th><th width="163">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td>Título</td><td>Texto</td><td></td></tr><tr><td>Texto principal</td><td>Texto</td><td></td></tr><tr><td>Agregar imagen de fondo</td><td>Archivo</td><td></td></tr><tr><td>Agregar mascotas</td><td>Interruptor</td><td>Establece si se agregarán mascotas al lado del paso Nota: Cuándo este campo esté habilitado se desplegará un campo en el cual se debe cargar el archivo de la mascota que aparecerá </td></tr><tr><td>Abandonar tour</td><td>Interruptor</td><td></td></tr><tr><td>¿Este es el último paso?</td><td>Interruptor</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="133">Campo</th><th width="163">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Título</code></strong></td><td>Texto</td><td>Título que tendrá el pop-up que verá el usuario cuándo esté realizando el tour.</td></tr><tr><td><strong><code>Texto principal</code></strong></td><td>Texto</td><td>Texto secundario que se visualizará en el pop-up del paso</td></tr><tr><td><strong><code>Agregar imagen de fondo</code></strong></td><td>Archivo</td><td></td></tr><tr><td><strong><code>Agregar mascotas</code></strong></td><td>Interruptor</td><td>Establece si se agregarán mascotas al lado del paso Nota: Cuándo este campo esté habilitado se desplegará un campo en el cual se debe cargar el archivo de la mascota que aparecerá </td></tr><tr><td><strong><code>Abandonar tour</code></strong></td><td>Interruptor</td><td></td></tr><tr><td><strong><code>¿Este es el último paso?</code></strong></td><td>Interruptor</td><td></td></tr></tbody></table>
 
 Para crear el paso es necesario seleccionar el botón **`Guardar paso`**
 
@@ -163,7 +167,7 @@ Para crear el paso es necesario seleccionar el botón **`Guardar paso`**
 
 Desde el botón Pasos se desplegará un listado de los pasos que se han creado hasta el momento, con la opción de gestionar cada uno de los pasos previamente creado
 
-<table><thead><tr><th width="149">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="149">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><img src="../../../../.gitbook/assets/icon_desktop_process.png" alt="">/<img src="../../../../.gitbook/assets/image (527).png" alt=""></td><td>Esta acción esmeramente informativa, indica si el paso está creado para dispositivos móviles o para escritorio</td></tr><tr><td><img src="../../../../.gitbook/assets/Vector (5) (1).png" alt=""></td><td></td></tr><tr><td><img src="../../../../.gitbook/assets/Vector (6) (1).png" alt=""></td><td></td></tr></tbody></table>
 {% endtab %}
 {% endtabs %}
 
