@@ -64,6 +64,10 @@ En este paso se configuran los criterios que determinan a qué usuarios se les m
 El tour se mostrará únicamente a los usuarios que cumplan con los criterios de la opción seleccionada. Cada opción dispone de configuraciones específicas para establecer el público al que estará dirigido el tour.
 
 <table><thead><tr><th width="191">Opción</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Jugadores recién registrados</code></strong></td><td>El tour se mostrará a los usuarios que se registren en la plataforma Usuarios Online.</td></tr><tr><td><strong><code>Por nivel de lealtad</code></strong></td><td><p>El tour se mostrará únicamente a los usuarios que pertenezcan al nivel de lealtad seleccionado.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota</strong>: Al seleccionar esta opción, se habilitará una lista desplegable para elegir el nivel de lealtad al que estará dirigido el tour <em>(solo es posible seleccionar un nivel).</em></p></div></td></tr><tr><td><strong><code>Subir lista de CSV</code></strong></td><td><p>El tour se mostrará únicamente a los usuarios incluidos en un archivo <a href="https://virtualsoft.gitbook.io/plantillas/glosario#csv">.csv</a>.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota</strong>: Al seleccionar esta opción, se habilitará el botón <strong><code>Subir archivo CSV</code></strong>, desde el cual se podrá cargar el archivo que contiene los identificadores de los usuarios autorizados para visualizar el tour.</p></div></td></tr><tr><td><strong><code>Disparado desde CRM</code></strong></td><td><p>El tour se mostrará a los usuarios asociados a las campañas configuradas desde el área de CRM.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota</strong>: Al seleccionar esta opción, se habilitará el campo <strong><code>Agregar ID asignado</code></strong>, en el que se debe ingresar el identificador de la campaña creada por el área de CRM.</p></div></td></tr><tr><td><strong><code>Todos los jugadores</code></strong></td><td>El tour se mostrará a todos los jugadores la próxima vez que inicien sesión en la plataforma.</td></tr></tbody></table>
+
+{% hint style="warning" %}
+**Nota**: En el proceso de edición, este paso solo podrá ser editado cuándo el tour esté en estado **Borrador**.
+{% endhint %}
 {% endtab %}
 
 {% tab title="Paso 3" %}
@@ -154,20 +158,45 @@ Al ingresar a este paso se visualizará un prototipo de la plataforma Usuarios O
 {% @guideflow/guideflow-embed requestedUrl="https://app.guideflow.com/player/qkq9m27u1r" %}
 
 {% hint style="warning" %}
-**Nota**: Antes de empezar a crear los pasos del tour es necesario seleccionar si se creará para dispositivo Móvil o escritorio desde ![](<../../../../.gitbook/assets/Frame 1321316373.png>) _(Por defecto siempre estará en Escritorio)._
+**Notas**:&#x20;
+
+* Antes de empezar a crear los pasos del tour es necesario seleccionar si se creará para dispositivo Móvil o escritorio desde ![](<../../../../.gitbook/assets/Frame 1321316373.png>) _(Por defecto siempre estará en Escritorio)._
+* Para empezar a crear los pasos primero es necesario iniciar sección con un usuario de la plataforma Usuarios Online en el prototipo.
 {% endhint %}
+
+#### Acciones para crear un paso
+
+Para crear un paso es necesario dar clic en el prototipo de la usuarios online, los módulos que permitirán crear los pasos serán solo los que se resalten con el fondo amarillo, al momento de dar click se desplegará un pop-up con 2 opciones.
+
+<table><thead><tr><th width="158">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Crear viñeta</code></strong></td><td>Abre el formulario para la creación del paso en el lugar seleccionado</td></tr><tr><td><strong><code>Navegar</code></strong></td><td>Redirige a el módulo seleccionado sin crear un paso adicional en el tour.</td></tr></tbody></table>
 
 #### Formulario para la creación de un paso
 
-<table><thead><tr><th width="133">Campo</th><th width="163">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Título</code></strong></td><td>Texto</td><td>Título que tendrá el pop-up que verá el usuario cuándo esté realizando el tour.</td></tr><tr><td><strong><code>Texto principal</code></strong></td><td>Texto</td><td>Texto secundario que se visualizará en el pop-up del paso</td></tr><tr><td><strong><code>Agregar imagen de fondo</code></strong></td><td>Archivo</td><td></td></tr><tr><td><strong><code>Agregar mascotas</code></strong></td><td>Interruptor</td><td>Establece si se agregarán mascotas al lado del paso Nota: Cuándo este campo esté habilitado se desplegará un campo en el cual se debe cargar el archivo de la mascota que aparecerá </td></tr><tr><td><strong><code>Abandonar tour</code></strong></td><td>Interruptor</td><td></td></tr><tr><td><strong><code>¿Este es el último paso?</code></strong></td><td>Interruptor</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="133">Campo</th><th width="163">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Título</code></strong></td><td>Texto</td><td>Título que tendrá el pop-up que verá el usuario cuándo esté realizando el tour.</td></tr><tr><td><strong><code>Texto principal</code></strong></td><td>Texto</td><td>Texto secundario que se visualizará en el pop-up del paso</td></tr><tr><td><strong><code>Agregar imagen de fondo</code></strong></td><td>Archivo</td><td>Agrega una imagen de fondo a el pop-up del paso.</td></tr><tr><td><strong><code>Agregar mascotas</code></strong></td><td>Interruptor</td><td>Establece si se agregarán mascotas al lado del paso Nota: Cuándo este campo esté habilitado se desplegará un campo en el cual se debe cargar el archivo de la mascota que aparecerá </td></tr><tr><td><strong><code>Abandonar tour</code></strong></td><td>Interruptor</td><td>Establece si aparecerá un botón en este paso con el que el usuario pueda abandonar el tour sin finalizarlo.</td></tr><tr><td><strong><code>¿Este es el último paso?</code></strong></td><td>Interruptor</td><td>Establece que este será el último paso del tour.</td></tr></tbody></table>
 
 Para crear el paso es necesario seleccionar el botón **`Guardar paso`**
 
 #### ¿Como gestionar los pasos creados?
 
-Desde el botón Pasos se desplegará un listado de los pasos que se han creado hasta el momento, con la opción de gestionar cada uno de los pasos previamente creado
+Desde el botón Pasos se desplegará un listado de los pasos que se han creado hasta el momento, con la opción de gestionar cada uno de los pasos previamente creado.
 
-<table><thead><tr><th width="149">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><img src="../../../../.gitbook/assets/icon_desktop_process.png" alt="">/<img src="../../../../.gitbook/assets/image (527).png" alt=""></td><td>Esta acción esmeramente informativa, indica si el paso está creado para dispositivos móviles o para escritorio</td></tr><tr><td><img src="../../../../.gitbook/assets/Vector (5) (1).png" alt=""></td><td></td></tr><tr><td><img src="../../../../.gitbook/assets/Vector (6) (1).png" alt=""></td><td></td></tr></tbody></table>
+{% hint style="warning" %}
+**Nota**: Al seleccionar un paso que esté en la lista, en el modal del prototipo se verá el ejemplo del pop-up del tour específicamente de ese paso.
+{% endhint %}
+
+<table><thead><tr><th width="149">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><img src="../../../../.gitbook/assets/icon_desktop_process.png" alt="">/<img src="../../../../.gitbook/assets/image (527).png" alt=""></td><td>Esta acción es meramente informativa, indica si el paso está creado para dispositivos móviles o para escritorio</td></tr><tr><td><img src="../../../../.gitbook/assets/Vector (5) (1).png" alt=""></td><td>Despliega el pop-up del formulario ara </td></tr><tr><td><img src="../../../../.gitbook/assets/Vector (6) (1).png" alt=""></td><td>Elimina el paso creado.</td></tr></tbody></table>
+
+Previsualizar&#x20;
+
+El botón **`Previsualizar`** Desplegará un pop-up de la plataforma Usuarios Online en el que se verá cómo se ve el tour completamente creado.
+
+#### Reglas y validaciones de los pasos
+
+* No se podrá crear más de un paso en el mismo lugar, en caso de intentarlo aparecerá un mensaje indicando el error.
+* No se podrá crear un nuevo paso luego de haber configurado un paso como último paso.
+* &#x20;En el formulario de edición, en este paso no se podrán agregar nuevos pasos al tour, solo se podrán editar los pasos ya creados.
 {% endtab %}
 {% endtabs %}
+
+
 
