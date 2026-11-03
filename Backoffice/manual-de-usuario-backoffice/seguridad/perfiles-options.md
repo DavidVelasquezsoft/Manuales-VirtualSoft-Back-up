@@ -17,11 +17,13 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Perfiles Options
 
-<mark style="color:$info;">Administra los permisos de acceso a los diferentes módulos y funcionalidades de la plataforma BackOffice. Los permisos pueden gestionarse de forma global, por operación</mark> <mark style="color:$info;"></mark>_<mark style="color:$info;">(Partner)</mark>_ <mark style="color:$info;"></mark><mark style="color:$info;">o para un usuario específico, siguiendo una jerarquía de aplicación que define la prioridad entre bloqueos y autorizaciones en cada nivel de configuración.</mark>
+<mark style="color:$info;">Administra los permisos de acceso a los diferentes módulos y funcionalidades de la plataforma BackOffice. Los permisos pueden gestionarse de forma global, por operación</mark> <mark style="color:$info;"></mark>_<mark style="color:$info;">(Partner y país)</mark>_ <mark style="color:$info;"></mark><mark style="color:$info;">o para un usuario específico, siguiendo una jerarquía de aplicación que define la prioridad entre bloqueos y autorizaciones en cada nivel de configuración.</mark>
 
 ***
 

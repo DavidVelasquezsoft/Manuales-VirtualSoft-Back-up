@@ -1,57 +1,71 @@
 ---
 description: >-
-  Permite la administración de menús y secciones del Backoffice. Además, se
-  ofrece la funcionalidad de crear nuevos menús de forma sencilla y ordenada.
+  Administra los menús y las secciones que se muestran en el BackOffice. Permite
+  consultar los menús existentes, crear nuevos y editar su URL, nombre, menú
+  padre y orden de visualización.
 ---
 
 # Menus
 
-***
+### 1. Acceso al Módulo
 
-### 1. Acceso al Módulo <a href="#id-1.-acceso-al-modulo" id="id-1.-acceso-al-modulo"></a>
-
-**Ruta de Acceso**: Backoffice > Seguridad > Menus
+**Ruta de Acceso**: BackOffice (BO) > Seguridad > Menus
 
 ***
 
-### 2. 🖼️ Visualización general <a href="#id-4.-visualizacion" id="id-4.-visualizacion"></a>
+### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/image (289).png" alt=""><figcaption><p>Figura#1: Captura de pantalla filtros de búsqueda.</p></figcaption></figure>
-
-***
-
-### 3. 🧑‍💻 Acciones de usuario
-
-<table><thead><tr><th width="192.66668701171875">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="menus.md#id-3.1.-filtros"><strong>Filtros</strong></a></td><td>Permiten filtrar la información para obtener resultados mas precisos.</td></tr><tr><td><strong>Limpiar</strong></td><td>Restablece todos los filtros a su estado inicial.</td></tr><tr><td><a href="menus.md#id-3.2.-crear-menu"><strong>Crear Menú</strong></a></td><td>Abre modal que permite ingresar la información para crear un nuevo menú o sección dentro del Backoffice.</td></tr><tr><td><a href="menus.md#id-3.1.-consultar"><strong>Consultar</strong></a></td><td>Aplica los filtros seleccionados y muestra los menus validos.</td></tr><tr><td><strong>Exportar</strong></td><td>El botón <strong>Exportar</strong> en la parte inferior derecha del reporte permite descargar los resultados obtenidos con los filtros aplicados en los formatos <strong>Excel (.XLS)</strong> y <strong>PDF.</strong></td></tr></tbody></table>
-
-#### 3.1. 🔎 Filtros
-
-Para visualizar los menús de la plataforma, se dispone de los siguientes filtros:
-
-<table><thead><tr><th width="128.1666259765625">Filtro</th><th width="129.8333740234375">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>URL API</code></strong></td><td>Texto</td><td>Filtra los registros según la URL de la API que identifica el menú dentro del sistema.</td></tr><tr><td><strong><code>Menú Padre</code></strong></td><td>Lista desplegable</td><td>Permite filtrar por el menú principal mostrando únicamente las subsecciones asociadas.</td></tr><tr><td><strong><code>Descripción</code></strong></td><td>Texto</td><td>Permite buscar menús según el texto descriptivo que detalla su funcionalidad o propósito.</td></tr><tr><td><strong><code>Orden</code></strong></td><td>Numérico</td><td>Filtra los menús según su posición o jerarquía dentro de la estructura de la plataforma.</td></tr></tbody></table>
-
-#### 3.2. ➕ Crear menú
-
-Abre un pop-up que permite la creación de un nuevo menú o sección en el backoffice:&#x20;
-
-<table><thead><tr><th width="150.66668701171875">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>URL API</code></strong> <em>(obligatorio)</em></td><td>Define la URL de la API a la que se accederá para obtener la información asociada a la nueva sección o menú del sistema.</td></tr><tr><td><strong><code>Descripción</code></strong> <em>(obligatorio)</em></td><td>Especifica el nombre del menú que verán los usuarios.</td></tr><tr><td><strong><code>Menú padre</code></strong></td><td>Establece el menú padre al que se asociará el nuevo menú.<br>Si no se selecciona un menú padre, el menú se creará como menú principal; en caso contrario, quedará definido como una sección dentro del menú seleccionado.</td></tr><tr><td><strong><code>Orden</code></strong></td><td><p>Indica la posición que ocupará el menú en relación con los demás menús del sistema.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> El valor de <em>orden</em> define la prioridad de visualización del menú. A menor valor asignado, mayor prioridad tendrá el menú de mostrarse.</p></div></td></tr></tbody></table>
-
-#### 3.1. 🚀 Consultar
-
-Al realizar una consulta aplica los filtros seleccionados y muestra los registros validos con los siguientes campos:
-
-<table><thead><tr><th width="209.8333740234375">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>URL API</code></strong></td><td>Indica la URL de la API a la que se accede para obtener la información asociada a la sección o menú dentro del sistema.</td></tr><tr><td><code>✏️</code></td><td>Permite la edición del menú, incluyendo la modificación de todos los parámetros configurados en su creación.</td></tr><tr><td><strong><code>Menú Padre</code></strong></td><td>Muestra el menú principal (<em>menú padre</em>) al que pertenece cada menú.<br>Los menús padres se presentan de forma desplegable, permitiendo visualizar los menús hijos asociados.</td></tr><tr><td><strong><code>Descripción</code></strong></td><td>Especifica el propósito o funcionalidad del menú dentro de la plataforma.</td></tr><tr><td><strong><code>Orden</code></strong></td><td>Define la posición que ocupará el menú dentro de la jerarquía del sistema.</td></tr></tbody></table>
+<figure><img src="https://1262136405-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FUadX6RX6l8fMhEZxOqcT%2Fuploads%2Ff6hAOxx0iOcg7QTRuXgk%2Fimage.png?alt=media&#x26;token=abdc298c-8228-46eb-be96-73cf94a47dab" alt=""><figcaption><p>Figura #1: Captura de pantalla sección Menus.</p></figcaption></figure>
 
 ***
 
-### 4. Validaciones y reglas del negocio
+### 3. Acciones disponibles
 
-* Al crear un nuevo menú o sección, este se genera automáticamente como un permiso. Dicho permiso debe asignarse al tipo de usuario correspondiente desde la sección [_**Perfiles Options**_](perfiles-options.md) para que el menú o la sección sea visible.
+<table><thead><tr><th width="160">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="menus.md#id-4.-filtros"><strong>Filtros</strong></a></td><td>Definen los criterios de búsqueda para consultar los menús registrados.</td></tr><tr><td><strong>Limpiar</strong></td><td>Restablece los filtros aplicados, dejando los campos en su estado inicial.</td></tr><tr><td><a href="menus.md#id-5.-resultados-de-consulta"><strong>Consultar</strong></a></td><td>Ejecuta la búsqueda según los filtros definidos y muestra los menús en la tabla de resultados.</td></tr><tr><td><a href="menus.md#id-6.-crear-menu"><strong>Crear Menú</strong></a></td><td>Abre una ventana emergente para registrar un nuevo menú o una nueva sección dentro del BackOffice.</td></tr><tr><td><strong>Exportar</strong></td><td>Permite exportar los resultados obtenidos según los filtros aplicados en formatos Excel <em>(.XLS)</em> y PDF mediante el botón <strong>Exportar</strong>, ubicado en la parte inferior derecha de la pantalla.</td></tr></tbody></table>
 
 ***
 
-### 5. Control de versiones
+### 4. Filtros
 
-| Versión | Fecha      | Autor           | Descripción                     |
-| ------- | ---------- | --------------- | ------------------------------- |
-| 1.0     | 30/12/2025 | David velasquez | Creación inicial del documento. |
+<table><thead><tr><th width="140">Campo</th><th width="140">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>URL API</code></strong></td><td>Campo de texto</td><td>Localiza los menús según la URL de la API que utilizan.</td></tr><tr><td><strong><code>Menú Padre</code></strong></td><td>Lista desplegable</td><td>Muestra únicamente las secciones asociadas al menú principal seleccionado.</td></tr><tr><td><strong><code>Descripción</code></strong></td><td>Campo de texto</td><td>Consulta los menús a partir del nombre con el que se visualizan en el BackOffice.</td></tr><tr><td><strong><code>Orden</code></strong></td><td>Campo numérico</td><td>Acota la consulta a los menús que ocupan la posición indicada.</td></tr></tbody></table>
+
+***
+
+### 5. Resultados de consulta
+
+Al ejecutar la consulta, en la parte inferior de la pantalla se despliega una tabla con los menús que cumplen con los filtros aplicados.
+
+<table><thead><tr><th width="125">Campo</th><th width="110">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>URL API</code></strong></td><td>Texto</td><td>Muestra la URL de la API que el menú consulta para cargar la información de la sección.</td></tr><tr><td><i class="fa-pencil">:pencil:</i></td><td>Acción</td><td>Abre la ventana de edición del menú con los mismos campos de la sección Crear Menú.</td></tr><tr><td><strong><code>Menú Padre</code></strong></td><td>Texto</td><td><p>Indica el menú principal al que pertenece cada sección.</p><div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p><strong>Nota:</strong> Los resultados se agrupan por menú padre. Cada grupo se despliega para mostrar las secciones que contiene.</p></div></td></tr><tr><td><strong><code>Descripción</code></strong></td><td>Texto</td><td>Muestra el nombre del menú que se visualiza en el BackOffice.</td></tr><tr><td><strong><code>Orden</code></strong></td><td>Numérico</td><td>Indica la posición del menú respecto a los demás.</td></tr></tbody></table>
+
+***
+
+### 6. Crear Menú
+
+Al hacer clic en **Crear Menú**, se abre una ventana emergente con los siguientes campos. La misma ventana se utiliza para editar un menú desde el ícono <i class="fa-pencil">:pencil:</i> de los resultados.
+
+<table><thead><tr><th width="190">Campo</th><th width="140">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>URL API</code></strong> <em>(obligatorio)</em></td><td>Campo de texto</td><td>Define la URL de la API que el menú consulta para cargar la información de la sección.</td></tr><tr><td><strong><code>Descripción</code></strong> <em>(obligatorio)</em></td><td>Campo de texto</td><td>Indica el nombre del menú que se muestra a los usuarios del BackOffice.</td></tr><tr><td><strong><code>Menú padre</code></strong></td><td>Lista desplegable</td><td><p>Asocia el nuevo menú a un menú existente:</p><ul><li><strong>Sin selección:</strong> el menú se crea como menú principal.</li><li><strong>Con selección:</strong> el menú se crea como sección dentro del menú seleccionado.</li></ul></td></tr><tr><td><strong><code>Orden</code></strong></td><td>Campo numérico</td><td><p>Establece la posición del menú respecto a los demás.</p><div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p><strong>Ejemplo:</strong> los menús se muestran de menor a mayor valor, por lo que un menú con orden 1 aparece antes que uno con orden 2.</p></div></td></tr></tbody></table>
+
+{% hint style="warning" %}
+**Nota:** Al crear un menú, el sistema genera automáticamente un permiso asociado. El menú solo es visible para los usuarios que tienen ese permiso asignado desde [**Perfiles Options**](https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/seguridad/perfiles-options).
+{% endhint %}
+
+***
+
+### 7. Validaciones y reglas del negocio:
+
+* Los campos **URL API** y **Descripción** son obligatorios para crear un menú.
+* Si no se selecciona un **Menú padre**, el menú se crea como menú principal. Si se selecciona, se crea como sección dentro de ese menú.
+* Cada menú creado genera un permiso que debe asignarse desde **Perfiles Options** para que el menú sea visible.
+* Los menús se muestran de menor a mayor según el valor de **Orden**.
+
+***
+
+### 8. Control de Versiones
+
+<details>
+
+<summary>🔽 Historial de versiones</summary>
+
+<table><thead><tr><th width="99.888916015625">Versión</th><th width="128.87872314453125">Fecha</th><th width="153.94952392578125">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>30/12/2025</td><td>David Velasquez</td><td>Documento inicial</td></tr><tr><td>1.1</td><td>03/11/2026</td><td>David Velasquez</td><td>Actualización de la estructura del manual.</td></tr></tbody></table>
+
+</details>
