@@ -29,6 +29,10 @@ layout:
 
 **Ruta de acceso**: Virtualsoft > Informes compartidos > Datas TI > Paneles Visuales > Seguimiento de casos GEP
 
+{% hint style="warning" %}
+**Nota:** La información del tablero se actualiza cada 3 horas, por lo que no se muestra en tiempo real.
+{% endhint %}
+
 ***
 
 ### 2. Configuraciones previas
