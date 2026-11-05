@@ -29,6 +29,10 @@ layout:
 
 **Ruta de acceso:** BackOffice > Seguridad > Perfiles-Options.
 
+{% hint style="warning" %}
+**Nota:** El acceso a este módulo requiere el permiso **\[Menú padre] > \[Nombre del permiso]**, que se asigna desde [**Perfiles Options**](https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/seguridad/perfiles-options).
+{% endhint %}
+
 ***
 
 ### 2. Visualización <a href="#id-2.-visualizacion" id="id-2.-visualizacion"></a>
