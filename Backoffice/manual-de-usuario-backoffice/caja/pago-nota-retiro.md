@@ -1,11 +1,6 @@
----
-description: >-
-  Permite pagar en el punto de venta las notas de retiro que los usuarios
-  generan desde la plataforma de usuarios online. El módulo valida la nota con
-  su identificador y su clave antes de registrar el pago.
----
-
 # Pago Nota Retiro
+
+<mark style="color:$info;">Permite pagar en el punto de venta las notas de retiro que los usuarios generan desde la plataforma de usuarios online. El módulo valida la nota con su identificador y su clave antes de registrar el pago.</mark>
 
 ***
 
