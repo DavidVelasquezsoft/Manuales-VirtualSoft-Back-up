@@ -12,7 +12,7 @@
 
 ### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/image (275).png" alt=""><figcaption><p>Figura #1: Captura de pantalla sección pago nota retiro.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (274).png" alt=""><figcaption><p>Figura #1: Captura de pantalla sección pago nota retiro.</p></figcaption></figure>
 
 ***
 
@@ -24,7 +24,7 @@
 
 ### 4. Filtros
 
-<table><thead><tr><th width="176">Campo</th><th width="152">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Id Nota de Retiro</code></strong> <em>(obligatorio)</em></td><td>Campo numérico</td><td>Indica el identificador de la nota de retiro, que el usuario recibe en el <a href="https://virtualsoft.gitbook.io/untitled/glosario/#ticket">ticket</a> generado al solicitar el retiro.</td></tr><tr><td><strong><code>Clave</code></strong> <em>(obligatorio)</em></td><td>Campo de texto</td><td><p>Recibe la clave impresa en el <a href="https://virtualsoft.gitbook.io/untitled/glosario/#ticket">ticket</a> de la nota de retiro. Funciona como código de seguridad: confirma que quien presenta la nota es su titular.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Si la clave no corresponde al <strong><code>Id Nota de Retiro</code></strong> ingresado, el sistema muestra mensaje de error y no presenta los datos de la nota.</p></div></td></tr></tbody></table>
+<table><thead><tr><th width="176">Campo</th><th width="152">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Id Nota de Retiro</code></strong> <em>(obligatorio)</em></td><td>Campo numérico</td><td>Indica el identificador de la nota de retiro, que el usuario recibe en el ticket generado al solicitar el retiro.</td></tr><tr><td><strong><code>Clave</code></strong> <em>(obligatorio)</em></td><td>Campo de texto</td><td><p>Recibe la clave impresa en el ticket de la nota de retiro. Funciona como código de seguridad: confirma que quien presenta la nota es su titular.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Si la clave no corresponde al <strong><code>Id Nota de Retiro</code></strong> ingresado, el sistema muestra mensaje de error y no presenta los datos de la nota.</p></div></td></tr></tbody></table>
 
 ***
 
@@ -32,7 +32,7 @@
 
 Al ejecutar la consulta, en la parte inferior de la pantalla se despliegan los datos de la nota de retiro validada.
 
-<table><thead><tr><th width="176">Campo</th><th width="120">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Nota de Retiro</code></strong></td><td>Numérico</td><td>Muestra el identificador de la nota de retiro consultada.</td></tr><tr><td><strong><code>Usuario</code></strong></td><td>Numérico</td><td>Corresponde al identificador del usuario que generó la nota de retiro.</td></tr><tr><td><strong><code>Nombre</code></strong></td><td>Texto</td><td>Presenta el nombre del usuario titular de la nota, para que el cajero lo compare con el documento de quien se presenta a cobrar.</td></tr><tr><td><strong><code>Valor</code></strong></td><td>Numérico</td><td>Indica el monto total que debe pagarse al usuario por la nota de retiro.</td></tr></tbody></table>
+<table><thead><tr><th width="176">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Nota de Retiro</code></strong></td><td>Muestra el identificador de la nota de retiro consultada.</td></tr><tr><td><strong><code>Usuario</code></strong></td><td>Corresponde al identificador del usuario que generó la nota de retiro.</td></tr><tr><td><strong><code>Nombre</code></strong></td><td>Presenta el nombre del usuario titular de la nota, para que el cajero lo compare con el documento de quien se presenta a cobrar.</td></tr><tr><td><strong><code>Valor</code></strong></td><td>Indica el monto total que debe pagarse al usuario por la nota de retiro.</td></tr></tbody></table>
 
 ***
 

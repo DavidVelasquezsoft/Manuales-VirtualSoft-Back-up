@@ -24,7 +24,7 @@
 
 ### 4. Filtros
 
-{% hint style="info" %}
+{% hint style="warning" %}
 **Nota:** No es obligatorio completar todos los filtros. Un solo filtro es suficiente para ejecutar la consulta.
 {% endhint %}
 
@@ -44,7 +44,7 @@ Al ejecutar la consulta, en la parte inferior de la pantalla se despliegan los d
 
 Después de consultar al usuario, el formulario de recarga permite ingresar el monto y ejecutar la operación.
 
-<table><thead><tr><th width="176">Campo</th><th width="152">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Valor a recargar</code></strong></td><td>Campo numérico</td><td>Define el monto que se acreditará al saldo del usuario.</td></tr><tr><td><strong><code>Confirmar valor</code></strong></td><td>Campo numérico</td><td><p>Repite el monto ingresado en <strong><code>Valor a recargar</code></strong>. Existe para evitar recargas por un valor equivocado debido a un error de digitación.</p></td></tr><tr><td><strong><code>Recargar</code></strong></td><td>Botón</td><td><p>Ejecuta la recarga y despliega una ventana de confirmación. Después de confirmar, el sistema solicita el tipo de factura que se genera como comprobante. Los dos tipos disponibles se describen a continuación.</p></td></tr></tbody></table>
+<table><thead><tr><th width="151.83331298828125">Campo</th><th width="107.8333740234375">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Valor a recargar</code></strong></td><td>Campo numérico</td><td>Define el monto que se acreditará al saldo del usuario.</td></tr><tr><td><strong><code>Confirmar valor</code></strong></td><td>Campo numérico</td><td>Repite el monto ingresado en <strong><code>Valor a recargar</code></strong>. Existe para evitar recargas por un valor equivocado debido a un error de digitación.</td></tr><tr><td><strong><code>Recargar</code></strong></td><td>Botón</td><td>Ejecuta la recarga y despliega una ventana de confirmación. Después de confirmar, el sistema solicita el tipo de factura que se genera como comprobante. Los dos tipos disponibles se describen a continuación.</td></tr></tbody></table>
 
 {% columns %}
 {% column width="33.33333333333333%" %}
@@ -52,9 +52,7 @@ Después de consultar al usuario, el formulario de recarga permite ingresar el m
 {% endcolumn %}
 
 {% column width="66.66666666666667%" %}
-**Tipos de factura**
-
-<table><thead><tr><th width="132">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>POS</strong></td><td>Genera la factura en formato compacto, pensado para las impresoras de tickets de los puntos de venta.</td></tr><tr><td><strong>Carta</strong></td><td>Genera la factura en PDF tamaño carta, con una visualización más amplia y detallada del comprobante.</td></tr></tbody></table>
+<table><thead><tr><th width="75.3333740234375">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>POS</strong></td><td>Genera la factura en formato compacto, pensado para las impresoras de tickets de los puntos de venta.</td></tr><tr><td><strong>Carta</strong></td><td>Genera la factura en PDF tamaño carta, con una visualización más amplia y detallada del comprobante.</td></tr></tbody></table>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -62,7 +60,7 @@ Después de consultar al usuario, el formulario de recarga permite ingresar el m
 
 ### 7. Recarga masiva
 
-El botón **Cargar CSV** permite recargar crédito a varios usuarios en una sola operación mediante un archivo <a href="https://virtualsoft.gitbook.io/untitled/glosario/#csv">CSV</a>.
+El botón **Cargar CSV** permite recargar crédito a varios usuarios en una sola operación mediante un archivo [CSV](https://virtualsoft.gitbook.io/untitled/glosario/#csv).
 
 <table><thead><tr><th width="176">Campo</th><th width="152">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Cargar archivo CSV</code></strong></td><td>Archivo CSV</td><td><p>Recibe el archivo con los usuarios y los montos que se van a recargar.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> El archivo lleva en la primera columna el ID del usuario y en la segunda el monto a recargar.</p></div></td></tr></tbody></table>
 
