@@ -1,12 +1,6 @@
----
-description: >-
-  Permite bloquear de forma temporal una vertical o funcionalidad completa de la
-  plataforma de usuarios online para todos los usuarios del partner. Se utiliza
-  cuando es necesario detener una operación de inmediato sin modificar la
-  configuración de cada usuario.
----
-
 # Contingencias Totales
+
+<mark style="color:$info;">Permite bloquear de forma temporal una vertical o funcionalidad completa de la plataforma de usuarios online para todos los usuarios del partner. Se utiliza cuando es necesario detener una operación de inmediato sin modificar la configuración de cada usuario.</mark>
 
 ***
 
