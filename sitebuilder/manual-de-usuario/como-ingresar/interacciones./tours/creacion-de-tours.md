@@ -1,0 +1,199 @@
+---
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
+---
+
+# Creación de tours
+
+<mark style="color:$info;">Módulo para crear y configurar los tours que se visualizan en la plataforma Usuarios Online, definiendo los parámetros de funcionamiento y presentación.</mark>
+
+***
+
+### 2. Formulario para creación de tours
+
+El formulario se divide en pasos, cada uno correspondiente a un segmento de configuración del tour.
+
+{% tabs %}
+{% tab title="Paso 1" %}
+#### Nuevo tour
+
+En este paso se configura la información básica y los parámetros generales del tour.
+
+#### Visualización
+
+<figure><img src="../../../../.gitbook/assets/image (407).png" alt=""><figcaption><p>Figura #1: Captura de pantalla creación de Tour - paso 1.</p></figcaption></figure>
+
+**Datos generales**
+
+Esta es la información general sobre el tour.
+
+<table><thead><tr><th width="129">Campo</th><th width="124">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Nombre del tour</code></strong></td><td>Texto</td><td>Nombre asignado al tour.</td></tr><tr><td><strong><code>Descripción interna</code></strong></td><td>Texto</td><td>Breve descripción del propósito o contenido del tour, destinada a uso interno.</td></tr><tr><td><strong><code>Prioridad</code></strong></td><td>Lista desplegable</td><td>Define el orden de visualización del tour frente a los demás tours creados y activos.</td></tr><tr><td><strong><code>Rango de fechas</code></strong></td><td>Calendario</td><td>Establece las fechas de inicio y finalización del periodo de actividad del tour en la plataforma.</td></tr></tbody></table>
+
+<a class="button secondary">Siguiente</a>
+{% endtab %}
+
+{% tab title="Paso 2" %}
+#### Segmentación de audiencia
+
+En este paso se configuran los criterios que determinan a qué usuarios se les mostrará el tour en la plataforma.
+
+#### Visualización
+
+<figure><img src="../../../../.gitbook/assets/image (408).png" alt=""><figcaption><p>Figura #1: Captura de pantalla creación de Tour - paso 2.</p></figcaption></figure>
+
+#### Público objetivo
+
+El tour se mostrará únicamente a los usuarios que cumplan con los criterios de la opción seleccionada. Cada opción dispone de configuraciones específicas para establecer el público al que estará dirigido el tour.
+
+<table><thead><tr><th width="191">Opción</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Jugadores recién registrados</code></strong></td><td>El tour se mostrará a los usuarios que se registren en la plataforma Usuarios Online.</td></tr><tr><td><strong><code>Por nivel de lealtad</code></strong></td><td><p>El tour se mostrará únicamente a los usuarios que pertenezcan al nivel de lealtad seleccionado.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota</strong>: Al seleccionar esta opción, se habilitará una lista desplegable para elegir el nivel de lealtad al que estará dirigido el tour <em>(solo es posible seleccionar un nivel).</em></p></div></td></tr><tr><td><strong><code>Subir lista de CSV</code></strong></td><td><p>El tour se mostrará únicamente a los usuarios incluidos en un archivo <a href="https://virtualsoft.gitbook.io/plantillas/glosario#csv">.csv</a>.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota</strong>: Al seleccionar esta opción, se habilitará el botón <strong><code>Subir archivo CSV</code></strong>, desde el cual se podrá cargar el archivo que contiene los identificadores de los usuarios autorizados para visualizar el tour.</p></div></td></tr><tr><td><strong><code>Disparado desde CRM</code></strong></td><td><p>El tour se mostrará a los usuarios asociados a las campañas configuradas desde el área de CRM.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota</strong>: Al seleccionar esta opción, se habilitará el campo <strong><code>Agregar ID asignado</code></strong>, en el que se debe ingresar el identificador de la campaña creada por el área de CRM.</p></div></td></tr><tr><td><strong><code>Todos los jugadores</code></strong></td><td>El tour se mostrará a todos los jugadores la próxima vez que inicien sesión en la plataforma.</td></tr></tbody></table>
+
+{% hint style="warning" %}
+**Nota**: En el proceso de edición, este paso solo podrá ser editado cuándo el tour esté en estado **Borrador**.
+{% endhint %}
+{% endtab %}
+
+{% tab title="Paso 3" %}
+#### Recompensa y modal final
+
+En este paso se configura la recompensa que tendrá el usuario al finalizar el tour, estas configuraciones están separadas por segmentos
+
+#### Visualización
+
+<figure><img src="../../../../.gitbook/assets/image (409).png" alt=""><figcaption><p>Figura #1: Captura de pantalla creación de Tour - paso 2.</p></figcaption></figure>
+
+#### **Configuración de recompensa**
+
+<table><thead><tr><th width="142">Configuració</th><th width="124">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>El tour entrega recompensa</code></strong></td><td>Interruptor</td><td><p>Establece si el tour entregará o no recompensa.</p><ul><li><strong>Habilitado</strong>: Se desplegarán las configuraciones de bonos y el modal de recompensa.</li><li><strong>Deshabilitado</strong>: No se exigirá este paso para la creación del tour.</li></ul><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota</strong>: Para que un bono aparezca en lista de bonos, en el campo "¿<strong>Es para</strong>?" en el formulario de creación de bonos, debe seleccionar "<strong>tours</strong>".</p></div></td></tr></tbody></table>
+
+#### **Tipo de modal final**
+
+Establece qué tipo de modal se va a configurar para que el usuario vea al finalizar el tour, cada modal tendrá configuraciones diferentes.
+
+{% hint style="warning" %}
+**Nota**: Por defecto en esta configuración siempre estará seleccionada la opción "**Recompensa**"
+{% endhint %}
+
+{% tabs %}
+{% tab title="Recompensa" %}
+El pop recompensa se complementa de diferentes tipos de textos, imágenes y botones y un solo botón.
+
+<table><thead><tr><th width="136">Configuración</th><th width="121">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Título del modal</code></strong></td><td>Texto</td><td>Título principal que el usuario verá en el modal de recompensa</td></tr><tr><td><strong><code>Mensaje principal</code></strong></td><td>Texto</td><td>Mensaje secundario que el usuario verá en el modal de recompensa</td></tr><tr><td><strong><code>Texto secundario</code></strong></td><td>Texto</td><td>Texto adicional que el usuario visualizará en otro párrafo en el modal de recompensa</td></tr><tr><td><strong><code>Texto del botón</code></strong></td><td>Texto</td><td>Texto que tendrá el botón que visualizará el usuario en el modal</td></tr><tr><td><strong><code>Activar imagen o ilustración</code></strong></td><td>Interruptor</td><td><p>Establece si el pop-up de recompensa tendrá una imagen.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota</strong>: Cuándo se activa esta opción, se habilitará la configuración <strong><code>Imagen o ilustración</code></strong>, en la cuál se debe ingresar la imagen que tendrá el pop-up</p></div></td></tr></tbody></table>
+{% endtab %}
+
+{% tab title="Display" %}
+El pop-up display tiene un diseño combinado entre imagen y texto, con la posibilidad de agregar una cantidad de botones determinada.
+
+<table><thead><tr><th width="139">Configuración</th><th width="121">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Agregar imagen</code></strong></td><td>Cargar archivo</td><td>Agrega la imagen principal que tendrá el pop-up</td></tr><tr><td><strong><code>Título</code></strong></td><td>Texto</td><td>Agrega el título que tendrá el pop-up.</td></tr><tr><td><strong><code>Información</code></strong></td><td>Texto</td><td>Párrafo que se visualizará en el pop-up de recompensa.</td></tr><tr><td><strong><code>Configuración de botones</code></strong></td><td>Formulario</td><td><p>Este pop-up es posible crearlo con varios botones <em>(máximo 3)</em>, desde aquí se pueden configurar su orden arrastrándolo con <img src="../../../../.gitbook/assets/icon_drag_indicator (2).png" alt=""> o eliminar los botones creados con <img src="../../../../.gitbook/assets/Vector (4) (1).png" alt="" data-size="original">, los botones se configuran utillizando lo siguientes campos:<br></p><ul><li><strong>Texto del botón</strong>: Texto que tendrá el botón que verá el usuario.</li><li><strong>URL de redirección</strong>: URL donde será redirigido el usuario al dar Click al botón.</li></ul><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Los botones tienen una prioridad predeterminada, en caso de crear 3 botones, el de la izquierda será acción primaria, el del centro secundaria y el derecho terciario, aunque se cambie el orden de los botones, siempre tendrá la misma prioridad según la ubicación.</p></div></td></tr></tbody></table>
+{% endtab %}
+
+{% tab title="Texto" %}
+El pop-up texto solo se conforma de textos y botones.
+
+<table><thead><tr><th width="125">Configuración</th><th width="121">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Título</code></strong></td><td>Texto</td><td>Agrega el título que tendrá el pop-up.</td></tr><tr><td><strong><code>Información</code></strong></td><td>Texto</td><td>Párrafo que se visualizará en el pop-up de recompensa.</td></tr><tr><td><strong><code>Botón</code></strong></td><td>Formulario</td><td><p>Este pop-up es posible crearlo con varios botones <em>(máximo 3)</em>, desde aquí se pueden configurar su orden arrastrándolo con <img src="../../../../.gitbook/assets/icon_drag_indicator (2).png" alt=""> o eliminar los botones creados con <img src="../../../../.gitbook/assets/Vector (4) (1).png" alt="" data-size="original">, los botones se configuran utillizando lo siguientes campos:<br></p><ul><li><strong>Texto del botón</strong>: Texto que tendrá el botón que verá el usuario.</li><li><strong>URL de redirección</strong>: URL donde será redirigido el usuario al dar Click al botón.</li></ul><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Los botones tienen una prioridad predeterminada, en caso de crear 3 botones, el de la izquierda será acción primaria, el del centro secundaria y el derecho terciario, aunque se cambie el orden de los botones, siempre tendrá la misma prioridad según la ubicación.</p></div></td></tr></tbody></table>
+{% endtab %}
+
+{% tab title="Visual" %}
+El pop visual tiene un diseño más enfocado en imágenes.
+
+<table><thead><tr><th width="125">Configuración</th><th width="121">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Agregar imagen</code></strong></td><td>Archivo</td><td>Imagen principal que tendrá el pop-up</td></tr><tr><td><strong><code>Título</code></strong></td><td>Texto</td><td>Agrega el título que tendrá el pop-up.</td></tr><tr><td><strong><code>Botón</code></strong></td><td>Formulario</td><td><p>Este pop-up es posible crearlo con varios botones <em>(máximo 3)</em>, desde aquí se pueden configurar su orden arrastrándolo con <img src="../../../../.gitbook/assets/icon_drag_indicator (2).png" alt=""> o eliminar los botones creados con <img src="../../../../.gitbook/assets/Vector (4) (1).png" alt="" data-size="original">, los botones se configuran utillizando lo siguientes campos:<br></p><ul><li><strong>Texto del botón</strong>: Texto que tendrá el botón que verá el usuario.</li><li><strong>URL de redirección</strong>: URL donde será redirigido el usuario al dar Click al botón.</li></ul><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Los botones tienen una prioridad predeterminada, en caso de crear 3 botones, el de la izquierda será acción primaria, el del centro secundaria y el derecho terciario, aunque se cambie el orden de los botones, siempre tendrá la misma prioridad según la ubicación.</p></div></td></tr></tbody></table>
+{% endtab %}
+{% endtabs %}
+
+#### Vista previa del modal final
+
+Ofrece la opción de visualizar cómo se verá el pop-up configurado, con la opción de cambiar la vista, ya sea desde escritorio o desde dispositivo móvil.
+{% endtab %}
+
+{% tab title="Paso 4" %}
+#### Calificación del tour
+
+Da la posibilidad a los usuarios de darle una puntuación al momento de finalizar el tour.
+
+#### Visualización
+
+<figure><img src="../../../../.gitbook/assets/image (410).png" alt=""><figcaption></figcaption></figure>
+
+#### Configuraciones de calificación
+
+<table><thead><tr><th width="145">Configuración</th><th width="133">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Activar calificación</code></strong></td><td>Interruptor</td><td><p>Establece si los usuarios podrán darme una puntuación al tour al momento de finalizarlo.</p><ul><li><strong>Habilitado</strong>: Se desplegarán las configuraciones necesarias para configurar la calificación</li><li><strong>Deshabilitado</strong>: No se exigirá este paso para la creación del tour.</li></ul></td></tr><tr><td><strong><code>Tipo de calificación</code></strong></td><td>Selector</td><td><p>Establece con qué método calificará el tour el usuario.</p><ul><li><strong>Estrellas</strong>: El usuario podrá seleccionar la cantidad de estrellas con la que califica el tour <em>(de 1 a 5 estrellas)</em>.</li><li><strong>Numérica 1-5</strong>: El usuario podrá dar una calificación numérica del 1 hasta el 5, siendo 1 la calificación más baja y 5 la más alta.</li></ul></td></tr><tr><td><strong><code>Título de la pantalla de calificación</code></strong></td><td>Texto</td><td></td></tr><tr><td><strong><code>Texto descriptivo o mensaje de retroalimentación</code></strong></td><td>Texto</td><td></td></tr><tr><td><strong><code>Permitir comentario abierto</code></strong></td><td>Interruptor</td><td></td></tr><tr><td><strong><code>Texto del botón</code></strong></td><td>Texto</td><td></td></tr></tbody></table>
+
+{% hint style="warning" %}
+Nota: Si se activa la calificación, será obligatorio completar los campos para seguir al siguiente paso, pero para el usuario será opcional responder, en caso de que el usuario cierre sin responder, no se le volverá a solicitar.
+{% endhint %}
+
+#### Vista del jugador
+
+Ofrece la opción de visualizar cómo se verá el pop-up configurado, con la opción de cambiar la vista, ya sea desde escritorio o desde dispositivo móvil.
+{% endtab %}
+
+{% tab title="Paso 5" %}
+Este es el paso final de la configuración de tours, desde aquí se podrán agregar los pasos que el usuario va a seguir en la plataforma usuarios online y también previsualizar el resulotado final.
+
+#### Visualización
+
+<figure><img src="../../../../.gitbook/assets/image (411).png" alt=""><figcaption></figcaption></figure>
+
+#### ¿Como crear un paso para el tuor?
+
+Al ingresar a este paso se visualizará un prototipo de la plataforma Usuarios Online, desde ese prototipo se deben seleccionar las partes de la plataforma que serán los pasos que seguirá el usuario
+
+{% @guideflow/guideflow-embed requestedUrl="https://app.guideflow.com/player/qkq9m27u1r" %}
+
+{% hint style="warning" %}
+**Notas**:
+
+* Antes de empezar a crear los pasos del tour es necesario seleccionar si se creará para dispositivo Móvil o escritorio desde ![](<../../../../.gitbook/assets/Frame 1321316373.png>) _(Por defecto siempre estará en Escritorio)._
+* Para empezar a crear los pasos primero es necesario iniciar sección con un usuario de la plataforma Usuarios Online en el prototipo.
+{% endhint %}
+
+#### Acciones para crear un paso
+
+Para crear un paso es necesario dar clic en el prototipo de la usuarios online, los módulos que permitirán crear los pasos serán solo los que se resalten con el fondo amarillo, al momento de dar click se desplegará un pop-up con 2 opciones.
+
+<table><thead><tr><th width="158">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Crear viñeta</code></strong></td><td>Abre el formulario para la creación del paso en el lugar seleccionado</td></tr><tr><td><strong><code>Navegar</code></strong></td><td>Redirige a el módulo seleccionado sin crear un paso adicional en el tour.</td></tr></tbody></table>
+
+#### Formulario para la creación de un paso
+
+<table><thead><tr><th width="133">Campo</th><th width="163">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Título</code></strong></td><td>Texto</td><td>Título que tendrá el pop-up que verá el usuario cuándo esté realizando el tour.</td></tr><tr><td><strong><code>Texto principal</code></strong></td><td>Texto</td><td>Texto secundario que se visualizará en el pop-up del paso</td></tr><tr><td><strong><code>Agregar imagen de fondo</code></strong></td><td>Archivo</td><td>Agrega una imagen de fondo a el pop-up del paso.</td></tr><tr><td><strong><code>Agregar mascotas</code></strong></td><td>Interruptor</td><td>Establece si se agregarán mascotas al lado del paso Nota: Cuándo este campo esté habilitado se desplegará un campo en el cual se debe cargar el archivo de la mascota que aparecerá</td></tr><tr><td><strong><code>Abandonar tour</code></strong></td><td>Interruptor</td><td>Establece si aparecerá un botón en este paso con el que el usuario pueda abandonar el tour sin finalizarlo.</td></tr><tr><td><strong><code>¿Este es el último paso?</code></strong></td><td>Interruptor</td><td>Establece que este será el último paso del tour.</td></tr></tbody></table>
+
+Para crear el paso es necesario seleccionar el botón **`Guardar paso`**
+
+#### ¿Como gestionar los pasos creados?
+
+Desde el botón Pasos se desplegará un listado de los pasos que se han creado hasta el momento, con la opción de gestionar cada uno de los pasos previamente creado.
+
+{% hint style="warning" %}
+**Nota**: Al seleccionar un paso que esté en la lista, en el modal del prototipo se verá el ejemplo del pop-up del tour específicamente de ese paso.
+{% endhint %}
+
+<table><thead><tr><th width="149">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><img src="../../../../.gitbook/assets/icon_desktop_process.png" alt="">/<img src="../../../../.gitbook/assets/image (412).png" alt=""></td><td>Esta acción es meramente informativa, indica si el paso está creado para dispositivos móviles o para escritorio</td></tr><tr><td><img src="../../../../.gitbook/assets/Vector (5) (1).png" alt=""></td><td>Despliega el pop-up del formulario ara</td></tr><tr><td><img src="../../../../.gitbook/assets/Vector (4) (1).png" alt=""></td><td>Elimina el paso creado.</td></tr></tbody></table>
+
+Previsualizar
+
+El botón **`Previsualizar`** Desplegará un pop-up de la plataforma Usuarios Online en el que se verá cómo se ve el tour completamente creado.
+
+#### Reglas y validaciones de los pasos
+
+* No se podrá crear más de un paso en el mismo lugar, en caso de intentarlo aparecerá un mensaje indicando el error.
+* No se podrá crear un nuevo paso luego de haber configurado un paso como último paso.
+* En el formulario de edición, en este paso no se podrán agregar nuevos pasos al tour, solo se podrán editar los pasos ya creados.
+{% endtab %}
+{% endtabs %}
