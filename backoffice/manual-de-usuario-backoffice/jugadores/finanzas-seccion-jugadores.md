@@ -1,0 +1,117 @@
+---
+description: >-
+  Esta sección está dividida en dos apartados principales: Financiero y Cuentas
+  Bancarias, donde se muestra información relevante sobre el estado financiero
+  del usuario y sus cuentas asociadas.
+---
+
+# Finanzas sección Jugadores
+
+### 1. Acceso al módulo
+
+**Ruta de acceso**: BackOffice > Jugadores > Finanzas
+
+***
+
+### 2. Finanzas
+
+Tendrás 2 opciones para gestionar las finanzas del jugador.
+
+{% tabs %}
+{% tab title="Financiero" %}
+Permite visualizar un desglose detallado de la actividad financiera del usuario.
+
+#### Visualización
+
+<figure><img src="../../.gitbook/assets/image (28).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección financiero.</p></figcaption></figure>
+
+#### Descripción de campos
+
+<table><thead><tr><th width="218.666748046875">Campo</th><th width="106.3333740234375">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Total Depósitos</code></strong></td><td>Numérico</td><td>Monto total depositado por el usuario.</td></tr><tr><td><strong><code>Total Apuestas deportivas</code></strong></td><td>Numérico</td><td>Total de apuestas realizadas en deportes.</td></tr><tr><td><strong><code>Total Ganancias deportivas</code></strong></td><td>Numérico</td><td>Monto ganado en apuestas deportivas.</td></tr><tr><td><strong><code>Total Apuestas casino</code></strong></td><td>Numérico</td><td>Total de apuestas realizadas en juegos de casino.</td></tr><tr><td><strong><code>Ganancias totales casino</code></strong></td><td>Numérico</td><td>Monto ganado en apuestas de casino.</td></tr><tr><td><strong><code>Total Retiros</code></strong></td><td>Numérico</td><td>Valor total retirado por el usuario.</td></tr><tr><td><strong><code>Ajustes de entrada</code></strong></td><td>Numérico</td><td>Modificaciones en el saldo del usuario por ajustes entradas.</td></tr><tr><td><strong><code>Ajustes de salida</code></strong></td><td>Numérico</td><td>Modificaciones en el saldo del usuario por ajustes de salidas.</td></tr></tbody></table>
+
+#### Resumen
+
+Además, se muestra un **resumen financiero**, donde se reflejan los montos de cada categoría, junto con indicadores visuales que diferencian valores positivos y negativos, estos valores son el histórico de todo el historial de movimientos financieros realizados por el usuario, sin filtros aplicados.
+
+<table><thead><tr><th width="119.6666259765625">Categoría</th><th>Resumen</th></tr></thead><tbody><tr><td><strong><code>Depósitos</code></strong></td><td>Resumen del monto total depositado en la cuenta del usuario.</td></tr><tr><td><strong><code>Apuestas en Deportivas</code></strong></td><td>Valor total gastado por el usuario en apuestas deportivas.</td></tr><tr><td><strong><code>Apuestas en Casino</code></strong></td><td>Valor total gastado por el usuario en apuestas Casino.</td></tr><tr><td><strong><code>Total Apuestas</code></strong></td><td>Valor total de las apuestas realizadas por el usuario <em>(suma de deportivas y casino)</em>.</td></tr><tr><td><strong><code>Premios en Deportivas</code></strong></td><td>Valor total de premios obtenidos por apuestas realizadas en la vertical deportivas.</td></tr><tr><td><strong><code>Premios en Casino</code></strong></td><td>Valor total de premios obtenidos por apuestas realizadas en la vertical casino.</td></tr><tr><td><strong><code>Total premios</code></strong></td><td>Valor total de los premios obtenidos por todas las apuestas realizadas por el usuario.</td></tr><tr><td><strong><code>Notas Pendientes</code></strong></td><td>Valor total de las solicitudes de retiro creadas por el usuario y aún no se han hecho efectivas.</td></tr><tr><td><strong><code>Valor Retirado</code></strong></td><td>Valor total de retiros efectivos realizados por el usuario.</td></tr><tr><td><strong><code>Total de bonos redimidos</code></strong></td><td>Suma de todos los bonos redimidos por el usuario <em>(Total de bonos redimidos = Bonos deportivos + Bonos de casino + Jackpot)</em>.</td></tr><tr><td><strong><code>Jackpot</code></strong></td><td>suma de todos los jackpots redimidos por el usuario <em>(tanto jackpots internacionales, como locales)</em>.</td></tr><tr><td><strong><code>Bonos deportivos</code></strong></td><td>Suma de todos los bonos <a href="https://virtualsoft.gitbook.io/plantillas/glosario#redimido">redimidos</a> por el usuario en la vertical deportivas.</td></tr><tr><td><strong><code>Bonos de casino</code></strong></td><td>Suma de todos los bonos <a href="https://virtualsoft.gitbook.io/plantillas/glosario#redimido">redimidos</a> por el usuario en la vertical casino.</td></tr><tr><td><strong><code>Bonos de altenar</code></strong></td><td>Suma de todos los bonos redimidos por el usuario con el proveedor altenar.</td></tr><tr><td><strong><code>Ajustes entrada</code></strong></td><td>Monto total de ajustes de saldo acreditados al usuario.</td></tr><tr><td><strong><code>Ajustes salida</code></strong></td><td>Monto total de ajustes de saldo descontados del usuario.</td></tr><tr><td><strong><code>GGR</code></strong></td><td>Ingresos totales obtenidos por las apuestas realizadas por este jugador.</td></tr><tr><td><strong><code>Rejuego</code></strong></td><td>Monto total que el usuario ganó y utilizó nuevamente en juegos.</td></tr><tr><td><strong><code>Total</code></strong></td><td>Resultado de la suma de los valores positivos visualizados en el resumen (+) menos los valores negativos (-).</td></tr></tbody></table>
+{% endtab %}
+
+{% tab title="Cuentas Bancarias" %}
+Permite consultar las cuentas bancarias vinculadas al usuario.
+
+#### Visualización
+
+<figure><img src="../../.gitbook/assets/image (539).png" alt=""><figcaption><p>Figura#2: Captura de pantalla sección cuentas bancarias.</p></figcaption></figure>
+
+#### Acciones Disponibles
+
+<table><thead><tr><th width="127.88885498046875">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="finanzas-seccion-jugadores.md#registrar-tarjeta-stradacarte"><strong>Registrar tarjeta Stradacarte</strong></a></td><td>Despliega un pop-up que permite registrar una tarjeta para retiros y recargas.</td></tr><tr><td><a href="finanzas-seccion-jugadores.md#filtros"><strong>Filtrar</strong></a></td><td>Permiten realizar búsquedas específicas mediante la selección de uno o varios criterios</td></tr><tr><td><a href="finanzas-seccion-jugadores.md#resultados-de-consulta"><strong>Consultar</strong></a></td><td>Realiza la consulta según los filtros completados.</td></tr><tr><td><strong>Limpiar</strong></td><td>Limpia todos los filtros con información</td></tr></tbody></table>
+
+#### Filtros
+
+<table><thead><tr><th width="110.22216796875">Campo</th><th width="166.77777099609375">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>ID Cuenta</code></strong></td><td>Numérico</td><td>Identificador único asignada a la cuenta bancaria.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Lista desplegable</td><td>Permite seleccionar el estado actual de la cuenta. (Todos, Activo o Inactivo)</td></tr></tbody></table>
+
+#### Resultados de consulta
+
+Aplica los filtros seleccionados y muestra las cuentas bancarias válidas.
+
+<table><thead><tr><th width="143.111083984375">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><code>🖋️</code></td><td>Despliega un pop-up con información de la tarjeta ya registrada y con la posibilidad de editar solo el estado de la tarjeta.</td></tr><tr><td><strong><code>ID</code></strong></td><td>Código único identificador de la tarjeta.</td></tr><tr><td><strong><code>Banco</code></strong></td><td>Nombre de la entidad bancaria.</td></tr><tr><td><strong><code>Número de cuenta bancaria</code></strong></td><td>Clave única de la cuenta registrada.</td></tr><tr><td><strong><code>Código interbancario</code></strong></td><td>Código asignado para transacciones interbancarias. En las tarjetas <strong>Stradacarte</strong>, esta columna muestra el <strong>ID CARD</strong> registrado.</td></tr><tr><td><strong><code>Tipo de cuenta</code></strong></td><td>Clasificación de la cuenta <em>(ejemplo: ahorro, corriente).</em></td></tr><tr><td><strong><code>Estado</code></strong></td><td>Indica si la cuenta está: <em>(activa o inactiva).</em></td></tr><tr><td><strong><code>Fecha registro</code></strong></td><td>Fecha en la que se registró la tarjeta.</td></tr></tbody></table>
+
+#### Registrar tarjeta Stradacarte
+
+Permite registrar una tarjeta del proveedor **Stradacarte** en el perfil del jugador, habilitándola como medio disponible para realizar depósitos y retiros en la plataforma de usuarios online. A diferencia de otros medios de pago, estas tarjetas son asignadas por el operador desde el BackOffice y no las registra el jugador.
+
+Al seleccionar el botón **Registrar tarjeta Stradacarte**, se abre una ventana emergente con los siguientes campos obligatorios:
+
+<table><thead><tr><th width="105">Campo</th><th width="110">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>ID CARD</code></strong></td><td>Numérico</td><td><p>Identificador único de la tarjeta Stradacarte asignada al jugador.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Admite únicamente números, sin espacios. Este identificador se muestra posteriormente en la columna <strong><code>Código interbancario</code></strong> de la tabla de resultados.</p></div></td></tr><tr><td><strong><code>Número de tarjeta</code></strong></td><td>Numérico</td><td><p>Número de la tarjeta registrada.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> El sistema almacena y muestra únicamente los últimos cuatro dígitos de la tarjeta, los cuales se visualizan de forma enmascarada en la columna <strong><code>Número de cuenta bancaria</code></strong>.</p></div></td></tr></tbody></table>
+
+{% hint style="warning" %}
+**Nota:** Para completar el registro es necesario seleccionar el botón **Guardar**. Una vez registrada, la tarjeta se muestra en la tabla de cuentas bancarias del jugador y queda disponible para depósitos y retiros.
+{% endhint %}
+
+#### Validaciones y reglas del negocio
+
+* Las tarjetas Stradacarte son registradas por el operador desde el BackOffice y habilitan al jugador para realizar depósitos y retiros con ellas.
+* Cada **`ID CARD`** debe ser único a nivel global: no puede registrarse en más de un jugador ni repetirse dentro del mismo jugador.
+* Del número de tarjeta se almacenan y visualizan únicamente los últimos cuatro dígitos.
+* Un jugador puede tener un máximo de **5 tarjetas activas**.
+* No es posible modificar ni eliminar una tarjeta que tenga depósitos o retiros en proceso.
+* Si una tarjeta se elimina o se marca como inactiva, deja de mostrarse en las secciones de depósitos y retiros del jugador en la plataforma de usuarios online.
+* Las acciones de registrar, editar o eliminar tarjetas requieren el permiso **Gestionar tarjetas Stradacarte**. Los intentos de acceso sin permiso quedan registrados en el sistema.
+
+#### Mensajes y confirmaciones
+
+* Registro exitoso:
+
+_“Tarjeta registrada exitosamente.”_
+
+* Eliminación confirmada:
+
+_“Tarjeta eliminada. Ya no estará disponible para retiros ni recargas.”_
+
+* Registro fallido por duplicado global:
+
+_“Este ID CARD ya está registrado para otro jugador.”_
+
+* Límite de tarjetas alcanzado:
+
+_“Este jugador ya tiene el máximo de 5 tarjetas activas.”_
+{% endtab %}
+{% endtabs %}
+
+***
+
+### 3. Validaciones y reglas del negocio
+
+* La clasificación del bono depende de la vertical donde se cumpla el rollover: **casino** _(slots, casino en vivo o virtuales)_ o **deportivo** _(sportsbook)._
+* Si no existe valor correspondiente en un campo de la tabla resumen, debe aparecer 0.
+
+### 4. Control de versiones
+
+<details>
+
+<summary>🔽Historial de versiones</summary>
+
+<table><thead><tr><th width="107" align="right">Versión</th><th width="148">Fecha</th><th width="164">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td align="right">1.0</td><td>2025-09-08</td><td>David Velásquez</td><td>Actualización de formato</td></tr><tr><td align="right">1.1</td><td>2025-09-11</td><td>Ronald Peláez</td><td>Registro de tarjeta Stradacard y refinamiento de manual.</td></tr><tr><td align="right">1.2</td><td>2025-11-05</td><td>Ronald Peláez</td><td>Agregar tabla de resumen financiero.</td></tr><tr><td align="right">1.3</td><td>2026-09-30</td><td>Ronald Peláez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-33890">Ajustes en la tabla de resumen financiero.</a></td></tr></tbody></table>
+
+</details>
