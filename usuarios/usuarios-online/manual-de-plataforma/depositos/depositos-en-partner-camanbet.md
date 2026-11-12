@@ -1,0 +1,82 @@
+---
+description: >-
+  El Partner de camanbet tiene la sección de depósitos diferente a los demás
+  partners en usuarios online
+---
+
+# Depósitos en partner Camanbet
+
+### 1. Acceso al Módulo:
+
+**Ruta de Acceso**: Botón **"Depósito"** ubicada en el menú superior o página inicial una vez iniciada la sesión.
+
+***
+
+### 2. Visualización:
+
+<figure><img src="../../../.gitbook/assets/image (180) (1).png" alt=""><figcaption><p>Figura #1: Captura de pantalla depósitos camanbet</p></figcaption></figure>
+
+### **3. Acciones del Usuario**
+
+<table><thead><tr><th width="188">Acción</th><th width="142">Control</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="https://virtualsoft.gitbook.io/manuales/usuarios/usuarios-online/manual-de-plataforma/depositos/depositos-en-partner-camanbet#id-3.1-pasos-para-un-deposito"><strong><code>Depositar saldo</code></strong></a></td><td>Botón</td><td>Realiza un depósito en la cuenta de camanbet.</td></tr></tbody></table>
+
+### 4. Pasos a realizar para un depósito
+
+{% stepper %}
+{% step %}
+#### Seleccionar la moneda
+
+En el pop-up que se despliega al ingresar a la sección de depósitos, debes seleccionar la moneda en la cual se realizará el depósito.
+{% endstep %}
+
+{% step %}
+#### Selecciona el método de pago.
+
+Tendrás 2 métodos disponibles para realizar un depósito
+
+<table><thead><tr><th width="160.77777099609375">Método</th><th width="518.2222290039062">Descripción</th></tr></thead><tbody><tr><td><strong>Transferencia bancaria (</strong><em><strong>Informativos</strong></em><strong>)</strong></td><td><p>Realiza un depósito mediante <strong>transferencia bancaria</strong> siguiendo los siguientes pasos.</p><div data-gb-custom-block data-tag="stepper"><div data-gb-custom-block data-tag="step"><h4>Selecciona el banco</h4><p>Selecciona el banco disponible mediante el cual realizarás la transferencia bancaria.</p></div><div data-gb-custom-block data-tag="step"><h4>Ingresar los datos</h4><p>Ingresa los datos del depósito realizado de manera externa.</p><p><a href="https://virtualsoft.gitbook.io/manuales/usuarios/usuarios-online/manual-de-plataforma/depositos/depositos-en-partner-camanbet#formulario-para-deposito" class="button secondary">Ir al formulario</a></p></div><div data-gb-custom-block data-tag="step"><h4>Verificar la información</h4><p>Verifica que la información ingresada esté correcta y finaliza el proceso con el botón "<strong><code>enviar</code></strong>"</p></div></div></td></tr><tr><td><strong>Pasarelas de pago</strong></td><td><p>Se mostrarán las pasarelas disponibles y, frente a cada una, el campo correspondiente para ingresar el valor que se desea depositar.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Cada pasarela indica el monto mínimo y máximo permitido justo debajo del campo donde se ingresa el valor a depositar.</p></div></td></tr></tbody></table>
+
+<details>
+
+<summary>Formulario para depósito.</summary>
+
+<table><thead><tr><th width="151.99993896484375">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Monto VES</code></strong></td><td>Monto por el cual se va a realizar el depósito</td></tr><tr><td><strong><code>Número de operación</code></strong></td><td>Código brindado por el banco como comprobante de la transferencia realizada.</td></tr><tr><td><strong><code>Fecha</code></strong></td><td>Fecha en la que se realizó la transferencia</td></tr><tr><td><strong><code>Adjuntar comprobante de pago</code></strong></td><td><p>Permite cargar un único archivo como comprobante de la transferencia bancaria realizada. El comprobante queda asociado a la solicitud para su posterior revisión en el reporte <a href="https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/manual-de-usuario-backoffice/financiero/solicitudes-de-deposito"><strong>Solicitudes de depósito</strong> </a>del BackOffice. Al adjuntarlo correctamente, se habilita el botón "<strong><code>siguiente</code></strong>".</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Notas</strong>: </p><ul><li>Una vez enviada la solicitud con el comprobante, este no podrá editarse ni reemplazarse. Si la solicitud es rechazada, deberá generarse una nueva.</li><li>Solo se admiten archivos <strong>PNG, JPG o PDF</strong> con un tamaño máximo de <strong>7 MB</strong>. Si el archivo no cumple estas condiciones, el sistema mostrará un mensaje de error.</li><li><p>Existe un máximo de comprobantes por referencia bancaria, definido en <a data-mention href="https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/manual-de-usuario-backoffice/herramientas/partner-ajustes/configuracion-1#ajustes-generales">Configuración #🔽Ajustes Generales</a>. El conteo aplica a la combinación de <strong>jugador, referencia y banco</strong>, por lo que con una referencia distinta se puede cargar con normalidad.</p><p>Al alcanzar el límite, la plataforma muestra un mensaje informando y el flujo de depósito no se interrumpe, el usuario puede corregir la referencia y continuar.</p></li></ul></div></td></tr></tbody></table>
+
+<a href="https://virtualsoft.gitbook.io/manuales/usuarios/usuarios-online/manual-de-plataforma/depositos/depositos-en-partner-camanbet#selecciona-el-metodo-de-pago" class="button secondary">Regresar</a>
+
+</details>
+{% endstep %}
+
+{% step %}
+#### Verificar la operación
+
+Verifica que la información mostrada en el resumen sea correcta antes de enviarla y completar la solicitud de depósito.
+
+{% hint style="warning" %}
+**Nota:** Al enviar la solicitud, el sistema mostrará un mensaje indicando si fue creada correctamente. En caso de creación exitosa, se mostrará el **ID de la transacción** asociado a la solicitud.
+{% endhint %}
+{% endstep %}
+{% endstepper %}
+
+***
+
+### **5. Validaciones y Reglas de Negocio**
+
+* El monto mínimo de depósito puede variar según el método.
+* Algunos métodos generan una referencia de pago válida por tiempo limitado.
+* Los fondos se acreditan en tiempo real o tras validación del comprobante según el método.
+* Los depósitos pueden estar sujetos a verificación previa o posterior.
+* En el campo **`Adjuntar comprobante de pago`** solo permite archivos PNG, JPG o PDF con un peso máximo de 7MB en caso de que el archivo no cumpla con estas condiciones se mostrará un mensaje de error.
+* Luego de generar el proceso por medio de depósito de transferencia bancaria, se visualizará un mensaje indicando que el depósito está en proceso de verificación junto con el ID de transacción.
+* Si la solicitud es rechazada, se deberá crear una nueva solicitud con un nuevo comprobante.
+* Los depósitos realizados se visualizarán y se gestionarán en la siguiente reportería: [Solicitudes de depósito](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/manual-de-usuario-backoffice/financiero/solicitudes-de-deposito "mention")
+
+### **6. Control de Versiones**
+
+<details>
+
+<summary>🔽 Historial de versiones</summary>
+
+<table><thead><tr><th width="108">Versión</th><th width="123">Fecha</th><th width="140">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>17/07/2025</td><td>Ronald Peláez</td><td>Documento inicial.</td></tr><tr><td>1.1</td><td>06/04/2026</td><td>Ronald Peláez</td><td>Ajustes por depósito en transferencia bancaria</td></tr><tr><td>1.2</td><td>25/08/2026</td><td>David Velasquez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-32994?xpis=eyJicmlkZ2UiOiJzbWFydExpbmtzIiwiaWQiOiIxNzg3Njg4MTYwMzY4Iiwic291cmNlIjoiamlyYS1KU1cifQ%3D%3D#icft=VSFT-32994">Ajustes por depósito en transferencia bancaria e incorporación de nuevos pasos.</a></td></tr><tr><td>1.3</td><td>22/10/2026</td><td>David Velasquez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-34513">Nota en depósito por transferencia bancaria</a></td></tr></tbody></table>
+
+</details>
