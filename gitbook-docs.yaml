@@ -1,0 +1,96 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: Manuales
+  structure:
+    - type: space
+      key: space-10
+      title: Backoffice
+      path: backoffice
+      default: true
+      content:
+        directory: ./backoffice
+        language: es
+    - type: space
+      key: space-1
+      title: Torneos y bonos
+      path: torneos-y-bonos
+      content:
+        directory: ./torneos-y-bonos
+        language: es
+    - type: space
+      key: space-7
+      title: Usuarios online
+      path: usuarios
+      content:
+        directory: ./usuarios
+        language: es
+    - type: space
+      key: space-3
+      title: Integraciones.
+      path: integraciones.
+      content:
+        directory: ./integraciones.
+        language: es
+    - type: space
+      key: space-6
+      title: Sitebuilder
+      path: sitebuilder
+      content:
+        directory: ./sitebuilder
+        language: es
+    - type: space
+      key: space-4
+      title: Strategy
+      path: microstrategy
+      content:
+        directory: ./microstrategy
+        language: es
+    - type: space
+      key: space-8
+      title: Reportería.
+      path: reporteria.
+      content:
+        directory: ./reporteria.
+        language: es
+    - type: space
+      key: space-2
+      title: Marketing
+      path: marketing
+      content:
+        directory: ./marketing
+        language: es
+    - type: space
+      key: space-5
+      title: Filezilla.
+      path: filezilla.
+      content:
+        directory: ./filezilla.
+        language: es
+    - type: space
+      key: space-9
+      title: Slack
+      path: slack
+      content:
+        directory: ./slack
+        language: es
+    - type: space
+      key: space-11
+      title: Power BI.
+      path: power-bi.
+      content:
+        directory: ./power-bi.
+        language: es
+    - type: space
+      key: space-12
+      title: Plantillas
+      path: plantillas
+      draft: true
+      content:
+        directory: ./plantillas
+    - type: space
+      key: space-13
+      title: Glosario
+      path: glosario
+      draft: true
+      content:
+        directory: ./glosario
