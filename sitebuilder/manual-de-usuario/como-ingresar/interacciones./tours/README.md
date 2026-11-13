@@ -31,6 +31,13 @@ layout:
 
 **Ruta de Acceso:** SiteBuilder > Seleccionar Partner > interacciones > Tours.
 
+{% hint style="warning" %}
+**Nota**: Solo los usuarios con el permiso "**Tours**" pueden acceder a este módulo. Existen dos tipos de permiso:
+
+* **Visualizar**: Permite acceder al módulo y previsualizar los tours previamente creados.
+* **Crear**: permite crear y editar tours.
+{% endhint %}
+
 ***
 
 ### 2. Acciones disponibles
@@ -55,7 +62,7 @@ El módulo presenta indicadores, listas y métricas relacionadas con los tours p
 
 Los indicadores KPI se componen de las cantidades totales de tours registrados en la plataforma.
 
-<table><thead><tr><th width="145">KPI</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Total</code></strong></td><td>Tours creados para la plataforma Usuarios Oline.</td></tr><tr><td><strong><code>Activos</code></strong></td><td>Tours activos actualmente en la plataforma Usuarios Online.</td></tr><tr><td><strong><code>Borradores</code></strong></td><td>Tours que iniciaron la creación, pero no se guardaron.</td></tr><tr><td><strong><code>Inactivo</code></strong></td><td>Tours que fueron creados, pero ya se encuentran inactivos para la plataforma Usuarios Online.</td></tr></tbody></table>
+<table><thead><tr><th width="145">KPI</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Total</code></strong></td><td>Tours creados para la plataforma Usuarios Oline.</td></tr><tr><td><strong><code>Activos</code></strong></td><td>Tours en estado Activo, que se visualizan en la plataforma Usuarios Online según su configuración de fechas.</td></tr><tr><td><strong><code>Borradores</code></strong></td><td>Tours guardados en estado Borrador, que no se visualizan para los jugadores.</td></tr><tr><td><strong><code>Inactivo</code></strong></td><td>Tours en estado Inactivo, por haber alcanzado su fecha de finalización o por haberse inactivado manualmente. No se visualizan para los jugadores.</td></tr></tbody></table>
 
 #### Lista de tours
 
@@ -65,13 +72,13 @@ Es esta tabla se visualizarán cada uno de los tours previamente creados.
 **Nota**: La tabla corresponde a los filtros ![](<../../../../.gitbook/assets/Frame 1321316418.png>) que ayudan a obtener una información más precisa, o se puede filtrar directamente por el nombre de un tour desde <img src="../../../../.gitbook/assets/Text Input.png" alt="" data-size="line">.
 {% endhint %}
 
-<table><thead><tr><th width="174">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>ID</code></strong></td><td>Identificador único del tour.</td></tr><tr><td><strong><code>Nombre</code></strong></td><td>Nombre asignado al tour.</td></tr><tr><td><strong><code>Prioridad</code></strong></td><td><p>Prioridad que tiene el tour respecto a los demás tours creados.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota</strong>: Desde <img src="../../../../.gitbook/assets/icon_drag_indicator (2).png" alt=""> también se podrá modificar la prioridad del tour, al momento de arrastrar el tour seleccionado se establecerá una nueva prioridad correspondiente a la ubicación establecida.</p></div></td></tr><tr><td><strong><code>Estado</code></strong></td><td>Estado en el que se encuentra en tour.</td></tr><tr><td><strong><code>Recompensa</code></strong></td><td>Recompensa que obtienen los usuarios de la plataforma Usuarios Online al momento de finalizar el tour.</td></tr><tr><td><strong><code>ID bono</code></strong></td><td>Identificador del bono que obtienen los usuarios al finalizar el tour.</td></tr><tr><td><strong><code>Audiencia</code></strong></td><td>Audiencia que tendrá disponible y visible el tour.</td></tr><tr><td><strong><code>Inicio</code></strong></td><td>Fecha en la que el tour inició su vigencia.</td></tr><tr><td><strong><code>Fin</code></strong></td><td>Fecha en la que el tour finalizó su vigencia.</td></tr><tr><td><strong><code>Acciones</code></strong></td><td>Acciones disponibles para gestionar el tour.<br><a href="https://virtualsoft.gitbook.io/manuales/sitebuilder/manual-de-usuario/como-ingresar/interacciones./tours#lista-de-acciones" class="button secondary">Lista de acciones</a></td></tr></tbody></table>
+<table><thead><tr><th width="174">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>ID</code></strong></td><td>Identificador único del tour.</td></tr><tr><td><strong><code>Nombre</code></strong></td><td>Nombre asignado al tour.</td></tr><tr><td><strong><code>Prioridad</code></strong></td><td><p>Prioridad que tiene el tour respecto a los demás tours creados.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota</strong>: Desde <img src="../../../../.gitbook/assets/icon_drag_indicator (2).png" alt=""> también se podrá modificar la prioridad del tour, al momento de arrastrar el tour seleccionado se establecerá una nueva prioridad correspondiente a la ubicación establecida.</p></div></td></tr><tr><td><strong><code>Estado</code></strong></td><td>Estado actual del tour <em>(Borrador, Activo o Inactivo)</em>.</td></tr><tr><td><strong><code>Recompensa</code></strong></td><td>Indica la recompensa configurada para los usuarios de la plataforma Usuarios Online que finalizan el tour.</td></tr><tr><td><strong><code>ID bono</code></strong></td><td>Identificador del bono que obtienen los usuarios al finalizar el tour.</td></tr><tr><td><strong><code>Audiencia</code></strong></td><td>Audiencia que tendrá disponible y visible el tour.</td></tr><tr><td><strong><code>Inicio</code></strong></td><td>Fecha en la que el tour inició su vigencia.</td></tr><tr><td><strong><code>Fin</code></strong></td><td>Fecha en la que el tour finalizó su vigencia.</td></tr><tr><td><strong><code>Acciones</code></strong></td><td>Acciones disponibles para gestionar el tour.<br><a href="https://virtualsoft.gitbook.io/manuales/sitebuilder/manual-de-usuario/como-ingresar/interacciones./tours#lista-de-acciones" class="button secondary">Lista de acciones</a></td></tr></tbody></table>
 
 <details>
 
 <summary><strong>Lista de acciones</strong></summary>
 
-<table><thead><tr><th width="74">Acción</th><th width="557">Descripción</th></tr></thead><tbody><tr><td><img src="../../../../.gitbook/assets/Vector (1) (2).png" alt=""></td><td>Redirige hacia el formulario de creación de tours para editar el tour seleccionado.</td></tr><tr><td><img src="../../../../.gitbook/assets/Vector (10).png" alt=""></td><td>Previsualiza el funcionamiento del tour.</td></tr><tr><td><img src="../../../../.gitbook/assets/Vector (2) (1).png" alt="" data-size="original"></td><td><p>Despliega el pop-up para confirmar si se desea duplicar el tour seleccionado.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota</strong>: Al momento de duplicar un tour, este se duplicará con las mismas configuraciones que el seleccionado, pero en estado "<strong>Borrador</strong>".</p></div></td></tr><tr><td><img src="../../../../.gitbook/assets/settings_power.png" alt=""></td><td><p>Despliega un pop-up para confirmar si se desea activar o desactivar un tour.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota</strong>: Esta acción estará bloqueada para los tours que estén en estado "<strong>Borrador</strong>".</p></div></td></tr></tbody></table>
+<table><thead><tr><th width="74">Acción</th><th width="557">Descripción</th></tr></thead><tbody><tr><td><img src="../../../../.gitbook/assets/Vector (1) (2).png" alt=""></td><td>Redirige hacia el formulario de creación de tours para editar el tour seleccionado.</td></tr><tr><td><img src="../../../../.gitbook/assets/Vector (10).png" alt=""></td><td>Previsualiza el funcionamiento del tour.</td></tr><tr><td><img src="../../../../.gitbook/assets/Vector (2) (1).png" alt="" data-size="original"></td><td><p>Despliega el pop-up para confirmar si se desea duplicar el tour seleccionado.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota</strong>: Al duplicar un tour, este se crea con las mismas configuraciones que el seleccionado, pero en estado "<strong>Borrador</strong>".</p></div></td></tr><tr><td><img src="../../../../.gitbook/assets/settings_power.png" alt=""></td><td><p>Despliega un pop-up para confirmar si se desea activar o desactivar un tour.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota</strong>: Esta acción está bloqueada para los tours en estado "<strong>Borrador</strong>". Un tour inactivo solo puede reactivarse si no tiene fecha de finalización o si esta es posterior a la fecha actual; de lo contrario, primero se debe editar la fecha.</p></div></td></tr></tbody></table>
 
 </details>
 
@@ -101,6 +108,8 @@ Al seleccionar el botón <img src="../../../../.gitbook/assets/Button (13).png" 
 {% endhint %}
 
 * Los cambios realizados desde este módulo aplicaran de manera inmediata sin necesidad de realizar alguna otra confirmación.
+* No se permite cambiar el estado de Activo a Borrador ni de Inactivo a Borrador.
+* El tour pasa a Inactivo al alcanzar su fecha de finalización.
 {% endtab %}
 
 {% tab title="② Indicadores" %}
@@ -118,7 +127,7 @@ Los tutoriales son videos que sirven para ayudar a conocer proceso que se pueden
 
 #### Visualización
 
-<figure><img src="../../../../.gitbook/assets/image (402).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Tours.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (402).png" alt=""><figcaption><p>Figura #2: Captura de pantalla tutoriales.</p></figcaption></figure>
 
 #### Filtros
 
@@ -171,6 +180,15 @@ El botón <img src="../../../../.gitbook/assets/Button (2) (3).png" alt="" data-
 {% hint style="warning" %}
 **Nota**: En el previsualizador solo se verán los tutoriales **activos** y en el orden establecido en la lista.
 {% endhint %}
+
+***
+
+**Reglas y validaciones**
+
+* Los campos obligatorios se validan antes de guardar. Si falta alguno, se muestra un mensaje que indica cuál completar _(ejemplo: "El nombre del video es obligatorio.")._
+* El nombre, la descripción, el video, las fechas y el estado se pueden editar en cualquier momento. Si falla el guardado, se muestra: _"Ocurrió un error al actualizar el video tutorial. Intenta nuevamente."_
+* Al alcanzar su fecha final, el tutorial deja de estar disponible y puede reactivarse modificando sus fechas.
+* Sin permisos de edición, solo se puede visualizar. Al intentar editar, se muestra: _"No tienes permisos para modificar la configuración de Tutoriales."_
 {% endtab %}
 {% endtabs %}
 
