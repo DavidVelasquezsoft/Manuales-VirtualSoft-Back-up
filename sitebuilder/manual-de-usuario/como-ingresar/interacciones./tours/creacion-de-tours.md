@@ -88,6 +88,12 @@ Configuración de la recompensa que recibe el usuario al finalizar el tour y del
 
 <table><thead><tr><th width="142">Configuración</th><th width="124">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>El tour entrega recompensa</code></strong></td><td>Interruptor</td><td><p>Establece si el tour entrega recompensa.</p><ul><li><strong>Habilitado</strong>: Se despliegan la selección del bono, <em>(que debe estar previamente configurado)</em> y la configuración del modal de recompensa.</li><li><strong>Deshabilitado</strong>: No se exige este paso para la creación del tour. Al finalizar los pasos, el recorrido continúa hacia la calificación.</li></ul><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota</strong>: Para que un bono aparezca en la lista de bonos, en el campo "¿<strong>Es para</strong>?" del formulario de creación de bonos debe seleccionarse "<strong>tours</strong>".</p></div></td></tr></tbody></table>
 
+#### **Reglas de entrega de la recompensa**
+
+* Se entrega únicamente cuando el usuario completa todos los pasos del tour.
+* El modal de recompensa se muestra al presionar **`Siguiente`** en el último paso.
+* No se entrega si el usuario selecciona **`No volver a mostrar`**.
+
 #### **Tipo de modal final**
 
 Define el tipo de modal que el usuario visualiza al finalizar el tour. Cada tipo tiene configuraciones diferentes.
@@ -101,13 +107,13 @@ Define el tipo de modal que el usuario visualiza al finalizar el tour. Cada tipo
 
 {% tabs %}
 {% tab title="Recompensa" %}
-El pop-up de recompensa combina textos, una imagen opcional y un único botón.
+El pop-up de recompensa se compone de título, mensaje principal, texto secundario, una imagen opcional y un único botón.
 
-<table><thead><tr><th width="136">Configuración</th><th width="121">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Título del modal</code></strong></td><td>Texto</td><td>Título principal del modal de recompensa.</td></tr><tr><td><strong><code>Mensaje principal</code></strong></td><td>Texto</td><td>Mensaje que se visualiza en el modal de recompensa.</td></tr><tr><td><strong><code>Texto secundario</code></strong></td><td>Texto</td><td>Texto adicional que se visualiza en otro párrafo del modal de recompensa.</td></tr><tr><td><strong><code>Texto del botón</code></strong></td><td>Texto</td><td>Texto del botón del modal.</td></tr><tr><td><strong><code>Activar imagen o ilustración</code></strong></td><td>Interruptor</td><td><p>Establece si el pop-up de recompensa incluye una imagen.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota</strong>: Al activar esta opción, se habilita la configuración <strong><code>Imagen o ilustración</code></strong>, en la cual se ingresa la imagen del pop-up.</p></div></td></tr></tbody></table>
+<table><thead><tr><th width="136">Configuración</th><th width="121">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Título del modal</code></strong></td><td>Texto</td><td>Título principal del modal que el usuario visualiza al completar el tour.</td></tr><tr><td><strong><code>Mensaje principal</code></strong></td><td>Texto</td><td>Mensaje central del modal de recompensa, que sigue al título.</td></tr><tr><td><strong><code>Texto secundario</code></strong></td><td>Texto</td><td>Texto complementario del mensaje principal, que se visualiza en otro párrafo del modal. Aplica únicamente al tipo Recompensa.</td></tr><tr><td><strong><code>Texto del botón</code></strong></td><td>Texto</td><td>Texto que identifica el botón del modal ante el usuario.</td></tr><tr><td><strong><code>Activar imagen o ilustración</code></strong></td><td>Interruptor</td><td><p>Establece si el pop-up de recompensa incluye una imagen.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota</strong>: Al activar esta opción, se habilita la configuración <strong><code>Imagen o ilustración</code></strong>, en la cual se ingresa la imagen del pop-up.</p></div></td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Display" %}
-El pop-up display combina imagen y texto, y admite una cantidad limitada de botones.
+El pop-up display combina imagen y texto, y admite hasta 3 botones.
 
 <table><thead><tr><th width="139">Configuración</th><th width="121">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Agregar imagen</code></strong></td><td>Cargar archivo</td><td>Imagen principal del pop-up.</td></tr><tr><td><strong><code>Título</code></strong></td><td>Texto</td><td>Título del pop-up.</td></tr><tr><td><strong><code>Información</code></strong></td><td>Texto</td><td>Párrafo que se visualiza en el pop-up.</td></tr><tr><td><strong><code>Configuración de botones</code></strong></td><td>Formulario</td><td><p>Botones del pop-up <em>(máximo 3)</em>. Su orden se modifica arrastrándolos con <img src="https://2760919989-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FOjl0Z2z0C78jMb0KvTb8%2Fuploads%2FDwrbM11QZ2GArSAcAwBG%2Ficon_drag_indicator.png?alt=media&#x26;token=78d6f82e-bcae-4beb-9f16-24e255e6f5de" alt=""> y los botones creados se eliminan con <img src="https://2760919989-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FOjl0Z2z0C78jMb0KvTb8%2Fuploads%2FohzgxPPR0UPBBp6AO5de%2FVector%20(4).png?alt=media&#x26;token=2d5571d9-1248-49d2-9ec7-e6a09ef2862d" alt="" data-size="original">. Cada botón se configura con los siguientes campos:<br></p><ul><li><strong>Texto del botón</strong>: Texto del botón visible para el usuario.</li><li><strong>URL de redirección</strong>: URL a la que se redirige al usuario al hacer clic en el botón.</li></ul><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Los botones tienen una prioridad predeterminada según su ubicación: al crear 3 botones, el de la izquierda es acción primaria, el del centro secundaria y el de la derecha terciaria. La prioridad se mantiene por ubicación aunque se cambie el orden de los botones.</p></div></td></tr></tbody></table>
 {% endtab %}
@@ -127,7 +133,7 @@ El pop-up visual tiene un diseño enfocado en imágenes.
 
 #### Vista previa del modal final
 
-Previsualización del pop-up configurado, con opción de alternar entre la vista de escritorio y la de dispositivo móvil.
+Previsualización del pop-up final configurado, con opción de alternar entre la vista de escritorio y la de dispositivo móvil.
 {% endtab %}
 
 {% tab title="Paso 4" %}
