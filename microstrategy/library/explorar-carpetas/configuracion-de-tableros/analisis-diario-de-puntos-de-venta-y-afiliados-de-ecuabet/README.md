@@ -77,7 +77,7 @@ KIP de pestaña General PDV y estadísticas (este KPI solo aparece en esas 2 pes
 
 Visualización
 
-<figure><img src="../../../.gitbook/assets/image (276).png" alt=""><figcaption><p>Figura #1: Captura de pantalla vista General PDV.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (276).png" alt=""><figcaption><p>Figura #1: Captura de pantalla vista General PDV.</p></figcaption></figure>
 
 cada pestaña segmenta la información del punto de venta (mejorar descripción y ponerle un título)
 
@@ -129,7 +129,7 @@ Esta pestaña se compone con la información de gráficos verticales&#x20;
 
 Visualización
 
-<figure><img src="../../../.gitbook/assets/image (277).png" alt=""><figcaption><p>Figura #2: Captura de pantalla vista estadísticas.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (277).png" alt=""><figcaption><p>Figura #2: Captura de pantalla vista estadísticas.</p></figcaption></figure>
 
 pestañas
 
@@ -157,7 +157,7 @@ esta se complementa de una tabla con la información detallada
 
 Visualización
 
-<figure><img src="../../../.gitbook/assets/image (278).png" alt=""><figcaption><p>Figura #3: Captura de pantalla vista Afiliados.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (278).png" alt=""><figcaption><p>Figura #3: Captura de pantalla vista Afiliados.</p></figcaption></figure>
 
 Esta pestaña en específico tiene un KPI diferente a los demás
 
