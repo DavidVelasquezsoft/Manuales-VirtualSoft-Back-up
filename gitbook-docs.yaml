@@ -106,8 +106,8 @@ site:
             directory: ./manuales-api
         - type: space
           key: space-15
-          title: Copy of Strategy
-          path: copy-of-strategy
+          title: Strategy-Ecuabet
+          path: strategy-ecuabet
           draft: true
           content:
             directory: ./manuales/copy-of-strategy
