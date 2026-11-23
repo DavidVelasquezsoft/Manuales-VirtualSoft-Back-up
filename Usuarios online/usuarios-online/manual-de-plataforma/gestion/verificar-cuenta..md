@@ -91,8 +91,8 @@ Proceso por el cual una cuenta verificada pierde su estado de validación, queda
   * Volver a subir el documento de identidad.
   * Volver a tomarse una selfie.
   * Hacer ambas acciones.
-* La información de verificaciones se registra en el reporte [**Verificación de usuarios**](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/manual-de-usuario-backoffice/seguridad/verificacion-de-usuarios) en el backoffice.
-* El proveedor de verificación se configura desde [**Configuración proveedores internos**](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/manual-de-usuario-backoffice/herramientas/partner-ajustes/configuracion-1#proveedores-internos).
+* La información de verificaciones se registra en el reporte [**Verificación de usuarios**](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/seguridad/verificacion-de-usuarios) en el backoffice.
+* El proveedor de verificación se configura desde [**Configuración proveedores internos**](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/herramientas/partner-ajustes/configuracion-1#proveedores-internos).
 * Si el número de documento retornado por el proveedor no coincide con el registrado por el usuario, la verificación se rechaza con el motivo **Número de documento incorrecto**.
 
 {% hint style="warning" %}

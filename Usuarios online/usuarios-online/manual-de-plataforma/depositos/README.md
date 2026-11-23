@@ -168,7 +168,7 @@ Se mostrarán los datos del banco destino y el número de cuenta al cual debe re
 
 Ingrese la siguiente información de la transferencia bancaria:
 
-<table><thead><tr><th width="147.5555419921875">Campo</th><th width="111.40740966796875">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Monto</code></strong></td><td>Numérico</td><td>Ingresa valor del depósito previamente realizado mediante transferencia bancaria.</td></tr><tr><td><strong><code>Número de referencia</code></strong></td><td>Texto</td><td>Registra el número de referencia generado por la entidad bancaria para identificar la transacción realizada.</td></tr><tr><td><strong><code>Fecha</code></strong></td><td>Fecha</td><td>Registrar la fecha en la que se efectuó la transferencia bancaria.</td></tr><tr><td><strong><code>Comprobante de pago</code></strong></td><td>Archivo</td><td><p>Adjunta el soporte del depósito realizado, como evidencia de la transferencia bancaria. (<em>imagen o documento</em>).</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Existe un máximo de comprobantes que pueden cargarse para una misma referencia bancaria. El límite se define en <a data-mention href="https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/manual-de-usuario-backoffice/herramientas/partner-ajustes/configuracion-1#ajustes-generales">Configuración #🔽Ajustes Generales</a> del backOffice y se cuenta por la combinación de <strong>jugador, referencia y banco</strong>, por lo que una referencia distinta permite cargar comprobantes con normalidad.</p><p>Al alcanzar el límite, la plataforma muestra el mensaje de error. El flujo de depósito no se interrumpe: el usuario puede corregir la referencia y continuar.</p></div></td></tr></tbody></table>
+<table><thead><tr><th width="147.5555419921875">Campo</th><th width="111.40740966796875">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Monto</code></strong></td><td>Numérico</td><td>Ingresa valor del depósito previamente realizado mediante transferencia bancaria.</td></tr><tr><td><strong><code>Número de referencia</code></strong></td><td>Texto</td><td>Registra el número de referencia generado por la entidad bancaria para identificar la transacción realizada.</td></tr><tr><td><strong><code>Fecha</code></strong></td><td>Fecha</td><td>Registrar la fecha en la que se efectuó la transferencia bancaria.</td></tr><tr><td><strong><code>Comprobante de pago</code></strong></td><td>Archivo</td><td><p>Adjunta el soporte del depósito realizado, como evidencia de la transferencia bancaria. (<em>imagen o documento</em>).</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Existe un máximo de comprobantes que pueden cargarse para una misma referencia bancaria. El límite se define en <a data-mention href="https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/herramientas/partner-ajustes/configuracion-1#ajustes-generales">Configuración #🔽Ajustes Generales</a> del backOffice y se cuenta por la combinación de <strong>jugador, referencia y banco</strong>, por lo que una referencia distinta permite cargar comprobantes con normalidad.</p><p>Al alcanzar el límite, la plataforma muestra el mensaje de error. El flujo de depósito no se interrumpe: el usuario puede corregir la referencia y continuar.</p></div></td></tr></tbody></table>
 
 Una vez finalizados todos los campos presiona el botón "**Continuar**" para generar la solicitud de depósito.
 {% endstep %}
@@ -206,9 +206,9 @@ Puedes verificar el saldo acreditado en tu cuenta desde el panel principal o en 
 * No se permiten depósitos realizados desde cuentas de terceros.
 * El sistema puede aplicar bonos automáticamente si se cumplen las condiciones.
 * Los fondos pueden acreditarse en tiempo real o tras validar un comprobante, según el método utilizado.
-* El reporte del BackOffice [Reporte Depósitos por franquicias](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/manual-de-usuario-backoffice/reportes/reporte-depositos-por-franquicias "mention") permite visualizar la información de los depósitos procesados mediante franquicias, facilitando su análisis de forma independiente.
+* El reporte del BackOffice [Reporte Depósitos por franquicias](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/reportes/reporte-depositos-por-franquicias "mention") permite visualizar la información de los depósitos procesados mediante franquicias, facilitando su análisis de forma independiente.
 * Para que un depósito sea válido es necesario que la pasarela tenga configurado un valor máximo y un valor mínimo de depósitos desde [BackOffice](https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/herramientas/partner-ajustes/productos/partners-sub-proveedores#id-3.3.-editar-subproveedor).
-* Un mismo jugador puede cargar un número limitado de comprobantes para una misma referencia bancaria de un mismo banco. La cantidad máxima la configura la operación desde  [Configuración #🔽Ajustes Generales](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/manual-de-usuario-backoffice/herramientas/partner-ajustes/configuracion-1#ajustes-generales "mention"). Si la referencia corresponde a otro banco o fue utilizada por otro jugador, la carga se permite sin restricción.
+* Un mismo jugador puede cargar un número limitado de comprobantes para una misma referencia bancaria de un mismo banco. La cantidad máxima la configura la operación desde  [Configuración #🔽Ajustes Generales](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/herramientas/partner-ajustes/configuracion-1#ajustes-generales "mention"). Si la referencia corresponde a otro banco o fue utilizada por otro jugador, la carga se permite sin restricción.
 * Cuando un usuario realice su primer depósito se realizará una validación regulatoria con proveedores externos para validar coincidencias en listas de observados, los proveedores con los que se realiza esta validación se configuran dese [BackOffice](https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/seguridad/reporte-de-listas-de-observados).
 
 ***
@@ -217,14 +217,14 @@ Puedes verificar el saldo acreditado en tu cuenta desde el panel principal o en 
 
 * Los depósitos realizados se visualizarán en la siguiente reportería
 
-{% content-ref url="https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/manual-de-usuario-backoffice/jugadores/reportes-seccion-jugadores/reporte-de-deposito" %}
-[Reporte de depósito](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/manual-de-usuario-backoffice/jugadores/reportes-seccion-jugadores/reporte-de-deposito)
+{% content-ref url="https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/jugadores/reportes-seccion-jugadores/reporte-de-deposito" %}
+[Reporte de depósito](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/jugadores/reportes-seccion-jugadores/reporte-de-deposito)
 {% endcontent-ref %}
 
 * ¿Cómo gestionar solicitudes de depósitos desde el BackOffice?
 
-{% content-ref url="https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/manual-de-usuario-backoffice/financiero/solicitudes-de-deposito" %}
-[Solicitudes de depósito](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/manual-de-usuario-backoffice/financiero/solicitudes-de-deposito)
+{% content-ref url="https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/financiero/solicitudes-de-deposito" %}
+[Solicitudes de depósito](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/financiero/solicitudes-de-deposito)
 {% endcontent-ref %}
 
 ***

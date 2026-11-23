@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Inicio de Sesión
@@ -101,7 +103,7 @@ Al iniciar sesión por primera vez, se mostrará un **pop-up** con los bonos dis
 * El bono se activará automáticamente al realizar tu **primer depósito**, siempre que cumplas con las **condiciones requeridas** _(por ejemplo, monto mínimo)._
 * Si no cumples las condiciones del bono seleccionado, **no se activará**.
 * Este apartado solo se muestra cuando hay bonos de primer depósito activos en la plataforma.
-* Para que este pop-up se visualice debe haber bonos de primer depósito creados desde la sección [Torneos y bonos](https://app.gitbook.com/s/rLdGx9JdTz3uLoquKvJw/torneos-y-bonos./como-acceder-a-la-plataforma-./crear-eventos./crear-bono./bono-deposito.)
+* Para que este pop-up se visualice debe haber bonos de primer depósito creados desde la sección [Torneos y bonos](https://app.gitbook.com/s/rLdGx9JdTz3uLoquKvJw/readme/como-acceder-a-la-plataforma-./crear-eventos./crear-bono./bono-deposito.)
 
 #### 4.2. Formulario para personas expuestas políticamente.
 

@@ -152,14 +152,14 @@ En caso contrario, se mostrará un mensaje de error.
 
 Los depósitos realizados se visualizarán en el siguiente reporte:
 
-{% content-ref url="https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/manual-de-usuario-backoffice/reportes/reporte-de-depositos" %}
-[Reporte de depósitos](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/manual-de-usuario-backoffice/reportes/reporte-de-depositos)
+{% content-ref url="https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/reportes/reporte-de-depositos" %}
+[Reporte de depósitos](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/reportes/reporte-de-depositos)
 {% endcontent-ref %}
 
 #### 4.2. Gestión de Solicitudes de Depósitos desde BackOffice
 
-{% content-ref url="https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/manual-de-usuario-backoffice/financiero/solicitudes-de-deposito" %}
-[Solicitudes de depósito](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/manual-de-usuario-backoffice/financiero/solicitudes-de-deposito)
+{% content-ref url="https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/financiero/solicitudes-de-deposito" %}
+[Solicitudes de depósito](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/financiero/solicitudes-de-deposito)
 {% endcontent-ref %}
 
 ***

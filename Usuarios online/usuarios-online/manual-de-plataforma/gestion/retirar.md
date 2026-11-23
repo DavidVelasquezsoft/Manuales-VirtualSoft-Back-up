@@ -374,8 +374,8 @@ Esta tabla muestra la fuente de información que se visualizará al realizar un 
 
 * ¿Cómo gestionar una solicitud de retiro desde Backoffice?
 
-{% content-ref url="https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/manual-de-usuario-backoffice/financiero/solicitudes-de-retiro" %}
-[Solicitudes de Retiro](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/manual-de-usuario-backoffice/financiero/solicitudes-de-retiro)
+{% content-ref url="https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/financiero/solicitudes-de-retiro" %}
+[Solicitudes de Retiro](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/financiero/solicitudes-de-retiro)
 {% endcontent-ref %}
 
 * ¿Desde donde se configuran los textos?

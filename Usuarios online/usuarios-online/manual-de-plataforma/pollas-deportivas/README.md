@@ -185,8 +185,8 @@ El pozo total corresponde a la suma de las inscripciones de los participantes; l
 * El sistema acredita automáticamente los premios obtenidos al finalizar la polla, según la posición en el ranking.
 * El sistema reintegra automáticamente el valor de inscripción en caso de cancelación, abonándolo al saldo de recargas del usuario.
 * El saldo del usuario se actualiza en tiempo real después de cada operación.
-* Todas las transacciones de los usuarios (_débito, crédito y reintegro_) se registran en el [historial de movimientos](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/manual-de-usuario-backoffice/jugadores/reportes-seccion-jugadores/historial-de-movimientos) para su consulta.
-* El reporte de las pollas deportivas se visualiza desde [Reporte de pollas deportivas](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/manual-de-usuario-backoffice/reportes/reporte-de-pollas-deportivas) en el Backoffice.
+* Todas las transacciones de los usuarios (_débito, crédito y reintegro_) se registran en el [historial de movimientos](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/jugadores/reportes-seccion-jugadores/historial-de-movimientos) para su consulta.
+* El reporte de las pollas deportivas se visualiza desde [Reporte de pollas deportivas](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/reportes/reporte-de-pollas-deportivas) en el Backoffice.
 
 ***
 
