@@ -15,7 +15,7 @@ description: >-
 
 ### &#x20;2. visualización general
 
-<figure><img src="../../../../.gitbook/assets/image (313).png" alt=""><figcaption><p>Figura #1: Captura de pantalla sección crear torneo.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (314).png" alt=""><figcaption><p>Figura #1: Captura de pantalla sección crear torneo.</p></figcaption></figure>
 
 ***
 
