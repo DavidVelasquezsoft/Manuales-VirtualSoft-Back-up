@@ -20,6 +20,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Configurar depósitos
@@ -47,13 +49,13 @@ La interfaz presenta los métodos de depósito organizados mediante dos tipos de
 * **Cards informativas:** Representan métodos de depósito que no realizan una transacción directamente desde la plataforma o que presentan información para completar el depósito por otro medio.
 * **Cards transaccionales:** Representan métodos de depósito activos mediante los cuales el usuario puede iniciar una transacción desde la plataforma.
 
-<figure><img src="../../../.gitbook/assets/image (287).png" alt=""><figcaption><p>Figura#1: Captura de pantalla Configurar depósito.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (234).png" alt=""><figcaption><p>Figura#1: Captura de pantalla Configurar depósito.</p></figcaption></figure>
 
 ***
 
 ### 4. Acciones disponibles
 
-<table><thead><tr><th width="119.81817626953125" align="center">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td align="center"><strong>Arrastrar y soltar</strong></td><td>Reorganiza la posición de las cards dentro de la lista de métodos de depósito.</td></tr><tr><td align="center"><img src="../../../.gitbook/assets/image (447).png" alt="" data-size="line"></td><td>Modifica la posición de una card mediante el ícono de movimiento ubicado en su centro.</td></tr><tr><td align="center"><strong>Guardar</strong></td><td>Almacena el nuevo orden de visualización configurado para los métodos de depósito.</td></tr></tbody></table>
+<table><thead><tr><th width="119.81817626953125" align="center">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td align="center"><strong>Arrastrar y soltar</strong></td><td>Reorganiza la posición de las cards dentro de la lista de métodos de depósito.</td></tr><tr><td align="center"><img src="../../../.gitbook/assets/image (371).png" alt="" data-size="line"></td><td>Modifica la posición de una card mediante el ícono de movimiento ubicado en su centro.</td></tr><tr><td align="center"><strong>Guardar</strong></td><td>Almacena el nuevo orden de visualización configurado para los métodos de depósito.</td></tr></tbody></table>
 
 ***
 

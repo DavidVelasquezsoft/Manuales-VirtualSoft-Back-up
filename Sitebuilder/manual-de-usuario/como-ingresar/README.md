@@ -10,25 +10,25 @@ description: >-
 
 **Ruta de Acceso**: [https://sitebuilder.virtualsoft.tech](https://sitebuilder.virtualsoft.tech)
 
-Para ingresar a la plataforma en el login debes ingresar las credenciales de usuario y contraseña previamente configuradas en el panel de administración ([_BackOffice_](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/manual-de-usuario-backoffice/seguridad/usuarios-sitebuilder)).&#x20;
+Para ingresar a la plataforma en el login debes ingresar las credenciales de usuario y contraseña previamente configuradas en el panel de administración ([_BackOffice_](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/manual-de-usuario-backoffice/seguridad/usuarios-sitebuilder)).
 
 ***
 
 ### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption><p>Figura #1: Captura de pantalla inicio de sitebuilder.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption><p>Figura #1: Captura de pantalla inicio de sitebuilder.</p></figcaption></figure>
 
 ***
 
 ### **3. Acciones del Usuario**
 
-Al iniciar sesión, se muestra la pantalla principal donde se debe hacer clic en el botón **"Empezar"** para acceder a la sección de partners, ofreciendo múltiples opciones como:&#x20;
+Al iniciar sesión, se muestra la pantalla principal donde se debe hacer clic en el botón **"Empezar"** para acceder a la sección de partners, ofreciendo múltiples opciones como:
 
 #### 3.1. Seleccionar [partner](https://virtualsoft.gitbook.io/untitled/glosario#partner)
 
 Accede a la configuración de un partner específico, activando el menú lateral que incluye múltiples opciones de configuración, cada opción contiene subsecciones específicas para una gestión detallada.
 
-<table><thead><tr><th width="172">Sección</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>🏠</strong></td><td>Regresa a la vista de selección de partners.</td></tr><tr><td><img src="../../.gitbook/assets/image (335).png" alt="" data-size="line"> <strong>Previsualizar</strong></td><td><p>Permite <strong>visualizar en tiempo real la plataforma configurada de usuarios online</strong>, directamente desde el SiteBuilder, <strong>sin necesidad de guardar los cambios ni salir del entorno de configuración</strong>.</p><p>Al hacer clic en <strong>Previsualizar</strong>, el sistema abrirá un modal donde el usuario deberá:</p><ol><li><strong>Seleccionar el país</strong> en el que desea previsualizar la plataforma.</li><li><strong>Seleccionar el idioma</strong> de visualización.</li></ol><p>Una vez completados estos pasos, se abrirá la <strong>previsualización de la plataforma en Usuarios Online</strong>, mostrando exactamente cómo se verán las configuraciones actuales del partner.</p></td></tr></tbody></table>
+<table><thead><tr><th width="172">Sección</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>🏠</strong></td><td>Regresa a la vista de selección de partners.</td></tr><tr><td><img src="../../.gitbook/assets/image (276).png" alt="" data-size="line"> <strong>Previsualizar</strong></td><td><p>Permite <strong>visualizar en tiempo real la plataforma configurada de usuarios online</strong>, directamente desde el SiteBuilder, <strong>sin necesidad de guardar los cambios ni salir del entorno de configuración</strong>.</p><p>Al hacer clic en <strong>Previsualizar</strong>, el sistema abrirá un modal donde el usuario deberá:</p><ol><li><strong>Seleccionar el país</strong> en el que desea previsualizar la plataforma.</li><li><strong>Seleccionar el idioma</strong> de visualización.</li></ol><p>Una vez completados estos pasos, se abrirá la <strong>previsualización de la plataforma en Usuarios Online</strong>, mostrando exactamente cómo se verán las configuraciones actuales del partner.</p></td></tr></tbody></table>
 
 {% columns %}
 {% column width="25%" %}
@@ -55,11 +55,11 @@ Accede a la configuración de un partner específico, activando el menú lateral
 
 ***
 
-<table data-header-hidden><thead><tr><th width="173.25921630859375">Sección</th><th>Descripción</th></tr></thead><tbody><tr><td><img src="../../.gitbook/assets/theme-switch-button.png" alt="" data-size="line"> <strong>Modo de visualización</strong></td><td><p>Permite cambiar el modo de visualización de la plataforma entre <strong>modo claro</strong> y <strong>modo oscuro</strong>, tanto en versión móvil como en escritorio, mediante el interruptor ubicado en el menú lateral.</p><p>El cambio se aplica de forma inmediata y puede realizarse desde cualquier sección del sistema.</p></td></tr><tr><td><strong>🎨 Apariencia</strong></td><td>Personaliza y ajusta la plataforma para los usuarios online.</td></tr><tr><td><strong>🖥️ Mesa de trabajo</strong></td><td>Personaliza y configura los banners para las versiones de escritorio y móvil.</td></tr><tr><td><strong>💬 Mensajes</strong></td><td>Ajusta y perzonaliza los diferentes tipos de mensajes para la plataforma.</td></tr><tr><td><strong>📊 Productos</strong></td><td>Gestiona y configura los productos y servicios disponibles en la plataforma: juegos, proveedores y depósitos.</td></tr><tr><td><i class="fa-shield-check">:shield-check:</i>  <strong>Acuerdos</strong></td><td>Establece los acuerdos de la plataforma en cada uno de los apartados disponibles.</td></tr><tr><td><strong>📢 Promocionales</strong></td><td>Gestiona las promociones disponibles en la plataforma.</td></tr><tr><td>⚙️ <strong>Configuración</strong></td><td>Configurar el partner y ajustes generales.</td></tr><tr><td><i class="fa-right-from-bracket">:right-from-bracket:</i> <strong>Salir</strong></td><td>Cierra la sesión actual y redirecciona al login.</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="173.25921630859375">Sección</th><th>Descripción</th></tr></thead><tbody><tr><td><img src="../../.gitbook/assets/theme-switch-button.png" alt="" data-size="line"> <strong>Modo de visualización</strong></td><td><p>Permite cambiar el modo de visualización de la plataforma entre <strong>modo claro</strong> y <strong>modo oscuro</strong>, tanto en versión móvil como en escritorio, mediante el interruptor ubicado en el menú lateral.</p><p>El cambio se aplica de forma inmediata y puede realizarse desde cualquier sección del sistema.</p></td></tr><tr><td><strong>🎨 Apariencia</strong></td><td>Personaliza y ajusta la plataforma para los usuarios online.</td></tr><tr><td><strong>🖥️ Mesa de trabajo</strong></td><td>Personaliza y configura los banners para las versiones de escritorio y móvil.</td></tr><tr><td><strong>💬 Mensajes</strong></td><td>Ajusta y perzonaliza los diferentes tipos de mensajes para la plataforma.</td></tr><tr><td><strong>📊 Productos</strong></td><td>Gestiona y configura los productos y servicios disponibles en la plataforma: juegos, proveedores y depósitos.</td></tr><tr><td><i class="fa-shield-check">:shield-check:</i> <strong>Acuerdos</strong></td><td>Establece los acuerdos de la plataforma en cada uno de los apartados disponibles.</td></tr><tr><td><strong>📢 Promocionales</strong></td><td>Gestiona las promociones disponibles en la plataforma.</td></tr><tr><td>⚙️ <strong>Configuración</strong></td><td>Configurar el partner y ajustes generales.</td></tr><tr><td><i class="fa-right-from-bracket">:right-from-bracket:</i> <strong>Salir</strong></td><td>Cierra la sesión actual y redirecciona al login.</td></tr></tbody></table>
 
 ***
 
-### **4.  Validaciones y Reglas de Negocio**
+### **4. Validaciones y Reglas de Negocio**
 
 * Solo los usuarios con permisos específicos pueden acceder y modificar los partners.
 * Cada partner cuenta con una vista de configuración independiente.
@@ -89,6 +89,6 @@ En el caso del partner **Camanbet**, al configurar el país **Venezuela**, estar
 
 <summary>🔽Historial de versiones</summary>
 
-<table><thead><tr><th width="106">Versión</th><th width="134">Fecha</th><th width="162">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>07/07/2025</td><td>Ronald Pelaez</td><td>Documento estructurado bajo plantilla funcional estándar.</td></tr><tr><td>1.1</td><td>29/08/2025</td><td>David velasquez</td><td>Incorporación de comentarios sobre versión móvil y menú.</td></tr><tr><td>1.2</td><td>08/01/2026</td><td>David velasquez</td><td>Incorporación de  la previsualización en la plataforma.</td></tr><tr><td>1.3</td><td>04/03/2026</td><td>David velasquez</td><td>Incorporación del modo de visualización</td></tr><tr><td>1.4</td><td>12/05/2026</td><td>Karol Navia</td><td>Eliminacion de creación de partner</td></tr></tbody></table>
+<table><thead><tr><th width="106">Versión</th><th width="134">Fecha</th><th width="162">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>07/07/2025</td><td>Ronald Pelaez</td><td>Documento estructurado bajo plantilla funcional estándar.</td></tr><tr><td>1.1</td><td>29/08/2025</td><td>David velasquez</td><td>Incorporación de comentarios sobre versión móvil y menú.</td></tr><tr><td>1.2</td><td>08/01/2026</td><td>David velasquez</td><td>Incorporación de la previsualización en la plataforma.</td></tr><tr><td>1.3</td><td>04/03/2026</td><td>David velasquez</td><td>Incorporación del modo de visualización</td></tr><tr><td>1.4</td><td>12/05/2026</td><td>Karol Navia</td><td>Eliminacion de creación de partner</td></tr></tbody></table>
 
 </details>

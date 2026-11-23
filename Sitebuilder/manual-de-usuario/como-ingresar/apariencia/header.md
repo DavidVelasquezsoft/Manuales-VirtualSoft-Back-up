@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Header
@@ -27,7 +29,7 @@ layout:
 
 ### 1. Acceso al Módulo
 
-**Ruta de Acceso:**  Site Builder > Partner > Apariencia > Header
+**Ruta de Acceso:** Site Builder > Partner > Apariencia > Header
 
 ***
 
@@ -41,7 +43,7 @@ Antes de realizar las acciones disponibles en la sección pop ups, es necesario 
 
 ### 3. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (122).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección header.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (99).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección header.</p></figcaption></figure>
 
 ***
 

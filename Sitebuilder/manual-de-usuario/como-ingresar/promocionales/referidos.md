@@ -71,7 +71,7 @@ Nota: Solo se permiten archivos **PNG o GIF**, con un tamaño máximo de **200 K
 {% tab title="Historial de referido" %}
 #### **4. Visualización**
 
-<figure><img src="../../../.gitbook/assets/image (329).png" alt="" width="563"><figcaption><p>Figura #1: Visualización inicial del módulo Referidos.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (272).png" alt="" width="563"><figcaption><p>Figura #1: Visualización inicial del módulo Referidos.</p></figcaption></figure>
 
 ***
 
@@ -116,4 +116,4 @@ Si alguna acción no está disponible, contacta al equipo de soporte para valida
 
 #### **9. Control de versiones**
 
-<table><thead><tr><th width="115">Versión</th><th width="145">Fecha</th><th width="151">Autor</th><th>Cambios realizados</th></tr></thead><tbody><tr><td>1.0</td><td>06-11-2025</td><td>Ronald Peláez</td><td>Documento inicial </td></tr></tbody></table>
+<table><thead><tr><th width="115">Versión</th><th width="145">Fecha</th><th width="151">Autor</th><th>Cambios realizados</th></tr></thead><tbody><tr><td>1.0</td><td>06-11-2025</td><td>Ronald Peláez</td><td>Documento inicial</td></tr></tbody></table>

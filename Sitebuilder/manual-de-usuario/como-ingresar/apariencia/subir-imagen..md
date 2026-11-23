@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Subir imagen.
@@ -33,7 +35,7 @@ layout:
 
 ### 2. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (212).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección subir imagen.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (179).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección subir imagen.</p></figcaption></figure>
 
 ***
 
@@ -59,7 +61,7 @@ El sistema abrirá el explorador de archivos del equipo para seleccionar la imag
 {% endstep %}
 
 {% step %}
-#### Paso: 3&#x20;
+#### Paso: 3
 
 Una vez seleccionada la imagen, el sistema realizará la carga y mostrará una ventana emergente con la URL generada.
 {% endstep %}

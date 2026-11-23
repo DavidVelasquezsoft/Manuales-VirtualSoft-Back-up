@@ -31,7 +31,7 @@ Este manual cubre el uso de la sección **Colores**, incluyendo las acciones dis
 
 ### **4. Visualización**
 
-<figure><img src="../../../.gitbook/assets/image (59).png" alt=""><figcaption><p>Figura #1: Captura de pantalla módulo de colores.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (49).png" alt=""><figcaption><p>Figura #1: Captura de pantalla módulo de colores.</p></figcaption></figure>
 
 ***
 

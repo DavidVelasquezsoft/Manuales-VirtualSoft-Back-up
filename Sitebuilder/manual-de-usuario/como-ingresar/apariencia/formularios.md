@@ -11,7 +11,7 @@ description: >-
 
 ### 1. Acceso al Módulo
 
-**Ruta de Acceso**:  Site Builder > Partner > Apariencia > Formularios&#x20;
+**Ruta de Acceso**: Site Builder > Partner > Apariencia > Formularios
 
 ***
 
@@ -25,7 +25,7 @@ Antes de realizar las acciones disponibles en la sección pop ups, es necesario 
 
 ### 3. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (85).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección formularios.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (72).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección formularios.</p></figcaption></figure>
 
 ***
 
@@ -35,25 +35,25 @@ Antes de realizar las acciones disponibles en la sección pop ups, es necesario 
 
 ### 5. Gestionar formularios
 
-Luego de seleccionar el formulario se desplegarán diferentes opciones para editarlo y organizarlo, es posible cambiar de formulario desde la lista desplegable que se encuentra en la esquina superior izquierda&#x20;
+Luego de seleccionar el formulario se desplegarán diferentes opciones para editarlo y organizarlo, es posible cambiar de formulario desde la lista desplegable que se encuentra en la esquina superior izquierda
 
 {% tabs %}
 {% tab title="Editar campo" %}
 #### Visualización:
 
-<figure><img src="../../../.gitbook/assets/image (76).png" alt="" width="206"><figcaption><p>Figura#1: Captura de pantalla ajustes del campo.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (65).png" alt="" width="206"><figcaption><p>Figura#1: Captura de pantalla ajustes del campo.</p></figcaption></figure>
 
 #### **Acciones de usuario**
 
 Al hacer clic en la opción editar campo se mostrará un pop up con las siguientes configuraciones.
 
-<table><thead><tr><th width="158.09">Campo</th><th width="155.111083984375">Tipo de control</th><th>Descripción</th><th>Observaciones</th></tr></thead><tbody><tr><td><strong><code>Dimensiones</code></strong></td><td>Checkbox</td><td>Permite activar o desactivar el ancho completo del campo.</td><td>Si se activa, el campo ocupará todo el ancho disponible.</td></tr><tr><td><strong><code>Tipo de campo</code></strong></td><td>Lista desplegable (Dropdown)</td><td>Define el tipo de entrada del campo.</td><td>Opciones: Texto, Selección, Botones de opción, Fecha, Número, Contraseña.</td></tr><tr><td><strong><code>Título del campo</code></strong></td><td>Texto</td><td>Define el nombre visible para el usuario.</td><td>Ejemplo: "Nombre completo".</td></tr><tr><td><strong><code>Marcador de posición</code></strong></td><td>Checkbox + Texto</td><td>Texto guía dentro del campo cuando está vacío.</td><td>Ejemplo: "Ingresa tu nombre completo".</td></tr><tr><td><strong><code>Requerido</code></strong></td><td>Checkbox</td><td>Establece si el campo es obligatorio.</td><td>Si está marcado, el campo no puede quedar vacío.</td></tr><tr><td><strong><code>Sólo lectura</code></strong></td><td>Checkbox</td><td>El campo será visible pero no editable.</td><td>El campo no permite ingresar información. </td></tr><tr><td><strong><code>Tipo de entrada</code></strong></td><td>Lista desplegable (Dropdown)</td><td>Define la validación del contenido ingresado.</td><td>Opciones: Alfanumérico, Numérico.</td></tr><tr><td><strong><code>Límites de caracteres</code></strong></td><td>Número</td><td>Define el mínimo y máximo de caracteres.</td><td>Indica el numero de caracteres.</td></tr></tbody></table>
+<table><thead><tr><th width="158.09">Campo</th><th width="155.111083984375">Tipo de control</th><th>Descripción</th><th>Observaciones</th></tr></thead><tbody><tr><td><strong><code>Dimensiones</code></strong></td><td>Checkbox</td><td>Permite activar o desactivar el ancho completo del campo.</td><td>Si se activa, el campo ocupará todo el ancho disponible.</td></tr><tr><td><strong><code>Tipo de campo</code></strong></td><td>Lista desplegable (Dropdown)</td><td>Define el tipo de entrada del campo.</td><td>Opciones: Texto, Selección, Botones de opción, Fecha, Número, Contraseña.</td></tr><tr><td><strong><code>Título del campo</code></strong></td><td>Texto</td><td>Define el nombre visible para el usuario.</td><td>Ejemplo: "Nombre completo".</td></tr><tr><td><strong><code>Marcador de posición</code></strong></td><td>Checkbox + Texto</td><td>Texto guía dentro del campo cuando está vacío.</td><td>Ejemplo: "Ingresa tu nombre completo".</td></tr><tr><td><strong><code>Requerido</code></strong></td><td>Checkbox</td><td>Establece si el campo es obligatorio.</td><td>Si está marcado, el campo no puede quedar vacío.</td></tr><tr><td><strong><code>Sólo lectura</code></strong></td><td>Checkbox</td><td>El campo será visible pero no editable.</td><td>El campo no permite ingresar información.</td></tr><tr><td><strong><code>Tipo de entrada</code></strong></td><td>Lista desplegable (Dropdown)</td><td>Define la validación del contenido ingresado.</td><td>Opciones: Alfanumérico, Numérico.</td></tr><tr><td><strong><code>Límites de caracteres</code></strong></td><td>Número</td><td>Define el mínimo y máximo de caracteres.</td><td>Indica el numero de caracteres.</td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Asignar icono" %}
 #### Visualización:
 
-<figure><img src="../../../.gitbook/assets/image (78).png" alt=""><figcaption><p>Figura#3: Captura de pantalla asignación de icono.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (66).png" alt=""><figcaption><p>Figura#3: Captura de pantalla asignación de icono.</p></figcaption></figure>
 
 #### Acciones del usuario
 
@@ -67,7 +67,7 @@ Al hacer clic en la opción editar campo se mostrará un pop up con las siguient
 {% tab title="Opciones Avanzadas" %}
 #### Visualización
 
-<figure><img src="../../../.gitbook/assets/image (470).png" alt="" width="188"><figcaption><p>Figura#4: Captura de pantalla ajustes avanzados.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (386).png" alt="" width="188"><figcaption><p>Figura#4: Captura de pantalla ajustes avanzados.</p></figcaption></figure>
 
 #### Acciones de usuario:
 
@@ -77,13 +77,13 @@ Al hacer clic en la opción editar campo se mostrará un pop up con las siguient
 {% tab title="Formulario Registro" %}
 ### Visualización
 
-<figure><img src="../../../.gitbook/assets/image (446).png" alt=""><figcaption><p>Figura #5: Captura de pantalla formulario de registros.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (370).png" alt=""><figcaption><p>Figura #5: Captura de pantalla formulario de registros.</p></figcaption></figure>
 
 ### Acciones de usuario.
 
 Aunque la interfaz del formulario de registro sea diferente, hay ciertas acciones que son iguales a creación del formulario en general.
 
-<table><thead><tr><th width="140">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/Button (1) (4).png" alt="" data-size="original"></td><td><p>El formulario de registro se configurará por medio de pasos, según la cantidad de pasos configurados, serán los pasos necesarios para que un usuario realice el registro.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> </p><ul><li>Cada paso debe ser configurado de manera independiente, agregando los campos necesarios.</li><li>Los pasos agregados se pueden eliminar, siempre que se elimine un paso la numeración continuará en el orden consecuente.</li></ul></div></td></tr><tr><td><img src="../../../.gitbook/assets/Button (2).png" alt="" data-size="original"></td><td><p>Previsualiza un ejemplo de las configuraciones realizadas en cada paso.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Para poder previsualizar es necesario que los pasos creados ya tengan como mínimo un componente agregado.</p></div></td></tr><tr><td><img src="../../../.gitbook/assets/Frame 1321316449 (1).png" alt="" data-size="original"></td><td><p>Establece la estructura del formulario.</p><ul><li>1 col: Los componentes agregados se visualizarán en una sola columna.</li><li>2 cols: Los componentes agregados se visualizarán en 2 columnas.</li></ul></td></tr><tr><td>         <img src="../../../.gitbook/assets/icon-button (1).png" alt="" data-size="line"> </td><td><p>Agrega los componentes para formar el formulario, cada componente que se agrega se puede personalizar.</p><ul><li><a href="https://virtualsoft.gitbook.io/manuales/sitebuilder/manual-de-usuario/como-ingresar/apariencia/formularios#editar-campo">Editar componente</a>.</li><li><a href="https://virtualsoft.gitbook.io/manuales/sitebuilder/manual-de-usuario/como-ingresar/apariencia/formularios#asignar-icono">Asignar ícono</a>.</li><li><a href="https://virtualsoft.gitbook.io/manuales/sitebuilder/manual-de-usuario/como-ingresar/apariencia/formularios#opciones-avanzadas">Ajustes avanzados</a>.</li></ul></td></tr><tr><td>         <img src="../../../.gitbook/assets/icon_drag_indicator (1).png" alt="">  </td><td><p>Arrastra los componentes agregados en el formulario para ajustar su ubicación.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Los componentes solo podrán ser arrastrados dentro de un mismo paso.</p></div></td></tr><tr><td>Campo "<strong><code>Descripción</code></strong>"</td><td>Será el texto que visualizará el usuario en el pop-up del formulario para el registro.</td></tr></tbody></table>
+<table><thead><tr><th width="140">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/Button (1) (4).png" alt="" data-size="original"></td><td><p>El formulario de registro se configurará por medio de pasos, según la cantidad de pasos configurados, serán los pasos necesarios para que un usuario realice el registro.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong></p><ul><li>Cada paso debe ser configurado de manera independiente, agregando los campos necesarios.</li><li>Los pasos agregados se pueden eliminar, siempre que se elimine un paso la numeración continuará en el orden consecuente.</li></ul></div></td></tr><tr><td><img src="../../../.gitbook/assets/Button (2).png" alt="" data-size="original"></td><td><p>Previsualiza un ejemplo de las configuraciones realizadas en cada paso.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Para poder previsualizar es necesario que los pasos creados ya tengan como mínimo un componente agregado.</p></div></td></tr><tr><td><img src="../../../.gitbook/assets/Frame 1321316449 (1).png" alt="" data-size="original"></td><td><p>Establece la estructura del formulario.</p><ul><li>1 col: Los componentes agregados se visualizarán en una sola columna.</li><li>2 cols: Los componentes agregados se visualizarán en 2 columnas.</li></ul></td></tr><tr><td><img src="../../../.gitbook/assets/icon-button (1).png" alt="" data-size="line"></td><td><p>Agrega los componentes para formar el formulario, cada componente que se agrega se puede personalizar.</p><ul><li><a href="https://virtualsoft.gitbook.io/manuales/sitebuilder/manual-de-usuario/como-ingresar/apariencia/formularios#editar-campo">Editar componente</a>.</li><li><a href="https://virtualsoft.gitbook.io/manuales/sitebuilder/manual-de-usuario/como-ingresar/apariencia/formularios#asignar-icono">Asignar ícono</a>.</li><li><a href="https://virtualsoft.gitbook.io/manuales/sitebuilder/manual-de-usuario/como-ingresar/apariencia/formularios#opciones-avanzadas">Ajustes avanzados</a>.</li></ul></td></tr><tr><td><img src="../../../.gitbook/assets/icon_drag_indicator (1).png" alt=""></td><td><p>Arrastra los componentes agregados en el formulario para ajustar su ubicación.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Los componentes solo podrán ser arrastrados dentro de un mismo paso.</p></div></td></tr><tr><td>Campo "<strong><code>Descripción</code></strong>"</td><td>Será el texto que visualizará el usuario en el pop-up del formulario para el registro.</td></tr></tbody></table>
 
 <details>
 

@@ -14,7 +14,7 @@ description: >-
 
 ### 2. Visualización General.
 
-<figure><img src="../../../.gitbook/assets/image (292).png" alt=""><figcaption><p>Figura#1: Captura de pantalla configuración visual.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (239).png" alt=""><figcaption><p>Figura#1: Captura de pantalla configuración visual.</p></figcaption></figure>
 
 ***
 
@@ -26,7 +26,7 @@ Aquí puedes ajustar los elementos gráficos y la apariencia general del sitio:
 
 ***
 
-### &#x20;4. Identidad del Sitio
+### 4. Identidad del Sitio
 
 Permite subir los elementos visuales que reflejarán la imagen de tu marca en la plataforma.
 

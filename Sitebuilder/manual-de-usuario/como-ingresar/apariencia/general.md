@@ -7,11 +7,11 @@ hidden: true
 
 # General
 
-Se oculta mientras dan información \
+Se oculta mientras dan información\
 \
 Permite gestionar diversas configuraciones generales de la plataforma.
 
-<figure><img src="../../../.gitbook/assets/image (114).png" alt=""><figcaption><p>Figura #1: Captura de pantalla General.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (93).png" alt=""><figcaption><p>Figura #1: Captura de pantalla General.</p></figcaption></figure>
 
 ## **Opciones de configuración:**
 
@@ -27,7 +27,7 @@ Permite gestionar diversas configuraciones generales de la plataforma.
 Por ejemplo, si en la configuración de sorteos se selecciona la visual número 1, la plataforma mostrará esa versión específica de la interfaz.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (127).png" alt=""><figcaption><p>Figura#2: Captura de pantalla sección sorteos.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (103).png" alt=""><figcaption><p>Figura#2: Captura de pantalla sección sorteos.</p></figcaption></figure>
 
 * **Depósito:** Configura la versión de la interfaz para el sistema de depósitos. Cada opción numérica representa una disposición visual diferente dentro de esta sección.
 
@@ -35,7 +35,7 @@ Por ejemplo, si en la configuración de sorteos se selecciona la visual número 
 Por ejemplo, si en la configuración de depósito se selecciona la visual número 1, la plataforma mostrará esa versión específica de la interfaz.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (128).png" alt=""><figcaption><p>Figura#3: Captura de pantalla sección deposito.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (104).png" alt=""><figcaption><p>Figura#3: Captura de pantalla sección deposito.</p></figcaption></figure>
 
 🔔 **Nota:** Para que los cambios surtan efecto, es necesario guardarlos antes de salir.\
 \
@@ -52,7 +52,7 @@ Por ejemplo, si en la configuración de depósito se selecciona la visual númer
 
 ### 2. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (114).png" alt=""><figcaption><p>Figura #1: Captura de pantalla General.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (93).png" alt=""><figcaption><p>Figura #1: Captura de pantalla General.</p></figcaption></figure>
 
 ***
 

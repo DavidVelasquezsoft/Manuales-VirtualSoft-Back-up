@@ -15,7 +15,7 @@ description: >-
 
 ### 2. Visualización General.
 
-<figure><img src="../../../.gitbook/assets/image (328).png" alt=""><figcaption><p>Figura #1: Captura de pantalla de la sección Configuración de inicio de sesión del usuario</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (271).png" alt=""><figcaption><p>Figura #1: Captura de pantalla de la sección Configuración de inicio de sesión del usuario</p></figcaption></figure>
 
 ***
 
@@ -37,7 +37,7 @@ Permiten gestionar la información de usuario y configuración de la contraseña
 
 <summary>4.1. Inicio de sesión de usuario</summary>
 
-<figure><img src="../../../.gitbook/assets/image (330).png" alt=""><figcaption><p>Figura #2: Captura de pantalla sección Inicio de sesión de usuario</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (273).png" alt=""><figcaption><p>Figura #2: Captura de pantalla sección Inicio de sesión de usuario</p></figcaption></figure>
 
 Permite activar o desactivar los requerimientos que debe tener el usuario para iniciar sesión.
 
@@ -49,11 +49,11 @@ Permite activar o desactivar los requerimientos que debe tener el usuario para i
 
 <summary>4.2. Parámetros de seguridad para contraseñas</summary>
 
-<figure><img src="../../../.gitbook/assets/image (331).png" alt=""><figcaption><p>Figura #3: Captura de pantalla sección Parámetros de seguridad para contraseñas</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (274).png" alt=""><figcaption><p>Figura #3: Captura de pantalla sección Parámetros de seguridad para contraseñas</p></figcaption></figure>
 
 Configura los parámetros de seguridad relacionados con la vigencia y renovación de las contraseñas de los usuarios.
 
-<table><thead><tr><th width="275.75">Campo</th><th width="111.5">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Cada cuántos días el usuario deberá actualizar la contraseña?</code></strong></td><td>Numérico</td><td>Define el período máximo en días tras el cual el usuario debe actualizar su contraseña obligatoriamente.</td></tr><tr><td><strong><code>¿Cuántos días antes de la expiración de la contraseña se debe notificar al usuario?</code></strong></td><td> Numérico</td><td>Especifica cuántos días antes del vencimiento de la contraseña el sistema debe enviar una alerta de recordatorio al usuario.</td></tr></tbody></table>
+<table><thead><tr><th width="275.75">Campo</th><th width="111.5">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Cada cuántos días el usuario deberá actualizar la contraseña?</code></strong></td><td>Numérico</td><td>Define el período máximo en días tras el cual el usuario debe actualizar su contraseña obligatoriamente.</td></tr><tr><td><strong><code>¿Cuántos días antes de la expiración de la contraseña se debe notificar al usuario?</code></strong></td><td>Numérico</td><td>Especifica cuántos días antes del vencimiento de la contraseña el sistema debe enviar una alerta de recordatorio al usuario.</td></tr></tbody></table>
 
 </details>
 
@@ -61,7 +61,7 @@ Configura los parámetros de seguridad relacionados con la vigencia y renovació
 
 <summary>4.3 Ajustes de sesión de usuario</summary>
 
-<figure><img src="../../../.gitbook/assets/image (333).png" alt=""><figcaption><p>Figura #4: Captura de pantalla sección Ajustes de sesión de usuario</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (275).png" alt=""><figcaption><p>Figura #4: Captura de pantalla sección Ajustes de sesión de usuario</p></figcaption></figure>
 
 Configura los parámetros de seguridad relacionados con la sesión del usuario.
 

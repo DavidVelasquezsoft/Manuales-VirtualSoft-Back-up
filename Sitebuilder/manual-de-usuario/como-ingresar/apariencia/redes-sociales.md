@@ -21,6 +21,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Redes sociales
@@ -43,7 +45,7 @@ Antes de realizar las acciones disponibles en la sección pop ups, es necesario 
 
 ### 3. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (211).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección redes sociales</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (178).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección redes sociales</p></figcaption></figure>
 
 ***
 

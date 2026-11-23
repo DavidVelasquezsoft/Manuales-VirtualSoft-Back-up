@@ -9,13 +9,13 @@ description: >-
 
 ### **1. Acceso al módulo**
 
-**Ruta de acceso:** SiteBuilder > Partner > Acuerdos > Términos&#x20;
+**Ruta de acceso:** SiteBuilder > Partner > Acuerdos > Términos
 
 ***
 
 ### 2. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (396).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección términos y condiciones.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (331).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección términos y condiciones.</p></figcaption></figure>
 
 ***
 
@@ -82,6 +82,6 @@ Para cada termino se permiten hacer las siguientes acciones:
 
 <summary>🔽 Historial de versiones</summary>
 
-<table><thead><tr><th width="113.4073486328125">Versión</th><th width="143.59259033203125">Fecha</th><th width="179.8148193359375">Autor</th><th>Descripción del cambio</th></tr></thead><tbody><tr><td>1.0</td><td>20/10/2025</td><td>Karol Navia</td><td>Creación inicial </td></tr><tr><td>1.1</td><td>06/05/2026</td><td>David Velasquez</td><td>Actualización de manual e incorporación de nuevos campos.</td></tr><tr><td>1.2</td><td>21/10/2026</td><td>Ronald Peláez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-34523">Incorporación de notas en campo <strong><code>Texto</code></strong> de gestión de TYC.</a></td></tr></tbody></table>
+<table><thead><tr><th width="113.4073486328125">Versión</th><th width="143.59259033203125">Fecha</th><th width="179.8148193359375">Autor</th><th>Descripción del cambio</th></tr></thead><tbody><tr><td>1.0</td><td>20/10/2025</td><td>Karol Navia</td><td>Creación inicial</td></tr><tr><td>1.1</td><td>06/05/2026</td><td>David Velasquez</td><td>Actualización de manual e incorporación de nuevos campos.</td></tr><tr><td>1.2</td><td>21/10/2026</td><td>Ronald Peláez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-34523">Incorporación de notas en campo <strong><code>Texto</code></strong> de gestión de TYC.</a></td></tr></tbody></table>
 
 </details>

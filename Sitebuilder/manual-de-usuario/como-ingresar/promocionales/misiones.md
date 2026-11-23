@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Misiones
@@ -36,7 +38,7 @@ Antes de ingresar a este módulo, asegúrate de contar con las siguientes config
 <table><thead><tr><th width="147">Parámetro</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Partner</strong></td><td>Selecciona el Partner a configurar.</td></tr><tr><td><strong>País</strong></td><td>País para el cual se realizará la configuración.</td></tr><tr><td>Estado</td><td>Estado en el que estará el usuario al visualizar las misiones <em>(logueado o no logueado).</em></td></tr></tbody></table>
 
 {% hint style="warning" %}
-**Notas:**&#x20;
+**Notas:**
 
 * Estas configuraciones van apareciendo a medida que se sigue la ruta para llegar a este módulo.
 * Las misiones disponibles varían según las opciones seleccionadas en estas configuraciones.
@@ -58,21 +60,13 @@ Este manual describe el uso de la funcionalidad **Niveles de Lealtad**, incluyen
 
 ***
 
-### **4. Visualización**&#x20;
+### **4. Visualización**
 
-<figure><img src="../../../.gitbook/assets/image (511).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (397).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
 ### 5. Acciones disponibles en el módulo
-
-
-
-
-
-
-
-
 
 ***
 

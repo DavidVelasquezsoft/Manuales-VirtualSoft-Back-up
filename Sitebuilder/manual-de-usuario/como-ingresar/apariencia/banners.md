@@ -12,7 +12,7 @@ description: >-
 **Ruta:** Site Builder > Seleccionar Partner > Apariencia > Banners
 
 {% hint style="warning" %}
-**Nota:** Cualquier usuario que tenga los permisos  podrá acceder a este módulo.
+**Nota:** Cualquier usuario que tenga los permisos podrá acceder a este módulo.
 {% endhint %}
 
 ***
@@ -22,7 +22,7 @@ description: >-
 Antes de realizar las acciones disponibles con los banners, es necesario contar con las siguientes configuraciones:
 
 {% hint style="warning" %}
-**Notas**:&#x20;
+**Notas**:
 
 * Las configuraciones de este módulo dependen de las previas _(ejemplo: los banners en estado logueado no muestran las mismas opciones que en estado no logueado)._
 * Estas configuraciones van apareciendo a medida que se sigue la ruta para llegar a este módulo.
@@ -46,7 +46,7 @@ Este manual cubre el uso de la funcionalidad **Banners**, incluyendo las accione
 
 ### **4. Visualización**
 
-<figure><img src="../../../.gitbook/assets/image (418).png" alt=""><figcaption><p>Figura #1: Captura de pantalla módulo de banners.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (350).png" alt=""><figcaption><p>Figura #1: Captura de pantalla módulo de banners.</p></figcaption></figure>
 
 ***
 
@@ -56,13 +56,11 @@ Este manual cubre el uso de la funcionalidad **Banners**, incluyendo las accione
 **Nota**: Los cambios guardados y aplicados pueden tardar aproximadamente 20 minutos en reflejarse.
 {% endhint %}
 
-<table><thead><tr><th width="137.88909912109375" align="center">Icono</th><th width="123.77777099609375">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td align="center"><a href="banners.md#id-6.-filtros"><strong>Filtrar</strong></a></td><td>Filtrar los banners existentes</td><td>Permite filtrar los banners según criterios definidos para localizar los banners deseados. </td></tr><tr><td align="center"><a href="banners.md#id-7.-como-crear-un-banner"><img src="../../../.gitbook/assets/Button programar (1).png" alt="" data-size="line"></a></td><td>Crea un nuevo banner</td><td>Despliega un formulario para crear un nuevo banner.</td></tr><tr><td align="center"><a href="banners.md#id-8.-editar-y-configurar-programacion-del-banner"><strong>Editar</strong></a></td><td>Editar banner existente</td><td>Permite editar banners existentes modificando sus campos y programaciones.</td></tr><tr><td align="center"><img src="../../../.gitbook/assets/Button (2) (3).png" alt="" data-size="line"></td><td>Guardar cambios</td><td>Aplica las modificaciones en la plataforma de usuarios online.</td></tr><tr><td align="center"><img src="../../../.gitbook/assets/ojo (1).png" alt="" data-size="line"></td><td>Previsualizar</td><td>Permite previsualizar en tiempo real la plataforma de usuarios online directamente desde SiteBuilder, sin necesidad de guardar los cambios. Al seleccionar <strong>Previsualizar</strong>, deberá indicar el país y el idioma para visualizar la plataforma con la configuración actual del partner.</td></tr></tbody></table>
+<table><thead><tr><th width="137.88909912109375" align="center">Icono</th><th width="123.77777099609375">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td align="center"><a href="banners.md#id-6.-filtros"><strong>Filtrar</strong></a></td><td>Filtrar los banners existentes</td><td>Permite filtrar los banners según criterios definidos para localizar los banners deseados.</td></tr><tr><td align="center"><a href="banners.md#id-7.-como-crear-un-banner"><img src="../../../.gitbook/assets/Button programar (1).png" alt="" data-size="line"></a></td><td>Crea un nuevo banner</td><td>Despliega un formulario para crear un nuevo banner.</td></tr><tr><td align="center"><a href="banners.md#id-8.-editar-y-configurar-programacion-del-banner"><strong>Editar</strong></a></td><td>Editar banner existente</td><td>Permite editar banners existentes modificando sus campos y programaciones.</td></tr><tr><td align="center"><img src="../../../.gitbook/assets/Button (2) (2).png" alt="" data-size="line"></td><td>Guardar cambios</td><td>Aplica las modificaciones en la plataforma de usuarios online.</td></tr><tr><td align="center"><img src="../../../.gitbook/assets/ojo (1).png" alt="" data-size="line"></td><td>Previsualizar</td><td>Permite previsualizar en tiempo real la plataforma de usuarios online directamente desde SiteBuilder, sin necesidad de guardar los cambios. Al seleccionar <strong>Previsualizar</strong>, deberá indicar el país y el idioma para visualizar la plataforma con la configuración actual del partner.</td></tr></tbody></table>
 
 {% columns %}
 {% column width="33.33333333333333%" %}
 
-
-&#x20;
 {% endcolumn %}
 
 {% column width="66.66666666666667%" %}
@@ -101,7 +99,7 @@ Los banners se despliegan de manera permanente debajo de los filtros y se actual
 
 ***
 
-### **7. ¿Cómo crear un banner?**&#x20;
+### **7. ¿Cómo crear un banner?**
 
 {% stepper %}
 {% step %}
@@ -113,7 +111,7 @@ Utiliza el botón **`Agregar`** que se visualiza en la sección principal de ban
 {% step %}
 #### Establecer categoría del banner.
 
-<figure><img src="../../../.gitbook/assets/image (300).png" alt="" width="563"><figcaption><p>Figura #3: Captura de pantalla ubicación del banner.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (247).png" alt="" width="563"><figcaption><p>Figura #3: Captura de pantalla ubicación del banner.</p></figcaption></figure>
 
 Los banners pueden configurarse en diferentes secciones de la plataforma, incluyendo:
 
@@ -123,7 +121,7 @@ Los banners pueden configurarse en diferentes secciones de la plataforma, incluy
 {% step %}
 #### Seleccionar el tipo de banner
 
-<figure><img src="../../../.gitbook/assets/image (301).png" alt="" width="563"><figcaption><p>Figura #3: Captura de pantalla tipo de banner.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (248).png" alt="" width="563"><figcaption><p>Figura #3: Captura de pantalla tipo de banner.</p></figcaption></figure>
 
 Existen tres tipos de banners disponibles:
 
@@ -135,9 +133,9 @@ Existen tres tipos de banners disponibles:
 {% endstep %}
 
 {% step %}
-#### Agregar banner&#x20;
+#### Agregar banner
 
-<table><thead><tr><th width="86.7777099609375">ícono</th><th width="120.92584228515625">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><code>➕</code></td><td>Botón</td><td><p>Despliega un formulario para cargar las imágenes y configurar los campos correspondientes al tipo de banner seleccionado.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> La imagen debe ser del <strong>tipo</strong> y <strong>tamaño</strong> recomendado según el tipo de banner, de lo contrario  se mostrará un mensaje de error.</p></div></td></tr></tbody></table>
+<table><thead><tr><th width="86.7777099609375">ícono</th><th width="120.92584228515625">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><code>➕</code></td><td>Botón</td><td><p>Despliega un formulario para cargar las imágenes y configurar los campos correspondientes al tipo de banner seleccionado.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> La imagen debe ser del <strong>tipo</strong> y <strong>tamaño</strong> recomendado según el tipo de banner, de lo contrario se mostrará un mensaje de error.</p></div></td></tr></tbody></table>
 
 {% hint style="warning" %}
 **Nota:** Dentro de un mismo flujo de creación es posible agregar varios banners:
@@ -164,10 +162,10 @@ Al crear un banner, el sistema genera automáticamente una programación inicial
 En el banner podrás configurar los siguientes campos:
 
 {% hint style="danger" %}
-**Nota importante:** Ninguno de los cambios realizados se reflejará en la plataforma de usuarios online hasta que guardes la información utilizando el botón <img src="../../../.gitbook/assets/Button (2) (3).png" alt="" data-size="line"> ubicado en la parte inferior del módulo.
+**Nota importante:** Ninguno de los cambios realizados se reflejará en la plataforma de usuarios online hasta que guardes la información utilizando el botón <img src="../../../.gitbook/assets/Button (2) (2).png" alt="" data-size="line"> ubicado en la parte inferior del módulo.
 {% endhint %}
 
-<table><thead><tr><th width="122.33331298828125" align="center">Icono</th><th width="141.81488037109375">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td align="center"><img src="../../../.gitbook/assets/Adobe Express - file (1).png" alt="" data-size="line"></td><td><strong><code>Establecer orden de los banners</code></strong></td><td>Arrastra los banners con este botón para definir el orden en que se mostrarán en la plataforma de usuarios online.</td></tr><tr><td align="center"><img src="../../../.gitbook/assets/Frame 1321316372.png" alt=""></td><td><strong><code>Eliminar banner</code></strong></td><td>Elimina de forma definitiva el banner seleccionado y lo retira automáticamente de la plataforma de usuarios online si se encuentra activo.</td></tr><tr><td align="center"> <i class="fa-circle-check" style="color:green;">:circle-check:</i> <em>/</em> <i class="fa-circle-minus" style="color:red;">:circle-minus:</i> </td><td><strong><code>Activar / Desactivar</code></strong></td><td><p>Define si el banner se encuentra habilitado para ser visualizado según sus programaciones configuradas o estará expirado.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Para que un banner se visualice en la plataforma debe estar <strong>activo</strong> y contar con una <strong>programación vigente (</strong><em><strong>Activa</strong></em><strong>)</strong>. Si el banner se encuentra expirado, <strong>no se mostrará en la plataforma</strong> aunque tenga programaciones configuradas.</p></div></td></tr><tr><td align="center"><img src="../../../.gitbook/assets/input-right side.png" alt="" data-size="original"></td><td><strong><code>Enlace redirección</code></strong></td><td>indica la URL a la que será dirigido el usuario al hacer clic en el banner.</td></tr><tr><td align="center"></td><td><strong><code>Estado de programación</code></strong></td><td>Permite visualizar la programación más relevante del banner, indicando si se encuentra actualmente activo en la plataforma, pendiente de publicación o si corresponde a la última programación ejecutada, junto con sus fechas y horas de inicio y finalización.</td></tr></tbody></table>
+<table><thead><tr><th width="122.33331298828125" align="center">Icono</th><th width="141.81488037109375">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td align="center"><img src="../../../.gitbook/assets/Adobe Express - file (1).png" alt="" data-size="line"></td><td><strong><code>Establecer orden de los banners</code></strong></td><td>Arrastra los banners con este botón para definir el orden en que se mostrarán en la plataforma de usuarios online.</td></tr><tr><td align="center"><img src="../../../.gitbook/assets/Frame 1321316372.png" alt=""></td><td><strong><code>Eliminar banner</code></strong></td><td>Elimina de forma definitiva el banner seleccionado y lo retira automáticamente de la plataforma de usuarios online si se encuentra activo.</td></tr><tr><td align="center"><i class="fa-circle-check" style="color:green;">:circle-check:</i> <em>/</em> <i class="fa-circle-minus" style="color:red;">:circle-minus:</i></td><td><strong><code>Activar / Desactivar</code></strong></td><td><p>Define si el banner se encuentra habilitado para ser visualizado según sus programaciones configuradas o estará expirado.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Para que un banner se visualice en la plataforma debe estar <strong>activo</strong> y contar con una <strong>programación vigente (</strong><em><strong>Activa</strong></em><strong>)</strong>. Si el banner se encuentra expirado, <strong>no se mostrará en la plataforma</strong> aunque tenga programaciones configuradas.</p></div></td></tr><tr><td align="center"><img src="../../../.gitbook/assets/input-right side.png" alt="" data-size="original"></td><td><strong><code>Enlace redirección</code></strong></td><td>indica la URL a la que será dirigido el usuario al hacer clic en el banner.</td></tr><tr><td align="center"></td><td><strong><code>Estado de programación</code></strong></td><td>Permite visualizar la programación más relevante del banner, indicando si se encuentra actualmente activo en la plataforma, pendiente de publicación o si corresponde a la última programación ejecutada, junto con sus fechas y horas de inicio y finalización.</td></tr></tbody></table>
 
 {% columns %}
 {% column width="33.33333333333333%" %}
@@ -202,7 +200,7 @@ Al acceder a esta opción, se mostrará un listado con todas las programaciones 
 <table><thead><tr><th width="114.9630126953125">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Estado</code></strong></td><td>Indica si la programación se encuentra <strong>activa</strong> actualmente o corresponde a una <strong>próxima</strong> publicación del banner.</td></tr><tr><td><strong><code>Fecha inicio / fin</code></strong></td><td>Muestra el período de tiempo configurado para la programación, indicando su fecha y hora de inicio y finalización.</td></tr><tr><td><img src="../../../.gitbook/assets/Frame 1321316372.png" alt="" data-size="line"><strong><code>(Eliminar)</code></strong></td><td>Permite eliminar la programación del banner.</td></tr><tr><td><img src="../../../.gitbook/assets/Frame 1321316371.png" alt="" data-size="line"><strong><code>(Editar)</code></strong></td><td><p>Permite modificar la fecha y hora de inicio y de finalización de la programación del banner.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> No se pueden configurar fechas y horarios idénticos a los de otra programación del mismo banner.</p></div></td></tr></tbody></table>
 
 {% hint style="warning" %}
-**Nota:** Los cambios realizados en cada programación deben confirmarse mediante el botón <img src="../../../.gitbook/assets/Button programar.png" alt="" data-size="line">. Para aplicar definitivamente todas las modificaciones realizadas en el listado de programaciones, utiliza el botón <img src="../../../.gitbook/assets/Button (2) (3).png" alt="" data-size="line">.
+**Nota:** Los cambios realizados en cada programación deben confirmarse mediante el botón <img src="../../../.gitbook/assets/Button programar.png" alt="" data-size="line">. Para aplicar definitivamente todas las modificaciones realizadas en el listado de programaciones, utiliza el botón <img src="../../../.gitbook/assets/Button (2) (2).png" alt="" data-size="line">.
 {% endhint %}
 
 </details>
@@ -222,7 +220,7 @@ Al acceder a esta opción, se mostrará un listado con todas las programaciones 
 <table><thead><tr><th width="134.11102294921875">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Fecha inicio</code></strong></td><td>Día a partir del cual el banner será visible en la plataforma.</td></tr><tr><td><strong><code>Fecha fin</code></strong></td><td>Dia en el que el banner dejará de visualizarse en la plataforma.</td></tr><tr><td><strong><code>Hora inicio</code></strong></td><td>Hora desde la que el banner se mostrará en la plataforma.</td></tr><tr><td><strong><code>Hora fin</code></strong></td><td>Hora en la que el banner dejará de visualizarse en la plataforma.</td></tr></tbody></table>
 
 {% hint style="warning" %}
-**Nota:** Para registrar la programación, utiliza el botón <img src="../../../.gitbook/assets/Button programar (1).png" alt="" data-size="line">. Posteriormente, selecciona <img src="../../../.gitbook/assets/Button (2) (3).png" alt="" data-size="line"> para aplicar los cambios al banner.
+**Nota:** Para registrar la programación, utiliza el botón <img src="../../../.gitbook/assets/Button programar (1).png" alt="" data-size="line">. Posteriormente, selecciona <img src="../../../.gitbook/assets/Button (2) (2).png" alt="" data-size="line"> para aplicar los cambios al banner.
 {% endhint %}
 {% endcolumn %}
 {% endcolumns %}
@@ -240,7 +238,7 @@ Al acceder a esta opción, se mostrará un listado con todas las programaciones 
 * Un mismo banner puede tener una o múltiples programaciones configuradas.
 * Las programaciones solo se ejecutarán cuando el banner se encuentre en estado **Activo** y tenga una programación vigente (_Activa_).
 * Un mismo banner no puede tener programaciones idénticas.
-* Para aplicar cualquier cambio y que se visualice  en la plataforma de usuarios online debe darle al botón **guardar** del modulo.
+* Para aplicar cualquier cambio y que se visualice en la plataforma de usuarios online debe darle al botón **guardar** del modulo.
 
 ***
 

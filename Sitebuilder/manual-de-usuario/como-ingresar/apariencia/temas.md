@@ -17,11 +17,13 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Temas
 
-<mark style="color:$info;">Consultar los estilos visuales disponibles para la plataforma y seleccionar el tema que se utilizará en la interfaz. Cada tema puede ser de tipo</mark> <mark style="color:$info;"></mark><mark style="color:$info;">**Público**</mark> <mark style="color:$info;"></mark><mark style="color:$info;">o</mark> <mark style="color:$info;"></mark><mark style="color:$info;">**Privado**</mark> <mark style="color:$info;"></mark><mark style="color:$info;">y cuenta con opciones para consultar información adicional, visualizar una vista previa y aplicarlo a la plataforma.</mark>
+<mark style="color:$info;">Consultar los estilos visuales disponibles para la plataforma y seleccionar el tema que se utilizará en la interfaz. Cada tema puede ser de tipo</mark> <mark style="color:$info;">**Público**</mark> <mark style="color:$info;">o</mark> <mark style="color:$info;">**Privado**</mark> <mark style="color:$info;">y cuenta con opciones para consultar información adicional, visualizar una vista previa y aplicarlo a la plataforma.</mark>
 
 ***
 
@@ -33,7 +35,7 @@ layout:
 
 ### 2. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (208).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección temas.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (175).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección temas.</p></figcaption></figure>
 
 ***
 
@@ -61,4 +63,3 @@ layout:
 <table><thead><tr><th width="98">Versión</th><th width="133">Fecha</th><th width="117">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>03/05/2026</td><td>Karol Navia</td><td>Reestructuración adaptada a la plantilla</td></tr></tbody></table>
 
 </details>
-

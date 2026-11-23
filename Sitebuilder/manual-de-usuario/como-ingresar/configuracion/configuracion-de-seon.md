@@ -23,7 +23,7 @@ Para modificar y acceder a la configuración de las reglas de [SEON](https://vir
 
 ### 3. Visualización General.
 
-<figure><img src="../../../.gitbook/assets/image (20).png" alt=""><figcaption><p>Figura #1: Captura de pantalla sección configuración SEON</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (18).png" alt=""><figcaption><p>Figura #1: Captura de pantalla sección configuración SEON</p></figcaption></figure>
 
 ***
 
@@ -88,9 +88,9 @@ Dentro de cada evento de la plataforma, el usuario puede realizar distintas **ac
 
 #### 6.1. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (21).png" alt=""><figcaption><p>Figura #2: Captura de pantalla ejemplo de reglas en un evento</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (19).png" alt=""><figcaption><p>Figura #2: Captura de pantalla ejemplo de reglas en un evento</p></figcaption></figure>
 
-#### 6.2.  Acciones de usuario
+#### 6.2. Acciones de usuario
 
 Permite **visualizar, crear, editar y gestionar** las reglas SEON asociadas al evento, definiendo su comportamiento según el score de riesgo recibido.\
 Las acciones son:
@@ -157,7 +157,7 @@ Cada regla permite activar múltiples contingencias, las cuales se ejecutarán a
 
 ***
 
-### 7.  Validaciones y Reglas de Negocio
+### 7. Validaciones y Reglas de Negocio
 
 * Estas configuraciones solo aplican para el partner y el país previamente seleccionado.
 * Solo usuarios con permisos podrán crear, editar y visualizar este modulo.

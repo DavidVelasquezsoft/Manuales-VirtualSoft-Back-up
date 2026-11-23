@@ -15,7 +15,7 @@ description: >-
 
 ### 2. Vista General.
 
-<figure><img src="../../../.gitbook/assets/image (290).png" alt=""><figcaption><p>Figura #1: Captura de pantalla configuración general.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (237).png" alt=""><figcaption><p>Figura #1: Captura de pantalla configuración general.</p></figcaption></figure>
 
 ***
 
@@ -82,7 +82,7 @@ En esta sección se registran las versiones del documento, la fecha de actualiza
 
 <details>
 
-<summary>🔽 Historial de versiones </summary>
+<summary>🔽 Historial de versiones</summary>
 
 <table><thead><tr><th width="104.70367431640625">Versión</th><th width="114.9630126953125">Fecha</th><th width="141.888916015625">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>01/07/2025</td><td>Ronald Peláez</td><td>Documento inicial</td></tr><tr><td>1.1</td><td>23/07/2025</td><td>Karol Navia</td><td>Reestructuración del manual por cambios visuales y nuevas funcionalidades</td></tr></tbody></table>
 

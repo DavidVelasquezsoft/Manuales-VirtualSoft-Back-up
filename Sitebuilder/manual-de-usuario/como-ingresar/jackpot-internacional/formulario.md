@@ -24,7 +24,7 @@ Permite configurar los aspectos generales del jackpot definiendo los siguientes 
 
 #### Visualización
 
-<figure><img src="../../../.gitbook/assets/image (359).png" alt=""><figcaption><p>Figura #1: captura de pantalla sección 1 formulario jackpot internacional</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (297).png" alt=""><figcaption><p>Figura #1: captura de pantalla sección 1 formulario jackpot internacional</p></figcaption></figure>
 
 <table><thead><tr><th width="181.5">Campo</th><th width="119.1666259765625">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Nombre</code></strong></td><td>Texto</td><td>Permite ingresar el nombre del jackpot.</td></tr><tr><td><strong><code>Fecha Inicial</code></strong></td><td>Fecha</td><td>Selecciona la fecha en la que iniciará el jackpot para los usuarios.</td></tr><tr><td><strong><code>Descripción</code></strong></td><td>Texto</td><td>Registra información interna del jackpot, como el objetivo de la campaña, su contexto o consideraciones operativas. Este contenido es solo de uso administrativo y <strong>no es visible para los usuarios</strong>.</td></tr><tr><td><strong><code>Operaciones</code></strong></td><td>Lista desplegable</td><td>Selecciona múltiples operaciones (<em><strong>Partners y países</strong></em>) donde el jackpot estará activo.</td></tr><tr><td><strong><code>Moneda Base</code></strong></td><td>Lista desplegable</td><td>Define la moneda en la que se registrarán todos los movimientos del jackpot. Este campo es de selección única (<em>Dólar o Euro</em>).</td></tr><tr><td><strong><code>Destino del Saldo</code></strong></td><td>Lista desplegable</td><td>Define si el saldo acumulado del jackpot será entregado al ganador como <a href="https://virtualsoft.gitbook.io/untitled/glosario#saldo-recarga">saldo recarga</a> o como <a href="https://virtualsoft.gitbook.io/untitled/glosario#saldo-retiro">saldo retiro</a>.</td></tr><tr><td><strong><code>Mínima Cantidad de Apuestas</code></strong></td><td>Numérico</td><td>Permite definir el numero <strong>mínimo de apuestas acumuladas</strong> necesarias para su caída (<em>Finalización y entrega del premio</em>).</td></tr><tr><td><strong><code>Máxima Cantidad de Apuestas</code></strong></td><td>Numérico</td><td><p>Define el número <strong>máximo de apuestas</strong> que puede acumular el jackpot.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Al alcanzarse este tope, el sistema detiene la acumulación y ejecuta la acción configurada, como la caída del jackpot o la lógica establecida por la plataforma.</p></div></td></tr><tr><td><strong><code>Reiniciar</code></strong></td><td>Selección</td><td>Determina si el jackpot debe reiniciarse automáticamente después de caer el premio. Según la opción seleccionada, se habilitan campos adicionales que definen el comportamiento de caída del jackpot. <a data-mention href="formulario.md#opciones-del-campo-reiniciar">#opciones-del-campo-reiniciar</a></td></tr></tbody></table>
 
@@ -45,7 +45,7 @@ El jackpot cae una única vez dentro del periodo configurado, sin reinicio.
 <table><thead><tr><th width="140.888916015625">Campo</th><th width="108.29632568359375">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Fecha Final</code></strong></td><td>Calendario</td><td>Fecha límite de vigencia del jackpot, al alcanzarla el sistema ejecuta la caída del jackpot.</td></tr><tr><td><strong><code>Mínima cantidad de apuestas fecha limite</code></strong></td><td>Numérico</td><td>Cantidad mínima de apuestas acumuladas a partir de la cual el jackpot puede caer al llegar la fecha final.</td></tr><tr><td><strong><code>Máxima cantidad de apuestas fecha limite</code></strong></td><td>Numérico</td><td>Cantidad máxima de apuestas acumuladas dentro de la cual el jackpot debe caer al llegar la fecha final.</td></tr></tbody></table>
 
 {% hint style="warning" %}
-**Notas:**&#x20;
+**Notas:**
 
 * Al llegar la Fecha Final, el sistema ejecuta la caída del jackpot aplicando las reglas del rango **Mínima - Máxima** configurado en _Caída en Fecha Límite por cantidad de apuestas_.
 * La caída es **obligatoria** en la **`Fecha Final`**, incluso si las apuestas acumuladas no se encuentran dentro del **rango general**.
@@ -53,7 +53,7 @@ El jackpot cae una única vez dentro del periodo configurado, sin reinicio.
 
 </details>
 
-> ⚠️**Importante:** Después de completar todos los campos obligatorios, haz clic en el botón **“**<img src="../../../.gitbook/assets/image (31).png" alt="" data-size="line">**”** ubicado en la parte inferior derecha para avanzar a la **sección 2** del formulario.
+> ⚠️**Importante:** Después de completar todos los campos obligatorios, haz clic en el botón **“**<img src="../../../.gitbook/assets/image (26).png" alt="" data-size="line">**”** ubicado en la parte inferior derecha para avanzar a la **sección 2** del formulario.
 
 <p align="center"><a href="formulario.md#seccion-2" class="button primary" data-icon="chevron-right">Continuar</a></p>
 {% endtab %}
@@ -61,18 +61,18 @@ El jackpot cae una única vez dentro del periodo configurado, sin reinicio.
 {% tab title="Sección 2" %}
 #### 2.2. Información del jackpot
 
-Permite gestionar la información del jackpot para cada operación (_Partner y país_), definiendo el contenido que verá el usuario al abrir el detalle del jackpot desde el ícono de información <img src="../../../.gitbook/assets/image (342).png" alt="" data-size="line">.
+Permite gestionar la información del jackpot para cada operación (_Partner y país_), definiendo el contenido que verá el usuario al abrir el detalle del jackpot desde el ícono de información <img src="../../../.gitbook/assets/image (283).png" alt="" data-size="line">.
 
 #### Visualización
 
-<figure><img src="../../../.gitbook/assets/image (358).png" alt=""><figcaption><p>Figura #2: captura de pantalla sección 2 formulario jackpot internacional</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (296).png" alt=""><figcaption><p>Figura #2: captura de pantalla sección 2 formulario jackpot internacional</p></figcaption></figure>
 
 <table><thead><tr><th width="190.66668701171875">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Agregar imágenes</code></strong></td><td>Incerta imágenes dentro del contenido del editor para complementar y enriquecer la descripción del jackpot mostrada al usuario.</td></tr><tr><td><strong><code>Agregar videos</code></strong></td><td>Agrega el enlace de un video en formato MP4, YouTube u otras plataformas compatibles para complementar la información del jackpot.</td></tr><tr><td><strong><code>Agregar links</code></strong></td><td>Añade enlaces a sitios externos o recursos internos desde el editor.</td></tr><tr><td><strong><code>Estilos de texto</code></strong></td><td>Aplica diferentes estilos al texto.</td></tr><tr><td><strong><code>Agregar viñetas</code></strong></td><td>Estructura información mediante listas con viñetas.</td></tr><tr><td><strong><code>Agregar emojis</code></strong></td><td>Incerta emojis dentro del contenido.</td></tr><tr><td><strong><code>Agregar tablas</code></strong></td><td>Permite construir y editar tablas directamente en el editor de texto.</td></tr></tbody></table>
 
 #### 🔄 Navegación entre secciones
 
-> Para **avanzar** a la siguiente sección, haz clic en el botón **“**<img src="../../../.gitbook/assets/image (32).png" alt="" data-size="line">**”** ubicado en la parte inferior derecha.\
-> Si necesitas **regresar** a la sección anterior, utiliza el botón **“**<img src="../../../.gitbook/assets/image (27).png" alt="" data-size="line">**”** ubicado en la parte inferior izquierda.
+> Para **avanzar** a la siguiente sección, haz clic en el botón **“**<img src="../../../.gitbook/assets/image (26).png" alt="" data-size="line">**”** ubicado en la parte inferior derecha.\
+> Si necesitas **regresar** a la sección anterior, utiliza el botón **“**<img src="../../../.gitbook/assets/image (25).png" alt="" data-size="line">**”** ubicado en la parte inferior izquierda.
 
 <p align="right"><a href="formulario.md#seccion-3" class="button primary" data-icon="chevron-right">Continuar</a></p>
 {% endtab %}
@@ -88,7 +88,7 @@ Permite seleccionar una o varias [verticales](https://virtualsoft.gitbook.io/unt
 
 #### Visualización
 
-<figure><img src="../../../.gitbook/assets/image (361).png" alt=""><figcaption><p>Figura #3: captura de pantalla sección 3 formulario </p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (299).png" alt=""><figcaption><p>Figura #3: captura de pantalla sección 3 formulario</p></figcaption></figure>
 
 {% tabs %}
 {% tab title="Deportivas" %}
@@ -98,7 +98,7 @@ Permite habilitar la participación de **apuestas deportivas** en el jackpot, co
 **Nota:** Todos los campos numéricos permiten ingresar valores decimales positivos utilizando punto (.) como separador decimal, con un máximo de 2 decimales.
 {% endhint %}
 
-<table><thead><tr><th width="186.8887939453125">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Valor inicial</code></strong></td><td>Indica el <strong>monto base</strong> que <strong>esta vertical</strong> aporta al pozo del jackpot al activarla. Este valor se suma al monto total del jackpot.</td></tr><tr><td><strong><code>Valor inicial repeticiones</code></strong></td><td><p>Campo numérico (<em>opcional</em>) que permite establecer el monto con el que comenzará el jackpot cada vez que se reinicie.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Este campo es opcional y solo se muestra cuando la opción de <strong>Reiniciar</strong> está activada.</p></div></td></tr><tr><td><strong><code>Apuesta mínima</code></strong></td><td>Define el valor mínimo que debe tener una apuesta deportiva para ser considerada en el jackpot.</td></tr><tr><td><strong><code>Apuesta máxima</code></strong></td><td>Define el valor máximo  permitido que debe tener una apuesta deportiva para ser considerada en el jackpot.</td></tr><tr><td><strong><code>Porcentaje de acumulación</code></strong></td><td>Define el porcentaje de cada apuesta en deportivas que se destinará al fondo del jackpot.</td></tr></tbody></table>
+<table><thead><tr><th width="186.8887939453125">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Valor inicial</code></strong></td><td>Indica el <strong>monto base</strong> que <strong>esta vertical</strong> aporta al pozo del jackpot al activarla. Este valor se suma al monto total del jackpot.</td></tr><tr><td><strong><code>Valor inicial repeticiones</code></strong></td><td><p>Campo numérico (<em>opcional</em>) que permite establecer el monto con el que comenzará el jackpot cada vez que se reinicie.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Este campo es opcional y solo se muestra cuando la opción de <strong>Reiniciar</strong> está activada.</p></div></td></tr><tr><td><strong><code>Apuesta mínima</code></strong></td><td>Define el valor mínimo que debe tener una apuesta deportiva para ser considerada en el jackpot.</td></tr><tr><td><strong><code>Apuesta máxima</code></strong></td><td>Define el valor máximo permitido que debe tener una apuesta deportiva para ser considerada en el jackpot.</td></tr><tr><td><strong><code>Porcentaje de acumulación</code></strong></td><td>Define el porcentaje de cada apuesta en deportivas que se destinará al fondo del jackpot.</td></tr></tbody></table>
 
 #### **Configuración de segmentos de deportivas**
 
@@ -124,7 +124,7 @@ Permite definir las ligas cuyas apuestas serán consideradas para el jackpot.
 {% endtab %}
 
 {% tab title="Partidos" %}
-&#x20;Permite definir los partidos cuyas apuestas serán consideradas para el jackpot.
+Permite definir los partidos cuyas apuestas serán consideradas para el jackpot.
 
 <table><thead><tr><th width="133.33331298828125">Campo</th><th width="100.888916015625">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Partidos</code></strong></td><td>Texto</td><td>Ingrese los IDs de los partidos participantes separados por comas ( <strong>,</strong> ).</td></tr></tbody></table>
 {% endtab %}
@@ -138,7 +138,7 @@ Permite habilitar la participación de **apuestas de casino** en el jackpot, con
 **Nota:** Todos los campos numéricos permiten ingresar valores decimales positivos utilizando punto (.) como separador decimal, con un máximo de 2 decimales.
 {% endhint %}
 
-<table><thead><tr><th width="186.8887939453125">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Valor inicial</code></strong></td><td>Indica el <strong>monto base</strong> que <strong>esta vertical</strong> aporta al pozo del jackpot al activarla. Este valor se suma al monto total del jackpot.</td></tr><tr><td><strong><code>Valor inicial repeticiones</code></strong></td><td><p>Campo numérico opcional que permite establecer el monto con el que comenzará el jackpot cada vez que se reinicie.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Este campo es opcional y solo se muestra cuando la opción de <strong>Reiniciar</strong> está activada.</p></div></td></tr><tr><td><strong><code>Apuesta mínima</code></strong></td><td>Define el valor mínimo que debe tener una apuesta de casino para ser considerada en el jackpot.</td></tr><tr><td><strong><code>Apuesta máxima</code></strong></td><td>Define el valor máximo  permitido que debe tener una apuesta de casino para ser considerada en el jackpot.</td></tr><tr><td><strong><code>Porcentaje de acumulación</code></strong></td><td>Define el porcentaje de cada apuesta de casino que se destinará al fondo del jackpot.</td></tr></tbody></table>
+<table><thead><tr><th width="186.8887939453125">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Valor inicial</code></strong></td><td>Indica el <strong>monto base</strong> que <strong>esta vertical</strong> aporta al pozo del jackpot al activarla. Este valor se suma al monto total del jackpot.</td></tr><tr><td><strong><code>Valor inicial repeticiones</code></strong></td><td><p>Campo numérico opcional que permite establecer el monto con el que comenzará el jackpot cada vez que se reinicie.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Este campo es opcional y solo se muestra cuando la opción de <strong>Reiniciar</strong> está activada.</p></div></td></tr><tr><td><strong><code>Apuesta mínima</code></strong></td><td>Define el valor mínimo que debe tener una apuesta de casino para ser considerada en el jackpot.</td></tr><tr><td><strong><code>Apuesta máxima</code></strong></td><td>Define el valor máximo permitido que debe tener una apuesta de casino para ser considerada en el jackpot.</td></tr><tr><td><strong><code>Porcentaje de acumulación</code></strong></td><td>Define el porcentaje de cada apuesta de casino que se destinará al fondo del jackpot.</td></tr></tbody></table>
 
 #### **Configuración de segmentos de casino**
 
@@ -154,7 +154,7 @@ En este caso, será necesario **revisar y habilitar la configuración** correspo
 {% tab title="Categorías" %}
 Permite definir las categorías de casino cuyas apuestas serán consideradas para el jackpot.
 
-<figure><img src="../../../.gitbook/assets/image (343).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (284).png" alt=""><figcaption></figcaption></figure>
 
 <table><thead><tr><th width="117.03704833984375">Campo</th><th width="120.148193359375">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Categorías</code></strong></td><td>Lista desplegable</td><td>Seleccione una o varias categorias participantes en el jackpot</td></tr></tbody></table>
 {% endtab %}
@@ -162,7 +162,7 @@ Permite definir las categorías de casino cuyas apuestas serán consideradas par
 {% tab title="Proveedores" %}
 Permite definir los proveedores cuyas apuestas serán consideradas para el jackpot.
 
-<figure><img src="../../../.gitbook/assets/image (344).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (285).png" alt=""><figcaption></figcaption></figure>
 
 <table><thead><tr><th width="124.4444580078125">Campo</th><th width="116.44451904296875">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Proveedores</code></strong></td><td>Lista desplegable</td><td>Seleccione una o varios proveedores participantes cuyos juegos serán validos en el jackpot.</td></tr></tbody></table>
 {% endtab %}
@@ -170,7 +170,7 @@ Permite definir los proveedores cuyas apuestas serán consideradas para el jackp
 {% tab title="Productos" %}
 Permite definir los productos junto con su proveedor cuyas apuestas serán consideradas para el jackpot.
 
-<figure><img src="../../../.gitbook/assets/image (345).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (286).png" alt=""><figcaption></figcaption></figure>
 
 <table><thead><tr><th width="119.25927734375">Campo</th><th width="124.5926513671875">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Proveedores</code></strong></td><td>Lista desplegable</td><td>Permite seleccionar uno o varios proveedores cuyos juegos estarán disponibles para participar en el jackpot.</td></tr><tr><td><strong><code>Productos</code></strong></td><td>Lista desplegable</td><td>Permite elegir los juegos específicos de los proveedores seleccionados que serán válidos para acumular y participar en el jackpot.</td></tr></tbody></table>
 {% endtab %}
@@ -184,7 +184,7 @@ Permite habilitar la participación de **apuestas de casino en vivo** en el jack
 **Nota:** Todos los campos numéricos permiten ingresar valores decimales positivos utilizando punto (.) como separador decimal, con un máximo de 2 decimales.
 {% endhint %}
 
-<table><thead><tr><th width="186.8887939453125">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Valor inicial</code></strong></td><td>Indica el <strong>monto base</strong> que <strong>esta vertical</strong> aporta al pozo del jackpot al activarla. Este valor se suma al monto total del jackpot.</td></tr><tr><td><strong><code>Valor inicial repeticiones</code></strong></td><td><p>Campo numérico opcional que permite establecer el monto con el que comenzará el jackpot cada vez que se reinicie.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Este campo es opcional y solo se muestra cuando la opción de <strong>Reiniciar</strong> está activada.</p></div></td></tr><tr><td><strong><code>Apuesta mínima</code></strong></td><td>Define el valor mínimo que debe tener una apuesta de casino en vivo para ser considerada en el jackpot.</td></tr><tr><td><strong><code>Apuesta máxima</code></strong></td><td>Define el valor máximo  permitido que debe tener una apuesta de casino en vivo para ser considerada en el jackpot.</td></tr><tr><td><strong><code>Porcentaje de acumulación</code></strong></td><td>Define el porcentaje de cada apuesta de casino en vivo que se destinará al fondo del jackpot.</td></tr></tbody></table>
+<table><thead><tr><th width="186.8887939453125">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Valor inicial</code></strong></td><td>Indica el <strong>monto base</strong> que <strong>esta vertical</strong> aporta al pozo del jackpot al activarla. Este valor se suma al monto total del jackpot.</td></tr><tr><td><strong><code>Valor inicial repeticiones</code></strong></td><td><p>Campo numérico opcional que permite establecer el monto con el que comenzará el jackpot cada vez que se reinicie.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Este campo es opcional y solo se muestra cuando la opción de <strong>Reiniciar</strong> está activada.</p></div></td></tr><tr><td><strong><code>Apuesta mínima</code></strong></td><td>Define el valor mínimo que debe tener una apuesta de casino en vivo para ser considerada en el jackpot.</td></tr><tr><td><strong><code>Apuesta máxima</code></strong></td><td>Define el valor máximo permitido que debe tener una apuesta de casino en vivo para ser considerada en el jackpot.</td></tr><tr><td><strong><code>Porcentaje de acumulación</code></strong></td><td>Define el porcentaje de cada apuesta de casino en vivo que se destinará al fondo del jackpot.</td></tr></tbody></table>
 
 #### **Configuración de segmentos de casino en vivo**
 
@@ -200,7 +200,7 @@ En este caso, será necesario **revisar y habilitar la configuración** correspo
 {% tab title="Categorías" %}
 Permite definir las categorías de casino cuyas apuestas serán consideradas para el jackpot.
 
-<figure><img src="../../../.gitbook/assets/image (343).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (284).png" alt=""><figcaption></figcaption></figure>
 
 <table><thead><tr><th width="117.03704833984375">Campo</th><th width="120.148193359375">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Categorías</code></strong></td><td>Lista desplegable</td><td>Seleccione una o varias categorias participantes en el jackpot</td></tr></tbody></table>
 {% endtab %}
@@ -208,7 +208,7 @@ Permite definir las categorías de casino cuyas apuestas serán consideradas par
 {% tab title="Proveedores" %}
 Permite definir los proveedores cuyas apuestas serán consideradas para el jackpot.
 
-<figure><img src="../../../.gitbook/assets/image (344).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (285).png" alt=""><figcaption></figcaption></figure>
 
 <table><thead><tr><th width="124.4444580078125">Campo</th><th width="116.44451904296875">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Proveedores</code></strong></td><td>Lista desplegable</td><td>Seleccione una o varios proveedores participantes cuyos juegos serán validos en el jackpot.</td></tr></tbody></table>
 {% endtab %}
@@ -216,7 +216,7 @@ Permite definir los proveedores cuyas apuestas serán consideradas para el jackp
 {% tab title="Productos" %}
 Permite definir los productos junto con su proveedor cuyas apuestas serán consideradas para el jackpot.
 
-<figure><img src="../../../.gitbook/assets/image (345).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (286).png" alt=""><figcaption></figcaption></figure>
 
 <table><thead><tr><th width="119.25927734375">Campo</th><th width="124.5926513671875">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Proveedores</code></strong></td><td>Lista desplegable</td><td>Permite seleccionar uno o varios proveedores cuyos juegos estarán disponibles para participar en el jackpot.</td></tr><tr><td><strong><code>Productos</code></strong></td><td>Lista desplegable</td><td>Permite elegir los juegos específicos de los proveedores seleccionados que serán válidos para acumular y participar en el jackpot.</td></tr></tbody></table>
 {% endtab %}
@@ -230,7 +230,7 @@ Permite habilitar la participación de **apuestas virtuales** en el jackpot, con
 **Nota:** Todos los campos numéricos permiten ingresar valores decimales positivos utilizando punto (.) como separador decimal, con un máximo de 2 decimales.
 {% endhint %}
 
-<table><thead><tr><th width="186.8887939453125">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Valor inicial</code></strong></td><td>Indica el <strong>monto base</strong> que <strong>esta vertical</strong> aporta al pozo del jackpot al activarla. Este valor se suma al monto total del jackpot.</td></tr><tr><td><strong><code>Valor inicial repeticiones</code></strong></td><td><p>Campo numérico opcional que permite establecer el monto con el que comenzará el jackpot cada vez que se reinicie.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Este campo es opcional y solo se muestra cuando la opción de <strong>Reiniciar</strong> está activada.</p></div></td></tr><tr><td><strong><code>Apuesta mínima</code></strong></td><td>Define el valor mínimo que debe tener una apuesta virtual para ser considerada en el jackpot.</td></tr><tr><td><strong><code>Apuesta máxima</code></strong></td><td>Define el valor máximo  permitido que debe tener una apuesta virtual para ser considerada en el jackpot.</td></tr><tr><td><strong><code>Porcentaje de acumulación</code></strong></td><td>Define el porcentaje de cada apuesta virtual que se destinará al fondo del jackpot.</td></tr></tbody></table>
+<table><thead><tr><th width="186.8887939453125">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Valor inicial</code></strong></td><td>Indica el <strong>monto base</strong> que <strong>esta vertical</strong> aporta al pozo del jackpot al activarla. Este valor se suma al monto total del jackpot.</td></tr><tr><td><strong><code>Valor inicial repeticiones</code></strong></td><td><p>Campo numérico opcional que permite establecer el monto con el que comenzará el jackpot cada vez que se reinicie.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Este campo es opcional y solo se muestra cuando la opción de <strong>Reiniciar</strong> está activada.</p></div></td></tr><tr><td><strong><code>Apuesta mínima</code></strong></td><td>Define el valor mínimo que debe tener una apuesta virtual para ser considerada en el jackpot.</td></tr><tr><td><strong><code>Apuesta máxima</code></strong></td><td>Define el valor máximo permitido que debe tener una apuesta virtual para ser considerada en el jackpot.</td></tr><tr><td><strong><code>Porcentaje de acumulación</code></strong></td><td>Define el porcentaje de cada apuesta virtual que se destinará al fondo del jackpot.</td></tr></tbody></table>
 
 #### **Configuración de segmentos de virtuales**
 
@@ -246,7 +246,7 @@ En este caso, será necesario **revisar y habilitar la configuración** correspo
 {% tab title="Categorías" %}
 Permite definir las categorías de casino cuyas apuestas serán consideradas para el jackpot.
 
-<figure><img src="../../../.gitbook/assets/image (343).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (284).png" alt=""><figcaption></figcaption></figure>
 
 <table><thead><tr><th width="117.03704833984375">Campo</th><th width="120.148193359375">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Categorías</code></strong></td><td>Lista desplegable</td><td>Seleccione una o varias categorias participantes en el jackpot</td></tr></tbody></table>
 {% endtab %}
@@ -254,7 +254,7 @@ Permite definir las categorías de casino cuyas apuestas serán consideradas par
 {% tab title="Proveedores" %}
 Permite definir los proveedores cuyas apuestas serán consideradas para el jackpot.
 
-<figure><img src="../../../.gitbook/assets/image (344).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (285).png" alt=""><figcaption></figcaption></figure>
 
 <table><thead><tr><th width="124.4444580078125">Campo</th><th width="116.44451904296875">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Proveedores</code></strong></td><td>Lista desplegable</td><td>Seleccione una o varios proveedores participantes cuyos juegos serán validos en el jackpot.</td></tr></tbody></table>
 {% endtab %}
@@ -262,7 +262,7 @@ Permite definir los proveedores cuyas apuestas serán consideradas para el jackp
 {% tab title="Productos" %}
 Permite definir los productos junto con su proveedor cuyas apuestas serán consideradas para el jackpot.
 
-<figure><img src="../../../.gitbook/assets/image (345).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (286).png" alt=""><figcaption></figcaption></figure>
 
 <table><thead><tr><th width="119.25927734375">Campo</th><th width="124.5926513671875">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Proveedores</code></strong></td><td>Lista desplegable</td><td>Permite seleccionar uno o varios proveedores cuyos juegos estarán disponibles para participar en el jackpot.</td></tr><tr><td><strong><code>Productos</code></strong></td><td>Lista desplegable</td><td>Permite elegir los juegos específicos de los proveedores seleccionados que serán válidos para acumular y participar en el jackpot.</td></tr></tbody></table>
 {% endtab %}
@@ -272,8 +272,8 @@ Permite definir los productos junto con su proveedor cuyas apuestas serán consi
 
 #### Navegación entre secciones
 
-> Para **avanzar** a la siguiente sección, haz clic en el botón **“**<img src="../../../.gitbook/assets/image (33).png" alt="" data-size="line">**”** ubicado en la parte inferior derecha.\
-> Si necesitas **regresar** a la sección anterior, utiliza el botón **“**<img src="../../../.gitbook/assets/image (28).png" alt="" data-size="line">**”** situado en la parte inferior izquierda.
+> Para **avanzar** a la siguiente sección, haz clic en el botón **“**<img src="../../../.gitbook/assets/image (26).png" alt="" data-size="line">**”** ubicado en la parte inferior derecha.\
+> Si necesitas **regresar** a la sección anterior, utiliza el botón **“**<img src="../../../.gitbook/assets/image (25).png" alt="" data-size="line">**”** situado en la parte inferior izquierda.
 
 <p align="right"><a href="formulario.md#seccion-4" class="button primary" data-icon="chevron-right">Continuar</a></p>
 {% endtab %}
@@ -289,7 +289,7 @@ Permite seleccionar los productos por [verticales](https://virtualsoft.gitbook.i
 
 #### Visualización
 
-<figure><img src="../../../.gitbook/assets/image (363).png" alt=""><figcaption><p>Figura #4: captura de pantalla sección 4 formulario jackpot internacional</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (301).png" alt=""><figcaption><p>Figura #4: captura de pantalla sección 4 formulario jackpot internacional</p></figcaption></figure>
 
 {% tabs %}
 {% tab title="Deportivas" %}
@@ -413,8 +413,8 @@ Permite definir los productos junto con su proveedor que serán excluidos en el 
 
 #### Navegación entre secciones
 
-> Para **avanzar** a la siguiente sección, haz clic en el botón **“**<img src="../../../.gitbook/assets/image (32).png" alt="" data-size="line">**”** ubicado en la parte inferior derecha.\
-> Si necesitas **regresar** a la sección anterior, utiliza el botón **“**<img src="../../../.gitbook/assets/image (27).png" alt="" data-size="line">**”** ubicado en la parte inferior izquierda.
+> Para **avanzar** a la siguiente sección, haz clic en el botón **“**<img src="../../../.gitbook/assets/image (26).png" alt="" data-size="line">**”** ubicado en la parte inferior derecha.\
+> Si necesitas **regresar** a la sección anterior, utiliza el botón **“**<img src="../../../.gitbook/assets/image (25).png" alt="" data-size="line">**”** ubicado en la parte inferior izquierda.
 
 <p align="right"><a href="formulario.md#seccion-5" class="button primary" data-icon="chevron-right">Continuar</a></p>
 {% endtab %}
@@ -430,9 +430,9 @@ Permite definir los productos junto con su proveedor que serán excluidos en el 
 
 #### Visualización
 
-<figure><img src="../../../.gitbook/assets/image (364).png" alt=""><figcaption><p>Figura #5: captura de pantalla sección 5 formulario jackpot internacional</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (302).png" alt=""><figcaption><p>Figura #5: captura de pantalla sección 5 formulario jackpot internacional</p></figcaption></figure>
 
-<table><thead><tr><th width="161.50006103515625">Campo</th><th width="94.75006103515625">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Mostrar signo moneda contador</code></strong></td><td>Selector</td><td>Define si el contador del total acumulado del jackpot mostrará el signo de la moneda correspondiente a cada operación, ajustándose <strong>automáticamente según el país</strong> en el que se visualice.</td></tr><tr><td><strong><code>Estilo contador</code></strong></td><td>Selector</td><td><p>Permite definir si el contador del total acumulado se mostrará en números <strong>enteros</strong> o <strong>decimales con dos cifras</strong>. </p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> El contador del acumulado se actualiza en tiempo real, reflejando el incremento del jackpot de manera continua.</p></div></td></tr><tr><td><strong><code>Nombre del jackpot</code></strong></td><td>Imagen</td><td>Inserta la imagen del nombre del jackpot.</td></tr><tr><td><strong><code>Contenedor</code></strong></td><td>Imagen</td><td>Inserta la imagen de fondo que tendrá el contador del jackpot.</td></tr><tr><td><strong><code>Animación</code></strong></td><td>GIF</td><td>Inserta el GIF de la animación que se verá en el contenedor del jackpot.</td></tr><tr><td><strong><code>Video para escritorio</code></strong></td><td>Video</td><td>Inserta el video que se mostrará al usuario cuando gane el jackpot desde un dispositivo de escritorio.</td></tr><tr><td><strong><code>Video para mobile</code></strong></td><td>Video</td><td>Inserta el video que se mostrará al usuario cuando gane el jackpot desde un dispositivo móvil.</td></tr></tbody></table>
+<table><thead><tr><th width="161.50006103515625">Campo</th><th width="94.75006103515625">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Mostrar signo moneda contador</code></strong></td><td>Selector</td><td>Define si el contador del total acumulado del jackpot mostrará el signo de la moneda correspondiente a cada operación, ajustándose <strong>automáticamente según el país</strong> en el que se visualice.</td></tr><tr><td><strong><code>Estilo contador</code></strong></td><td>Selector</td><td><p>Permite definir si el contador del total acumulado se mostrará en números <strong>enteros</strong> o <strong>decimales con dos cifras</strong>.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> El contador del acumulado se actualiza en tiempo real, reflejando el incremento del jackpot de manera continua.</p></div></td></tr><tr><td><strong><code>Nombre del jackpot</code></strong></td><td>Imagen</td><td>Inserta la imagen del nombre del jackpot.</td></tr><tr><td><strong><code>Contenedor</code></strong></td><td>Imagen</td><td>Inserta la imagen de fondo que tendrá el contador del jackpot.</td></tr><tr><td><strong><code>Animación</code></strong></td><td>GIF</td><td>Inserta el GIF de la animación que se verá en el contenedor del jackpot.</td></tr><tr><td><strong><code>Video para escritorio</code></strong></td><td>Video</td><td>Inserta el video que se mostrará al usuario cuando gane el jackpot desde un dispositivo de escritorio.</td></tr><tr><td><strong><code>Video para mobile</code></strong></td><td>Video</td><td>Inserta el video que se mostrará al usuario cuando gane el jackpot desde un dispositivo móvil.</td></tr></tbody></table>
 
 #### **Guardar y crear jackpot**
 
@@ -459,7 +459,7 @@ El sistema evalúa cada apuesta realizada en operaciones participantes (_partner
 1. Corresponde a una [**vertical**](https://virtualsoft.gitbook.io/untitled/glosario/#vertical)**, categoría, proveedor y producto** configurado como **participante**.
 2. Cumple los **montos mínimos y máximos permitidos** por operación y vertical.
 3. No pertenece a **productos excluidos** definidos en el jackpot.
-4. Valida la **existencia de una** [**TRM**](https://virtualsoft.gitbook.io/untitled/glosario/#trm) **válida y activa** para convertir el porcentaje acumulable de la apuesta desde la moneda local a la moneda base del jackpot (_USD/EUR_) cuando aplica.&#x20;
+4. Valida la **existencia de una** [**TRM**](https://virtualsoft.gitbook.io/untitled/glosario/#trm) **válida y activa** para convertir el porcentaje acumulable de la apuesta desde la moneda local a la moneda base del jackpot (_USD/EUR_) cuando aplica.
 
 </details>
 {% endstep %}

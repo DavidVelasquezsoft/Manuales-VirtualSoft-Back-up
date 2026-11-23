@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Fondos
@@ -35,13 +37,13 @@ layout:
 
 Antes de realizar las acciones disponibles en la sección pop ups, es necesario contar con las siguientes configuraciones:
 
-<table><thead><tr><th width="130">Parámetro</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Pais</code></strong></td><td>Indica el país para el cual se realizará la configuración</td></tr><tr><td><strong><code>Dispositivo</code></strong></td><td>Establece el tipo de dispositivo en el que se realizarán los cambios <em>(mobile  o escritorio)</em>.</td></tr></tbody></table>
+<table><thead><tr><th width="130">Parámetro</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Pais</code></strong></td><td>Indica el país para el cual se realizará la configuración</td></tr><tr><td><strong><code>Dispositivo</code></strong></td><td>Establece el tipo de dispositivo en el que se realizarán los cambios <em>(mobile o escritorio)</em>.</td></tr></tbody></table>
 
 ***
 
 ### 3. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (115).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección fondos.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (94).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección fondos.</p></figcaption></figure>
 
 ***
 

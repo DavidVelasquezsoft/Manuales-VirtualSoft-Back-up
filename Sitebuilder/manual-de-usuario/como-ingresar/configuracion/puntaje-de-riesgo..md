@@ -27,9 +27,9 @@ Porque todas las reglas definidas en este módulo se aplican de forma específic
 
 ***
 
-### 3. Visualización&#x20;
+### 3. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (69).png" alt=""><figcaption><p>Figura #1: Captura de pantalla módulo aprobación automática de retiros.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (59).png" alt=""><figcaption><p>Figura #1: Captura de pantalla módulo aprobación automática de retiros.</p></figcaption></figure>
 
 ***
 
@@ -44,7 +44,7 @@ Las siguientes acciones solo están disponibles para usuarios con **permiso de g
 <table><thead><tr><th width="226">Acción de gestión</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Crear reglas</strong></td><td>Permite definir nuevas reglas de aprobación automática para cada nivel de riesgo. Requiere validación con doble autenticación (2FA).</td></tr><tr><td><strong>Editar reglas</strong></td><td>Modifica reglas ya configuradas. El cambio debe ser confirmado mediante 2FA para aplicarse.</td></tr><tr><td><strong>Eliminar reglas</strong></td><td>Elimina reglas existentes de la plataforma. Solo se completa si el usuario valida con 2FA.</td></tr><tr><td><strong>Activar / Desactivar reglas desde la gestión</strong></td><td>Permite habilitar o deshabilitar reglas a nivel de gestión, con validación de 2FA.</td></tr><tr><td><strong>Confirmar cambios</strong></td><td>Todo cambio realizado debe ser validado mediante 2FA. Si la validación falla o no se completa, los cambios no serán guardados.</td></tr></tbody></table>
 
 {% hint style="warning" %}
-**Notas:**&#x20;
+**Notas:**
 
 * Si la validación 2FA falla o no se completa, los cambios no serán guardados.
 * El token de 2FA debe ser el mismo que se utiliza para ingresar a BackOffice.<br>

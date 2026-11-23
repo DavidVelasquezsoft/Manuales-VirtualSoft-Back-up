@@ -26,7 +26,7 @@ Permite gestionar, agregar y configurar los productos disponibles.
 
 #### 3.1.1. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (397).png" alt=""><figcaption><p><strong>Figura 1:</strong> Vista general del módulo <em>Activar productos</em>, donde se muestran los juegos disponibles para el partner seleccionado.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (332).png" alt=""><figcaption><p><strong>Figura 1:</strong> Vista general del módulo <em>Activar productos</em>, donde se muestran los juegos disponibles para el partner seleccionado.</p></figcaption></figure>
 
 #### 3.1.2. Filtros
 
@@ -57,12 +57,12 @@ Permite activar o inactivar múltiples productos de forma masiva mediante un arc
 #### Ingresar archivo [CSV](https://virtualsoft.gitbook.io/untitled/glosario#csv)
 
 {% hint style="warning" %}
-**Nota:** El botón <img src="../../../.gitbook/assets/Button (1).png" alt="" data-size="line">  permite descargar la plantilla del archivo .CSV que se debe cargar para cambiar los estados de forma masiva correctamente.
+**Nota:** El botón <img src="../../../.gitbook/assets/Button (1).png" alt="" data-size="line"> permite descargar la plantilla del archivo .CSV que se debe cargar para cambiar los estados de forma masiva correctamente.
 {% endhint %}
 
 El archivo obligatoriamente debe tener únicamente las siguientes 2 columnas:
 
-<table><thead><tr><th width="117.44439697265625">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>ID</strong></td><td>Ingresa  el identificador único del producto al cual se le desea cambiar el estado.</td></tr><tr><td><strong>ACCIÓN</strong></td><td><p>Indica la acción que se realizará sobre el producto:<br></p><ul><li><strong>inactivar:</strong> cambiará el estado del producto a inactivo</li><li><strong>activar:</strong> Cambiara el estado del producto a activo</li></ul><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> La acción debe escribirse correctamente como <strong>“activar”</strong> o <strong>“inactivar”</strong>; El sistema reconoce el valor de la acción independientemente del uso de mayúsculas o minúsculas.</p></div></td></tr></tbody></table>
+<table><thead><tr><th width="117.44439697265625">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>ID</strong></td><td>Ingresa el identificador único del producto al cual se le desea cambiar el estado.</td></tr><tr><td><strong>ACCIÓN</strong></td><td><p>Indica la acción que se realizará sobre el producto:<br></p><ul><li><strong>inactivar:</strong> cambiará el estado del producto a inactivo</li><li><strong>activar:</strong> Cambiara el estado del producto a activo</li></ul><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> La acción debe escribirse correctamente como <strong>“activar”</strong> o <strong>“inactivar”</strong>; El sistema reconoce el valor de la acción independientemente del uso de mayúsculas o minúsculas.</p></div></td></tr></tbody></table>
 
 Una vez cargado el archivo CSV, el sistema valida automáticamente su contenido; si no cumple con el formato requerido, será rechazado y se mostrará un mensaje indicando el motivo del error.
 {% endstep %}
@@ -74,7 +74,7 @@ Una vez el sistema halla validado el archivo correctamente, mostrara un resumen 
 
 <table><thead><tr><th width="183.00006103515625">Valor</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Total de filas procesadas</code></strong></td><td>Muestra el total de registros identificados y procesados por el sistema dentro del archivo .CSV, incluyendo válidos y con error.</td></tr><tr><td><strong><code>Total de filas válidadas</code></strong></td><td>Muestra el total de registros procesados correctamente, donde el identificador del producto y la acción ingresada son válidos.</td></tr><tr><td><strong><code>Total de filas erróneas</code></strong></td><td>Muestra el total de registros que presentaron errores durante la validación o procesamiento del archivo .CSV.</td></tr><tr><td><strong><code>Fila</code></strong></td><td>Columna que indica el numero de fila del producto en el archivo que fallo al realizarse la acción.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Columna que indica por cada fila el mensaje de error en especifico por el cual fallo la acción.</td></tr></tbody></table>
 
-Una vez validada la información, si existe al menos un registro válido, se habilitará el botón <img src="../../../.gitbook/assets/Button (2) (1).png" alt="" data-size="line"> para continuar.
+Una vez validada la información, si existe al menos un registro válido, se habilitará el botón <img src="../../../.gitbook/assets/Button (3).png" alt="" data-size="line"> para continuar.
 
 {% hint style="warning" %}
 **Nota:** Si el archivo se encuentra vacío, el sistema mostrará un mensaje de error y no permitirá continuar.
@@ -102,19 +102,19 @@ Permite visualizar el historial de cargas masivas realizadas y descargar sus res
 
 #### **3.2.1. Visualización**
 
-<figure><img src="../../../.gitbook/assets/image (398).png" alt=""><figcaption><p><strong>Figura #2:</strong> Captura de pantalla historial de cargas en la sección activar juegos</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (333).png" alt=""><figcaption><p><strong>Figura #2:</strong> Captura de pantalla historial de cargas en la sección activar juegos</p></figcaption></figure>
 
 #### **3.2.2. Filtros**
 
 <table><thead><tr><th width="104.48150634765625">Filtro</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Fecha</code></strong></td><td>Permite filtrar los registros según la fecha de carga del archivo.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Permite filtrar por el estado del procesamiento del archivo (<em>Completado o Con errores</em>).</td></tr><tr><td><strong><code>Usuario</code></strong></td><td>Permite filtrar los registros según el usuario que realizó la carga.</td></tr></tbody></table>
 
 {% hint style="warning" %}
-**Nota:** El botón <img src="../../../.gitbook/assets/Button (1).png" alt="" data-size="line">  en esta sección permite descargar la plantilla del archivo .CSV que se debe cargar para cambiar los estados de forma masiva correctamente desde la pestaña [#id-3.-juegos](activar-productos.md#id-3.-juegos "mention") dando clic al botón <img src="../../../.gitbook/assets/Button.png" alt="" data-size="line">.
+**Nota:** El botón <img src="../../../.gitbook/assets/Button (1).png" alt="" data-size="line"> en esta sección permite descargar la plantilla del archivo .CSV que se debe cargar para cambiar los estados de forma masiva correctamente desde la pestaña [#id-3.-juegos](activar-productos.md#id-3.-juegos "mention") dando clic al botón <img src="../../../.gitbook/assets/Button.png" alt="" data-size="line">.
 {% endhint %}
 
 #### **3.2.3. Resultados**
 
-<table><thead><tr><th width="180.85198974609375">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Nombre del archivo</code></strong></td><td>Muestra el nombre del archivo CSV cargado.</td></tr><tr><td><strong><code>Usuario</code></strong></td><td>Indica el usuario que realizó la carga del archivo.</td></tr><tr><td><strong><code>Fecha y hora</code></strong></td><td>Muestra la fecha y hora en que se cargó el archivo.</td></tr><tr><td><strong><code>Estado</code></strong></td><td><p>Indica el resultado del procesamiento de la carga masiva: </p><p></p><ul><li><strong>Cargado:</strong> si todas las filas son válidas.</li><li><strong>Error:</strong> si alguna fila no fue valida y no se proceso.</li></ul></td></tr><tr><td><strong><code>Filas completadas</code></strong></td><td>Muestra el total de filas procesadas correctamente y en las que la acción se ejecutó exitosamente en el archivo CSV.</td></tr><tr><td><strong><code>Acciones</code></strong></td><td>Permite descargar el resultado de la carga masiva para visualizar el detalle de las filas procesadas y los posibles errores por cada registro.</td></tr></tbody></table>
+<table><thead><tr><th width="180.85198974609375">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Nombre del archivo</code></strong></td><td>Muestra el nombre del archivo CSV cargado.</td></tr><tr><td><strong><code>Usuario</code></strong></td><td>Indica el usuario que realizó la carga del archivo.</td></tr><tr><td><strong><code>Fecha y hora</code></strong></td><td>Muestra la fecha y hora en que se cargó el archivo.</td></tr><tr><td><strong><code>Estado</code></strong></td><td><p>Indica el resultado del procesamiento de la carga masiva:</p><ul><li><strong>Cargado:</strong> si todas las filas son válidas.</li><li><strong>Error:</strong> si alguna fila no fue valida y no se proceso.</li></ul></td></tr><tr><td><strong><code>Filas completadas</code></strong></td><td>Muestra el total de filas procesadas correctamente y en las que la acción se ejecutó exitosamente en el archivo CSV.</td></tr><tr><td><strong><code>Acciones</code></strong></td><td>Permite descargar el resultado de la carga masiva para visualizar el detalle de las filas procesadas y los posibles errores por cada registro.</td></tr></tbody></table>
 {% endtab %}
 {% endtabs %}
 

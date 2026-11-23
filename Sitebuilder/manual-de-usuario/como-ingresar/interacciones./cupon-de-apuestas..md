@@ -21,6 +21,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Cupón de apuestas.
@@ -37,7 +39,7 @@ layout:
 
 ### 2. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (457).png" alt=""><figcaption><p>Figura #1: Captura de pantalla mensajes.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (379).png" alt=""><figcaption><p>Figura #1: Captura de pantalla mensajes.</p></figcaption></figure>
 
 ***
 
@@ -49,13 +51,13 @@ layout:
 
 ### 4. Agregar
 
-Al seleccionar el botón [<img src="../../../.gitbook/assets/image (459).png" alt="" data-size="line">](cupon-de-apuestas..md#id-4.-agregar), se despliega un calendario para establecer el período durante el cual estará vigente el mensaje.
+Al seleccionar el botón [<img src="../../../.gitbook/assets/image (381).png" alt="" data-size="line">](cupon-de-apuestas..md#id-4.-agregar), se despliega un calendario para establecer el período durante el cual estará vigente el mensaje.
 
 En el calendario se deben configurar los siguientes campos:
 
 <table><thead><tr><th width="190">Campo</th><th width="130">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Fecha y hora inicio</code></strong></td><td>Fecha y hora</td><td>Establece la fecha y hora a partir de la cual el mensaje podrá ser visualizado en la plataforma.</td></tr><tr><td><strong><code>Fecha y hora fin</code></strong></td><td>Fecha y hora</td><td>Establece la fecha y hora en la que finalizará la vigencia del mensaje.</td></tr></tbody></table>
 
-Una vez establecido el período de vigencia, selecciona<img src="../../../.gitbook/assets/image (458).png" alt="" data-size="line">para aplicar el rango de fecha y hora al nuevo mensaje.
+Una vez establecido el período de vigencia, selecciona<img src="../../../.gitbook/assets/image (380).png" alt="" data-size="line">para aplicar el rango de fecha y hora al nuevo mensaje.
 
 {% hint style="warning" %}
 **Nota:** Si ya existe un mensaje configurado dentro del mismo rango de fechas, el sistema mostrará el mensaje: **"Ya existe un mensaje activo en este período. Ajuste las fechas o edite el mensaje existente."**
@@ -72,7 +74,7 @@ Después de establecer el rango de fecha y hora, se genera una nueva card para c
 {% hint style="warning" %}
 **Nota:**
 
-* Los mensajes pasan a la sección **Expirados** cuando finaliza el período de vigencia establecido en la configuración de fecha y hora.&#x20;
+* Los mensajes pasan a la sección **Expirados** cuando finaliza el período de vigencia establecido en la configuración de fecha y hora.
 * Para que los cambios realizados se reflejen en la plataforma de usuarios, es necesario seleccionar el botón **Guardar** ubicado en la barra lateral.
 {% endhint %}
 
