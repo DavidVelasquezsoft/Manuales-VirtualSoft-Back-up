@@ -104,8 +104,3 @@ site:
           path: manuales-api
           content:
             directory: ./manuales-api
-    - type: section-group
-      key: section-group-1
-      title: Strategy-Ecuabet
-      draft: true
-      children: []
