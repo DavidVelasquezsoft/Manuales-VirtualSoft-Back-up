@@ -19,7 +19,7 @@ Antes de visualizar el reporte, es necesario establecer las [configuraciones pre
 
 ***
 
-### 3.  Pestañas disponibles en el reporte.
+### 3. Pestañas disponibles en el reporte.
 
 Este dashboard se compone de **dos pestañas**, cada una orientada a un nivel de análisis distinto de la información. Ambas permiten consultar el comportamiento de los usuarios según los filtros aplicados, ya sea desde una vista detallada o desde un resumen consolidado.
 
@@ -41,7 +41,7 @@ Visualiza un resumen consolidado por usuario, mostrando sus principales métrica
 
 #### Visualización
 
-<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption><p>Figura #1. Captura de pantalla de ejemplo de la vista de detalle general.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption><p>Figura #1. Captura de pantalla de ejemplo de la vista de detalle general.</p></figcaption></figure>
 
 #### Tabla de Datos del Usuario
 
@@ -55,15 +55,13 @@ Muestra el estado **PEP (Persona Políticamente Expuesta)** del usuario y las **
 
 #### Visualización
 
-<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption><p>Figura #2. Captura de pantalla de ejemplo de la vista de detalle general.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (10) (1).png" alt=""><figcaption><p>Figura #2. Captura de pantalla de ejemplo de la vista de detalle general.</p></figcaption></figure>
 
 **¿Que es una Autoexclusión?**
 
 La **autoexclusión** es una medida de juego responsable en la que el usuario solicita bloquear su acceso a una vertical por un tiempo definido o indefinido, limitando su operación mientras esté vigente.
 
 <table><thead><tr><th width="209">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Id Usuario</code></strong></td><td>Identificador único del usuario dentro de la plataforma.</td></tr><tr><td><strong><code>Fecha registro time</code></strong></td><td>Fecha y hora en la que se registra la información del usuario.</td></tr><tr><td><strong><code>correo</code></strong></td><td>Dirección de correo electrónico registrada por el usuario.</td></tr><tr><td><strong><code>Nombre usuario</code></strong></td><td>Nombre de usuario registrado en la plataforma.</td></tr><tr><td><strong><code>Cedula</code></strong></td><td>Número de documento de identificación registrado para el usuario.</td></tr><tr><td><strong><code>Tipo documento</code></strong></td><td>Tipo de documento de identificación registrado para el usuario.</td></tr><tr><td><strong><code>Nacionalidad</code></strong></td><td>Nacionalidad registrada para el usuario.</td></tr><tr><td><strong><code>Genero</code></strong></td><td>Género registrado para el usuario.</td></tr><tr><td><strong><code>celular</code></strong></td><td>Número de teléfono celular registrado por el usuario.</td></tr><tr><td><strong><code>Fecha Nacimiento</code></strong></td><td>Fecha de nacimiento registrada para el usuario.</td></tr><tr><td><strong><code>Pais</code></strong></td><td>País registrado para el usuario.</td></tr><tr><td><strong><code>Dirección usuario</code></strong></td><td>Dirección registrada para el usuario.</td></tr><tr><td><strong><code>Departamento Usuario</code></strong></td><td>Departamento registrado para el usuario.</td></tr><tr><td><strong><code>Ciudad Usuario</code></strong></td><td>Ciudad registrada para el usuario.</td></tr><tr><td><strong><code>PEP</code></strong></td><td>Indicador categórico que señala si el usuario se declaró como Persona Políticamente Expuesta (SI / NO).</td></tr><tr><td><a href="https://virtualsoft.gitbook.io/plantillas/glosario#regimen-reforzado-1"><strong><code>Regimen Reforzado</code></strong></a></td><td>Indicador que señala si el usuario se encuentra bajo un régimen de control reforzado.</td></tr><tr><td><strong><code>Fecha Aceptación PEP</code></strong></td><td>Fecha en la que el usuario acepta su condición como PEP durante el registro u otro flujo habilitado.</td></tr><tr><td><strong><code>Fecha Autoexclusión Inicial Casino</code></strong></td><td>Fecha de inicio de la autoexclusión del usuario para la vertical Casino.</td></tr><tr><td><strong><code>Fecha Autoexclusión Final Casino</code></strong></td><td>Fecha de finalización de la autoexclusión del usuario para la vertical Casino.</td></tr><tr><td><strong><code>Fecha Autoexclusión Inicial Casinolive</code></strong></td><td>Fecha de inicio de la autoexclusión del usuario para la vertical Casino Live.</td></tr><tr><td><strong><code>Fecha Autoexclusión Final Casinolive</code></strong></td><td>Fecha de finalización de la autoexclusión del usuario para la vertical Casino Live.</td></tr><tr><td><strong><code>Fecha Autoexclusión Inicial Deportivas</code></strong></td><td>Fecha de inicio de la autoexclusión del usuario para la vertical Deportivas.</td></tr><tr><td><strong><code>Fecha Autoexclusión Final Deportivas</code></strong></td><td>Fecha de finalización de la autoexclusión del usuario para la vertical Deportivas.</td></tr><tr><td><strong><code>Fecha Autoexclusión Inicial Virtuales</code></strong></td><td>Fecha de inicio de la autoexclusión del usuario para la vertical Virtuales.</td></tr><tr><td><strong><code>Fecha Autoexclusión Final Virtuales</code></strong></td><td>Fecha de finalización de la autoexclusión del usuario para la vertical Virtuales.</td></tr><tr><td><strong><code>Fecha Autoexclusión Inicial Todas las Verticales</code></strong></td><td>Fecha de inicio de la autoexclusión global del usuario, aplicable a todas las verticales.</td></tr><tr><td><strong><code>Fecha Autoexclusión Final Todas las Verticales</code></strong></td><td>Fecha de finalización de la autoexclusión global del usuario, aplicable a todas las verticales.</td></tr><tr><td><strong><code>Saldo actual</code></strong></td><td>Saldo disponible registrado para el usuario al momento de la consulta.</td></tr></tbody></table>
-
-
 {% endtab %}
 {% endtabs %}
 {% endtab %}
@@ -73,7 +71,7 @@ Visualiza el desempeño detallado de los usuarios a través de KPIs, tendencias 
 
 #### Visualización
 
-<figure><img src="../../../.gitbook/assets/image (236).png" alt=""><figcaption><p>Figura#3: Captura de pantalla Dashboard usuario análisis.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (236) (1).png" alt=""><figcaption><p>Figura#3: Captura de pantalla Dashboard usuario análisis.</p></figcaption></figure>
 
 ***
 
@@ -85,7 +83,7 @@ Visualiza el desempeño detallado de los usuarios a través de KPIs, tendencias 
 
 * **KPI´s principales**
 
-<table><thead><tr><th width="184.3333740234375">KPI</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Valor Depósitos</code></strong></td><td>Total depositado por los usuarios dentro del periodo filtrado.</td></tr><tr><td><strong><code>Valor Retiros</code></strong></td><td>Total retirado por los usuarios en el periodo consultado.</td></tr><tr><td><strong><code>Apostado deportivas</code></strong></td><td>Total apostado en la vertical deportivas <em>(</em><a href="https://app.gitbook.com/o/QcwavWzh0dfIwPyknoIT/s/mbqa0WvDWam8G20QQoIZ/#apuesta-cerrada"><em>apuestas cerradas</em></a><em>).</em></td></tr><tr><td><strong><code>GGR deportivas</code></strong></td><td><a href="https://virtualsoft.gitbook.io/untitled/glosario/#ggr">GGR</a> total generado en apuestas deportivas.</td></tr><tr><td><strong><code>Apostado casino</code></strong></td><td>Total apostado en la vertical de casino <em>(slot, en vivo y virtuales).</em></td></tr><tr><td><strong><code>GGR casino</code></strong></td><td>GGR consolidado de todas las verticales de casino.</td></tr></tbody></table>
+<table><thead><tr><th width="184.3333740234375">KPI</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Valor Depósitos</code></strong></td><td>Total depositado por los usuarios dentro del periodo filtrado.</td></tr><tr><td><strong><code>Valor Retiros</code></strong></td><td>Total retirado por los usuarios en el periodo consultado.</td></tr><tr><td><strong><code>Apostado deportivas</code></strong></td><td>Total apostado en la vertical deportivas <em>(</em><a href="https://app.gitbook.com/s/mbqa0WvDWam8G20QQoIZ/#apuesta-cerrada"><em>apuestas cerradas</em></a><em>).</em></td></tr><tr><td><strong><code>GGR deportivas</code></strong></td><td><a href="https://virtualsoft.gitbook.io/untitled/glosario/#ggr">GGR</a> total generado en apuestas deportivas.</td></tr><tr><td><strong><code>Apostado casino</code></strong></td><td>Total apostado en la vertical de casino <em>(slot, en vivo y virtuales).</em></td></tr><tr><td><strong><code>GGR casino</code></strong></td><td>GGR consolidado de todas las verticales de casino.</td></tr></tbody></table>
 
 * **Gráficos lineales**
 

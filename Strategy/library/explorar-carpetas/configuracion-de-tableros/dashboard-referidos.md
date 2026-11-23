@@ -10,7 +10,7 @@
 
 ### 2. Acciones disponibles
 
-<table><thead><tr><th width="175.92572021484375">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="dashboard-referidos.md#id-3.-filtros"><strong>Aplicar filtros</strong></a></td><td><p>Permite filtrar la información según los criterios disponibles en el panel de filtros. </p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Todos los indicadores, gráficas y tablas se actualizan automáticamente al aplicarlos, y los filtros pueden combinarse entre sí.</p></div></td></tr><tr><td><a href="dashboard-referidos.md#id-5.-contenido-del-dashboard"><strong>Visualizar contenido del tablero</strong></a></td><td><p>Utiliza las herramientas disponibles en el dashboard, incluyendo:</p><ul><li>Filtros dinámicos.</li><li>KPIs generales.</li><li>Gráficas de barras y embudo de conversión.</li><li>Tablas con información detallada por <a href="https://virtualsoft.gitbook.io/plantillas/glosario#referente">referente</a> y referido.</li></ul><p>Permite navegar e interactuar con la información mediante las vistas disponibles: <strong>Dashboard</strong>, <strong>Detalle referente</strong> y <strong>Detalle referido</strong>.</p></td></tr><tr><td><strong>Exportar contenido</strong></td><td>El dashboard permite exportar su contenido en formatos Excel, CSV y PDF, respetando los filtros activos. Para más información, consulte la guía de exportación  <a data-mention href="./#id-3.-exportar-contenido">#id-3.-exportar-contenido</a>.</td></tr></tbody></table>
+<table><thead><tr><th width="175.92572021484375">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="dashboard-referidos.md#id-3.-filtros"><strong>Aplicar filtros</strong></a></td><td><p>Permite filtrar la información según los criterios disponibles en el panel de filtros.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Todos los indicadores, gráficas y tablas se actualizan automáticamente al aplicarlos, y los filtros pueden combinarse entre sí.</p></div></td></tr><tr><td><a href="dashboard-referidos.md#id-5.-contenido-del-dashboard"><strong>Visualizar contenido del tablero</strong></a></td><td><p>Utiliza las herramientas disponibles en el dashboard, incluyendo:</p><ul><li>Filtros dinámicos.</li><li>KPIs generales.</li><li>Gráficas de barras y embudo de conversión.</li><li>Tablas con información detallada por <a href="https://virtualsoft.gitbook.io/plantillas/glosario#referente">referente</a> y referido.</li></ul><p>Permite navegar e interactuar con la información mediante las vistas disponibles: <strong>Dashboard</strong>, <strong>Detalle referente</strong> y <strong>Detalle referido</strong>.</p></td></tr><tr><td><strong>Exportar contenido</strong></td><td>El dashboard permite exportar su contenido en formatos Excel, CSV y PDF, respetando los filtros activos. Para más información, consulte la guía de exportación <a data-mention href="./#id-3.-exportar-contenido">#id-3.-exportar-contenido</a>.</td></tr></tbody></table>
 
 ***
 
@@ -58,7 +58,7 @@ Vista ejecutiva orientada al análisis gerencial y al monitoreo del desempeño d
 
 #### **Visualización**
 
-<figure><img src="../../../.gitbook/assets/image (264).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Dashboard referidos</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (264) (1).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Dashboard referidos</p></figcaption></figure>
 
 #### **Gráficas**
 
@@ -70,7 +70,7 @@ Vista operativa que presenta la información individual de cada [referente](http
 
 #### **Visualización**
 
-<figure><img src="../../../.gitbook/assets/image (265).png" alt=""><figcaption><p>Figura #2: Captura de pantalla Detalle referente</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (265) (1).png" alt=""><figcaption><p>Figura #2: Captura de pantalla Detalle referente</p></figcaption></figure>
 
 #### **Tabla de referentes**
 
@@ -88,7 +88,7 @@ Vista que presenta el detalle de los [referidos](https://virtualsoft.gitbook.io/
 
 #### **Visualización**
 
-<figure><img src="../../../.gitbook/assets/image (266).png" alt=""><figcaption><p>Figura #3: Captura de pantalla Detalle referido</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (266) (1).png" alt=""><figcaption><p>Figura #3: Captura de pantalla Detalle referido</p></figcaption></figure>
 
 #### **¿Cómo se organiza la información?**
 
@@ -97,7 +97,7 @@ Una **condición** es un requisito que el [referido](https://virtualsoft.gitbook
 La tabla muestra **una fila por cada condición** asociada al referido, por lo que un mismo referido puede aparecer en varios registros, cada uno con su fecha de cumplimiento y su estado.
 
 {% hint style="warning" %}
-**Notas:**&#x20;
+**Notas:**
 
 * El premio se entrega una sola vez al referente cuando el referido cumple **todas** las condiciones configuradas. Por esa razón, el **ID y el nombre del premio se repiten en todas las filas del referido**, sin que ello signifique que se haya entregado un premio por cada condición.
 * Un referido puede no generar el premio por distintos motivos: porque su depósito fue rechazado, porque no cumplió las condiciones dentro del plazo establecido o porque el referente dejó expirar el bono sin redimirlo.

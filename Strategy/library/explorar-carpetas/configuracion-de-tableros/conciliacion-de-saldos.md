@@ -42,7 +42,7 @@ BackOffice > Inteligencia de Negocios > Conciliación de Saldos
 
 ### 2. 🖼️Visualización
 
-<figure><img src="../../../.gitbook/assets/image (149).png" alt=""><figcaption><p>Figura #1: Captura de pantalla – Dashboard Conciliación de Saldos.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (149) (1).png" alt=""><figcaption><p>Figura #1: Captura de pantalla – Dashboard Conciliación de Saldos.</p></figcaption></figure>
 
 ***
 
@@ -78,20 +78,20 @@ El panel izquierdo permite aplicar los siguientes filtros:
 
 La validación de la información puede contrastarse con los siguientes módulos del BackOffice:
 
-{% content-ref url="https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/manual-de-usuario-backoffice/reportes/flujo-de-caja-resumido" %}
-[Flujo de Caja Resumido](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/manual-de-usuario-backoffice/reportes/flujo-de-caja-resumido)
+{% content-ref url="https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/reportes/flujo-de-caja-resumido" %}
+[Flujo de Caja Resumido](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/reportes/flujo-de-caja-resumido)
 {% endcontent-ref %}
 
-{% content-ref url="https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/manual-de-usuario-backoffice/reportes/historico-de-saldos" %}
-[Histórico de Saldos](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/manual-de-usuario-backoffice/reportes/historico-de-saldos)
+{% content-ref url="https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/reportes/historico-de-saldos" %}
+[Histórico de Saldos](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/reportes/historico-de-saldos)
 {% endcontent-ref %}
 
-{% content-ref url="https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/manual-de-usuario-backoffice/reportes/informe-gerencial" %}
-[Informe Gerencial](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/manual-de-usuario-backoffice/reportes/informe-gerencial)
+{% content-ref url="https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/reportes/informe-gerencial" %}
+[Informe Gerencial](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/reportes/informe-gerencial)
 {% endcontent-ref %}
 
-{% content-ref url="https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/manual-de-usuario-backoffice/reportes/reporte-productos-no-deportivos" %}
-[Reporte productos no deportivos](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/manual-de-usuario-backoffice/reportes/reporte-productos-no-deportivos)
+{% content-ref url="https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/reportes/reporte-productos-no-deportivos" %}
+[Reporte productos no deportivos](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/reportes/reporte-productos-no-deportivos)
 {% endcontent-ref %}
 
 ***

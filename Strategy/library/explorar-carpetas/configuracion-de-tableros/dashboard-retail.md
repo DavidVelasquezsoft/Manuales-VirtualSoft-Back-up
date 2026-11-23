@@ -24,7 +24,7 @@ Antes de visualizar el reporte, es necesario confirmar las [configuraciones prev
 
 ***
 
-### 4. Filtros&#x20;
+### 4. Filtros
 
 Estos son los filtros disponibles del dashboard, los cuales permiten visualizar la información del tablero según los criterios seleccionados.
 
@@ -50,7 +50,7 @@ Presenta gráficos generales de los puntos de venta organizados por meses, permi
 
 #### Visualización
 
-<figure><img src="../../../.gitbook/assets/image (224).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Vista Historico</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (224) (1).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Vista Historico</p></figcaption></figure>
 
 #### Métricas
 
@@ -70,7 +70,7 @@ Muestra rankings comparativos según la provincia en la que se ubican los puntos
 
 #### Visualización
 
-<figure><img src="../../../.gitbook/assets/image (223).png" alt=""><figcaption><p>Figura #2: Captura de pantalla Vista desempeño provincia</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (223) (1).png" alt=""><figcaption><p>Figura #2: Captura de pantalla Vista desempeño provincia</p></figcaption></figure>
 
 #### Rankings
 
@@ -84,9 +84,7 @@ Muestra rankings comparativos de los puntos de venta, permitiendo evaluar y anal
 
 #### Visualización
 
-
-
-<figure><img src="../../../.gitbook/assets/image (222).png" alt=""><figcaption><p>Figura #3: Captura de pantalla Vista Desempeño por PV</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (222) (1).png" alt=""><figcaption><p>Figura #3: Captura de pantalla Vista Desempeño por PV</p></figcaption></figure>
 
 #### Graficas
 
@@ -100,7 +98,7 @@ Presenta la matriz detallada con la información completa por punto de venta, si
 
 #### Visualización
 
-<figure><img src="../../../.gitbook/assets/image (216).png" alt=""><figcaption><p>Figura #4: Captura de pantalla Vista detalle</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (216) (1).png" alt=""><figcaption><p>Figura #4: Captura de pantalla Vista detalle</p></figcaption></figure>
 
 #### Tabla de información
 

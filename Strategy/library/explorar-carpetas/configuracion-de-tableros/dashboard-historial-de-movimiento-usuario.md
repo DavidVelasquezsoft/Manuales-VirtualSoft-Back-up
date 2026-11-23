@@ -13,7 +13,7 @@
 Antes de visualizar el reporte, es necesario confirmar las siguientes configuraciones previas obligatorias.
 
 {% hint style="danger" %}
-**Notas importantes:**&#x20;
+**Notas importantes:**
 
 * Los filtros son obligatorios para la correcta ejecución del tablero. Al basarse en un alto volumen de datos transaccionales, si no se aplican los filtros adecuados el tablero puede presentar problemas de carga o rendimiento.
 * Para marcas de alto volumen como **Ecuabet**, es obligatorio filtrar por un **Id Usuario** específico. Esto evita tiempos de carga elevados o fallos en la visualización, y garantiza un análisis eficiente y enfocado.
@@ -25,13 +25,13 @@ Antes de visualizar el reporte, es necesario confirmar las siguientes configurac
 
 ### 3. Acciones disponibles
 
-<table><thead><tr><th width="175.92572021484375">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="dashboard-historial-de-movimiento-usuario.md#id-5.-filtros"><strong>Aplicar filtros</strong></a></td><td><p>Permite filtrar la información según los criterios disponibles y utilizar el dashboard de forma dinámica para enfocar el análisis.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Estos filtros funcionan dentro de los filtros principales de configuraciones  previas.</p></div></td></tr><tr><td><a href="dashboard-historial-de-movimiento-usuario.md#id-6.-tabla-matriz-movimientos-y-valores"><strong>Visualizar contenido del tablero</strong></a></td><td><p>Utiliza las herramientas del dashboard, tales como:</p><ul><li>Filtros dinámicos.</li><li>KPIs generales.</li><li>Gráficas de barras.</li><li>Matriz con el detalle de los movimientos.</li></ul><p>Permite navegar e interactuar con los diferentes contenidos del dashboard, manteniendo los filtros previamente aplicados.</p></td></tr><tr><td><strong>Exportar contenido</strong></td><td>El dashboard permite exportar su contenido. Para más información, consulte la guía de exportación <a data-mention href="./#id-3.-exportar-contenido">#id-3.-exportar-contenido</a>.</td></tr></tbody></table>
+<table><thead><tr><th width="175.92572021484375">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="dashboard-historial-de-movimiento-usuario.md#id-5.-filtros"><strong>Aplicar filtros</strong></a></td><td><p>Permite filtrar la información según los criterios disponibles y utilizar el dashboard de forma dinámica para enfocar el análisis.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Estos filtros funcionan dentro de los filtros principales de configuraciones previas.</p></div></td></tr><tr><td><a href="dashboard-historial-de-movimiento-usuario.md#id-6.-tabla-matriz-movimientos-y-valores"><strong>Visualizar contenido del tablero</strong></a></td><td><p>Utiliza las herramientas del dashboard, tales como:</p><ul><li>Filtros dinámicos.</li><li>KPIs generales.</li><li>Gráficas de barras.</li><li>Matriz con el detalle de los movimientos.</li></ul><p>Permite navegar e interactuar con los diferentes contenidos del dashboard, manteniendo los filtros previamente aplicados.</p></td></tr><tr><td><strong>Exportar contenido</strong></td><td>El dashboard permite exportar su contenido. Para más información, consulte la guía de exportación <a data-mention href="./#id-3.-exportar-contenido">#id-3.-exportar-contenido</a>.</td></tr></tbody></table>
 
 ***
 
 ### 4. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (226).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Dashboard Historial de Movimiento usuario</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (226) (1).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Dashboard Historial de Movimiento usuario</p></figcaption></figure>
 
 ***
 
@@ -43,7 +43,7 @@ Permiten visualizar la información del tablero según los criterios seleccionad
 **Nota:** Estos filtros complementan las configuraciones previas y solo permiten refinar la búsqueda dentro del rango previamente definido.
 {% endhint %}
 
-<table><thead><tr><th width="125.5">Campo</th><th width="127.83331298828125">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Fecha Calendario</code></strong></td><td>Rango de fechas</td><td>Permite seleccionar un rango o una fecha específica de análisis.</td></tr><tr><td><strong><code>Partner</code></strong></td><td>Lista desplegable</td><td>Filtra por aliado o marca <em>(por ejemplo: Doradobet, Ganaplay, etc.)</em>.</td></tr><tr><td><strong><code>País</code></strong></td><td>Lista desplegable</td><td>Segmenta la información según el país desde el cual se registró el movimiento del usuario o punto de venta.</td></tr><tr><td><strong><code>Id Usuario</code></strong></td><td>Numérico</td><td>Permite consultar el detalle de los movimientos de un usuario o punto de venta específico por su identificador único.</td></tr><tr><td><strong><code>Movimiento</code></strong></td><td>Lista desplegable</td><td>Filtra por el tipo de movimiento realizado por el usuario o punto de venta. Los disponibles son: <br><a href="dashboard-historial-de-movimiento-usuario.md#tipos-de-movimientos" class="button secondary">Ver tipos de Movimientos</a></td></tr></tbody></table>
+<table><thead><tr><th width="125.5">Campo</th><th width="127.83331298828125">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Fecha Calendario</code></strong></td><td>Rango de fechas</td><td>Permite seleccionar un rango o una fecha específica de análisis.</td></tr><tr><td><strong><code>Partner</code></strong></td><td>Lista desplegable</td><td>Filtra por aliado o marca <em>(por ejemplo: Doradobet, Ganaplay, etc.)</em>.</td></tr><tr><td><strong><code>País</code></strong></td><td>Lista desplegable</td><td>Segmenta la información según el país desde el cual se registró el movimiento del usuario o punto de venta.</td></tr><tr><td><strong><code>Id Usuario</code></strong></td><td>Numérico</td><td>Permite consultar el detalle de los movimientos de un usuario o punto de venta específico por su identificador único.</td></tr><tr><td><strong><code>Movimiento</code></strong></td><td>Lista desplegable</td><td>Filtra por el tipo de movimiento realizado por el usuario o punto de venta. Los disponibles son:<br><a href="dashboard-historial-de-movimiento-usuario.md#tipos-de-movimientos" class="button secondary">Ver tipos de Movimientos</a></td></tr></tbody></table>
 
 {% hint style="info" %}
 **Buenas prácticas:** combinar varios filtros (_por ejemplo, un rango de fechas_ limitado _junto con un Partner o un Id Usuario_) mejora el rendimiento del tablero y agiliza el análisis, especialmente en marcas con alto volumen de movimientos.

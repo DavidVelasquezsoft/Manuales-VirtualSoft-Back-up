@@ -39,7 +39,7 @@ Los **filtros internos** del panel dependerán de la configuración establecida 
 
 En la parte superior de la Library se encuentra la barra de herramientas. Desde allí, seleccione el ícono de **filtrar.**
 
-<figure><img src="../../../.gitbook/assets/upscalemedia-transformed (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/upscalemedia-transformed (5) (1).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -79,7 +79,7 @@ Cada pestaña presenta particularidades en los datos y métricas mostradas, por 
 
 En la parte superior de la Library se encuentra la barra de herramientas. Desde allí, seleccione el ícono de **Tabla de contenido.**
 
-<figure><img src="../../../.gitbook/assets/image (152).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (152) (1).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -123,7 +123,7 @@ Permite exportar toda la información del tablero desde la opción **Compartir**
 
 En la parte superior de la Library se encuentra la barra de herramientas. Desde allí, seleccione el ícono de **Compartir** para visualizar las opciones disponibles de exportación.
 
-<figure><img src="../../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}

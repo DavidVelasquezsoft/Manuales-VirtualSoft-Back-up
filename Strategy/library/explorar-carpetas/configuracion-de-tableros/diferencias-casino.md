@@ -35,7 +35,7 @@ layout:
 
 ### 2. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (225).png" alt=""><figcaption><p>Figura #1: Captura de pantalla dashboard transferencia de saldo.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (225) (1).png" alt=""><figcaption><p>Figura #1: Captura de pantalla dashboard transferencia de saldo.</p></figcaption></figure>
 
 ***
 
@@ -43,7 +43,7 @@ layout:
 
 Inicialmente, el dashboard mostrará información general basada en las [configuraciones definidas previamente](https://virtualsoft.gitbook.io/manuales/microstrategy/library/explorar-carpetas/configuracion-de-tableros). Para consultar información más detallada o específica, utilice los filtros disponibles en la interfaz.
 
-<table><thead><tr><th width="121">Campo</th><th width="619">Descripción</th></tr></thead><tbody><tr><td><strong><code>Fecha</code></strong> </td><td>Rango de fechas en las que se visualizarán los reportes de diferencias casino</td></tr><tr><td><strong><code>Partner</code></strong></td><td>Partner asociado a la diferencia reportada</td></tr><tr><td><strong><code>País</code></strong></td><td>País asociado a la diferencia reportada</td></tr><tr><td><strong><code>Id Usuario</code></strong></td><td>Id del usuario al que pertenece la diferencia</td></tr></tbody></table>
+<table><thead><tr><th width="121">Campo</th><th width="619">Descripción</th></tr></thead><tbody><tr><td><strong><code>Fecha</code></strong></td><td>Rango de fechas en las que se visualizarán los reportes de diferencias casino</td></tr><tr><td><strong><code>Partner</code></strong></td><td>Partner asociado a la diferencia reportada</td></tr><tr><td><strong><code>País</code></strong></td><td>País asociado a la diferencia reportada</td></tr><tr><td><strong><code>Id Usuario</code></strong></td><td>Id del usuario al que pertenece la diferencia</td></tr></tbody></table>
 
 ***
 
@@ -61,10 +61,6 @@ Los indicadores muestran información resumida de acuerdo con los filtros selecc
 
 {% columns %}
 {% column width="16.666666666666664%" %}
-
-
-
-
 
 {% endcolumn %}
 

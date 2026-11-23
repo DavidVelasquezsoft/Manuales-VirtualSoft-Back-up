@@ -39,9 +39,9 @@ Antes de visualizar el reporte, es necesario establecer las [configuraciones pre
 
 ***
 
-### 3. Visualización&#x20;
+### 3. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (232).png" alt=""><figcaption><p>Figura #1: Captura ejemplo del dashboard.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (232) (1).png" alt=""><figcaption><p>Figura #1: Captura ejemplo del dashboard.</p></figcaption></figure>
 
 ### 4. Filtros Disponibles
 
@@ -49,7 +49,7 @@ Antes de visualizar el reporte, es necesario establecer las [configuraciones pre
 **Nota:** Los filtros varían según el tipo de vista seleccionada _(**Mensual**, **Diario** o **Puntos Calificables**)_. Los filtros de fecha definen el alcance temporal de todos los gráficos y tablas del tablero.
 {% endhint %}
 
-<table><thead><tr><th width="89.66668701171875">Filtro</th><th width="126.33331298828125">Tipo de control</th><th width="514">Descripción</th></tr></thead><tbody><tr><td><strong><code>Partner</code></strong></td><td>Lista desplegable</td><td>Filtra la información por operador o marca. </td></tr><tr><td><strong><code>País</code></strong></td><td>Lista desplegable</td><td>Permite visualizar la información por país. </td></tr><tr><td><strong><code>Fecha</code></strong></td><td>Calendario</td><td>Establece el rango de fechas con el que se generará el reporte</td></tr><tr><td><strong><code>Año</code></strong></td><td>Lista desplegable</td><td>Filtra la información correspondiente a un año específico.</td></tr><tr><td><strong><code>Mes</code></strong></td><td>Lista desplegable</td><td>Permite filtrar la información correspondiente a un mes específico dentro del año seleccionado.</td></tr><tr><td><strong><code>Día</code></strong></td><td>Lista desplegable</td><td>Filtra la información correspondiente a un día específico, según el rango o mes seleccionado.</td></tr><tr><td><strong><code>Id usuario</code></strong></td><td>Texto</td><td><p>buscar un usuario específico mediante su identificador. </p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> este filtro solo está disponible en la vista <strong>Puntos Calificables</strong>.</p></div></td></tr></tbody></table>
+<table><thead><tr><th width="89.66668701171875">Filtro</th><th width="126.33331298828125">Tipo de control</th><th width="514">Descripción</th></tr></thead><tbody><tr><td><strong><code>Partner</code></strong></td><td>Lista desplegable</td><td>Filtra la información por operador o marca.</td></tr><tr><td><strong><code>País</code></strong></td><td>Lista desplegable</td><td>Permite visualizar la información por país.</td></tr><tr><td><strong><code>Fecha</code></strong></td><td>Calendario</td><td>Establece el rango de fechas con el que se generará el reporte</td></tr><tr><td><strong><code>Año</code></strong></td><td>Lista desplegable</td><td>Filtra la información correspondiente a un año específico.</td></tr><tr><td><strong><code>Mes</code></strong></td><td>Lista desplegable</td><td>Permite filtrar la información correspondiente a un mes específico dentro del año seleccionado.</td></tr><tr><td><strong><code>Día</code></strong></td><td>Lista desplegable</td><td>Filtra la información correspondiente a un día específico, según el rango o mes seleccionado.</td></tr><tr><td><strong><code>Id usuario</code></strong></td><td>Texto</td><td><p>buscar un usuario específico mediante su identificador.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> este filtro solo está disponible en la vista <strong>Puntos Calificables</strong>.</p></div></td></tr></tbody></table>
 
 ***
 
@@ -59,7 +59,7 @@ Antes de visualizar el reporte, es necesario establecer las [configuraciones pre
 **Nota:** La información de las tablas y la gráfica se actualiza de acuerdo con los filtros aplicados en el dashboard.
 {% endhint %}
 
-Este Dashboard cuenta con diferentes  vistas de información estas son:
+Este Dashboard cuenta con diferentes vistas de información estas son:
 
 {% tabs %}
 {% tab title="Mensual" %}
@@ -85,7 +85,7 @@ Los KPI se muestran en la parte superior del dashboard y presentan indicadores g
 
 ### **Gráficos de Usuarios Destacados**
 
-<table><thead><tr><th width="240">Gráfica</th><th width="126">Tipo de gráfica</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Top usuarios puntos gastados</code></strong></td><td>Barras</td><td>Ranking de usuarios ordenado por la mayor cantidad de puntos lealtad <a href="https://app.gitbook.com/o/QcwavWzh0dfIwPyknoIT/s/mbqa0WvDWam8G20QQoIZ/#redimido">redimidos</a>.</td></tr><tr><td><strong><code>Top usuarios con más puntos lealtad acumulados</code></strong></td><td>Barras</td><td>Ranking de usuarios con el mayor total de puntos de lealtad vigentes <em>(activos).</em></td></tr><tr><td><strong><code>Top usuarios con más compras</code></strong></td><td>Barras</td><td>Ranking de usuarios según el número de compras realizadas en la tienda de regalos.</td></tr></tbody></table>
+<table><thead><tr><th width="240">Gráfica</th><th width="126">Tipo de gráfica</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Top usuarios puntos gastados</code></strong></td><td>Barras</td><td>Ranking de usuarios ordenado por la mayor cantidad de puntos lealtad <a href="https://app.gitbook.com/s/mbqa0WvDWam8G20QQoIZ/#redimido">redimidos</a>.</td></tr><tr><td><strong><code>Top usuarios con más puntos lealtad acumulados</code></strong></td><td>Barras</td><td>Ranking de usuarios con el mayor total de puntos de lealtad vigentes <em>(activos).</em></td></tr><tr><td><strong><code>Top usuarios con más compras</code></strong></td><td>Barras</td><td>Ranking de usuarios según el número de compras realizadas en la tienda de regalos.</td></tr></tbody></table>
 
 ***
 
@@ -93,11 +93,11 @@ Los KPI se muestran en la parte superior del dashboard y presentan indicadores g
 
 * **Regalos redimidos casino.**
 
-<table><thead><tr><th width="160">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Descripción lealtad</code></strong></td><td>Descripción del regalo redimido asociado a la vertical casino</td></tr><tr><td><strong><code>Cantidad</code></strong> </td><td>Cantidad de usuario que redimieron este regalo lealtad.</td></tr><tr><td><strong><code>% uso regalo casino</code></strong></td><td>Indica el porcentaje de usuarios que redimieron el regalo lealtad y lo utilizaron</td></tr></tbody></table>
+<table><thead><tr><th width="160">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Descripción lealtad</code></strong></td><td>Descripción del regalo redimido asociado a la vertical casino</td></tr><tr><td><strong><code>Cantidad</code></strong></td><td>Cantidad de usuario que redimieron este regalo lealtad.</td></tr><tr><td><strong><code>% uso regalo casino</code></strong></td><td>Indica el porcentaje de usuarios que redimieron el regalo lealtad y lo utilizaron</td></tr></tbody></table>
 
-* &#x20;**Regalos redimidos deportivas.**
+* **Regalos redimidos deportivas.**
 
-<table><thead><tr><th width="160">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Descripción lealtad</code></strong></td><td>Descripción del regalo redimido asociado a la vertical deportivas</td></tr><tr><td><strong><code>Cantidad</code></strong> </td><td>Cantidad de usuario que redimieron este regalo lealtad.</td></tr><tr><td><strong><code>% uso regalo deportivas</code></strong></td><td>Indica el porcentaje de usuarios que redimieron el regalo lealtad y lo utilizaron</td></tr></tbody></table>
+<table><thead><tr><th width="160">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Descripción lealtad</code></strong></td><td>Descripción del regalo redimido asociado a la vertical deportivas</td></tr><tr><td><strong><code>Cantidad</code></strong></td><td>Cantidad de usuario que redimieron este regalo lealtad.</td></tr><tr><td><strong><code>% uso regalo deportivas</code></strong></td><td>Indica el porcentaje de usuarios que redimieron el regalo lealtad y lo utilizaron</td></tr></tbody></table>
 
 * **Detalle redenciones**
 
@@ -127,7 +127,7 @@ Los KPI se muestran en la parte superior del dashboard y presentan **indicadores
 
 #### **Gráficos de Usuarios Destacados**
 
-<table><thead><tr><th width="240">Gráfica</th><th width="126">Tipo de gráfica</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Top usuarios puntos gastados</code></strong></td><td>Barras</td><td>Ranking de usuarios ordenado por la mayor cantidad de puntos lealtad <a href="https://app.gitbook.com/o/QcwavWzh0dfIwPyknoIT/s/mbqa0WvDWam8G20QQoIZ/#redimido">redimidos</a>.</td></tr><tr><td><strong><code>Top usuarios con más puntos lealtad acumulados</code></strong></td><td>Barras</td><td>Ranking de usuarios con el mayor total de puntos de lealtad vigentes <em>(activos).</em></td></tr><tr><td><strong><code>Top usuarios con más compras</code></strong></td><td>Barras</td><td>Ranking de usuarios según el número de compras realizadas en la tienda de regalos.</td></tr></tbody></table>
+<table><thead><tr><th width="240">Gráfica</th><th width="126">Tipo de gráfica</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Top usuarios puntos gastados</code></strong></td><td>Barras</td><td>Ranking de usuarios ordenado por la mayor cantidad de puntos lealtad <a href="https://app.gitbook.com/s/mbqa0WvDWam8G20QQoIZ/#redimido">redimidos</a>.</td></tr><tr><td><strong><code>Top usuarios con más puntos lealtad acumulados</code></strong></td><td>Barras</td><td>Ranking de usuarios con el mayor total de puntos de lealtad vigentes <em>(activos).</em></td></tr><tr><td><strong><code>Top usuarios con más compras</code></strong></td><td>Barras</td><td>Ranking de usuarios según el número de compras realizadas en la tienda de regalos.</td></tr></tbody></table>
 
 ***
 
@@ -135,11 +135,11 @@ Los KPI se muestran en la parte superior del dashboard y presentan **indicadores
 
 * **Regalos redimidos casino.**
 
-<table><thead><tr><th width="160">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Descripción lealtad</code></strong></td><td>Descripción del regalo redimido asociado a la vertical casino</td></tr><tr><td><strong><code>Cantidad</code></strong> </td><td>Cantidad de usuario que redimieron este regalo lealtad.</td></tr><tr><td><strong><code>% uso regalo casino</code></strong></td><td>Indica el porcentaje de usuarios que redimieron el regalo lealtad y lo utilizaron</td></tr></tbody></table>
+<table><thead><tr><th width="160">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Descripción lealtad</code></strong></td><td>Descripción del regalo redimido asociado a la vertical casino</td></tr><tr><td><strong><code>Cantidad</code></strong></td><td>Cantidad de usuario que redimieron este regalo lealtad.</td></tr><tr><td><strong><code>% uso regalo casino</code></strong></td><td>Indica el porcentaje de usuarios que redimieron el regalo lealtad y lo utilizaron</td></tr></tbody></table>
 
-* &#x20;**Regalos redimidos deportivas.**
+* **Regalos redimidos deportivas.**
 
-<table><thead><tr><th width="160">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Descripción lealtad</code></strong></td><td>Descripción del regalo redimido asociado a la vertical deportivas</td></tr><tr><td><strong><code>Cantidad</code></strong> </td><td>Cantidad de usuario que redimieron este regalo lealtad.</td></tr><tr><td><strong><code>% uso regalo deportivas</code></strong></td><td>Indica el porcentaje de usuarios que redimieron el regalo lealtad y lo utilizaron</td></tr></tbody></table>
+<table><thead><tr><th width="160">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Descripción lealtad</code></strong></td><td>Descripción del regalo redimido asociado a la vertical deportivas</td></tr><tr><td><strong><code>Cantidad</code></strong></td><td>Cantidad de usuario que redimieron este regalo lealtad.</td></tr><tr><td><strong><code>% uso regalo deportivas</code></strong></td><td>Indica el porcentaje de usuarios que redimieron el regalo lealtad y lo utilizaron</td></tr></tbody></table>
 
 * **Detalle redenciones**
 
@@ -179,7 +179,7 @@ Consulta el historial de los movimientos de puntos calificables. Facilitando el 
 
 ***
 
-### Tabla:&#x20;
+### Tabla:
 
 * **Historial Movimientos Punt Calificable**
 
@@ -197,7 +197,7 @@ Consulta el estado de los ciclos de puntos calificables, mostrando la cantidad d
 
 ***
 
-### Tabla:&#x20;
+### Tabla:
 
 * **Detalle Ciclos**
 
@@ -217,7 +217,7 @@ Analiza el comportamiento histórico de los usuarios dentro del programa de leal
 
 ### Gráficas:
 
-<table><thead><tr><th width="152">Gráfica</th><th width="113">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Evolución Histórica Usuario por Mes</code></strong></td><td>Gráfica de  Barras</td><td>Cantidad de usuarios por nivel de lealtad durante cada mes del período consultado.</td></tr><tr><td><strong><code>Evolución Histórica Usuario por Día</code></strong></td><td>Gráfica de  Barras</td><td>Cantidad de usuarios por nivel de lealtad durante cada día del período consultado.</td></tr></tbody></table>
+<table><thead><tr><th width="152">Gráfica</th><th width="113">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Evolución Histórica Usuario por Mes</code></strong></td><td>Gráfica de Barras</td><td>Cantidad de usuarios por nivel de lealtad durante cada mes del período consultado.</td></tr><tr><td><strong><code>Evolución Histórica Usuario por Día</code></strong></td><td>Gráfica de Barras</td><td>Cantidad de usuarios por nivel de lealtad durante cada día del período consultado.</td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Detalle Evolución" %}
@@ -250,6 +250,6 @@ Consulta el historial de cambios de nivel de los usuarios dentro del programa de
 
 <summary>🔽 Historial de versiones</summary>
 
-<table><thead><tr><th width="101">Versión</th><th width="121">Fecha</th><th width="140">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>18/12/2025</td><td>Ronald Peláez</td><td>Documento inicial</td></tr><tr><td>2.0</td><td>19/01/2026</td><td>Ronald Peláez </td><td>Reestructuración de manual por cambio en el dashboard</td></tr><tr><td>3.0 </td><td>16/07/2026</td><td>Karol Navia</td><td>Reestructuración del manual</td></tr></tbody></table>
+<table><thead><tr><th width="101">Versión</th><th width="121">Fecha</th><th width="140">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>18/12/2025</td><td>Ronald Peláez</td><td>Documento inicial</td></tr><tr><td>2.0</td><td>19/01/2026</td><td>Ronald Peláez</td><td>Reestructuración de manual por cambio en el dashboard</td></tr><tr><td>3.0</td><td>16/07/2026</td><td>Karol Navia</td><td>Reestructuración del manual</td></tr></tbody></table>
 
 </details>

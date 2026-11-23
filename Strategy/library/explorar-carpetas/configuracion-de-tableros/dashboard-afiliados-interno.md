@@ -54,7 +54,7 @@ La información del dashboard se encuentra organizada mediante las siguientes pe
 * #### **Indicadores**
 
 {% hint style="warning" %}
-**Nota:** Los indicadores son generales y se mantienen iguales en las pestañas [Detalle ](dashboard-afiliados-interno.md#detalle)y [General ](dashboard-afiliados-interno.md#general)del dashboard.&#x20;
+**Nota:** Los indicadores son generales y se mantienen iguales en las pestañas [Detalle ](dashboard-afiliados-interno.md#detalle)y [General ](dashboard-afiliados-interno.md#general)del dashboard.
 {% endhint %}
 
 <table><thead><tr><th width="147.54547119140625">Indicador</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>NGR</code></strong></td><td>Presenta el valor correspondiente al NGR <em>(Ingreso Neto del Juego).</em></td></tr><tr><td><strong><code>Total Comisión</code></strong></td><td>Presenta el valor total de las comisiones generadas por los usuarios pertenecientes a los afiliadores consultados.</td></tr></tbody></table>
@@ -65,13 +65,13 @@ Presenta la información detallada del afiliador, sus [links](https://virtualsof
 
 #### Visualización :
 
-<figure><img src="../../../.gitbook/assets/image (241).png" alt=""><figcaption><p>Figura #1: Captura de ejemplo del dashboard.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (241) (1).png" alt=""><figcaption><p>Figura #1: Captura de ejemplo del dashboard.</p></figcaption></figure>
 
 #### **Filtros de consulta**
 
-<table><thead><tr><th width="137.63641357421875">Campo</th><th width="118">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>ID</code></strong> <a href="https://virtualsoft.gitbook.io/plantillas/glosario#afiliador"><strong><code>Afiliador</code></strong></a></td><td>Numérico </td><td>Consulta la información asociada a un afiliador específico.</td></tr><tr><td><strong><code>ID</code></strong> <a href="https://virtualsoft.gitbook.io/plantillas/glosario#links"><strong><code>Link</code></strong></a></td><td>Texto</td><td>Consulta la información asociada a un link específico.</td></tr><tr><td><a href="https://virtualsoft.gitbook.io/plantillas/glosario#codigo-promocional"><strong><code>Código promocional</code></strong></a></td><td>Numérico </td><td>Consulta la información relacionada con un código promocional específico.</td></tr></tbody></table>
+<table><thead><tr><th width="137.63641357421875">Campo</th><th width="118">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>ID</code></strong> <a href="https://virtualsoft.gitbook.io/plantillas/glosario#afiliador"><strong><code>Afiliador</code></strong></a></td><td>Numérico</td><td>Consulta la información asociada a un afiliador específico.</td></tr><tr><td><strong><code>ID</code></strong> <a href="https://virtualsoft.gitbook.io/plantillas/glosario#links"><strong><code>Link</code></strong></a></td><td>Texto</td><td>Consulta la información asociada a un link específico.</td></tr><tr><td><a href="https://virtualsoft.gitbook.io/plantillas/glosario#codigo-promocional"><strong><code>Código promocional</code></strong></a></td><td>Numérico</td><td>Consulta la información relacionada con un código promocional específico.</td></tr></tbody></table>
 
-#### **Tabla de información**&#x20;
+#### **Tabla de información**
 
 Presenta el detalle de la información asociada a los [**afiliadores** ](https://virtualsoft.gitbook.io/plantillas/glosario#afiliador)**consultados**, incluyendo sus registros, depósitos, usuarios activos, NGR y comisiones generadas.
 
@@ -83,13 +83,13 @@ Presenta la información general de los afiliadores de acuerdo con el período s
 
 #### Visualización :
 
-<figure><img src="../../../.gitbook/assets/image (243).png" alt=""><figcaption><p>Figura #2: Captura de ejemplo del dashboard.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (243) (1).png" alt=""><figcaption><p>Figura #2: Captura de ejemplo del dashboard.</p></figcaption></figure>
 
 #### **Filtros de consulta**
 
 <table><thead><tr><th width="129.8182373046875">Campo</th><th width="117.0909423828125">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>ID Afiliador</code></strong></td><td>Numérico</td><td>Consulta la información asociada a un Identificador de afiliador específico.</td></tr></tbody></table>
 
-#### **Tabla de información**&#x20;
+#### **Tabla de información**
 
 <table><thead><tr><th width="183.00006103515625">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Fecha</code></strong></td><td>Fecha correspondiente al registro consultado.</td></tr><tr><td><strong><code>ID Afiliador</code></strong></td><td>Identificador del afiliador.</td></tr><tr><td><strong><code>Cantidad de registros</code></strong></td><td>Cantidad de registros asociados al afiliador.</td></tr><tr><td><strong><code>Primeros depósitos</code></strong></td><td>Cantidad de primeros depósitos realizados por los usuarios asociados.</td></tr><tr><td><strong><code>Sportsbook NGR afiliados</code></strong></td><td>NGR generado por los afiliados en Sportsbook.</td></tr><tr><td><strong><code>Casino NGR afiliados</code></strong></td><td>NGR generado por los afiliados en Casino.</td></tr><tr><td><strong><code>NGR</code></strong></td><td>Ingreso neto generado por la actividad de juego.</td></tr><tr><td><strong><code>Comisión</code></strong></td><td>Valor de la comisión correspondiente al afiliador.</td></tr></tbody></table>
 {% endtab %}
@@ -97,11 +97,11 @@ Presenta la información general de los afiliadores de acuerdo con el período s
 {% tab title="Detalle Usuarios" %}
 Presenta la información de los usuarios registrados bajo un afiliador.
 
-#### Visualización&#x20;
+#### Visualización
 
-<figure><img src="../../../.gitbook/assets/image (246).png" alt=""><figcaption><p>Figura #3: Captura de ejemplo del dashboard.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (246) (1).png" alt=""><figcaption><p>Figura #3: Captura de ejemplo del dashboard.</p></figcaption></figure>
 
-#### **Tabla de información**&#x20;
+#### **Tabla de información**
 
 <table><thead><tr><th width="208.45458984375">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>ID Usuario</code></strong></td><td>Identificador del usuario registrado.</td></tr><tr><td><strong><code>Fecha Registro</code></strong></td><td>Fecha en la que se realizó el registro del usuario.</td></tr><tr><td><strong><code>Fecha Primer Depósito</code></strong></td><td>Fecha en la que el usuario realizó su primer depósito.</td></tr><tr><td><strong><code>ID Afiliador</code></strong></td><td>Identificador del afiliador asociado al usuario.</td></tr><tr><td><strong><code>Código Promocional</code></strong></td><td>Código promocional utilizado durante el registro.</td></tr><tr><td><strong><code>Link Registro</code></strong></td><td>Link asociado al registro del usuario.</td></tr><tr><td><strong><code>Valor Primer Depósito</code></strong></td><td>Valor correspondiente al primer depósito realizado por el usuario.</td></tr></tbody></table>
 {% endtab %}
@@ -109,11 +109,11 @@ Presenta la información de los usuarios registrados bajo un afiliador.
 {% tab title="Detalle apuestas" %}
 Presenta la información consolidada de las apuestas, premios, bonos y GGR generados por los afiliados en las verticales Sportsbook y Casino.
 
-#### Visualización&#x20;
+#### Visualización
 
-<figure><img src="../../../.gitbook/assets/image (247).png" alt=""><figcaption><p>Figura #4: Captura de ejemplo del dashboard.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (247) (1).png" alt=""><figcaption><p>Figura #4: Captura de ejemplo del dashboard.</p></figcaption></figure>
 
-#### **Tabla de información**&#x20;
+#### **Tabla de información**
 
 <table><thead><tr><th width="232.0909423828125">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>ID Afiliador</code></strong></td><td>Identificador del afiliador.</td></tr><tr><td><strong><code>Valor apuestas deportivas de afiliado</code></strong></td><td>Valor total apostado en deportes por los afiliados.</td></tr><tr><td><strong><code>Valor de premios en deportivas de afiliados</code></strong></td><td>Valor total de premios pagados en apuestas deportivas de los afiliados.</td></tr><tr><td><strong><code>Valor de bonos en deportivas de afiliados</code></strong></td><td>Valor total de bonos utilizados en apuestas deportivas de los afiliados.</td></tr><tr><td><strong><code>GGR en deportivas de afiliados</code></strong></td><td>GGR generado por las apuestas deportivas de los afiliados.</td></tr><tr><td><strong><code>Valor apuestas casino de afiliados</code></strong></td><td>Valor total apostado en Casino por los afiliados.</td></tr><tr><td><strong><code>Valor de premios en casino de afiliados</code></strong></td><td>Valor total de premios pagados en Casino a los afiliados.</td></tr><tr><td><strong><code>Valor de bonos en casino de afiliados</code></strong></td><td>Valor total de bonos utilizados en Casino por los afiliados.</td></tr><tr><td><strong><code>GGR en casino de afiliados</code></strong></td><td>GGR generado por las apuestas de Casino de los afiliados.</td></tr></tbody></table>
 {% endtab %}

@@ -16,7 +16,7 @@ Antes de visualizar el reporte, es necesario confirmar las [configuraciones prev
 
 ### 3. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (239).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Dashboard top usuarios movimientos</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (239) (1).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Dashboard top usuarios movimientos</p></figcaption></figure>
 
 ***
 

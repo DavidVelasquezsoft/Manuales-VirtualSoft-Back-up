@@ -75,11 +75,11 @@ Presenta la distribución de los casos mediante gráficos que permiten analizar 
 
 #### Visualización
 
-<figure><img src="../../../.gitbook/assets/image (278).png" alt=""><figcaption><p>Figura #1: Captura de pantalla pestaña Análisis general.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (278) (1).png" alt=""><figcaption><p>Figura #1: Captura de pantalla pestaña Análisis general.</p></figcaption></figure>
 
 #### Gráficos
 
-<table><thead><tr><th width="134">Gráfico</th><th width="147">Tipo de gráfico</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Incidentes vs consultas</code></strong></td><td>Torta</td><td>Muestra la distribución de los casos clasificados como incidentes y consultas, según los filtros aplicados.</td></tr><tr><td><strong><code>Distribución por categoría</code></strong> </td><td>Torta</td><td>Presenta la distribución de los casos según la categoría registrada en JIRA.</td></tr><tr><td><strong><code>Distribución por estado</code></strong></td><td>Barras laterales</td><td>Muestra la cantidad de casos agrupados según su estado en JIRA.</td></tr><tr><td><strong><code>Distribución por escalamiento</code></strong></td><td>Barras laterales</td><td>Presenta la cantidad de casos agrupados según el equipo, área o responsable registrado en el campo de escalamiento.</td></tr><tr><td><strong><code>Cantidad de casos por fecha</code></strong></td><td>Lineal</td><td>Muestra la evolución de la cantidad de casos creados por fecha dentro del período consultado.</td></tr></tbody></table>
+<table><thead><tr><th width="134">Gráfico</th><th width="147">Tipo de gráfico</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Incidentes vs consultas</code></strong></td><td>Torta</td><td>Muestra la distribución de los casos clasificados como incidentes y consultas, según los filtros aplicados.</td></tr><tr><td><strong><code>Distribución por categoría</code></strong></td><td>Torta</td><td>Presenta la distribución de los casos según la categoría registrada en JIRA.</td></tr><tr><td><strong><code>Distribución por estado</code></strong></td><td>Barras laterales</td><td>Muestra la cantidad de casos agrupados según su estado en JIRA.</td></tr><tr><td><strong><code>Distribución por escalamiento</code></strong></td><td>Barras laterales</td><td>Presenta la cantidad de casos agrupados según el equipo, área o responsable registrado en el campo de escalamiento.</td></tr><tr><td><strong><code>Cantidad de casos por fecha</code></strong></td><td>Lineal</td><td>Muestra la evolución de la cantidad de casos creados por fecha dentro del período consultado.</td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Detalle de casos" %}
@@ -87,7 +87,7 @@ Presenta una tabla con los datos individuales de los casos que cumplen los crite
 
 #### Visualización
 
-<figure><img src="../../../.gitbook/assets/image (279).png" alt=""><figcaption><p>Figura #2: Captura de pantalla pestaña Detalle de casos.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (279) (1).png" alt=""><figcaption><p>Figura #2: Captura de pantalla pestaña Detalle de casos.</p></figcaption></figure>
 
 #### Tabla
 

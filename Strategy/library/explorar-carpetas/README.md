@@ -24,9 +24,9 @@ layout:
 
 # Explorar carpetas
 
-<mark style="color:$info;">El módulo</mark> <mark style="color:$info;"></mark><mark style="color:$info;">**Explorar carpetas**</mark> <mark style="color:$info;"></mark><mark style="color:$info;">permite navegar por la estructura de carpetas disponibles dentro de la plataforma, facilitando el acceso a los informes y tableros (dashboards) según los permisos asignados.</mark>
+<mark style="color:$info;">El módulo</mark> <mark style="color:$info;">**Explorar carpetas**</mark> <mark style="color:$info;">permite navegar por la estructura de carpetas disponibles dentro de la plataforma, facilitando el acceso a los informes y tableros (dashboards) según los permisos asignados.</mark>
 
-<mark style="color:$info;">Este apartado reemplaza la funcionalidad anteriormente conocida como</mark> <mark style="color:$info;"></mark><mark style="color:$info;">**“Informes compartidos”**</mark> <mark style="color:$info;"></mark><mark style="color:$info;">en MicroStrategy.</mark>
+<mark style="color:$info;">Este apartado reemplaza la funcionalidad anteriormente conocida como</mark> <mark style="color:$info;">**“Informes compartidos”**</mark> <mark style="color:$info;">en MicroStrategy.</mark>
 
 ### 1. Acceso al Módulo
 
@@ -56,7 +56,7 @@ Cuando entras a una carpeta, verás todos los informes o tableros que contiene. 
 
 Puedes moverte entre carpetas sin problema y entrar a los tableros directamente desde esta vista cada tablero contiene esta información.
 
-<table><thead><tr><th width="211">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Nombre</code></strong></td><td>Contiene el nombre de como se llama el informe o tablero.</td></tr><tr><td><strong><code>Tipo</code></strong></td><td>Indica el tipo de tablero <em>(informe o dashboard).</em></td></tr><tr><td><strong><code>Certificado</code></strong></td><td>Indica que el dashboard ha sido validado por la organización y puede considerarse una fuente confiable. Cuando un tablero está certificado, se muestra el ícono <img src="../../.gitbook/assets/image (167).png" alt="" data-size="line"> ; de lo contrario, el campo estará vacío.</td></tr><tr><td><strong><code>Propietario</code></strong></td><td>Muestra el nombre del usuario que creó el informe o tablero.</td></tr><tr><td><strong><code>Fecha de actualización</code></strong></td><td>Indica la fecha de la última modificación del tablero.</td></tr><tr><td><strong><code>Descripción</code></strong></td><td>Muestra información adicional sobre el contenido.</td></tr><tr><td><strong><code>Acciones</code></strong></td><td>En este apartado se encuentran disponibles las siguientes acciones:</td></tr></tbody></table>
+<table><thead><tr><th width="211">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Nombre</code></strong></td><td>Contiene el nombre de como se llama el informe o tablero.</td></tr><tr><td><strong><code>Tipo</code></strong></td><td>Indica el tipo de tablero <em>(informe o dashboard).</em></td></tr><tr><td><strong><code>Certificado</code></strong></td><td>Indica que el dashboard ha sido validado por la organización y puede considerarse una fuente confiable. Cuando un tablero está certificado, se muestra el ícono <img src="../../.gitbook/assets/image (167) (1).png" alt="" data-size="line"> ; de lo contrario, el campo estará vacío.</td></tr><tr><td><strong><code>Propietario</code></strong></td><td>Muestra el nombre del usuario que creó el informe o tablero.</td></tr><tr><td><strong><code>Fecha de actualización</code></strong></td><td>Indica la fecha de la última modificación del tablero.</td></tr><tr><td><strong><code>Descripción</code></strong></td><td>Muestra información adicional sobre el contenido.</td></tr><tr><td><strong><code>Acciones</code></strong></td><td>En este apartado se encuentran disponibles las siguientes acciones:</td></tr></tbody></table>
 
 {% columns %}
 {% column width="33.33333333333333%" %}
@@ -67,8 +67,6 @@ Puedes moverte entre carpetas sin problema y entrar a los tableros directamente 
 <table><thead><tr><th width="89">Ícono</th><th>Descripción</th></tr></thead><tbody><tr><td>ℹ️</td><td>Muestra detalles generales del tablero, como descripción o datos relevantes.</td></tr><tr><td>📤</td><td>Permite compartir el tablero mediante un enlace o agregarlo manualmente.</td></tr><tr><td>📄 PDF</td><td>Permite descargar o exportar el tablero en formato PDF.</td></tr><tr><td>⭐</td><td>Permite marcar el tablero como favorito para acceder rápidamente desde el inicio.</td></tr></tbody></table>
 {% endcolumn %}
 {% endcolumns %}
-
-
 
 ***
 

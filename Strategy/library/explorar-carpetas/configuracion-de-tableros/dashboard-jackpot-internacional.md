@@ -28,7 +28,7 @@ La vista resumida presenta la información consolidada por jackpot padre. Cada r
 
 #### Visualización
 
-<figure><img src="../../../.gitbook/assets/image (233).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Vista resumida Jackpot internacional</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (233) (1).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Vista resumida Jackpot internacional</p></figcaption></figure>
 
 #### Filtros
 
@@ -52,7 +52,7 @@ La vista detallada desglosa la información por cada operación participante del
 
 #### Visualización
 
-<figure><img src="../../../.gitbook/assets/image (235).png" alt=""><figcaption><p>Figura #2: Captura de pantalla Vista detallada Jackpot internacional</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (234) (1).png" alt=""><figcaption><p>Figura #2: Captura de pantalla Vista detallada Jackpot internacional</p></figcaption></figure>
 
 #### Filtros
 

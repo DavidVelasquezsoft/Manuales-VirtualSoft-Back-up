@@ -39,9 +39,9 @@ Su finalidad es validar que las ventas registradas impacten correctamente los sa
 
 ***
 
-### 2. 🖼️Visualización&#x20;
+### 2. 🖼️Visualización
 
-<figure><img src="../../../.gitbook/assets/image (20).png" alt=""><figcaption><p>Figura #1: captura de pantalla conciliación de ventas</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (20) (1).png" alt=""><figcaption><p>Figura #1: captura de pantalla conciliación de ventas</p></figcaption></figure>
 
 ### 3. Acciones del Usuario
 
@@ -79,14 +79,14 @@ Esta tabla contiene información más detallada sobre los desfaces reportados.
 
 * La información sobre el flujo de caja está disponible desde el BackOffice en el siguiente módulo:
 
-{% content-ref url="https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/manual-de-usuario-backoffice/reportes/flujo-de-caja-resumido" %}
-[Flujo de Caja Resumido](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/manual-de-usuario-backoffice/reportes/flujo-de-caja-resumido)
+{% content-ref url="https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/reportes/flujo-de-caja-resumido" %}
+[Flujo de Caja Resumido](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/reportes/flujo-de-caja-resumido)
 {% endcontent-ref %}
 
 * La información sobre el histórico de saldo punto de venta está disponible desde el BackOffice en el siguiente módulo:
 
-{% content-ref url="https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/manual-de-usuario-backoffice/reportes/historico-saldos-punto-de-venta" %}
-[Histórico saldos punto de venta](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/manual-de-usuario-backoffice/reportes/historico-saldos-punto-de-venta)
+{% content-ref url="https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/reportes/historico-saldos-punto-de-venta" %}
+[Histórico saldos punto de venta](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/reportes/historico-saldos-punto-de-venta)
 {% endcontent-ref %}
 
 ***
@@ -103,4 +103,4 @@ Esta tabla contiene información más detallada sobre los desfaces reportados.
 
 ### 7.🕛 Control de Versiones
 
-<table><thead><tr><th width="98">Versión</th><th width="133">Fecha</th><th width="148">Autor</th><th>Cambios</th></tr></thead><tbody><tr><td>1.0</td><td>27/02/2026</td><td>Ronald Peláez</td><td>Documento inicial </td></tr></tbody></table>
+<table><thead><tr><th width="98">Versión</th><th width="133">Fecha</th><th width="148">Autor</th><th>Cambios</th></tr></thead><tbody><tr><td>1.0</td><td>27/02/2026</td><td>Ronald Peláez</td><td>Documento inicial</td></tr></tbody></table>
