@@ -43,7 +43,7 @@ El acceso está restringido a perfiles autorizados, en caso de ser necesario, se
 
 ### 3. Visualización del Reporte
 
-<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption><p>Figura 1: Captura de pantalla Correo.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption><p>Figura 1: Captura de pantalla Correo.</p></figcaption></figure>
 
 Cada archivo representa los KPIs de una operación específica (partner) segmentada por país. Aunque los datos varían por operación, todos los archivos comparten el **mismo** **formato**.
 

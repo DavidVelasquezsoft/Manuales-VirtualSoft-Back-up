@@ -14,8 +14,8 @@ hidden: true
 
 ## Información General del Reporte
 
-* **Partner:** Nombre del operador desde el cual se extrajo la información.&#x20;
-* **País:** País sobre el cual se está realizando el análisis.&#x20;
+* **Partner:** Nombre del operador desde el cual se extrajo la información.
+* **País:** País sobre el cual se está realizando el análisis.
 * **Fecha:** Rango de fechas correspondiente al período evaluado.
 
 #### 📊 Indicadores Clave (KPIs)
@@ -36,15 +36,15 @@ El informe presenta los siguientes **indicadores clave**, los cuales han sido va
 Estas gráficas permiten interpretar de forma rápida y visual el comportamiento de los depósitos en diferentes dimensiones:
 
 *   **Evolución de depósitos por fecha**\
-    Esta gráfica de línea que muestra la variación diaria del **valor total depositado** a lo largo del mes.&#x20;
+    Esta gráfica de línea que muestra la variación diaria del **valor total depositado** a lo largo del mes.
 
-    <figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 **Distribución porcentual de medios de depósito**
 
 * **% Cantidad por medio de depósito:** Representado con un gráfico circular, muestra qué proporción del total de depósitos se realizó a través de **pasarela** (color negro) o **punto de venta** (color verde azulado).
 * **% Valor por medio de depósito:** Similar al anterior, pero enfocado en el **valor monetario total** depositado a través de cada medio.
 * **Top pasarelas de pago:** Esta Gráfica de barras que muestra cuáles fueron las **pasarelas de pago** más utilizadas en términos de valor total depositado.
-* &#x20;**Top puntos de venta:** La grafica Presenta el Ranking de los **puntos de venta.**
-* **% Estado de los depósitos:** Este gráfico circular que refleja el **porcentaje de transacciones exitosas vs. rechazadas**.&#x20;
+* **Top puntos de venta:** La grafica Presenta el Ranking de los **puntos de venta.**
+* **% Estado de los depósitos:** Este gráfico circular que refleja el **porcentaje de transacciones exitosas vs. rechazadas**.
 * **Top 5 usuarios: La g**ráfica de barras que presenta a los **cinco usuarios con mayor monto total depositado** en el período.
