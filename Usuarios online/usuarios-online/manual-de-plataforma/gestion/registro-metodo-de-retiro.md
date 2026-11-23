@@ -45,7 +45,7 @@ Al seleccionar **Cuenta bancaria**, se despliega un formulario con los siguiente
 {% tab title="Número de celular" %}
 #### **3.1 Visualización**
 
-<figure><img src="../../../.gitbook/assets/image (185).png" alt=""><figcaption><p>Figura#2: Captura de pantalla registro de numero de celular como método de retiro.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (185) (1).png" alt=""><figcaption><p>Figura#2: Captura de pantalla registro de numero de celular como método de retiro.</p></figcaption></figure>
 
 Al seleccionar **Número de celular**, se despliega un nuevo formulario con los siguientes campos:
 
