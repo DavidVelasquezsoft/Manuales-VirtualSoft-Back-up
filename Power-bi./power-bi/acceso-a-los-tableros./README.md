@@ -15,4 +15,4 @@ Nos centraremos en el módulo **Áreas de trabajo, e**ste módulo agrupa todos l
 
 Para acceder, haz clic en **Áreas de trabajo** y selecciona la carpeta correspondiente por ejemplo: `Área de calidad`.
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Inicio Power BI.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Inicio Power BI.</p></figcaption></figure>

@@ -14,9 +14,9 @@ description: >-
 
 Antes de ingresar al tablero, es necesario realizar las siguientes configuraciones:
 
-<figure><img src="../../.gitbook/assets/image (81).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (80).png" alt=""><figcaption></figcaption></figure>
 
-Ubica el modelo semántico y haz clic en el ícono <img src="../../.gitbook/assets/image (82).png" alt="" data-size="line">**"actualizar"** para hacer las respectivas configuraciones.\
+Ubica el modelo semántico y haz clic en el ícono <img src="../../.gitbook/assets/image (81).png" alt="" data-size="line">**"actualizar"** para hacer las respectivas configuraciones.\
 Al hacer clic en el ícono, se abrirá una visual con las opciones de configuración.\
 Luego es necesario **tomar el control** antes de realizar cualquier cambio:
 
@@ -26,7 +26,7 @@ Luego es necesario **tomar el control** antes de realizar cualquier cambio:
 
 ### **Configurar los parámetros:**<br>
 
-<figure><img src="../../.gitbook/assets/image (83).png" alt="" width="340"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (82).png" alt="" width="340"><figcaption></figcaption></figure>
 
 Una vez con el control, busca y haz clic en la opción **“Parámetros”**.\
 Se desplegarán los siguientes campos que debes completar:
@@ -56,9 +56,9 @@ En el lado izquierdo del tablero encontrarás los filtros que puedes aplicar par
 
 Una vez aplicados los filtros, el lado derecho del tablero mostrará dos tablas de información diferenciados: uno para **apuestas deportivas** (parte superior) y otro para **apuestas de casino** (parte inferior).
 
-### Apuestas Deportivas&#x20;
+### Apuestas Deportivas
 
-<figure><img src="../../.gitbook/assets/image (78).png" alt=""><figcaption><p>Figura#2: Captura de pantalla tablero deportivas.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (77).png" alt=""><figcaption><p>Figura#2: Captura de pantalla tablero deportivas.</p></figcaption></figure>
 
 Esta sección muestra los datos agrupados por rangos de valor apostado, contiene la siguiente información:
 
@@ -72,7 +72,7 @@ Esta sección muestra los datos agrupados por rangos de valor apostado, contiene
 
 ### Apuestas de Casino
 
-<figure><img src="../../.gitbook/assets/image (79).png" alt=""><figcaption><p>Figura#3: Captura de pantalla tablero casino.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (78).png" alt=""><figcaption><p>Figura#3: Captura de pantalla tablero casino.</p></figcaption></figure>
 
 En la parte inferior del tablero encontrarás los datos relacionados con casino. La información mostrada será la siguiente:
 

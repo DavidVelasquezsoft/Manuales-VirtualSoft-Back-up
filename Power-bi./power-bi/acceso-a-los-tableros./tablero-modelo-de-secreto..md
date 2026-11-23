@@ -11,11 +11,11 @@ description: >-
 **Nota**: Este manual ya no se encuentra en funcionamiento debido a que el tablero ya no se utiliza.
 {% endhint %}
 
-Al ingresar a este tablero tendrás la siguiente visual:&#x20;
+Al ingresar a este tablero tendrás la siguiente visual:
 
-<figure><img src="../../.gitbook/assets/image (47).png" alt=""><figcaption><p>Figura #2: Captura de pantalla Modelo de secretos.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (46).png" alt=""><figcaption><p>Figura #2: Captura de pantalla Modelo de secretos.</p></figcaption></figure>
 
-### Filtros:&#x20;
+### Filtros:
 
 * **Nombre del sub proveedor:** Este filtro te permitirá ajustar la información mostrada en la tabla del tablero según el sub proveedor de tu elección.
 * **Partner**: Este filtro te permitirá ajustar la información mostrada en la tabla del tablero según el partner de tu preferencia.

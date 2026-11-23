@@ -9,7 +9,7 @@ description: >-
 
 Esta es la vista general del tablero, en esta sección encontrarás la explicación de cada uno de sus filtros y de la información que se enseña.
 
-<figure><img src="../../.gitbook/assets/image (76).png" alt=""><figcaption><p>Figura #1: Captura de pantalla tablero Ecuabet.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (75).png" alt=""><figcaption><p>Figura #1: Captura de pantalla tablero Ecuabet.</p></figcaption></figure>
 
 ### **Filtros:**
 

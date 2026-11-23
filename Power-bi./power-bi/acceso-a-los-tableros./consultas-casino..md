@@ -41,7 +41,7 @@ En la parte lateral izquierda se logran evidenciar los filtros disponibles para 
 * **Tipo**: Filtra por tipo de vertical.
 * **Juego con imagen**: Filtra por los juegos que tienen imagen.
 
-### Tablas:&#x20;
+### Tablas:
 
 La información filtrada también se podrá evidenciar en las tablas disponibles del tablero, dichas tablas cambian según los filtros utilizados y tienen las siguientes columnas.
 
@@ -54,21 +54,21 @@ La información filtrada también se podrá evidenciar en las tablas disponibles
 * **Nombre**: Nombre del juego.
 * **General**: Indica si el juego está habilitado de manera general.
 * **Partner**: Indica si el juego se encuentra activo o inactivo para el partner.
-* **habilitación**: Indica si el juego se encuentra habilitado o inhabilitado&#x20;
+* **habilitación**: Indica si el juego se encuentra habilitado o inhabilitado
 * **Image URL**: Podrás evidenciar la URL de la imagen 1 del juego.
 * **Image URL**: podrás evidenciar la URL de la imagen 2 del juego.
 
-En la parte superior se encuentran las siguientes acciones: ![](<../../.gitbook/assets/image (9).png>) Estas acciones van asociadas a las columnas General, Partner y Habilitación (En ese mismo orden), al momento de seleccionar la (A) se mostrarán solo los campos habilitados o activos, al momento de seleccionar la (I) se mostrarán solo los campos inhabilitados o inactivos.
+En la parte superior se encuentran las siguientes acciones: ![](<../../.gitbook/assets/image (8).png>) Estas acciones van asociadas a las columnas General, Partner y Habilitación (En ese mismo orden), al momento de seleccionar la (A) se mostrarán solo los campos habilitados o activos, al momento de seleccionar la (I) se mostrarán solo los campos inhabilitados o inactivos.
 
-#### Detalle Subproveedor:&#x20;
+#### Detalle Subproveedor:
 
-* **ID**:  ID del subproveedor.
+* **ID**: ID del subproveedor.
 * **Subproveedor**: Nombre del subproveedor.
 * **General**: Indica si el subproveedor se encuentra habilitado o inhabilitado.
 * **Partner**: Indica si el subproveedor se encuentra habilitado o inhabilitado para el partner.
 * **Partner país**: Indica si el subproveedor se encuentra habilitado o inhabilitado para el país.
 
-#### Detalle proveedor:&#x20;
+#### Detalle proveedor:
 
 * **Partner**: Nombre del partner.
 * **País**: País del partner.
@@ -93,7 +93,7 @@ En la parte superior de esta tabla se encuentra la opción de filtrar la informa
 * **Fecha**: Fecha en la que se realizó el cambio.
 * **Tipo**: Tipo de cambio realizado.
 
-#### Activación y desactivación general:&#x20;
+#### Activación y desactivación general:
 
 Desde esta tabla podrás evidenciar el historial de cambios realizados en general.
 
@@ -112,7 +112,7 @@ En la parte superior de esta tabla se encuentra la opción de filtrar la informa
 
 Desde este apartado podrás ver la información con gráficas de la vertical casino, inicialmente se vería de la siguiente manera:
 
-<figure><img src="../../.gitbook/assets/image (74).png" alt=""><figcaption><p>Figura #2: Captura de pantalla tablero detalle casino general.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (73).png" alt=""><figcaption><p>Figura #2: Captura de pantalla tablero detalle casino general.</p></figcaption></figure>
 
 Desde esta sección del tablero tendrás información acompañada de gráficos.
 
@@ -123,7 +123,7 @@ Desde esta sección del tablero tendrás información acompañada de gráficos.
   * **A**: Activar.
   * **I**: Inactivar.
 
-### Filtros:&#x20;
+### Filtros:
 
 * **Borrar segmentaciones**: Este botón restablecerá todos los filtros llenados.
 * **Mes**: Filtra la información por el mes correspondiente.
@@ -131,10 +131,10 @@ Desde esta sección del tablero tendrás información acompañada de gráficos.
 * **ID Externo**: Filtra por el ID externo del juego.
 * **Tipo**: Filtra por el tipo de vertical.
 
-### Gráficos y tablas:&#x20;
+### Gráficos y tablas:
 
 * **Cantidad de juegos creados por año - mes - Día:** Visualiza una gráfica interactiva que muestra la cantidad de juegos creados según el periodo seleccionado. Puedes explorar el detalle pasando el cursor sobre la gráfica y utilizando la opción **"Explorar a profundidad"** para cambiar la vista de años a meses o días. Para volver a una vista más general, usa la opción **"Resumir"**.
-* **Tabla de juegos**: Tendrás una tabla de los juegos correspondientes al partner seleccionado en los filtros con las siguientes columnas:&#x20;
+* **Tabla de juegos**: Tendrás una tabla de los juegos correspondientes al partner seleccionado en los filtros con las siguientes columnas:
   * ID: ID del juego.
   * **Nombre**: Nombre del juego.
   * **Fecha**: Fecha en la que se creó el juego.
@@ -145,9 +145,9 @@ Desde esta sección del tablero tendrás información acompañada de gráficos.
 
 ## Detalle proveedor y subproveedor:
 
-Desde este apartado podrás evidenciar el historial de cambios realizados a proveedor y subproveedor, inicialmente tendrá la siguiente visual:&#x20;
+Desde este apartado podrás evidenciar el historial de cambios realizados a proveedor y subproveedor, inicialmente tendrá la siguiente visual:
 
-<figure><img src="../../.gitbook/assets/image (75).png" alt=""><figcaption><p>Figura #3: Captura de pantalla tablero detalle proveedor y subproveedor.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (74).png" alt=""><figcaption><p>Figura #3: Captura de pantalla tablero detalle proveedor y subproveedor.</p></figcaption></figure>
 
 ### Cambios subproveedor partner país:
 
@@ -162,7 +162,7 @@ En la parte superior de la tabla podrás filtrar la información con un rango de
 * **Usuario**: Correo del usuario que realizó el cambio.
 * **Fecha**: Fecha en la que se realizó el cambio.
 * **Explicación**: Explicación del por qué se realizó el cambio.
-* **Tipo**: Tipo de cambio realizado.&#x20;
+* **Tipo**: Tipo de cambio realizado.
 
 ### Cambios subproveedor Partner.
 
