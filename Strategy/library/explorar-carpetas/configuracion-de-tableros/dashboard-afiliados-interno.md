@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Dashboard Afiliados Interno
@@ -63,7 +65,7 @@ Presenta la información detallada del afiliador, sus [links](https://virtualsof
 
 #### Visualización :
 
-<figure><img src="../../../.gitbook/assets/image (230).png" alt=""><figcaption><p>Figura #1: Captura de ejemplo del dashboard.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (241).png" alt=""><figcaption><p>Figura #1: Captura de ejemplo del dashboard.</p></figcaption></figure>
 
 #### **Filtros de consulta**
 
@@ -81,7 +83,7 @@ Presenta la información general de los afiliadores de acuerdo con el período s
 
 #### Visualización :
 
-<figure><img src="../../../.gitbook/assets/image (232).png" alt=""><figcaption><p>Figura #2: Captura de ejemplo del dashboard.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (243).png" alt=""><figcaption><p>Figura #2: Captura de ejemplo del dashboard.</p></figcaption></figure>
 
 #### **Filtros de consulta**
 
@@ -97,7 +99,7 @@ Presenta la información de los usuarios registrados bajo un afiliador.
 
 #### Visualización&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (235).png" alt=""><figcaption><p>Figura #3: Captura de ejemplo del dashboard.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (246).png" alt=""><figcaption><p>Figura #3: Captura de ejemplo del dashboard.</p></figcaption></figure>
 
 #### **Tabla de información**&#x20;
 
@@ -109,7 +111,7 @@ Presenta la información consolidada de las apuestas, premios, bonos y GGR gener
 
 #### Visualización&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (236).png" alt=""><figcaption><p>Figura #4: Captura de ejemplo del dashboard.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (247).png" alt=""><figcaption><p>Figura #4: Captura de ejemplo del dashboard.</p></figcaption></figure>
 
 #### **Tabla de información**&#x20;
 

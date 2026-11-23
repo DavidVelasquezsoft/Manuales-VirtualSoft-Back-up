@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Dashboard Conciliación de pasarelas
@@ -71,7 +73,7 @@ Visualiza un resumen general de las [conciliaciones](https://virtualsoft.gitbook
 
 #### Visualización
 
-<figure><img src="../../../.gitbook/assets/image (192).png" alt=""><figcaption><p>Figura #1: Captura de pantalla vista resumida.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (203).png" alt=""><figcaption><p>Figura #1: Captura de pantalla vista resumida.</p></figcaption></figure>
 
 #### Tabla de información resumida
 
@@ -85,7 +87,7 @@ Permite visualizar el detalle de las transacciones [conciliadas](https://virtual
 
 #### Visualización
 
-<figure><img src="../../../.gitbook/assets/image (194).png" alt=""><figcaption><p>Figura #2: Captura de pantalla vista resumida.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (205).png" alt=""><figcaption><p>Figura #2: Captura de pantalla vista resumida.</p></figcaption></figure>
 
 #### Tabla de información detallada
 

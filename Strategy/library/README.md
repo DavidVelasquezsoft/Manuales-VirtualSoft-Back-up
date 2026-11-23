@@ -18,6 +18,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Library
@@ -38,7 +40,7 @@ Para ingresar a **Library**, el usuario debe acceder a través de el siguiente e
 
 Al acceder al enlace, se mostrará la pantalla de **inicio de sesión**, donde el usuario deberá autenticarse con sus credenciales (_Usuario y contraseña_) y presionar el botón **"Iniciar sesión con credenciales**" para ingresar a la plataforma.
 
-<figure><img src="../.gitbook/assets/image (23).png" alt="" width="563"><figcaption><p>Figura #1: Captura de pantalla login Library</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (34).png" alt="" width="563"><figcaption><p>Figura #1: Captura de pantalla login Library</p></figcaption></figure>
 
 ***
 

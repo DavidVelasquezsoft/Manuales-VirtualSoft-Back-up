@@ -51,7 +51,7 @@ Esta pestaña presenta la información en moneda local, mostrando los valores co
 
 #### 5.1. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (149).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Dashboard Facturación deportivas Pestaña Moneda local</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (160).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Dashboard Facturación deportivas Pestaña Moneda local</p></figcaption></figure>
 
 #### 5.2. KPIs
 
@@ -73,7 +73,7 @@ Esta pestaña presenta la información en dólares (_USD_), calculada con base e
 
 #### 5.1. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (151).png" alt=""><figcaption><p>Figura #2: Captura de pantalla Dashboard Facturación Deportivas Pestaña USD</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (162).png" alt=""><figcaption><p>Figura #2: Captura de pantalla Dashboard Facturación Deportivas Pestaña USD</p></figcaption></figure>
 
 #### 5.2. KPIs
 
@@ -95,7 +95,7 @@ Esta pestaña presenta la información en euros (_EUR_), calculada con base en l
 
 #### 5.1. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (152).png" alt=""><figcaption><p>Figura #3: Captura de pantalla Dashboard Facturación Deportivas Pestaña EUR</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (163).png" alt=""><figcaption><p>Figura #3: Captura de pantalla Dashboard Facturación Deportivas Pestaña EUR</p></figcaption></figure>
 
 #### 5.2. KPIs
 
@@ -117,7 +117,7 @@ Presenta la facturación de deportivas consolidada por Partner y país, agrupand
 
 #### 5.1. Visualización&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (155).png" alt=""><figcaption><p>Figura #4: Captura de pantalla Dashboard Facturación Deportivas Pestaña Consolidados</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (166).png" alt=""><figcaption><p>Figura #4: Captura de pantalla Dashboard Facturación Deportivas Pestaña Consolidados</p></figcaption></figure>
 
 #### **5.2. Tabla de** facturación **EUROS**
 

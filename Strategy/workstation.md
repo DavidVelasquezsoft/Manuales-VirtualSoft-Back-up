@@ -14,7 +14,7 @@ Para acceder a **Workstation**, es necesario que la aplicación sea **instalada 
 
 Una vez completada la instalación, nos encontraremos con la siguiente visual:
 
-<figure><img src=".gitbook/assets/image (127).png" alt="" width="563"><figcaption><p>Figura #1: Captura de pantalla inicio workstation</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (138).png" alt="" width="563"><figcaption><p>Figura #1: Captura de pantalla inicio workstation</p></figcaption></figure>
 
 Para conectarse correctamente al entorno, siga los pasos indicados en la siguiente **guía interactiva**.
 
@@ -33,7 +33,7 @@ Esta es la dirección del entorno que debe copiar y pegar en el campo **URL del 
 
 Una vez que el usuario ingresa correctamente al entorno, se habilitan las siguientes secciones en el **menú lateral**, desde donde podrá navegar y acceder a la información disponible.
 
-<figure><img src=".gitbook/assets/image (132).png" alt="Figura #2: Captura de pantalla menu lateral" width="212"><figcaption><p>Figura #2: Captura de pantalla menú lateral</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (143).png" alt="Figura #2: Captura de pantalla menu lateral" width="212"><figcaption><p>Figura #2: Captura de pantalla menú lateral</p></figcaption></figure>
 
 #### 2.1. <img src=".gitbook/assets/image-removebg-preview (3) (1).png" alt="" data-size="line"> Library personal
 
@@ -43,11 +43,11 @@ Esta sección permite visualizar todos los **tableros e informes** que el usuari
 
 Desde esta sección, el usuario puede acceder al **proyecto Virtualsoft** y navegar por las carpetas que contienen los tableros e informes disponibles según sus permisos.
 
-Las carpetas están organizadas por equipos y áreas. Algunas funcionan como **accesos directos** <img src=".gitbook/assets/image (134).png" alt="" data-size="line">, permitiendo ingresar rápidamente a información de uso frecuente.
+Las carpetas están organizadas por equipos y áreas. Algunas funcionan como **accesos directos** <img src=".gitbook/assets/image (145).png" alt="" data-size="line">, permitiendo ingresar rápidamente a información de uso frecuente.
 
 En la parte inferior de la pantalla se muestra una **ruta de navegación**, que indica la ubicación actual y permite regresar a carpetas anteriores.
 
-<figure><img src=".gitbook/assets/image (133).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (144).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Desde los proyectos, el usuario también puede **agregar tableros e informes a su Library personal** para acceder a ellos de forma más rápida.
 
@@ -62,7 +62,7 @@ Al hacerlo, se abrirá una ventana emergente con las opciones disponibles.
 
 Seleccione **Informe vacío** o **Dashboard en blanco**, según el tipo de contenido que desee crear, para continuar con la configuración.
 
-<figure><img src=".gitbook/assets/image (15).png" alt=""><figcaption><p>Figura #3: Captura de pantalla explicación para crear Dashboards o infomres</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (26).png" alt=""><figcaption><p>Figura #3: Captura de pantalla explicación para crear Dashboards o infomres</p></figcaption></figure>
 
 ***
 

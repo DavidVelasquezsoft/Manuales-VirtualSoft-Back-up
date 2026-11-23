@@ -10,7 +10,7 @@ Este dashboard contiene información sobre los bonos creados para la plataforma 
 
 ### 2. 🖼️️ Visualización
 
-<figure><img src="../../../.gitbook/assets/image (33).png" alt=""><figcaption><p>Figura #1: Captura de pantalla dashboard bonos.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (44).png" alt=""><figcaption><p>Figura #1: Captura de pantalla dashboard bonos.</p></figcaption></figure>
 
 ***
 

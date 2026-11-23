@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Dashboard Retiros
@@ -37,7 +39,7 @@ Antes de visualizar el reporte, es necesario definir las [configuraciones previa
 
 Este dashboard cuenta con dos vistas: **Moneda Local** y **Moneda USD**. Ambas presentan la misma estructura, componentes y funcionalidades; la única diferencia es la moneda en la que se visualiza la información. En la vista **Moneda Local**, los valores se muestran en la moneda local configurada para el [Partner](https://virtualsoft.gitbook.io/plantillas/glosario#partner), mientras que en la vista **Moneda USD**, los mismos datos se presentan en dólares estadounidenses _(USD)_.
 
-<figure><img src="../../../.gitbook/assets/image (218).png" alt=""><figcaption><p>Figura #1: Captura de pantalla dashboard retiro.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (229).png" alt=""><figcaption><p>Figura #1: Captura de pantalla dashboard retiro.</p></figcaption></figure>
 
 ### 4. Acciones del usuario
 

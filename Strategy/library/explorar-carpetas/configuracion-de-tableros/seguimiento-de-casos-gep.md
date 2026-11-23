@@ -75,7 +75,7 @@ Presenta la distribución de los casos mediante gráficos que permiten analizar 
 
 #### Visualización
 
-<figure><img src="../../../.gitbook/assets/image (267).png" alt=""><figcaption><p>Figura #1: Captura de pantalla pestaña Análisis general.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (278).png" alt=""><figcaption><p>Figura #1: Captura de pantalla pestaña Análisis general.</p></figcaption></figure>
 
 #### Gráficos
 
@@ -87,7 +87,7 @@ Presenta una tabla con los datos individuales de los casos que cumplen los crite
 
 #### Visualización
 
-<figure><img src="../../../.gitbook/assets/image (268).png" alt=""><figcaption><p>Figura #2: Captura de pantalla pestaña Detalle de casos.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (279).png" alt=""><figcaption><p>Figura #2: Captura de pantalla pestaña Detalle de casos.</p></figcaption></figure>
 
 #### Tabla
 

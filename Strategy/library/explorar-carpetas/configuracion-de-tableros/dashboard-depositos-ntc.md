@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Dashboard Depósitos NTC
@@ -31,7 +33,7 @@ layout:
 
 ### 2. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (165).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (176).png" alt=""><figcaption></figcaption></figure>
 
 ***
 

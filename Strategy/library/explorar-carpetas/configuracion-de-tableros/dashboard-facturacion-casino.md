@@ -51,7 +51,7 @@ Esta pestaña presenta la información en moneda local, mostrando los valores co
 
 #### 5.1. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (142).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Dashboard Facturación Casino Pestaña Moneda local</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (153).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Dashboard Facturación Casino Pestaña Moneda local</p></figcaption></figure>
 
 #### 5.2. KPIs
 
@@ -73,7 +73,7 @@ Esta pestaña presenta la información en dólares (_USD_), calculada con base e
 
 #### 5.1. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (140).png" alt=""><figcaption><p>Figura #2: Captura de pantalla Dashboard Facturación Casino Pestaña USD</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (151).png" alt=""><figcaption><p>Figura #2: Captura de pantalla Dashboard Facturación Casino Pestaña USD</p></figcaption></figure>
 
 #### 5.2. KPIs
 
@@ -95,7 +95,7 @@ Esta pestaña presenta la información en dólares (_USD_) de forma consolidada,
 
 #### 5.1. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (143).png" alt=""><figcaption><p>Figura #3: Captura de pantalla Dashboard Facturación Casino Pestaña USD consolidado</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (154).png" alt=""><figcaption><p>Figura #3: Captura de pantalla Dashboard Facturación Casino Pestaña USD consolidado</p></figcaption></figure>
 
 #### 5.2. KPIs
 
@@ -117,7 +117,7 @@ Esta pestaña presenta la información en euros (_EUR_), calculada con base en l
 
 #### 5.1. Visualización general
 
-<figure><img src="../../../.gitbook/assets/image (140).png" alt=""><figcaption><p>Figura #4: Captura de pantalla Dashboard Facturación Casino Pestaña EUR</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (151).png" alt=""><figcaption><p>Figura #4: Captura de pantalla Dashboard Facturación Casino Pestaña EUR</p></figcaption></figure>
 
 #### 5.2. KPIs
 
@@ -139,7 +139,7 @@ Presenta la facturación de casino consolidada por subproveedor, agrupando los v
 
 #### 5.1. Visualización&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (148).png" alt=""><figcaption><p>Figura #5: Captura de pantalla Dashboard Facturación Casino Pestaña Consolidados</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (159).png" alt=""><figcaption><p>Figura #5: Captura de pantalla Dashboard Facturación Casino Pestaña Consolidados</p></figcaption></figure>
 
 #### **5.2. Tabla de** facturación **EUROS**
 

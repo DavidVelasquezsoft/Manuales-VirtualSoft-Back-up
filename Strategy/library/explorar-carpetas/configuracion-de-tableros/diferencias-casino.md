@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Diferencias Casino
@@ -33,7 +35,7 @@ layout:
 
 ### 2. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (214).png" alt=""><figcaption><p>Figura #1: Captura de pantalla dashboard transferencia de saldo.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (225).png" alt=""><figcaption><p>Figura #1: Captura de pantalla dashboard transferencia de saldo.</p></figcaption></figure>
 
 ***
 

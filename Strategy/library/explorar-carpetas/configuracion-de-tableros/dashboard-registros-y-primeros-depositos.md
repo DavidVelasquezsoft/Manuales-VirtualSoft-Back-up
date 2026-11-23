@@ -20,7 +20,7 @@ Antes de visualizar el reporte, es necesario establecer las [configuraciones pre
 
 ### 🖼️ 2. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (38).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Dashboard registros y primeros depósitos.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (49).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Dashboard registros y primeros depósitos.</p></figcaption></figure>
 
 ***
 

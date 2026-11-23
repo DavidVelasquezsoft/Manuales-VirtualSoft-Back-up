@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Dashboard seguimiento del programa de lealtad
@@ -39,7 +41,7 @@ Antes de visualizar el reporte, es necesario establecer las [configuraciones pre
 
 ### 3. Visualización&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (221).png" alt=""><figcaption><p>Figura #1: Captura ejemplo del dashboard.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (232).png" alt=""><figcaption><p>Figura #1: Captura ejemplo del dashboard.</p></figcaption></figure>
 
 ### 4. Filtros Disponibles
 

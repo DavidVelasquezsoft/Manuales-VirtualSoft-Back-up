@@ -9,7 +9,7 @@ description: >-
 
 Para acceder a este módulo, haz clic en el botón "**Crear**". Esto desplegará un menú con las opciones disponibles.
 
-<figure><img src="../../../.gitbook/assets/image (82).png" alt="" width="254"><figcaption><p>Figura #1: Captura de pantalla del campo Modulo de reporte.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (93).png" alt="" width="254"><figcaption><p>Figura #1: Captura de pantalla del campo Modulo de reporte.</p></figcaption></figure>
 
 En este caso, utilizaremos las opciones "**Nuevo Dashboard**" y "**Nuevo Informe**". Para obtener más información detallada, haz clic en la página correspondiente.
 

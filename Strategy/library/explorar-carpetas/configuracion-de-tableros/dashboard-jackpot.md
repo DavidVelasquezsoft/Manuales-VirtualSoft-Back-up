@@ -38,7 +38,7 @@ A continuación, se describe el funcionamiento de cada vista.
 {% tab title="📈 Resumido" %}
 #### 3.2. 🖼️ Visualización
 
-<figure><img src="../../../.gitbook/assets/image (122).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (133).png" alt=""><figcaption></figcaption></figure>
 
 #### 3.3. KP&#x49;**´s**
 
@@ -78,7 +78,7 @@ Permite visualizar información de los jackpots consultados que ya han finalizad
 {% tab title="🗂️ Detallado" %}
 #### 3.2. 🖼️ Visualización
 
-<figure><img src="../../../.gitbook/assets/image (123).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (134).png" alt=""><figcaption></figcaption></figure>
 
 #### 3.3. KP&#x49;**´s**
 

@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Dashboard de Ruletas
@@ -67,7 +69,7 @@ Presenta los principales indicadores y comportamientos asociados a las ruletas d
 
 #### Visualización:
 
-<figure><img src="../../../.gitbook/assets/image (240).png" alt=""><figcaption><p>Figura #1: Captura de pantalla ejemplo de la vista Gráficos comparativos.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (251).png" alt=""><figcaption><p>Figura #1: Captura de pantalla ejemplo de la vista Gráficos comparativos.</p></figcaption></figure>
 
 #### Graficos del Dashboard
 
@@ -79,7 +81,7 @@ Presenta el detalle consolidado de las ruletas incluidas en la consulta.
 
 #### Visualización
 
-<figure><img src="../../../.gitbook/assets/image (241).png" alt=""><figcaption><p>Figura #2: Captura de pantalla ejemplo de la vista Resumen de ruletas.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (252).png" alt=""><figcaption><p>Figura #2: Captura de pantalla ejemplo de la vista Resumen de ruletas.</p></figcaption></figure>
 
 #### **Detalle del reporte**
 
@@ -97,7 +99,7 @@ Presenta la información individual de los usuarios asociados a las ruletas cons
 
 #### Visualización
 
-<figure><img src="../../../.gitbook/assets/image (242).png" alt=""><figcaption><p>Figura #3: Captura de pantalla ejemplo de la vista detalles de usuarios.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (253).png" alt=""><figcaption><p>Figura #3: Captura de pantalla ejemplo de la vista detalles de usuarios.</p></figcaption></figure>
 
 #### **Detalle del reporte**
 
@@ -109,7 +111,7 @@ Presenta el detalle de los premios entregados como resultado de la participació
 
 #### Visualización
 
-<figure><img src="../../../.gitbook/assets/image (243).png" alt=""><figcaption><p>Figura #4: Captura de pantalla ejemplo de la vista Detalle de premios entregados.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (254).png" alt=""><figcaption><p>Figura #4: Captura de pantalla ejemplo de la vista Detalle de premios entregados.</p></figcaption></figure>
 
 #### **Detalle del reporte**
 

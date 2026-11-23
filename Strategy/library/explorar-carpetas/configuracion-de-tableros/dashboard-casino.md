@@ -27,7 +27,7 @@ Antes de visualizar el reporte, es necesario definir las [configuraciones previa
 
 ### 5. Contenido del dashboard
 
-El dashboard está compuesto por **tres vistas**, entre las cuales puede navegar mediante las opciones disponibles en el menú lateral izquierdo. En cualquiera de ellas, es posible alternar la visualización de los valores monetarios entre **moneda local y USD** mediante los botones <img src="../../../.gitbook/assets/image (187).png" alt="" data-size="line"> ubicados en la esquina superior izquierda. Al realizar el cambio, toda la información monetaria se actualizará automáticamente **sin afectar los filtros aplicados**. Este dashboard cuenta con las siguientes vistas:
+El dashboard está compuesto por **tres vistas**, entre las cuales puede navegar mediante las opciones disponibles en el menú lateral izquierdo. En cualquiera de ellas, es posible alternar la visualización de los valores monetarios entre **moneda local y USD** mediante los botones <img src="../../../.gitbook/assets/image (198).png" alt="" data-size="line"> ubicados en la esquina superior izquierda. Al realizar el cambio, toda la información monetaria se actualizará automáticamente **sin afectar los filtros aplicados**. Este dashboard cuenta con las siguientes vistas:
 
 {% tabs %}
 {% tab title="Casino General" %}
@@ -35,7 +35,7 @@ Presenta información general de casino mediante diferentes tipos de gráficas e
 
 #### Visualización
 
-<figure><img src="../../../.gitbook/assets/image (189).png" alt=""><figcaption><p>Figura#1: Captura de pantalla dashboard vista Casino general.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (200).png" alt=""><figcaption><p>Figura#1: Captura de pantalla dashboard vista Casino general.</p></figcaption></figure>
 
 #### Indicadores
 
@@ -55,7 +55,7 @@ Permite visualizar el comportamiento de los usuarios en la sección de casino po
 
 #### Visualización
 
-<figure><img src="../../../.gitbook/assets/image (190).png" alt=""><figcaption><p>Figura#2: Captura de pantalla Vista proveedor.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (201).png" alt=""><figcaption><p>Figura#2: Captura de pantalla Vista proveedor.</p></figcaption></figure>
 
 #### Filtros
 
@@ -91,7 +91,7 @@ Permite visualizar el comportamiento de los usuarios en la sección de casino de
 
 #### Visualización
 
-<figure><img src="../../../.gitbook/assets/image (191).png" alt=""><figcaption><p>Figura #3: Captura de pantalla vista juegos</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (202).png" alt=""><figcaption><p>Figura #3: Captura de pantalla vista juegos</p></figcaption></figure>
 
 #### Filtros
 
