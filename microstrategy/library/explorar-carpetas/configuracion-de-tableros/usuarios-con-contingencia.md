@@ -40,7 +40,7 @@ Desde esta vista se muestra una tabla con el detalle de las contingencias regist
 
 #### 4.1 Visualización&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (163).png" alt=""><figcaption><p>Figura #1: Captura de pantalla sección detalle.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (168).png" alt=""><figcaption><p>Figura #1: Captura de pantalla sección detalle.</p></figcaption></figure>
 
 #### 4.2. Tabla de registros
 
@@ -52,7 +52,7 @@ La vista general se compone de diferentes componentes, como KPIs y gráficas, qu
 
 #### 4.1 Visualización&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (165).png" alt=""><figcaption><p>Figura #1: Captura de pantalla sección General.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (170).png" alt=""><figcaption><p>Figura #1: Captura de pantalla sección General.</p></figcaption></figure>
 
 #### 4.2. KPIs
 

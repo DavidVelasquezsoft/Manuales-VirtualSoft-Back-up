@@ -30,7 +30,7 @@ El dashboard dispone de dos vistas:
 
 Ambas vistas contienen los mismos filtros, indicadores, gráficos y tablas; únicamente cambia la moneda utilizada para visualizar los valores.
 
-<figure><img src="../../../.gitbook/assets/image (225).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Dashboard depósitos.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (230).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Dashboard depósitos.</p></figcaption></figure>
 
 ***
 

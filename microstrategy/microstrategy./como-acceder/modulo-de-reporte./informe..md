@@ -12,7 +12,7 @@ Para acceder a esta sección, sigue la ruta:&#x20;
 
 Al seguir esta ruta, verás la siguiente interfaz:
 
-<figure><img src="../../../.gitbook/assets/image (81).png" alt=""><figcaption><p>Figura #1: Captura de pantalla crear reporte.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (86).png" alt=""><figcaption><p>Figura #1: Captura de pantalla crear reporte.</p></figcaption></figure>
 
 A continuación, te explicamos en detalle cada uno de los apartados y sus funciones dentro de la sección.
 
@@ -82,8 +82,8 @@ Actualmente tenemos distintos tipos de reporte disponibles, estas son las rutas 
 
 Al finalizar la búsqueda, aparecerá una cinta con opciones para personalizar los resultados del reporte. Ten en cuenta que los botones resaltados en color azul estarán activos, lo que te permitirá interactuar con las opciones disponibles y realizar ajustes según tus necesidades.
 
-<figure><img src="../../../.gitbook/assets/image (86).png" alt=""><figcaption><p>Figura #2: Captura de pantalla del campo Datos.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (91).png" alt=""><figcaption><p>Figura #2: Captura de pantalla del campo Datos.</p></figcaption></figure>
 
 Para exportar los datos, en la cinta superior encontrarás la opción "Inicio de informes". Al hacer clic en ella, se desplegará un menú con varias opciones. Selecciona la opción "**Exportar**" y, a continuación, elige el formato de tu preferencia para guardar los datos.
 
-<figure><img src="../../../.gitbook/assets/image (87).png" alt="" width="563"><figcaption><p>Figura #3: Captura de pantalla del campo exportar.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (92).png" alt="" width="563"><figcaption><p>Figura #3: Captura de pantalla del campo exportar.</p></figcaption></figure>

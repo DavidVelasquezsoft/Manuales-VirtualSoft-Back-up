@@ -49,7 +49,7 @@ Permite visualizar gráficos y rankings dinámicos, actualizando la información
 
 #### Visualización
 
-<figure><img src="../../../.gitbook/assets/image (169).png" alt=""><figcaption><p>Figura #1: Captura de pantalla sección de Ranking en dashboard de eventos deportivos</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (174).png" alt=""><figcaption><p>Figura #1: Captura de pantalla sección de Ranking en dashboard de eventos deportivos</p></figcaption></figure>
 
 #### Métricas
 
@@ -81,7 +81,7 @@ Permite visualizar el comportamiento y los cambios diarios de las métricas sele
 
 #### Visualización
 
-<figure><img src="../../../.gitbook/assets/image (167).png" alt=""><figcaption><p>Figura #2: Captura de pantalla sección de tendencias en dashboard de eventos deportivos</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (172).png" alt=""><figcaption><p>Figura #2: Captura de pantalla sección de tendencias en dashboard de eventos deportivos</p></figcaption></figure>
 
 #### Métricas
 
@@ -99,7 +99,7 @@ Las gráficas muestran información dinámica según la [métrica](dashboard-de-
 {% tab title="Detalle" %}
 #### Visualización
 
-<figure><img src="../../../.gitbook/assets/image (170).png" alt=""><figcaption><p>Figura #3: Captura de pantalla sección de detalle en dashboard de eventos deportivos</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (175).png" alt=""><figcaption><p>Figura #3: Captura de pantalla sección de detalle en dashboard de eventos deportivos</p></figcaption></figure>
 
 #### Tabla de información
 

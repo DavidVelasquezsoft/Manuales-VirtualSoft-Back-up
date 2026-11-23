@@ -58,7 +58,7 @@ Vista ejecutiva orientada al análisis gerencial y al monitoreo del desempeño d
 
 #### **Visualización**
 
-<figure><img src="../../../.gitbook/assets/image (259).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Dashboard referidos</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (264).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Dashboard referidos</p></figcaption></figure>
 
 #### **Gráficas**
 
@@ -70,7 +70,7 @@ Vista operativa que presenta la información individual de cada [referente](http
 
 #### **Visualización**
 
-<figure><img src="../../../.gitbook/assets/image (260).png" alt=""><figcaption><p>Figura #2: Captura de pantalla Detalle referente</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (265).png" alt=""><figcaption><p>Figura #2: Captura de pantalla Detalle referente</p></figcaption></figure>
 
 #### **Tabla de referentes**
 
@@ -88,7 +88,7 @@ Vista que presenta el detalle de los [referidos](https://virtualsoft.gitbook.io/
 
 #### **Visualización**
 
-<figure><img src="../../../.gitbook/assets/image (261).png" alt=""><figcaption><p>Figura #3: Captura de pantalla Detalle referido</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (266).png" alt=""><figcaption><p>Figura #3: Captura de pantalla Detalle referido</p></figcaption></figure>
 
 #### **¿Cómo se organiza la información?**
 

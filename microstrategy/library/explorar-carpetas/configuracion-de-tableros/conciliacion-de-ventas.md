@@ -41,7 +41,7 @@ Su finalidad es validar que las ventas registradas impacten correctamente los sa
 
 ### 2. 🖼️Visualización&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (15).png" alt=""><figcaption><p>Figura #1: captura de pantalla conciliación de ventas</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (20).png" alt=""><figcaption><p>Figura #1: captura de pantalla conciliación de ventas</p></figcaption></figure>
 
 ### 3. Acciones del Usuario
 

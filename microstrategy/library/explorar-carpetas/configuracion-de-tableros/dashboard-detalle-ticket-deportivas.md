@@ -23,7 +23,7 @@ Antes de visualizar el reporte, es necesario establecer las [configuraciones pre
 
 ### 3. Visualización:
 
-<figure><img src="../../../.gitbook/assets/image (52).png" alt=""><figcaption><p><strong>Figura#1: Captura de pantalla Dashboard</strong></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (57).png" alt=""><figcaption><p><strong>Figura#1: Captura de pantalla Dashboard</strong></p></figcaption></figure>
 
 ### 4. 🔍 Filtros Disponibles
 

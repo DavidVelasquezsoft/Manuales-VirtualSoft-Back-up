@@ -15,7 +15,7 @@ description: >-
 
 ### 2. Visualización General
 
-<figure><img src="../../../../.gitbook/assets/image (42).png" alt=""><figcaption><p>Figura#1: Captura de pantalla Dashboard activacion de Juegos de casino.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (47).png" alt=""><figcaption><p>Figura#1: Captura de pantalla Dashboard activacion de Juegos de casino.</p></figcaption></figure>
 
 ### **🧑‍💻 3. Filtros Disponibles:**
 

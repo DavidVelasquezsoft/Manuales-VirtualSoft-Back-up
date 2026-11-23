@@ -31,7 +31,7 @@ Antes de visualizar el reporte, es necesario confirmar las siguientes configurac
 
 ### 4. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (221).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Dashboard Historial de Movimiento usuario</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (226).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Dashboard Historial de Movimiento usuario</p></figcaption></figure>
 
 ***
 

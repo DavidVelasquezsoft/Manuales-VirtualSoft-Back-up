@@ -36,7 +36,7 @@ A continuación, se describe el funcionamiento de cada vista.
 {% tab title="📈 Resumido" %}
 #### 3.1. 🖼️ Visualización
 
-<figure><img src="../../../.gitbook/assets/image (142).png" alt=""><figcaption><p>Figura #1: Captura de pantalla vista resumida reporte desfases puntos de venta</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (147).png" alt=""><figcaption><p>Figura #1: Captura de pantalla vista resumida reporte desfases puntos de venta</p></figcaption></figure>
 
 #### 3.2. 🔍 Filtros Disponibles
 
@@ -62,7 +62,7 @@ Permite visualizar una tabla con la información consolidada en formato **"resum
 {% tab title="🗂️ Detallado" %}
 #### 3.1. 🖼️ Visualización
 
-<figure><img src="../../../.gitbook/assets/image (143).png" alt=""><figcaption><p>Figura #2: Captura de pantalla vista detallada reporte desfases puntos de venta</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (148).png" alt=""><figcaption><p>Figura #2: Captura de pantalla vista detallada reporte desfases puntos de venta</p></figcaption></figure>
 
 #### 3.2. 🔍 Filtros Disponibles
 

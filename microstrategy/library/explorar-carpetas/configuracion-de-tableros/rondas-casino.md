@@ -51,7 +51,7 @@ Antes de ingresar a este tablero, es necesario completar los filtros que se visu
 
 ### 4. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (270).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Dashboard consulta de rondas casino.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (275).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Dashboard consulta de rondas casino.</p></figcaption></figure>
 
 ### 5. Contenido del dashboard
 

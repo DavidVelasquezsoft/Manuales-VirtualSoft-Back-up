@@ -47,7 +47,7 @@ Antes de visualizar el reporte, es necesario definir las [configuraciones previa
 
 ### 3. 🖼️Visualización&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (14).png" alt=""><figcaption><p>Figura #1: captura de pantalla dashboard seguimiento caídas jackpot.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (19).png" alt=""><figcaption><p>Figura #1: captura de pantalla dashboard seguimiento caídas jackpot.</p></figcaption></figure>
 
 ***
 

@@ -20,7 +20,7 @@ Antes de visualizar el reporte, es necesario confirmar las [configuraciones prev
 
 ### 3. 🖼️ Visualización general
 
-<figure><img src="../../../.gitbook/assets/image (122).png" alt=""><figcaption><p>Figura #1 Captura de pantalla Dashboard gerencial.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (127).png" alt=""><figcaption><p>Figura #1 Captura de pantalla Dashboard gerencial.</p></figcaption></figure>
 
 ***
 

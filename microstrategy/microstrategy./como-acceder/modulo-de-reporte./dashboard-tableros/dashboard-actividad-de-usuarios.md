@@ -32,7 +32,7 @@ El reporte está conformado por **dos hojas principales** que se navegan mediant
 {% tab title="👤 Conexiones de Usuario" %}
 #### 3. Visualización:
 
-<figure><img src="../../../../.gitbook/assets/image (47).png" alt=""><figcaption><p>Figura#1: Captura de pantalla vista conexiones de usuarios.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (52).png" alt=""><figcaption><p>Figura#1: Captura de pantalla vista conexiones de usuarios.</p></figcaption></figure>
 
 **3.1. Filtros**
 
@@ -54,7 +54,7 @@ El reporte está conformado por **dos hojas principales** que se navegan mediant
 {% tab title="📄 Acciones Detalladas." %}
 #### 3. Visualización:
 
-<figure><img src="../../../../.gitbook/assets/image (48).png" alt=""><figcaption><p>Figura#2: Captura de pantalla acciones detalladas.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (53).png" alt=""><figcaption><p>Figura#2: Captura de pantalla acciones detalladas.</p></figcaption></figure>
 
 **3.1. Filtros**
 

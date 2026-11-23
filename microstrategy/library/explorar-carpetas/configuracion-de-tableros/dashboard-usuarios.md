@@ -21,7 +21,7 @@ El tablero presenta información actualizada según el rango horario configurado
 
 ### 2. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (43).png" alt=""><figcaption><p>Figura #1: Vista general del Dashboard de Análisis de Usuarios.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (48).png" alt=""><figcaption><p>Figura #1: Vista general del Dashboard de Análisis de Usuarios.</p></figcaption></figure>
 
 ***
 
