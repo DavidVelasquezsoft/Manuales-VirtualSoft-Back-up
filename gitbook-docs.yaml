@@ -35,7 +35,7 @@ site:
           title: Integraciones.
           path: integraciones.
           content:
-            directory: ./Integraciones.
+            directory: ./Integraciones
             language: es
         - type: space
           key: space-6
