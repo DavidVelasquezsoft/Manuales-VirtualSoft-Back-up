@@ -1,0 +1,15 @@
+# Table of contents
+
+* [Filezilla.](README.md)
+  * [Repositorio retiros pagados - Paniplay.](filezilla./repositorio-retiros-pagados-paniplay..md)
+  * [Crear repositorio de casino.](filezilla./crear-repositorio-de-casino..md)
+  * [reporte de usuarios con contingencia.](filezilla./reporte-de-usuarios-con-contingencia..md)
+  * [Repositorio jugadores Gangabet.](filezilla./repositorio-jugadores-gangabet..md)
+  * [Alineación del Reporte de Retiros.](filezilla./alineacion-del-reporte-de-retiros..md)
+  * [Información de jugadores](filezilla./informacion-de-jugadores.md)
+  * [REPOSITORIO GANAPLAY SALVADOR](filezilla./repositorio-ganaplay-salvador.md)
+  * [Partner ecuabet](filezilla./partner-ecuabet/README.md)
+    * [Reporte diario de jugadores](filezilla./partner-ecuabet/reporte-diario-de-jugadores.md)
+    * [Reporte acumulado de jugadores](filezilla./partner-ecuabet/reporte-acumulado-de-jugadores.md)
+  * [Repositorio Fullcarga Doradobet-Ecuador](filezilla./repositorio-fullcarga-doradobet-ecuador.md)
+  * [Repositorio regulación Doradobet Perú.](filezilla./repositorio-regulacion-doradobet-peru..md)
