@@ -94,3 +94,10 @@ site:
       draft: true
       content:
         directory: ./glosario
+    - type: space
+      key: space-14
+      title: Manuales API
+      path: api-reference
+      draft: true
+      content:
+        directory: ./api-reference
