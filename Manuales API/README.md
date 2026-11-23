@@ -54,7 +54,7 @@ Esta Api permite consultar los depósitos y retiros de un usuario de las diferen
 
 Esta guía está dirigida a los desarrolladores de casino que necesiten interactuar con el proyecto ApiGateway para realizar transacciones, validar cuerpos de petición por medio de hash y unificar sus desarrollos en un único punto de acceso.
 
-{% file src=".gitbook/assets/Funciones y modo de uso API GATEWAY.pdf" %}
+{% file src=".gitbook/assets/Manual_API_Funciones_y_modo_de_uso_API_GATEWAY.pdf" %}
 
 ### Manual Aggregador Sportbook
 
