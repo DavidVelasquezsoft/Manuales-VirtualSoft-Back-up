@@ -2,7 +2,7 @@
 
 Este diagrama describe el proceso para manejar devoluciones de apuestas (RefundBet), donde se reversa un débito existente siempre que el débito no esté cerrado, no tenga una ganancia asociada registrada y cumpla con todas las validaciones de seguridad.
 
-<figure><img src="../../../.gitbook/assets/image (23).png" alt=""><figcaption><p>Figura #1: Captura de pantalla diagrama de flujo.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (28).png" alt=""><figcaption><p>Figura #1: Captura de pantalla diagrama de flujo.</p></figcaption></figure>
 
 Pasos Detallados&#x20;
 

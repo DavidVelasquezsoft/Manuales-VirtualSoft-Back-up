@@ -2,7 +2,7 @@
 
 Este diagrama describe el proceso completo para realizar una apuesta (PlaceBet), incluyendo validaciones de seguridad, usuario, saldo, verificación de transacción única y registro final de la apuesta.
 
-<figure><img src="../../../.gitbook/assets/image (100).png" alt=""><figcaption><p>Figura #1: Captura de pantalla diagrama de flujo.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (105).png" alt=""><figcaption><p>Figura #1: Captura de pantalla diagrama de flujo.</p></figcaption></figure>
 
 #### Pasos Detallados:
 

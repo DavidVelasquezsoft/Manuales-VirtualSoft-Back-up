@@ -2,7 +2,7 @@
 
 Este diagrama describe el proceso para otorgar bonificaciones (AwardBonus), incluyendo validaciones de usuario, verificación de estado, creación del bono y confirmación final.
 
-<figure><img src="../../../.gitbook/assets/image (16).png" alt=""><figcaption><p>Figura #1: Captura de pantalla diagrama de flujo.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (21).png" alt=""><figcaption><p>Figura #1: Captura de pantalla diagrama de flujo.</p></figcaption></figure>
 
 #### Pasos Detallados&#x20;
 

@@ -2,7 +2,7 @@
 
 Este diagrama describe el proceso para obtener el balance de una cuenta, desde la solicitud inicial hasta la respuesta, incluyendo validaciones de seguridad, reglas de negocio y manejo de errores.
 
-<figure><img src="../../../.gitbook/assets/image (24).png" alt=""><figcaption><p>Figura #1: Captura de pantalla diagrama de flujo.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (29).png" alt=""><figcaption><p>Figura #1: Captura de pantalla diagrama de flujo.</p></figcaption></figure>
 
 #### Pasos Detallados:
 

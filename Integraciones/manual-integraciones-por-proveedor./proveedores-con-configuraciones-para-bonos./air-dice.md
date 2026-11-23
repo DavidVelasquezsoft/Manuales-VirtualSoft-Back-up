@@ -33,7 +33,7 @@ layout:
 
 ### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/image (90).png" alt="" width="563"><figcaption><p>Figura #1: Captura de pantalla de la sección FreeSpin.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (95).png" alt="" width="563"><figcaption><p>Figura #1: Captura de pantalla de la sección FreeSpin.</p></figcaption></figure>
 
 ### **3. Formulario para creación de bonos** AIR DICE
 

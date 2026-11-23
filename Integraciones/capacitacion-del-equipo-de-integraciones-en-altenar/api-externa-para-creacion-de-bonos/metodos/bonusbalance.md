@@ -2,7 +2,7 @@
 
 Este diagrama describe el proceso para acreditar el balance de un bono (BonusBalance), verificando su existencia, asignación a usuario y estado, con la capacidad de asignarlo si no está vinculado.
 
-<figure><img src="../../../.gitbook/assets/image (17).png" alt=""><figcaption><p>Figura #1: Captura de pantalla diagrama de flujo.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (22).png" alt=""><figcaption><p>Figura #1: Captura de pantalla diagrama de flujo.</p></figcaption></figure>
 
 #### Pasos Detallados:
 

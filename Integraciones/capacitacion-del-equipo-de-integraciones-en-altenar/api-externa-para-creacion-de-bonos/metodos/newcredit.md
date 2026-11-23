@@ -2,7 +2,7 @@
 
 Este diagrama describe el proceso para acreditar una nueva ganancia sobre un débito anterior (NewCredit), independientemente del estado de cierre, incluyendo validaciones de usuario, verificación del débito previo y registro de la nueva acreditación.
 
-<figure><img src="../../../.gitbook/assets/image (19).png" alt=""><figcaption><p>Figura #1: Captura de pantalla diagrama de flujo.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (24).png" alt=""><figcaption><p>Figura #1: Captura de pantalla diagrama de flujo.</p></figcaption></figure>
 
 #### Pasos Detallados:
 

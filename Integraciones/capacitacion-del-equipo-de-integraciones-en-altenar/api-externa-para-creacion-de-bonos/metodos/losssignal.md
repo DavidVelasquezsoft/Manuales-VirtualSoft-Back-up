@@ -2,7 +2,7 @@
 
 Este diagrama describe el proceso para registrar una pérdida en una apuesta (LossSignal), donde se acredita una ganancia de 0 al usuario, incluyendo validaciones de usuario, estado y confirmación del resultado.
 
-<figure><img src="../../../.gitbook/assets/image (18).png" alt=""><figcaption><p>Figura #1: Captura de pantalla diagrama de flujo.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (23).png" alt=""><figcaption><p>Figura #1: Captura de pantalla diagrama de flujo.</p></figcaption></figure>
 
 #### Pasos Detallados:
 

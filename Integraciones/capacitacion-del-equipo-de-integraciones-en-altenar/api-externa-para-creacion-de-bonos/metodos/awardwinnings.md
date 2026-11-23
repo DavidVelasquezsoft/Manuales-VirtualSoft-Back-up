@@ -2,7 +2,7 @@
 
 Este diagrama describe el proceso para adjudicar premios (AwardWinnings), incluyendo validaciones de usuario, verificación de estado, ejecución del premio y generación de comprobante.
 
-<figure><img src="../../../.gitbook/assets/image (101).png" alt=""><figcaption><p>Figura #1: Captura de pantalla diagrama de flujo.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (106).png" alt=""><figcaption><p>Figura #1: Captura de pantalla diagrama de flujo.</p></figcaption></figure>
 
 #### Pasos Detallados:
 

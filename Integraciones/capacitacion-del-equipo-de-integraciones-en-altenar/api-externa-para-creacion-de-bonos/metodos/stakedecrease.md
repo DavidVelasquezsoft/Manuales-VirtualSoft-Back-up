@@ -2,7 +2,7 @@
 
 Este diagrama describe el proceso para manejar una reducción de apuesta (StakeDecrease), donde se devuelve parcialmente el monto debitado inicialmente, registrándose como un crédito al usuario. Incluye validaciones de usuario, verificación del débito original y actualización del saldo.
 
-<figure><img src="../../../.gitbook/assets/image (21).png" alt=""><figcaption><p>Figura #1: Captura de pantalla diagrama de flujo.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (26).png" alt=""><figcaption><p>Figura #1: Captura de pantalla diagrama de flujo.</p></figcaption></figure>
 
 Pasos Detallados&#x20;
 

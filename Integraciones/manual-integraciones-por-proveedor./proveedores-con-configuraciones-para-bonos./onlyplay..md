@@ -18,7 +18,7 @@ description: >-
 
 ### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/image (119).png" alt=""><figcaption><p>Figura #1: Captura de pantalla creación de bono FreeSpin.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (124).png" alt=""><figcaption><p>Figura #1: Captura de pantalla creación de bono FreeSpin.</p></figcaption></figure>
 
 ### 3. Acciones del Usuario
 

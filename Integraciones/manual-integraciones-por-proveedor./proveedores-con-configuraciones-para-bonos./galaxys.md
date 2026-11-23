@@ -8,7 +8,7 @@ description: >-
 
 Esta es la visual completa del Bono FreeSpin.
 
-<figure><img src="../../.gitbook/assets/image (90).png" alt="" width="563"><figcaption><p>Figura #1: Captura de pantalla de la sección FreeSpin.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (95).png" alt="" width="563"><figcaption><p>Figura #1: Captura de pantalla de la sección FreeSpin.</p></figcaption></figure>
 
 En este caso nos céntratenos solo en las configuraciones necesarias para los nuevos juegos integrados por el proveedor Galaxys.
 
@@ -50,4 +50,4 @@ Realizaremos el ejemplo desde la plataforma Doradobet desde la siguiente ruta:&#
 
 Al seguir esta ruta podrás filtrar solo los juegos disponibles por el proveedor Galaxys.
 
-<figure><img src="../../.gitbook/assets/image (30).png" alt=""><figcaption><p>Figura #2: Captura de pantalla Filtros.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (35).png" alt=""><figcaption><p>Figura #2: Captura de pantalla Filtros.</p></figcaption></figure>

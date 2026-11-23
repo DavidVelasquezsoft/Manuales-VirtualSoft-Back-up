@@ -35,7 +35,7 @@ layout:
 
 ### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/image (129).png" alt=""><figcaption><p>Figura#1: Captura de pantalla creación bono Free Spin.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (134).png" alt=""><figcaption><p>Figura#1: Captura de pantalla creación bono Free Spin.</p></figcaption></figure>
 
 ### **3. Formulario para creación de bonos** BEON
 

@@ -8,11 +8,11 @@ Realizaremos el ejemplo desde la plataforma Doradobet desde la siguiente ruta:&#
 
 Busca los juegos del proveedor Lambda haciendo clic en el ícono "+" ubicado en la esquina derecha. Esto te permitirá explorar más opciones y acceder a la lista completa de proveedores, donde podrás seleccionar **Lambda**.
 
-<figure><img src="../../.gitbook/assets/image (35).png" alt=""><figcaption><p>Figura #1: Captura de pantalla filtros.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (40).png" alt=""><figcaption><p>Figura #1: Captura de pantalla filtros.</p></figcaption></figure>
 
 Luego de seleccionar el proveedor se mostrarán los juegos activos para este.
 
-<figure><img src="../../.gitbook/assets/image (36).png" alt=""><figcaption><p>Figura #2: Captura de pantalla Juegos LAMBDA</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (41).png" alt=""><figcaption><p>Figura #2: Captura de pantalla Juegos LAMBDA</p></figcaption></figure>
 
 ## Reportes de LAMBDA:&#x20;
 
@@ -22,7 +22,7 @@ Podrás visualizar los reportes realizados por cada apuesta hecha por un usuario
 
 Al elegir esta opción, se desplegarán una serie de filtros que te permitirán personalizar la consulta. Es importante destacar que estos filtros no son obligatorios; sin embargo, si deseas realizar una búsqueda más específica, puedes completar los campos según sea necesario.
 
-<figure><img src="../../.gitbook/assets/image (48).png" alt=""><figcaption><p>Figura #3: Captura de pantalla filtros de búsqueda.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (53).png" alt=""><figcaption><p>Figura #3: Captura de pantalla filtros de búsqueda.</p></figcaption></figure>
 
 En este caso se explicarán solo los filtros necesarios para visualizar el reporte de Lambda.
 
@@ -33,7 +33,7 @@ Al presionar el botón "**Consultar**" se desplegará una tabla con la informaci
 
 Una vez realizada la consulta, se mostrará en la parte inferior una tabla con la información correspondiente.
 
-<figure><img src="../../.gitbook/assets/image (50).png" alt=""><figcaption><p>Figura #4: Captura de pantalla de ejemplo.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (55).png" alt=""><figcaption><p>Figura #4: Captura de pantalla de ejemplo.</p></figcaption></figure>
 
 * **Lupa (🔍):** Esta columna tendrá la opción de ingresar a los detalles de la apuesta.
   * **Id**: Identificador único del registro de la transacción.
@@ -65,7 +65,7 @@ Una vez realizada la consulta, se mostrará en la parte inferior una tabla con l
 
 La vista completa del bono es la siguiente:&#x20;
 
-<figure><img src="../../.gitbook/assets/image (90).png" alt="" width="563"><figcaption><p>Figura #1: Captura de pantalla de la sección FreeSpin.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (95).png" alt="" width="563"><figcaption><p>Figura #1: Captura de pantalla de la sección FreeSpin.</p></figcaption></figure>
 
 En este caso nos céntratenos solo en las configuraciones necesarias para los nuevos juegos integrados por el proveedor **Lambda**.
 

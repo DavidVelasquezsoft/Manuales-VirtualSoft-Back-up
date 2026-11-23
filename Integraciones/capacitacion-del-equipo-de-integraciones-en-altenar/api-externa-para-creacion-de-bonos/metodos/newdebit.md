@@ -2,7 +2,7 @@
 
 Este diagrama describe el proceso para registrar un nuevo débito sobre uno existente (NewDebit), independientemente de su estado de cierre, incluyendo validaciones de usuario, token, saldo y estado.
 
-<figure><img src="../../../.gitbook/assets/image (20).png" alt=""><figcaption><p>Figura #1: Captura de pantalla diagrama de flujo.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (25).png" alt=""><figcaption><p>Figura #1: Captura de pantalla diagrama de flujo.</p></figcaption></figure>
 
 #### Pasos Detallados:
 

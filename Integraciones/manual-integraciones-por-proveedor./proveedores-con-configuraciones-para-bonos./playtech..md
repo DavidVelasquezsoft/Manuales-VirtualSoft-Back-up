@@ -14,7 +14,7 @@ description: >-
 
 ### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/image (123).png" alt=""><figcaption><p>Figura#1: Captura de pantalla creación bono Free Spin.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (128).png" alt=""><figcaption><p>Figura#1: Captura de pantalla creación bono Free Spin.</p></figcaption></figure>
 
 ***
 

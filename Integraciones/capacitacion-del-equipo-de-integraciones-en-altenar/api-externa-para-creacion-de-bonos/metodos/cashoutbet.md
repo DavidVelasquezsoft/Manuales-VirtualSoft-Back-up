@@ -2,7 +2,7 @@
 
 Este diagrama describe el proceso para manejar un retiro voluntario de apuesta (CashoutBet), donde se convierte un débito existente en un crédito al usuario, previa validación de que no exista un cashout previo y que el débito esté abierto.
 
-<figure><img src="../../../.gitbook/assets/image (22).png" alt=""><figcaption><p>Figura #1: Captura de pantalla diagrama de flujo.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (27).png" alt=""><figcaption><p>Figura #1: Captura de pantalla diagrama de flujo.</p></figcaption></figure>
 
 Pasos Detallados&#x20;
 
