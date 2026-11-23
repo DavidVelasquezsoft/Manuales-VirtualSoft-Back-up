@@ -57,6 +57,7 @@ site:
           path: strategy-ecuabet
           content:
             directory: ./manuales/copy-of-strategy
+            language: es
         - type: space
           key: space-8
           title: Reportería.
