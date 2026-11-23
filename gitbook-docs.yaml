@@ -104,3 +104,10 @@ site:
           path: manuales-api
           content:
             directory: ./manuales-api
+        - type: space
+          key: space-15
+          title: Copy of Manuales API
+          path: copy-of-manuales-api
+          draft: true
+          content:
+            directory: ./manuales/copy-of-manuales-api
