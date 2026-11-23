@@ -107,7 +107,7 @@ Esta pestaña presenta la información en 2 gráficos lineales, comparando los d
 **Nota**: Aunque esta pestaña contiene tres vistas, todas presentan la misma información. La única diferencia corresponde al período de comparación _(Diario, Mensual y anual)_.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption><p>Figura #3: Captura de pantalla pestaña comparación.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>Figura #3: Captura de pantalla pestaña comparación.</p></figcaption></figure>
 
 <table><thead><tr><th width="171">Gráfico</th><th width="154">Tipo de gráfico</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>% variación diaria de depósitos</code></strong></td><td>Lineal</td><td>Comparativa diaria de los depósitos realizados según las fechas establecidas en los filtros.</td></tr><tr><td><strong><code>% variación diaria de retiros</code></strong></td><td>Lineal</td><td>Comparativa diaria de los retiros realizados según las fechas establecidas en los filtros.</td></tr></tbody></table>
 {% endtab %}

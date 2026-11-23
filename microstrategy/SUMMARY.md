@@ -56,4 +56,5 @@
       * [Rondas casino](library/explorar-carpetas/configuracion-de-tableros/rondas-casino.md)
       * [Seguimiento de casos GEP](library/explorar-carpetas/configuracion-de-tableros/seguimiento-de-casos-gep.md)
       * [Análisis Diario de Puntos de Venta y Afiliados de Ecuabet](library/explorar-carpetas/configuracion-de-tableros/analisis-diario-de-puntos-de-venta-y-afiliados-de-ecuabet.md)
+      * [Análisis Ecuabet](library/explorar-carpetas/configuracion-de-tableros/analisis-ecuabet.md)
 * [Workstation](workstation.md)
