@@ -104,3 +104,9 @@ site:
           path: manuales-api
           content:
             directory: ./manuales-api
+        - type: space
+          key: space-15
+          title: Strategy-Ecuabet
+          path: strategy-ecuabet
+          content:
+            directory: ./manuales/strategy-ecuabet
