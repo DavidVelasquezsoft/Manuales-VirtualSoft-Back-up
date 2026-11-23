@@ -202,13 +202,7 @@ Al hacer clic en un request, se abre un panel lateral con su detalle.
 
 Muestra las variables globales de plataforma, que reemplazan su valor en el request «Iniciar sesion en plataforma apuestas» de todas las carpetas al ejecutar. Se accede desde el botón **Ajustes** del panel lateral; el botón **Volver** regresa a la pantalla principal.
 
-{% hint style="danger" %}
-**IMAGEN PENDIENTE: Figura #7**
-
-**Captura:** página **Ajustes** con la tabla de variables globales.
-
-**Pie de figura:** Figura #7: Captura de pantalla sección Ajustes.
-{% endhint %}
+<figure><img src=".gitbook/assets/image (157).png" alt=""><figcaption><p>Figura #6: Captura de pantalla sección Ajustes.</p></figcaption></figure>
 
 <table><thead><tr><th width="230">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Variable</code></strong></td><td>Identifica la variable global <em>(Ejemplo: url_session)</em>.</td></tr><tr><td><strong><code>Valor vigente</code></strong></td><td>Muestra el valor que se aplica a todas las carpetas. Si no está definido, indica <strong>Sin definir: se usa el valor de la colección</strong>.</td></tr><tr><td><strong><code>Variable de entorno</code></strong></td><td>Indica la variable de entorno del servidor que define el valor <em>(Ejemplo: URL_SESSION)</em>.</td></tr></tbody></table>
 
