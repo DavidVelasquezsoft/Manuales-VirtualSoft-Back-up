@@ -104,7 +104,7 @@ site:
           title: Glosario
           path: glosario
           content:
-            directory: ./glosario
+            directory: ./Glosario
             language: es
         - type: space
           key: space-14
