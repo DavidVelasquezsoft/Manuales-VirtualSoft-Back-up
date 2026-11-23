@@ -108,6 +108,5 @@ site:
           key: space-15
           title: Strategy-Ecuabet
           path: strategy-ecuabet
-          draft: true
           content:
             directory: ./manuales/copy-of-strategy
