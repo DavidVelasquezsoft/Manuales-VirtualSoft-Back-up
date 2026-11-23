@@ -101,7 +101,7 @@ Detalle numérico de los indicadores en cuatro tablas.
 
 Valores consolidados por provincia y punto de venta, con la participación de cada provincia en los totales.
 
-<table><thead><tr><th width="162.33331298828125">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Provincia</code></strong></td><td>Provincia a la que pertenecen los puntos de venta.</td></tr><tr><td><strong><code>PDV</code></strong></td><td>Nombre del punto de venta.</td></tr><tr><td><strong><code>Recargas</code></strong></td><td>Valor total de las recargas <em>(depósitos)</em> registradas en el punto de venta.</td></tr><tr><td><strong><code>% participación recargas</code></strong></td><td>Porcentaje que representan las recargas de la provincia respecto al total de recargas.</td></tr><tr><td><strong><code>Retiros</code></strong></td><td>Valor total de los retiros registrados en el punto de venta.</td></tr><tr><td><strong><code>% participación retiros</code></strong></td><td>Porcentaje que representan los retiros de la provincia respecto al total de retiros.</td></tr><tr><td><strong><code>Balance</code></strong></td><td>Diferencia entre las recargas y los retiros del punto de venta. Un valor positivo indica que las recargas superan a los retiros; un valor negativo, que los retiros superan a las recargas.</td></tr><tr><td><strong><code>% participación balance</code></strong></td><td>Porcentaje que representa el balance de la provincia respecto al balance total.</td></tr><tr><td><strong><code>Relación TRX</code></strong></td><td>Porcentaje que representan los retiros respecto a las recargas de la provincia.</td></tr><tr><td><strong><code>% participación relación TRX</code></strong></td><td>Porcentaje de participación de la provincia en la Relación TRX.</td></tr></tbody></table>
+<table><thead><tr><th width="162.33331298828125">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Provincia</code></strong></td><td>Provincia a la que pertenecen los puntos de venta.</td></tr><tr><td><strong><code>PDV</code></strong></td><td>Nombre del punto de venta.</td></tr><tr><td><strong><code>Recargas</code></strong></td><td>Valor total de las recargas <em>(depósitos)</em> registradas en el punto de venta.</td></tr><tr><td><strong><code>% participación recargas</code></strong></td><td>Porcentaje que representan las recargas de la provincia respecto al total de recargas.</td></tr><tr><td><strong><code>Retiros</code></strong></td><td>Valor total de los retiros registrados en el punto de venta.</td></tr><tr><td><strong><code>% participación retiros</code></strong></td><td>Porcentaje que representan los retiros de la provincia respecto al total de retiros.</td></tr><tr><td><strong><code>Balance</code></strong></td><td>Diferencia entre las recargas y los retiros del punto de venta. Un valor positivo indica que las recargas superan a los retiros; un valor negativo, que los retiros superan a las recargas.</td></tr><tr><td><strong><code>% participación balance</code></strong></td><td>Porcentaje que representa el balance de la provincia respecto al balance total.</td></tr><tr><td><strong><code>Relación TRX</code></strong></td><td>Relación entre los retiros y las recargas de la provincia, expresada en porcentaje. Indica qué proporción de lo recargado corresponde a retiros.</td></tr><tr><td><strong><code>% participación relación TRX</code></strong></td><td>Porcentaje de participación de la provincia en la Relación TRX.</td></tr></tbody></table>
 
 * **Resumen diario**
 
@@ -129,7 +129,7 @@ Comportamiento agregado de los puntos de venta por provincia.
 
 #### Visualización
 
-<figure><img src="../../../.gitbook/assets/image (282).png" alt=""><figcaption><p>Figura #2: Captura de pantalla vista estadísticas.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (285).png" alt=""><figcaption><p>Figura #2: Captura de pantalla vista estadísticas.</p></figcaption></figure>
 
 El contenido se organiza en dos subpestañas, ubicadas en la parte superior derecha: Visualizaciones y Tablas de detalle.
 
@@ -153,7 +153,7 @@ Cantidad de afiliados generados por concesionario y por punto de venta.
 
 #### Visualización
 
-<figure><img src="../../../.gitbook/assets/image (283).png" alt=""><figcaption><p>Figura #3: Captura de pantalla vista Afiliados.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (286).png" alt=""><figcaption><p>Figura #3: Captura de pantalla vista Afiliados.</p></figcaption></figure>
 
 En esta pestaña, el indicador **`Recargas/retiros`** se reemplaza este KPI:
 
