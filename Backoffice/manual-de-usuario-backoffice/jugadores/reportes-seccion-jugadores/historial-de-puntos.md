@@ -14,7 +14,7 @@ description: >-
 
 ### 2. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (494).png" alt=""><figcaption><p>Figura #1: Captura de pantalla historial de puntos.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (460).png" alt=""><figcaption><p>Figura #1: Captura de pantalla historial de puntos.</p></figcaption></figure>
 
 ***
 

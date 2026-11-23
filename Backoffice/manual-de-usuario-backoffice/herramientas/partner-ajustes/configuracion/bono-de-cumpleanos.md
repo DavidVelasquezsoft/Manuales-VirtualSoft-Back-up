@@ -16,7 +16,7 @@ description: >-
 
 ### 2. Visualización general
 
-<figure><img src="../../../../.gitbook/assets/image (49).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección bonos de cumpleaños.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (50).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección bonos de cumpleaños.</p></figcaption></figure>
 
 ***
 
@@ -24,7 +24,7 @@ description: >-
 
 <table><thead><tr><th width="206">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="bono-de-cumpleanos.md#id-4.-como-agregar-un-bono-de-cumpleanos">Asignar bono de cumpleaños</a></td><td>Permite otorgar un bono de cumpleaños a todos los jugadores cuyo cumpleaños coincida con la fecha en que se aplica el bono.</td></tr></tbody></table>
 
-#### 4. ¿Como agregar un bono de cumpleaños?&#x20;
+#### 4. ¿Como agregar un bono de cumpleaños?
 
 {% @guideflow/guideflow-embed requestedUrl="https://app.guideflow.com/player/8koonnlh5k" %}
 

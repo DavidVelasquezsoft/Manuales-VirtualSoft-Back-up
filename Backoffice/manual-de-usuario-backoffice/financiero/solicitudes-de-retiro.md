@@ -8,17 +8,17 @@ description: >-
 
 ### 1. Acceso al Módulo
 
-**Ruta de navegación**:  BackOffice > Financiero > Solicitudes de Retiro
+**Ruta de navegación**: BackOffice > Financiero > Solicitudes de Retiro
 
 ***
 
 ### 2. Visualización del Reporte
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption><p>Figura #1 Captura de pantalla reporte solicitud de retiros</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption><p>Figura #1 Captura de pantalla reporte solicitud de retiros</p></figcaption></figure>
 
 ***
 
-### &#x20;3. Acciones del Usuario
+### 3. Acciones del Usuario
 
 <table><thead><tr><th width="237.76654052734375">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Limpiar</strong></td><td>Reestablece los filtros por defecto.</td></tr><tr><td><a href="https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/financiero/solicitudes-de-retiro#id-5.-columnas-del-reporte"><strong>Consultar solicitudes de retiro</strong></a></td><td>Filtrar y visualizar retiros aplicando múltiples criterios de búsqueda.</td></tr><tr><td><strong>Aprobar o rechazar solicitudes</strong></td><td>Seleccionar varias solicitudes mediante las casillas de verificación de la tabla y ejecutar sobre todas ellas una misma acción (<em>✔ aprobar, ✖ rechazar o 💳 pagar</em>) en un solo paso, reduciendo el tiempo de procesamiento.</td></tr><tr><td><strong>Aprobar o rechazar solicitudes masivas</strong></td><td><p>Despliega un pop-up en el que se debe cargar un archivo .CSV que contenga los IDs de las solicitudes de retiro.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> La primera fila del archivo CSV debe contener el encabezado exacto <strong><code>Id Retiro</code></strong>.</p></div></td></tr><tr><td><a href="https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/financiero/solicitudes-de-retiro#id-6.-flujo-de-retiros-en-criptomonedas"><strong>Generar QR para criptomonedas</strong></a></td><td>Crear un código QR para retiros en criptomonedas y confirmar el pago manual.</td></tr><tr><td><strong>Exportar información</strong></td><td>Descargar los datos del reporte en el formato disponible.</td></tr><tr><td><a href="https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/financiero/solicitudes-de-retiro#ver-detalles-avanzados-lupa"><strong>Visualizar detalles avanzados</strong></a></td><td>Permite visualizar el detalle de cada registro, incluyendo sus movimientos y los usuarios que han interactuado con este, accediendo mediante el ícono de lupa 🔎.</td></tr></tbody></table>
 
@@ -34,7 +34,7 @@ description: >-
 {% endcolumn %}
 
 {% column width="58.33333333333333%" %}
-<table><thead><tr><th width="125">Nivel de riesgo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>No clasificado</code></strong></td><td>Corresponde a retiros asociados a usuarios que no cuentan con un score de riesgo asignado.</td></tr><tr><td><strong><code>Bajo</code></strong></td><td>Retiros asociados a usuarios con comportamiento normal dentro de la plataforma. </td></tr><tr><td><strong><code>Medio</code></strong></td><td>Retiros que presentan alertas o comportamientos irregulares. </td></tr><tr><td><strong><code>Alto</code></strong></td><td>Retiros asociados a usuarios con comportamientos sospechosos o inconsistencias relevantes. </td></tr></tbody></table>
+<table><thead><tr><th width="125">Nivel de riesgo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>No clasificado</code></strong></td><td>Corresponde a retiros asociados a usuarios que no cuentan con un score de riesgo asignado.</td></tr><tr><td><strong><code>Bajo</code></strong></td><td>Retiros asociados a usuarios con comportamiento normal dentro de la plataforma.</td></tr><tr><td><strong><code>Medio</code></strong></td><td>Retiros que presentan alertas o comportamientos irregulares.</td></tr><tr><td><strong><code>Alto</code></strong></td><td>Retiros asociados a usuarios con comportamientos sospechosos o inconsistencias relevantes.</td></tr></tbody></table>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -78,7 +78,7 @@ Este flujo describe de manera general las etapas que sigue un retiro en criptomo
 {% step %}
 **Creación del retiro:**
 
-&#x20;Se crea el retiro y queda en estado inicial **Activo**.
+Se crea el retiro y queda en estado inicial **Activo**.
 {% endstep %}
 
 {% step %}
@@ -122,7 +122,7 @@ Automáticamente aparecerá un **segundo pop up** con la advertencia: _¿Desea p
 {% step %}
 **Revisa la advertencia y selecciona una opción:**
 
-&#x20;• Haz clic en **Pagar nota** para continuar, el sistema procesará la solicitud de pago.\
+• Haz clic en **Pagar nota** para continuar, el sistema procesará la solicitud de pago.\
 • Haz clic en **Salir** si no deseas continuar, el proceso se cancelará.
 {% endstep %}
 
@@ -139,12 +139,9 @@ El pago quedará registrado y pasará a estado **pendiente de aprobación** por 
 *   Al hacer clic en _Generar QR_, se despliega un modal que contiene la siguiente información.
 
     <table><thead><tr><th width="250">Campo</th><th>Fuente / lógica</th></tr></thead><tbody><tr><td><a href="https://virtualsoft.gitbook.io/untitled/glosario#wallet-cripto">Dirección Wallet</a></td><td>dirección de la wallet asociada al retiro.</td></tr><tr><td><a href="https://virtualsoft.gitbook.io/untitled/glosario#red-blockchain">Red Blockchain</a></td><td>Configurada en la wallet seleccionada.</td></tr><tr><td><a href="https://virtualsoft.gitbook.io/untitled/glosario#criptomoneda">Criptomoneda</a></td><td>Asociada al retiro.</td></tr><tr><td>Monto en Fiat</td><td>Valor en moneda local.</td></tr><tr><td>Código QR</td><td>Dirección de la Wallet.</td></tr></tbody></table>
-
-
-
 * **Botones:**
 
-<table><thead><tr><th width="210">Botón </th><th>Descripcion</th></tr></thead><tbody><tr><td><strong>Confirmar Pago Manual</strong></td><td>Estado pasa a <strong>Pagado</strong>, se cierra el modal y se desactiva el botón QR.</td></tr><tr><td><strong>Cancelar</strong></td><td>Cierra modal sin cambios.</td></tr></tbody></table>
+<table><thead><tr><th width="210">Botón</th><th>Descripcion</th></tr></thead><tbody><tr><td><strong>Confirmar Pago Manual</strong></td><td>Estado pasa a <strong>Pagado</strong>, se cierra el modal y se desactiva el botón QR.</td></tr><tr><td><strong>Cancelar</strong></td><td>Cierra modal sin cambios.</td></tr></tbody></table>
 {% endtab %}
 {% endtabs %}
 {% endstep %}

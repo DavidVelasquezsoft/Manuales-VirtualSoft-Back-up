@@ -16,7 +16,7 @@ description: >-
 
 ### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/image (611).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección flujo de caja.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (567).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección flujo de caja.</p></figcaption></figure>
 
 ***
 
@@ -54,7 +54,5 @@ Aplica los filtros seleccionados y muestra los registros válidos.
 <summary>🔽Historial de versiones</summary>
 
 <table><thead><tr><th width="106.14813232421875">Versión</th><th width="116.77777099609375">Fecha</th><th width="164.5555419921875">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>2025-11-10</td><td>David Velasquez</td><td>Actualización de formato e incorporación de validaciones.</td></tr></tbody></table>
-
-
 
 </details>

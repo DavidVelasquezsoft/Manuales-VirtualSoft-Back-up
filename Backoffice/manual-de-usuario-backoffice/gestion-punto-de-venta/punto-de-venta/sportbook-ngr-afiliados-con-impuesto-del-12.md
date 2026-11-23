@@ -15,11 +15,11 @@ description: >-
 
 ### 2. Visualización:
 
-<figure><img src="../../../.gitbook/assets/image (529).png" alt=""><figcaption><p>figura#1: Captura de pantalla sección Sportbook NGR afiliados con impuesto del 12%.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (495).png" alt=""><figcaption><p>figura#1: Captura de pantalla sección Sportbook NGR afiliados con impuesto del 12%.</p></figcaption></figure>
 
 ### 3. Funcionalidades
 
-<table><thead><tr><th width="206">Campo</th><th width="117">Tipo de Control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Comisión Usuario</code></strong></td><td>Numérico</td><td>Porcentaje de la comisión que se le dará al usuario afiliado. </td></tr><tr><td><strong><code>Por Concesionario</code></strong></td><td>Numérico</td><td>Porcentaje de la comisión que se asigna al concesionario .</td></tr><tr><td><strong><code>Por Subconcesionario 1</code></strong></td><td>Numérico</td><td>Porcentaje de comisión destinada al primer subconcesionario.</td></tr><tr><td><strong><code>Por Subconcesionario 2</code></strong></td><td>Numérico</td><td>porcentaje de comisión destinada al segundo subconcesionario.</td></tr><tr><td><strong><code>Total</code></strong></td><td>Calculado</td><td>Suma de todas los campos establecidos anteriormente.</td></tr><tr><td><strong><code>Guardar</code></strong></td><td>Botón</td><td>Guarda la información en el sistema.</td></tr></tbody></table>
+<table><thead><tr><th width="206">Campo</th><th width="117">Tipo de Control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Comisión Usuario</code></strong></td><td>Numérico</td><td>Porcentaje de la comisión que se le dará al usuario afiliado.</td></tr><tr><td><strong><code>Por Concesionario</code></strong></td><td>Numérico</td><td>Porcentaje de la comisión que se asigna al concesionario .</td></tr><tr><td><strong><code>Por Subconcesionario 1</code></strong></td><td>Numérico</td><td>Porcentaje de comisión destinada al primer subconcesionario.</td></tr><tr><td><strong><code>Por Subconcesionario 2</code></strong></td><td>Numérico</td><td>porcentaje de comisión destinada al segundo subconcesionario.</td></tr><tr><td><strong><code>Total</code></strong></td><td>Calculado</td><td>Suma de todas los campos establecidos anteriormente.</td></tr><tr><td><strong><code>Guardar</code></strong></td><td>Botón</td><td>Guarda la información en el sistema.</td></tr></tbody></table>
 
 ***
 

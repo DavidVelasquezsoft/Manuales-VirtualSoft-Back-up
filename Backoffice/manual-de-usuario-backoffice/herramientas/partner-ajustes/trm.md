@@ -14,7 +14,7 @@
 
 ### 2. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (690).png" alt=""><figcaption><p>Figura #1: Captura de pantalla sección TRM partner ajustes</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (638).png" alt=""><figcaption><p>Figura #1: Captura de pantalla sección TRM partner ajustes</p></figcaption></figure>
 
 ***
 

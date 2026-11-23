@@ -12,7 +12,7 @@ Ruta de Acceso: Backoffice > Caja > Pago Premio virtuales
 
 ### 2. 🖼️ Visualización
 
-<figure><img src="../../.gitbook/assets/image (391).png" alt=""><figcaption><p>Figura#1:Captura de pantalla Filtros.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (362).png" alt=""><figcaption><p>Figura#1:Captura de pantalla Filtros.</p></figcaption></figure>
 
 ### 3. 🧑‍💻 Acciones disponibles
 

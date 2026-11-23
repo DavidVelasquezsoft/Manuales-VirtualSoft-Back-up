@@ -14,13 +14,13 @@ Si desea consultar todos los usuarios debe utilizar el reporte general de ruleta
 
 ### **1. Acceso al Módulo**
 
-**Ruta de acceso:** BackOffice > jugadores > Perfil del Jugador > reportes > Reporte Ruleta&#x20;
+**Ruta de acceso:** BackOffice > jugadores > Perfil del Jugador > reportes > Reporte Ruleta
 
 ***
 
 ### **2. Visualización**
 
-<figure><img src="../../../.gitbook/assets/image (58).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección reporte ruleta.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (59).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección reporte ruleta.</p></figcaption></figure>
 
 ***
 
@@ -46,7 +46,7 @@ Se puede consultar información aplicando los siguientes filtros:
 
 ### 5. Resultados de Consulta <a href="#id-4.2.-limpiar" id="id-4.2.-limpiar"></a>
 
-&#x20;Al realizar la búsqueda se muestran los siguientes datos en la tabla de resultados:
+Al realizar la búsqueda se muestran los siguientes datos en la tabla de resultados:
 
 <table><thead><tr><th width="222">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>ID Usuario</code></strong></td><td>Identificador único del jugador.</td></tr><tr><td><strong><code>Nombre Usuario</code></strong></td><td>Nombre o alias del jugador.</td></tr><tr><td><strong><code>ID Ruleta</code></strong></td><td>Identificador interno de la ruleta.</td></tr><tr><td><strong><code>Nombre Ruleta</code></strong></td><td>Nombre visible de la ruleta promocional.</td></tr><tr><td><strong><code>Fecha Activación</code></strong></td><td>Fecha y hora en que se asignó el giro al jugador.</td></tr><tr><td><strong><code>Fecha Redención</code></strong></td><td>Fecha y hora en que el jugador usó su giro (si aplica).</td></tr><tr><td><strong><code>Estado del Giro</code></strong></td><td>Estado actual: Pendiente, Pendiente Rollback, Activa, Redimido o Expirado.</td></tr><tr><td><strong><code>Premio Entregado</code></strong></td><td>Nombre del premio que se le otorgó.</td></tr><tr><td><strong><code>Tipo de Premio</code></strong></td><td>Tipo de beneficio otorgado (saldo freeBet, saldo premio, premio físico, etc).</td></tr><tr><td><strong><code>Detalle Premio</code></strong></td><td>ID del bono, monto, saldo entregado o descripción del premio físico.</td></tr><tr><td><strong><code>Partner</code></strong></td><td>Nombre del operador asignado al jugador.</td></tr><tr><td><strong><code>País</code></strong></td><td>País de residencia registrado.</td></tr></tbody></table>
 

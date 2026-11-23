@@ -39,7 +39,7 @@ Permite **activar, desactivar los subproveedores previamente asociados a un part
 **Nota:** Los cambios efectuados en este módulo se aplican automáticamente al ejecutar cualquiera de las acciones disponibles.
 {% endhint %}
 
-<figure><img src="../../../../.gitbook/assets/image (512).png" alt=""><figcaption><p>Figura #1: Captura de pantalla partner sub proveedores orden.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (478).png" alt=""><figcaption><p>Figura #1: Captura de pantalla partner sub proveedores orden.</p></figcaption></figure>
 
 ***
 
@@ -84,7 +84,7 @@ Cada vertical administra el orden de sus sub proveedores de forma independiente.
 <table><thead><tr><th width="194.16668701171875">Comportamiento</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Ubicación automática</strong></td><td>Al activar un sub proveedor, el sistema le asigna automáticamente la última posición disponible dentro de su vertical. Esto permite validar su funcionamiento sin alterar el orden comercial de los proveedores ya visibles para los jugadores.</td></tr><tr><td><strong>Reordenamiento manual</strong></td><td>Una vez validado el sub proveedor, su posición puede modificarse manualmente dentro de la misma vertical. Al hacerlo, el sistema reorganiza automáticamente las posiciones restantes para mantener una numeración continua y sin duplicados.</td></tr></tbody></table>
 
 {% hint style="warning" %}
-**Nota:**&#x20;
+**Nota:**
 
 * El orden definido manualmente se conserva hasta que vuelva a modificarse, y los cambios de posición de una vertical no afectan el orden de las demás.
 * El orden establecido en este módulo es el que se visualizará en el menú de proveedores de la plataforma de usuarios online.

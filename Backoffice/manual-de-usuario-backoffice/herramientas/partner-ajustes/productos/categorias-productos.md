@@ -14,7 +14,7 @@
 
 ### 2. Visualización
 
-<figure><img src="../../../../.gitbook/assets/image (695).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Categorías productos</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (643).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Categorías productos</p></figcaption></figure>
 
 ***
 

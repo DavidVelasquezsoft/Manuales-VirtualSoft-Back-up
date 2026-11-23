@@ -14,7 +14,7 @@
 
 ### 2. Visualización
 
-<figure><img src="../.gitbook/assets/image (727).png" alt=""><figcaption><p>Figura #1: Captura de pantalla sección documentos</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (673).png" alt=""><figcaption><p>Figura #1: Captura de pantalla sección documentos</p></figcaption></figure>
 
 ***
 

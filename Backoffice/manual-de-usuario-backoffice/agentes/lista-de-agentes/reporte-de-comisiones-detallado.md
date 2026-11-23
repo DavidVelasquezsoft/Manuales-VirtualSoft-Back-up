@@ -14,7 +14,7 @@ description: >-
 
 ### 2. Visualización:
 
-<figure><img src="../../../.gitbook/assets/image (530).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección reporte de comisiones.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (496).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección reporte de comisiones.</p></figcaption></figure>
 
 ### 3. Funcionalidades
 

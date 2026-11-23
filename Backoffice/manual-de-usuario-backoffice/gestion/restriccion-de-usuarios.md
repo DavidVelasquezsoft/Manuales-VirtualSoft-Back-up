@@ -14,13 +14,13 @@ description: >-
 
 ***
 
-### 2.  Visualización general <a href="#id-4.-visualizacion" id="id-4.-visualizacion"></a>
+### 2. Visualización general <a href="#id-4.-visualizacion" id="id-4.-visualizacion"></a>
 
-<figure><img src="../../.gitbook/assets/image (323).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección restricción de usuarios</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (303).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección restricción de usuarios</p></figcaption></figure>
 
 ***
 
-### 3.  Acciones de usuario
+### 3. Acciones de usuario
 
 <table><thead><tr><th width="192.66668701171875">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="restriccion-de-usuarios.md#id-3.1.-filtros"><strong>Filtros</strong></a></td><td>Permiten filtrar la información para obtener resultados mas precisos.</td></tr><tr><td><strong>Limpiar</strong></td><td>Restablece todos los filtros a su estado inicial.</td></tr><tr><td><a href="restriccion-de-usuarios.md#id-3.2.-consultar"><strong>Consultar</strong></a></td><td>Aplica los filtros seleccionados y muestra las restricciones validas.</td></tr><tr><td><a href="restriccion-de-usuarios.md#id-3.4.-carga-masiva-de-restricciones"><strong>Cargar CSV</strong></a></td><td>Permite cargar un archivo tipo <a href="https://virtualsoft.gitbook.io/untitled/glosario/#csv">CSV</a> para aplicar restricciones a varios usuarios simultáneamente</td></tr><tr><td><a href="restriccion-de-usuarios.md#id-3.3.-creacion-de-una-restriccion"><strong>Crear restricción</strong></a></td><td>Permite crear una nueva restricción para un usuario.</td></tr><tr><td><strong>Exportar</strong></td><td>El botón <strong>Exportar</strong> en la parte inferior derecha del reporte permite descargar los resultados obtenidos con los filtros aplicados en los formatos <strong>Excel (.XLS)</strong> y <strong>PDF.</strong></td></tr></tbody></table>
 
@@ -34,7 +34,7 @@ Permite visualizar las restricciones validas segun los filtros, con los siguient
 
 <table><thead><tr><th width="146.77783203125">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Acciones</code></strong></td><td>Permite gestionar la restricción mediante las siguientes acciones.</td></tr><tr><td><strong><code>ID</code></strong></td><td>Identificador único asignado por el sistema para identificar la restricción.</td></tr><tr><td><strong><code>Tipo</code></strong></td><td>Categoría o tipo de restricción aplicada al usuario.</td></tr><tr><td><strong><code>Email</code></strong></td><td>Dirección de correo electrónico del usuario restringido.</td></tr><tr><td><strong><code>Documento</code></strong></td><td>Número de identificación del usuario restringido según el documento registrado.</td></tr><tr><td><strong><code>Tipo de Documento</code></strong></td><td>Tipo de documento de identificación del usuario.</td></tr><tr><td><strong><code>Nombre</code></strong></td><td>Nombre completo del usuario al que se le aplicó la restricción.</td></tr><tr><td><strong><code>Teléfono</code></strong></td><td>Número telefónico asociado al usuario restringido.</td></tr><tr><td><strong><code>Partner</code></strong></td><td><a href="https://virtualsoft.gitbook.io/untitled/glosario/#partner">Partner</a> en el que se restringió el usuario.</td></tr><tr><td><strong><code>País</code></strong></td><td>País de residencia asociado al usuario restringido.</td></tr><tr><td><strong><code>Usuario de Creación</code></strong></td><td>Usuario del sistema que registró la restricción.</td></tr><tr><td><strong><code>Fecha de Creación</code></strong></td><td>Fecha en la que la restricción fue creada en el sistema.</td></tr><tr><td><strong><code>Estado del Usuario</code></strong></td><td>Indica si el usuario se encuentra activo o inactivo en la plataforma.</td></tr><tr><td><strong><code>Fecha de Modificación</code></strong></td><td>Fecha de la última actualización realizada sobre la restricción.</td></tr><tr><td><strong><code>Nota</code></strong></td><td>Observaciones o comentarios adicionales relacionados con la restricción aplicada.</td></tr></tbody></table>
 
-### **6.  Creación de una Restricción**
+### **6. Creación de una Restricción**
 
 Abre modal que permite crear una nueva restricción a un usuario con los siguientes campos obligatorios:
 

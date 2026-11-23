@@ -14,7 +14,7 @@
 
 ### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/image (472).png" alt=""><figcaption><p>Figura #1: Captura de pantalla informe del premio mayor - casino.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (438).png" alt=""><figcaption><p>Figura #1: Captura de pantalla informe del premio mayor - casino.</p></figcaption></figure>
 
 ***
 

@@ -14,7 +14,7 @@ Ruta de Acceso: Backoffice > Gestión > Trabaja con Nosotros
 
 ### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/image (308).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección Trabaja con nosotros.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (289).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección Trabaja con nosotros.</p></figcaption></figure>
 
 ***
 

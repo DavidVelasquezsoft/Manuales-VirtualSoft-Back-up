@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Reporte de Apuestas
@@ -33,11 +35,11 @@ layout:
 
 ### 2. Visualización
 
-<figure><img src="../../../../.gitbook/assets/image (700).png" alt=""><figcaption><p>Figura #1: Captura de pantalla reporte de Apuestas.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (648).png" alt=""><figcaption><p>Figura #1: Captura de pantalla reporte de Apuestas.</p></figcaption></figure>
 
 ***
 
-### 3.  Acciones de usuario
+### 3. Acciones de usuario
 
 <table><thead><tr><th width="170.4444580078125">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/gestion-punto-de-venta/punto-de-venta/reportes/reporte-de-apuestas#id-4.-filtros"><strong>Filtros</strong></a></td><td>Permite buscar el historial de las apuestas realizadas por el punto de venta con la ayuda de filtros.</td></tr><tr><td><strong>Limpiar</strong></td><td>Restablece los filtros por defecto.</td></tr><tr><td><a href="https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/gestion-punto-de-venta/punto-de-venta/reportes/reporte-de-apuestas#id-5.-resultado-de-consulta"><strong>Consultar</strong></a></td><td>Aplica los filtros configurados y obtén los resultados.</td></tr><tr><td><strong>Exportar</strong></td><td>Permite exportar los resultados obtenidos según los filtros aplicados en formatos Excel <em>(.XLS)</em> y PDF mediante el botón <strong>Exportar</strong>, ubicado en la parte inferior derecha de la pantalla.</td></tr></tbody></table>
 

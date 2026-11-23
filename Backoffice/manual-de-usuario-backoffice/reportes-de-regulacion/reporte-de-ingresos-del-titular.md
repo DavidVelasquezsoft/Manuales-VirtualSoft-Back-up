@@ -14,7 +14,7 @@
 
 ### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/image (362).png" alt=""><figcaption><p>Figura#1: Captura de la sección reporte de ingresos del titular.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (337).png" alt=""><figcaption><p>Figura#1: Captura de la sección reporte de ingresos del titular.</p></figcaption></figure>
 
 ***
 

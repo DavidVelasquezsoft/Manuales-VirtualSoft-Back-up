@@ -16,7 +16,7 @@ description: Permite configurar funcionalidades específicas dentro de la plataf
 
 ### 2. Visualización <a href="#id-4.-visualizacion" id="id-4.-visualizacion"></a>
 
-<figure><img src="../../../../.gitbook/assets/image (547).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Verticales</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (512).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Verticales</p></figcaption></figure>
 
 ***
 
@@ -26,8 +26,6 @@ Selecciona el tipo de perfil para configurar las verticales. Cada opción dispon
 
 {% hint style="danger" %}
 **Nota importante:** El funcionamiento de los campos se define de la siguiente manera:
-
-
 
 * Si el valor es **“Sí”**, la sección permanecerá desactivada con la [contingencia](https://virtualsoft.gitbook.io/untitled/glosario/#contingencia) activa para esa sección.
 * Si el valor es **“No”**, la sección estará disponible en la plataforma sin [contigencia](https://virtualsoft.gitbook.io/untitled/glosario/#contingencia).

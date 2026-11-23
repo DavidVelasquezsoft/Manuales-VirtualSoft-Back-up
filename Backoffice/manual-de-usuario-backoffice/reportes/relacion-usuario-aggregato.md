@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Relación Usuario Aggregato
@@ -33,7 +35,7 @@ layout:
 
 ### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/image (672).png" alt=""><figcaption><p>Figura #1: Vista general del Reporte Comisiones Global.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (622).png" alt=""><figcaption><p>Figura #1: Vista general del Reporte Comisiones Global.</p></figcaption></figure>
 
 ***
 
@@ -61,10 +63,8 @@ Los filtros se utilizan para buscar información de forma más precisa según lo
 
 <details>
 
-<summary>🕛 Historial de versiones </summary>
+<summary>🕛 Historial de versiones</summary>
 
 <table><thead><tr><th width="106">Versión</th><th width="129">Fecha</th><th width="149">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>21-05-2026</td><td>Ronald Peláez</td><td>Documentación inicial.</td></tr></tbody></table>
-
-
 
 </details>

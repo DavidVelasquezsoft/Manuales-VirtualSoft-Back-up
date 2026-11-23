@@ -37,7 +37,7 @@ layout:
 
 ### 2. Visualización <a href="#id-2.-visualizacion" id="id-2.-visualizacion"></a>
 
-<figure><img src="../../.gitbook/assets/image (702).png" alt=""><figcaption><p>Figura #1: Captura de pantalla módulo perfiles-options.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (650).png" alt=""><figcaption><p>Figura #1: Captura de pantalla módulo perfiles-options.</p></figcaption></figure>
 
 ***
 

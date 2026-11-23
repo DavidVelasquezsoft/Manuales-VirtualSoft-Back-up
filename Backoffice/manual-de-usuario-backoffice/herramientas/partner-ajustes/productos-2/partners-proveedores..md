@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Partners Proveedores.
@@ -33,7 +35,7 @@ Este módulo permite gestionar esa asociación de forma directa, es decir, agreg
 
 ### 2. Visualización
 
-<figure><img src="../../../../.gitbook/assets/image (652).png" alt=""><figcaption><p>Figura#1: Captura de pantalla activación de partners.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (605).png" alt=""><figcaption><p>Figura#1: Captura de pantalla activación de partners.</p></figcaption></figure>
 
 ***
 
@@ -45,7 +47,7 @@ Este módulo permite gestionar esa asociación de forma directa, es decir, agreg
 
 ### **4. 🔍 Filtros principales**
 
-<table><thead><tr><th width="160">Campo</th><th width="160">Tipo de Control</th><th width="426">Descripción</th></tr></thead><tbody><tr><td><strong><code>Proveedor</code></strong></td><td>Lista desplegable</td><td>Permite filtrar por proveedores previamente creados.</td></tr><tr><td><strong><code>Partner Referencia</code></strong></td><td>Lista desplegable</td><td><p>Permite seleccionar el <em>partner</em> sobre el cual se realizará la gestión. </p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota</strong>:  Al aplicarlo, se filtran los proveedores y, en la lista de asociados, se visualizarán únicamente los vinculados a ese <em>partner</em>. Adicionalmente, cualquier acción realizada ejecutará sobre este <em>partner</em> seleccionado.</p></div></td></tr><tr><td><strong><code>País</code></strong></td><td>Lista desplegable</td><td>Campo obligatorio requerido para habilitar la ejecución de la consulta. Su selección no afecta los resultados mostrados ni las acciones realizadas sobre los proveedores; únicamente activa el botón <strong>Consultar</strong>.</td></tr></tbody></table>
+<table><thead><tr><th width="160">Campo</th><th width="160">Tipo de Control</th><th width="426">Descripción</th></tr></thead><tbody><tr><td><strong><code>Proveedor</code></strong></td><td>Lista desplegable</td><td>Permite filtrar por proveedores previamente creados.</td></tr><tr><td><strong><code>Partner Referencia</code></strong></td><td>Lista desplegable</td><td><p>Permite seleccionar el <em>partner</em> sobre el cual se realizará la gestión.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota</strong>: Al aplicarlo, se filtran los proveedores y, en la lista de asociados, se visualizarán únicamente los vinculados a ese <em>partner</em>. Adicionalmente, cualquier acción realizada ejecutará sobre este <em>partner</em> seleccionado.</p></div></td></tr><tr><td><strong><code>País</code></strong></td><td>Lista desplegable</td><td>Campo obligatorio requerido para habilitar la ejecución de la consulta. Su selección no afecta los resultados mostrados ni las acciones realizadas sobre los proveedores; únicamente activa el botón <strong>Consultar</strong>.</td></tr></tbody></table>
 
 #### **4.1. 📊Resultados**
 

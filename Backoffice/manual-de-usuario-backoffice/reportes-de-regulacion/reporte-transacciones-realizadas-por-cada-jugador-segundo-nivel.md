@@ -14,7 +14,7 @@
 
 ### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/image (374).png" alt=""><figcaption><p>Figura#1: Captura de pantalla reporte transacciones realizadas por cada jugador Segundo Nivel.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (347).png" alt=""><figcaption><p>Figura#1: Captura de pantalla reporte transacciones realizadas por cada jugador Segundo Nivel.</p></figcaption></figure>
 
 ***
 

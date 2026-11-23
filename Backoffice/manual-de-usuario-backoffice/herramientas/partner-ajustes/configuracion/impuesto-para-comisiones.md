@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Impuesto para comisiones
@@ -33,7 +35,7 @@ Este módulo permite configurar y gestionar los impuestos aplicables a las comis
 
 ### 2. Visualización General
 
-<figure><img src="../../../../.gitbook/assets/image (628).png" alt=""><figcaption><p>Figura #1: Captura de pantalla impuestos para comisiones.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (582).png" alt=""><figcaption><p>Figura #1: Captura de pantalla impuestos para comisiones.</p></figcaption></figure>
 
 ***
 

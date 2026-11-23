@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Partners Categorías
@@ -31,7 +33,7 @@ layout:
 
 ### 2. Visualización
 
-<figure><img src="../../../../.gitbook/assets/image (713).png" alt=""><figcaption><p>Figura #1: Captura de pantalla sección partner categorias</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (660).png" alt=""><figcaption><p>Figura #1: Captura de pantalla sección partner categorias</p></figcaption></figure>
 
 ***
 

@@ -17,11 +17,13 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Partners Franquicias
 
-<mark style="color:$info;">Desde este módulo podrás activar</mark> [<mark style="color:$info;">franquicias</mark>](https://virtualsoft.gitbook.io/plantillas/glosario?fallback=true#franquicia) <mark style="color:$info;">a un partner según el país correspondiente.</mark>&#x20;
+<mark style="color:$info;">Desde este módulo podrás activar</mark> [<mark style="color:$info;">franquicias</mark>](https://virtualsoft.gitbook.io/plantillas/glosario?fallback=true#franquicia) <mark style="color:$info;">a un partner según el país correspondiente.</mark>
 
 ***
 
@@ -31,9 +33,9 @@ layout:
 
 ***
 
-### 2. Visualización&#x20;
+### 2. Visualización
 
-<figure><img src="../../../../.gitbook/assets/image (685).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Módulo Partners Franquicias.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (633).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Módulo Partners Franquicias.</p></figcaption></figure>
 
 ***
 
@@ -54,13 +56,11 @@ Permite consultar y administrar las franquicias asociadas a un partner según el
 ### 5. Gestión de franquicias
 
 {% hint style="warning" %}
-Nota:&#x20;
+Nota:
 
 Las franquicias inicialmente aparecen en el panel "Franquicias no agregadas", para que aparezca aquí es necesario crearla desde [Menú principal > Productos > Franquicias](https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/productos/franquicias).
 
 Luego de activar la franquicia al partner _(desde este módulo)_ es necesario asignarle las pasarelas de pago a dicha franquicia desde [Herramientas > Partner ajustes > Productos > Productos franquicia](https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/herramientas/partner-ajustes/productos/productos-franquicia).
-
-
 {% endhint %}
 
 Una vez realizada la consulta, las franquicias se mostrarán en dos paneles:

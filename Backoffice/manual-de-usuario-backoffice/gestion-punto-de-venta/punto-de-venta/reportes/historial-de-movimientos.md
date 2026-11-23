@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Historial de movimientos
@@ -33,7 +35,7 @@ layout:
 
 ### 2. Visualización
 
-<figure><img src="../../../../.gitbook/assets/image (710).png" alt=""><figcaption><p>Figura #1: Captura de pantalla reporte Historial de Movimientos.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (657).png" alt=""><figcaption><p>Figura #1: Captura de pantalla reporte Historial de Movimientos.</p></figcaption></figure>
 
 ***
 

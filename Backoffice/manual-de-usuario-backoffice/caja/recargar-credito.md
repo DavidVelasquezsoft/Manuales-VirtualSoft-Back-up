@@ -12,7 +12,7 @@
 
 ### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/image (356).png" alt=""><figcaption><p>Figura #1: Captura de pantalla sección recargar crédito.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (332).png" alt=""><figcaption><p>Figura #1: Captura de pantalla sección recargar crédito.</p></figcaption></figure>
 
 ***
 

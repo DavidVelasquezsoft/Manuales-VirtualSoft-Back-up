@@ -12,17 +12,17 @@ description: >-
 
 ### 1. Acceso al módulo
 
-**Ruta de acceso**: Backoffice > productos > Proveedores Activos&#x20;
+**Ruta de acceso**: Backoffice > productos > Proveedores Activos
 
 ***
 
 ### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/image (630).png" alt=""><figcaption><p>Figura #1: Captura de pantalla sección proveedores activos</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (584).png" alt=""><figcaption><p>Figura #1: Captura de pantalla sección proveedores activos</p></figcaption></figure>
 
 ***
 
-### 3.  Acciones disponibles
+### 3. Acciones disponibles
 
 <table><thead><tr><th width="192.66668701171875">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="proveedores-activos.md#id-3.1.-filtros"><strong>Filtros</strong></a></td><td>Permiten filtrar la información para obtener resultados mas precisos.</td></tr><tr><td><strong>Limpiar</strong></td><td>Restablece todos los filtros a su estado inicial.</td></tr><tr><td><a href="proveedores-activos.md#id-3.2.-consultar"><strong>Consultar</strong></a></td><td>Aplica los filtros seleccionados y muestra los proveedores y subproveedores válidos.</td></tr><tr><td><strong>Exportar</strong></td><td>El botón <strong>Exportar</strong> en la parte inferior derecha del reporte permite descargar los resultados obtenidos con los filtros aplicados en los formatos <strong>Excel (.XLS)</strong> y <strong>PDF.</strong></td></tr></tbody></table>
 

@@ -17,22 +17,22 @@ Al seleccionar un perfil, se desplegarán diversas opciones que permiten activar
 
 Si la opción está activada (**"Sí"**), se habilitará un campo adicional llamado **"Comisión"**, donde se debe ingresar el porcentaje correspondiente que se otorgará al perfil seleccionado.
 
-<figure><img src="../../../../.gitbook/assets/image (291).png" alt=""><figcaption><p>Figura#1: Captura de pantalla seccion Límites de Comisión.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (272).png" alt=""><figcaption><p>Figura#1: Captura de pantalla seccion Límites de Comisión.</p></figcaption></figure>
 
-&#x20;**Configuraciones Disponibles**
+**Configuraciones Disponibles**
 
-* [**Sportbook**](https://app.gitbook.com/o/QcwavWzh0dfIwPyknoIT/s/mbqa0WvDWam8G20QQoIZ/#sportsbook) **GGR Punto de Venta IP**\
-  Permite asignar un porcentaje de comisión sobre el [**GGR**](https://app.gitbook.com/o/QcwavWzh0dfIwPyknoIT/s/mbqa0WvDWam8G20QQoIZ/#ggr) **(Gross Gaming Revenue)** generado a través de las apuestas deportivas en un punto de venta específico, considerando la dirección IP de las transacciones para identificar su origen.
+* [**Sportbook**](https://app.gitbook.com/s/mbqa0WvDWam8G20QQoIZ/#sportsbook) **GGR Punto de Venta IP**\
+  Permite asignar un porcentaje de comisión sobre el [**GGR**](https://app.gitbook.com/s/mbqa0WvDWam8G20QQoIZ/#ggr) **(Gross Gaming Revenue)** generado a través de las apuestas deportivas en un punto de venta específico, considerando la dirección IP de las transacciones para identificar su origen.
 * **Depósito Punto de Venta**\
   Configura la comisión que se otorgará por cada depósito realizado en un punto de venta. Esta opción es útil para incentivar a los operadores a gestionar depósitos de manera eficiente.
 * **Notas de Retiro Punto de Venta**\
   Define el porcentaje de comisión sobre los retiros procesados en un punto de venta. Permite controlar los costos asociados a las operaciones de retiro de fondos por parte de los usuarios.
 * **Sportbook GGR Afiliados**\
-  Permite establecer un porcentaje de comisión para los afiliados basado en el [**GGR**](https://app.gitbook.com/o/QcwavWzh0dfIwPyknoIT/s/mbqa0WvDWam8G20QQoIZ/#ggr) generado por las apuestas deportivas realizadas a través de sus referidos.
+  Permite establecer un porcentaje de comisión para los afiliados basado en el [**GGR**](https://app.gitbook.com/s/mbqa0WvDWam8G20QQoIZ/#ggr) generado por las apuestas deportivas realizadas a través de sus referidos.
 * **Sportbook NGR Afiliados**\
   Configura la comisión sobre el **NGR (Net Gaming Revenue)** obtenido de las apuestas deportivas generadas por los afiliados, considerando descuentos aplicados como bonificaciones y promociones.
 * **Sportbook GGR Punto de Venta**\
-  Asigna una comisión sobre el [**GGR**](https://app.gitbook.com/o/QcwavWzh0dfIwPyknoIT/s/mbqa0WvDWam8G20QQoIZ/#ggr) obtenido en los puntos de venta físicos o digitales.
+  Asigna una comisión sobre el [**GGR**](https://app.gitbook.com/s/mbqa0WvDWam8G20QQoIZ/#ggr) obtenido en los puntos de venta físicos o digitales.
 * **Apuestas Sport Punto de Venta**\
   Permite definir un porcentaje de comisión sobre el volumen total de apuestas deportivas realizadas en un punto de venta.
 * **Casino NGR Afiliados**\

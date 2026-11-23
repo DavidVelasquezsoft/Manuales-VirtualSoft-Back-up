@@ -1,6 +1,6 @@
 # Informe Del Premio Mayor - Deportivas (8.7.6)
 
-<mark style="color:$info;">Esta sección presenta el</mark> <mark style="color:$info;"></mark><mark style="color:$info;">**Informe del Premio Mayor (Jackpot)**</mark> <mark style="color:$info;"></mark><mark style="color:$info;">de la</mark> [<mark style="color:$info;">vertical</mark>](https://virtualsoft.gitbook.io/plantillas/glosario#vertical) <mark style="color:$info;">Deportivas, elaborado conforme a la regulación de</mark> <mark style="color:$info;"></mark><mark style="color:$info;">**Mincetur - Perú**</mark><mark style="color:$info;">. Muestra la distribución de los premios entre los juegos que aportaron al Jackpot, garantizando transparencia y trazabilidad en cada pago.</mark>
+<mark style="color:$info;">Esta sección presenta el</mark> <mark style="color:$info;">**Informe del Premio Mayor (Jackpot)**</mark> <mark style="color:$info;">de la</mark> [<mark style="color:$info;">vertical</mark>](https://virtualsoft.gitbook.io/plantillas/glosario#vertical) <mark style="color:$info;">Deportivas, elaborado conforme a la regulación de</mark> <mark style="color:$info;">**Mincetur - Perú**</mark><mark style="color:$info;">. Muestra la distribución de los premios entre los juegos que aportaron al Jackpot, garantizando transparencia y trazabilidad en cada pago.</mark>
 
 {% hint style="warning" %}
 **Nota:** El acceso al módulo requiere permisos específicos; en caso de no contar con ellos, el reporte no será visible.
@@ -14,7 +14,7 @@
 
 ### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/image (459).png" alt=""><figcaption><p>Figura #1: Captura de pantalla informe del premio mayor - Deportivas.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (425).png" alt=""><figcaption><p>Figura #1: Captura de pantalla informe del premio mayor - Deportivas.</p></figcaption></figure>
 
 ***
 

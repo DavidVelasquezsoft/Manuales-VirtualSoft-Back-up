@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Árbol de Agentes
@@ -33,7 +35,7 @@ layout:
 
 ### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/image (235).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección árbol de agentes.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (227).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección árbol de agentes.</p></figcaption></figure>
 
 ***
 

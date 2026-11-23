@@ -18,7 +18,7 @@ description: >-
 
 ### 2. Visualización:
 
-<figure><img src="../../../.gitbook/assets/image (545).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección premios de lealtad.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (510).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección premios de lealtad.</p></figcaption></figure>
 
 ***
 
@@ -30,7 +30,7 @@ description: >-
 
 ### 4. Filtros disponibles
 
-<table><thead><tr><th width="137">Filtro</th><th width="168">Tipo de campo</th><th width="441">Descripción</th></tr></thead><tbody><tr><td><strong><code>ID regalo</code></strong></td><td>Numérico</td><td>Identificador único asignado al regalo. Permite buscar un premio específico recibido por el jugador.</td></tr><tr><td><strong><code>Fecha</code></strong></td><td>Calendario (rango)</td><td>Rango de fechas en que se otorgó el premio.</td></tr><tr><td><strong><code>Fecha de modificación</code></strong></td><td>Calendario (rango)</td><td>Rango de fechas en que el premio fue modificado (por ejemplo: cambios de estado o ajustes administrativos).</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Lista desplegable</td><td>Estado actual del premio (por ejemplo: <em>Comprado</em>, <em>Entregado</em>).</td></tr><tr><td><strong><code>Tipo</code></strong></td><td>Lista desplegable</td><td> Tipo por el cual se otorgó el premio (por ejemplo: <em>Online</em>, <em>Presencial</em>).</td></tr></tbody></table>
+<table><thead><tr><th width="137">Filtro</th><th width="168">Tipo de campo</th><th width="441">Descripción</th></tr></thead><tbody><tr><td><strong><code>ID regalo</code></strong></td><td>Numérico</td><td>Identificador único asignado al regalo. Permite buscar un premio específico recibido por el jugador.</td></tr><tr><td><strong><code>Fecha</code></strong></td><td>Calendario (rango)</td><td>Rango de fechas en que se otorgó el premio.</td></tr><tr><td><strong><code>Fecha de modificación</code></strong></td><td>Calendario (rango)</td><td>Rango de fechas en que el premio fue modificado (por ejemplo: cambios de estado o ajustes administrativos).</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Lista desplegable</td><td>Estado actual del premio (por ejemplo: <em>Comprado</em>, <em>Entregado</em>).</td></tr><tr><td><strong><code>Tipo</code></strong></td><td>Lista desplegable</td><td>Tipo por el cual se otorgó el premio (por ejemplo: <em>Online</em>, <em>Presencial</em>).</td></tr></tbody></table>
 
 ***
 

@@ -17,7 +17,7 @@ description: >-
 
 ### 2. Visualización general
 
-<figure><img src="../../../../.gitbook/assets/image (607).png" alt=""><figcaption><p>Figura#1: Captura de pantalla filtros de búsqueda.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (563).png" alt=""><figcaption><p>Figura#1: Captura de pantalla filtros de búsqueda.</p></figcaption></figure>
 
 ***
 
@@ -39,7 +39,7 @@ Estos filtros permiten acotar la consulta y localizar la credencial deseada. Nin
 
 Al ejecutar la búsqueda, el sistema mostrará una tabla en la parte inferior de la pantalla con los resultados correspondientes.
 
-<table><thead><tr><th width="146">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="credenciales-por-subproveedor.md#id-2.2.1-editar"><code>✏️ </code><strong><code>(Editar)</code></strong><code>.</code></a></td><td>Al hacer clic en este ícono, se abrirá un pop-up que permite editar la información correspondiente a la credencial seleccionada.</td></tr><tr><td><strong><code>ID</code></strong></td><td>Código único que identifica la credencial dentro del sistema.</td></tr><tr><td><strong><code>Proveedor</code></strong></td><td>Nombre del proveedor principal.</td></tr><tr><td><strong><code>SubProveedor</code></strong></td><td>Nombre asignado al subproveedor. </td></tr><tr><td><a href="https://virtualsoft.gitbook.io/untitled/glosario#partner"><strong><code>Partner</code></strong></a></td><td>Nombre del partner asociado al subproveedor.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Indica si la credencial está activa o inactiva.</td></tr><tr><td><strong><code>País</code></strong></td><td>País en el que se encuentra operativo  subproveedor, o donde se aplicará la credencial.</td></tr></tbody></table>
+<table><thead><tr><th width="146">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="credenciales-por-subproveedor.md#id-2.2.1-editar"><code>✏️ </code><strong><code>(Editar)</code></strong><code>.</code></a></td><td>Al hacer clic en este ícono, se abrirá un pop-up que permite editar la información correspondiente a la credencial seleccionada.</td></tr><tr><td><strong><code>ID</code></strong></td><td>Código único que identifica la credencial dentro del sistema.</td></tr><tr><td><strong><code>Proveedor</code></strong></td><td>Nombre del proveedor principal.</td></tr><tr><td><strong><code>SubProveedor</code></strong></td><td>Nombre asignado al subproveedor.</td></tr><tr><td><a href="https://virtualsoft.gitbook.io/untitled/glosario#partner"><strong><code>Partner</code></strong></a></td><td>Nombre del partner asociado al subproveedor.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Indica si la credencial está activa o inactiva.</td></tr><tr><td><strong><code>País</code></strong></td><td>País en el que se encuentra operativo subproveedor, o donde se aplicará la credencial.</td></tr></tbody></table>
 
 ***
 

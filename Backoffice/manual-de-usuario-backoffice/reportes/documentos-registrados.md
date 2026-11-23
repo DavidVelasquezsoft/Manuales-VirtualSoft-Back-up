@@ -14,7 +14,7 @@
 
 ### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/image (726).png" alt=""><figcaption><p>Figura #1: Captura de pantalla sección Documentos registrados.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (672).png" alt=""><figcaption><p>Figura #1: Captura de pantalla sección Documentos registrados.</p></figcaption></figure>
 
 ***
 
@@ -98,8 +98,6 @@ Mediante el botón **`Añadir documento`** se despliega una ventana emergente co
 {% endcolumn %}
 
 {% column width="66.66666666666667%" %}
-
-
 <table><thead><tr><th width="126">Tipo de acceso</th><th>Comportamiento</th></tr></thead><tbody><tr><td><strong>Informativo</strong></td><td>El documento <strong>no se presenta mediante ventana emergente</strong>. Queda disponible en la sección <a href="../documentos.md"><strong>Documentos</strong></a> para que los perfiles autorizados lo consulten y lo descarguen cuando lo necesiten, sin interrumpir el uso de la plataforma ni requerir ninguna aceptación.</td></tr><tr><td><strong>Aprobación</strong></td><td>Al ingresar al BackOffice, el usuario visualiza una ventana emergente con el documento para que lo lea y lo acepte. La ventana <strong>continúa apareciendo en cada ingreso hasta que el usuario lo acepta</strong>. Además, el documento queda disponible en la sección <a href="../documentos.md"><strong>Documentos</strong></a> para su consulta y descarga; la aceptación <strong>no lo oculta</strong> del listado.</td></tr></tbody></table>
 {% endcolumn %}
 {% endcolumns %}

@@ -14,7 +14,7 @@
 
 ### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/image (253).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección Reporte de eventos significativos y alteraciones</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (244).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección Reporte de eventos significativos y alteraciones</p></figcaption></figure>
 
 ***
 

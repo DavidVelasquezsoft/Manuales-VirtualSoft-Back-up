@@ -14,7 +14,7 @@ description: >-
 
 ### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/image (566).png" alt=""><figcaption><p>Figura#1: Captura de pantalla reporte de transacciones de apuestas.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (529).png" alt=""><figcaption><p>Figura#1: Captura de pantalla reporte de transacciones de apuestas.</p></figcaption></figure>
 
 ***
 
@@ -26,7 +26,7 @@ description: >-
 
 ### 4. **Filtros principales**
 
-<table><thead><tr><th width="141">Campo</th><th width="146">Tipo de Control</th><th width="460">Descripción</th></tr></thead><tbody><tr><td><strong><code>ID Usuario</code></strong></td><td>Numérico</td><td>Identificación única del usuario que realizó la transacción.</td></tr><tr><td><strong><code>Ticket</code></strong></td><td>Numérico</td><td>Número único asignado a cada transacción.</td></tr><tr><td><p><strong><code>Fecha de</code></strong> </p><p><strong><code>Creación</code></strong></p></td><td>Calendario</td><td>Rango de fechas en que se crearon las transacciones.</td></tr><tr><td><strong><code>País</code></strong></td><td>Lista desplegable</td><td>País asociado a la transacción.</td></tr><tr><td><p><strong><code>Tipo</code></strong> </p><p><strong><code>Transferencia</code></strong></p></td><td>Lista desplegable</td><td>Clasificación del tipo de movimiento realizado.</td></tr><tr><td><strong><code>Tipo Reporte</code></strong></td><td>Lista desplegable</td><td>Permite elegir el formato del reporte: <em>Detallado o Totales</em>.</td></tr></tbody></table>
+<table><thead><tr><th width="141">Campo</th><th width="146">Tipo de Control</th><th width="460">Descripción</th></tr></thead><tbody><tr><td><strong><code>ID Usuario</code></strong></td><td>Numérico</td><td>Identificación única del usuario que realizó la transacción.</td></tr><tr><td><strong><code>Ticket</code></strong></td><td>Numérico</td><td>Número único asignado a cada transacción.</td></tr><tr><td><p><strong><code>Fecha de</code></strong></p><p><strong><code>Creación</code></strong></p></td><td>Calendario</td><td>Rango de fechas en que se crearon las transacciones.</td></tr><tr><td><strong><code>País</code></strong></td><td>Lista desplegable</td><td>País asociado a la transacción.</td></tr><tr><td><p><strong><code>Tipo</code></strong></p><p><strong><code>Transferencia</code></strong></p></td><td>Lista desplegable</td><td>Clasificación del tipo de movimiento realizado.</td></tr><tr><td><strong><code>Tipo Reporte</code></strong></td><td>Lista desplegable</td><td>Permite elegir el formato del reporte: <em>Detallado o Totales</em>.</td></tr></tbody></table>
 
 ***
 

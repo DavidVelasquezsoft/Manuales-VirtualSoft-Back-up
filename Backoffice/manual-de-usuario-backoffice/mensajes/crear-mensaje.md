@@ -12,7 +12,7 @@ description: Permite visualizar y crear mensajes guiados a usuarios en la plataf
 
 ### 2. 🖼️ Visualización
 
-<figure><img src="../../.gitbook/assets/image (635).png" alt=""><figcaption><p>Figura #1: Captura de pantalla sección mensajes</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (589).png" alt=""><figcaption><p>Figura #1: Captura de pantalla sección mensajes</p></figcaption></figure>
 
 ***
 
@@ -34,7 +34,7 @@ Aplica los filtros seleccionados y presenta los resultados de los mensajes valid
 
 Permite crear un nuevo mensaje destinado para un usuario en especifico dentro de la plataforma.
 
-<table><thead><tr><th width="202.00006103515625">Campo</th><th width="122">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>ID Usuario</code></strong></td><td>Numérico</td><td>Indica el identificador único del usuario al que se enviará el mensaje.</td></tr><tr><td><strong><code>Fecha de Expiración</code></strong></td><td>Calendario</td><td>Define la fecha y hora en la que el mensaje dejará de estar vigente.</td></tr><tr><td><strong><code>Asunto</code></strong></td><td>Texto</td><td>Especifica el título o asunto principal del mensaje.</td></tr><tr><td><strong><code>País</code></strong></td><td>Lista desplegable</td><td>Selecciona el país de los usuarios a los que se dirigirá el mensaje.</td></tr><tr><td><strong><code>Tipo</code></strong></td><td>Lista desplegable</td><td>Define  la forma en la que el mensaje se le va a  mostrar al usuario.</td></tr><tr><td><strong><code>Tipo de red</code></strong></td><td>Lista desplegable</td><td>Selecciona el canal o red a través de la cual se enviará el mensaje.</td></tr><tr><td><strong><code>Mensaje</code></strong></td><td>Texto</td><td>Indica el mensaje que se le va amostrar al usuario.</td></tr></tbody></table>
+<table><thead><tr><th width="202.00006103515625">Campo</th><th width="122">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>ID Usuario</code></strong></td><td>Numérico</td><td>Indica el identificador único del usuario al que se enviará el mensaje.</td></tr><tr><td><strong><code>Fecha de Expiración</code></strong></td><td>Calendario</td><td>Define la fecha y hora en la que el mensaje dejará de estar vigente.</td></tr><tr><td><strong><code>Asunto</code></strong></td><td>Texto</td><td>Especifica el título o asunto principal del mensaje.</td></tr><tr><td><strong><code>País</code></strong></td><td>Lista desplegable</td><td>Selecciona el país de los usuarios a los que se dirigirá el mensaje.</td></tr><tr><td><strong><code>Tipo</code></strong></td><td>Lista desplegable</td><td>Define la forma en la que el mensaje se le va a mostrar al usuario.</td></tr><tr><td><strong><code>Tipo de red</code></strong></td><td>Lista desplegable</td><td>Selecciona el canal o red a través de la cual se enviará el mensaje.</td></tr><tr><td><strong><code>Mensaje</code></strong></td><td>Texto</td><td>Indica el mensaje que se le va amostrar al usuario.</td></tr></tbody></table>
 
 * Para crear el mensaje correctamente debes darle al botón **guardar**.
 

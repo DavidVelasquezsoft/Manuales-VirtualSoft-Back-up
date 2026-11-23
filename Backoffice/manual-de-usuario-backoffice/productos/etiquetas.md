@@ -15,7 +15,7 @@ description: >-
 
 ### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/image (562).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección etiquetas.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (525).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección etiquetas.</p></figcaption></figure>
 
 ***
 

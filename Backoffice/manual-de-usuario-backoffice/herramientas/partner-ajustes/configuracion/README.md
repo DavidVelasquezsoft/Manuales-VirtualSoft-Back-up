@@ -11,7 +11,7 @@ Para realizar modificaciones o consultas, es necesario seleccionar el país en e
 
 * **País:** Permite elegir el país específico donde se aplicarán las configuraciones.
 
-<figure><img src="../../../../.gitbook/assets/image (345).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (321).png" alt=""><figcaption></figcaption></figure>
 
 Al realizar la consulta, se desplegarán diferentes secciones dentro de la plataforma, cada una con opciones específicas de configuración, estas son:
 
@@ -26,4 +26,3 @@ Al realizar la consulta, se desplegarán diferentes secciones dentro de la plata
 {% content-ref url="verticales.md" %}
 [verticales.md](verticales.md)
 {% endcontent-ref %}
-

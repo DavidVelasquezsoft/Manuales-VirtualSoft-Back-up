@@ -19,7 +19,7 @@ description: >-
 
 ### 2. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (24).png" alt=""><figcaption><p>Figura #1: Captura de pantalla reporte Historial de Cambios de Nivel de Lealtad</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (25).png" alt=""><figcaption><p>Figura #1: Captura de pantalla reporte Historial de Cambios de Nivel de Lealtad</p></figcaption></figure>
 
 ***
 

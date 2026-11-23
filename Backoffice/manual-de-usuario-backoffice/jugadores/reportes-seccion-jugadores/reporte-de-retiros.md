@@ -12,7 +12,7 @@ description: Permite consultar los retiros hechos por el usuario
 
 ### 2. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (581).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (542).png" alt=""><figcaption></figcaption></figure>
 
 ***
 

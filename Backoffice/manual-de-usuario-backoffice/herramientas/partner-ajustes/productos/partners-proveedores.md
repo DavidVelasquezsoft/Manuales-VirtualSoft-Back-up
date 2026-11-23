@@ -14,7 +14,7 @@ description: >-
 
 ### 2. 🖼️ Visualización
 
-<figure><img src="../../../../.gitbook/assets/image (369).png" alt=""><figcaption><p>Figura#1: Captura de pantralla filtros de bisqueda.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (343).png" alt=""><figcaption><p>Figura#1: Captura de pantralla filtros de bisqueda.</p></figcaption></figure>
 
 ***
 

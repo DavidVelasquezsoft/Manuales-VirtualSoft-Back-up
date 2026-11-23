@@ -22,7 +22,7 @@ Permite administrar el envío de **mensajes directos** a los usuarios dentro de 
 
 #### 🖼️ Visualización
 
-<figure><img src="../../.gitbook/assets/image (339).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección mensajes.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (317).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección mensajes.</p></figcaption></figure>
 
 #### 🧑‍💻 Acciones disponibles
 
@@ -50,7 +50,7 @@ Permite gestionar los banners emergentes que aparecen en la plataforma para comu
 
 #### 🖼️ Visualización
 
-<figure><img src="../../.gitbook/assets/image (313).png" alt=""><figcaption><p>Figura#2: Captura de pantalla sección Banner invasivo.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (293).png" alt=""><figcaption><p>Figura#2: Captura de pantalla sección Banner invasivo.</p></figcaption></figure>
 
 #### 🧑‍💻 Acciones disponibles
 
@@ -76,7 +76,7 @@ Permite configurar mensajes emergentes tipo [pop-up](https://virtualsoft.gitbook
 
 #### 🖼️ Visualización
 
-<figure><img src="../../.gitbook/assets/image (315).png" alt=""><figcaption><p>Figura#3: Captura de pantalla sección pop up.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (295).png" alt=""><figcaption><p>Figura#3: Captura de pantalla sección pop up.</p></figcaption></figure>
 
 #### 🧑‍💻 Acciones disponibles
 
@@ -94,15 +94,15 @@ Permite configurar mensajes emergentes tipo [pop-up](https://virtualsoft.gitbook
 
 Permite crear un nuevo pop-up indicando los siguientes campo obligatorios.
 
-<table><thead><tr><th width="177.44439697265625">Campo</th><th width="131.33331298828125">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Título</code></strong></td><td>Texto</td><td>Nombre del pop-up.</td></tr><tr><td><strong><code>Contenido</code></strong></td><td>Descripción</td><td>Mensaje mostrado dentro del pop-up.</td></tr><tr><td><strong><code>¿Es un juego?</code></strong></td><td>Selección</td><td><p>Indica si el pop-up está asociado a un juego.<br>En caso e que si sea ara un juego se habilitará el siguiente campo:</p><ul><li><strong><code>Juego</code></strong>:  Permite seleccionar el juego en especifico en el cual aparecerá el pop-up</li></ul></td></tr><tr><td><strong><code>URL Redirección</code></strong></td><td>URL</td><td>En caso de que no sea para un juego indica el enlace de redirección.</td></tr><tr><td><strong><code>URL Frame</code></strong></td><td>URL</td><td>En caso de que no sea para un juego indica el enlace para mostrar el contenido embebido del pop-up.</td></tr><tr><td><strong><code>Usuarios ID</code></strong></td><td>Numéricos</td><td>Identificadores únicos de los usuarios destinatarios.</td></tr><tr><td><strong><code>País</code></strong></td><td>Lista desplegable</td><td>País de visualización.</td></tr><tr><td><strong><code>Fecha de Envío</code></strong></td><td>Calendario</td><td>Indica la fecha de envío.</td></tr><tr><td><strong><code>Fecha de Expiración</code></strong></td><td>Calendario</td><td>Indica la fecha de expiración.</td></tr></tbody></table>
+<table><thead><tr><th width="177.44439697265625">Campo</th><th width="131.33331298828125">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Título</code></strong></td><td>Texto</td><td>Nombre del pop-up.</td></tr><tr><td><strong><code>Contenido</code></strong></td><td>Descripción</td><td>Mensaje mostrado dentro del pop-up.</td></tr><tr><td><strong><code>¿Es un juego?</code></strong></td><td>Selección</td><td><p>Indica si el pop-up está asociado a un juego.<br>En caso e que si sea ara un juego se habilitará el siguiente campo:</p><ul><li><strong><code>Juego</code></strong>: Permite seleccionar el juego en especifico en el cual aparecerá el pop-up</li></ul></td></tr><tr><td><strong><code>URL Redirección</code></strong></td><td>URL</td><td>En caso de que no sea para un juego indica el enlace de redirección.</td></tr><tr><td><strong><code>URL Frame</code></strong></td><td>URL</td><td>En caso de que no sea para un juego indica el enlace para mostrar el contenido embebido del pop-up.</td></tr><tr><td><strong><code>Usuarios ID</code></strong></td><td>Numéricos</td><td>Identificadores únicos de los usuarios destinatarios.</td></tr><tr><td><strong><code>País</code></strong></td><td>Lista desplegable</td><td>País de visualización.</td></tr><tr><td><strong><code>Fecha de Envío</code></strong></td><td>Calendario</td><td>Indica la fecha de envío.</td></tr><tr><td><strong><code>Fecha de Expiración</code></strong></td><td>Calendario</td><td>Indica la fecha de expiración.</td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Franja superior" %}
-Sección dedicada a la administración de los mensajes que se muestran en la parte superior de la plataforma.&#x20;
+Sección dedicada a la administración de los mensajes que se muestran en la parte superior de la plataforma.
 
 #### 🖼️ Visualización
 
-<figure><img src="../../.gitbook/assets/image (317).png" alt=""><figcaption><p>Figura#4: Captura de pantalla sección franja superior.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (297).png" alt=""><figcaption><p>Figura#4: Captura de pantalla sección franja superior.</p></figcaption></figure>
 
 #### 🧑‍💻 Acciones disponibles
 
@@ -120,20 +120,18 @@ Sección dedicada a la administración de los mensajes que se muestran en la par
 
 Permite añadir una nueva franja superior indicando los siguientes campos:
 
-<table><thead><tr><th width="203.11114501953125">Campo</th><th width="139.5555419921875">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Contenido</code></strong></td><td>Texto</td><td>Texto informativo de la franja.</td></tr><tr><td><strong><code>Usuarios ID</code></strong></td><td>Numéricos</td><td>Indica los identificadores únicos de los usuarios destinatarios.</td></tr><tr><td><strong><code>URL Redirección</code></strong></td><td>URL</td><td>Enlace de destino  al hacer click en la franja superior.</td></tr><tr><td><strong><code>País</code></strong></td><td>Lista desplegable</td><td>Selecciona el país de visualización.</td></tr><tr><td><strong><code>Fecha de Envío</code></strong></td><td>Calendario</td><td>Fecha y hora de envío.</td></tr><tr><td><strong><code>Fecha de Expiración</code></strong></td><td>Calendario</td><td>Fecha de finalización.</td></tr></tbody></table>
+<table><thead><tr><th width="203.11114501953125">Campo</th><th width="139.5555419921875">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Contenido</code></strong></td><td>Texto</td><td>Texto informativo de la franja.</td></tr><tr><td><strong><code>Usuarios ID</code></strong></td><td>Numéricos</td><td>Indica los identificadores únicos de los usuarios destinatarios.</td></tr><tr><td><strong><code>URL Redirección</code></strong></td><td>URL</td><td>Enlace de destino al hacer click en la franja superior.</td></tr><tr><td><strong><code>País</code></strong></td><td>Lista desplegable</td><td>Selecciona el país de visualización.</td></tr><tr><td><strong><code>Fecha de Envío</code></strong></td><td>Calendario</td><td>Fecha y hora de envío.</td></tr><tr><td><strong><code>Fecha de Expiración</code></strong></td><td>Calendario</td><td>Fecha de finalización.</td></tr></tbody></table>
 {% endtab %}
 {% endtabs %}
 
 ***
 
-### 3.  Control de Versiones
+### 3. Control de Versiones
 
 <details>
 
 <summary>🔽Historial de versiones</summary>
 
 <table><thead><tr><th width="141.88885498046875">Versión</th><th>Fecha</th><th>Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>23/01/2026</td><td>David Velásquez</td><td>Actualización de formato.</td></tr></tbody></table>
-
-
 
 </details>

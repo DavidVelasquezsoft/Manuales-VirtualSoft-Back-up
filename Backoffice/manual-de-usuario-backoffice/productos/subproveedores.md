@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # SubProveedores
@@ -37,7 +39,7 @@ Permite **asociar o desasociar subproveedores a un partner**, estableciendo qué
 
 ### 2. Visualización:
 
-<figure><img src="../../.gitbook/assets/image (608).png" alt=""><figcaption><p>Figura #1: Captura de pantalla sección SubProveedores.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (564).png" alt=""><figcaption><p>Figura #1: Captura de pantalla sección SubProveedores.</p></figcaption></figure>
 
 ### **3. Acciones del Usuario**
 
@@ -67,7 +69,7 @@ Utiliza los filtros para obtener resultados de búsqueda más precisos.
 
 Al presionar el botón **"Añadir SubProveedor"** se despliega un formulario en el cual deben completarse los siguientes campos:
 
-<table><thead><tr><th width="133">Campo</th><th width="118">Tipo de Control</th><th width="479">Descripción</th></tr></thead><tbody><tr><td><strong><code>Nombre</code></strong></td><td>Texto</td><td>Nombre del subproveedor a registrar.</td></tr><tr><td><strong><code>Proveedor</code></strong></td><td>Lista desplegable</td><td>Proveedor principal al que se asociará el subproveedor.</td></tr><tr><td><strong><code>Tipo</code></strong></td><td>Lista desplegable</td><td>Clasificación del subproveedor según el servicio ofrecido <em>(ej. Sport, casino).</em></td></tr><tr><td><strong><code>Estado</code></strong></td><td>Lista desplegable</td><td>Define el estado en que quedara el subproveedor.</td></tr><tr><td><strong><code>Verificado</code></strong></td><td>Selector</td><td><p>Permite definir si el proveedor está habilitado para aprobación manual en operaciones como depósitos o retiros. </p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota</strong>: Se recomienda mantener este campo en <strong>Inactivo</strong>, ya que establecerlo en <strong>Activo</strong> puede generar errores en el funcionamiento del sistema.</p></div></td></tr><tr><td><strong><code>Abreviado</code></strong></td><td>Texto</td><td>Indica el nombre abreviado que tendrá este subproveedor.</td></tr><tr><td><strong><code>Imagen</code></strong></td><td>URL</td><td>Permite asignar una URL para la imagen asociada al subproveedor.</td></tr><tr><td><strong><code>Credenciales</code></strong></td><td>Texto</td><td>Credenciales internas del subproveedor. Esta información es de uso interno; en caso de requerirla, deberá solicitarla directamente al equipo de soporte.</td></tr></tbody></table>
+<table><thead><tr><th width="133">Campo</th><th width="118">Tipo de Control</th><th width="479">Descripción</th></tr></thead><tbody><tr><td><strong><code>Nombre</code></strong></td><td>Texto</td><td>Nombre del subproveedor a registrar.</td></tr><tr><td><strong><code>Proveedor</code></strong></td><td>Lista desplegable</td><td>Proveedor principal al que se asociará el subproveedor.</td></tr><tr><td><strong><code>Tipo</code></strong></td><td>Lista desplegable</td><td>Clasificación del subproveedor según el servicio ofrecido <em>(ej. Sport, casino).</em></td></tr><tr><td><strong><code>Estado</code></strong></td><td>Lista desplegable</td><td>Define el estado en que quedara el subproveedor.</td></tr><tr><td><strong><code>Verificado</code></strong></td><td>Selector</td><td><p>Permite definir si el proveedor está habilitado para aprobación manual en operaciones como depósitos o retiros.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota</strong>: Se recomienda mantener este campo en <strong>Inactivo</strong>, ya que establecerlo en <strong>Activo</strong> puede generar errores en el funcionamiento del sistema.</p></div></td></tr><tr><td><strong><code>Abreviado</code></strong></td><td>Texto</td><td>Indica el nombre abreviado que tendrá este subproveedor.</td></tr><tr><td><strong><code>Imagen</code></strong></td><td>URL</td><td>Permite asignar una URL para la imagen asociada al subproveedor.</td></tr><tr><td><strong><code>Credenciales</code></strong></td><td>Texto</td><td>Credenciales internas del subproveedor. Esta información es de uso interno; en caso de requerirla, deberá solicitarla directamente al equipo de soporte.</td></tr></tbody></table>
 
 Una vez completados los campos, se debe presionar **Guardar** para registrar la información o **Cancelar** para descartar la operación.
 

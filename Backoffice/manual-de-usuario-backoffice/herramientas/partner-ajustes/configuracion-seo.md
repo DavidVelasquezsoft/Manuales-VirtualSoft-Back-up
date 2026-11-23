@@ -14,7 +14,7 @@
 
 ### 2. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (693).png" alt=""><figcaption><p>Figura #1: Captura de pantalla seección Condiguración SEO</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (641).png" alt=""><figcaption><p>Figura #1: Captura de pantalla seección Condiguración SEO</p></figcaption></figure>
 
 ***
 
@@ -66,7 +66,7 @@ Permite registrar la configuración SEO de una nueva URL o sección del sitio. A
 **Nota:** Para registrar la nueva URL, es necesario seleccionar el botón **Guardar** dentro de la ventana emergente.
 {% endhint %}
 
-Una vez registrada, la URL queda creada pero aún sin contenido SEO. Para que la configuración tenga efecto, es necesario diligenciar todos sus campos. Puedes consultar cómo completar cada uno de estos campos en la sección  [#id-5.-resultados-de-consulta](configuracion-seo.md#id-5.-resultados-de-consulta "mention").
+Una vez registrada, la URL queda creada pero aún sin contenido SEO. Para que la configuración tenga efecto, es necesario diligenciar todos sus campos. Puedes consultar cómo completar cada uno de estos campos en la sección [#id-5.-resultados-de-consulta](configuracion-seo.md#id-5.-resultados-de-consulta "mention").
 
 {% hint style="warning" %}
 **Nota:** El proceso completo consta de dos pasos: primero **crear** la URL desde **Añadir SEO**, y luego **configurar** sus campos. Los cambios solo quedarán registrados al seleccionar el botón **Guardar** del módulo.

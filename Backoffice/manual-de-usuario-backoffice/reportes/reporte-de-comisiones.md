@@ -33,7 +33,7 @@ layout:
 
 ### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/image (627).png" alt=""><figcaption><p>Figura #1: Vista general del Reporte Comisiones Global.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (581).png" alt=""><figcaption><p>Figura #1: Vista general del Reporte Comisiones Global.</p></figcaption></figure>
 
 ***
 
@@ -47,7 +47,7 @@ layout:
 
 Los filtros permiten segmentar la información del reporte según distintos criterios operativos y comerciales.
 
-<table><thead><tr><th width="120">Campo</th><th width="161">Tipo de Control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Fecha</code></strong></td><td>Calendario</td><td>Permite definir el rango de fechas sobre el cual se realizará la consulta del reporte.</td></tr><tr><td><strong><code>Tipo Usuario</code></strong></td><td>Lista desplegable</td><td>Permite filtrar la información según el tipo de usuario afiliador.</td></tr><tr><td><strong><code>Punto de Venta</code></strong></td><td>Lista desplegable</td><td>Filtra los resultados por un punto de venta específico.</td></tr><tr><td><strong><code>Tipo</code></strong></td><td>Selector </td><td>Define si el reporte se mostrará de forma consolidada o con el detalle por afiliado <em>(Totales / Detallado)</em>.</td></tr><tr><td><strong><code>Mi comisión</code></strong></td><td>Selector</td><td>Permite visualizar únicamente las comisiones asociadas al usuario autenticado (<em>Sí / No)</em>.</td></tr><tr><td><strong><code>País</code></strong></td><td>Lista desplegable</td><td>Permite consultar información correspondiente a un país determinado.</td></tr></tbody></table>
+<table><thead><tr><th width="120">Campo</th><th width="161">Tipo de Control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Fecha</code></strong></td><td>Calendario</td><td>Permite definir el rango de fechas sobre el cual se realizará la consulta del reporte.</td></tr><tr><td><strong><code>Tipo Usuario</code></strong></td><td>Lista desplegable</td><td>Permite filtrar la información según el tipo de usuario afiliador.</td></tr><tr><td><strong><code>Punto de Venta</code></strong></td><td>Lista desplegable</td><td>Filtra los resultados por un punto de venta específico.</td></tr><tr><td><strong><code>Tipo</code></strong></td><td>Selector</td><td>Define si el reporte se mostrará de forma consolidada o con el detalle por afiliado <em>(Totales / Detallado)</em>.</td></tr><tr><td><strong><code>Mi comisión</code></strong></td><td>Selector</td><td>Permite visualizar únicamente las comisiones asociadas al usuario autenticado (<em>Sí / No)</em>.</td></tr><tr><td><strong><code>País</code></strong></td><td>Lista desplegable</td><td>Permite consultar información correspondiente a un país determinado.</td></tr></tbody></table>
 
 ***
 

@@ -15,7 +15,7 @@ description: >-
 
 ### 2. Visualización general <a href="#id-4.-visualizacion" id="id-4.-visualizacion"></a>
 
-<figure><img src="../../.gitbook/assets/image (311).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección verificar cuenta.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (291).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección verificar cuenta.</p></figcaption></figure>
 
 ### 3. Funcionalidad
 

@@ -18,7 +18,7 @@ description: >-
 
 ### 2. 🖼️ Visualización
 
-<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption><p>Figura #1: captura de pantalla reporte ajustes puntos</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption><p>Figura #1: captura de pantalla reporte ajustes puntos</p></figcaption></figure>
 
 ***
 

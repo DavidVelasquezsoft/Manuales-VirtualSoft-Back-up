@@ -8,7 +8,7 @@
 
 ### 2. Visualización del Módulo
 
-<figure><img src="../../../../.gitbook/assets/image (675).png" alt=""><figcaption><p>Figura #1: Captura de pantalla reporte de retiros.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (625).png" alt=""><figcaption><p>Figura #1: Captura de pantalla reporte de retiros.</p></figcaption></figure>
 
 ### 3. Acciones del Usuario
 
@@ -28,7 +28,7 @@ Una vez ejecutada la consulta, el sistema muestra una tabla con el detalle de lo
 
 ***
 
-### &#x20;6. Validaciones y Reglas de Negocio
+### 6. Validaciones y Reglas de Negocio
 
 * El **rango de fechas** es obligatorio para realizar la consulta.
 * Los filtros pueden combinarse para obtener resultados más específicos.

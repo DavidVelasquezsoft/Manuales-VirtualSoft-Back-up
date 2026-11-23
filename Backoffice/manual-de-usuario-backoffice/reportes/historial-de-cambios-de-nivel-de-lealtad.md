@@ -18,7 +18,7 @@ description: >-
 
 ### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption><p>Figura #1: Captura de pantalla reporte Historial de Cambios de Nivel de Lealtad</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (24).png" alt=""><figcaption><p>Figura #1: Captura de pantalla reporte Historial de Cambios de Nivel de Lealtad</p></figcaption></figure>
 
 ***
 
@@ -30,7 +30,7 @@ description: >-
 
 <table><thead><tr><th width="198.00006103515625">Campo</th><th width="122">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>ID usuario</code></strong></td><td>Numérico</td><td>Indica el identificador único del usuario a consultar.</td></tr><tr><td><strong><code>Periodo evaluado</code></strong></td><td>Calendario</td><td>Define el periodo de tiempo a evaluar los cambios de nivel de lealtad</td></tr></tbody></table>
 
-### 5.  Resultados de Consulta
+### 5. Resultados de Consulta
 
 Aplica los filtros seleccionados y muestra los registros válidos de cambios de niveles de lealtad.
 
@@ -38,7 +38,7 @@ Aplica los filtros seleccionados y muestra los registros válidos de cambios de 
 
 ***
 
-### &#x20;6. Control de Versiones
+### 6. Control de Versiones
 
 <details>
 

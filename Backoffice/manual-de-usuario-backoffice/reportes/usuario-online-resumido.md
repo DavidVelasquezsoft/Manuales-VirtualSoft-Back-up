@@ -15,7 +15,7 @@ description: >-
 
 ### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/image (565).png" alt=""><figcaption><p>Figura#1: Captura de pantalla filtros.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (528).png" alt=""><figcaption><p>Figura#1: Captura de pantalla filtros.</p></figcaption></figure>
 
 ***
 

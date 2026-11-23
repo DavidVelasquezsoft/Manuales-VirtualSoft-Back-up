@@ -14,9 +14,9 @@ description: >-
 
 ### 2. Visualización <a href="#id-2.-visualizacion" id="id-2.-visualizacion"></a>
 
-<figure><img src="../../.gitbook/assets/image (426).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección categorías.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (396).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección categorías.</p></figcaption></figure>
 
-### 3.  Acciones disponibles
+### 3. Acciones disponibles
 
 <table><thead><tr><th width="120.66668701171875">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Filtros</strong></td><td>Permiten filtrar la información para obtener resultados mas precisos.</td></tr><tr><td><strong>Limpiar</strong></td><td>Restablece todos los filtros a su estado inicial.</td></tr><tr><td><strong>Consultar</strong></td><td>Aplica los filtros seleccionados y muestra los proveedores y subproveedores válidos.</td></tr><tr><td><strong>Exportar</strong></td><td>El botón <strong>Exportar</strong> en la parte inferior derecha del reporte permite descargar los resultados obtenidos con los filtros aplicados en los formatos <strong>Excel (.XLS)</strong> y <strong>PDF.</strong></td></tr></tbody></table>
 
@@ -63,7 +63,7 @@ A continuación, completa los campos requeridos en el formulario.
 
 <details>
 
-<summary>🔽Historial de versiones </summary>
+<summary>🔽Historial de versiones</summary>
 
 <table><thead><tr><th width="109">Versión</th><th width="142">Fecha</th><th width="188">Autor</th><th>Descripción del cambio</th></tr></thead><tbody><tr><td>1.0</td><td>2025-08-28</td><td>Karol Navia</td><td>Creación del documento.</td></tr></tbody></table>
 

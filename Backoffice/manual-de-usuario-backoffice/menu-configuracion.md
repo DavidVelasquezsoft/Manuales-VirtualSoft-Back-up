@@ -14,7 +14,7 @@ description: Permite configurar aspectos generales en el sistema.
 
 ### 2. Visualización
 
-<figure><img src="../.gitbook/assets/image (55).png" alt=""><figcaption><p>Figura #1: Captura de pantalla menú configuración.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (56).png" alt=""><figcaption><p>Figura #1: Captura de pantalla menú configuración.</p></figcaption></figure>
 
 ***
 
@@ -26,7 +26,7 @@ Configura los parámetros regionales del sistema.
 
 ***
 
-### &#x20;4. Configuración partner
+### 4. Configuración partner
 
 <table><thead><tr><th width="138.7777099609375">Campo</th><th width="168">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Partner</code></strong></td><td>Lista desplegable</td><td>Seleccione el partner con el que desea operar en el sistema.</td></tr></tbody></table>
 
@@ -38,4 +38,4 @@ Configura los parámetros regionales del sistema.
 
 ### 5. Control de Versiones
 
-<table><thead><tr><th width="120.77777099609375">Versión </th><th width="137.2222900390625">Fecha</th><th width="163">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>2025-09-15</td><td>David velasquez</td><td>Actualización de formato.</td></tr></tbody></table>
+<table><thead><tr><th width="120.77777099609375">Versión</th><th width="137.2222900390625">Fecha</th><th width="163">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>2025-09-15</td><td>David velasquez</td><td>Actualización de formato.</td></tr></tbody></table>

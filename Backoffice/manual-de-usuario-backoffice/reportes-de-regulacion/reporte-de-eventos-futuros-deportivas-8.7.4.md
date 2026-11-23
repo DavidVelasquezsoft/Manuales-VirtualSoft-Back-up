@@ -18,7 +18,7 @@ description: >-
 
 ### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/image (277).png" alt=""><figcaption><p>Figura#1: Captura de pantalla de la sección reporte de eventos futuros.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (262).png" alt=""><figcaption><p>Figura#1: Captura de pantalla de la sección reporte de eventos futuros.</p></figcaption></figure>
 
 ***
 

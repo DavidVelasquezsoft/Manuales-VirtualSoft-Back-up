@@ -14,7 +14,7 @@
 
 ### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/image (386).png" alt=""><figcaption><p>Figura#1: Captura de pantalla reporte de ingresos del titular (Segundo Nivel).</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (357).png" alt=""><figcaption><p>Figura#1: Captura de pantalla reporte de ingresos del titular (Segundo Nivel).</p></figcaption></figure>
 
 ***
 

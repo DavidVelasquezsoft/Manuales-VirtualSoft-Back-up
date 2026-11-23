@@ -15,7 +15,7 @@ description: >-
 
 ### 2. Visualización general <a href="#id-4.-visualizacion" id="id-4.-visualizacion"></a>
 
-<figure><img src="../../.gitbook/assets/image (535).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Asociación Cripto + Redes.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (501).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Asociación Cripto + Redes.</p></figcaption></figure>
 
 ***
 
@@ -25,7 +25,7 @@ description: >-
 
 ***
 
-### 4. Filtros  <a href="#id-2.-filtros" id="id-2.-filtros"></a>
+### 4. Filtros <a href="#id-2.-filtros" id="id-2.-filtros"></a>
 
 Busca una asociación específica rápidamente mediante filtros opcionales.
 
@@ -35,7 +35,7 @@ Busca una asociación específica rápidamente mediante filtros opcionales.
 
 ### 5. Consultar
 
-Aquí puedes consultar las asociaciones existentes, crear nuevas, modificar su estado o visualizar los detalles de cada una.&#x20;
+Aquí puedes consultar las asociaciones existentes, crear nuevas, modificar su estado o visualizar los detalles de cada una.
 
 <table><thead><tr><th width="140.5556640625">Campo</th><th width="115.44439697265625">Tipo</th><th>Descripcion</th></tr></thead><tbody><tr><td><strong><code>Acciones</code></strong></td><td>Columna de acciones</td><td>Permite realizar acciones directas sobre un registro:</td></tr><tr><td><strong><code>ID</code></strong></td><td>Numérico</td><td>Identificador único de la asociación</td></tr><tr><td><strong><code>Cripto</code></strong></td><td>Texto</td><td>Indica el nombre de la criptomoneda.</td></tr><tr><td><strong><code>Red</code></strong></td><td>Texto</td><td>Indica la <a href="https://virtualsoft.gitbook.io/untitled/glosario#red-blockchain">red blockchain</a> de la asociación.</td></tr><tr><td><strong><code>Código de Red</code></strong></td><td>Texto</td><td>Muestra el código que identifica la <a href="https://virtualsoft.gitbook.io/untitled/glosario#red-blockchain">red blockchain</a> utilizada por la criptomoneda.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Texto</td><td>Muestra el estado de la asociación: Activa o Inactiva.</td></tr></tbody></table>
 
@@ -57,7 +57,7 @@ Este banco **no quedará disponible** para el registro de cuentas bancarias en l
 
 ### 7. Flujo habilitar retiros en criptomonedas
 
-El banco generado por la asociación Cripto + Red es un registro interno que representa esa combinación dentro del sistema; el jugador nunca lo selecciona directamente.&#x20;
+El banco generado por la asociación Cripto + Red es un registro interno que representa esa combinación dentro del sistema; el jugador nunca lo selecciona directamente.
 
 Para que la criptomoneda y la red queden disponibles como opción de retiro en la plataforma de usuarios online, es necesario crear un producto, habilitarlo para el partner y el país, y asociarlo a ese banco.
 
@@ -103,7 +103,7 @@ En **Herramientas > Partner ajustes > Productos 2 > Habilitación de productos**
 {% step %}
 #### [**Activar el producto**](../herramientas/partner-ajustes/productos-2/activacion-productos..md)
 
-En **Herramientas > Partner ajustes > Productos 2 > Activación de productos**, activar el producto habilitado en el paso anterior.&#x20;
+En **Herramientas > Partner ajustes > Productos 2 > Activación de productos**, activar el producto habilitado en el paso anterior.
 
 {% hint style="danger" %}
 **Nota importante:** El producto debe estar habilitado y activo para el partner y el país. De lo contrario, no aparecerá disponible en el módulo **Productos a bancos** y no será posible continuar con la configuración.
@@ -122,7 +122,7 @@ En **Herramientas > Partner ajustes > Productos > Productos a bancos**, vincular
 Desde la sección **Wallet cripto** de la plataforma de usuarios online, el jugador registra su billetera seleccionando primero la **criptomoneda** y luego la **red blockchain**, e ingresando la dirección de wallet correspondiente.
 
 {% hint style="warning" %}
-**Notas:**&#x20;
+**Notas:**
 
 * Las billeteras de criptomonedas se registran en una sección independiente a la de cuentas bancarias, ya que requieren información distinta _(criptomoneda, red y dirección de wallet)_.
 * Al seleccionar una criptomoneda, el sistema muestra únicamente las redes blockchain asociadas a ella y habilitadas para retiro. El jugador no selecciona el banco: este opera de forma interna, representando la combinación de criptomoneda y red configurada.

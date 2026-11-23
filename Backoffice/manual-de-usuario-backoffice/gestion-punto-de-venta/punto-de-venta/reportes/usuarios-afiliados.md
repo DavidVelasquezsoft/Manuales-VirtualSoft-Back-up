@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Usuarios afiliados
@@ -33,7 +35,7 @@ layout:
 
 ### 2. Visualización
 
-<figure><img src="../../../../.gitbook/assets/image (711).png" alt=""><figcaption><p>Figura #1: Captura de pantalla reporte Historial de Movimientos.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (658).png" alt=""><figcaption><p>Figura #1: Captura de pantalla reporte Historial de Movimientos.</p></figcaption></figure>
 
 ***
 
@@ -47,7 +49,7 @@ layout:
 
 ### 5. Resultado de Consulta
 
-El reporte presenta el listado de usuarios afiliados al punto de venta durante el período seleccionado.&#x20;
+El reporte presenta el listado de usuarios afiliados al punto de venta durante el período seleccionado.
 
 La información se visualizará en una tabla con las siguientes columnas:
 

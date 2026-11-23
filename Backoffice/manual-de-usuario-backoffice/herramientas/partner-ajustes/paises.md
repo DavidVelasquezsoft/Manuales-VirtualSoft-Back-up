@@ -14,7 +14,7 @@
 
 ### 2. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (375).png" alt=""><figcaption><p>Figura#1: Captura de pantalla seccion países.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (348).png" alt=""><figcaption><p>Figura#1: Captura de pantalla seccion países.</p></figcaption></figure>
 
 ***
 

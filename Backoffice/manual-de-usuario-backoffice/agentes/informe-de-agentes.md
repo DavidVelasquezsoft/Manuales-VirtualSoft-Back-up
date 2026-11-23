@@ -21,7 +21,7 @@ description: >-
 
 ### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/image (237).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección informe de agentes.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (229).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección informe de agentes.</p></figcaption></figure>
 
 ***
 

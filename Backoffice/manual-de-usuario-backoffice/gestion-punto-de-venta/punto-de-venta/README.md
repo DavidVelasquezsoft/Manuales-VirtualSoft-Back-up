@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Punto de Venta
@@ -35,7 +37,7 @@ layout:
 
 ### 2. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (681).png" alt=""><figcaption><p>Figura #1: Captura de pantalla módulo puntos de venta.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (630).png" alt=""><figcaption><p>Figura #1: Captura de pantalla módulo puntos de venta.</p></figcaption></figure>
 
 ***
 
@@ -81,8 +83,6 @@ Registra los datos básicos de identificación y acceso del punto de venta, así
 
 Contiene los parámetros operativos y de seguridad que determinan el comportamiento del punto de venta dentro de la plataforma, incluyendo permisos de venta, recargas, validación de IP, impresión de recibos y mensajes personalizados para comprobantes.
 
-
-
 <table><thead><tr><th width="120">Campo</th><th width="118">Tipo de control</th><th width="427">Descripción</th></tr></thead><tbody><tr><td><strong><code>Bloqueado para ventas</code></strong></td><td>Interruptor</td><td>Controla la disponibilidad de ventas en el punto de venta.</td></tr><tr><td><strong><code>Imprime recibo de caja</code></strong></td><td>Interruptor</td><td>Controla la impresión de recibos de caja.</td></tr><tr><td><strong><code>Permite recargas</code></strong></td><td>Interruptor</td><td>Controla la disponibilidad de recargas.</td></tr><tr><td><strong><code>Permite activar registros</code></strong></td><td>Interruptor</td><td>Controla la activación de registros de usuarios.</td></tr><tr><td><strong><code>Programa de identificación de IP activo</code></strong></td><td>Interruptor</td><td>Controla la validación de IP durante el acceso.</td></tr><tr><td><strong><code>Latitud</code></strong></td><td>Campo numérico</td><td>Coordenada geográfica de ubicación.</td></tr><tr><td><strong><code>Longitud</code></strong></td><td>Campo numérico</td><td>Coordenada geográfica de ubicación.</td></tr><tr><td><strong><code>IP</code></strong></td><td>Campo de texto</td><td>Dirección IP asociada al punto de venta.</td></tr><tr><td><strong><code>Parte superior recibo pago premio</code></strong></td><td>Área de texto</td><td>Texto mostrado en la parte superior del recibo de pago de premio.</td></tr><tr><td><strong><code>Parte inferior recibo pago premio</code></strong></td><td>Área de texto</td><td>Texto mostrado en la parte inferior del recibo de pago de premio.</td></tr><tr><td><strong><code>Parte superior recibo pago retiro</code></strong></td><td>Área de texto</td><td>Texto mostrado en la parte superior del recibo de pago de retiro.</td></tr><tr><td><strong><code>Parte inferior recibo pago retiro</code></strong></td><td>Área de texto</td><td>Texto mostrado en la parte inferior del recibo de pago de retiro.</td></tr></tbody></table>
 
 #### Datos Punto de Venta
@@ -127,8 +127,8 @@ Los filtros disponibles permiten consultar los puntos de venta según criterios 
 **Nota:** Cuando la consulta arroje un punto de venta específico, los resultados se mostrarán en una estructura jerárquica organizada de la siguiente manera:
 
 📁 **Partner**\
-&#x20;   ↳ 📁 **País**\
-&#x20;       ↳ 🔍 **Punto de Venta**
+↳ 📁 **País**\
+↳ 🔍 **Punto de Venta**
 
 Selecciona cada ícono **📁** para desplegar el siguiente nivel de la estructura hasta visualizar el punto de venta consultado.
 

@@ -8,7 +8,7 @@ description: >-
 
 ### 1. Acceso al módulo
 
-**Ruta de acceso**: Backoffice > Gestión punto de venta > punto de venta > buscar un punto de venta > 📁> 📁 > 🔎 > Configuración&#x20;
+**Ruta de acceso**: Backoffice > Gestión punto de venta > punto de venta > buscar un punto de venta > 📁> 📁 > 🔎 > Configuración
 
 {% @guideflow/guideflow-embed requestedUrl="https://app.guideflow.com/player/vkmxd75s3p" %}
 
@@ -19,7 +19,7 @@ description: >-
 La configuración de un punto de venta se organiza en diferentes secciones, cada una destinada a administrar aspectos específicos de su operación y seguridad.
 
 {% hint style="warning" %}
-**Nota:** \
+**Nota:**\
 Debido a la cantidad de secciones, **la última pestaña de este manual no se muestra de forma inmediata** en la barra de tabs.\
 Para visualizarla, es necesario utilizar el botón de navegación adicional del manual.
 
@@ -32,9 +32,9 @@ Permite actualizar la contraseña del usuario diligenciando los siguientes campo
 
 #### 2.1.1 Visualización
 
-<figure><img src="../../../.gitbook/assets/image (434).png" alt=""><figcaption><p>Figura#1: Captura de pantalla de la sección cambiar contraseña.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (404).png" alt=""><figcaption><p>Figura#1: Captura de pantalla de la sección cambiar contraseña.</p></figcaption></figure>
 
-#### 2.1.2 Descripción de campos&#x20;
+#### 2.1.2 Descripción de campos
 
 <table><thead><tr><th width="199.33343505859375">Campo</th><th width="129">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Nueva Contraseña</code></strong></td><td>Contraseña</td><td>Ingrese la nueva clave de acceso.</td></tr><tr><td><strong><code>Confirmar Contraseña</code></strong></td><td>Contraseña</td><td>Vuelva a ingresar la contraseña para validarla.</td></tr><tr><td><strong><code>Limpiar</code></strong></td><td>Botón</td><td>Elimina los datos ingresados en los campos anteriores.</td></tr></tbody></table>
 
@@ -46,11 +46,11 @@ Permite visualizar, editar y crear tokens de seguridad para el punto de venta.
 
 #### 2.2.1 Visualización
 
-<figure><img src="../../../.gitbook/assets/image (641).png" alt=""><figcaption><p>Figura #2: Captura de pantalla sección generar Token</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (595).png" alt=""><figcaption><p>Figura #2: Captura de pantalla sección generar Token</p></figcaption></figure>
 
 #### 2.2.2 **Acciones disponibles**
 
-<table><thead><tr><th width="171.66668701171875">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="configuracion.md#id-3.1.-filtros"><strong>Filtros</strong></a></td><td>Permiten filtrar la información para obtener resultados mas precisos.</td></tr><tr><td><strong>Limpiar</strong></td><td>Restablece todos los filtros a su estado inicial.</td></tr><tr><td><a href="configuracion.md#crear-token-personalizado"><strong>Crear Token personalizado</strong></a></td><td>Permite crear un nuevo token personalizado para el punto de venta.</td></tr><tr><td><a href="configuracion.md#generar-token"><strong>Generar Token</strong> </a></td><td>Permite generar un token para un punto de venta.</td></tr><tr><td><a href="configuracion.md#id-3.2.-consultar"><strong>Consultar</strong></a></td><td>Aplica los filtros seleccionados y muestra los registros válidos.</td></tr></tbody></table>
+<table><thead><tr><th width="171.66668701171875">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="configuracion.md#id-3.1.-filtros"><strong>Filtros</strong></a></td><td>Permiten filtrar la información para obtener resultados mas precisos.</td></tr><tr><td><strong>Limpiar</strong></td><td>Restablece todos los filtros a su estado inicial.</td></tr><tr><td><a href="configuracion.md#crear-token-personalizado"><strong>Crear Token personalizado</strong></a></td><td>Permite crear un nuevo token personalizado para el punto de venta.</td></tr><tr><td><a href="configuracion.md#generar-token"><strong>Generar Token</strong></a></td><td>Permite generar un token para un punto de venta.</td></tr><tr><td><a href="configuracion.md#id-3.2.-consultar"><strong>Consultar</strong></a></td><td>Aplica los filtros seleccionados y muestra los registros válidos.</td></tr></tbody></table>
 
 #### 2.2.3 Filtros
 
@@ -88,9 +88,9 @@ Sección con diversas configuraciones relacionadas con la seguridad del punto de
 
 #### 2.3.1 Visualización
 
-<figure><img src="../../../.gitbook/assets/image (639).png" alt=""><figcaption><p>Figura #3: captura de pantalla sección seguridad Cambios</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (593).png" alt=""><figcaption><p>Figura #3: captura de pantalla sección seguridad Cambios</p></figcaption></figure>
 
-#### 2.3.2 Descripción de campos&#x20;
+#### 2.3.2 Descripción de campos
 
 {% hint style="warning" %}
 **Nota:** Al modificar una opción, el sistema aplica el cambio de manera inmediata.
@@ -104,7 +104,7 @@ Esta sección permite generar un **código QR** para habilitar la autenticación
 
 #### 2.4.1 Visualización
 
-<figure><img src="../../../.gitbook/assets/image (643).png" alt=""><figcaption><p>Figura #4: Captura de pantalla seccion QR Google</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (597).png" alt=""><figcaption><p>Figura #4: Captura de pantalla seccion QR Google</p></figcaption></figure>
 
 #### 2.4.2 Configuración
 
@@ -121,7 +121,7 @@ Permite definir una condición de tiempo de exclusión NTC de forma personalizad
 
 #### 2.5.1 Visualización
 
-<figure><img src="../../../.gitbook/assets/image (644).png" alt=""><figcaption><p>Figura #5: Captura de pantalla sección Configuración NTC personalizada</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (598).png" alt=""><figcaption><p>Figura #5: Captura de pantalla sección Configuración NTC personalizada</p></figcaption></figure>
 
 #### ¿Qué es NTC?
 
@@ -139,7 +139,7 @@ Si el campo se deja vacío, el sistema aplicará automáticamente la **configura
 Para confirmar y aplicar el valor configurado, el usuario debe **presionar el botón Guardar y confirmar la acción**.
 
 {% hint style="warning" %}
-**Nota:**&#x20;
+**Nota:**
 
 * Esta opción solo se muestra si el partner tiene NTC activo.
 * Solo usuarios con el permiso correspondiente pueden modificar este valor.

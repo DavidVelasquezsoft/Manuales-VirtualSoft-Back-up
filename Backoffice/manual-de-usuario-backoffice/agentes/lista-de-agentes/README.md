@@ -14,7 +14,7 @@ description: >-
 
 ### 2. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (63).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección agentes.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (64).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección agentes.</p></figcaption></figure>
 
 ***
 
@@ -40,7 +40,7 @@ Una vez ejecutada la búsqueda, se despliega una tabla con la siguiente informac
 
 Para registrar un nuevo agente, haz clic en el botón **"Añadir Agente"**, lo cual abre un formulario con dos secciones:
 
-<figure><img src="../../../.gitbook/assets/image (64).png" alt=""><figcaption><p>FIgura#2: Captura de pantalla sección añadir agentes.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (65).png" alt=""><figcaption><p>FIgura#2: Captura de pantalla sección añadir agentes.</p></figcaption></figure>
 
 <table><thead><tr><th width="199">Campo</th><th width="160">Tipo de Control</th><th>Descripción</th></tr></thead><tbody><tr><td><code>Login para acceso</code></td><td>Texto</td><td>Nombre de usuario que utilizará el agente para iniciar sesión.</td></tr><tr><td><code>Clave</code></td><td>Contraseña</td><td>Contraseña para el acceso.</td></tr><tr><td><code>Estado</code></td><td>Lista desplegable</td><td>Estado del agente (activo / inactivo).</td></tr><tr><td><code>Nombre del usuario</code></td><td>Texto</td><td>Nombre completo del agente.</td></tr><tr><td><code>Idioma preferido</code></td><td>Lista desplegable</td><td>Idioma de visualización de la plataforma.</td></tr><tr><td><code>Tipo</code></td><td>Lista desplegable</td><td>Categoría del agente dentro del sistema.</td></tr><tr><td><code>País</code></td><td>Lista desplegable</td><td>País de operación.</td></tr><tr><td><code>Moneda</code></td><td>Lista desplegable</td><td>Moneda que usará el agente.</td></tr><tr><td><code>Partner</code></td><td>Lista desplegable</td><td>Asociación a la que pertenece (ej. Doradobet).</td></tr></tbody></table>
 

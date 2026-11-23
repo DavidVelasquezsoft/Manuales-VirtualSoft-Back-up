@@ -19,7 +19,7 @@ description: >-
 
 ### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/image (600).png" alt=""><figcaption><p>Figura #1: Captura de pantalla reporte de transferencias de saldo recibidas.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (557).png" alt=""><figcaption><p>Figura #1: Captura de pantalla reporte de transferencias de saldo recibidas.</p></figcaption></figure>
 
 ***
 

@@ -19,7 +19,7 @@ description: >-
 
 ### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/image (684).png" alt=""><figcaption><p>Figura#1: Captura de pantalla reporte estructura del reporte para juegos.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (632).png" alt=""><figcaption><p>Figura#1: Captura de pantalla reporte estructura del reporte para juegos.</p></figcaption></figure>
 
 ***
 
@@ -31,7 +31,7 @@ description: >-
 
 ### 4. Filtros
 
-<table><thead><tr><th width="198.00006103515625">Campo</th><th width="122">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Periodo (</code></strong><em><strong><code>Fecha</code></strong></em><strong><code>)</code></strong></td><td>Rango de fechas</td><td><p>Permite delimitar el periodo de consulta seleccionando una fecha de inicio y una fecha de fin.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Solo se mostrarán las transacciones registradas dentro del rango definido.</p></div></td></tr><tr><td><strong><code>Nombre completo del jugador</code></strong></td><td>Campo de texto</td><td>Permite buscar las jugadas por el nombre completo del usuario, tal como está registrado en la plataforma.</td></tr><tr><td><strong><code>Tipo de documento</code></strong></td><td>Lista desplegable</td><td>Filtra por el tipo de documento de identidad asociado al jugador.</td></tr><tr><td><strong><code>Número del documento</code></strong></td><td>Campo de texto</td><td>Permite filtrar por el número de identificación del jugador.</td></tr><tr><td><strong><code>ID del jugador</code></strong></td><td>Campo de texto</td><td><p>Indica el identificador único del jugador dentro de la plataforma. </p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Este campo es <strong>obligatorio</strong> para ejecutar la consulta.</p></div></td></tr></tbody></table>
+<table><thead><tr><th width="198.00006103515625">Campo</th><th width="122">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Periodo (</code></strong><em><strong><code>Fecha</code></strong></em><strong><code>)</code></strong></td><td>Rango de fechas</td><td><p>Permite delimitar el periodo de consulta seleccionando una fecha de inicio y una fecha de fin.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Solo se mostrarán las transacciones registradas dentro del rango definido.</p></div></td></tr><tr><td><strong><code>Nombre completo del jugador</code></strong></td><td>Campo de texto</td><td>Permite buscar las jugadas por el nombre completo del usuario, tal como está registrado en la plataforma.</td></tr><tr><td><strong><code>Tipo de documento</code></strong></td><td>Lista desplegable</td><td>Filtra por el tipo de documento de identidad asociado al jugador.</td></tr><tr><td><strong><code>Número del documento</code></strong></td><td>Campo de texto</td><td>Permite filtrar por el número de identificación del jugador.</td></tr><tr><td><strong><code>ID del jugador</code></strong></td><td>Campo de texto</td><td><p>Indica el identificador único del jugador dentro de la plataforma.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Este campo es <strong>obligatorio</strong> para ejecutar la consulta.</p></div></td></tr></tbody></table>
 
 ***
 

@@ -10,7 +10,7 @@
 
 ### 2. Visualización general
 
-<figure><img src="../../.gitbook/assets/image (543).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Bancos</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (508).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Bancos</p></figcaption></figure>
 
 ***
 

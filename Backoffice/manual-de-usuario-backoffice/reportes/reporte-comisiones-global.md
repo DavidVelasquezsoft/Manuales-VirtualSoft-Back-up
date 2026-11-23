@@ -12,7 +12,7 @@ description: >-
 
 ### 2. visualización:
 
-<figure><img src="../../.gitbook/assets/image (599).png" alt=""><figcaption><p>Figura#1: Captura de pantalla reporte comisiones globales.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (556).png" alt=""><figcaption><p>Figura#1: Captura de pantalla reporte comisiones globales.</p></figcaption></figure>
 
 ### 3. Acciones disponibles
 
@@ -20,9 +20,9 @@ description: >-
 
 ***
 
-### 4.  Filtros de búsqueda
+### 4. Filtros de búsqueda
 
-<table><thead><tr><th width="172">Campo</th><th width="159">Tipo de Control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Fecha</code></strong></td><td>Calendario</td><td>Permite seleccionar el rango de fechas a consultar.</td></tr><tr><td><strong><code>Tipo</code></strong></td><td>Lista desplegable</td><td>Especifica el tipo de reporte que se desea visualizar. <em>(Mensual, Diario)</em></td></tr><tr><td><strong><code>Punto de Venta</code></strong></td><td>Lista desplegable</td><td>Filtra los datos de un punto de venta específico.</td></tr><tr><td><strong><code>País</code></strong></td><td>Lista desplegable</td><td>Permite seleccionar el país o región a consultar.</td></tr><tr><td><strong><code>Agrupado solo por afiliador</code></strong></td><td>Interruptor </td><td>Determina si los resultados deben agruparse por usuario afiliador.</td></tr><tr><td><strong><code>Ver solo por punto de venta</code></strong></td><td>Interruptor </td><td>Muestra únicamente los registros asociados a puntos de venta.</td></tr><tr><td><strong><code>Mi comisión</code></strong></td><td>Interruptor</td><td>Filtra para mostrar solo las comisiones correspondientes al usuario actual.</td></tr></tbody></table>
+<table><thead><tr><th width="172">Campo</th><th width="159">Tipo de Control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Fecha</code></strong></td><td>Calendario</td><td>Permite seleccionar el rango de fechas a consultar.</td></tr><tr><td><strong><code>Tipo</code></strong></td><td>Lista desplegable</td><td>Especifica el tipo de reporte que se desea visualizar. <em>(Mensual, Diario)</em></td></tr><tr><td><strong><code>Punto de Venta</code></strong></td><td>Lista desplegable</td><td>Filtra los datos de un punto de venta específico.</td></tr><tr><td><strong><code>País</code></strong></td><td>Lista desplegable</td><td>Permite seleccionar el país o región a consultar.</td></tr><tr><td><strong><code>Agrupado solo por afiliador</code></strong></td><td>Interruptor</td><td>Determina si los resultados deben agruparse por usuario afiliador.</td></tr><tr><td><strong><code>Ver solo por punto de venta</code></strong></td><td>Interruptor</td><td>Muestra únicamente los registros asociados a puntos de venta.</td></tr><tr><td><strong><code>Mi comisión</code></strong></td><td>Interruptor</td><td>Filtra para mostrar solo las comisiones correspondientes al usuario actual.</td></tr></tbody></table>
 
 ***
 

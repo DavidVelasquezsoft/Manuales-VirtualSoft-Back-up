@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Países
@@ -31,13 +33,13 @@ Desde este módulo se pueden visualizar los países habilitados para la creació
 
 ### 2.🖼️Visualización
 
-<figure><img src="../../.gitbook/assets/image (633).png" alt=""><figcaption><p>Figura#1: Pantalla principal del módulo Países.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (587).png" alt=""><figcaption><p>Figura#1: Pantalla principal del módulo Países.</p></figcaption></figure>
 
 ***
 
 ### 3.🧑‍💻Acciones de usuario
 
-<table><thead><tr><th width="137.33331298828125">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/herramientas/paises#id-3.1-filtros"><strong>Filtrar</strong></a></td><td>Permite filtrar información sobre los países disponibles para crear partners en Sitebuilder.</td></tr><tr><td><strong>Consultar</strong></td><td>Aplica los filtros seleccionados y muestra los países disponibles para crear partners.</td></tr><tr><td><a href="https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/herramientas/paises#detalle-del-pais"><strong>Editar estado</strong></a></td><td>Permite editar el estado del país.</td></tr><tr><td><strong>Exportar</strong></td><td>El botón <strong>Exportar</strong> en la parte inferior derecha del reporte permite descargar los resultados obtenidos con los filtros aplicados en los formatos <strong>Excel </strong><em><strong>(.XLS)</strong></em> y <strong>PDF.</strong></td></tr><tr><td><strong>Limpiar</strong> </td><td>Restablece todos los campos del formulario a su estado inicial.</td></tr></tbody></table>
+<table><thead><tr><th width="137.33331298828125">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/herramientas/paises#id-3.1-filtros"><strong>Filtrar</strong></a></td><td>Permite filtrar información sobre los países disponibles para crear partners en Sitebuilder.</td></tr><tr><td><strong>Consultar</strong></td><td>Aplica los filtros seleccionados y muestra los países disponibles para crear partners.</td></tr><tr><td><a href="https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/herramientas/paises#detalle-del-pais"><strong>Editar estado</strong></a></td><td>Permite editar el estado del país.</td></tr><tr><td><strong>Exportar</strong></td><td>El botón <strong>Exportar</strong> en la parte inferior derecha del reporte permite descargar los resultados obtenidos con los filtros aplicados en los formatos <strong>Excel </strong><em><strong>(.XLS)</strong></em> y <strong>PDF.</strong></td></tr><tr><td><strong>Limpiar</strong></td><td>Restablece todos los campos del formulario a su estado inicial.</td></tr></tbody></table>
 
 #### 3.1 🔎 Filtros
 

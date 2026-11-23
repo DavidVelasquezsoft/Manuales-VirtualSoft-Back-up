@@ -19,7 +19,7 @@ description: >-
 
 ### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/image (694).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Reporte de Afiliados</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (642).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Reporte de Afiliados</p></figcaption></figure>
 
 ***
 

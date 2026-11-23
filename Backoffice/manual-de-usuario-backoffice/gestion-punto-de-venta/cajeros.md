@@ -18,7 +18,7 @@ description: >-
 
 ### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/image (353).png" alt=""><figcaption><p>Figura#1: Captura de pantalla seccion cajeros.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (329).png" alt=""><figcaption><p>Figura#1: Captura de pantalla seccion cajeros.</p></figcaption></figure>
 
 ***
 

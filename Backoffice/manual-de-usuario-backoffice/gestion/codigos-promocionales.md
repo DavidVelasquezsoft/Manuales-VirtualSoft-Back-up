@@ -20,6 +20,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Códigos Promocionales
@@ -32,7 +34,7 @@ layout:
 
 ### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption><p>Figura #1: Captura de pantalla sección de códigos promocionales</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption><p>Figura #1: Captura de pantalla sección de códigos promocionales</p></figcaption></figure>
 
 ***
 
@@ -56,7 +58,7 @@ Muestra los resultados correspondientes según los filtros aplicados.
 
 Permite agregar un nuevo código promocional desde el botón “**Añadir código**”, el cual abrirá un pop-up con los campos necesarios para su creación.
 
-<table><thead><tr><th width="165">Campos</th><th width="131.00006103515625">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Código</code></strong></td><td>Texto</td><td>Indica el código único con el cual se otorgará la promoción al ingresarlo en el <a href="https://app.gitbook.com/s/yyrHDz69FZMnpZ9NBm8u/usuarios-online/manual-de-plataforma/registro">formulario de registro</a>.</td></tr><tr><td><strong><code>Nombre</code></strong></td><td>Texto</td><td>Especifica el nombre descriptivo que identifica el código dentro del sistema.</td></tr><tr><td><strong><code>Usuario</code></strong></td><td>Numérico </td><td>Define la identificación del usuario asociado al código.</td></tr><tr><td><strong><code>Partner</code></strong></td><td>Lista desplegable</td><td>Selecciona el <a href="https://virtualsoft.gitbook.io/untitled/glosario#partner">partner</a> en el cual estará activo al código promocional.</td></tr><tr><td><strong><code>País</code></strong></td><td>Lista desplegable</td><td>Indica el país en el que el código estará disponible .</td></tr><tr><td><strong><code>Función</code></strong></td><td>Lista desplegable</td><td>Especifica el propósito o uso que tendrá el código dentro de la plataforma.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Lista desplegable</td><td>Define si el código se encuentra activo o inactivo.</td></tr></tbody></table>
+<table><thead><tr><th width="165">Campos</th><th width="131.00006103515625">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Código</code></strong></td><td>Texto</td><td>Indica el código único con el cual se otorgará la promoción al ingresarlo en el <a href="https://app.gitbook.com/s/yyrHDz69FZMnpZ9NBm8u/usuarios-online/manual-de-plataforma/registro">formulario de registro</a>.</td></tr><tr><td><strong><code>Nombre</code></strong></td><td>Texto</td><td>Especifica el nombre descriptivo que identifica el código dentro del sistema.</td></tr><tr><td><strong><code>Usuario</code></strong></td><td>Numérico</td><td>Define la identificación del usuario asociado al código.</td></tr><tr><td><strong><code>Partner</code></strong></td><td>Lista desplegable</td><td>Selecciona el <a href="https://virtualsoft.gitbook.io/untitled/glosario#partner">partner</a> en el cual estará activo al código promocional.</td></tr><tr><td><strong><code>País</code></strong></td><td>Lista desplegable</td><td>Indica el país en el que el código estará disponible .</td></tr><tr><td><strong><code>Función</code></strong></td><td>Lista desplegable</td><td>Especifica el propósito o uso que tendrá el código dentro de la plataforma.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Lista desplegable</td><td>Define si el código se encuentra activo o inactivo.</td></tr></tbody></table>
 
 ***
 

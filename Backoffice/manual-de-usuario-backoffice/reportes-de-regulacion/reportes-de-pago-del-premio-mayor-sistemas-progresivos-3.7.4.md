@@ -14,7 +14,7 @@
 
 ### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/image (297).png" alt=""><figcaption><p>figura#1: Captura de pantalla reportes de Pago del Premio Mayor (Sistemas Progresivos).</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (278).png" alt=""><figcaption><p>figura#1: Captura de pantalla reportes de Pago del Premio Mayor (Sistemas Progresivos).</p></figcaption></figure>
 
 ***
 

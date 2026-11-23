@@ -15,7 +15,7 @@ description: >-
 
 ### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption><p>Figura #1: Captura de pantalla sección reimprimir cheque</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption><p>Figura #1: Captura de pantalla sección reimprimir cheque</p></figcaption></figure>
 
 ***
 
@@ -25,7 +25,7 @@ description: >-
 
 ### 4. Filtros
 
-<table><thead><tr><th width="148">Campo</th><th width="134">Tipo </th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Fecha</code></strong></td><td>Calendario</td><td>Permite seleccionar un rango de fechas para ubicar el comprobante a reimprimir.</td></tr><tr><td><strong><code>Número de Cheque</code></strong></td><td>Texto / Numérico</td><td>Permite filtrar los resultados ingresando el número de cheque específico.</td></tr><tr><td><strong><code>Cliente</code></strong></td><td>Texto</td><td>Permite buscar comprobantes asociados a un cliente en particular.</td></tr><tr><td><strong><code>Origen</code></strong></td><td>Lista desplegable</td><td>Define la fuente del pago, ya sea mediante una Nota de Retiro o un Ticket.</td></tr><tr><td><strong><code>Documento Referente</code></strong></td><td>Texto</td><td>Permite identificar el documento asociado al pago, como facturas o recibos.</td></tr><tr><td><strong><code>Documento del Cliente</code></strong></td><td>Texto / Numérico</td><td>Permite buscar el comprobante utilizando el número de documento del cliente.</td></tr></tbody></table>
+<table><thead><tr><th width="148">Campo</th><th width="134">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Fecha</code></strong></td><td>Calendario</td><td>Permite seleccionar un rango de fechas para ubicar el comprobante a reimprimir.</td></tr><tr><td><strong><code>Número de Cheque</code></strong></td><td>Texto / Numérico</td><td>Permite filtrar los resultados ingresando el número de cheque específico.</td></tr><tr><td><strong><code>Cliente</code></strong></td><td>Texto</td><td>Permite buscar comprobantes asociados a un cliente en particular.</td></tr><tr><td><strong><code>Origen</code></strong></td><td>Lista desplegable</td><td>Define la fuente del pago, ya sea mediante una Nota de Retiro o un Ticket.</td></tr><tr><td><strong><code>Documento Referente</code></strong></td><td>Texto</td><td>Permite identificar el documento asociado al pago, como facturas o recibos.</td></tr><tr><td><strong><code>Documento del Cliente</code></strong></td><td>Texto / Numérico</td><td>Permite buscar el comprobante utilizando el número de documento del cliente.</td></tr></tbody></table>
 
 ### 5. Resultados de Consulta
 
@@ -35,7 +35,7 @@ Muestra en la parte inferior los resultados correspondientes según los filtros 
 
 ***
 
-### 6.  Control de Versiones
+### 6. Control de Versiones
 
 <details>
 

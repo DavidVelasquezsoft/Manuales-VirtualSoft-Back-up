@@ -6,13 +6,13 @@ description: Permite consultar y gestionar los subproveedores asociados a un par
 
 ### 1. Acceso al Módulo
 
-**Ruta de Acceso:** Backoffice > Herramientas > Partner ajustes > Partner > Productos >  partners Subproveedores
+**Ruta de Acceso:** Backoffice > Herramientas > Partner ajustes > Partner > Productos > partners Subproveedores
 
 ***
 
 ### 2. 🖼️ Visualización
 
-<figure><img src="../../../../.gitbook/assets/image (370).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección partners sub proveedores.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (344).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección partners sub proveedores.</p></figcaption></figure>
 
 ***
 
@@ -36,11 +36,11 @@ description: Permite consultar y gestionar los subproveedores asociados a un par
 
 ***
 
-#### 3.2.  🚀 Consultar
+#### 3.2. 🚀 Consultar
 
 El sistema presenta los subproveedores en una tabla informativa.
 
-<table><thead><tr><th width="163">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td>✏️</td><td>Abre modal que permite editar toda la información de ese proveedor. <a href="partners-sub-proveedores.md#id-3.3.-editar-subproveedor">Ver campos</a></td></tr><tr><td><strong><code>ID</code></strong></td><td>Identificador único del subproveedor.</td></tr><tr><td><strong><code>Proveedor</code></strong></td><td>Nombre del proveedor principal.</td></tr><tr><td><strong><code>Partner</code></strong></td><td>Nombre del partner asociado.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Indica si está activo o inactivo.</td></tr><tr><td><strong><code>Verificado</code></strong></td><td>Indica si fue validado en el sistema.</td></tr><tr><td><strong><code>Filtro País</code></strong></td><td>País o países donde opera.</td></tr><tr><td><strong><code>Máximo</code></strong></td><td>Límite máximo permitido.</td></tr><tr><td><strong><code>Mínimo</code></strong></td><td>Límite mínimo permitido.</td></tr><tr><td><strong><code>Bonus System</code></strong></td><td>N: No activo / S: Activo.</td></tr><tr><td><strong><code>Test Users</code></strong></td><td>Indica si tiene usuarios de prueba habilitados. </td></tr><tr><td><strong><code>Detalle</code></strong></td><td>Información adicional.</td></tr><tr><td><strong><code>Imagen</code></strong></td><td>Logotipo o representación gráfica.</td></tr></tbody></table>
+<table><thead><tr><th width="163">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td>✏️</td><td>Abre modal que permite editar toda la información de ese proveedor. <a href="partners-sub-proveedores.md#id-3.3.-editar-subproveedor">Ver campos</a></td></tr><tr><td><strong><code>ID</code></strong></td><td>Identificador único del subproveedor.</td></tr><tr><td><strong><code>Proveedor</code></strong></td><td>Nombre del proveedor principal.</td></tr><tr><td><strong><code>Partner</code></strong></td><td>Nombre del partner asociado.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Indica si está activo o inactivo.</td></tr><tr><td><strong><code>Verificado</code></strong></td><td>Indica si fue validado en el sistema.</td></tr><tr><td><strong><code>Filtro País</code></strong></td><td>País o países donde opera.</td></tr><tr><td><strong><code>Máximo</code></strong></td><td>Límite máximo permitido.</td></tr><tr><td><strong><code>Mínimo</code></strong></td><td>Límite mínimo permitido.</td></tr><tr><td><strong><code>Bonus System</code></strong></td><td>N: No activo / S: Activo.</td></tr><tr><td><strong><code>Test Users</code></strong></td><td>Indica si tiene usuarios de prueba habilitados.</td></tr><tr><td><strong><code>Detalle</code></strong></td><td>Información adicional.</td></tr><tr><td><strong><code>Imagen</code></strong></td><td>Logotipo o representación gráfica.</td></tr></tbody></table>
 
 <details>
 
@@ -60,7 +60,7 @@ Para cerrar el formulario sin modificar la información, selecciona **`Cancelar`
 ### 4. ✅ Validaciones y reglas del negocio
 
 * Si el subproveedor está marcado como **de prueba** y el usuario no tiene habilitado ese permiso, el sistema mostrará un mensaje indicando que los juegos no se encuentran disponibles.
-* Después de realizar los cambios, si un proveedor ha sido marcado como  de "**prueba"** y el usuario no tiene habilitada la opción de **"usuario de prueba"**, al intentar acceder a los juegos de ese proveedor, verá un mensaje indicando que los juegos no están disponibles.
+* Después de realizar los cambios, si un proveedor ha sido marcado como de "**prueba"** y el usuario no tiene habilitada la opción de **"usuario de prueba"**, al intentar acceder a los juegos de ese proveedor, verá un mensaje indicando que los juegos no están disponibles.
 
 ***
 

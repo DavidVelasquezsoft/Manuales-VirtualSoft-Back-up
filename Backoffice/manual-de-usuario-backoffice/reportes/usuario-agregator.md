@@ -15,7 +15,7 @@ description: >-
 
 ### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/image (568).png" alt=""><figcaption><p>Figura#1: Captura de pantalla filtros de búsqueda.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (531).png" alt=""><figcaption><p>Figura#1: Captura de pantalla filtros de búsqueda.</p></figcaption></figure>
 
 ***
 
@@ -27,7 +27,7 @@ description: >-
 
 ### 4. **Filtros principales**
 
-<table><thead><tr><th width="121.111083984375">Campo</th><th width="124.4444580078125">Tipo de Control</th><th width="498.8890380859375">Descripción</th></tr></thead><tbody><tr><td><p><strong><code>Usuario</code></strong> </p><p><strong><code>Partner</code></strong></p></td><td>Numérico</td><td>Identificador único del usuario asociado <em>(partner).</em></td></tr><tr><td><p><strong><code>Usuario</code></strong> </p><p><strong><code>Agregator</code></strong></p></td><td>Numérico</td><td>Identificador del usuario dentro del sistema Agregator.</td></tr><tr><td><p><strong><code>Fecha de</code></strong> </p><p><strong><code>Creación</code></strong></p></td><td>Calendario</td><td>Rango de fechas en que se registró la relación.</td></tr></tbody></table>
+<table><thead><tr><th width="121.111083984375">Campo</th><th width="124.4444580078125">Tipo de Control</th><th width="498.8890380859375">Descripción</th></tr></thead><tbody><tr><td><p><strong><code>Usuario</code></strong></p><p><strong><code>Partner</code></strong></p></td><td>Numérico</td><td>Identificador único del usuario asociado <em>(partner).</em></td></tr><tr><td><p><strong><code>Usuario</code></strong></p><p><strong><code>Agregator</code></strong></p></td><td>Numérico</td><td>Identificador del usuario dentro del sistema Agregator.</td></tr><tr><td><p><strong><code>Fecha de</code></strong></p><p><strong><code>Creación</code></strong></p></td><td>Calendario</td><td>Rango de fechas en que se registró la relación.</td></tr></tbody></table>
 
 ### **5. Resultados de consulta**
 

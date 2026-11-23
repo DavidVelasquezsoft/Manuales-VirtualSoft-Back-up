@@ -21,13 +21,13 @@ Tendrás 2 opciones para gestionar las finanzas del jugador.
 {% tab title="Financiero" %}
 Permite visualizar un desglose detallado de la actividad financiera del usuario.
 
-#### Visualización&#x20;
+#### Visualización
 
-<figure><img src="../../.gitbook/assets/image (27).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección financiero.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (28).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección financiero.</p></figcaption></figure>
 
 #### Descripción de campos
 
-<table><thead><tr><th width="218.666748046875">Campo</th><th width="106.3333740234375">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Total  Depósitos</code></strong></td><td>Numérico</td><td>Monto total depositado por el usuario.</td></tr><tr><td><strong><code>Total Apuestas deportivas</code></strong></td><td>Numérico</td><td>Total de apuestas realizadas en deportes.</td></tr><tr><td><strong><code>Total Ganancias deportivas</code></strong></td><td>Numérico</td><td>Monto ganado en apuestas deportivas.</td></tr><tr><td><strong><code>Total Apuestas casino</code></strong></td><td>Numérico</td><td>Total de apuestas realizadas en juegos de casino.</td></tr><tr><td><strong><code>Ganancias totales casino</code></strong></td><td>Numérico</td><td>Monto ganado en apuestas de casino.</td></tr><tr><td><strong><code>Total Retiros</code></strong></td><td>Numérico</td><td>Valor total retirado por el usuario.</td></tr><tr><td><strong><code>Ajustes de entrada</code></strong></td><td>Numérico</td><td>Modificaciones en el saldo del usuario por ajustes entradas.</td></tr><tr><td><strong><code>Ajustes de salida</code></strong></td><td>Numérico</td><td>Modificaciones en el saldo del usuario por ajustes de salidas.</td></tr></tbody></table>
+<table><thead><tr><th width="218.666748046875">Campo</th><th width="106.3333740234375">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Total Depósitos</code></strong></td><td>Numérico</td><td>Monto total depositado por el usuario.</td></tr><tr><td><strong><code>Total Apuestas deportivas</code></strong></td><td>Numérico</td><td>Total de apuestas realizadas en deportes.</td></tr><tr><td><strong><code>Total Ganancias deportivas</code></strong></td><td>Numérico</td><td>Monto ganado en apuestas deportivas.</td></tr><tr><td><strong><code>Total Apuestas casino</code></strong></td><td>Numérico</td><td>Total de apuestas realizadas en juegos de casino.</td></tr><tr><td><strong><code>Ganancias totales casino</code></strong></td><td>Numérico</td><td>Monto ganado en apuestas de casino.</td></tr><tr><td><strong><code>Total Retiros</code></strong></td><td>Numérico</td><td>Valor total retirado por el usuario.</td></tr><tr><td><strong><code>Ajustes de entrada</code></strong></td><td>Numérico</td><td>Modificaciones en el saldo del usuario por ajustes entradas.</td></tr><tr><td><strong><code>Ajustes de salida</code></strong></td><td>Numérico</td><td>Modificaciones en el saldo del usuario por ajustes de salidas.</td></tr></tbody></table>
 
 #### Resumen
 
@@ -41,7 +41,7 @@ Permite consultar las cuentas bancarias vinculadas al usuario.
 
 #### Visualización
 
-<figure><img src="../../.gitbook/assets/image (578).png" alt=""><figcaption><p>Figura#2: Captura de pantalla sección cuentas bancarias.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (539).png" alt=""><figcaption><p>Figura#2: Captura de pantalla sección cuentas bancarias.</p></figcaption></figure>
 
 #### Acciones Disponibles
 
@@ -49,7 +49,7 @@ Permite consultar las cuentas bancarias vinculadas al usuario.
 
 #### Filtros
 
-<table><thead><tr><th width="110.22216796875"> Campo</th><th width="166.77777099609375">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>ID Cuenta</code></strong></td><td>Numérico</td><td>Identificador único asignada a la cuenta bancaria.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Lista desplegable</td><td>Permite seleccionar el estado actual de la cuenta. (Todos, Activo o Inactivo)</td></tr></tbody></table>
+<table><thead><tr><th width="110.22216796875">Campo</th><th width="166.77777099609375">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>ID Cuenta</code></strong></td><td>Numérico</td><td>Identificador único asignada a la cuenta bancaria.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Lista desplegable</td><td>Permite seleccionar el estado actual de la cuenta. (Todos, Activo o Inactivo)</td></tr></tbody></table>
 
 #### Resultados de consulta
 
@@ -79,7 +79,7 @@ Al seleccionar el botón **Registrar tarjeta Stradacarte**, se abre una ventana 
 * Si una tarjeta se elimina o se marca como inactiva, deja de mostrarse en las secciones de depósitos y retiros del jugador en la plataforma de usuarios online.
 * Las acciones de registrar, editar o eliminar tarjetas requieren el permiso **Gestionar tarjetas Stradacarte**. Los intentos de acceso sin permiso quedan registrados en el sistema.
 
-#### Mensajes y confirmaciones&#x20;
+#### Mensajes y confirmaciones
 
 * Registro exitoso:
 
@@ -112,6 +112,6 @@ _“Este jugador ya tiene el máximo de 5 tarjetas activas.”_
 
 <summary>🔽Historial de versiones</summary>
 
-<table><thead><tr><th width="107" align="right">Versión</th><th width="148">Fecha</th><th width="164">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td align="right">1.0</td><td>2025-09-08</td><td>David Velásquez</td><td>Actualización de formato</td></tr><tr><td align="right">1.1</td><td>2025-09-11</td><td>Ronald Peláez</td><td>Registro de tarjeta  Stradacard y refinamiento de manual.</td></tr><tr><td align="right">1.2</td><td>2025-11-05</td><td>Ronald Peláez</td><td>Agregar tabla de resumen financiero.</td></tr><tr><td align="right">1.3</td><td>2026-09-30</td><td>Ronald Peláez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-33890">Ajustes en la tabla de resumen financiero.</a></td></tr></tbody></table>
+<table><thead><tr><th width="107" align="right">Versión</th><th width="148">Fecha</th><th width="164">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td align="right">1.0</td><td>2025-09-08</td><td>David Velásquez</td><td>Actualización de formato</td></tr><tr><td align="right">1.1</td><td>2025-09-11</td><td>Ronald Peláez</td><td>Registro de tarjeta Stradacard y refinamiento de manual.</td></tr><tr><td align="right">1.2</td><td>2025-11-05</td><td>Ronald Peláez</td><td>Agregar tabla de resumen financiero.</td></tr><tr><td align="right">1.3</td><td>2026-09-30</td><td>Ronald Peláez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-33890">Ajustes en la tabla de resumen financiero.</a></td></tr></tbody></table>
 
 </details>

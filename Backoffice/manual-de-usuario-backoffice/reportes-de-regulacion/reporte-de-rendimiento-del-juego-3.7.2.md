@@ -14,7 +14,7 @@
 
 ### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/image (371).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección reporte de rendimiento del juego.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (345).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección reporte de rendimiento del juego.</p></figcaption></figure>
 
 ***
 

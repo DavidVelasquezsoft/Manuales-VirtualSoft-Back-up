@@ -16,11 +16,11 @@ description: >-
 
 ### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/image (272).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Pago premio</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (258).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Pago premio</p></figcaption></figure>
 
 ***
 
-### 3.  Acciones de usuario
+### 3. Acciones de usuario
 
 <table><thead><tr><th width="170.4444580078125">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="pago-premio.md#id-3.1.-filtros"><strong>Filtros</strong></a></td><td>Permite buscar por un ticket en específico.</td></tr><tr><td><strong>Limpiar</strong></td><td>Restablece los filtros por defecto.</td></tr><tr><td><a href="pago-premio.md#id-3.2.-consultar"><strong>Consultar</strong></a></td><td>Busca el ticket en el sistema y muestra toda la información acerca de ese ticket y el pago del premio.</td></tr></tbody></table>
 

@@ -17,7 +17,7 @@ description: >-
 
 ### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/image (69).png" alt=""><figcaption><p>Figura#1: Captura de pantalla módulo administración de usuarios.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (70).png" alt=""><figcaption><p>Figura#1: Captura de pantalla módulo administración de usuarios.</p></figcaption></figure>
 
 ***
 
@@ -55,7 +55,7 @@ Presenta la información registrada del usuario dentro del sistema.
 
 #### Visualización
 
-<figure><img src="../../.gitbook/assets/image (719).png" alt=""><figcaption><p>Figura #2: Camptura de pantalla información de usuario</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (665).png" alt=""><figcaption><p>Figura #2: Camptura de pantalla información de usuario</p></figcaption></figure>
 
 #### Información del usuario
 
@@ -67,7 +67,7 @@ Presenta el registro de [logs](https://virtualsoft.gitbook.io/untitled/glosario#
 
 #### Visualización
 
-<figure><img src="../../.gitbook/assets/image (592).png" alt=""><figcaption><p>Figura #3: Captura de pantalla reporte logs</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (550).png" alt=""><figcaption><p>Figura #3: Captura de pantalla reporte logs</p></figcaption></figure>
 
 #### Filtros
 
@@ -93,7 +93,7 @@ Permite actualizar la contraseña del usuario mediante los siguientes campos:
 
 #### Visualización
 
-<figure><img src="../../.gitbook/assets/image (720).png" alt=""><figcaption><p>Figura #4: Captura de pantalla cambiar contraseña</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (666).png" alt=""><figcaption><p>Figura #4: Captura de pantalla cambiar contraseña</p></figcaption></figure>
 
 <table><thead><tr><th width="200">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Nueva Contraseña</code></strong></td><td>Nueva clave de acceso del usuario.</td></tr><tr><td><strong><code>Confirmar Contraseña</code></strong></td><td>Confirmación de la nueva clave de acceso.</td></tr></tbody></table>
 
@@ -113,7 +113,7 @@ Reúne las configuraciones relacionadas con la seguridad del usuario y su operac
 
 #### Visualización
 
-<figure><img src="../../.gitbook/assets/image (721).png" alt=""><figcaption><p>Figura #5: Captura de pantalla seguridad y cambios</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (667).png" alt=""><figcaption><p>Figura #5: Captura de pantalla seguridad y cambios</p></figcaption></figure>
 
 #### Seguridad y cambios
 
@@ -125,7 +125,7 @@ Genera un código QR para configurar la autenticación de dos factores mediante 
 
 #### Visualización
 
-<figure><img src="../../.gitbook/assets/image (723).png" alt=""><figcaption><p>Figura #6: Captura de pantalla QR google</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (669).png" alt=""><figcaption><p>Figura #6: Captura de pantalla QR google</p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 {% endtab %}
@@ -137,7 +137,7 @@ Genera un código QR para configurar la autenticación de dos factores mediante 
 
 Permite registrar un nuevo usuario administrativo, vinculándolo a un país y a uno o varios partners.
 
-<figure><img src="../../.gitbook/assets/image (524).png" alt=""><figcaption><p>Figura #7:Captrua de pantalla Añadir usuario</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (490).png" alt=""><figcaption><p>Figura #7:Captrua de pantalla Añadir usuario</p></figcaption></figure>
 
 <details>
 

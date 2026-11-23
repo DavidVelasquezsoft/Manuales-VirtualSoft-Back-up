@@ -14,7 +14,7 @@
 
 ### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/image (708).png" alt=""><figcaption><p>Figura #1: Captura de pantalla reporte depósitos por franquicias.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (655).png" alt=""><figcaption><p>Figura #1: Captura de pantalla reporte depósitos por franquicias.</p></figcaption></figure>
 
 ***
 

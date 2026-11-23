@@ -12,7 +12,7 @@ Ruta de Acceso: Backoffice > Caja > Retiros
 
 ### 2. 🖼️ Visualización
 
-<figure><img src="../../.gitbook/assets/image (363).png" alt=""><figcaption><p>Figura #1: Captura de pantalla retiros.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (338).png" alt=""><figcaption><p>Figura #1: Captura de pantalla retiros.</p></figcaption></figure>
 
 ### 3. 🧑‍💻 Acciones disponibles
 
@@ -28,7 +28,7 @@ Muestra en la parte inferior la lista de retiros que cumplen con los filtros apl
 
 <table><thead><tr><th width="190.888916015625">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Id</code></strong></td><td>Identificador único del retiro.</td></tr><tr><td><strong><code>Usuario</code></strong></td><td>Nombre del usuario que realizó el retiro.</td></tr><tr><td><strong><code>Número de cuenta</code></strong></td><td>Número de la cuenta bancaria a la que se realizó el retiro.</td></tr><tr><td><strong><code>Fecha de creación</code></strong></td><td>Fecha en la que se creó el retiro.</td></tr><tr><td><strong><code>Valor</code></strong></td><td>Monto solicitado para el retiro.</td></tr><tr><td><strong><code>Impuesto</code></strong></td><td>Monto de impuesto aplicado al retiro.</td></tr><tr><td><strong><code>Valor final</code></strong></td><td>Monto final que recibirá el usuario después de impuestos.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Estado actual del retiro.</td></tr><tr><td><strong><code>Fecha de pago</code></strong></td><td>Fecha en la que se realizó el pago del retiro.</td></tr></tbody></table>
 
-#### 3.3.  Retirar
+#### 3.3. Retirar
 
 Permite crear un nuevo retiro desplegando un pop-up donde se deben completar los siguientes campos:
 

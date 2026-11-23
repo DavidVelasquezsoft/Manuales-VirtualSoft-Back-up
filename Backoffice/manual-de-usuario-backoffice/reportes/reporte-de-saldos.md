@@ -14,7 +14,7 @@ description: >-
 
 ### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p>Figura#1: Captura de pantalla filtros sección reporte de saldos.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption><p>Figura#1: Captura de pantalla filtros sección reporte de saldos.</p></figcaption></figure>
 
 ***
 
@@ -24,9 +24,9 @@ description: >-
 
 ***
 
-### **4.  Filtros**
+### **4. Filtros**
 
-<table><thead><tr><th width="137.7037353515625">Campo</th><th width="123.8887939453125">Tipo de Control</th><th width="423.6666259765625">Descripción</th></tr></thead><tbody><tr><td><strong><code>ID Usuario</code></strong></td><td>Numérico</td><td>Permite buscar información asociada a un usuario específico.</td></tr><tr><td><strong><code>Fecha</code></strong></td><td>Calendario</td><td>Selecciona el rango de fechas <em>(desde – hasta)</em> para realizar la búsqueda de los registros que deseas consultar.</td></tr><tr><td><strong><code>País</code></strong></td><td>Lista desplegable</td><td>Selecciona el país para delimitar los resultados de acuerdo con la ubicación del usuario.</td></tr><tr><td><strong><code>Tipo</code></strong></td><td>Selector de opción</td><td>Define el nivel de detalle a visualizar (<em>Detallado o Totales)</em>. Según la opción seleccionada, el sistema mostrará la información correspondiente.</td></tr><tr><td><p><strong><code>Solo Saldos</code></strong> </p><p><strong><code>Negativos</code></strong></p></td><td>Selector de opción</td><td>Permite definir si se desea visualizar únicamente los registros con saldos negativos. Estos saldos pueden generarse por diferentes factores dentro de la operación, como ajustes, movimientos pendientes, etc</td></tr></tbody></table>
+<table><thead><tr><th width="137.7037353515625">Campo</th><th width="123.8887939453125">Tipo de Control</th><th width="423.6666259765625">Descripción</th></tr></thead><tbody><tr><td><strong><code>ID Usuario</code></strong></td><td>Numérico</td><td>Permite buscar información asociada a un usuario específico.</td></tr><tr><td><strong><code>Fecha</code></strong></td><td>Calendario</td><td>Selecciona el rango de fechas <em>(desde – hasta)</em> para realizar la búsqueda de los registros que deseas consultar.</td></tr><tr><td><strong><code>País</code></strong></td><td>Lista desplegable</td><td>Selecciona el país para delimitar los resultados de acuerdo con la ubicación del usuario.</td></tr><tr><td><strong><code>Tipo</code></strong></td><td>Selector de opción</td><td>Define el nivel de detalle a visualizar (<em>Detallado o Totales)</em>. Según la opción seleccionada, el sistema mostrará la información correspondiente.</td></tr><tr><td><p><strong><code>Solo Saldos</code></strong></p><p><strong><code>Negativos</code></strong></p></td><td>Selector de opción</td><td>Permite definir si se desea visualizar únicamente los registros con saldos negativos. Estos saldos pueden generarse por diferentes factores dentro de la operación, como ajustes, movimientos pendientes, etc</td></tr></tbody></table>
 
 ***
 
@@ -46,7 +46,7 @@ Presenta la información desglosada por usuario, mostrando los siguientes datos:
 
 Se presentan los valores consolidados del usuario según el rango de fechas seleccionado.
 
-<table><thead><tr><th width="243">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Total Depósitos</code></strong></td><td>Valor total de los depósitos realizados durante el rango de fechas seleccionado.</td></tr><tr><td><strong><code>Total Apuestas Deportivas</code></strong></td><td>Suma total de las apuestas realizadas en la vertical de deportivas.</td></tr><tr><td><strong><code>Total Ganancias Deportivas</code></strong></td><td>Valor total de las ganancias obtenidas en apuestas deportivas durante el rango de fechas.</td></tr><tr><td><strong><code>Total Apuestas Casino</code></strong></td><td>Suma total de las apuestas realizadas en juegos de casino.</td></tr><tr><td><strong><code>Ganancias Totales Casino</code></strong></td><td>Valor total de las ganancias generadas en casino </td></tr><tr><td><strong><code>Total Retiros</code></strong></td><td>Valor total de los retiros realizados por el usuario</td></tr><tr><td><strong><code>Total Ajustes Entrada</code></strong></td><td>Suma de los ajustes que incrementan el saldo del usuario.</td></tr><tr><td><strong><code>Total Ajustes Salida</code></strong></td><td>Suma de los ajustes todos los movimientos realizados.</td></tr></tbody></table>
+<table><thead><tr><th width="243">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Total Depósitos</code></strong></td><td>Valor total de los depósitos realizados durante el rango de fechas seleccionado.</td></tr><tr><td><strong><code>Total Apuestas Deportivas</code></strong></td><td>Suma total de las apuestas realizadas en la vertical de deportivas.</td></tr><tr><td><strong><code>Total Ganancias Deportivas</code></strong></td><td>Valor total de las ganancias obtenidas en apuestas deportivas durante el rango de fechas.</td></tr><tr><td><strong><code>Total Apuestas Casino</code></strong></td><td>Suma total de las apuestas realizadas en juegos de casino.</td></tr><tr><td><strong><code>Ganancias Totales Casino</code></strong></td><td>Valor total de las ganancias generadas en casino</td></tr><tr><td><strong><code>Total Retiros</code></strong></td><td>Valor total de los retiros realizados por el usuario</td></tr><tr><td><strong><code>Total Ajustes Entrada</code></strong></td><td>Suma de los ajustes que incrementan el saldo del usuario.</td></tr><tr><td><strong><code>Total Ajustes Salida</code></strong></td><td>Suma de los ajustes todos los movimientos realizados.</td></tr></tbody></table>
 
 <a href="reporte-de-saldos.md#resultado-detallado" class="button secondary">Regresar</a>
 

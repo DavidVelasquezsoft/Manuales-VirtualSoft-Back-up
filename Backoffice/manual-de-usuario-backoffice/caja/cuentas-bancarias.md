@@ -15,7 +15,7 @@ Ruta de Acceso: Backoffice > Caja > Cuentas Bancarias
 
 ### 2. 🖼️ Visualización
 
-<figure><img src="../../.gitbook/assets/image (329).png" alt=""><figcaption><p>Figura#1: Captura de pantalla Cuentas bancarias.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (308).png" alt=""><figcaption><p>Figura#1: Captura de pantalla Cuentas bancarias.</p></figcaption></figure>
 
 ***
 
@@ -36,7 +36,7 @@ El botón **`Cancelar`** permite cerrar el pop-up sin guardar cambios.
 
 Permiten buscar cuentas bancarias específicas según los siguientes criterios.
 
-<table><thead><tr><th width="143">Campo</th><th width="129">Tipo de campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>ID usuario</code></strong></td><td>Numérico</td><td>Permite filtrar las cuentas bancarias asociadas a un usuario específico.</td></tr><tr><td><strong><code>Numéro de cuenta</code></strong>  </td><td>Numérico</td><td>Filtra segun un numero de cuenta en especifico.</td></tr><tr><td><strong><code>Banco</code></strong></td><td>Lista desplegable</td><td>Permite filtrar las cuentas según el banco seleccionado.</td></tr><tr><td><strong><code>Tipo de cuenta</code></strong></td><td>Lista desplegable</td><td>Filtra por la selección del tipo de cuenta.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Lista desplegable</td><td>Permite filtrar las cuentas según su estado: activa o inactiva.</td></tr></tbody></table>
+<table><thead><tr><th width="143">Campo</th><th width="129">Tipo de campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>ID usuario</code></strong></td><td>Numérico</td><td>Permite filtrar las cuentas bancarias asociadas a un usuario específico.</td></tr><tr><td><strong><code>Numéro de cuenta</code></strong></td><td>Numérico</td><td>Filtra segun un numero de cuenta en especifico.</td></tr><tr><td><strong><code>Banco</code></strong></td><td>Lista desplegable</td><td>Permite filtrar las cuentas según el banco seleccionado.</td></tr><tr><td><strong><code>Tipo de cuenta</code></strong></td><td>Lista desplegable</td><td>Filtra por la selección del tipo de cuenta.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Lista desplegable</td><td>Permite filtrar las cuentas según su estado: activa o inactiva.</td></tr></tbody></table>
 
 #### 3.3. 🚀 Consultar
 

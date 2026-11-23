@@ -13,7 +13,7 @@ Si no cuentas con acceso, comunícate con el equipo de **Soporte**.
 
 ### 1. Acceso al Módulo
 
-**Ruta de acceso:**  BackOffice > Menú principal > Seguridad > Reporte de listas de observados.
+**Ruta de acceso:** BackOffice > Menú principal > Seguridad > Reporte de listas de observados.
 
 ***
 
@@ -41,7 +41,7 @@ Los filtros varían según el **`tipo de vista`** seleccionada. Se recomienda es
 {% tab title="Vista Detallada" %}
 El reporte se visualizará con información más detallada de los usuarios que están en las listas de observados.
 
-#### 4.1. Visualización&#x20;
+#### 4.1. Visualización
 
 <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Figura #1: Captura de pantalla reporte detallado.</p></figcaption></figure>
 
@@ -54,15 +54,15 @@ El reporte se visualizará con información más detallada de los usuarios que e
 Muestra una fila por cada coincidencia encontrada por el sistema de [Compliance](https://virtualsoft.gitbook.io/untitled/glosario#compliance) y [Cumplo360](https://virtualsoft.gitbook.io/plantillas/glosario#cumplo360).\
 Si un usuario presenta coincidencias en varias listas, se mostrará una fila por cada una, con el **score** correspondiente a cada lista.
 
-<table><thead><tr><th width="145">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>ID Validación</code></strong></td><td>Identificador único de la validación generada por el sistema.</td></tr><tr><td><strong><code>ID Usuario</code></strong></td><td>Identificador único del usuario dentro de la plataforma.</td></tr><tr><td><strong><code>Fecha Validación</code></strong></td><td>Momento exacto en que se envió la solicitud de validación a <a href="https://virtualsoft.gitbook.io/untitled/glosario#compliance">Compliance</a> o <a href="https://virtualsoft.gitbook.io/plantillas/glosario#cumplo360">Cumplo360</a>.</td></tr><tr><td><strong><code>Resultado</code></strong></td><td>Estado final de la revisión: <em>(Coincidencia o Sin coincidencia)</em>.</td></tr><tr><td><strong><code>Lista</code></strong></td><td>Nombre de la lista en la cual se encontró coincidencia <em>(ejemplo: OFAC, etc.).</em></td></tr><tr><td><strong><code>Score</code></strong></td><td>Nivel de riesgo asignado por el proveedor de <a href="https://virtualsoft.gitbook.io/untitled/glosario#compliance">Compliance </a>o <a href="https://virtualsoft.gitbook.io/plantillas/glosario#cumplo360">Cumplo360 </a>a la coincidencia encontrada.</td></tr><tr><td><strong><code>Nombre de usuario</code></strong></td><td>Nombre asociado al usuario revisado. </td></tr><tr><td><strong><code>Inactivo por regla automática</code></strong></td><td><p>Los usuarios que aparezcan en el reporte de lista de observados serán inactivados de manera automática según la configuración del partner</p><ul><li><p><strong>S</strong>: La cuenta del usuario ha sido inactivado de manera automática por estar en la lista de observados.<br></p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota</strong>: Cuando un usuario esté inactivo de manera automática se agregará una columna al inicio del reporte que contiene la acción <img src="../../.gitbook/assets/image (697).png" alt="" data-size="line"> para activar la cuenta del usuario.</p></div></li><li><strong>N</strong>: La cuenta del usuario está activa, aunque esté en la lista de observados <em>(<strong>Ejemplo</strong>: La cuenta se inactivó, pero luego se activó de manera manual).</em></li></ul></td></tr></tbody></table>
+<table><thead><tr><th width="145">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>ID Validación</code></strong></td><td>Identificador único de la validación generada por el sistema.</td></tr><tr><td><strong><code>ID Usuario</code></strong></td><td>Identificador único del usuario dentro de la plataforma.</td></tr><tr><td><strong><code>Fecha Validación</code></strong></td><td>Momento exacto en que se envió la solicitud de validación a <a href="https://virtualsoft.gitbook.io/untitled/glosario#compliance">Compliance</a> o <a href="https://virtualsoft.gitbook.io/plantillas/glosario#cumplo360">Cumplo360</a>.</td></tr><tr><td><strong><code>Resultado</code></strong></td><td>Estado final de la revisión: <em>(Coincidencia o Sin coincidencia)</em>.</td></tr><tr><td><strong><code>Lista</code></strong></td><td>Nombre de la lista en la cual se encontró coincidencia <em>(ejemplo: OFAC, etc.).</em></td></tr><tr><td><strong><code>Score</code></strong></td><td>Nivel de riesgo asignado por el proveedor de <a href="https://virtualsoft.gitbook.io/untitled/glosario#compliance">Compliance </a>o <a href="https://virtualsoft.gitbook.io/plantillas/glosario#cumplo360">Cumplo360 </a>a la coincidencia encontrada.</td></tr><tr><td><strong><code>Nombre de usuario</code></strong></td><td>Nombre asociado al usuario revisado.</td></tr><tr><td><strong><code>Inactivo por regla automática</code></strong></td><td><p>Los usuarios que aparezcan en el reporte de lista de observados serán inactivados de manera automática según la configuración del partner</p><ul><li><p><strong>S</strong>: La cuenta del usuario ha sido inactivado de manera automática por estar en la lista de observados.<br></p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota</strong>: Cuando un usuario esté inactivo de manera automática se agregará una columna al inicio del reporte que contiene la acción <img src="../../.gitbook/assets/image (645).png" alt="" data-size="line"> para activar la cuenta del usuario.</p></div></li><li><strong>N</strong>: La cuenta del usuario está activa, aunque esté en la lista de observados <em>(<strong>Ejemplo</strong>: La cuenta se inactivó, pero luego se activó de manera manual).</em></li></ul></td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Vista Resumida" %}
 El reporte se visualizará con información más general y resumida de los usuarios que aparecen en la lista de observados.
 
-### 4.1. Visualización&#x20;
+### 4.1. Visualización
 
-<figure><img src="../../.gitbook/assets/image (605).png" alt=""><figcaption><p>Figura #2: Captura de pantalla reporte resumido.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (561).png" alt=""><figcaption><p>Figura #2: Captura de pantalla reporte resumido.</p></figcaption></figure>
 
 ### 4.2. Filtros
 
@@ -84,7 +84,7 @@ Agrupa la información por día, mostrando métricas globales de validaciones re
 
 ### 5. Validaciones del negocio:
 
-* Cuando no se encuentran coincidencias, los campos _Lista_ y _Score_  del reporte detallado permanecen vacíos.
+* Cuando no se encuentran coincidencias, los campos _Lista_ y _Score_ del reporte detallado permanecen vacíos.
 * La vista detallada permite seguimiento individual por usuario y facilita la trazabilidad de acciones.
 * Solo permite visualizar información hasta el día anterior.
 * El reporte resumido es útil para monitoreo general del comportamiento diario del sistema de [Compliance](https://virtualsoft.gitbook.io/untitled/glosario#compliance) y [Cumplo360](https://virtualsoft.gitbook.io/plantillas/glosario#cumplo360).

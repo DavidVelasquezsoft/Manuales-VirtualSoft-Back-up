@@ -14,7 +14,7 @@
 
 ### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/image (703).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección Reporte de los ingresos consolidados del titular.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (651).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección Reporte de los ingresos consolidados del titular.</p></figcaption></figure>
 
 ***
 
@@ -61,7 +61,5 @@ Al ejecutar la consulta, en la parte inferior de la pantalla se despliega una ta
 <summary>🔽 Historial de versiones</summary>
 
 <table><thead><tr><th width="99.888916015625">Versión</th><th width="128.87872314453125">Fecha</th><th width="153.94952392578125">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>19/06/2026</td><td>David Velasquez</td><td>Documento inicial</td></tr><tr><td>1.1</td><td>22/10/2026</td><td>David Velasquez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-34571">Se documenta el origen de los valores y su dependencia de los porcentajes configurables por período.</a></td></tr></tbody></table>
-
-
 
 </details>

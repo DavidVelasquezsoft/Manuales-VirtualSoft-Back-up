@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Habilitación productos
@@ -31,7 +33,7 @@ layout:
 
 ### **2. Visualización**
 
-<figure><img src="../../../../.gitbook/assets/image (301).png" alt=""><figcaption><p>Figura#1: Captura de pantalla habilitación de productos.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (282).png" alt=""><figcaption><p>Figura#1: Captura de pantalla habilitación de productos.</p></figcaption></figure>
 
 ***
 
@@ -64,7 +66,7 @@ Una vez aplicados los filtros, los productos se visualizarán en dos listas dife
 * Al intentar mover un producto aparecerá un pop-up que exige una **Observación** mínima de 10 caracteres. Si no se cumple, se mostrará un error y la acción no se completará.
 {% endhint %}
 
-Se visualizan dos secciones principales, en las cuales se pueden ejecutar las siguientes acciones:&#x20;
+Se visualizan dos secciones principales, en las cuales se pueden ejecutar las siguientes acciones:
 
 <table><thead><tr><th width="141">Acción</th><th width="102">Control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Activar todos</code></strong></td><td>>></td><td>Mueve todos los productos desde la lista de no habilitados hacia la lista de productos habilitados, cambiando su estado de inactivo a activo.</td></tr><tr><td><strong><code>Desactivar todos</code></strong></td><td>&#x3C;&#x3C;</td><td>Mueve todos los productos desde la lista de productos habilitados hacia la lista de no habilitados, cambiando su estado de activo a inactivo.</td></tr><tr><td><strong><code>Desactivar un solo producto</code></strong></td><td>&#x3C;</td><td>Permite seleccionar un producto de la lista de productos habilitados y moverlo a la lista de productos no habilitados (cambio de estado: activo a inactivo).</td></tr><tr><td><strong><code>Activar un solo producto</code></strong></td><td>></td><td>Permite seleccionar un producto de la lista de productos no habilitados y moverlo a la lista de productos habilitados (cambio de estado: inactivo a activo).</td></tr><tr><td><strong><code>Mover un producto (Arrastrar)</code></strong></td><td>Arrastrar</td><td>Permite mover un producto específico entre listas. Para hacerlo, selecciona el producto y arrástralo hacia la lista destino según el estado que desees asignar.</td></tr></tbody></table>
 

@@ -10,7 +10,7 @@
 
 ### 2. Visualización general
 
-<figure><img src="../../../../.gitbook/assets/image (541).png" alt=""><figcaption><p>Figura #1: Captura de pantalla productos a bancos.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (506).png" alt=""><figcaption><p>Figura #1: Captura de pantalla productos a bancos.</p></figcaption></figure>
 
 ***
 
@@ -34,7 +34,7 @@
 
 Al ejecutar la consulta, en la parte inferior de la pantalla se despliega una tabla con las asociaciones que cumplen con los filtros aplicados.
 
-<table><thead><tr><th width="140">Campo</th><th width="120">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td> <strong><code>Editar</code></strong></td><td>Acción</td><td>Permite visualizar la asociación y modificar únicamente su estado <em>(Activa o Inactiva)</em>.</td></tr><tr><td><strong><code>ID</code></strong></td><td>Numérico</td><td>Identificador único de la asociación.</td></tr><tr><td><strong><code>Productos</code></strong></td><td>Texto</td><td>Nombre del producto asociado, con su código de identificación entre paréntesis.</td></tr><tr><td><strong><code>Banco</code></strong></td><td>Texto</td><td>Nombre del banco asociado, con su código de identificación entre paréntesis.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Texto</td><td>Estado actual de la asociación <em>(Activa o Inactiva)</em>.</td></tr><tr><td><strong><code>Partner</code></strong></td><td>Texto</td><td>Nombre del partner al que pertenece la asociación.</td></tr></tbody></table>
+<table><thead><tr><th width="140">Campo</th><th width="120">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Editar</code></strong></td><td>Acción</td><td>Permite visualizar la asociación y modificar únicamente su estado <em>(Activa o Inactiva)</em>.</td></tr><tr><td><strong><code>ID</code></strong></td><td>Numérico</td><td>Identificador único de la asociación.</td></tr><tr><td><strong><code>Productos</code></strong></td><td>Texto</td><td>Nombre del producto asociado, con su código de identificación entre paréntesis.</td></tr><tr><td><strong><code>Banco</code></strong></td><td>Texto</td><td>Nombre del banco asociado, con su código de identificación entre paréntesis.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Texto</td><td>Estado actual de la asociación <em>(Activa o Inactiva)</em>.</td></tr><tr><td><strong><code>Partner</code></strong></td><td>Texto</td><td>Nombre del partner al que pertenece la asociación.</td></tr></tbody></table>
 
 ***
 

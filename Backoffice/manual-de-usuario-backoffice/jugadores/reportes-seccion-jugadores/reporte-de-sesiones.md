@@ -12,7 +12,7 @@ description: Permite consultar el historial de actividad de sesiones del usuario
 
 ### 2. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (594).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (551).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -24,7 +24,7 @@ description: Permite consultar el historial de actividad de sesiones del usuario
 
 ### 4. Filtros
 
-<table><thead><tr><th width="115.11102294921875">Campo</th><th width="119.66668701171875">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>ID sesión</code></strong></td><td>Numérico</td><td>Permite filtrar por el identificador único.</td></tr><tr><td><strong><code>Fecha</code></strong></td><td>Numérico</td><td>Permite buscar rango de fechas en especifico.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Lista desplegable</td><td> Filtra según el estado que tenga la sesión actualmente.</td></tr><tr><td><strong><code>Proveedor</code></strong></td><td>Lista desplegable / Buscador</td><td>Filtra por el nombre del proveedor en el cual el usuario tiene la sesión.</td></tr></tbody></table>
+<table><thead><tr><th width="115.11102294921875">Campo</th><th width="119.66668701171875">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>ID sesión</code></strong></td><td>Numérico</td><td>Permite filtrar por el identificador único.</td></tr><tr><td><strong><code>Fecha</code></strong></td><td>Numérico</td><td>Permite buscar rango de fechas en especifico.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Lista desplegable</td><td>Filtra según el estado que tenga la sesión actualmente.</td></tr><tr><td><strong><code>Proveedor</code></strong></td><td>Lista desplegable / Buscador</td><td>Filtra por el nombre del proveedor en el cual el usuario tiene la sesión.</td></tr></tbody></table>
 
 ### 5. Resultados de Consulta
 

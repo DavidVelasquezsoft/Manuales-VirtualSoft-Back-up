@@ -14,7 +14,7 @@
 
 ### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/image (729).png" alt=""><figcaption><p>Figura #1: Captura de pantalla reporte declaración de impuestos</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (675).png" alt=""><figcaption><p>Figura #1: Captura de pantalla reporte declaración de impuestos</p></figcaption></figure>
 
 ***
 
@@ -41,7 +41,7 @@ Al ejecutar la consulta se despliega la configuración registrada para el perío
 <table><thead><tr><th width="200.75">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Editar</code></strong> <i class="fa-pencil">:pencil:</i></td><td>Despliega el <a href="reporte-declaracion-de-impuestos.md#id-6.-configuracion-de-porcentajes">formulario de configuración</a> con los porcentajes registrados para el período, permitiendo modificarlos.</td></tr><tr><td><strong><code>ID</code></strong></td><td>Identificador único de la configuración de porcentajes registrada.</td></tr><tr><td><strong><code>Apuestas Deportivas</code></strong></td><td><p>Porcentaje del dinero total apostado que se registra como apuestas de <strong>deportivas</strong>.</p><div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p><strong>Ejemplo:</strong> Con un <strong>60%</strong> configurado, de cada 100 apostados en el período se registran <strong>60</strong> como apuestas de deportivas y los <strong>40</strong> restantes como apuestas de casino.</p></div></td></tr><tr><td><strong><code>Apuestas Casino</code></strong></td><td>Porcentaje del dinero total apostado que se registra como apuestas de <strong>casino</strong>.</td></tr><tr><td><strong><code>Premios Deportivas</code></strong></td><td>Porcentaje del dinero total pagado en premios que se registra como premios de <strong>deportivas</strong>.</td></tr><tr><td><strong><code>Premios Casino</code></strong></td><td>Porcentaje del dinero total pagado en premios que se registra como premios de <strong>casino</strong>.</td></tr></tbody></table>
 
 {% hint style="warning" %}
-**Nota:** Cada período mensual admite **una sola configuración vigente**, por lo que la consulta devuelve un único registro por mes. Las configuraciones anteriores no se eliminan: se conservan en el historial de&#x20;
+**Nota:** Cada período mensual admite **una sola configuración vigente**, por lo que la consulta devuelve un único registro por mes. Las configuraciones anteriores no se eliminan: se conservan en el historial de
 
 modificaciones para mantener la trazabilidad.
 {% endhint %}

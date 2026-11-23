@@ -14,7 +14,7 @@ description: >-
 {% hint style="danger" %}
 **Nota importante:**
 
-* Si no puedes ver la opción **"**[**TRM Virtual Soft**](https://virtualsoft.gitbook.io/untitled/glosario#trm)**"**, solicita el permiso correspondiente al equipo de soporte.&#x20;
+* Si no puedes ver la opción **"**[**TRM Virtual Soft**](https://virtualsoft.gitbook.io/untitled/glosario#trm)**"**, solicita el permiso correspondiente al equipo de soporte.
 * Si eliminas un TRM, **no podrás volver a crearlo con los mismos valores de moneda origen y moneda destino**. En caso de necesitarlo nuevamente, contacta al equipo de soporte para su reactivación.
 {% endhint %}
 
@@ -22,7 +22,7 @@ description: >-
 
 ### 2. Visualización:
 
-<figure><img src="../.gitbook/assets/image (590).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección TRM.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (548).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección TRM.</p></figcaption></figure>
 
 ### **3. Acciones del Usuario**
 
@@ -32,7 +32,7 @@ Al hacer clic en el botón **Crear TRM**, se abre un pop-up que contiene los sig
 
 <table><thead><tr><th width="158.09088134765625">Campo</th><th width="167">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Moneda de origen</code></strong></td><td>Lista desplegable</td><td>Selecciona la moneda desde la cual se realizará la conversión.</td></tr><tr><td><strong><code>Moneda de destino</code></strong></td><td>Lista desplegable</td><td>Selecciona la moneda a la cual se realizará la conversión.</td></tr><tr><td><strong><code>Tasa de cambio (TRM)</code></strong></td><td>Numérico</td><td>Ingresa la tasa de conversión entre las dos monedas.</td></tr><tr><td><strong><code>Agregar conversión</code></strong></td><td>Botón</td><td>Guarda el TRM configurado.</td></tr><tr><td><strong><code>Cancelar</code></strong></td><td>Botón</td><td>Cierra el pop-up sin guardar cambios.</td></tr></tbody></table>
 
-#### **3.2  Crear** [**TRM criptomoneda**](https://virtualsoft.gitbook.io/untitled/glosario#trm)
+#### **3.2 Crear** [**TRM criptomoneda**](https://virtualsoft.gitbook.io/untitled/glosario#trm)
 
 Al hacer clic en el botón **TRM criptomoneda**, se abre un pop-up que contiene los siguientes campos:
 

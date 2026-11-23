@@ -19,7 +19,7 @@ description: >-
 
 ### 2. Visualización
 
-<figure><img src="../../../../.gitbook/assets/image (377).png" alt=""><figcaption><p>Figura#1: Capturta de pantalla filtros de busqueda.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (350).png" alt=""><figcaption><p>Figura#1: Capturta de pantalla filtros de busqueda.</p></figcaption></figure>
 
 ***
 

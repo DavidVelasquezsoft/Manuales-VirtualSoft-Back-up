@@ -12,11 +12,11 @@ description: >-
 
 ### 2. Visualización. <a href="#id-2.-visualizacion" id="id-2.-visualizacion"></a>
 
-<figure><img src="../../.gitbook/assets/image (559).png" alt=""><figcaption><p>Figura #1: Captura de pantalla sección partners productos país.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (522).png" alt=""><figcaption><p>Figura #1: Captura de pantalla sección partners productos país.</p></figcaption></figure>
 
 ***
 
-### 3.  Acciones disponibles
+### 3. Acciones disponibles
 
 <table><thead><tr><th width="120.66668701171875">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Filtros</strong></td><td>Permiten filtrar la información para obtener resultados mas precisos.</td></tr><tr><td><strong>Limpiar</strong></td><td>Restablece todos los filtros a su estado inicial.</td></tr><tr><td><strong>Consultar</strong></td><td>Aplica los filtros seleccionados y muestra los proveedores y subproveedores válidos.</td></tr><tr><td><strong>Exportar</strong></td><td>El botón <strong>Exportar</strong> en la parte inferior derecha del reporte permite descargar los resultados obtenidos con los filtros aplicados en los formatos <strong>Excel (.XLS)</strong> y <strong>PDF.</strong></td></tr></tbody></table>
 

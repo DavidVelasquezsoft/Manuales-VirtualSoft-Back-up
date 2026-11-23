@@ -8,13 +8,13 @@ description: >-
 
 ### 1. Acceso al Módulo
 
-**Ruta de Acceso:**  Backoffice > Gestión punto de venta > Punto de venta >🔎 > Comisiones > Reporte de comisiones detallado
+**Ruta de Acceso:** Backoffice > Gestión punto de venta > Punto de venta >🔎 > Comisiones > Reporte de comisiones detallado
 
 ***
 
 ### 2. Visualización
 
-<figure><img src="../../../../.gitbook/assets/image (660).png" alt=""><figcaption><p>Figura #1: Captura de pantalla reporte detallado de comisiones por punto de venta</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (611).png" alt=""><figcaption><p>Figura #1: Captura de pantalla reporte detallado de comisiones por punto de venta</p></figcaption></figure>
 
 ***
 
@@ -38,6 +38,6 @@ Al ejecutar la búsqueda, el sistema muestra la siguiente información:
 
 <summary>🔽 Historial de versiones</summary>
 
-<table><thead><tr><th width="102.88885498046875">Versión</th><th width="133">Fecha</th><th width="161">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>26/02/2026</td><td>David Velásquez</td><td>Documento inicial</td></tr><tr><td>1.2</td><td>07/04/2026</td><td>Ronald Peláez</td><td>Cambio en la columna <strong><code>NTC</code></strong> por <strong><code>¿Generó comisión?</code></strong> </td></tr></tbody></table>
+<table><thead><tr><th width="102.88885498046875">Versión</th><th width="133">Fecha</th><th width="161">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>26/02/2026</td><td>David Velásquez</td><td>Documento inicial</td></tr><tr><td>1.2</td><td>07/04/2026</td><td>Ronald Peláez</td><td>Cambio en la columna <strong><code>NTC</code></strong> por <strong><code>¿Generó comisión?</code></strong></td></tr></tbody></table>
 
 </details>

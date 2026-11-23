@@ -14,7 +14,7 @@
 
 ### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/image (252).png" alt=""><figcaption><p>Figura #1: Captura de pantalla sección Reportes de Pago del Premio Mayor.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (243).png" alt=""><figcaption><p>Figura #1: Captura de pantalla sección Reportes de Pago del Premio Mayor.</p></figcaption></figure>
 
 ***
 

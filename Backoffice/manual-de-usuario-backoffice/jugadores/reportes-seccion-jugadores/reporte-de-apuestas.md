@@ -8,13 +8,13 @@ description: >-
 
 ### 1. Acceso al Módulo:
 
-**Ruta de Acceso**: Jugadores > 🔍 >  Reportes > Reporte de apuestas
+**Ruta de Acceso**: Jugadores > 🔍 > Reportes > Reporte de apuestas
 
 ***
 
 ### 2. Visualización:
 
-<figure><img src="../../../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
 
 ***
 

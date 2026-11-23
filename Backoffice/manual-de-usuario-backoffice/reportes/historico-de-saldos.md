@@ -14,7 +14,7 @@
 
 ### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/image (46).png" alt=""><figcaption><p>Figura #1: Captura de pantalla de los filtros de búsqueda.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (47).png" alt=""><figcaption><p>Figura #1: Captura de pantalla de los filtros de búsqueda.</p></figcaption></figure>
 
 ***
 

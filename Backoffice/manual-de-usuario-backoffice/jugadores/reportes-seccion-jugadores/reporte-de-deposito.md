@@ -12,7 +12,7 @@ description: Permite consultar los depósitos realizados por el usuario.
 
 ### 2. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (580).png" alt=""><figcaption><p>Figura#1: Captura de pantalla reporte de deposito</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (541).png" alt=""><figcaption><p>Figura#1: Captura de pantalla reporte de deposito</p></figcaption></figure>
 
 ### &#x33;**. Acciones disponibles**
 
@@ -24,7 +24,7 @@ Tendrás los siguientes filtros que te ayudarán a realizar una búsqueda más d
 
 <table><thead><tr><th width="125.11102294921875">Campo</th><th width="161.33331298828125">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Fecha</code></strong></td><td>Fecha Inicio / Fin</td><td>Filtra según la fecha en la que se realizó el depósito.</td></tr><tr><td><strong><code>Valor minimo</code></strong></td><td>Numérico</td><td>Filtrar por el valor mínimo del deposito.</td></tr><tr><td><strong><code>Valor maximo</code></strong></td><td>Numérico</td><td>Filtra por el valor máximo del deposito.</td></tr></tbody></table>
 
-### 5.  Resultados de consulta
+### 5. Resultados de consulta
 
 Aplica los filtros seleccionados y muestra los reportes detallados del historial de depósitos del usuario.
 

@@ -15,7 +15,7 @@ description: >-
 
 ### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/image (59).png" alt=""><figcaption><p>figura#1: Captura de pantalla reporte de Flujo de Caja Histórico.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (60).png" alt=""><figcaption><p>figura#1: Captura de pantalla reporte de Flujo de Caja Histórico.</p></figcaption></figure>
 
 ***
 
@@ -29,7 +29,7 @@ description: >-
 
 ### 4. **Filtros principales**
 
-<table><thead><tr><th width="116.148193359375">Campo</th><th width="155">Tipo de Control</th><th width="462.5555419921875">Descripción</th></tr></thead><tbody><tr><td><strong><code>Fecha</code></strong></td><td>Calendario</td><td>Selecciona un rango de fechas para consultar el flujo de caja.</td></tr><tr><td><strong><code>País</code></strong></td><td>Lista desplegable</td><td>Filtra las transacciones según el país asociado.</td></tr><tr><td><strong><code>Moneda</code></strong></td><td>Lista desplegable</td><td>Define la moneda en la que se mostrará la información.</td></tr><tr><td><p><strong><code>Tipo de</code></strong> </p><p><strong><code>Detalle</code></strong></p></td><td>Botones de opción</td><td>Determina el nivel de detalle en los resultados</td></tr></tbody></table>
+<table><thead><tr><th width="116.148193359375">Campo</th><th width="155">Tipo de Control</th><th width="462.5555419921875">Descripción</th></tr></thead><tbody><tr><td><strong><code>Fecha</code></strong></td><td>Calendario</td><td>Selecciona un rango de fechas para consultar el flujo de caja.</td></tr><tr><td><strong><code>País</code></strong></td><td>Lista desplegable</td><td>Filtra las transacciones según el país asociado.</td></tr><tr><td><strong><code>Moneda</code></strong></td><td>Lista desplegable</td><td>Define la moneda en la que se mostrará la información.</td></tr><tr><td><p><strong><code>Tipo de</code></strong></p><p><strong><code>Detalle</code></strong></p></td><td>Botones de opción</td><td>Determina el nivel de detalle en los resultados</td></tr></tbody></table>
 
 ### **5. Resultados de consulta**
 

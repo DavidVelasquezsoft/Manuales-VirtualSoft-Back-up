@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Reporte Flujo de Caja
@@ -33,7 +35,7 @@ layout:
 
 ### 2. Visualización
 
-<figure><img src="../../../../.gitbook/assets/image (709).png" alt=""><figcaption><p>Figura #1: Captura de pantalla reporte flujo de caja.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (656).png" alt=""><figcaption><p>Figura #1: Captura de pantalla reporte flujo de caja.</p></figcaption></figure>
 
 ***
 

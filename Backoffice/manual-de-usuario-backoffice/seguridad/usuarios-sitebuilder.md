@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Usuarios Sitebuilder
@@ -33,7 +35,7 @@ layout:
 
 ### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Figura#1: Captura de pantalla módulo Usuarios Sitebuilder.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p>Figura#1: Captura de pantalla módulo Usuarios Sitebuilder.</p></figcaption></figure>
 
 ***
 
@@ -61,7 +63,7 @@ Despliega un pop up para crear nuevos usuarios en la plataforma de Site Builder 
 **Nota:** Para poder crear un usuario en Site Builder, es necesario que exista un correo previamente creado en el BackOffice para el mismo usuario.
 {% endhint %}
 
-<table><thead><tr><th width="114.83331298828125">Campo </th><th width="126">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Usuario Backoffice</code></strong></td><td>Texto</td><td><p>Busca y selecciona el nombre del usuario ya previamente creado en el BackOffice.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Para filtrar es necesario que se escriba el nombre del usuario tal cual como se creó para BackOffice.</p></div></td></tr><tr><td><strong><code>Contraseña</code></strong></td><td>Texto</td><td>Contraseña de acceso que tendrá el usuario en Site Builder.</td></tr></tbody></table>
+<table><thead><tr><th width="114.83331298828125">Campo</th><th width="126">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Usuario Backoffice</code></strong></td><td>Texto</td><td><p>Busca y selecciona el nombre del usuario ya previamente creado en el BackOffice.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Para filtrar es necesario que se escriba el nombre del usuario tal cual como se creó para BackOffice.</p></div></td></tr><tr><td><strong><code>Contraseña</code></strong></td><td>Texto</td><td>Contraseña de acceso que tendrá el usuario en Site Builder.</td></tr></tbody></table>
 
 * Para crear el usuario correctamente, debes dar clic al botón "**Guardar**".
 
@@ -79,6 +81,6 @@ Despliega un pop up para crear nuevos usuarios en la plataforma de Site Builder 
 
 <summary>🔽 <strong>Historial de versiones</strong></summary>
 
-<table><thead><tr><th width="161.8148193359375">Versión</th><th width="123">Fecha</th><th width="174">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>2025-09-01</td><td>David</td><td><p>Actualización de </p><p>formato.</p></td></tr><tr><td>1.1</td><td>2026-06-02</td><td>Ronald Peláez</td><td>Refinamiento de manual.</td></tr></tbody></table>
+<table><thead><tr><th width="161.8148193359375">Versión</th><th width="123">Fecha</th><th width="174">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>2025-09-01</td><td>David</td><td><p>Actualización de</p><p>formato.</p></td></tr><tr><td>1.1</td><td>2026-06-02</td><td>Ronald Peláez</td><td>Refinamiento de manual.</td></tr></tbody></table>
 
 </details>

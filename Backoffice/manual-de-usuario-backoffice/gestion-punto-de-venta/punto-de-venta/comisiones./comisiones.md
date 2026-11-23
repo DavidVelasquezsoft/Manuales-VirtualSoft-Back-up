@@ -8,7 +8,7 @@ description: >-
 
 ### 1. Acceso al módulo
 
-**Ruta de acceso**: Backoffice > Gestión punto de venta > punto de venta > buscar un punto de venta > 📁> 📁  > 🔎 > Comisiones > comisiones
+**Ruta de acceso**: Backoffice > Gestión punto de venta > punto de venta > buscar un punto de venta > 📁> 📁 > 🔎 > Comisiones > comisiones
 
 {% @guideflow/guideflow-embed requestedUrl="https://app.guideflow.com/player/zkjxv87hep" %}
 
@@ -16,7 +16,7 @@ description: >-
 
 ***
 
-### 2. Configuraciones&#x20;
+### 2. Configuraciones
 
 <details>
 
@@ -37,7 +37,7 @@ Permite definir la distribución de comisiones sobre el NGR para los diferentes 
 
 #### 2. Visualización general <a href="#id-2.-visualizacion-general-2" id="id-2.-visualizacion-general-2"></a>
 
-<figure><img src="../../../../.gitbook/assets/image (667).png" alt=""><figcaption><p>Figura 1: Captura de pantalla de la sección Sportbook NGR Afiliados</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (617).png" alt=""><figcaption><p>Figura 1: Captura de pantalla de la sección Sportbook NGR Afiliados</p></figcaption></figure>
 
 ***
 
@@ -47,7 +47,7 @@ Permite definir la distribución de comisiones sobre el NGR para los diferentes 
 
 #### 4. Configuraciones de Sportbook NGR Afiliados <a href="#id-3.-configuracion-de-niveles" id="id-3.-configuracion-de-niveles"></a>
 
-<table><thead><tr><th width="184.3636474609375">Campo</th><th width="139.0909423828125">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Comisión Usuario</code></strong></td><td>Numérico</td><td>Define el porcentaje de comisión asignado al punto de venta. Este valor corresponde a la ganancia del punto de venta sobre el NGR y sirve como referencia principal para la distribución de las demás comisiones.</td></tr><tr><td><strong><code>Por Concesionario</code></strong></td><td>Numérico</td><td>Define el valor de comisión correspondiente al concesionario. Es obligatorio.</td></tr><tr><td><strong><code>Por Subconcesionario</code></strong></td><td>Numérico</td><td>Define la comisión asignada al subconcesionario.</td></tr><tr><td><strong><code>Por Subconcesionario 1</code></strong></td><td>Numérico</td><td>Define la comisión asignada al subconcesionario 1 .</td></tr><tr><td><strong><code>Por Subconcesionario 2</code></strong></td><td>Numérico</td><td>Define la comisión asignada al subconcesionario  2.</td></tr><tr><td><strong><code>Total</code></strong></td><td>numérico (solo lectura)</td><td>Muestra la suma total de las comisiones ingresadas. Este valor se calcula automáticamente y no es editable.</td></tr></tbody></table>
+<table><thead><tr><th width="184.3636474609375">Campo</th><th width="139.0909423828125">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Comisión Usuario</code></strong></td><td>Numérico</td><td>Define el porcentaje de comisión asignado al punto de venta. Este valor corresponde a la ganancia del punto de venta sobre el NGR y sirve como referencia principal para la distribución de las demás comisiones.</td></tr><tr><td><strong><code>Por Concesionario</code></strong></td><td>Numérico</td><td>Define el valor de comisión correspondiente al concesionario. Es obligatorio.</td></tr><tr><td><strong><code>Por Subconcesionario</code></strong></td><td>Numérico</td><td>Define la comisión asignada al subconcesionario.</td></tr><tr><td><strong><code>Por Subconcesionario 1</code></strong></td><td>Numérico</td><td>Define la comisión asignada al subconcesionario 1 .</td></tr><tr><td><strong><code>Por Subconcesionario 2</code></strong></td><td>Numérico</td><td>Define la comisión asignada al subconcesionario 2.</td></tr><tr><td><strong><code>Total</code></strong></td><td>numérico (solo lectura)</td><td>Muestra la suma total de las comisiones ingresadas. Este valor se calcula automáticamente y no es editable.</td></tr></tbody></table>
 
 ### 5. Validaciones y reglas del negocio:
 
@@ -61,8 +61,6 @@ Permite definir la distribución de comisiones sobre el NGR para los diferentes 
 
 <summary>🔽Sportbook GGR Punto venta IP</summary>
 
-
-
 #### 1. Acceso al módulo <a href="#id-1.-acceso-al-modulo-10" id="id-1.-acceso-al-modulo-10"></a>
 
 **Ruta de acceso**: Backoffice > Gestión punto de venta > 🔎 > Comisiones > comisiones > Sportbook GGR Punto venta IP
@@ -71,15 +69,11 @@ Permite definir la distribución de comisiones sobre el NGR para los diferentes 
 
 #### 2. Visualización general <a href="#id-2.-visualizacion-general-2" id="id-2.-visualizacion-general-2"></a>
 
-
-
 Figura 1: Captura de pantalla de la sección Sportbook GGR Punto venta IP
 
 ***
 
 #### 3. Configuraciones de Sportbook NGR Afiliados <a href="#id-3.-configuracion-de-niveles" id="id-3.-configuracion-de-niveles"></a>
-
-
 
 </details>
 
@@ -105,7 +99,7 @@ Figura 1: Captura de pantalla de la sección Sportbook GGR Punto venta IP
 
 #### 2. Visualización general <a href="#id-2.-visualizacion-general-2" id="id-2.-visualizacion-general-2"></a>
 
-<figure><img src="../../../../.gitbook/assets/image (668).png" alt=""><figcaption><p>Figura 1: Captura de pantalla de la sección Depósito Punto venta</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (618).png" alt=""><figcaption><p>Figura 1: Captura de pantalla de la sección Depósito Punto venta</p></figcaption></figure>
 
 ***
 
@@ -121,7 +115,7 @@ Figura 1: Captura de pantalla de la sección Sportbook GGR Punto venta IP
 
 ***
 
-#### **5. Manuales relacionados**&#x20;
+#### **5. Manuales relacionados**
 
 * [Reporte Comisiones Global | Manuales](https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/reportes/reporte-comisiones-global)
 * [Reporte de comisiones | Manuales](https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/gestion-punto-de-venta/punto-de-venta/comisiones./reporte-de-comisiones)

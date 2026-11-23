@@ -18,7 +18,7 @@ description: >-
 
 ### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/image (319).png" alt=""><figcaption><p>Figura#1: Captura de pantalla reporte transacciones realizadas por cada jugador.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (299).png" alt=""><figcaption><p>Figura#1: Captura de pantalla reporte transacciones realizadas por cada jugador.</p></figcaption></figure>
 
 ***
 

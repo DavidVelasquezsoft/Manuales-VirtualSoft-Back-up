@@ -18,7 +18,7 @@ description: >-
 
 ### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/image (361).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección Reporte específico de la Plataforma. </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (336).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección Reporte específico de la Plataforma.</p></figcaption></figure>
 
 ***
 

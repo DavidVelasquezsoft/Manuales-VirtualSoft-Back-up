@@ -15,7 +15,7 @@ description: >-
 
 ### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/image (501).png" alt=""><figcaption><p>Figura#1: Captura de pantalla seccion franquicia.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (467).png" alt=""><figcaption><p>Figura#1: Captura de pantalla seccion franquicia.</p></figcaption></figure>
 
 ***
 

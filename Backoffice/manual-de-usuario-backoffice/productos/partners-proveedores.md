@@ -12,7 +12,7 @@ description: >-
 
 ### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/image (420).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección proveedor partner.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (390).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección proveedor partner.</p></figcaption></figure>
 
 ***
 

@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Reporte de Depósitos
@@ -33,11 +35,11 @@ layout:
 
 ### 2. Visualización
 
-<figure><img src="../../../../.gitbook/assets/image (698).png" alt=""><figcaption><p>Figura #1: Captura de pantalla reporte de Depósitos.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (646).png" alt=""><figcaption><p>Figura #1: Captura de pantalla reporte de Depósitos.</p></figcaption></figure>
 
 ***
 
-### 3.  Acciones de usuario
+### 3. Acciones de usuario
 
 <table><thead><tr><th width="170.4444580078125">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Filtros</strong></td><td>Permite buscar el historial de los depósitos realizados por el punto de venta con la ayuda de filtros.</td></tr><tr><td><strong>Limpiar</strong></td><td>Restablece los filtros por defecto.</td></tr><tr><td><strong>Consultar</strong></td><td>Aplica los filtros configurados y obtén los resultados.</td></tr><tr><td><strong>Exportar</strong></td><td>Permite exportar los resultados obtenidos según los filtros aplicados en formatos Excel <em>(.XLS)</em> y PDF mediante el botón <strong>Exportar</strong>, ubicado en la parte inferior derecha de la pantalla.</td></tr></tbody></table>
 

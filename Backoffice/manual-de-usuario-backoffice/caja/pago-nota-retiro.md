@@ -12,7 +12,7 @@
 
 ### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/image (274).png" alt=""><figcaption><p>Figura #1: Captura de pantalla sección pago nota retiro.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (260).png" alt=""><figcaption><p>Figura #1: Captura de pantalla sección pago nota retiro.</p></figcaption></figure>
 
 ***
 

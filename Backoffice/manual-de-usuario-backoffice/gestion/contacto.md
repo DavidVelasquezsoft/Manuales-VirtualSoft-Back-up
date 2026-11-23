@@ -14,7 +14,7 @@ Ruta de Acceso: Backoffice > Gestión > Contacto
 
 ### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/image (310).png" alt=""><figcaption><p>Figura#1: Captura de pantalla seccion contacto.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (290).png" alt=""><figcaption><p>Figura#1: Captura de pantalla seccion contacto.</p></figcaption></figure>
 
 ***
 
@@ -51,4 +51,3 @@ Muestra en la parte inferior las solicitudes correspondientes según los filtros
 <table><thead><tr><th width="98.88885498046875">Versión</th><th width="126">Fecha</th><th>Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>08/01/2026</td><td>David Velasquez</td><td>Actualización de formato.</td></tr></tbody></table>
 
 </details>
-

@@ -14,7 +14,7 @@
 
 ### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/image (579).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (540).png" alt=""><figcaption></figcaption></figure>
 
 ***
 

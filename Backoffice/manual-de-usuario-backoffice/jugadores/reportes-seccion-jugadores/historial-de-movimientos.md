@@ -14,7 +14,7 @@ description: >-
 
 ### 2. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (637).png" alt=""><figcaption><p>Figura#1: Captura de pantalla filtros de búsqueda.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (591).png" alt=""><figcaption><p>Figura#1: Captura de pantalla filtros de búsqueda.</p></figcaption></figure>
 
 ***
 
@@ -24,7 +24,7 @@ description: >-
 
 ### 4. Filtros
 
-<table><thead><tr><th width="115.11102294921875">Campo</th><th width="119.66668701171875">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>fecha creacion</code></strong></td><td>Calendario</td><td>Permite filtrar los movimientos según la fecha en que fueron registrados en el sistema.</td></tr><tr><td><strong><code>ID externo</code></strong></td><td>Numérico</td><td>Permite buscar un movimiento específico utilizando su identificador externo único.</td></tr><tr><td><strong><code>Movimiento</code></strong></td><td>Lista desplegable</td><td> Filtra según el tipo de flujo de saldo:<br><a href="historial-de-movimientos.md#tipos-de-movimientos-filtros" class="button secondary">Ver tipos de movimientos</a></td></tr><tr><td><strong><code>tipo</code></strong></td><td>Lista desplegable</td><td>Filtra según el tipo de evento que generó el movimiento de los puntos.<br><a href="historial-de-movimientos.md#tipos-de-eventos" class="button secondary">Ver tipos de eventos</a></td></tr></tbody></table>
+<table><thead><tr><th width="115.11102294921875">Campo</th><th width="119.66668701171875">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>fecha creacion</code></strong></td><td>Calendario</td><td>Permite filtrar los movimientos según la fecha en que fueron registrados en el sistema.</td></tr><tr><td><strong><code>ID externo</code></strong></td><td>Numérico</td><td>Permite buscar un movimiento específico utilizando su identificador externo único.</td></tr><tr><td><strong><code>Movimiento</code></strong></td><td>Lista desplegable</td><td>Filtra según el tipo de flujo de saldo:<br><a href="historial-de-movimientos.md#tipos-de-movimientos-filtros" class="button secondary">Ver tipos de movimientos</a></td></tr><tr><td><strong><code>tipo</code></strong></td><td>Lista desplegable</td><td>Filtra según el tipo de evento que generó el movimiento de los puntos.<br><a href="historial-de-movimientos.md#tipos-de-eventos" class="button secondary">Ver tipos de eventos</a></td></tr></tbody></table>
 
 <details>
 

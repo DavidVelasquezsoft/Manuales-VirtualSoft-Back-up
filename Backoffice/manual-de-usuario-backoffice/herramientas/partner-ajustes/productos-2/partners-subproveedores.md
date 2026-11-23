@@ -12,7 +12,7 @@ description: Este módulo permite alternar el estado de los proveedores con el p
 
 ### 2. Visualización general
 
-<figure><img src="../../../../.gitbook/assets/image (656).png" alt=""><figcaption><p>Figura #1: Captura de pantalla partner sub proveedores.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (607).png" alt=""><figcaption><p>Figura #1: Captura de pantalla partner sub proveedores.</p></figcaption></figure>
 
 ***
 
@@ -41,7 +41,7 @@ Estas listas permiten gestionar de forma visual el estado de cada [sub proveedor
 <table><thead><tr><th width="173">Acción</th><th width="100" align="center">Control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Activar todos</code></strong></td><td align="center">>></td><td>Mueve todos los sub proveedores desde la lista de no agregados hacia la lista de agregados, cambiando su estado de <strong>inactivo a activo.</strong></td></tr><tr><td><strong><code>Desactivar todos</code></strong></td><td align="center">&#x3C;&#x3C;</td><td>Mueve todos los sub proveedores desde la lista de agregados hacia la lista de no agregados, cambiando su estado de <strong>activo a inactivo</strong>.</td></tr><tr><td><strong><code>Desactivar un solo proveedor</code></strong></td><td align="center">&#x3C;</td><td>Selecciona un sub proveedor de la lista Sub proveedores agregados y muévelo a la lista sub proveedores no agregados (de activo a inactivo).</td></tr><tr><td><strong><code>Activar un solo proveedor</code></strong></td><td align="center">></td><td>Selecciona un sub proveedor de la lista sub proveedores no agregados y muévelo a la lista sub proveedores agregados (inactivo a activo).</td></tr><tr><td><strong><code>Agregar un sólo un</code></strong> <a href="https://virtualsoft.gitbook.io/untitled/glosario#subproveedor"><strong><code>sub proveedor</code></strong></a><strong><code>.</code></strong></td><td align="center">Arrastrar</td><td>Permite mover un sub proveedor específico entre listas. Para hacerlo, selecciona el sub proveedor y arrástralo hacia la lista destino según el estado que desees asignar.</td></tr></tbody></table>
 
 {% hint style="warning" %}
-**Nota**:  Al realizar un cambio de estado en algún [sub proveedor](https://virtualsoft.gitbook.io/untitled/glosario#subproveedor) se desplegará un pop-up con la opción de cancelar los cambios realizados o confirmar los cambios luego de agregar una observación.
+**Nota**: Al realizar un cambio de estado en algún [sub proveedor](https://virtualsoft.gitbook.io/untitled/glosario#subproveedor) se desplegará un pop-up con la opción de cancelar los cambios realizados o confirmar los cambios luego de agregar una observación.
 {% endhint %}
 
 ***

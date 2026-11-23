@@ -14,7 +14,7 @@
 
 ### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/image (204).png" alt=""><figcaption><p>Figura#1: Captura de pantalla reporte de la cuenta del jugador.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (199).png" alt=""><figcaption><p>Figura#1: Captura de pantalla reporte de la cuenta del jugador.</p></figcaption></figure>
 
 ***
 
