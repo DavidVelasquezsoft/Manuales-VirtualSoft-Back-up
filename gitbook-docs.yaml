@@ -105,6 +105,7 @@ site:
           path: glosario
           content:
             directory: ./glosario
+            language: es
         - type: space
           key: space-14
           title: Manuales API
