@@ -30,25 +30,25 @@ Permitir la consulta, gestión y visualización de información relacionada con 
 
 La API de Redes Aliadas permite a puntos físicos autorizados realizar depósitos, retiros, reversión de transacciones y consultas en tiempo real mediante una integración segura con el sistema central. Este manual describe los endpoints, estructura de mensajes y lineamientos necesarios para su correcta implementación.
 
-{% file src=".gitbook/assets/Manual_API_Recargas_Operator (7).pdf" %}
+{% file src=".gitbook/assets/Manual_API_Recargas_Operator.pdf" %}
 
 ### Manual Registro Whatsapp
 
 Esta documentación describe el uso de la API de Registro de Usuarios de VirtualSoft, diseñada para facilitar la incorporación de nuevos clientes. La API permite registrar usuarios de forma segura, validando su información básica y asignando promociones desde un punto de venta autorizado.
 
-{% file src=".gitbook/assets/Manual_API_Registro_WhatsApp_VirtualSoft 1 (5).pdf" %}
+{% file src=".gitbook/assets/Manual_API_Registro_WhatsApp_VirtualSoft 1.pdf" %}
 
 ### Manual Jugadores en tiempo real
 
 Este manual describe el uso y la integración de la API de Información de Jugadores en Tiempo Real, desarrollada para permitir la consulta ágil y segura de datos generales de jugadores mediante un agente de inteligencia artificial
 
-{% file src=".gitbook/assets/Manual_API_Jugadores_en_tiempo_real (4).pdf" %}
+{% file src=".gitbook/assets/Manual_API_Jugadores_en_tiempo_real.pdf" %}
 
 ### Manual consultas de retiros y depósitos de un usuario.
 
 Esta Api permite consultar los depósitos y retiros de un usuario de las diferentes operaciones de Virtualsoft por país, además permite filtros por fechas.
 
-{% file src=".gitbook/assets/Manual_API_consultas-de-retiros-y-depósitos-de-un-usuario (6).pdf" %}
+{% file src=".gitbook/assets/Manual_API_consultas-de-retiros-y-depósitos-de-un-usuario.pdf" %}
 
 ### Manual Funciones y modo de uso API GATEWAY
 
