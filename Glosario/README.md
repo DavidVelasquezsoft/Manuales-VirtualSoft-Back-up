@@ -1,11 +1,11 @@
 # Glosario
 
-## Introducción:
+## Introducción
 
 Esta es una sección destinada a definir de forma clara y sencilla los términos técnicos, funcionales y específicos utilizados dentro de este aplicativo.
 
-Objetivo[](https://app.gitbook.com/account/developer):
----------------------------------------------
+Objetivo[](https://app.gitbook.com/account/developer)
+--------------------------------------------
 
 Su objetivo es ayudar a los usuarios a comprender el significado de palabras clave, procesos o componentes que forman parte del sistema, mejorando así la experiencia de uso y reduciendo dudas durante la navegación.
 
