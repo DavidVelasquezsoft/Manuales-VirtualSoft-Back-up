@@ -73,7 +73,7 @@ Vista general de los puntos de venta según los filtros aplicados.
 
 #### Visualización
 
-<figure><img src="../../../.gitbook/assets/image (276).png" alt=""><figcaption><p>Figura #1: Captura de pantalla vista General PDV.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (279).png" alt=""><figcaption><p>Figura #1: Captura de pantalla vista General PDV.</p></figcaption></figure>
 
 El contenido se organiza en tres subpestañas, ubicadas en la parte superior derecha: Evolución, Detalle PDV y Tablas de detalle.
 
@@ -81,7 +81,9 @@ El contenido se organiza en tres subpestañas, ubicadas en la parte superior der
 {% tab title="Evolución" %}
 Comportamiento diario del balance, las recargas y los retiros, presentado en gráficos lineales.
 
-<table><thead><tr><th width="181">Gráfico</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Evolución diaria del balance</code></strong></td><td>Diferencia diaria entre recargas y retiros.</td></tr><tr><td><strong><code>Evolución diaria de recargas</code></strong></td><td>Valor diario de las recargas <em>(depósitos).</em></td></tr><tr><td><strong><code>Evolución diaria de retiros</code></strong></td><td>Valor diario de los retiros.</td></tr></tbody></table>
+#### Gráficos
+
+<table><thead><tr><th width="181">Gráfico</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Evolución diaria del balance</code></strong></td><td>Balance de cada día dentro del rango de fechas seleccionado, calculado como la diferencia entre las recargas y los retiros del día. Muestra los días en el eje horizontal y el valor del balance en el eje vertical, y refleja cómo cambia de un día a otro.</td></tr><tr><td><strong><code>Evolución diaria de recargas</code></strong></td><td>Valor total de las recargas <em>(depósitos)</em> de cada día dentro del rango de fechas seleccionado. Su comportamiento diario puede compararse con el de los retiros.</td></tr><tr><td><strong><code>Evolución diaria de retiros</code></strong></td><td>Valor total de los retiros de cada día dentro del rango de fechas seleccionado. Su comportamiento diario puede compararse con el de las recargas.</td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Detalle PDV" %}
@@ -95,31 +97,29 @@ Ranking y distribución de los puntos de venta por balance, recargas y retiros, 
 {% tab title="Tablas de detalle" %}
 Detalle numérico de los indicadores en cuatro tablas.
 
-Resumen por provincia: consolidado por provincia, con la participación de cada una en los totales.
-
 * **Resumen por provincia**
 
-consolidado por provincia, con la participación de cada una en los totales.
+Valores consolidados por provincia y punto de venta, con la participación de cada provincia en los totales.
 
-<table><thead><tr><th width="162.33331298828125">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Provincia</code></strong></td><td>Provincia a la que pertenecen los puntos de venta.</td></tr><tr><td><strong><code>PDV</code></strong></td><td>Nombre del punto de venta.</td></tr><tr><td><strong><code>Recargas</code></strong></td><td>Valor total de las recargas del punto de venta.</td></tr><tr><td><strong><code>% participación recargas</code></strong></td><td>Porcentaje que representa la provincia en el total de recargas.</td></tr><tr><td><strong><code>Retiros</code></strong></td><td>Valor total de los retiros del punto de venta.</td></tr><tr><td><strong><code>% participación retiros</code></strong></td><td>Porcentaje que representa la provincia en el total de retiros.</td></tr><tr><td><strong><code>Balance</code></strong></td><td>Diferencia entre recargas y retiros del punto de venta.</td></tr><tr><td><strong><code>% participación balance</code></strong></td><td>Porcentaje que representa la provincia en el balance total.</td></tr><tr><td><strong><code>Relación TRX</code></strong></td><td>Porcentaje de retiros respecto a recargas de la provincia.</td></tr><tr><td><strong><code>% participación relación TRX</code></strong></td><td>Porcentaje de participación de la provincia en la Relación TRX.</td></tr></tbody></table>
+<table><thead><tr><th width="162.33331298828125">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Provincia</code></strong></td><td>Provincia a la que pertenecen los puntos de venta.</td></tr><tr><td><strong><code>PDV</code></strong></td><td>Nombre del punto de venta.</td></tr><tr><td><strong><code>Recargas</code></strong></td><td>Valor total de las recargas <em>(depósitos)</em> registradas en el punto de venta.</td></tr><tr><td><strong><code>% participación recargas</code></strong></td><td>Porcentaje que representan las recargas de la provincia respecto al total de recargas.</td></tr><tr><td><strong><code>Retiros</code></strong></td><td>Valor total de los retiros registrados en el punto de venta.</td></tr><tr><td><strong><code>% participación retiros</code></strong></td><td>Porcentaje que representan los retiros de la provincia respecto al total de retiros.</td></tr><tr><td><strong><code>Balance</code></strong></td><td>Diferencia entre las recargas y los retiros del punto de venta. Un valor positivo indica que las recargas superan a los retiros; un valor negativo, que los retiros superan a las recargas.</td></tr><tr><td><strong><code>% participación balance</code></strong></td><td>Porcentaje que representa el balance de la provincia respecto al balance total.</td></tr><tr><td><strong><code>Relación TRX</code></strong></td><td>Porcentaje que representan los retiros respecto a las recargas de la provincia.</td></tr><tr><td><strong><code>% participación relación TRX</code></strong></td><td>Porcentaje de participación de la provincia en la Relación TRX.</td></tr></tbody></table>
 
 * **Resumen diario**
 
-seguimiento del balance día a día.
+Balance de cada día dentro del rango de fechas seleccionado y su variación frente al día anterior.
 
-<table><thead><tr><th width="151.66668701171875">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Día</code></strong></td><td>Día al que corresponden los valores.</td></tr><tr><td><strong><code>Balance</code></strong></td><td>Balance del día.</td></tr><tr><td><strong><code>Variación respecto al día anterior</code></strong></td><td>Diferencia del balance frente al del día anterior.</td></tr><tr><td><strong><code>% Variación respecto al día anterior</code></strong></td><td>Variación porcentual del balance frente al del día anterior.</td></tr></tbody></table>
+<table><thead><tr><th width="151.66668701171875">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Día</code></strong></td><td>Día del rango de fechas seleccionado al que corresponden los valores.</td></tr><tr><td><strong><code>Balance</code></strong></td><td>Diferencia entre las recargas y los retiros del día.</td></tr><tr><td><strong><code>Variación respecto al día anterior</code></strong></td><td>Diferencia entre el balance del día y el del día anterior. Un valor positivo indica que el balance aumentó; un valor negativo, que disminuyó.</td></tr><tr><td><strong><code>% Variación respecto al día anterior</code></strong></td><td>Variación del balance del día frente al del día anterior, expresada en porcentaje.</td></tr></tbody></table>
 
 * **Resumen por concesionario**
 
-consolidado por concesionario, incluidas sus comisiones.
+Valores consolidados de cada concesionario, incluidas las comisiones que percibe.
 
-<table><thead><tr><th width="145">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Id concesionario</code></strong></td><td>Identificador del concesionario.</td></tr><tr><td><strong><code>Concesionario</code></strong></td><td>Nombre del concesionario.</td></tr><tr><td><strong><code>Recargas</code></strong></td><td>Valor total de las recargas del concesionario.</td></tr><tr><td><strong><code>Retiros</code></strong></td><td>Valor total de los retiros del concesionario.</td></tr><tr><td><strong><code>Balance</code></strong></td><td>Diferencia entre recargas y retiros del concesionario.</td></tr><tr><td><strong><code>Comisiones concesionarios</code></strong></td><td>Comisiones que percibe el concesionario.</td></tr><tr><td><strong><code>Relación TRX</code></strong></td><td>Porcentaje de retiros respecto a recargas del concesionario.</td></tr></tbody></table>
+<table><thead><tr><th width="145">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Id concesionario</code></strong></td><td>Identificador del concesionario.</td></tr><tr><td><strong><code>Concesionario</code></strong></td><td>Nombre del concesionario.</td></tr><tr><td><strong><code>Recargas</code></strong></td><td>Valor total de las recargas <em>(depósitos)</em> del concesionario.</td></tr><tr><td><strong><code>Retiros</code></strong></td><td>Valor total de los retiros del concesionario.</td></tr><tr><td><strong><code>Balance</code></strong></td><td>Diferencia entre las recargas y los retiros del concesionario.</td></tr><tr><td><strong><code>Comisiones concesionarios</code></strong></td><td>Comisiones que percibe el concesionario por depósitos y retiros.</td></tr><tr><td><strong><code>Relación TRX</code></strong></td><td>Porcentaje que representan los retiros respecto a las recargas del concesionario.</td></tr></tbody></table>
 
-* **Detalle por punto de venta**&#x20;
+* **Detalle por punto de venta**
 
-consolidado por punto de venta, identificado por su ID.
+Valores consolidados de cada punto de venta, identificado por su ID.
 
-<table><thead><tr><th width="145.66668701171875">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Id punto de venta</code></strong></td><td>Identificador del punto de venta.</td></tr><tr><td><strong><code>Monto recargas</code></strong></td><td>Valor total de las recargas del punto de venta.</td></tr><tr><td><strong><code>Monto retiros</code></strong></td><td>Valor total de los retiros del punto de venta.</td></tr><tr><td><strong><code>Valor retiros creados</code></strong></td><td>Valor de los retiros creados en el punto de venta.</td></tr><tr><td><strong><code>Balance</code></strong></td><td>Diferencia entre recargas y retiros del punto de venta.</td></tr><tr><td><strong><code>Comisiones PDV</code></strong></td><td>Comisiones que percibe el punto de venta.</td></tr><tr><td><strong><code>Relación TRX</code></strong></td><td>Porcentaje de retiros respecto a recargas del punto de venta.</td></tr></tbody></table>
+<table><thead><tr><th width="145.66668701171875">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Id punto de venta</code></strong></td><td>Identificador del punto de venta.</td></tr><tr><td><strong><code>Monto recargas</code></strong></td><td>Valor total de las recargas (depósitos) del punto de venta.</td></tr><tr><td><strong><code>Monto retiros</code></strong></td><td>Valor total de los retiros del punto de venta.</td></tr><tr><td><strong><code>Valor retiros creados</code></strong></td><td>Valor de los retiros creados en el punto de venta.</td></tr><tr><td><strong><code>Balance</code></strong></td><td>Diferencia entre las recargas y los retiros del punto de venta.</td></tr><tr><td><strong><code>Comisiones PDV</code></strong></td><td>Comisiones que percibe el punto de venta por depósitos y retiros.</td></tr><tr><td><strong><code>Relación TRX</code></strong></td><td>Porcentaje que representan los retiros respecto a las recargas del punto de venta.</td></tr></tbody></table>
 {% endtab %}
 {% endtabs %}
 {% endtab %}
