@@ -467,7 +467,7 @@ El sistema evalúa cada apuesta realizada en operaciones participantes (_partner
 {% step %}
 #### Convertir y acumular el monto
 
-Una vez la apuesta **cumple los requisitos de participación** y el sistema **verifica la existencia de una TRM válida** en el reporte [**TRM Virtualsoft**](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/manual-de-usuario-backoffice/trm-virtual-soft), se procede de la siguiente manera:
+Una vez la apuesta **cumple los requisitos de participación** y el sistema **verifica la existencia de una TRM válida** en el reporte [**TRM Virtualsoft**](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/trm-virtual-soft), se procede de la siguiente manera:
 
 <table><thead><tr><th width="188.00006103515625">Situación</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>La moneda local es diferente a la moneda base del jackpot</strong></td><td><p>Convierte el porcentaje acumulable de la apuesta desde la moneda local a la moneda base.</p><ol><li>Aplica la fórmula:<br><strong>Valor acumulable (</strong><em><strong>USD</strong></em><strong>)</strong> = (Monto de la apuesta × % de acumulación) / TRM</li><li>Redondea el resultado a <strong>4 decimales</strong>.</li><li>Acumula el valor convertido en el pozo central del jackpot.</li></ol></td></tr><tr><td><strong>La moneda local es igual a la moneda base del jackpot</strong></td><td>El sistema calcula el <strong>porcentaje de acumulación</strong> y lo suma directamente al pozo del jackpot, sin realizar conversión de moneda.</td></tr></tbody></table>
 
@@ -513,7 +513,7 @@ Si el jackpot está configurado con reinicio, el sistema **crea automáticamente
 * Los campos que tengan un <mark style="color:red;">\*</mark> son obligatorios para la creación del Jackpot.
 * La cantidad máxima de apuestas requerida para la caída del jackpot debe ser mayor que la cantidad mínima establecida.
 * El sistema muestra automáticamente el **valor acumulado del Jackpot Internacional**, convertido desde la moneda base a la **moneda local de cada operación (**_**Partner y pais**_**) participante.**
-* La información en tiempo real de los jackpots internacionales, incluyendo datos generales y el desglose de aportes por partner y país, se presenta en el reporte [**Jackpot internacional**](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/manual-de-usuario-backoffice/reportes/jackpot-internacional).
+* La información en tiempo real de los jackpots internacionales, incluyendo datos generales y el desglose de aportes por partner y país, se presenta en el reporte [**Jackpot internacional**](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/reportes/jackpot-internacional).
 
 ***
 

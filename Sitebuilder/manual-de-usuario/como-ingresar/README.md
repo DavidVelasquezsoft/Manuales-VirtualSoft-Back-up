@@ -10,7 +10,7 @@ description: >-
 
 **Ruta de Acceso**: [https://sitebuilder.virtualsoft.tech](https://sitebuilder.virtualsoft.tech)
 
-Para ingresar a la plataforma en el login debes ingresar las credenciales de usuario y contraseña previamente configuradas en el panel de administración ([_BackOffice_](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/manual-de-usuario-backoffice/seguridad/usuarios-sitebuilder)).
+Para ingresar a la plataforma en el login debes ingresar las credenciales de usuario y contraseña previamente configuradas en el panel de administración ([_BackOffice_](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/seguridad/usuarios-sitebuilder)).
 
 ***
 

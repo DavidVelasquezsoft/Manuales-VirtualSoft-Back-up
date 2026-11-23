@@ -161,7 +161,7 @@ Cada regla permite activar múltiples contingencias, las cuales se ejecutarán a
 
 * Estas configuraciones solo aplican para el partner y el país previamente seleccionado.
 * Solo usuarios con permisos podrán crear, editar y visualizar este modulo.
-* ⚠️ Las restricciones aplicadas a un usuario permanecen **de forma indefinida**, hasta que un operador las retire manualmente desde la sección [Seguridad y cambios](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/manual-de-usuario-backoffice/jugadores/configuracion-seccion-jugadores#id-2.2.-seguridad-y-cambios) del backoffice.
+* ⚠️ Las restricciones aplicadas a un usuario permanecen **de forma indefinida**, hasta que un operador las retire manualmente desde la sección [Seguridad y cambios](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/jugadores/configuracion-seccion-jugadores#id-2.2.-seguridad-y-cambios) del backoffice.
 
 ***
 

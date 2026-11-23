@@ -98,7 +98,7 @@ Reorganizar el orden de visualización de las categorías dentro de su mismo tip
 ### 9. Reglas y validaciones del negocio
 
 * Solo se permiten administrar las categorías asociadas a (_Casino, Casino en Vivo, Virtuales, Minigames y Bingos_)
-* Los productos de las categorías se gestionan desde [Productos](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/manual-de-usuario-backoffice/productos/productos) en el BackOffice
+* Los productos de las categorías se gestionan desde [Productos](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/productos/productos) en el BackOffice
 * Los cambios de posición no se guardan automáticamente.
 * Mientras no se presione el botón de guardar, las modificaciones solo se visualizarán temporalmente en la pantalla.
 * El nuevo orden se reflejará en la plataforma de usuarios online una vez se complete el proceso de actualización del sistema.

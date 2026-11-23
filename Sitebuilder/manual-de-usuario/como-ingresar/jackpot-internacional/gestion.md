@@ -196,8 +196,8 @@ Al hacerlo el sistema solicitará el **token de autenticación** para validar la
   * Al editar el rango mínimo y máximo de apuestas para la caída, el sistema muestra un mensaje informativo con la cantidad de apuestas acumuladas por el jackpot en ese momento.
   * Los aportes de la operación se acumulan en el jackpot internacional desde el momento en que se confirma la integración.
   * Si la nueva operación modifica el rango de apuestas y el jackpot se encuentra próximo a caer, el sistema ajusta la fecha de caída según la nueva configuración, respetando los parámetros vigentes y evitando que el jackpot caiga antes de lo previsto.
-  * La operación se registra en el [reporte de jackpots internacionales](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/manual-de-usuario-backoffice/reportes/jackpot-internacional) del Backoffice, donde queda visible como parte de la serie desde la que fue agregada junto con la trazabilidad de la acción.
-* La información en tiempo real de los jackpots internacionales, incluyendo datos generales y el desglose de aportes por partner y país, se presenta en el reporte [**Jackpot internacional**](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/manual-de-usuario-backoffice/reportes/jackpot-internacional).
+  * La operación se registra en el [reporte de jackpots internacionales](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/reportes/jackpot-internacional) del Backoffice, donde queda visible como parte de la serie desde la que fue agregada junto con la trazabilidad de la acción.
+* La información en tiempo real de los jackpots internacionales, incluyendo datos generales y el desglose de aportes por partner y país, se presenta en el reporte [**Jackpot internacional**](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/reportes/jackpot-internacional).
 * Una vez inactivada la operación:
   * El jackpot dejará de estar disponible para esa operación.
   * Los jugadores de la operación ya no podrán visualizar ni participar en el jackpot.

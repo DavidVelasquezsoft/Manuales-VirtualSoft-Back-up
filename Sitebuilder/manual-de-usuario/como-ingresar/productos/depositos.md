@@ -112,7 +112,7 @@ El botón <img src="../../../.gitbook/assets/Button (4) (1).png" alt="" data-siz
 
 Al seleccionar el botón <img src="../../../.gitbook/assets/Button (4) (1).png" alt="" data-size="line"> se abre un modal con los siguientes campos:
 
-<table><thead><tr><th width="150.27783203125">Campo</th><th width="111.77777099609375">Obligatorio</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Franquicia</code></strong></td><td>Sí</td><td>Permite seleccionar una franquicia existente en el sistema, creada previamente desde el módulo <a href="https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/manual-de-usuario-backoffice/productos/franquicias">Franquicias BackOffice</a>.</td></tr><tr><td><strong><code>Nombre</code></strong></td><td>Sí</td><td>Nombre con el que se identificará la franquicia.</td></tr><tr><td><strong><code>Imagen / logo</code></strong></td><td>No</td><td>Imagen representativa de la franquicia, la cual se muestra al jugador en la plataforma.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Sí</td><td>Define si la franquicia al momento de realizar su asociación quedará activa o inactiva para su visualización en la plataforma.</td></tr></tbody></table>
+<table><thead><tr><th width="150.27783203125">Campo</th><th width="111.77777099609375">Obligatorio</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Franquicia</code></strong></td><td>Sí</td><td>Permite seleccionar una franquicia existente en el sistema, creada previamente desde el módulo <a href="https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/productos/franquicias">Franquicias BackOffice</a>.</td></tr><tr><td><strong><code>Nombre</code></strong></td><td>Sí</td><td>Nombre con el que se identificará la franquicia.</td></tr><tr><td><strong><code>Imagen / logo</code></strong></td><td>No</td><td>Imagen representativa de la franquicia, la cual se muestra al jugador en la plataforma.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Sí</td><td>Define si la franquicia al momento de realizar su asociación quedará activa o inactiva para su visualización en la plataforma.</td></tr></tbody></table>
 
 {% hint style="warning" %}
 **Nota:** La imagen y el nombre de la franquicia puede modificarse posteriormente desde la acción <img src="../../../.gitbook/assets/Frame 1321316371.png" alt="" data-size="line"> **Editar** de la tarjeta de la franquicia.
@@ -129,7 +129,7 @@ En el segundo modal se define el comportamiento operativo de la franquicia y se 
 {% hint style="warning" %}
 **Notas:**
 
-* Solo aparecen disponibles las pasarelas que se encuentren **activas** en la operación (_Partner y país_) sobre la cual se está trabajando configurados desde la sección [productos del BackOffice](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/manual-de-usuario-backoffice/herramientas/partner-ajustes/productos-2/activacion-productos.)
+* Solo aparecen disponibles las pasarelas que se encuentren **activas** en la operación (_Partner y país_) sobre la cual se está trabajando configurados desde la sección [productos del BackOffice](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/herramientas/partner-ajustes/productos-2/activacion-productos.)
 * Debe asociarse **como mínimo una pasarela de pago** para poder guardar la franquicia.
 {% endhint %}
 
