@@ -104,3 +104,10 @@ site:
           path: manuales-api
           content:
             directory: ./manuales-api
+        - type: space
+          key: space-15
+          title: Copy of Strategy
+          path: copy-of-strategy
+          draft: true
+          content:
+            directory: ./manuales/copy-of-strategy
