@@ -84,7 +84,6 @@ site:
       key: space-12
       title: Plantillas
       path: plantillas
-      draft: true
       content:
         directory: ./plantillas
     - type: space
