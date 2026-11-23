@@ -52,6 +52,12 @@ site:
             directory: ./microstrategy
             language: es
         - type: space
+          key: space-15
+          title: Strategy-Ecuabet
+          path: strategy-ecuabet
+          content:
+            directory: ./manuales/copy-of-strategy
+        - type: space
           key: space-8
           title: Reportería.
           path: reporteria.
@@ -104,9 +110,3 @@ site:
           path: manuales-api
           content:
             directory: ./manuales-api
-        - type: space
-          key: space-15
-          title: Strategy-Ecuabet
-          path: strategy-ecuabet
-          content:
-            directory: ./manuales/copy-of-strategy
