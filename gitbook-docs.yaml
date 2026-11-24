@@ -113,3 +113,10 @@ site:
           content:
             directory: ./Manuales API
             language: es
+        - type: space
+          key: space-16
+          title: Documentación de código
+          path: documentacion-de-codigo
+          draft: true
+          content:
+            directory: ./manuales/documentacion-de-codigo
