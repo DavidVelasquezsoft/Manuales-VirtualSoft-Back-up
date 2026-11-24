@@ -104,39 +104,37 @@ El usuario con permisos podrá configurar los siguientes parámetros:
 
 <summary><strong>🔽Solicitud de retiro de clientes</strong></summary>
 
-En esta sección se permite configurar los parámetros relacionados con las solicitudes de retiro realizadas por los usuarios en la plataforma.
+Define las condiciones y los límites que deben cumplir los usuarios para solicitar retiros en la plataforma.
 
-### 1. Acceso al Módulo:
+### 1. Acceso al Módulo
 
-**Ruta de Acceso**: BackOffice > Herramientas > Partner ajustes > Configuración > Solicitudes de retiro de clientes.
-
-***
-
-### 2. Visualización:
-
-<figure><img src="https://1262136405-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FUadX6RX6l8fMhEZxOqcT%2Fuploads%2FQpDQkASS3XEZhXkVff0g%2Fimage.png?alt=media&#x26;token=eba4a90b-71ee-48d8-a1a3-667d611bd9e9" alt=""><figcaption><p>Figura #4: Captura de pantalla sección seguridad.</p></figcaption></figure>
-
-### **3. Acciones del Usuario**
-
-<table><thead><tr><th width="105">Sección</th><th width="96">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Guardar</code></strong></td><td>Botón</td><td>Aplica las configuraciones realizadas en la sección de retiros.</td></tr></tbody></table>
-
-### **4. Configuraciones:**
-
-Esta sección permite definir las condiciones y restricciones para que los usuarios puedan realizar solicitudes de retiro.
-
-<table><thead><tr><th width="146.79998779296875">Campo</th><th width="122">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Máximo solicitudes por día</code></strong></td><td>Numérico</td><td>Define la cantidad máxima de solicitudes de retiro que un usuario puede realizar en un solo día.</td></tr><tr><td><strong><code>Mínimo monto en solicitud de retiro</code></strong></td><td>Numérico</td><td>Establece el monto mínimo requerido para solicitar un retiro.</td></tr><tr><td><strong><code>Máximo monto en solicitud de retiro</code></strong></td><td>Numérico</td><td>Configura el monto máximo permitido para las solicitudes de retiro.</td></tr><tr><td><strong><code>Porcentaje mínimo apostado/depositado</code></strong></td><td>Numérico</td><td>Porcentaje que el usuario debe apostar respecto a su depósito antes de retirar.</td></tr><tr><td><strong><code>Mínimo retiros punto</code></strong></td><td>Numérico</td><td>Monto mínimo que se puede retirar en puntos de venta.</td></tr><tr><td><strong><code>Requiere registro activo para retirar</code></strong></td><td><strong>Interruptor</strong></td><td>Indica si el usuario debe tener un registro activo para retirar.</td></tr><tr><td><strong><code>Mínimo monto solicitud de retiro Cuenta bancaria</code></strong></td><td>Numérico</td><td>Defina el monto mínimo requerido para que el usuario pueda realizar una solicitud de retiro a través de cuenta bancaria.</td></tr><tr><td><strong><code>Máxima cantidad de solicitudes activas</code></strong></td><td>Numérico</td><td>Establece el límite de solicitudes activas de retiro por usuario.</td></tr><tr><td><strong><code>Requiere verificación de cuenta para retirar?</code></strong></td><td><strong>Interruptor</strong></td><td>Define si la cuenta del usuario debe estar verificada antes de permitir el retiro.</td></tr><tr><td><strong><code>Máximo monto retiro por punto de venta</code></strong></td><td>Numérico</td><td>Defina el monto máximo permitido que un usuario puede retirar a través de un punto de venta.</td></tr><tr><td><strong><code>Mínimo monto en retiro Kasnet</code></strong></td><td>Numérico</td><td>Monto mínimo para retiros en el sistema Kasnet.</td></tr><tr><td><strong><code>Monto límite de retiro cliente final</code></strong></td><td>Numérico</td><td>Define el monto total que un cliente puede retirar.</td></tr><tr><td><strong><code>Máximo monto en retiro Kasnet</code></strong></td><td>Numérico</td><td>Monto máximo para retiros en Kasnet.</td></tr><tr><td><strong><code>Todos los retiros por puntos de venta pasan a estado por aprobación</code></strong></td><td><strong>Interruptor</strong></td><td><p>Cuando la opción está</p><ul><li><strong>Activa:</strong> todas las solicitudes de retiro hechas en puntos de venta pasarán automáticamente a un estado de aprobación antes de ser procesadas.</li><li><strong>Inactiva:</strong> las solicitudes se procesarán directamente sin necesidad de aprobación previa.</li></ul></td></tr><tr><td><strong><code>Requiere primer depósito para retirar?</code></strong></td><td><strong>Interruptor</strong></td><td>Especifique si el usuario debe haber realizado un primer depósito como requisito para poder efectuar un retiro.</td></tr><tr><td><strong><code>Requiere correo verificado para retirar?</code></strong></td><td><strong>Interruptor</strong></td><td>Indica si el usuario debe verificar su correo electrónico como requisito para poder realizar un retiro.</td></tr><tr><td><strong><code>Requiere celular verificado para retirar?</code></strong></td><td><strong>Interruptor</strong></td><td>Define si el usuario debe tener su número de celular verificado como requisito para poder realizar un retiro.</td></tr><tr><td><strong><code>Retiros en punto de venta (OTP)</code></strong></td><td><strong>Interruptor</strong></td><td><p>Habilita validación OTP en retiros por PV.<br></p><ul><li>Switch OTP por Email: Envía código OTP al correo.</li><li>Switch OTP por SMS: Envía código OTP por SMS.</li><li>Duración del token: Tiempo en milisegundos que estará activo el código OTP.</li></ul></td></tr><tr><td><strong><code>Retiros por transferencia bancaria (OTP)</code></strong></td><td><strong>Interruptor</strong></td><td><p>Permite activar o desactivar la validación con código OTP para los retiros realizados mediante transferencia bancaria.</p><p>Cuando la opción está <strong>activa</strong>, se habilitan los siguientes campos de configuración:</p><ul><li><strong>Switch OTP por Email</strong>: Envía el código OTP al correo electrónico del usuario.</li><li><strong>Switch OTP por SMS</strong>: Envía el código OTP al número de celular del usuario.</li><li><strong>Duración del token en milisegundos</strong>: Define el tiempo de validez del código OTP antes de que expire.</li></ul><p>Cuando la opción está <strong>inactiva</strong>, los retiros se procesan directamente sin requerir validación OTP.<br></p></td></tr><tr><td><strong><code>Activar tiempo de expiración</code></strong></td><td><strong>Interruptor</strong></td><td><p>Permite configurar un tiempo de caducidad para las solicitudes de retiro.<br>Al habilitar esta opción, se activa el campo:</p><ul><li><strong>Tiempo de caducidad de retiros:</strong> Define el plazo máximo en días durante el cual una solicitud puede permanecer vigente antes de expirar automáticamente.</li></ul></td></tr></tbody></table>
+**Ruta de Acceso**: BackOffice (BO) > Herramientas > Partner Ajustes > Configuración > Solicitud de retiro de clientes
 
 ***
 
-### **5. Validaciones y Reglas de Negocio**
+### 2. Visualización
 
-* Si se habilita OTP, el usuario deberá ingresar el código recibido por Email o SMS antes de que expire el tiempo configurado.
-* Cuando la opción **Todos los retiros por puntos de venta pasan a estado por aprobación** está activa, ningún retiro en PV se procesará automáticamente.
-* Los montos configurados en mínimo, máximo y límite de retiro prevalecerán sobre cualquier condición de usuario.
+<figure><img src="https://1262136405-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FUadX6RX6l8fMhEZxOqcT%2Fuploads%2FQpDQkASS3XEZhXkVff0g%2Fimage.png?alt=media&#x26;token=eba4a90b-71ee-48d8-a1a3-667d611bd9e9" alt=""><figcaption><p>Figura #4: Captura de pantalla sección solicitud de retiro de clientes.</p></figcaption></figure>
 
 ***
 
-<table data-view="cards"><thead><tr><th align="center"></th></tr></thead><tbody><tr><td align="center"><a href="configuracion-1.md#seguridad" class="button secondary">Módulo anterior</a></td></tr><tr><td align="center"><a href="configuracion-1.md#id-4.-modulos-de-configuraciones" class="button secondary">Volver</a></td></tr><tr><td align="center"><a href="configuracion-1.md#solicitud-de-deposito-de-clientes-pendiente" class="button secondary">Siguiente módulo</a></td></tr></tbody></table>
+### 3. Configuraciones disponibles
+
+<table><thead><tr><th width="200">Campo</th><th width="130">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Máximo solicitudes por día</code></strong></td><td>Campo numérico</td><td>Limita la cantidad de solicitudes de retiro que un usuario puede crear en un mismo día.</td></tr><tr><td><strong><code>Mínimo monto en solicitud de retiro</code></strong></td><td>Campo numérico</td><td>Establece el monto mínimo que un usuario puede solicitar en un retiro.</td></tr><tr><td><strong><code>Máximo monto en solicitud de retiro</code></strong></td><td>Campo numérico</td><td>Define el monto máximo permitido en cada solicitud de retiro.</td></tr><tr><td><strong><code>Porcentaje mínimo apostado/depositado</code></strong></td><td>Campo numérico</td><td>Indica el porcentaje del valor depositado que el usuario debe apostar antes de poder retirar. Evita que se retire un depósito que no se ha utilizado en apuestas.</td></tr><tr><td><strong><code>Mínimo retiros punto</code></strong></td><td>Campo numérico</td><td>Fija el monto mínimo que se puede retirar en un punto de venta.</td></tr><tr><td><strong><code>Requiere registro activo para retirar</code></strong></td><td>Interruptor</td><td>Determina si el usuario debe tener el registro activo para solicitar un retiro.</td></tr><tr><td><strong><code>Mínimo monto solicitud de retiro Cuenta bancaria</code></strong></td><td>Campo numérico</td><td>Establece el monto mínimo para solicitar un retiro a una cuenta bancaria.</td></tr><tr><td><strong><code>Máxima cantidad de solicitudes activas</code></strong></td><td>Campo numérico</td><td>Limita las solicitudes de retiro que un usuario puede tener activas al mismo tiempo.</td></tr><tr><td><strong><code>Requiere verificación de cuenta para retirar?</code></strong></td><td>Interruptor</td><td>Exige que la cuenta del usuario esté verificada antes de permitir el retiro.</td></tr><tr><td><strong><code>Máximo monto retiro por punto de venta</code></strong></td><td>Campo numérico</td><td>Define el monto máximo que un usuario puede retirar en un punto de venta.</td></tr><tr><td><strong><code>Mínimo monto en retiro Kasnet</code></strong></td><td>Campo numérico</td><td>Establece el monto mínimo para los retiros por Kasnet <em>(red de agentes de pago)</em>.</td></tr><tr><td><strong><code>Monto límite de retiro cliente final</code></strong></td><td>Campo numérico</td><td>Define el monto total que puede retirar un usuario final.</td></tr><tr><td><strong><code>Máximo monto en retiro Kasnet</code></strong></td><td>Campo numérico</td><td>Fija el monto máximo para los retiros por Kasnet.</td></tr><tr><td><strong><code>Todos los retiros por puntos de venta pasan a estado por aprobación</code></strong></td><td>Interruptor</td><td><p>Determina si los retiros en punto de venta requieren aprobación antes de procesarse.</p><ul><li><strong>Activo:</strong> las solicitudes de retiro en punto de venta quedan en estado por aprobación antes de procesarse.</li><li><strong>Inactivo:</strong> las solicitudes se procesan sin aprobación previa.</li></ul></td></tr><tr><td><strong><code>Requiere primer depósito para retirar?</code></strong></td><td>Interruptor</td><td>Exige que el usuario haya realizado al menos un depósito antes de solicitar un retiro.</td></tr><tr><td><strong><code>Requiere correo verificado para retirar?</code></strong></td><td>Interruptor</td><td>Condiciona el retiro a que el usuario tenga el correo electrónico verificado.</td></tr><tr><td><strong><code>Requiere celular verificado para retirar?</code></strong></td><td>Interruptor</td><td>Condiciona el retiro a que el usuario tenga el número de celular verificado.</td></tr><tr><td><strong><code>Retiros en punto de venta (OTP)</code></strong></td><td>Interruptor</td><td><p>Activa la validación con código OTP <em>(código de un solo uso)</em> en los retiros por punto de venta. Al activarlo, se habilitan los siguientes campos:</p><ul><li><strong><code>Switch OTP por Email</code>:</strong> envía el código al correo electrónico del usuario.</li><li><strong><code>Switch OTP por SMS</code>:</strong> envía el código por SMS al celular del usuario.</li><li><strong><code>Duración del token</code>:</strong> define el tiempo de validez del código.</li></ul><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> La duración del token se ingresa en milisegundos. Por ejemplo, 5 minutos equivalen a 300000.</p></div></td></tr><tr><td><strong><code>Retiros por transferencia bancaria (OTP)</code></strong></td><td>Interruptor</td><td><p>Activa la validación con código OTP en los retiros por transferencia bancaria.</p><ul><li><strong>Activo:</strong> se habilitan los campos <strong><code>Switch OTP por Email</code></strong>, <strong><code>Switch OTP por SMS</code></strong> y <strong><code>Duración del token en milisegundos</code></strong>, que funcionan igual que en los retiros por punto de venta.</li><li><strong>Inactivo:</strong> los retiros se procesan sin validación OTP.</li></ul></td></tr><tr><td><strong><code>Activar tiempo de expiración</code></strong></td><td>Interruptor</td><td><p>Habilita un plazo de vencimiento para las solicitudes de retiro. Al activarlo, se habilita el siguiente campo:</p><ul><li><strong><code>Tiempo de caducidad de retiros</code>:</strong> define, en días, el tiempo que una solicitud permanece vigente antes de expirar automáticamente.</li></ul></td></tr></tbody></table>
+
+***
+
+### 4. Validaciones y reglas del negocio:
+
+* Los cambios se aplican al presionar **Guardar**, ubicado al final de la página, y quedan asociados al país seleccionado en el filtro.
+* Con la validación OTP activa, el usuario debe ingresar el código recibido por correo o SMS antes de que expire.
+* Con **`Todos los retiros por puntos de venta pasan a estado por aprobación`** activo, ningún retiro en punto de venta se procesa automáticamente.
+* Los montos mínimo, máximo y límite configurados prevalecen sobre cualquier condición del usuario.
+* Con **`Activar tiempo de expiración`** activo, la solicitud expira automáticamente al cumplirse el plazo configurado.
+
+***
+
+<table data-view="cards"><thead><tr><th align="center"></th></tr></thead><tbody><tr><td align="center"><a href="configuracion-1.md#seguridad" class="button secondary">Módulo anterior</a></td></tr><tr><td align="center"><a href="configuracion-1.md#id-4.-modulos-de-configuraciones" class="button secondary">Volver</a></td></tr><tr><td align="center"><a href="configuracion-1.md#solicitud-de-deposito-de-clientes" class="button secondary">Siguiente módulo</a></td></tr></tbody></table>
 
 </details>
 
@@ -144,41 +142,45 @@ Esta sección permite definir las condiciones y restricciones para que los usuar
 
 <summary><strong>🔽Solicitud de depósito de clientes</strong></summary>
 
-Este módulo permite configurar el comportamiento del partner con los depósitos realizados.
+Define los montos, los límites y los controles que se aplican a las solicitudes de depósito de los usuarios y a las recargas en puntos de venta.
 
-### 1. Acceso al Módulo:
+### 1. Acceso al Módulo
 
-**Ruta de Acceso**: BackOffice > Herramientas > Partner ajustes > Configuración > Solicitudes de depósito de clientes.
+**Ruta de Acceso**: BackOffice (BO) > Herramientas > Partner Ajustes > Configuración > Solicitud de depósito de clientes
 
 ***
 
-### 2. Visualización:
+### 2. Visualización
 
 <figure><img src="../../../.gitbook/assets/image (670) (1).png" alt=""><figcaption><p>Figura #5: Captura de pantalla sección solicitud de depósito de clientes.</p></figcaption></figure>
 
-### **3. Acciones del Usuario por módulo**
+***
 
-<table><thead><tr><th width="197">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Configurar depósitos</strong></td><td>Configura el comportamiento de los depósitos realizados por los clientes en el partner.</td></tr></tbody></table>
+### 3. Configuraciones disponibles
 
-### **4. Configuraciones:**
-
-En esta sección se definen los parámetros y restricciones aplicables a las solicitudes de depósito.
-
-<table><thead><tr><th width="182.800048828125">Campo</th><th width="106.60009765625">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Mínimo monto de solicitud de depósito</code></strong></td><td>Numérico</td><td>Define el monto mínimo que un usuario puede solicitar en un depósito.</td></tr><tr><td><strong><code>Máximo monto de solicitud de depósito</code></strong></td><td>Numérico</td><td>Establece el monto máximo permitido para una solicitud de depósito.</td></tr><tr><td><strong><code>Requiere registro activo para depositar</code></strong></td><td>Interruptor</td><td>Define si el usuario debe tener un registro activo para poder realizar depósitos.</td></tr><tr><td><strong><code>Límite depósito día global</code></strong></td><td>Numérico</td><td>Fija el monto máximo total de depósitos que pueden realizarse en un solo día.</td></tr><tr><td><strong><code>Límite depósito semana global</code></strong></td><td>Numérico</td><td>Determina el monto máximo de depósitos permitidos durante una semana.</td></tr><tr><td><strong><code>Límite depósito mes global</code></strong></td><td>Numérico</td><td>Establece el monto máximo de depósitos permitidos en un mes.</td></tr><tr><td><strong><code>Límite de cancelaciones por día por PV</code></strong></td><td>Numérico</td><td>Configura el número máximo de cancelaciones de depósitos permitidas por día en un <a href="https://virtualsoft.gitbook.io/untitled/glosario#punto-de-venta">punto de venta (PV)</a>.</td></tr><tr><td><strong><code>Límite de horas anulación depósito</code></strong></td><td>Numérico</td><td>Especifica el tiempo máximo, en horas, dentro del cual un usuario puede anular un depósito realizado.</td></tr><tr><td><strong><code>Requiere verificación de cuenta para depositar</code></strong></td><td>Interruptor</td><td><p>Si esta opción está:</p><ul><li><strong>Activa:</strong> solo se permitirán depósitos en cuentas previamente verificadas</li><li><strong>Inactiva:</strong> los depósitos podrán realizarse sin necesidad de verificación.</li></ul><p>Esta configuración aplica tanto para usuarios online como para puntos de venta.</p></td></tr><tr><td><strong><code>Monto de depósitos por defecto</code></strong></td><td>Numérico</td><td>Define un valor predeterminado que se asignará automáticamente en las solicitudes de depósito.</td></tr><tr><td><strong><code>¿Activación tiempo de recarga por PDV?</code></strong></td><td>Interruptor</td><td><ul><li><strong>Activa:</strong> Se habilita el campo <strong>“<code>Límite de tiempo de recarga por PDV</code>”</strong>, donde se define el intervalo mínimo que debe esperar el usuario antes de realizar un nuevo depósito en un punto de venta.</li><li><strong>Inactiva:</strong> Los depósitos pueden realizarse sin restricción de tiempo entre recargas.</li></ul></td></tr><tr><td><strong><code>Límite tiempo de recarga por PDV</code></strong></td><td>Numérico</td><td>Define, en segundos, el intervalo mínimo que debe esperar un usuario en un punto de venta antes de poder realizar un nuevo depósito.</td></tr><tr><td><strong><code>Autorización de tiempo para aprobación masiva de transacciones</code></strong></td><td>Interruptor</td><td><p>Habilita una autorización temporal de 30 minutos para aprobar o rechazar múltiples transferencias manuales después de validar el token una sola vez. La autorización aplica únicamente a la sesión del usuario.</p><p><strong>Activado:</strong> Después de validar correctamente el token, el usuario podrá aprobar o rechazar múltiples transferencias durante 30 minutos sin volver a ingresarlo. El período comienza desde la validación exitosa y finaliza al cerrar o expirar la sesión.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Para que la autorización temporal funcione deben cumplirse <strong>las dos condiciones</strong> siguientes:</p><ol><li>Esta configuración debe estar <strong>activada</strong>.</li><li>El usuario debe contar con el <strong>permiso correspondiente</strong> asignado en <a data-mention href="../../seguridad/perfiles-options.md">perfiles-options.md</a> , según su tipo de usuario.</li></ol><p>Si la configuración está activada pero el usuario no tiene el permiso, el sistema continúa solicitando el token en cada aprobación o rechazo.</p></div><p><strong>Desactivado:</strong> El usuario deberá validar el token en cada aprobación o rechazo, según el comportamiento habitual.</p></td></tr><tr><td><strong><code>Límite tiempo en estado enviado (Orquestador)</code></strong></td><td>Interruptor</td><td><p>Activa la funcionalidad para rechazar las solicitudes de depósito automáticamente según el tiempo establecido.</p><ul><li><strong>Activo:</strong> Se muestra el campo <strong><code>Tiempo límite en estado enviado (segundo)</code></strong>, que permite establecer el tiempo máximo de permanencia de una solicitud en estado <strong>“enviado”</strong>. Una vez superado el tiempo configurado, la solicitud cambia automáticamente al estado <strong>“rechazado”</strong>.</li><li><strong>Inactivo:</strong> Las solicitudes de depósito permanecen en estado <strong>“enviado”</strong> hasta que sean gestionadas, ya sea de forma manual o automática por el orquestador.</li></ul></td></tr></tbody></table>
+<table><thead><tr><th width="200">Campo</th><th width="130">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Mínimo monto de solicitud de depósito</code></strong></td><td>Campo numérico</td><td>Establece el monto mínimo que un usuario puede depositar en una solicitud.</td></tr><tr><td><strong><code>Máximo monto de solicitud de depósito</code></strong></td><td>Campo numérico</td><td>Define el monto máximo permitido en cada solicitud de depósito.</td></tr><tr><td><strong><code>Requiere registro activo para depositar</code></strong></td><td>Interruptor</td><td>Determina si el usuario debe tener el registro activo para depositar.</td></tr><tr><td><strong><code>Límite depósito día global</code></strong></td><td>Campo numérico</td><td>Fija el monto total que un usuario puede depositar en un día.</td></tr><tr><td><strong><code>Límite depósito semana global</code></strong></td><td>Campo numérico</td><td>Limita el monto total que un usuario puede depositar en una semana.</td></tr><tr><td><strong><code>Límite depósito mes global</code></strong></td><td>Campo numérico</td><td>Restringe el monto total que un usuario puede depositar en un mes.</td></tr><tr><td><strong><code>Requiere verificación de cuenta para depositar</code></strong></td><td>Interruptor</td><td><p>Exige que la cuenta del usuario esté verificada para depositar. Aplica tanto a usuarios online como a puntos de venta.</p><ul><li><strong>Activo:</strong> solo las cuentas verificadas pueden depositar.</li><li><strong>Inactivo:</strong> los depósitos se realizan sin verificación de la cuenta.</li></ul></td></tr><tr><td><strong><code>Límite de cancelaciones por día por PV</code></strong></td><td>Campo numérico</td><td>Indica cuántos depósitos puede cancelar un punto de venta <em>(PV)</em> en un día.</td></tr><tr><td><strong><code>Límite de horas anulación depósito</code></strong></td><td>Campo numérico</td><td>Señala el plazo, en horas, para anular un depósito después de realizarlo.</td></tr><tr><td><strong><code>Monto de depósitos por defecto</code></strong></td><td>Campo numérico</td><td>Asigna el valor que aparece precargado en las solicitudes de depósito.</td></tr><tr><td><strong><code>¿Activación tiempo de recarga por PDV?</code></strong></td><td>Interruptor</td><td><p>Controla el tiempo de espera entre recargas en un punto de venta.</p><ul><li><strong>Activo:</strong> habilita el campo <strong><code>Límite tiempo de recarga por PDV</code></strong>.</li><li><strong>Inactivo:</strong> los depósitos se realizan sin tiempo de espera entre recargas.</li></ul></td></tr><tr><td><strong><code>Límite tiempo de recarga por PDV</code></strong></td><td>Campo numérico</td><td><p>Precisa, en segundos, el tiempo mínimo que debe pasar entre dos depósitos de un mismo usuario en un punto de venta.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Se habilita solo cuando <strong><code>¿Activación tiempo de recarga por PDV?</code></strong> está activo.</p></div></td></tr><tr><td><strong><code>Autorización de tiempo para aprobación masiva de transacciones</code></strong></td><td>Interruptor</td><td><p>Habilita una autorización temporal de 30 minutos para aprobar o rechazar varias transferencias manuales con una sola validación del token. La autorización aplica únicamente a la sesión del usuario.</p><ul><li><strong>Activo:</strong> después de validar el token, el usuario aprueba o rechaza transferencias durante 30 minutos sin volver a ingresarlo. El período inicia con la validación exitosa y termina al cerrar o expirar la sesión.</li><li><strong>Inactivo:</strong> el usuario valida el token en cada aprobación o rechazo.</li></ul><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> La autorización temporal funciona solo si se cumplen dos condiciones:</p><ol><li>Esta configuración está <strong>activa</strong>.</li><li>El usuario tiene asignado el <strong>permiso correspondiente</strong> en <a data-mention href="../../seguridad/perfiles-options.md">perfiles-options.md</a>, según su tipo de usuario.</li></ol><p>Si la configuración está activa pero el usuario no tiene el permiso, el sistema solicita el token en cada aprobación o rechazo.</p></div></td></tr><tr><td><strong><code>Límite tiempo en estado enviado (Orquestador)</code></strong></td><td>Interruptor</td><td><p>Rechaza automáticamente las solicitudes de depósito que superan el tiempo máximo en estado <strong>Enviado</strong>.</p><ul><li><strong>Activo:</strong> habilita el campo <strong><code>Tiempo límite en estado enviado (segundos)</code></strong>.</li><li><strong>Inactivo:</strong> las solicitudes permanecen en estado <strong>Enviado</strong> hasta que se gestionan de forma manual o automática por el orquestador.</li></ul></td></tr><tr><td><strong><code>Tiempo límite en estado enviado (segundos)</code></strong></td><td>Campo numérico</td><td><p>Determina el tiempo máximo que una solicitud puede permanecer en estado <strong>Enviado</strong>. Al superarlo, la solicitud cambia automáticamente a <strong>Rechazado</strong>.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Se habilita solo cuando <strong><code>Límite tiempo en estado enviado (Orquestador)</code></strong> está activo.</p></div></td></tr></tbody></table>
 
 ***
 
-### **5. Validaciones internas por módulo.**
+### 4. Validaciones y reglas del negocio:
 
-* Con el campo **`Autorización de tiempo para aprobación masiva de transacciones`** El período de autorización **no se reinicia ni extiende** al realizar nuevas aprobaciones o rechazos.
-* Cuando una solicitud es rechazada por superar el tiempo máximo en estado **Enviado** en el reporte de solicitudes se visualizará el motivo "_**Timeout del proveedor**_".
-*   Los límites diarios, semanales y mensuales se aplican de forma acumulativa sobre las solicitudes de depósito de cada usuario.
+* Los cambios se aplican al presionar **Guardar**, ubicado al final de la página, y quedan asociados al país seleccionado en el filtro.
+* Los límites diario, semanal y mensual se acumulan sobre los depósitos de cada usuario. Cada período tiene su propio tope.
+* Con **`Requiere verificación de cuenta para depositar`** activo, el usuario debe estar verificado antes de realizar su primer depósito.
+* El período de **`Autorización de tiempo para aprobación masiva de transacciones`** no se reinicia ni se extiende al realizar nuevas aprobaciones o rechazos.
+* Cuando una solicitud se rechaza por superar el tiempo máximo en estado **Enviado**, el reporte de solicitudes de depósito muestra el motivo **"Timeout del proveedor"**.
 
-    <div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p>Supongamos estos valores configurados:</p><ul><li>Límite diario: <strong>100 USD</strong></li><li>Límite semanal: <strong>300 USD</strong></li><li>Límite mensual: <strong>1.000 USD</strong></li></ul><p>📌 Cómo funciona:</p><ul><li>Si un usuario deposita <strong>100 USD en un día</strong>, ya alcanzó su límite diario y no podrá hacer más depósitos hasta el día siguiente.</li><li>Si a lo largo de la semana acumula <strong>300 USD</strong>, no podrá depositar más aunque todavía no haya alcanzado el mensual.</li><li>Si en el mes llega a <strong>1.000 USD</strong>, ya no podrá seguir depositando hasta el mes siguiente.</li></ul><p>Es decir, <strong>los límites se van acumulando y cada periodo (día, semana, mes) tiene su propio tope</strong>.</p><ul><li>Si la opción está activa en <strong><code>Requiere verificación de cuenta para depositar</code></strong> , el usuario debe estar verificado antes de poder realizar su primer depósito.</li></ul></div>
+{% hint style="warning" %}
+**Nota:** Con un límite diario de 100 USD, semanal de 300 USD y mensual de 1.000 USD:
+
+* Si el usuario deposita 100 USD en un día, no puede depositar más hasta el día siguiente.
+* Si acumula 300 USD en la semana, no puede depositar más aunque no haya alcanzado el límite mensual.
+* Si acumula 1.000 USD en el mes, no puede depositar más hasta el mes siguiente.
+{% endhint %}
 
 ***
 
-<table data-view="cards"><thead><tr><th align="center"></th></tr></thead><tbody><tr><td align="center"><a href="https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/herramientas/partner-ajustes/configuracion-1#solicitud-de-retiro-de-clientes" class="button secondary">Módulo anterior</a></td></tr><tr><td align="center"><a href="https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/herramientas/partner-ajustes/configuracion-1#id-4.-modulos-de-configuraciones" class="button secondary">Inicio</a></td></tr><tr><td align="center"><a href="https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/herramientas/partner-ajustes/configuracion-1#ajustes-generales" class="button secondary">Siguiente módulo</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th align="center"></th></tr></thead><tbody><tr><td align="center"><a href="configuracion-1.md#solicitud-de-retiro-de-clientes" class="button secondary">Módulo anterior</a></td></tr><tr><td align="center"><a href="configuracion-1.md#id-4.-modulos-de-configuraciones" class="button secondary">Volver</a></td></tr><tr><td align="center"><a href="configuracion-1.md#ajustes-generales" class="button secondary">Siguiente módulo</a></td></tr></tbody></table>
 
 </details>
 
@@ -216,7 +218,7 @@ Permite Gestionar condiciones, permisos y parámetros del partner seleccionado.
 
 ***
 
-<table data-view="cards"><thead><tr><th align="center"></th></tr></thead><tbody><tr><td align="center"><a href="configuracion-1.md#solicitud-de-deposito-de-clientes-pendiente" class="button secondary">Módulo anterior</a></td></tr><tr><td align="center"><a href="configuracion-1.md#id-4.-modulos-de-configuraciones" class="button secondary">Volver</a></td></tr><tr><td align="center"><a href="configuracion-1.md#contabilidad" class="button secondary">Siguiente modulo</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th align="center"></th></tr></thead><tbody><tr><td align="center"><a href="configuracion-1.md#solicitud-de-deposito-de-clientes" class="button secondary">Módulo anterior</a></td></tr><tr><td align="center"><a href="configuracion-1.md#id-4.-modulos-de-configuraciones" class="button secondary">Volver</a></td></tr><tr><td align="center"><a href="configuracion-1.md#contabilidad" class="button secondary">Siguiente modulo</a></td></tr></tbody></table>
 
 </details>
 
@@ -224,25 +226,36 @@ Permite Gestionar condiciones, permisos y parámetros del partner seleccionado.
 
 <summary><strong>🔽Contabilidad</strong></summary>
 
-En este módulo se configuran los planes de cuentas utilizados para registrar y clasificar los diferentes tipos de transacciones dentro de la plataforma.
+Asigna las cuentas contables en las que se registran las apuestas, los premios, los pagos de notas de retiro y las recargas de la plataforma.
 
 ### 1. Acceso al Módulo
 
-**Ruta de Acceso:** BackOffice > Herramientas > Partner ajustes > Configuración. > Contabilidad
+**Ruta de Acceso**: BackOffice (BO) > Herramientas > Partner Ajustes > Configuración > Contabilidad
 
 ***
 
 ### 2. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (601) (1).png" alt=""><figcaption><p>Figura #6: Captura de pantalla módulo contabilidad.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (601) (1).png" alt=""><figcaption><p>Figura #6: Captura de pantalla sección contabilidad.</p></figcaption></figure>
 
 ***
 
 ### 3. Configuraciones disponibles
 
-<table><thead><tr><th width="213">Campo</th><th width="130">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Plan cuentas Apuestas</code></strong> <a href="https://virtualsoft.gitbook.io/untitled/glosario/#ticket"><strong><code>Tickets</code></strong></a> <strong><code>Tiendas</code></strong></td><td>Lista desplegable</td><td>Permite seleccionar la cuenta contable en la que se registrarán las apuestas realizadas mediante tickets en tiendas físicas.</td></tr><tr><td><strong><code>Plan cuentas Premios</code></strong> <a href="https://virtualsoft.gitbook.io/untitled/glosario/#ticket"><strong><code>Tickets</code></strong></a> <strong><code>Tiendas</code></strong></td><td>Lista desplegable</td><td>Define la cuenta contable en la que se registrarán los pagos de premios asociados a tickets emitidos en tiendas físicas.</td></tr><tr><td><strong><code>Plan cuentas Pagos notas de retiro</code></strong></td><td>Lista desplegable</td><td>Especifica la cuenta contable en la que se registrarán los pagos asociados a las notas de retiro.</td></tr><tr><td><strong><code>Plan de cuentas Recargas</code></strong></td><td>Lista desplegable</td><td>Permite definir la cuenta contable en la que se registrarán las recargas de saldo realizadas por los usuarios.</td></tr></tbody></table>
+Cada campo corresponde a un plan de cuentas, es decir, la cuenta contable en la que se registra un tipo de transacción.
 
-<table data-view="cards"><thead><tr><th align="center"></th></tr></thead><tbody><tr><td align="center"><a href="https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/herramientas/partner-ajustes/configuracion-1#id-4.-modulos-de-configuraciones" class="button secondary">Volver</a></td></tr><tr><td align="center"><a href="https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/herramientas/partner-ajustes/configuracion-1#ajustes-generales" class="button secondary">Módulo anterior</a></td></tr><tr><td align="center"><a href="https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/herramientas/partner-ajustes/configuracion-1#tipos-de-movimientos-nota-por-cada-monto-en-xxx-va-a-obtener-z-puntos-base" class="button secondary">Siguiente módulo</a></td></tr></tbody></table>
+<table><thead><tr><th width="200">Campo</th><th width="130">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Plan cuentas Apuestas Tickets Tiendas</code></strong></td><td>Lista desplegable</td><td>Selecciona la cuenta contable en la que se registran las apuestas hechas con tickets en tiendas físicas.</td></tr><tr><td><strong><code>Plan cuentas Premios Tickets Tiendas</code></strong></td><td>Lista desplegable</td><td>Define la cuenta contable en la que se registran los premios pagados por tickets emitidos en tiendas físicas.</td></tr><tr><td><strong><code>Plan cuentas Pagos notas de retiro</code></strong></td><td>Lista desplegable</td><td>Indica la cuenta contable en la que se registran los pagos de notas de retiro.</td></tr><tr><td><strong><code>Plan de cuentas Recargas</code></strong></td><td>Lista desplegable</td><td>Establece la cuenta contable en la que se registran las recargas de saldo de los usuarios.</td></tr></tbody></table>
+
+***
+
+### 4. Validaciones y reglas del negocio:
+
+* Los cambios se aplican al presionar **Guardar**, ubicado al final de la página, y quedan asociados al país seleccionado en el filtro.
+* Cada tipo de transacción se registra en la cuenta contable seleccionada en su campo.
+
+***
+
+<table data-view="cards"><thead><tr><th align="center"></th></tr></thead><tbody><tr><td align="center"><a href="configuracion-1.md#ajustes-generales" class="button secondary">Módulo anterior</a></td></tr><tr><td align="center"><a href="configuracion-1.md#id-4.-modulos-de-configuraciones" class="button secondary">Volver</a></td></tr><tr><td align="center"><a href="configuracion-1.md#impuesto" class="button secondary">Siguiente módulo</a></td></tr></tbody></table>
 
 </details>
 
@@ -283,7 +296,7 @@ Estas son las configuraciones disponibles dentro del módulo de impuestos.
 
 ***
 
-<table data-view="cards"><thead><tr><th align="center"></th></tr></thead><tbody><tr><td align="center"><a href="https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/herramientas/partner-ajustes/configuracion-1#contabilidad" class="button secondary">Módulo anterior</a></td></tr><tr><td align="center"><a href="https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/herramientas/partner-ajustes/configuracion-1#id-4.-modulos-de-configuraciones" class="button secondary">Volver</a></td></tr><tr><td align="center"><a class="button secondary">Siguiente módulo</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th align="center"></th></tr></thead><tbody><tr><td align="center"><a href="https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/herramientas/partner-ajustes/configuracion-1#contabilidad" class="button secondary">Módulo anterior</a></td></tr><tr><td align="center"><a href="https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/herramientas/partner-ajustes/configuracion-1#id-4.-modulos-de-configuraciones" class="button secondary">Volver</a></td></tr><tr><td align="center"><a href="configuracion-1.md#impuesto-para-comisiones" class="button secondary">Siguiente módulo</a></td></tr></tbody></table>
 
 </details>
 
@@ -291,59 +304,61 @@ Estas son las configuraciones disponibles dentro del módulo de impuestos.
 
 <summary><strong>🔽Impuesto para comisiones</strong></summary>
 
-Este módulo permite configurar y gestionar los impuestos aplicables a las comisiones, según el tipo de transacción y tipo de comisión, segmentados por marca y país. Su objetivo es asegurar el cálculo correcto de impuestos y comisiones en las operaciones y reportes, adaptándose a distintos contextos fiscales y regulatorios.
-
-***
+Configura el porcentaje de impuesto que se aplica a cada tipo de comisión, por marca y país. El impuesto se descuenta antes de calcular la comisión que recibe el afiliado o el punto de venta.
 
 ### 1. Acceso al Módulo
 
-**Ruta de acceso:** BackOffice > Herramientas > Partner Ajustes > Configuración > Impuestos para Comisiones
+**Ruta de Acceso**: BackOffice (BO) > Herramientas > Partner Ajustes > Configuración > Impuesto para comisiones
 
 ***
 
-### 2. Visualización General
+### 2. Visualización
 
-<figure><img src="https://1262136405-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FUadX6RX6l8fMhEZxOqcT%2Fuploads%2FB8gQHOUgRAHlwk7vOPrf%2Fimage.png?alt=media&#x26;token=148dc072-a3ff-4949-8304-df0ba319fb9e" alt=""><figcaption><p>Figura #1: Captura de pantalla impuestos para comisiones.</p></figcaption></figure>
-
-***
-
-### 3. Funcionalidades
-
-<table><thead><tr><th width="253">Función</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Configuración de Impuestos</strong></td><td>Permite definir el porcentaje de impuesto aplicable a cada sección del partner, según el país seleccionado, asegurando una correcta parametrización de los valores fiscales asociados a las comisiones.</td></tr></tbody></table>
-
-#### **3.1.🧾 Tipos de Comisión Disponibles**
-
-El sistema permite configurar impuestos para los siguientes tipos de comisión:
-
-<table><thead><tr><th width="212">Tipo de Comisión</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Sportbook NGR Afiliados</code></strong></td><td>Comisión calculada sobre el <a href="https://virtualsoft.gitbook.io/untitled/glosario/#net-gaming-revenue-ngr">Net Gaming Revenue (NGR) </a>generado por los afiliados en apuestas deportivas, considerando apuestas, premios y bonos.</td></tr><tr><td><strong><code>Depósito Afiliados</code></strong></td><td>Comisión generada a partir de los depósitos realizados por afiliadores.</td></tr><tr><td><strong><code>Sportbook GGR Punto venta IP</code></strong></td><td>Comisión basada en el <a href="https://virtualsoft.gitbook.io/untitled/glosario/#ggr">Gross Gaming Revenue (GGR)</a> generado por apuestas deportivas realizadas desde un punto de venta.</td></tr><tr><td><strong><code>Sportbook GGR Punto venta</code></strong></td><td>Comisión calculada sobre el <a href="https://virtualsoft.gitbook.io/untitled/glosario/#ggr">Gross Gaming Revenue (GGR)</a> generado por las apuestas deportivas de un punto de venta.</td></tr><tr><td><strong><code>Depósito Punto venta</code></strong></td><td>Comisión asociada a los depósitos realizados en un punto de venta.</td></tr><tr><td><strong><code>Apuesta Sport Punto venta</code></strong></td><td>Comisión generada por las apuestas deportivas realizadas desde un punto de venta.</td></tr><tr><td><strong><code>Notas de retiro Punto venta</code></strong></td><td>Comisión aplicada sobre las solicitudes de retiro realizadas por un punto de venta.</td></tr><tr><td><strong><code>Sportbook GGR Afiliados</code></strong></td><td>Comisión calculada sobre el <a href="https://virtualsoft.gitbook.io/untitled/glosario/#ggr">Gross Gaming Revenue (GGR)</a> generado por los afiliados en apuestas deportivas.</td></tr><tr><td><strong><code>Casino NGR Afiliados</code></strong></td><td>Comisión calculada sobre el <a href="https://virtualsoft.gitbook.io/untitled/glosario/#net-gaming-revenue-ngr">Net Gaming Revenue (NGR)</a> generado por los afiliados en juegos de casino.</td></tr><tr><td><strong><code>Depósito Comisión por Transacción</code></strong></td><td>Comisión aplicada individualmente a cada transacción de depósito realizada en la plataforma.</td></tr></tbody></table>
+<figure><img src="https://1262136405-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FUadX6RX6l8fMhEZxOqcT%2Fuploads%2FB8gQHOUgRAHlwk7vOPrf%2Fimage.png?alt=media&#x26;token=148dc072-a3ff-4949-8304-df0ba319fb9e" alt=""><figcaption><p>Figura #8: Captura de pantalla sección impuesto para comisiones.</p></figcaption></figure>
 
 ***
 
-### 4. Reglas de Cálculo
+### 3. Tipos de comisión disponibles
+
+Para cada tipo de comisión se define el porcentaje de impuesto que se aplica. Los términos usados son:
+
+* **GGR** _(Gross Gaming Revenue)_: apuestas menos premios.
+* **NGR** _(Net Gaming Revenue)_: apuestas menos premios y bonos.
+
+<table><thead><tr><th width="250">Tipo de comisión</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Sportbook NGR Afiliados</code></strong></td><td>Comisión de los afiliados sobre el NGR de las apuestas deportivas de sus usuarios referidos.</td></tr><tr><td><strong><code>Depósito Afiliados</code></strong></td><td>Comisión de los afiliados por los depósitos de sus usuarios referidos.</td></tr><tr><td><strong><code>Sportbook GGR Punto venta IP</code></strong></td><td>Comisión del punto de venta sobre el GGR de las apuestas deportivas identificadas por la dirección IP del punto de venta.</td></tr><tr><td><strong><code>Sportbook GGR Punto venta</code></strong></td><td>Comisión del punto de venta sobre el GGR de sus apuestas deportivas.</td></tr><tr><td><strong><code>Depósito Punto venta</code></strong></td><td>Comisión del punto de venta por cada depósito realizado.</td></tr><tr><td><strong><code>Apuesta Sport Punto venta</code></strong></td><td>Comisión del punto de venta sobre el volumen de apuestas deportivas realizadas.</td></tr><tr><td><strong><code>Notas de retiro Punto venta</code></strong></td><td>Comisión del punto de venta por las notas de retiro de los usuarios.</td></tr><tr><td><strong><code>Sportbook GGR Afiliados</code></strong></td><td>Comisión de los afiliados sobre el GGR de las apuestas deportivas de sus usuarios referidos.</td></tr><tr><td><strong><code>Casino NGR Afiliados</code></strong></td><td>Comisión de los afiliados sobre el NGR de los juegos de casino de sus usuarios referidos.</td></tr><tr><td><strong><code>Depósito Comisión por Transacción</code></strong></td><td>Comisión que se aplica a cada transacción de depósito.</td></tr></tbody></table>
+
+***
+
+### 4. Reglas de cálculo
 
 El valor del impuesto se calcula según el tipo de transacción asociado a la comisión:
 
-<table><thead><tr><th width="193">Tipo</th><th>Fórmula</th></tr></thead><tbody><tr><td><strong><code>GGR</code></strong></td><td>(Apuestas − Premios) × (Impuesto %)</td></tr><tr><td><strong><code>NGR</code></strong></td><td>(Apuestas − Premios − Bonos) × (Impuesto %)</td></tr><tr><td><strong><code>Depósitos</code></strong></td><td>Depósitos × (Impuesto %)</td></tr><tr><td><strong><code>Retiros</code></strong></td><td>Retiros × (Impuesto %)</td></tr></tbody></table>
+<table><thead><tr><th width="200">Tipo</th><th>Fórmula del impuesto</th></tr></thead><tbody><tr><td><strong><code>GGR</code></strong></td><td><em>(Apuestas − Premios) × Impuesto %</em></td></tr><tr><td><strong><code>NGR</code></strong></td><td><em>(Apuestas − Premios − Bonos) × Impuesto %</em></td></tr><tr><td><strong><code>Depósitos</code></strong></td><td><em>Depósitos × Impuesto %</em></td></tr><tr><td><strong><code>Retiros</code></strong></td><td><em>Retiros × Impuesto %</em></td></tr></tbody></table>
 
-***
-
-#### **4.2 📊 Cálculo de la Comisión**
+#### 4.1. Cálculo de la comisión
 
 Una vez aplicado el impuesto, la comisión se calcula sobre el valor neto resultante:
 
-<table><thead><tr><th width="231">Tipo</th><th>Fórmula</th></tr></thead><tbody><tr><td><strong><code>Depósitos</code></strong></td><td>(Depósitos − Valor Impuesto) × (% Comisión)</td></tr><tr><td><strong><code>Retiros</code></strong></td><td>(Retiros − Valor Impuesto) × (% Comisión)</td></tr><tr><td><strong><code>GGR</code></strong></td><td>(GGR − Valor Impuesto) × (% Comisión)</td></tr><tr><td><strong><code>NGR</code></strong></td><td>(NGR − Valor Impuesto) × (% Comisión)</td></tr></tbody></table>
+<table><thead><tr><th width="200">Tipo</th><th>Fórmula de la comisión</th></tr></thead><tbody><tr><td><strong><code>Depósitos</code></strong></td><td><em>(Depósitos − Valor impuesto) × Comisión %</em></td></tr><tr><td><strong><code>Retiros</code></strong></td><td><em>(Retiros − Valor impuesto) × Comisión %</em></td></tr><tr><td><strong><code>GGR</code></strong></td><td><em>(GGR − Valor impuesto) × Comisión %</em></td></tr><tr><td><strong><code>NGR</code></strong></td><td><em>(NGR − Valor impuesto) × Comisión %</em></td></tr></tbody></table>
+
+{% hint style="warning" %}
+**Nota:** El impuesto se descuenta antes de calcular la comisión. Por ejemplo, con apuestas de 1.000 y premios de 600, el GGR es 400. Con un impuesto del 10 %, el valor del impuesto es 40. Con una comisión del 20 %, la comisión es _(400 − 40) × 20 % = 72_.
+{% endhint %}
 
 ***
 
-### 5. ✅ Validaciones y Reglas de Negocio
+### 5. Validaciones y reglas del negocio:
 
+* Los cambios se aplican al presionar **Guardar**, ubicado al final de la página.
 * El impuesto se configura de forma independiente por **marca, país y tipo de comisión**.
 * El porcentaje de impuesto debe ser un valor numérico entre **0 y 100**.
-* Si no existe un impuesto configurado para un tipo de comisión, **no se aplica ningún impuesto**.
-* Los cálculos de impuestos y comisiones se reflejan automáticamente en las operaciones y reportes correspondientes.
-* Los cambios en la configuración de impuestos impactan únicamente las operaciones y reportes posteriores a su aplicación.
+* Si un tipo de comisión no tiene impuesto configurado, no se aplica ningún impuesto.
+* Los cálculos de impuestos y comisiones se reflejan automáticamente en las operaciones y los reportes correspondientes.
+* Los cambios impactan únicamente las operaciones y los reportes posteriores a su aplicación.
 
 ***
+
+<table data-view="cards"><thead><tr><th align="center"></th></tr></thead><tbody><tr><td align="center"><a href="configuracion-1.md#impuesto" class="button secondary">Módulo anterior</a></td></tr><tr><td align="center"><a href="configuracion-1.md#id-4.-modulos-de-configuraciones" class="button secondary">Volver</a></td></tr><tr><td align="center"><a href="configuracion-1.md#registro" class="button secondary">Siguiente módulo</a></td></tr></tbody></table>
 
 </details>
 
@@ -657,42 +672,63 @@ Esta opción permite configurar un premio para los usuarios que realicen apuesta
 
 <details>
 
-<summary><strong>🔽</strong> Verticales</summary>
+<summary><strong>🔽Verticales</strong></summary>
 
-<mark style="color:$info;">Configura las funcionalidades específicas de la plataforma para cada tipo de perfil. Desde esta sección es posible habilitar o deshabilitar el acceso a los diferentes módulos de la plataforma de Usuarios Online, de acuerdo con la configuración definida para la operación.</mark>
+Habilita o bloquea las secciones de la plataforma para cada tipo de perfil y define en qué acciones el usuario debe verificar su número de celular.
 
-***
+### 1. Acceso al Módulo
 
-### 1. Acceso al Módulo <a href="#id-1.-acceso-al-modulo" id="id-1.-acceso-al-modulo"></a>
-
-**Ruta de Acceso**: Backoffice > Herramientas > Partner ajustes > Partner > Configuración > Verticales
+**Ruta de Acceso**: BackOffice (BO) > Herramientas > Partner Ajustes > Configuración > Verticales
 
 ***
 
-### 2. Visualización <a href="#id-4.-visualizacion" id="id-4.-visualizacion"></a>
+### 2. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (512) (1).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Verticales</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (512) (1).png" alt=""><figcaption><p>Figura #15: Captura de pantalla sección verticales.</p></figcaption></figure>
 
 ***
 
 ### 3. Tipo de perfil
 
-Selecciona el tipo de perfil para configurar las verticales. Cada opción disponible ofrece un modo distinto de configuración.
+El campo **`Tipo de perfil`** es una lista desplegable que define el perfil que se va a configurar: **Usuarios online**, **Puntos de venta** o **Cajeros**. Al seleccionar un perfil, se muestran los interruptores de las secciones que aplican a ese perfil.
 
-{% hint style="danger" %}
-**Nota importante:** El funcionamiento de los campos se define de la siguiente manera:
+{% hint style="warning" %}
+**Nota:** Los interruptores de esta sección funcionan como una [contingencia](https://virtualsoft.gitbook.io/untitled/glosario/#contingencia), es decir, un bloqueo preventivo de la sección:
 
-* Si el valor es **“Sí”**, la sección permanecerá desactivada con la [contingencia](https://virtualsoft.gitbook.io/untitled/glosario/#contingencia) activa para esa sección.
-* Si el valor es **“No”**, la sección estará disponible en la plataforma sin [contigencia](https://virtualsoft.gitbook.io/untitled/glosario/#contingencia).
+* **Sí:** la contingencia queda activa y la sección se bloquea en la plataforma.
+* **No:** la sección queda disponible en la plataforma.
 {% endhint %}
+
+#### 3.1. Usuarios online
+
+<table><thead><tr><th width="200">Campo</th><th width="130">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Apuestas deportivas</code></strong></td><td>Interruptor</td><td>Controla la disponibilidad de la sección de apuestas deportivas.</td></tr><tr><td><strong><code>Apuestas de casino</code></strong></td><td>Interruptor</td><td>Gestiona el acceso a los juegos de casino.</td></tr><tr><td><strong><code>Casino en vivo</code></strong></td><td>Interruptor</td><td>Regula el acceso a los juegos de casino en vivo.</td></tr><tr><td><strong><code>Apuestas virtuales</code></strong></td><td>Interruptor</td><td>Administra la disponibilidad de las apuestas en juegos virtuales.</td></tr><tr><td><strong><code>Poker</code></strong></td><td>Interruptor</td><td>Determina el acceso a la sección de póker.</td></tr><tr><td><strong><code>Creación de notas de retiro</code></strong></td><td>Interruptor</td><td>Define si el usuario puede crear notas de retiro.</td></tr><tr><td><strong><code>Depositar</code></strong></td><td>Interruptor</td><td>Establece si el usuario puede realizar depósitos.</td></tr><tr><td><strong><code>Hípicas</code></strong></td><td>Interruptor</td><td>Habilita o bloquea las apuestas en carreras de caballos.</td></tr></tbody></table>
+
+#### 3.2. Puntos de venta y Cajeros
+
+Los perfiles **Puntos de venta** y **Cajeros** tienen los mismos campos. Cada perfil se configura por separado.
+
+<table><thead><tr><th width="200">Campo</th><th width="130">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Apuestas Deportivas</code></strong></td><td>Interruptor</td><td>Controla la venta de apuestas deportivas en el punto de venta.</td></tr><tr><td><strong><code>Pago de Notas de Retiro</code></strong></td><td>Interruptor</td><td>Gestiona el pago de notas de retiro en el punto de venta.</td></tr><tr><td><strong><code>Venta de Depósitos</code></strong></td><td>Interruptor</td><td>Regula la venta de depósitos en el punto de venta.</td></tr><tr><td><strong><code>Pago de Premios</code></strong></td><td>Interruptor</td><td>Administra el pago de premios en el punto de venta.</td></tr><tr><td><strong><code>Virtuales (Golden Race y Kiron)</code></strong></td><td>Interruptor</td><td>Determina el acceso a las apuestas virtuales de los proveedores Golden Race y Kiron.</td></tr></tbody></table>
 
 ***
 
 ### 4. Verificar celular
 
-Define para qué acciones se debe verificar el número de teléfono celular.
+Define en qué acciones el usuario debe tener su número de celular verificado. Estos interruptores aplican a todos los perfiles.
 
-<table><thead><tr><th width="163.58331298828125">Campo</th><th width="514.4323120117188">Descripción</th></tr></thead><tbody><tr><td><strong><code>DEPOSITAR</code></strong></td><td>Define si el usuario debe verificar su número de celular para realizar depósitos.</td></tr><tr><td><strong><code>APUESTAS_DEPORTIVAS</code></strong></td><td>Configura si es necesario verificar el celular para realizar apuestas deportivas.</td></tr><tr><td><strong><code>APUESTAS_CASINO</code></strong></td><td>Configura si los usuarios deben verificar su celular para apostar en juegos de casino.</td></tr><tr><td><strong><code>RETIROS</code></strong></td><td>Determina si la verificación de celular es necesaria para realizar retiros.</td></tr><tr><td><strong><code>CASINO_EN_VIVO</code></strong></td><td>Establece si la verificación de celular es obligatoria para participar en juegos de casino en vivo.</td></tr><tr><td><strong><code>VIRTUALES</code></strong></td><td>Configura si se necesita verificación para acceder a apuestas virtuales.</td></tr></tbody></table>
+<table><thead><tr><th width="200">Campo</th><th width="130">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Depositar</code></strong></td><td>Interruptor</td><td>Exige el celular verificado para realizar depósitos.</td></tr><tr><td><strong><code>Apuestas deportivas</code></strong></td><td>Interruptor</td><td>Solicita el celular verificado para apostar en deportes.</td></tr><tr><td><strong><code>Apuestas de casino</code></strong></td><td>Interruptor</td><td>Requiere el celular verificado para jugar en el casino.</td></tr><tr><td><strong><code>Retiros</code></strong></td><td>Interruptor</td><td>Condiciona los retiros a que el celular esté verificado.</td></tr><tr><td><strong><code>Casino en vivo</code></strong></td><td>Interruptor</td><td>Pide el celular verificado para jugar en el casino en vivo.</td></tr><tr><td><strong><code>Virtuales</code></strong></td><td>Interruptor</td><td>Obliga a verificar el celular para acceder a las apuestas virtuales.</td></tr></tbody></table>
+
+***
+
+### 5. Validaciones y reglas del negocio:
+
+* Los cambios se aplican al presionar **Guardar**, ubicado al final de la página, y quedan asociados al país seleccionado en el filtro.
+* Cada tipo de perfil conserva su propia configuración de verticales.
+* En **Tipo de perfil**, el valor **Sí** activa la contingencia y bloquea la sección; el valor **No** la deja disponible.
+* En **Verificar celular**, el valor **Sí** exige el celular verificado para la acción.
+
+***
+
+<table data-view="cards"><thead><tr><th align="center"></th></tr></thead><tbody><tr><td align="center"><a href="configuracion-1.md#referidos" class="button secondary">Módulo anterior</a></td></tr><tr><td align="center"><a href="configuracion-1.md#id-4.-modulos-de-configuraciones" class="button secondary">Volver</a></td></tr><tr><td align="center"><a href="configuracion-1.md#bonos-landing-de-registro" class="button secondary">Siguiente módulo</a></td></tr></tbody></table>
 
 </details>
 
@@ -746,41 +782,62 @@ Para retirar un bono de la landing de registro:
 
 <details>
 
-<summary><strong>🔽</strong> Bonos de cumpleaños</summary>
+<summary><strong>🔽Bonos de cumpleaños</strong></summary>
 
-<mark style="color:$info;">Asigna a los usuarios bonos Freebet o Freecasino por campaña en la fecha de su cumpleaños.</mark>
+Asigna los bonos Freebet o Freecasino que los usuarios reciben automáticamente el día de su cumpleaños. Freebet es un bono de apuesta deportiva gratuita y Freecasino, un bono para juegos de casino.
 
 ### 1. Acceso al Módulo
 
-**Ruta de Acceso**: BackOffice > Herramientas > Partner Ajustes > Configuración > Bono cumpleaños
+**Ruta de Acceso**: BackOffice (BO) > Herramientas > Partner Ajustes > Configuración > Bono de cumpleaños
 
 ***
 
-### 2. Visualización general
+### 2. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (50) (1).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección bonos de cumpleaños.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (50) (1).png" alt=""><figcaption><p>Figura #17: Captura de pantalla sección bonos de cumpleaños.</p></figcaption></figure>
 
 ***
 
-### 3. Acciones disponibles.
+### 3. Configuraciones disponibles
 
-<table><thead><tr><th width="154">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="configuracion-1.md#id-4.-como-agregar-un-bono-de-cumpleanos">A<strong>signar bono de cumpleaños</strong></a></td><td>Permite otorgar un bono de cumpleaños a todos los jugadores cuyo cumpleaños coincida con la fecha en que se aplica el bono.</td></tr></tbody></table>
+La pantalla tiene dos listas: los bonos disponibles y los bonos asignados al cumpleaños de los usuarios.
 
-#### 4. ¿Cómo agregar un bono de cumpleaños?
+<table><thead><tr><th width="200">Campo</th><th width="130">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Todos los bonos</code></strong></td><td>Lista</td><td>Muestra los bonos Freebet y Freecasino disponibles que aún no están asignados.</td></tr><tr><td><strong><code>Bono seleccionado</code></strong></td><td>Lista</td><td>Reúne los bonos que se entregan a los usuarios el día de su cumpleaños.</td></tr><tr><td><strong><code>Select</code></strong></td><td>Botón</td><td>Traslada el bono seleccionado de <strong><code>Todos los bonos</code></strong> a <strong><code>Bono seleccionado</code></strong>.</td></tr><tr><td><strong><code>Remove</code></strong></td><td>Botón</td><td>Retira un bono de <strong><code>Bono seleccionado</code></strong> y lo devuelve a <strong><code>Todos los bonos</code></strong>.</td></tr></tbody></table>
+
+***
+
+### 4. Asignar un bono de cumpleaños
+
+Para asignar un bono:
+
+1. Seleccione el bono en la lista **Todos los bonos**.
+2. Presione el botón **Select**. El bono pasa a la lista **Bono seleccionado**.
+3. Presione **Guardar**, ubicado al final de la página, para aplicar el cambio.
+
+Para retirar un bono:
+
+1. Seleccione el bono en la lista **Bono seleccionado**.
+2. Presione el botón **Remove**. El bono vuelve a la lista **Todos los bonos**.
+3. Presione **Guardar** para aplicar el cambio.
+
+La siguiente guía interactiva muestra el proceso completo:
 
 {% @guideflow/guideflow-embed requestedUrl="https://app.guideflow.com/player/8koonnlh5k" %}
 
 ***
 
-### 4. Validaciones y Reglas de Negocio
+### 5. Validaciones y reglas del negocio:
 
-* En el apartado “**Todos los bonos**” se mostrarán únicamente los bonos creados que no estén asignados a los usuarios.
-* En el apartado **“Bono seleccionado”** se listarán los bonos que estén siendo asignados a los usuarios.
-* Solo estarán disponibles los bonos de tipo **Freebet** y **Freecasino**.
-* Para que un bono se muestre, debe haber sido creado desde **Torneos y Bonos** con una campaña de marketing asociada y estado activo.
-* El bono será entregado automáticamente al usuario el día de su cumpleaños sin interferir con algún otro tipo de bonos.
-* Únicamente podrá asignarse un bono por tipo _(por ejemplo: Un bono Freebet y un bono Freecasino, pero no dos bonos Freebet)_.
-* Este proceso podrá ser realizado por los usuarios que tengan permisos en la sección **Partner Ajustes**.
+* Solo están disponibles los bonos de tipo **Freebet** y **Freecasino**.
+* Para que un bono aparezca en la lista, debe estar creado desde **Torneos y Bonos**, con una campaña de marketing asociada y en estado activo.
+* La lista **Todos los bonos** muestra únicamente los bonos que no están asignados.
+* Se puede asignar un solo bono por tipo _(Ejemplo: un bono Freebet y un bono Freecasino, pero no dos bonos Freebet)_.
+* El bono se entrega automáticamente al usuario el día de su cumpleaños, sin interferir con otros bonos.
+* Solo los usuarios con permisos en la sección **Partner Ajustes** pueden realizar esta configuración.
+
+***
+
+<table data-view="cards"><thead><tr><th align="center"></th></tr></thead><tbody><tr><td align="center"><a href="configuracion-1.md#bonos-landing-de-registro" class="button secondary">Módulo anterior</a></td></tr><tr><td align="center"><a href="configuracion-1.md#id-4.-modulos-de-configuraciones" class="button secondary">Volver</a></td></tr><tr><td align="center"><a href="configuracion-1.md#limites-de-comision" class="button secondary">Siguiente módulo</a></td></tr></tbody></table>
 
 </details>
 
@@ -828,6 +885,6 @@ Para retirar un bono de la landing de registro:
 
 <summary>🔽 Historial de versiones</summary>
 
-<table><thead><tr><th width="101">Versión</th><th width="131">Fecha</th><th width="156">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>2025-12-12</td><td>Ronald Peláez</td><td>Documento inicial</td></tr><tr><td>1.1</td><td>2026-04-01</td><td>David Velasquez</td><td>Ajuste en sección seguridad</td></tr><tr><td>1.2</td><td>2026-04-15</td><td>Karol Navia</td><td><p>Incorporación de los manuales:</p><ul><li>Puntos equivalentes por nivel</li><li>Tipos de movimientos <em>(Nota: Por cada monto en XXX va a obtener Z puntos base)</em></li></ul></td></tr><tr><td>1.3</td><td>2026-04-20</td><td>Karol Navia</td><td>Mejoras en <strong><code>Ajustes Generales</code></strong></td></tr><tr><td>1.4</td><td>2026-05-08</td><td>Ronald Peláez</td><td>Ajuste en el campo <strong><code>verificación en dos pasos</code></strong> del módulo seguridad.</td></tr><tr><td>1.5</td><td>2026-07-01</td><td>Ronald Peláez</td><td>Nueva funcionalidad en seguridad "<strong><code>Inactivación por regla automática</code></strong>"</td></tr><tr><td>1.6</td><td>2026-09-07</td><td>Ronald Peláez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-30046#icft=VSFT-30046">Ajustes en reglas y validaciones en "<strong><code>Referidos</code></strong>"</a></td></tr><tr><td>1.7</td><td>2026-09-11</td><td>David Velasquez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-33148">Nuevo campo <strong><code>Autorización de tiempo para aprobación masiva de transacciones</code></strong> en <strong>Solicitud de depósito de clientes</strong></a><strong>.</strong></td></tr><tr><td>1.8</td><td>2026-09-28</td><td>Ronald Peláez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-33883">Nuevos campos en solicitud de depósitos de cliente.</a></td></tr><tr><td>1.9</td><td>2026-10-22</td><td>David Velasquez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-34513">Nuevo campo en ajustes generales</a></td></tr><tr><td>1.11</td><td>2026-10-27</td><td>Ronald Peláez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-34517#icft=VSFT-34517">Nuevo campo <strong><code>Proveedor OTP</code></strong> en <strong>Proveedores internos</strong>.</a></td></tr></tbody></table>
+<table><thead><tr><th width="101">Versión</th><th width="131">Fecha</th><th width="156">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>2025-12-12</td><td>Ronald Peláez</td><td>Documento inicial</td></tr><tr><td>1.1</td><td>2026-04-01</td><td>David Velasquez</td><td>Ajuste en sección seguridad</td></tr><tr><td>1.2</td><td>2026-04-15</td><td>Karol Navia</td><td><p>Incorporación de los manuales:</p><ul><li>Puntos equivalentes por nivel</li><li>Tipos de movimientos <em>(Nota: Por cada monto en XXX va a obtener Z puntos base)</em></li></ul></td></tr><tr><td>1.3</td><td>2026-04-20</td><td>Karol Navia</td><td>Mejoras en <strong><code>Ajustes Generales</code></strong></td></tr><tr><td>1.4</td><td>2026-05-08</td><td>Ronald Peláez</td><td>Ajuste en el campo <strong><code>verificación en dos pasos</code></strong> del módulo seguridad.</td></tr><tr><td>1.5</td><td>2026-07-01</td><td>Ronald Peláez</td><td>Nueva funcionalidad en seguridad "<strong><code>Inactivación por regla automática</code></strong>"</td></tr><tr><td>1.6</td><td>2026-09-07</td><td>Ronald Peláez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-30046#icft=VSFT-30046">Ajustes en reglas y validaciones en "<strong><code>Referidos</code></strong>"</a></td></tr><tr><td>1.7</td><td>2026-09-11</td><td>David Velasquez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-33148">Nuevo campo <strong><code>Autorización de tiempo para aprobación masiva de transacciones</code></strong> en <strong>Solicitud de depósito de clientes</strong></a><strong>.</strong></td></tr><tr><td>1.8</td><td>2026-09-28</td><td>Ronald Peláez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-33883">Nuevos campos en solicitud de depósitos de cliente.</a></td></tr><tr><td>1.9</td><td>2026-10-22</td><td>David Velasquez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-34513">Nuevo campo en ajustes generales</a></td></tr><tr><td>1.11</td><td>2026-10-27</td><td>Ronald Peláez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-34517#icft=VSFT-34517">Nuevo campo <strong><code>Proveedor OTP</code></strong> en <strong>Proveedores internos</strong>.</a></td></tr><tr><td>1.12</td><td>2026-11-24</td><td>David Velasquez</td><td>Actualización de la estructura de los módulos Solicitud de retiro de clientes, Solicitud de depósito de clientes, Contabilidad, Impuesto para comisiones, Verticales y Bonos de cumpleaños.</td></tr></tbody></table>
 
 </details>
