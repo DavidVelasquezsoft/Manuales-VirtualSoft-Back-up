@@ -38,7 +38,7 @@ Una vez aplicados los filtros y realizada la consulta, se mostrará una tabla co
 
 Para cumplir con la regulación peruana sobre apuestas deportivas, el sistema aplica una deducción del **12% en impuestos** al cálculo del Net Gaming Revenue (NGR).
 
-#### ✍️ Detalle del cálculo:
+#### Detalle del cálculo:
 
 | Paso                            | Fórmula                    | Ejemplo                        |
 | ------------------------------- | -------------------------- | ------------------------------ |

@@ -43,7 +43,7 @@ Permite **asociar o desasociar subproveedores a un partner**, estableciendo qué
 
 ### **3. Acciones del Usuario**
 
-<table><thead><tr><th width="227">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Filtros de búsqueda</strong></td><td>Permite consultar información de usuarios online según criterios básicos.</td></tr><tr><td><strong>Exportar información</strong></td><td>Descarga los resultados de una consulta en un formato de Excel o PDF.</td></tr><tr><td><a href="subproveedores.md#id-2.3-anadir-sub-proveedor"><strong>Añadir subproveedor</strong></a></td><td>Añade nuevos subproveedores a la plataforma de usuarios online.</td></tr></tbody></table>
+<table><thead><tr><th width="227">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Filtros de búsqueda</strong></td><td>Permite consultar información de usuarios online según criterios básicos.</td></tr><tr><td><strong>Exportar información</strong></td><td>Descarga los resultados de una consulta en un formato de Excel o PDF.</td></tr><tr><td><a href="subproveedores.md#id-6.-anadir-subproveedor"><strong>Añadir subproveedor</strong></a></td><td>Añade nuevos subproveedores a la plataforma de usuarios online.</td></tr></tbody></table>
 
 ***
 

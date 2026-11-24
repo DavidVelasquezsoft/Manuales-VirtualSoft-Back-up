@@ -48,7 +48,7 @@ Se presentan los valores consolidados del usuario según el rango de fechas sele
 
 <table><thead><tr><th width="243">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Total Depósitos</code></strong></td><td>Valor total de los depósitos realizados durante el rango de fechas seleccionado.</td></tr><tr><td><strong><code>Total Apuestas Deportivas</code></strong></td><td>Suma total de las apuestas realizadas en la vertical de deportivas.</td></tr><tr><td><strong><code>Total Ganancias Deportivas</code></strong></td><td>Valor total de las ganancias obtenidas en apuestas deportivas durante el rango de fechas.</td></tr><tr><td><strong><code>Total Apuestas Casino</code></strong></td><td>Suma total de las apuestas realizadas en juegos de casino.</td></tr><tr><td><strong><code>Ganancias Totales Casino</code></strong></td><td>Valor total de las ganancias generadas en casino</td></tr><tr><td><strong><code>Total Retiros</code></strong></td><td>Valor total de los retiros realizados por el usuario</td></tr><tr><td><strong><code>Total Ajustes Entrada</code></strong></td><td>Suma de los ajustes que incrementan el saldo del usuario.</td></tr><tr><td><strong><code>Total Ajustes Salida</code></strong></td><td>Suma de los ajustes todos los movimientos realizados.</td></tr></tbody></table>
 
-<a href="reporte-de-saldos.md#resultado-detallado" class="button secondary">Regresar</a>
+<a href="reporte-de-saldos.md#detallado" class="button secondary">Regresar</a>
 
 </details>
 {% endtab %}

@@ -39,9 +39,9 @@ Estos puntos se generan automáticamente con las apuestas y se usan para determi
 * Los puntos expirados se reflejan como movimientos de salida automáticos.
 * Los saldos se recalculan correctamente tras cada entrada o salida para mantener la consistencia del total de puntos calificables.
 * El historial es de solo lectura y no permite modificaciones manuales.
-* Los puntos calificables se dan en paralelo según la configuración del partner [<sub>(Más información.)</sub>](https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/herramientas/partner-ajustes/configuracion/tipos-de-movimientos-nota-por-cada-monto-en-xxx-va-a-obtener-z-puntos-base), pero los puntos calificables se utilizan para asignar los niveles de lealtad en Site Builder, y los puntos canjeables se utilizan para realizar compras en la tienda lealtad de usuarios online.
+* Los puntos calificables se dan en paralelo según la configuración del partner [<sub>(Más información.)</sub>](https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/herramientas/partner-ajustes/configuracion-1#tipos-de-movimientos-nota-por-cada-monto-en-xxx-va-a-obtener-z-puntos-base), pero los puntos calificables se utilizan para asignar los niveles de lealtad en Site Builder, y los puntos canjeables se utilizan para realizar compras en la tienda lealtad de usuarios online.
 * Los **movimientos de salida** son aquellos que le quitan puntos calificables, ya sea por vencimiento de puntos o ajustes realizados.
-* Los **movimientos de entrada** son aquellos que le asignan puntos calificables al usuario y se obtienen automáticamente por las apuestas, según la configuración realizada en el [partner](https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/herramientas/partner-ajustes/configuracion/tipos-de-movimientos-nota-por-cada-monto-en-xxx-va-a-obtener-z-puntos-base).
+* Los **movimientos de entrada** son aquellos que le asignan puntos calificables al usuario y se obtienen automáticamente por las apuestas, según la configuración realizada en el [partner](https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/herramientas/partner-ajustes/configuracion-1#tipos-de-movimientos-nota-por-cada-monto-en-xxx-va-a-obtener-z-puntos-base).
 
 ***
 

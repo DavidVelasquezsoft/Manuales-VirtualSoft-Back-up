@@ -20,7 +20,7 @@ Ruta de Acceso: Backoffice > Gestión > Trabaja con Nosotros
 
 ### 3. Acciones disponibles
 
-<table><thead><tr><th width="118.1666259765625">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="trabaja-con-nosotros.md#id-3.1.-filtros"><strong>Filtros</strong></a></td><td>Permiten filtrar la información de manera general y detallada para ubicar solicitudes específicas.</td></tr><tr><td><strong>Limpiar</strong></td><td>Restablece todos los filtros a su estado inicial.</td></tr><tr><td><a href="trabaja-con-nosotros.md#id-3.2.-consultar"><strong>Consultar</strong></a></td><td>Aplica los filtros seleccionados y muestra las solicitudes que cumplen con los criterios definidos, permitiendo responder a la solicitud.</td></tr><tr><td><strong>Exportar</strong></td><td>Permite descargar los resultados obtenidos con los filtros aplicados en los formatos Excel (.XLS) y PDF.</td></tr></tbody></table>
+<table><thead><tr><th width="118.1666259765625">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="trabaja-con-nosotros.md#id-4.-filtros"><strong>Filtros</strong></a></td><td>Permiten filtrar la información de manera general y detallada para ubicar solicitudes específicas.</td></tr><tr><td><strong>Limpiar</strong></td><td>Restablece todos los filtros a su estado inicial.</td></tr><tr><td><a href="trabaja-con-nosotros.md#id-5.-resultados-de-consulta"><strong>Consultar</strong></a></td><td>Aplica los filtros seleccionados y muestra las solicitudes que cumplen con los criterios definidos, permitiendo responder a la solicitud.</td></tr><tr><td><strong>Exportar</strong></td><td>Permite descargar los resultados obtenidos con los filtros aplicados en los formatos Excel (.XLS) y PDF.</td></tr></tbody></table>
 
 ### 4. Filtros
 

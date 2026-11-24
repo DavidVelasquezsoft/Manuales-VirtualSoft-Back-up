@@ -24,7 +24,7 @@ description: >-
 
 ### 4. ¿Cómo buscar una categoría? <a href="#id-3.1-como-buscar-un-tipo-de-producto-partner" id="id-3.1-como-buscar-un-tipo-de-producto-partner"></a>
 
-#### 📌 Filtros disponibles
+#### Filtros disponibles
 
 En esta sección se puede consultar información de categorías aplicando los siguientes filtros:
 

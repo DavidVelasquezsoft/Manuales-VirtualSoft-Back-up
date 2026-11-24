@@ -28,7 +28,7 @@ description: >-
 
 <table><thead><tr><th width="123">Campo</th><th width="155">Tipo de Control</th><th width="484">Descripción</th></tr></thead><tbody><tr><td><strong><code>ID Usuario</code></strong></td><td>Campo de texto</td><td>Identificador único del usuario administrativo para el cual se desea consultar el historial.</td></tr><tr><td><strong><code>Fecha de Creación</code></strong></td><td>Calendario</td><td>Rango de fechas para filtrar los registros según su fecha de creación.</td></tr><tr><td><strong><code>País</code></strong></td><td>Lista desplegable</td><td>Región o país asociado al usuario administrativo.</td></tr><tr><td><strong><code>Tipo</code></strong></td><td>Lista desplegable</td><td>Define el formato del reporte a consultar. Las opciones disponibles son:<br>Totales: muestra información resumida.<br>Detallado: proporciona información más específica y extensa.</td></tr></tbody></table>
 
-#### **📊 Tabla de Resultados**
+#### **Tabla de Resultados**
 
 Dependiendo del tipo de reporte seleccionado, los resultados se presentan de la siguiente manera:
 

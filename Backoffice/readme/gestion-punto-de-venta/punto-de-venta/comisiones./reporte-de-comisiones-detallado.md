@@ -20,7 +20,7 @@ description: >-
 
 ### 3. Acciones disponibles
 
-<table><thead><tr><th width="104.00006103515625">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="reporte-de-comisiones-detallado.md#id-3.1.-filtros"><strong>Filtrar</strong></a></td><td>Permite definir los criterios de búsqueda del reporte.</td></tr><tr><td><strong>Limpiar</strong></td><td>Restablece los filtros a su estado inicial.</td></tr><tr><td><a href="reporte-de-comisiones-detallado.md#id-3.2.-consultar"><strong>Consultar</strong></a></td><td>Ejecuta la búsqueda según los filtros seleccionados.</td></tr><tr><td><strong>Exportar</strong></td><td>El botón <strong>Exportar</strong> en la parte inferior derecha del reporte permite descargar los resultados obtenidos con los filtros aplicados en los formatos <strong>Excel (.XLS)</strong> y <strong>PDF.</strong></td></tr></tbody></table>
+<table><thead><tr><th width="104.00006103515625">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="reporte-de-comisiones-detallado.md#id-4.-filtros"><strong>Filtrar</strong></a></td><td>Permite definir los criterios de búsqueda del reporte.</td></tr><tr><td><strong>Limpiar</strong></td><td>Restablece los filtros a su estado inicial.</td></tr><tr><td><a href="reporte-de-comisiones-detallado.md#id-5.-resultados-de-consulta"><strong>Consultar</strong></a></td><td>Ejecuta la búsqueda según los filtros seleccionados.</td></tr><tr><td><strong>Exportar</strong></td><td>El botón <strong>Exportar</strong> en la parte inferior derecha del reporte permite descargar los resultados obtenidos con los filtros aplicados en los formatos <strong>Excel (.XLS)</strong> y <strong>PDF.</strong></td></tr></tbody></table>
 
 ### 4. Filtros
 

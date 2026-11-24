@@ -25,11 +25,11 @@ description: >-
 
 <table><thead><tr><th width="163">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Filtrar movimientos</strong></td><td>Permite aplicar filtros de búsqueda por ID de movimiento, ID externo, fecha o tipo de movimiento.</td></tr><tr><td><strong>Visualizar tabla de resultados</strong></td><td>Presenta la información de los movimientos de marketing según los filtros aplicados.</td></tr><tr><td><strong>Exportar los resultados</strong></td><td>Exporta en formato Excel la tabla de resultados obtenida tras la búsqueda.</td></tr></tbody></table>
 
-#### **🔎 3.1 Filtros principales**
+#### **3.1 Filtros principales**
 
 <table><thead><tr><th width="124">Campo</th><th width="142">Tipo de Control</th><th width="480">Descripción</th></tr></thead><tbody><tr><td><code>ID Movimientos de Marketing</code></td><td>Campo de texto</td><td>Identificador único del movimiento registrado en el sistema de marketing.</td></tr><tr><td><code>ID Externo</code></td><td>Campo de texto</td><td>Identificador asignado por sistemas externos o integraciones relacionadas con la actividad de marketing.</td></tr><tr><td><code>Fecha de Creación</code></td><td>Calendario</td><td>Permite seleccionar el rango de fechas en el cual se generaron los movimientos de marketing que se desean consultar.</td></tr><tr><td><code>Tipo</code></td><td>Lista desplegable</td><td>Especifica el tipo de movimiento para filtrar los resultados según su categoría o naturaleza.</td></tr></tbody></table>
 
-#### **📊 Tabla de Resultados**
+#### **Tabla de Resultados**
 
 Los resultados de la consulta se presentan en una tabla con las siguientes columnas:
 

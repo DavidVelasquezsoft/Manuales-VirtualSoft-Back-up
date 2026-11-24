@@ -22,7 +22,7 @@ description: >-
 
 ### 3. Acciones de usuario
 
-<table><thead><tr><th width="170.4444580078125">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="pago-premio.md#id-3.1.-filtros"><strong>Filtros</strong></a></td><td>Permite buscar por un ticket en específico.</td></tr><tr><td><strong>Limpiar</strong></td><td>Restablece los filtros por defecto.</td></tr><tr><td><a href="pago-premio.md#id-3.2.-consultar"><strong>Consultar</strong></a></td><td>Busca el ticket en el sistema y muestra toda la información acerca de ese ticket y el pago del premio.</td></tr></tbody></table>
+<table><thead><tr><th width="170.4444580078125">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="pago-premio.md#id-4.-filtros"><strong>Filtros</strong></a></td><td>Permite buscar por un ticket en específico.</td></tr><tr><td><strong>Limpiar</strong></td><td>Restablece los filtros por defecto.</td></tr><tr><td><a href="pago-premio.md#id-5.-resultado-de-consulta"><strong>Consultar</strong></a></td><td>Busca el ticket en el sistema y muestra toda la información acerca de ese ticket y el pago del premio.</td></tr></tbody></table>
 
 ### 4. Filtros
 

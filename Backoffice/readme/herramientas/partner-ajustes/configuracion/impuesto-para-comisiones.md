@@ -43,7 +43,7 @@ Este módulo permite configurar y gestionar los impuestos aplicables a las comis
 
 <table><thead><tr><th width="253">Función</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Configuración de Impuestos</strong></td><td>Permite definir el porcentaje de impuesto aplicable a cada sección del partner, según el país seleccionado, asegurando una correcta parametrización de los valores fiscales asociados a las comisiones.</td></tr></tbody></table>
 
-#### **🧾 3.1 Tipos de Comisión Disponibles**
+#### **3.1 Tipos de Comisión Disponibles**
 
 El sistema permite configurar impuestos para los siguientes tipos de comisión:
 
@@ -59,7 +59,7 @@ El valor del impuesto se calcula según el tipo de transacción asociado a la co
 
 ***
 
-#### **4.2 📊 Cálculo de la Comisión**
+#### **4.2 Cálculo de la Comisión**
 
 Una vez aplicado el impuesto, la comisión se calcula sobre el valor neto resultante:
 
@@ -67,7 +67,7 @@ Una vez aplicado el impuesto, la comisión se calcula sobre el valor neto result
 
 ***
 
-### 5. ✅ Validaciones y Reglas de Negocio
+### 5. Validaciones y Reglas de Negocio
 
 * El impuesto se configura de forma independiente por **marca, país y tipo de comisión**.
 * El porcentaje de impuesto debe ser un valor numérico entre **0 y 100**.
@@ -77,6 +77,6 @@ Una vez aplicado el impuesto, la comisión se calcula sobre el valor neto result
 
 ***
 
-#### 6.🕒 Control de Versiones
+#### 6. Control de Versiones
 
 <table><thead><tr><th width="109">Versión</th><th width="123">Fecha</th><th width="164">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>2025-12-23</td><td>Ronald Peláez</td><td>Documento inicial.</td></tr></tbody></table>

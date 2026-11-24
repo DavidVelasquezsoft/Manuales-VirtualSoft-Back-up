@@ -20,7 +20,7 @@ description: >-
 
 ### 3. Acciones del usuario
 
-<table><thead><tr><th width="201.33331298828125">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="historial-de-saldo.md#id-4.-filtros"><strong>Filtrar histórico de saldos</strong></a></td><td>Permite aplicar filtros de búsqueda según usuario, fecha, país, tipo u orden.</td></tr><tr><td><a href="historial-de-saldo.md#id-4.-resultados-del-reporte"><strong>Visualizar tabla de resultados</strong></a></td><td>Presenta el detalle de los movimientos y saldos del usuario según los filtros aplicados.</td></tr><tr><td><strong>Exportar los resultados</strong></td><td>Exporta en formato Excel la tabla de los resultados según los filtros seleccionados.</td></tr></tbody></table>
+<table><thead><tr><th width="201.33331298828125">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="historial-de-saldo.md#id-4.-filtros"><strong>Filtrar histórico de saldos</strong></a></td><td>Permite aplicar filtros de búsqueda según usuario, fecha, país, tipo u orden.</td></tr><tr><td><a href="historial-de-saldo.md#id-5.-resultados-del-reporte"><strong>Visualizar tabla de resultados</strong></a></td><td>Presenta el detalle de los movimientos y saldos del usuario según los filtros aplicados.</td></tr><tr><td><strong>Exportar los resultados</strong></td><td>Exporta en formato Excel la tabla de los resultados según los filtros seleccionados.</td></tr></tbody></table>
 
 ***
 
