@@ -2,6 +2,8 @@
 
 <mark style="color:$info;">Ejecuta las pruebas de integración de los proveedores de juegos de casino del modelo APIGATEWAY y muestra el resultado de cada caso de prueba. Permite ajustar las variables de cada proveedor antes de ejecutar y verificar, después de cada cambio o despliegue, que las integraciones con la plataforma de Usuarios Online responden como se espera.</mark>
 
+***
+
 ### 1. Información general
 
 #### 1.1. ¿Qué es el validador de casino?
@@ -154,7 +156,7 @@ Al finalizar, el panel lateral muestra el estado de la ejecución y la pestaña 
 
 La pestaña **Resultado de ejecución** muestra el resultado de la última ejecución. Los resultados solo se ven en la pestaña del navegador donde se ejecutaron y se pierden al recargar o cerrar la página.
 
-<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption><p>Figura #4: Captura de pantalla resumen del resultado de ejecución.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption><p>Figura #3: Captura de pantalla resumen del resultado de ejecución.</p></figcaption></figure>
 
 #### 8.1. Resumen e indicadores de la ejecución
 
@@ -168,7 +170,7 @@ Se muestra cuando la ejecución incluye dos o más proveedores. Al hacer clic en
 
 #### 8.3. Filtros de casos
 
-<table><thead><tr><th width="230">Filtro</th><th width="150">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Todos los proveedores</code></strong></td><td>Lista desplegable</td><td>Muestra los casos de un proveedor o de todos. Se muestra solo con dos o más proveedores.</td></tr><tr><td><strong><code>Todos / Con fallas / Exitosos</code></strong></td><td>Selector</td><td>Filtra los casos según su estado. Cada opción indica la cantidad de casos.</td></tr><tr><td><strong><code>Categoría</code></strong></td><td>Selector</td><td>Restringe los casos a una categoría <em>(Ejemplo: Preparación, Balance, Debito, Credito o Rollback)</em>. Las categorías corresponden a las carpetas de la colección y varían según el proveedor.</td></tr><tr><td><strong><code>Buscar caso o request...</code></strong></td><td>Campo de texto</td><td>Localiza casos por el nombre del caso, del request o del proveedor.</td></tr></tbody></table>
+<table><thead><tr><th width="189.16668701171875">Filtro</th><th width="150">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Todos los proveedores</code></strong></td><td>Lista desplegable</td><td>Muestra los casos de un proveedor o de todos. Se muestra solo con dos o más proveedores.</td></tr><tr><td><strong><code>Todos / Con fallas / Exitosos</code></strong></td><td>Selector</td><td>Filtra los casos según su estado. Cada opción indica la cantidad de casos.</td></tr><tr><td><strong><code>Categoría</code></strong></td><td>Selector</td><td>Restringe los casos a una categoría <em>(Ejemplo: Preparación, Balance, Debito, Credito o Rollback)</em>. Las categorías corresponden a las carpetas de la colección y varían según el proveedor.</td></tr><tr><td><strong><code>Buscar caso o request...</code></strong></td><td>Campo de texto</td><td>Localiza casos por el nombre del caso, del request o del proveedor.</td></tr></tbody></table>
 
 #### 8.4. Casos de prueba
 
@@ -192,7 +194,7 @@ Los casos de cada proveedor provienen de su carpeta en la colección. La tabla d
 
 Al hacer clic en un request, se abre un panel lateral con su detalle.
 
-<figure><img src=".gitbook/assets/image (156).png" alt=""><figcaption><p>Figura #5: Captura de pantalla detalle de un request.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (156).png" alt=""><figcaption><p>Figura #4: Captura de pantalla detalle de un request.</p></figcaption></figure>
 
 <table><thead><tr><th width="174.1666259765625">Sección</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Encabezado</code></strong></td><td>Muestra la ruta <em>(proveedor › caso)</em>, el nombre del request, su estado, el código HTTP, el tiempo de respuesta y las etiquetas <strong>Todas las validaciones pasaron</strong>, <strong>validación fallida</strong>, <strong>Error de script</strong>, <strong>Sin respuesta</strong> u <strong>Omitida</strong>.</td></tr><tr><td><strong><code>Copiar como cURL</code></strong></td><td>Copia el request como comando cURL para reproducirlo fuera del validador.</td></tr><tr><td><strong><code>URL</code></strong></td><td>Muestra el método y la URL del request. El enlace <strong>Copiar</strong> copia la URL.</td></tr><tr><td><strong><code>Datos enviados</code></strong></td><td>Muestra los parámetros de la URL y el body enviado, con su formato <em>(Ejemplo: JSON, XML o form-data)</em>. Los datos sensibles se muestran enmascarados.</td></tr><tr><td><strong><code>Respuesta del endpoint</code></strong></td><td><p>Muestra la respuesta del endpoint con formato.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Si la respuesta es muy grande, se muestra recortada. El reporte HTML la contiene completa.</p></div></td></tr><tr><td><strong><code>Respuesta esperada</code></strong></td><td>Lista las condiciones del Post-response <em>(validaciones definidas en la colección)</em> con su resultado: <strong>✓</strong> aprobada, <strong>✗</strong> fallida con el motivo, <strong>–</strong> omitida y <strong>!</strong> error de script.</td></tr></tbody></table>
 
@@ -202,7 +204,7 @@ Al hacer clic en un request, se abre un panel lateral con su detalle.
 
 Muestra las variables globales de plataforma, que reemplazan su valor en el request «Iniciar sesion en plataforma apuestas» de todas las carpetas al ejecutar. Se accede desde el botón **Ajustes** del panel lateral; el botón **Volver** regresa a la pantalla principal.
 
-<figure><img src=".gitbook/assets/image (157).png" alt=""><figcaption><p>Figura #6: Captura de pantalla sección Ajustes.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (157).png" alt=""><figcaption><p>Figura #5: Captura de pantalla sección Ajustes.</p></figcaption></figure>
 
 <table><thead><tr><th width="230">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Variable</code></strong></td><td>Identifica la variable global <em>(Ejemplo: url_session)</em>.</td></tr><tr><td><strong><code>Valor vigente</code></strong></td><td>Muestra el valor que se aplica a todas las carpetas. Si no está definido, indica <strong>Sin definir: se usa el valor de la colección</strong>.</td></tr><tr><td><strong><code>Variable de entorno</code></strong></td><td>Indica la variable de entorno del servidor que define el valor <em>(Ejemplo: URL_SESSION)</em>.</td></tr></tbody></table>
 
