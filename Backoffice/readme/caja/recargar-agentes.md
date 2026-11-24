@@ -40,7 +40,7 @@
 
 Al ejecutar la consulta, en la parte inferior de la pantalla se despliegan los datos del agente encontrado junto con el formulario de recarga.
 
-<table><thead><tr><th width="176">Campo</th><th width="120">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Nro. de cliente</code></strong></td><td>Numérico</td><td>Muestra el identificador único de la cuenta del agente dentro de la plataforma.</td></tr><tr><td><strong><code>Nombre del cliente</code></strong></td><td>Texto</td><td>Presenta el nombre completo del agente, para confirmar que la recarga se hará a la cuenta correcta.</td></tr><tr><td><strong><code>País</code></strong></td><td>Texto</td><td>Indica el país en el que está registrado el agente.</td></tr><tr><td><strong><code>Moneda</code></strong></td><td>Texto</td><td>Corresponde a la moneda de la cuenta del agente. El valor de la recarga se acredita en esta moneda.</td></tr></tbody></table>
+<table><thead><tr><th width="176">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Nro. de cliente</code></strong></td><td>Muestra el identificador único de la cuenta del agente dentro de la plataforma.</td></tr><tr><td><strong><code>Nombre del cliente</code></strong></td><td>Presenta el nombre completo del agente, para confirmar que la recarga se hará a la cuenta correcta.</td></tr><tr><td><strong><code>País</code></strong></td><td>Indica el país en el que está registrado el agente.</td></tr><tr><td><strong><code>Moneda</code></strong></td><td>Corresponde a la moneda de la cuenta del agente. El valor de la recarga se acredita en esta moneda.</td></tr></tbody></table>
 
 ***
 
