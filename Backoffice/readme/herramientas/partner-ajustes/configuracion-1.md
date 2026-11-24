@@ -20,7 +20,7 @@ Siempre se debe seleccionar un país en el filtro de país, ya que de esta selec
 
 ### 2. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (577) (1).png" alt=""><figcaption><p>Figura #1: Captura de pantalla sección configuraciones.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (577).png" alt=""><figcaption><p>Figura #1: Captura de pantalla sección configuraciones.</p></figcaption></figure>
 
 ***
 
@@ -74,7 +74,7 @@ Permite definir y ajustar distintos parámetros de seguridad relacionados con la
 
 ### 2. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (644) (1).png" alt=""><figcaption><p>Figura #3: Captura de pantalla sección Seguridad.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (644).png" alt=""><figcaption><p>Figura #3: Captura de pantalla sección Seguridad.</p></figcaption></figure>
 
 ***
 
@@ -152,7 +152,7 @@ Define los montos, los límites y los controles que se aplican a las solicitudes
 
 ### 2. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (670) (1).png" alt=""><figcaption><p>Figura #5: Captura de pantalla sección solicitud de depósito de clientes.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (670).png" alt=""><figcaption><p>Figura #5: Captura de pantalla sección solicitud de depósito de clientes.</p></figcaption></figure>
 
 ***
 
@@ -170,12 +170,22 @@ Define los montos, los límites y los controles que se aplican a las solicitudes
 * El período de **`Autorización de tiempo para aprobación masiva de transacciones`** no se reinicia ni se extiende al realizar nuevas aprobaciones o rechazos.
 * Cuando una solicitud se rechaza por superar el tiempo máximo en estado **Enviado**, el reporte de solicitudes de depósito muestra el motivo **"Timeout del proveedor"**.
 
-{% hint style="warning" %}
-**Nota:** Con un límite diario de 100 USD, semanal de 300 USD y mensual de 1.000 USD:
+{% hint style="info" %}
+Supongamos estos valores configurados:
 
-* Si el usuario deposita 100 USD en un día, no puede depositar más hasta el día siguiente.
-* Si acumula 300 USD en la semana, no puede depositar más aunque no haya alcanzado el límite mensual.
-* Si acumula 1.000 USD en el mes, no puede depositar más hasta el mes siguiente.
+* Límite diario: **100 USD**
+* Límite semanal: **300 USD**
+* Límite mensual: **1.000 USD**
+
+📌 Cómo funciona:
+
+* Si un usuario deposita **100 USD en un día**, ya alcanzó su límite diario y no podrá hacer más depósitos hasta el día siguiente.
+* Si a lo largo de la semana acumula **300 USD**, no podrá depositar más aunque todavía no haya alcanzado el mensual.
+* Si en el mes llega a **1.000 USD**, ya no podrá seguir depositando hasta el mes siguiente.
+
+Es decir, **los límites se van acumulando y cada periodo (día, semana, mes) tiene su propio tope**.
+
+* Si la opción está activa en **`Requiere verificación de cuenta para depositar`** , el usuario debe estar verificado antes de poder realizar su primer depósito.
 {% endhint %}
 
 ***
@@ -198,7 +208,7 @@ Este manual describe la configuración del módulo **Ajustes Generales**, el cua
 
 ### 2.Visualización general
 
-<figure><img src="../../../.gitbook/assets/image (676) (1).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección ajustes generales.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (676).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección ajustes generales.</p></figcaption></figure>
 
 ***
 
@@ -236,7 +246,7 @@ Asigna las cuentas contables en las que se registran las apuestas, los premios, 
 
 ### 2. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (601) (1).png" alt=""><figcaption><p>Figura #6: Captura de pantalla sección contabilidad.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (601).png" alt=""><figcaption><p>Figura #6: Captura de pantalla sección contabilidad.</p></figcaption></figure>
 
 ***
 
@@ -275,7 +285,7 @@ Desde este módulo se configuran los porcentajes de impuestos que se aplicarán 
 
 En esta sección se permite configurar los porcentajes de impuestos que se aplicarán a las transacciones realizadas por los usuarios dentro de la plataforma.
 
-<figure><img src="../../../.gitbook/assets/image (602) (1).png" alt=""><figcaption><p>Figura #7: Captura de pantalla apartado Impuesto.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (602).png" alt=""><figcaption><p>Figura #7: Captura de pantalla apartado Impuesto.</p></figcaption></figure>
 
 ***
 
@@ -412,7 +422,7 @@ Permite configurar los proveedores encargados de diferentes servicios dentro de 
 
 ### 2. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (677) (1).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección Proveedores internos.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (677).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección Proveedores internos.</p></figcaption></figure>
 
 ***
 
@@ -445,7 +455,7 @@ Desde esta sección podrás configurar los puntos necesarios que determinarán e
 
 ### 2. Visualización general
 
-<figure><img src="../../../.gitbook/assets/image (612) (1).png" alt=""><figcaption><p>Figura 1: Captura de pantalla de la sección Puntos equivalentes por nivel.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (612).png" alt=""><figcaption><p>Figura 1: Captura de pantalla de la sección Puntos equivalentes por nivel.</p></figcaption></figure>
 
 ***
 
@@ -531,7 +541,7 @@ En esta sección se permite configurar la habilitación del conteo de puntos de 
 
 ### **2. Visualización:**
 
-<figure><img src="../../../.gitbook/assets/image (599) (1).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección tipos de movimientos.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (599).png" alt=""><figcaption><p>Figura#1: Captura de pantalla sección tipos de movimientos.</p></figcaption></figure>
 
 ***
 
@@ -584,7 +594,7 @@ Configura las restricciones de tiempo aplicables a la redención de regalos dent
 
 ### 2. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (635) (1).png" alt=""><figcaption><p>Figura #1. Configuración de restricciones de canje en el módulo de Lealtad.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (635).png" alt=""><figcaption><p>Figura #1. Configuración de restricciones de canje en el módulo de Lealtad.</p></figcaption></figure>
 
 ### **3. Configuraciones**
 
@@ -620,7 +630,7 @@ Permite configurar todas las opciones relacionadas con el programa de referidos 
 
 ### 2. Visualización:
 
-<figure><img src="../../../.gitbook/assets/image (574) (1).png" alt=""><figcaption><p>Figura #1: Captura de pantalla sección referidos.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (574).png" alt=""><figcaption><p>Figura #1: Captura de pantalla sección referidos.</p></figcaption></figure>
 
 ***
 
@@ -684,7 +694,7 @@ Habilita o bloquea las secciones de la plataforma para cada tipo de perfil y def
 
 ### 2. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (512) (1).png" alt=""><figcaption><p>Figura #15: Captura de pantalla sección verticales.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (512).png" alt=""><figcaption><p>Figura #15: Captura de pantalla sección verticales.</p></figcaption></figure>
 
 ***
 
@@ -746,7 +756,7 @@ Esta sección permite configurar los bonos que estarán disponibles para los usu
 
 ### 2. Visualización:
 
-<figure><img src="../../../.gitbook/assets/image (636) (1).png" alt=""><figcaption><p>Figura #1. Configuración de Bonos Landing de Registro.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (636).png" alt=""><figcaption><p>Figura #1. Configuración de Bonos Landing de Registro.</p></figcaption></figure>
 
 ***
 
@@ -794,7 +804,7 @@ Asigna los bonos Freebet o Freecasino que los usuarios reciben automáticamente 
 
 ### 2. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (50) (1).png" alt=""><figcaption><p>Figura #17: Captura de pantalla sección bonos de cumpleaños.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (50).png" alt=""><figcaption><p>Figura #17: Captura de pantalla sección bonos de cumpleaños.</p></figcaption></figure>
 
 ***
 
@@ -855,7 +865,7 @@ La siguiente guía interactiva muestra el proceso completo:
 
 ### 2. Visualización:
 
-<figure><img src="../../../.gitbook/assets/image (637) (1).png" alt=""><figcaption><p><strong>Figura #1. Configuración de Límites de Comisión.</strong></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (637).png" alt=""><figcaption><p><strong>Figura #1. Configuración de Límites de Comisión.</strong></p></figcaption></figure>
 
 ***
 
