@@ -1,49 +1,62 @@
----
-description: >-
-  Permite consultar, mediante filtros, la información de uno o varios partners
-  proveedores, además de añadir nuevos partners proveedores.
----
-
 # Partners Proveedores
+
+<mark style="color:$info;">Asocia proveedores a un partner y consulta las asociaciones existentes, con su estado, verificación y límites de operación.</mark>
+
+***
 
 ### 1. Acceso al Módulo
 
-**Ruta de Acceso:** Backoffice > Herramientas > Partner ajustes > Partner > Productos >Parners proveedores
+**Ruta de Acceso**: BackOffice (BO) > Herramientas > Partner Ajustes > Productos > Partners Proveedores
 
 ***
 
-### 2. 🖼️ Visualización
+### 2. Visualización
 
-<figure><img src="../../../../.gitbook/assets/image (343) (1).png" alt=""><figcaption><p>Figura#1: Captura de pantralla filtros de bisqueda.</p></figcaption></figure>
-
-***
-
-### 3. 🧑‍💻 Acciones disponibles
-
-<table><thead><tr><th width="166.00006103515625">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="partners-proveedores.md#id-3.1.-filtros"><strong>Filtrar</strong></a></td><td>Permite definir criterios para ubicar proveedores asociados a un partner.</td></tr><tr><td><strong>Limpiar</strong></td><td>Restablece los filtros a su estado inicial.</td></tr><tr><td><a href="partners-proveedores.md#id-3.2.-consultar"><strong>Consultar</strong></a></td><td>Muestra los registros que cumplen con los filtros seleccionados.</td></tr><tr><td><strong>Añadir Proveedor</strong> <a href="https://virtualsoft.gitbook.io/untitled/glosario/#partner"><strong>Partner</strong></a></td><td>Permite asociar un nuevo proveedor a el partner.</td></tr></tbody></table>
-
-#### 3.1. 🔎 Filtros
-
-<table><thead><tr><th width="138.77783203125">Campo</th><th width="139.66668701171875">Tipo de campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>ID</code></strong></td><td>Numérico</td><td>Identificador único del proveedor dentro del partner.</td></tr><tr><td><strong><code>Proveedor</code></strong></td><td>Lista desplegable</td><td>Permite seleccionar el proveedor.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Lista desplegable</td><td>Permite filtrar por el estado actual del proveedor. (<em>Activo/Inactivo</em>)</td></tr></tbody></table>
-
-#### 3.2. 🚀 Consultar
-
-Al ejecutar la búsqueda, el sistema muestra una tabla con los proveedores asociados.
-
-<table><thead><tr><th width="164.2222900390625">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td>✏️</td><td>Permite editar la información del proveedor registrada al momento de su creación, requiriendo una justificación del cambio realizado. <a href="partners-proveedores.md#id-3.3.-anadir-proveedor-partner">Campos permitidos</a></td></tr><tr><td><strong><code>ID</code></strong></td><td>Identificador único del proveedor.</td></tr><tr><td><strong><code>Proveedor</code></strong></td><td>Nombre del proveedor asociado al partner.</td></tr><tr><td><strong><code>Partner</code></strong></td><td>Nombre del partner registrado.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Indica si el proveedor está activo o inactivo.</td></tr><tr><td><strong><code>Verificado</code></strong></td><td>Indica si el proveedor fue validado en el sistema.</td></tr><tr><td><strong><code>Filtro País</code></strong></td><td>País o países en los que el proveedor está disponible.</td></tr><tr><td><strong><code>Máximo</code></strong></td><td>Límite máximo permitido para operar con el proveedor.</td></tr><tr><td><strong><code>Mínimo</code></strong></td><td>Límite mínimo permitido para operar con el proveedor.</td></tr><tr><td><strong><code>Detalle</code></strong></td><td>Información adicional del proveedor.</td></tr></tbody></table>
-
-#### 3.3. ➕ Añadir Proveedor [Partner](https://virtualsoft.gitbook.io/untitled/glosario/#partner)
-
-Al seleccionar el botón **`Añadir Proveedor Partner`**, el sistema abre un pop-up para registrar la asociación, indicando los siguientes campos.
-
-<table><thead><tr><th width="162.4444580078125">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Proveedores</code></strong></td><td>Selecciona el proveedor que se asociará al partner.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Define si la asociación estará activa o inactiva.</td></tr><tr><td><strong><code>Verificado</code></strong></td><td>Indica si el proveedor quedará registrado como validado.</td></tr><tr><td><strong><code>Máximo</code></strong></td><td>Define el monto máximo permitido para operar con el proveedor.</td></tr><tr><td><strong><code>Mínimo</code></strong></td><td>Define el monto mínimo permitido para operar con el proveedor.</td></tr><tr><td><strong><code>Detalles</code></strong></td><td>Permite ingresar información adicional sobre el proveedor.</td></tr></tbody></table>
-
-Una vez completados los campos requeridos, se debe confirmar la acción para registrar la asociación del proveedor con el _partner_.
+<figure><img src="../../../../.gitbook/assets/image (343).png" alt=""><figcaption><p>Figura #1: Captura de pantalla sección partners proveedores.</p></figcaption></figure>
 
 ***
 
-### 🕒 4. Control de Versiones
+### 3. Acciones disponibles
 
-| Versión | Fecha      | Autor           | Cambios Realizados |
-| ------- | ---------- | --------------- | ------------------ |
-| 1.0     | 2026/02/11 | David velasquez | Documento inicial  |
+<table><thead><tr><th width="200">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="partners-proveedores.md#id-4.-filtros"><strong>Filtros</strong></a></td><td>Definen los criterios de búsqueda para consultar los proveedores asociados a los partners.</td></tr><tr><td><strong>Limpiar</strong></td><td>Restablece los filtros aplicados, dejando los campos en su estado inicial.</td></tr><tr><td><a href="partners-proveedores.md#id-5.-resultados-de-consulta"><strong>Consultar</strong></a></td><td>Ejecuta la búsqueda según los filtros definidos y muestra los proveedores en la tabla de resultados.</td></tr><tr><td><a href="partners-proveedores.md#id-6.-anadir-proveedor-partner"><strong>Añadir Proveedor Partner</strong></a></td><td>Abre el formulario para asociar un proveedor al partner.</td></tr><tr><td><strong>Editar</strong> <i class="fa-pencil">:pencil:</i></td><td>Modifica los datos de una asociación desde la tabla de resultados.</td></tr></tbody></table>
+
+***
+
+### 4. Filtros
+
+<table><thead><tr><th width="200">Campo</th><th width="150">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Id</code></strong></td><td>Campo numérico</td><td>Localiza la asociación por su identificador único.</td></tr><tr><td><strong><code>Proveedor</code></strong></td><td>Lista desplegable</td><td>Selecciona el proveedor que se va a consultar.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Lista desplegable</td><td>Muestra las asociaciones según su estado <em>(Activo o Inactivo)</em>.</td></tr></tbody></table>
+
+***
+
+### 5. Resultados de consulta
+
+Al ejecutar la consulta, en la parte inferior de la pantalla se despliega una tabla con los proveedores asociados que cumplen con los filtros aplicados.
+
+<table><thead><tr><th width="200">Campo</th><th width="120">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><i class="fa-pencil">:pencil:</i></td><td>Acción</td><td>Abre el formulario de la asociación para modificar sus datos. El sistema solicita una justificación del cambio.</td></tr><tr><td><strong><code>ID</code></strong></td><td>Numérico</td><td>Muestra el identificador único de la asociación.</td></tr><tr><td><strong><code>Proveedor</code></strong></td><td>Texto</td><td>Presenta el nombre del proveedor asociado al partner.</td></tr><tr><td><strong><code>Partner</code></strong></td><td>Texto</td><td>Identifica el partner de la asociación.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Texto</td><td>Indica si la asociación está activa o inactiva.</td></tr><tr><td><strong><code>Verificado</code></strong></td><td>Texto</td><td>Señala si el proveedor fue validado en el sistema.</td></tr><tr><td><strong><code>Filtro País</code></strong></td><td>Texto</td><td>Indica si el filtro país está activo para el proveedor.</td></tr><tr><td><strong><code>Máximo</code></strong></td><td>Numérico</td><td>Muestra el monto máximo permitido para operar con el proveedor.</td></tr><tr><td><strong><code>Mínimo</code></strong></td><td>Numérico</td><td>Muestra el monto mínimo permitido para operar con el proveedor.</td></tr><tr><td><strong><code>Detalle</code></strong></td><td>Texto</td><td>Contiene información adicional del proveedor.</td></tr></tbody></table>
+
+***
+
+### 6. Añadir Proveedor Partner
+
+Al presionar **Añadir Proveedor Partner**, se despliega una ventana emergente para registrar la asociación. El mismo formulario se abre al editar una asociación existente.
+
+<table><thead><tr><th width="200">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Proveedores</code></strong></td><td>Selecciona el proveedor que se asocia al partner.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Define si la asociación queda activa o inactiva.</td></tr><tr><td><strong><code>Verificado</code></strong></td><td>Indica si el proveedor queda registrado como validado.</td></tr><tr><td><strong><code>Máximo</code></strong></td><td>Establece el monto máximo permitido para operar con el proveedor.</td></tr><tr><td><strong><code>Mínimo</code></strong></td><td>Establece el monto mínimo permitido para operar con el proveedor.</td></tr><tr><td><strong><code>Detalles</code></strong></td><td>Registra información adicional sobre el proveedor.</td></tr></tbody></table>
+
+***
+
+### 7. Validaciones y reglas del negocio:
+
+* La asociación se registra al confirmar el formulario con los campos requeridos completos.
+* Al editar una asociación, el sistema solicita una justificación del cambio.
+
+***
+
+### 8. Control de Versiones
+
+<details>
+
+<summary>🔽 Historial de versiones</summary>
+
+<table><thead><tr><th width="99.888916015625">Versión</th><th width="128.87872314453125">Fecha</th><th width="153.94952392578125">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>11/02/2026</td><td>David Velasquez</td><td>Documento inicial</td></tr><tr><td>1.1</td><td>24/11/2026</td><td>David Velasquez</td><td>Actualización de la estructura del manual.</td></tr></tbody></table>
+
+</details>

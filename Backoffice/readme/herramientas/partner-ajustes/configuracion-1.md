@@ -374,13 +374,13 @@ Una vez aplicado el impuesto, la comisión se calcula sobre el valor neto result
 
 <details>
 
-<summary><strong>🔽 Registro</strong></summary>
+<summary><strong>🔽Registro</strong></summary>
 
-Permite configurar los parámetros predeterminados relacionados con el proceso de registro de usuarios y los límites de depósito.
+Define los valores predeterminados del registro de usuarios: los límites de depósito de las cuentas nuevas, el tipo de formulario de registro y la activación automática de las cuentas.
 
-### 1. Acceso al módulo
+### 1. Acceso al Módulo
 
-**Ruta de acceso**: BackOffice > herramientas > partner ajustes > Configuración > Registro
+**Ruta de Acceso**: BackOffice (BO) > Herramientas > Partner Ajustes > Configuración > Registro
 
 ***
 
@@ -390,21 +390,20 @@ Permite configurar los parámetros predeterminados relacionados con el proceso d
 
 ***
 
-### 3. Acciones del usuario
+### 3. Configuraciones disponibles
 
-El usuario con permisos podrá configurar los siguientes parámetros:
-
-<table><thead><tr><th width="184.83331298828125">Campo</th><th width="111.5">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Límite depósito día por defecto</code></strong></td><td>Numérico</td><td>Define el monto máximo que un usuario puede depositar en un solo día.</td></tr><tr><td><strong><code>Límite depósito semana por defecto</code></strong></td><td>Numérico</td><td>Especifica el límite de depósito que se puede realizar en el transcurso de una semana.</td></tr><tr><td><strong><code>Límite depósito mes por defecto</code></strong></td><td>Numérico</td><td>Determina el monto máximo permitido para depósitos dentro de un mes.</td></tr><tr><td><strong><code>Tipo de registro</code></strong></td><td>Interruptor</td><td>Permite seleccionar la modalidad de registro del usuario (<em>Larga o corta</em>).</td></tr><tr><td><strong><code>Usuario automáticamente activado</code></strong></td><td>Interruptor</td><td>Define si los usuarios registrados serán activados automáticamente.</td></tr></tbody></table>
+<table><thead><tr><th width="200">Campo</th><th width="130">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Límite depósito día por defecto</code></strong></td><td>Campo numérico</td><td>Establece el monto máximo que un usuario puede depositar en un día.</td></tr><tr><td><strong><code>Límite depósito semana por defecto</code></strong></td><td>Campo numérico</td><td>Define el monto máximo que un usuario puede depositar en una semana.</td></tr><tr><td><strong><code>Límite depósito mes por defecto</code></strong></td><td>Campo numérico</td><td>Fija el monto máximo que un usuario puede depositar en un mes.</td></tr><tr><td><strong><code>Tipo de registro</code></strong></td><td>Interruptor</td><td><p>Determina el formulario de registro que ve el usuario en la plataforma de Usuarios Online.</p><ul><li><strong>Larga:</strong> solicita más información al momento del registro.</li><li><strong>Corta:</strong> solicita únicamente los datos mínimos requeridos.</li></ul></td></tr><tr><td><strong><code>Usuario automáticamente activado</code></strong></td><td>Interruptor</td><td>Indica si las cuentas nuevas quedan activas automáticamente al completar el registro.</td></tr></tbody></table>
 
 ***
 
-### 4. ✅Reglas y validaciones
+### 4. Validaciones y reglas del negocio:
 
-* El **registro largo** solicita una mayor cantidad de información al momento en que el usuario se registra en la plataforma de usuarios online, mientras que el **registro corto** permite completar el proceso solicitando únicamente los datos mínimos requeridos.
+* Los cambios se aplican al presionar **Guardar**, ubicado al final de la página, y quedan asociados al país seleccionado en el filtro.
+* Los límites de depósito configurados en este módulo son los valores por defecto de los usuarios.
 
-### 5.🕛 Control de Versiones
+***
 
-<table><thead><tr><th width="128">Versión</th><th>Fecha</th><th>Autor</th><th>Descripción del cambio</th></tr></thead><tbody><tr><td>1.0</td><td>15/12/2025</td><td>David velasquez</td><td>Actualización de formato.</td></tr><tr><td>1.1</td><td>11/02/2026</td><td>Ronald Peláez</td><td>Refinamiento por nuevo formato del módulo.</td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th align="center"></th></tr></thead><tbody><tr><td align="center"><a href="configuracion-1.md#impuesto-para-comisiones" class="button secondary">Módulo anterior</a></td></tr><tr><td align="center"><a href="configuracion-1.md#id-4.-modulos-de-configuraciones" class="button secondary">Volver</a></td></tr><tr><td align="center"><a href="configuracion-1.md#proveedores-internos" class="button secondary">Siguiente módulo</a></td></tr></tbody></table>
 
 </details>
 
@@ -618,65 +617,63 @@ Esto significa que el sistema aplicará el tiempo de espera definido en esta úl
 
 <details>
 
-<summary><strong>🔽</strong> Referidos</summary>
+<summary><strong>🔽Referidos</strong></summary>
 
-Permite configurar todas las opciones relacionadas con el programa de referidos y su aplicación en la plataforma [Usuarios Online](https://virtualsoft.gitbook.io/manuales/usuarios).
+Configura el programa de referidos de la plataforma de [Usuarios Online](https://virtualsoft.gitbook.io/manuales/usuarios): las condiciones para desbloquear las recompensas, los plazos, los canales de invitación y las recompensas. El referente es el usuario que invita y el referido es el usuario invitado que se registra con su enlace.
 
-### 1. Acceso al Módulo:
+### 1. Acceso al Módulo
 
-**Ruta de Acceso**: Herramientas > Partner ajustes > Configuración > Referidos
-
-***
-
-### 2. Visualización:
-
-<figure><img src="../../../.gitbook/assets/image (574).png" alt=""><figcaption><p>Figura #1: Captura de pantalla sección referidos.</p></figcaption></figure>
+**Ruta de Acceso**: BackOffice (BO) > Herramientas > Partner Ajustes > Configuración > Referidos
 
 ***
 
-### **3. Acciones disponibles**
+### 2. Visualización
 
-<table><thead><tr><th width="178">Sección</th><th width="99.16668701171875">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Activar Referidos</code></strong></td><td>Botón</td><td>Permite activar o desactivar el programa de referidos.</td></tr><tr><td><strong><code>URL de la Landing</code></strong></td><td>Texto</td><td>Configura la URL de registro por cada partner, ajustándose a la página de destino deseada.</td></tr><tr><td><strong><code>Cuota mínima en apuestas deportivas para el desbloqueo de la recompensa</code></strong></td><td>numérico</td><td>Especifica la cuota mínima válida en apuestas de sportsbook para que sean consideradas dentro del programa.</td></tr><tr><td><strong><code>Límite de días para selección de recompensa - Referente</code></strong></td><td>numérico</td><td>Define el número máximo de días que tiene el <strong>referente</strong> para seleccionar la recompensa disponible una vez que el referido haya cumplido con las condiciones establecidas.</td></tr><tr><td><strong><code>Límite de días para cumplimiento de condiciones - Referido</code></strong></td><td>numérico</td><td>Establece el plazo en días que tiene el <strong>referido</strong> para cumplir con los requisitos (depósito mínimo, apuestas o verificación), con el fin de que el referente pueda recibir la recompensa correspondiente.</td></tr><tr><td><strong><code>Exclusión de categorías</code></strong></td><td>Botón</td><td><p>define qué categorías de apuestas <strong>no serán tenidas en cuenta</strong> para el desbloqueo de las recompensas dentro del programa de referidos.</p><p>Entre ambos recuadros se encuentran los siguientes botones:</p><ul><li><code>>></code> Mueve todas las categorías de la columna <strong>Todas</strong> hacia <strong>Excluidas</strong>.</li><li><code>&#x3C;&#x3C;</code> Retorna todas las categorías desde <strong>Excluidas</strong> hacia <strong>Todas</strong>.</li><li><code>></code> Mueve solo la categoría seleccionada desde <strong>Todas</strong> hacia <strong>Excluidas</strong>.</li><li><code>&#x3C;</code> Retorna únicamente la categoría seleccionada desde <strong>Excluidas</strong> hacia <strong>Todas</strong>.</li></ul></td></tr><tr><td><strong><code>Canales de envío permitidos</code></strong></td><td>Selector</td><td><p>Establece los canales por el cuál se podrá notificar sobre el programa de referidos.</p><ul><li>Envío por correo electrónico.</li><li>Envío por enlace o código</li></ul></td></tr></tbody></table>
+<figure><img src="../../../.gitbook/assets/image (574).png" alt=""><figcaption><p>Figura #14: Captura de pantalla sección referidos.</p></figcaption></figure>
 
 ***
 
-### 4. Agregar recompensas
+### 3. Configuraciones disponibles
 
-Permite agregar recompensas de referidos según dos modalidades: por primer depósito o por apuestas, utilizando los botones disponibles en la parte inferior.
+<table><thead><tr><th width="200">Campo</th><th width="130">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Activar referidos</code></strong></td><td>Interruptor</td><td>Habilita o deshabilita el programa de referidos.</td></tr><tr><td><strong><code>URL Landing</code></strong></td><td>Campo de texto</td><td>Define la página de registro a la que llegan los usuarios invitados.</td></tr><tr><td><strong><code>Cuota mínima en apuestas deportivas para el desbloqueo de la recompensa</code></strong></td><td>Campo numérico</td><td>Establece la cuota mínima que deben tener las apuestas deportivas del referido para contar en el desbloqueo de la recompensa.</td></tr><tr><td><strong><code>Límite de días para selección de recompensa - Referente</code></strong></td><td>Campo numérico</td><td>Fija los días que tiene el referente para elegir su recompensa después de que el referido cumple las condiciones.</td></tr><tr><td><strong><code>Límite días para cumplimiento de condiciones - Referido</code></strong></td><td>Campo numérico</td><td>Indica los días que tiene el referido para cumplir las condiciones <em>(depósito mínimo, apuestas o verificación)</em> que generan la recompensa del referente.</td></tr><tr><td><strong><code>Exclusión de categorías en apuestas de casino para el desbloqueo de la recompensa</code></strong></td><td>Lista</td><td><p>Determina las categorías de casino que no cuentan para el desbloqueo de la recompensa. La columna <strong>Todas</strong> muestra las categorías disponibles y la columna <strong>Excluidas</strong>, las que no se tienen en cuenta. Entre ambas columnas están los siguientes botones:</p><ul><li><strong><code>&#x3E;&#x3E;</code>:</strong> mueve todas las categorías de <strong>Todas</strong> a <strong>Excluidas</strong>.</li><li><strong><code>&#x3C;&#x3C;</code>:</strong> devuelve todas las categorías de <strong>Excluidas</strong> a <strong>Todas</strong>.</li><li><strong><code>&#x3E;</code>:</strong> mueve la categoría seleccionada a <strong>Excluidas</strong>.</li><li><strong><code>&#x3C;</code>:</strong> devuelve la categoría seleccionada a <strong>Todas</strong>.</li></ul></td></tr><tr><td><strong><code>Envío por correo electrónico</code></strong></td><td>Interruptor</td><td>Permite que el referente envíe la invitación al programa por correo electrónico.</td></tr><tr><td><strong><code>Envío por enlace/código</code></strong></td><td>Interruptor</td><td>Permite que el referente comparta la invitación mediante un enlace o un código.</td></tr></tbody></table>
+
+***
+
+### 4. Recompensas
+
+Los botones **Agregar recompensa por primer depósito** y **Agregar recompensa por apuesta** crean las recompensas que recibe el referente cuando el referido cumple la condición.
 
 {% hint style="warning" %}
-**Notas**:
-
-* Si no se ha agregado ningún premio, se mostrará el mensaje: _“No hay premios agregados”_.
-* Solo se pueden agregar **tres premios en total** entre todas las categorías.
+**Nota:** Se pueden agregar como máximo **tres recompensas en total**, sumando ambos tipos. Si no hay recompensas, el módulo muestra el mensaje _"No hay premios agregados"_.
 {% endhint %}
 
-#### **4.1. Agregar recompensa por primer deposito**
+#### 4.1. Recompensa por primer depósito
 
-Esta opción permite configurar un premio que los usuarios recibirán tras realizar su primer depósito.
+Otorga la recompensa cuando el referido realiza su primer depósito por el monto mínimo configurado.
 
-<table><thead><tr><th width="139">Campo</th><th width="114">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Nombre de la Recompensa</code></strong></td><td>Texto</td><td>Nombre de la recompensa otorgada al usuario.</td></tr><tr><td><strong><code>Mínimo Primer Depósito</code></strong></td><td>Numérico</td><td>Define el monto mínimo que el usuario debe depositar para que el referente reciba la recompensa.</td></tr><tr><td><strong><code>Cuenta Verificada</code></strong></td><td>Checkbox</td><td>Indica si la cuenta debe estar verificada para recibir la recompensa.</td></tr><tr><td><strong><code>Eliminar</code></strong></td><td>Botón</td><td>Permite eliminar la recompensa configurada.</td></tr><tr><td><strong><code>categoría requerida.</code></strong></td><td>Botón</td><td><ul><li><strong>Bonos Disponibles</strong>: Muestra los bonos previamente creados que pueden agregarse.</li><li><strong>Bonos Seleccionados:</strong> Indica los bonos aplicados a la recompensa.</li></ul><p>Entre ambos recuadros se encuentran los siguientes botones:</p><ul><li><strong><code>>></code></strong> Mueve todas las categorías de la columna <strong>disponibles</strong> hacia <strong>seleccionados</strong>.</li><li><strong><code>&#x3C;&#x3C;</code></strong> Retorna todas las categorías desde <strong>disponibles</strong> hacia <strong>seleccionados</strong>.</li><li><strong><code>></code></strong> Mueve solo la categoría seleccionada desde <strong>disponibles</strong> hacia <strong>seleccionados</strong>.</li><li><strong><code>&#x3C;</code></strong> Retorna únicamente la categoría seleccionada desde <strong>seleccionados</strong> hacia <strong>disponibles</strong>.</li></ul></td></tr></tbody></table>
+<table><thead><tr><th width="200">Campo</th><th width="130">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Nombre de la Recompensa</code></strong></td><td>Campo de texto</td><td>Define el nombre de la recompensa.</td></tr><tr><td><strong><code>Mínimo Primer Depósito</code></strong></td><td>Campo numérico</td><td>Establece el monto mínimo del primer depósito del referido para que el referente reciba la recompensa.</td></tr><tr><td><strong><code>Cuenta Verificada</code></strong></td><td>Casilla de verificación</td><td>Exige que la cuenta del referido esté verificada para otorgar la recompensa.</td></tr><tr><td><strong><code>Bonos Disponibles</code></strong> / <strong><code>Bonos Seleccionados</code></strong></td><td>Lista</td><td><p>Selecciona los bonos que se entregan como recompensa. La columna <strong>Bonos Disponibles</strong> muestra los bonos creados y la columna <strong>Bonos Seleccionados</strong>, los que forman parte de la recompensa. Entre ambas columnas están los siguientes botones:</p><ul><li><strong><code>&#x3E;&#x3E;</code>:</strong> mueve todos los bonos a <strong>Bonos Seleccionados</strong>.</li><li><strong><code>&#x3C;&#x3C;</code>:</strong> devuelve todos los bonos a <strong>Bonos Disponibles</strong>.</li><li><strong><code>&#x3E;</code>:</strong> mueve el bono seleccionado a <strong>Bonos Seleccionados</strong>.</li><li><strong><code>&#x3C;</code>:</strong> devuelve el bono seleccionado a <strong>Bonos Disponibles</strong>.</li></ul></td></tr><tr><td><strong><code>Eliminar</code></strong></td><td>Botón</td><td>Elimina la recompensa configurada.</td></tr></tbody></table>
 
-#### 4.2. Agregar recompensa por apuesta
+#### 4.2. Recompensa por apuesta
 
-Esta opción permite configurar un premio para los usuarios que realicen apuestas dentro de la plataforma.
+Otorga la recompensa cuando el referido alcanza el número mínimo de apuestas configurado.
 
-<table><thead><tr><th width="134">Campo</th><th width="106">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Nombre de la Recompensa</code></strong></td><td>Texto</td><td>Nombre de la recompensa otorgada al usuario.</td></tr><tr><td><strong><code>Mínimo de Apuestas</code></strong></td><td>Campo numérico</td><td>Define el número mínimo de apuestas requeridas.</td></tr><tr><td><strong><code>Cuenta Verificada</code></strong></td><td>Selector</td><td>Indica si la cuenta debe estar verificada para recibir la recompensa.</td></tr><tr><td><strong><code>Eliminar Recompensa</code></strong></td><td>Botón</td><td>Elimina la recompensa configurada.</td></tr><tr><td><strong><code>categoría requerida.</code></strong></td><td>Botón</td><td><ul><li><strong>Bonos Disponibles</strong>: Muestra los bonos previamente creados que pueden agregarse.</li><li><strong>Bonos Seleccionados:</strong> Indica los bonos aplicados a la recompensa.</li></ul><p>Entre ambos recuadros se encuentran los siguientes botones:</p><ul><li><strong><code>>></code></strong> Mueve todas las categorías de la columna <strong>disponibles</strong> hacia <strong>seleccionados</strong>.</li><li><strong><code>&#x3C;&#x3C;</code></strong> Retorna todas las categorías desde <strong>disponibles</strong> hacia <strong>seleccionados</strong>.</li><li><strong><code>></code></strong> Mueve solo la categoría seleccionada desde <strong>disponibles</strong> hacia <strong>seleccionados</strong>.</li><li><strong><code>&#x3C;</code></strong> Retorna únicamente la categoría seleccionada desde <strong>seleccionados</strong> hacia <strong>disponibles</strong>.</li></ul></td></tr></tbody></table>
+<table><thead><tr><th width="200">Campo</th><th width="130">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Nombre de la Recompensa</code></strong></td><td>Campo de texto</td><td>Define el nombre de la recompensa.</td></tr><tr><td><strong><code>Mínimo de Apuestas</code></strong></td><td>Campo numérico</td><td>Establece la cantidad mínima de apuestas que debe realizar el referido.</td></tr><tr><td><strong><code>Cuenta Verificada</code></strong></td><td>Casilla de verificación</td><td>Exige que la cuenta del referido esté verificada para otorgar la recompensa.</td></tr><tr><td><strong><code>Bonos Disponibles</code></strong> / <strong><code>Bonos Seleccionados</code></strong></td><td>Lista</td><td>Selecciona los bonos que se entregan como recompensa. Funciona igual que en la recompensa por primer depósito.</td></tr><tr><td><strong><code>Eliminar Recompensa</code></strong></td><td>Botón</td><td>Elimina la recompensa configurada.</td></tr></tbody></table>
 
 ***
 
-### **5. Validaciones y Reglas de Negocio**
+### 5. Validaciones y reglas del negocio:
 
-* Solo se permiten **tres premios en total** entre todas las categorías.
-* Las recompensas requieren validación de depósitos, apuestas o verificación de cuenta, según configuración.
-* Si no se agregan premios, se mostrará el mensaje: _“No hay premios agregados”_.
-* Para aplicar los cambios realizados, haz clic en el botón **Guardar** ubicado en la parte inferior.\
-  Si deseas descartar la información ingresada, utiliza el botón **Limpiar** para restablecer los campos a su estado inicial.
-* Solo se mostrarán los bonos disponibles en esta sección que se encuentren vigentes, activos en la plataforma y hayan sido creados desde el módulo de bonos. [Crear Bono.](https://app.gitbook.com/s/rLdGx9JdTz3uLoquKvJw/readme/como-acceder-a-la-plataforma-./crear-eventos./crear-bono. "mention") y que en el campo "Es para" se haya seleccionado _"**referidos**"_
-* Las configuraciones realizadas en este módulo no dependen de alguna plantilla _(Estructura configurada para el envío de correos electrónicos a los usuarios)_ previamente creada en la plataforma [Marketing](https://virtualsoft.gitbook.io/manuales/marketing).
-* Los referidos de pueden gestionar en la plataforma Usuarios Online desde el módulo _"_[_Referidos_](https://virtualsoft.gitbook.io/manuales/usuarios/usuarios-online/manual-de-plataforma/referidos#id-2.1-agregar-referidos)_"._
-* Los campos visualizados en este módulo dependen de los permisos asignados del usuario.
-* Para aplicar los cambios realizados es necesario dar clic en el botón "Guardar" Ubicado en la parte inferior.
+* Los cambios se aplican al presionar **Guardar**, ubicado al final de la página. El botón **Limpiar** restablece los campos a su estado inicial.
+* Se permiten como máximo **tres recompensas en total**, sumando ambos tipos.
+* Las recompensas se otorgan según las condiciones configuradas: depósito mínimo, cantidad de apuestas o cuenta verificada.
+* Solo se muestran los bonos vigentes y activos creados desde el módulo de bonos [Crear Bono.](https://app.gitbook.com/s/rLdGx9JdTz3uLoquKvJw/readme/como-acceder-a-la-plataforma-./crear-eventos./crear-bono. "mention"), con la opción **referidos** en el campo **Es para**.
+* Las configuraciones de este módulo no dependen de una plantilla de correo _(estructura configurada para enviar correos a los usuarios)_ creada en la plataforma [Marketing](https://virtualsoft.gitbook.io/manuales/marketing).
+* Los usuarios gestionan sus referidos en la plataforma de Usuarios Online, desde el módulo [Referidos](https://virtualsoft.gitbook.io/manuales/usuarios/usuarios-online/manual-de-plataforma/referidos#id-2.1-agregar-referidos).
+* Los campos visibles en este módulo dependen de los permisos asignados al usuario.
+
+***
+
+<table data-view="cards"><thead><tr><th align="center"></th></tr></thead><tbody><tr><td align="center"><a href="configuracion-1.md#lealtad" class="button secondary">Módulo anterior</a></td></tr><tr><td align="center"><a href="configuracion-1.md#id-4.-modulos-de-configuraciones" class="button secondary">Volver</a></td></tr><tr><td align="center"><a href="configuracion-1.md#verticales" class="button secondary">Siguiente módulo</a></td></tr></tbody></table>
 
 </details>
 
@@ -895,6 +892,6 @@ La siguiente guía interactiva muestra el proceso completo:
 
 <summary>🔽 Historial de versiones</summary>
 
-<table><thead><tr><th width="101">Versión</th><th width="131">Fecha</th><th width="156">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>2025-12-12</td><td>Ronald Peláez</td><td>Documento inicial</td></tr><tr><td>1.1</td><td>2026-04-01</td><td>David Velasquez</td><td>Ajuste en sección seguridad</td></tr><tr><td>1.2</td><td>2026-04-15</td><td>Karol Navia</td><td><p>Incorporación de los manuales:</p><ul><li>Puntos equivalentes por nivel</li><li>Tipos de movimientos <em>(Nota: Por cada monto en XXX va a obtener Z puntos base)</em></li></ul></td></tr><tr><td>1.3</td><td>2026-04-20</td><td>Karol Navia</td><td>Mejoras en <strong><code>Ajustes Generales</code></strong></td></tr><tr><td>1.4</td><td>2026-05-08</td><td>Ronald Peláez</td><td>Ajuste en el campo <strong><code>verificación en dos pasos</code></strong> del módulo seguridad.</td></tr><tr><td>1.5</td><td>2026-07-01</td><td>Ronald Peláez</td><td>Nueva funcionalidad en seguridad "<strong><code>Inactivación por regla automática</code></strong>"</td></tr><tr><td>1.6</td><td>2026-09-07</td><td>Ronald Peláez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-30046#icft=VSFT-30046">Ajustes en reglas y validaciones en "<strong><code>Referidos</code></strong>"</a></td></tr><tr><td>1.7</td><td>2026-09-11</td><td>David Velasquez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-33148">Nuevo campo <strong><code>Autorización de tiempo para aprobación masiva de transacciones</code></strong> en <strong>Solicitud de depósito de clientes</strong></a><strong>.</strong></td></tr><tr><td>1.8</td><td>2026-09-28</td><td>Ronald Peláez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-33883">Nuevos campos en solicitud de depósitos de cliente.</a></td></tr><tr><td>1.9</td><td>2026-10-22</td><td>David Velasquez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-34513">Nuevo campo en ajustes generales</a></td></tr><tr><td>1.11</td><td>2026-10-27</td><td>Ronald Peláez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-34517#icft=VSFT-34517">Nuevo campo <strong><code>Proveedor OTP</code></strong> en <strong>Proveedores internos</strong>.</a></td></tr><tr><td>1.12</td><td>2026-11-24</td><td>David Velasquez</td><td>Actualización de la estructura de los módulos Solicitud de retiro de clientes, Solicitud de depósito de clientes, Contabilidad, Impuesto para comisiones, Verticales y Bonos de cumpleaños.</td></tr></tbody></table>
+<table><thead><tr><th width="101">Versión</th><th width="131">Fecha</th><th width="156">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>2025-12-12</td><td>Ronald Peláez</td><td>Documento inicial</td></tr><tr><td>1.1</td><td>2026-04-01</td><td>David Velasquez</td><td>Ajuste en sección seguridad</td></tr><tr><td>1.2</td><td>2026-04-15</td><td>Karol Navia</td><td><p>Incorporación de los manuales:</p><ul><li>Puntos equivalentes por nivel</li><li>Tipos de movimientos <em>(Nota: Por cada monto en XXX va a obtener Z puntos base)</em></li></ul></td></tr><tr><td>1.3</td><td>2026-04-20</td><td>Karol Navia</td><td>Mejoras en <strong><code>Ajustes Generales</code></strong></td></tr><tr><td>1.4</td><td>2026-05-08</td><td>Ronald Peláez</td><td>Ajuste en el campo <strong><code>verificación en dos pasos</code></strong> del módulo seguridad.</td></tr><tr><td>1.5</td><td>2026-07-01</td><td>Ronald Peláez</td><td>Nueva funcionalidad en seguridad "<strong><code>Inactivación por regla automática</code></strong>"</td></tr><tr><td>1.6</td><td>2026-09-07</td><td>Ronald Peláez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-30046#icft=VSFT-30046">Ajustes en reglas y validaciones en "<strong><code>Referidos</code></strong>"</a></td></tr><tr><td>1.7</td><td>2026-09-11</td><td>David Velasquez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-33148">Nuevo campo <strong><code>Autorización de tiempo para aprobación masiva de transacciones</code></strong> en <strong>Solicitud de depósito de clientes</strong></a><strong>.</strong></td></tr><tr><td>1.8</td><td>2026-09-28</td><td>Ronald Peláez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-33883">Nuevos campos en solicitud de depósitos de cliente.</a></td></tr><tr><td>1.9</td><td>2026-10-22</td><td>David Velasquez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-34513">Nuevo campo en ajustes generales</a></td></tr><tr><td>1.11</td><td>2026-10-27</td><td>Ronald Peláez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-34517#icft=VSFT-34517">Nuevo campo <strong><code>Proveedor OTP</code></strong> en <strong>Proveedores internos</strong>.</a></td></tr><tr><td>1.12</td><td>2026-11-24</td><td>David Velasquez</td><td>Actualización de la estructura de los módulos Solicitud de retiro de clientes, Solicitud de depósito de clientes, Contabilidad, Impuesto para comisiones, Verticales y Bonos de cumpleaños.</td></tr><tr><td>1.13</td><td>2026-11-24</td><td>David Velasquez</td><td>Actualización de la estructura de los módulos Registro y Referidos.</td></tr></tbody></table>
 
 </details>

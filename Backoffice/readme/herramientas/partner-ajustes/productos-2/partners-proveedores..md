@@ -23,60 +23,69 @@ layout:
 
 # Partners Proveedores.
 
-Desde este módulo se visualizan todos los [proveedores previamente creados](https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/herramientas/partner-ajustes/productos/partners-proveedores). La información se organiza en dos listas: **Proveedores No Agregados** y **Proveedores Agregados**, según estén o no asociados al partner seleccionado.
+<mark style="color:$info;">Asocia o retira los proveedores de un partner mediante dos listas: Proveedores no agregados y Proveedores Agregados.</mark>
 
-Este módulo permite gestionar esa asociación de forma directa, es decir, agregar proveedores al partner o retirarlos de este.
+***
 
 ### 1. Acceso al Módulo
 
-**Ruta de Acceso**: BackOffice > Herramientas > Partner ajustes > Seleccionar partner > Configuraciones > Productos 2 > Partner proveedores.
+**Ruta de Acceso**: BackOffice (BO) > Herramientas > Partner Ajustes > Productos 2 > Partners Proveedores
 
 ***
 
 ### 2. Visualización
 
-<figure><img src="../../../../.gitbook/assets/image (605) (1).png" alt=""><figcaption><p>Figura#1: Captura de pantalla activación de partners.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (605).png" alt=""><figcaption><p>Figura #1: Captura de pantalla sección partners proveedores.</p></figcaption></figure>
 
 ***
 
-### 3. Acciones disponibles en el módulo.
+### 3. Acciones disponibles
 
-<table><thead><tr><th width="240">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/herramientas/partner-ajustes/productos-2/partners-proveedores.#id-4.-filtros-principales"><strong>Filtrar proveedores</strong></a></td><td>Despliega los filtros y permite realizar búsquedas de proveedores creados según criterios específicos.</td></tr><tr><td><strong>Modificar estado del proveedor en la plataforma.</strong></td><td>Permite asociar o retirar un proveedor, controlando su visibilidad dentro del <em>partner</em> seleccionado.</td></tr><tr><td><strong>Ejecutar búsqueda</strong></td><td>Utiliza el botón "<strong><code>Buscar</code></strong>" para ejecutar la búsqueda con los filtros seleccionados o el botón "<strong><code>Limpiar</code></strong>" y restablecer los filtros.</td></tr></tbody></table>
-
-***
-
-### **4. 🔍 Filtros principales**
-
-<table><thead><tr><th width="160">Campo</th><th width="160">Tipo de Control</th><th width="426">Descripción</th></tr></thead><tbody><tr><td><strong><code>Proveedor</code></strong></td><td>Lista desplegable</td><td>Permite filtrar por proveedores previamente creados.</td></tr><tr><td><strong><code>Partner Referencia</code></strong></td><td>Lista desplegable</td><td><p>Permite seleccionar el <em>partner</em> sobre el cual se realizará la gestión.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota</strong>: Al aplicarlo, se filtran los proveedores y, en la lista de asociados, se visualizarán únicamente los vinculados a ese <em>partner</em>. Adicionalmente, cualquier acción realizada ejecutará sobre este <em>partner</em> seleccionado.</p></div></td></tr><tr><td><strong><code>País</code></strong></td><td>Lista desplegable</td><td>Campo obligatorio requerido para habilitar la ejecución de la consulta. Su selección no afecta los resultados mostrados ni las acciones realizadas sobre los proveedores; únicamente activa el botón <strong>Consultar</strong>.</td></tr></tbody></table>
-
-#### **4.1. 📊Resultados**
-
-Las listas de proveedores se construyen en función de los filtros aplicados, los cuales permiten tanto consultar el estado actual como facilitar la gestión de asociación o retiro.
-
-<table><thead><tr><th width="244">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Proveedores No Agregados</code></strong></td><td>Lista de proveedores disponibles, aún no asociados al partner.</td></tr><tr><td><strong><code>Proveedores Agregados</code></strong></td><td>Lista de proveedores que ya están asociados al partner.</td></tr></tbody></table>
+<table><thead><tr><th width="200">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><a href="partners-proveedores..md#id-4.-filtros"><strong>Filtros</strong></a></td><td>Definen el proveedor y el partner sobre los que se realiza la gestión.</td></tr><tr><td><strong>Limpiar</strong></td><td>Restablece los filtros aplicados, dejando los campos en su estado inicial.</td></tr><tr><td><a href="partners-proveedores..md#id-5.-resultados-de-consulta"><strong>Consultar</strong></a></td><td>Ejecuta la búsqueda según los filtros definidos y muestra los proveedores en las listas.</td></tr><tr><td><a href="partners-proveedores..md#id-6.-gestion-de-proveedores"><strong>Agregar / Retirar</strong></a></td><td>Asocia proveedores al partner o los retira mediante los botones ubicados entre las listas.</td></tr></tbody></table>
 
 ***
 
-### 5. Flujo para la gestión de proveedores.
+### 4. Filtros
 
-Selecciona uno o varios proveedores y utiliza los botones disponibles para gestionar su estado, ya sea para asociarlos o retirarlos del partner seleccionado.
+<table><thead><tr><th width="200">Campo</th><th width="150">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Proveedor</code></strong></td><td>Lista desplegable</td><td>Selecciona un proveedor creado previamente.</td></tr><tr><td><strong><code>Partner Referencia</code></strong></td><td>Lista desplegable</td><td><p>Define el partner sobre el que se realiza la gestión.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> La lista <strong>Proveedores Agregados</strong> muestra solo los proveedores vinculados a este partner, y todas las acciones se aplican sobre él.</p></div></td></tr><tr><td><strong><code>País</code></strong></td><td>Lista desplegable</td><td><p>Habilita el botón <strong>Consultar</strong>.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Este campo es obligatorio, pero no cambia los resultados ni las acciones sobre los proveedores.</p></div></td></tr></tbody></table>
 
-<table><thead><tr><th width="157">Acción</th><th width="89" align="center">Botón</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Retirar / Asociar todos los proveedores</code></strong></td><td align="center"><strong>« »</strong></td><td>Traslada la totalidad de los proveedores de una lista a la otra, aplicando la acción de asociación o retiro de forma masiva.</td></tr><tr><td><strong><code>Retirar proveedor</code></strong></td><td align="center"><strong>&#x3C;</strong></td><td>Permite retirar únicamente los proveedores seleccionados de la lista <strong><code>Proveedores Agregados</code></strong>.</td></tr><tr><td><strong><code>Agregar proveedor</code></strong></td><td align="center"><strong>></strong></td><td>Permite asociar únicamente los proveedores seleccionados desde la lista <strong><code>Proveedores No Agregados</code></strong>.</td></tr></tbody></table>
+***
+
+### 5. Resultados de consulta
+
+Al ejecutar la consulta, los proveedores se organizan en dos listas según estén asociados o no al partner seleccionado.
+
+<table><thead><tr><th width="200">Campo</th><th width="120">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Proveedores no agregados</code></strong></td><td>Lista</td><td>Muestra los proveedores disponibles que aún no están asociados al partner.</td></tr><tr><td><strong><code>Proveedores Agregados</code></strong></td><td>Lista</td><td>Reúne los proveedores ya asociados al partner.</td></tr></tbody></table>
+
+***
+
+### 6. Gestión de proveedores
+
+Para asociar o retirar proveedores, se seleccionan uno o varios en la lista correspondiente y se usan los botones ubicados entre las dos listas.
+
+<table><thead><tr><th width="120">Botón</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>&#x3E;</code></strong></td><td>Asocia al partner los proveedores seleccionados en <strong>Proveedores no agregados</strong>.</td></tr><tr><td><strong><code>&#x3C;</code></strong></td><td>Retira del partner los proveedores seleccionados en <strong>Proveedores Agregados</strong>.</td></tr><tr><td><strong><code>&#x3E;&#x3E;</code></strong></td><td>Asocia al partner todos los proveedores de la lista <strong>Proveedores no agregados</strong>.</td></tr><tr><td><strong><code>&#x3C;&#x3C;</code></strong></td><td>Retira del partner todos los proveedores de la lista <strong>Proveedores Agregados</strong>.</td></tr></tbody></table>
 
 {% hint style="warning" %}
-**Nota**: Al intentar asociar o retirar un proveedor aparecerá un pop-up que exige una **`Observación`** obligatoria. Si no se completa y se confirma con el botón **`Guardar`**, se mostrará un error y la acción no se ejecutará.
+**Nota:** Al asociar o retirar un proveedor, el sistema muestra una ventana emergente que solicita una **Observación**. Si el campo queda vacío, la acción no se ejecuta.
 {% endhint %}
 
 ***
 
-### 6. Validaciones y Reglas de Negocio
+### 7. Validaciones y reglas del negocio:
 
-* El campo **Observación** es obligatorio para confirmar la asociación o retiro de proveedores.
-* Es necesario hacer clic en **Guardar** en el pop-up para aplicar los cambios.
-* Para que un proveedor aparezca en este módulo, es necesario haberlo creado previamente desde el módulo [Partners Proveedores](https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/herramientas/partner-ajustes/productos/partners-proveedores).
+* El campo **`País`** es obligatorio para habilitar el botón **Consultar**.
+* La **Observación** es obligatoria para confirmar la asociación o el retiro de proveedores.
+* Los cambios se aplican al presionar **Guardar** en la ventana emergente de la observación.
+* Solo aparecen los proveedores creados previamente en el módulo [Partners Proveedores](../productos/partners-proveedores.md).
 
 ***
 
-### 7. Control de Versiones
+### 8. Control de Versiones
 
-<table><thead><tr><th width="105">Versión</th><th width="141">Fecha</th><th width="185">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>2026-03-18</td><td>Ronald Peláez</td><td>Documento inicial</td></tr></tbody></table>
+<details>
+
+<summary>🔽 Historial de versiones</summary>
+
+<table><thead><tr><th width="99.888916015625">Versión</th><th width="128.87872314453125">Fecha</th><th width="153.94952392578125">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>18/03/2026</td><td>Ronald Peláez</td><td>Documento inicial</td></tr><tr><td>1.1</td><td>24/11/2026</td><td>David Velasquez</td><td>Actualización de la estructura del manual.</td></tr></tbody></table>
+
+</details>
