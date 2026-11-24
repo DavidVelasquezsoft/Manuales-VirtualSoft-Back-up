@@ -12,20 +12,36 @@ Para iniciar, solo debes seleccionar el tipo de evento que deseas crear.
 
 A continuación, te explicamos paso a paso cómo crear cada tipo de evento. Para ver los detalles, solo haz clic en la página correspondiente.
 
-{% content-ref url="crear-bono./" %}
-[crear-bono.](crear-bono./)
-{% endcontent-ref %}
-
 {% content-ref url="crear-torneo/" %}
 [crear-torneo](crear-torneo/)
+{% endcontent-ref %}
+
+{% content-ref url="crear-bono./" %}
+[crear-bono.](crear-bono./)
 {% endcontent-ref %}
 
 {% content-ref url="crear-regalo.md" %}
 [crear-regalo.md](crear-regalo.md)
 {% endcontent-ref %}
 
+{% content-ref url="crear-sorteo/" %}
+[crear-sorteo](crear-sorteo/)
+{% endcontent-ref %}
+
+{% content-ref url="crear-ruleta..md" %}
+[crear-ruleta..md](crear-ruleta..md)
+{% endcontent-ref %}
+
 {% content-ref url="sorteo-punto-de-venta..md" %}
 [sorteo-punto-de-venta..md](sorteo-punto-de-venta..md)
+{% endcontent-ref %}
+
+{% content-ref url="descuentos-lealtad.md" %}
+[descuentos-lealtad.md](descuentos-lealtad.md)
+{% endcontent-ref %}
+
+{% content-ref url="multiplicador-lealtad.md" %}
+[multiplicador-lealtad.md](multiplicador-lealtad.md)
 {% endcontent-ref %}
 
 {% content-ref url="crear-jackpot.md" %}
