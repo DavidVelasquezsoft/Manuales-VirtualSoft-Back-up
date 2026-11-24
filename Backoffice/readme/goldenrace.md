@@ -14,19 +14,7 @@
 
 ***
 
-### 2. Visualización
-
-{% hint style="danger" %}
-**IMAGEN PENDIENTE: Figura #1**
-
-**Captura:** pantalla principal del módulo, donde se vean las categorías de deportes virtuales, el selector de proveedor y la lista de juegos.
-
-**Pie de figura:** Figura #1: Captura de pantalla sección GoldenRace.
-{% endhint %}
-
-***
-
-### 3. Identificación del usuario
+### 2. Identificación del usuario
 
 Antes de apostar, el punto de venta identifica al usuario que realiza la apuesta con su número de documento _(DNI)_. El sistema muestra una ventana de confirmación con los datos del usuario para verificar su identidad. Al presionar **Continuar**, se habilita el registro de la apuesta.
 
@@ -36,13 +24,13 @@ Antes de apostar, el punto de venta identifica al usuario que realiza la apuesta
 
 ***
 
-### 4. Acciones disponibles
+### 3. Acciones disponibles
 
 <table><thead><tr><th width="176">Acción</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Deportes Virtuales</strong></td><td>Muestra la lista completa de juegos virtuales disponibles.</td></tr><tr><td><strong>Filtros de deportes</strong></td><td><p>Agrupa los juegos por tipo de deporte virtual <em>(fútbol, carreras de caballos, entre otros)</em>.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Las categorías disponibles varían según el proveedor y la configuración del partner.</p></div></td></tr><tr><td><strong>Proveedor</strong></td><td>Selecciona el proveedor de los juegos <em>(Ejemplo: GoldenRace)</em>.</td></tr><tr><td><strong>Cargar más</strong></td><td>Despliega más juegos en la lista.</td></tr><tr><td><a href="goldenrace.md#id-5.-flujo-de-apuesta-y-pago"><strong>Imprimir</strong></a></td><td>Genera en PDF el comprobante de la apuesta, con los datos necesarios para cobrar el premio. El botón se ubica en la esquina inferior derecha de la pantalla.</td></tr></tbody></table>
 
 ***
 
-### 5. Flujo de apuesta y pago
+### 4. Flujo de apuesta y pago
 
 {% stepper %}
 {% step %}
@@ -64,14 +52,6 @@ Al presionar **Imprimir**, el sistema genera el comprobante en PDF para entregar
 
 * El **primer código de barras** corresponde al **No. Ticket**.
 * El **segundo código de barras** corresponde a la **Clave Ticket**.
-
-{% hint style="danger" %}
-**IMAGEN PENDIENTE: Figura #2**
-
-**Captura:** comprobante de la apuesta en PDF, donde se vean los dos códigos de barras de la parte inferior.
-
-**Pie de figura:** Figura #2: Captura de pantalla comprobante de apuesta de GoldenRace.
-{% endhint %}
 {% endstep %}
 
 {% step %}
@@ -83,7 +63,7 @@ Si la apuesta resulta ganadora, el premio se paga desde **Caja > Pago premio vir
 
 ***
 
-### 6. Validaciones y reglas del negocio:
+### 5. Validaciones y reglas del negocio:
 
 * El módulo está disponible únicamente para **Doradobet Perú** y para los usuarios de tipo punto de venta.
 * La apuesta requiere identificar al usuario con su DNI, salvo que el modo de apuestas anónimas esté habilitado.
@@ -93,7 +73,7 @@ Si la apuesta resulta ganadora, el premio se paga desde **Caja > Pago premio vir
 
 ***
 
-### 7. Control de Versiones
+### 6. Control de Versiones
 
 <details>
 

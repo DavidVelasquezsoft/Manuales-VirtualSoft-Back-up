@@ -16,7 +16,7 @@
 
 ### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/image (362) (1).png" alt=""><figcaption><p>Figura #1: Captura de pantalla sección pago premio virtuales.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (362).png" alt=""><figcaption><p>Figura #1: Captura de pantalla sección pago premio virtuales.</p></figcaption></figure>
 
 ***
 
@@ -54,7 +54,7 @@ Al ejecutar la consulta, el sistema muestra el estado del ticket y, en la parte 
 
 El botón **Pagar Premio** se muestra solo cuando el ticket está en estado **Ganador** y el premio aún no se ha pagado.
 
-<table><thead><tr><th width="176">Campo</th><th width="152">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Pagar Premio</code></strong></td><td>Botón</td><td>Inicia el pago del premio. Antes de finalizar, el sistema solicita el tipo de factura que se entrega al usuario como comprobante. Los dos tipos disponibles se describen a continuación.</td></tr></tbody></table>
+<table><thead><tr><th width="106.83331298828125">Campo</th><th width="132.8333740234375">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Pagar Premio</code></strong></td><td>Botón</td><td>Inicia el pago del premio. Antes de finalizar, el sistema solicita el tipo de factura que se entrega al usuario como comprobante. Los dos tipos disponibles se describen a continuación.</td></tr></tbody></table>
 
 {% columns %}
 {% column width="33.33333333333333%" %}

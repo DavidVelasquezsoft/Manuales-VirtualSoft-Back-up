@@ -16,7 +16,7 @@
 
 ### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/image (198) (1).png" alt=""><figcaption><p>Figura #1: Captura de pantalla sección recargar agentes.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (198).png" alt=""><figcaption><p>Figura #1: Captura de pantalla sección recargar agentes.</p></figcaption></figure>
 
 ***
 
@@ -48,7 +48,7 @@ Al ejecutar la consulta, en la parte inferior de la pantalla se despliegan los d
 
 Después de consultar al agente, el formulario de recarga permite ingresar el monto y ejecutar la operación.
 
-<table><thead><tr><th width="176">Campo</th><th width="152">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Valor a recargar</code></strong></td><td>Campo numérico</td><td>Define el monto que se acreditará al saldo del agente.</td></tr><tr><td><strong><code>Confirmar valor</code></strong></td><td>Campo numérico</td><td>Repite el monto ingresado en <strong><code>Valor a recargar</code></strong>. Existe para evitar recargas por un valor equivocado debido a un error de digitación.</td></tr><tr><td><strong><code>Recargar</code></strong></td><td>Botón</td><td>Ejecuta la recarga y despliega una ventana de confirmación. Después de confirmar, el sistema solicita el tipo de factura que se genera como comprobante. Los dos tipos disponibles se describen a continuación.</td></tr></tbody></table>
+<table><thead><tr><th width="118.5">Campo</th><th width="110.33331298828125">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Valor a recargar</code></strong></td><td>Campo numérico</td><td>Define el monto que se acreditará al saldo del agente.</td></tr><tr><td><strong><code>Confirmar valor</code></strong></td><td>Campo numérico</td><td>Repite el monto ingresado en <strong><code>Valor a recargar</code></strong>. Existe para evitar recargas por un valor equivocado debido a un error de digitación.</td></tr><tr><td><strong><code>Recargar</code></strong></td><td>Botón</td><td>Ejecuta la recarga y despliega una ventana de confirmación. Después de confirmar, el sistema solicita el tipo de factura que se genera como comprobante. Los dos tipos disponibles se describen a continuación.</td></tr></tbody></table>
 
 {% columns %}
 {% column width="33.33333333333333%" %}

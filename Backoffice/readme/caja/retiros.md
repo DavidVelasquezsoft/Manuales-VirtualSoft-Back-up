@@ -16,7 +16,7 @@
 
 ### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/image (338) (1).png" alt=""><figcaption><p>Figura #1: Captura de pantalla sección retiros.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (338).png" alt=""><figcaption><p>Figura #1: Captura de pantalla sección retiros.</p></figcaption></figure>
 
 ***
 
@@ -44,7 +44,7 @@ Al ejecutar la consulta, en la parte inferior de la pantalla se despliega una ta
 
 Al presionar **Retirar**, se despliega una ventana emergente con el formulario para solicitar el retiro.
 
-<table><thead><tr><th width="176">Campo</th><th width="152">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Valor</code></strong></td><td>Campo numérico</td><td>Define el monto que se va a retirar.</td></tr><tr><td><strong><code>Cuenta</code></strong></td><td>Lista desplegable</td><td>Selecciona la cuenta bancaria que recibe el dinero del retiro. La lista muestra las cuentas registradas en <strong>Caja &#x3E; Cuentas bancarias</strong>.</td></tr><tr><td><strong><code>Saldo a retirar</code></strong></td><td>Lista desplegable</td><td>Indica de cuál saldo del punto de venta se descuenta el retiro. Las dos opciones disponibles se describen a continuación.</td></tr></tbody></table>
+<table><thead><tr><th width="113.50006103515625">Campo</th><th width="125.33331298828125">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Valor</code></strong></td><td>Campo numérico</td><td>Define el monto que se va a retirar.</td></tr><tr><td><strong><code>Cuenta</code></strong></td><td>Lista desplegable</td><td>Selecciona la cuenta bancaria que recibe el dinero del retiro. La lista muestra las cuentas registradas en <strong>Caja > Cuentas bancarias</strong>.</td></tr><tr><td><strong><code>Saldo a retirar</code></strong></td><td>Lista desplegable</td><td>Indica de cuál saldo del punto de venta se descuenta el retiro. Las dos opciones disponibles se describen a continuación.</td></tr></tbody></table>
 
 {% columns %}
 {% column width="33.33333333333333%" %}
@@ -58,7 +58,7 @@ Al presionar **Retirar**, se despliega una ventana emergente con el formulario p
 {% endcolumn %}
 {% endcolumns %}
 
-<table data-header-hidden><thead><tr><th width="176">Campo</th><th width="152">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>¿Es para reembolso?</code></strong></td><td>Selector</td><td><p>Indica si el retiro corresponde a un reembolso <em>(Sí o No)</em>.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Se muestra solo cuando <strong><code>Saldo a retirar</code></strong> es <strong>Cupo de venta</strong>.</p></div></td></tr><tr><td><strong><code>Cargar factura PDF</code></strong></td><td>Carga de archivo</td><td><p>Adjunta la factura que respalda el cobro de las comisiones.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Se muestra solo cuando <strong><code>Saldo a retirar</code></strong> es <strong>Comisiones</strong>.</p></div></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="136">Campo</th><th width="122.83331298828125">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>¿Es para reembolso?</code></strong></td><td>Selector</td><td><p>Indica si el retiro corresponde a un reembolso <em>(Sí o No)</em>.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Se muestra solo cuando <strong><code>Saldo a retirar</code></strong> es <strong>Cupo de venta</strong>.</p></div></td></tr><tr><td><strong><code>Cargar factura PDF</code></strong></td><td>Carga de archivo</td><td><p>Adjunta la factura que respalda el cobro de las comisiones.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Se muestra solo cuando <strong><code>Saldo a retirar</code></strong> es <strong>Comisiones</strong>.</p></div></td></tr></tbody></table>
 
 ***
 
