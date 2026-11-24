@@ -48,7 +48,6 @@ Al acceder al detalle del partner, se ingresará por defecto al módulo de **Con
 * <a href="https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/herramientas/partner-ajustes/paises" class="button secondary">Países</a>
 * <a href="https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/herramientas/partner-ajustes/trm" class="button secondary">TRM</a>
 * <a href="https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/herramientas/partner-ajustes/configuracion-seo" class="button secondary">Configuración SEO</a>
-* <a href="https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/herramientas/partner-ajustes/control" class="button secondary">Control</a>
 
 </details>
 
