@@ -1,6 +1,29 @@
+---
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
+---
+
 # Contingencias Totales
 
-<mark style="color:$info;">Permite bloquear de forma temporal una vertical o funcionalidad completa de la plataforma de usuarios online para todos los usuarios del partner. Se utiliza cuando es necesario detener una operación de inmediato sin modificar la configuración de cada usuario.</mark>
+<mark style="color:$secondary;">bloquea temporalmente una vertical o funcionalidad completa de la plataforma de usuarios online para todos los usuarios del partner. Se utiliza para detener una operación de inmediato, sin modificar la configuración de cada usuario.</mark>
 
 ***
 
@@ -57,6 +80,6 @@ Cada interruptor corresponde a un tipo de contingencia. Al activarlo, la funcion
 
 <summary>🔽 Historial de versiones</summary>
 
-<table><thead><tr><th width="99.888916015625">Versión</th><th width="128.87872314453125">Fecha</th><th width="153.94952392578125">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>07/01/2026</td><td>David Velasquez</td><td>Creación inicial del documento.</td></tr><tr><td>1.1</td><td>09/11/2026</td><td>David Velasquez</td><td>Actualización de la estructura del manual.</td></tr></tbody></table>
+<table><thead><tr><th width="99.888916015625">Versión</th><th width="128.87872314453125">Fecha</th><th width="153.94952392578125">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>07/01/2026</td><td>David Velasquez</td><td>Creación inicial del documento.</td></tr><tr><td>1.1</td><td>09/11/2026</td><td>David Velasquez</td><td>Actualización de la estructura del manual.</td></tr><tr><td>1.2</td><td>24/11/2026</td><td>Ronald Peláez</td><td>Ajuste en la descrición del módulo por refinamiento.</td></tr></tbody></table>
 
 </details>
