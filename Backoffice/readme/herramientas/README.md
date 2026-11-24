@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Herramientas
@@ -39,4 +41,8 @@ layout:
 
 {% content-ref url="paises.md" %}
 [paises.md](paises.md)
+{% endcontent-ref %}
+
+{% content-ref url="gestion-de-monedas.md" %}
+[gestion-de-monedas.md](gestion-de-monedas.md)
 {% endcontent-ref %}
