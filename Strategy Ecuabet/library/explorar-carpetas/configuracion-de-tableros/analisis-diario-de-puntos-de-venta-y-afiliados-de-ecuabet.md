@@ -81,15 +81,11 @@ El contenido se organiza en tres subpestañas, ubicadas en la parte superior der
 {% tab title="Evolución" %}
 Comportamiento diario del balance, las recargas y los retiros, presentado en gráficos lineales.
 
-#### Gráficos
-
 <table><thead><tr><th width="181">Gráfico</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Evolución diaria del balance</code></strong></td><td>Balance de cada día dentro del rango de fechas seleccionado, calculado como la diferencia entre las recargas y los retiros del día. Muestra los días en el eje horizontal y el valor del balance en el eje vertical, y refleja cómo cambia de un día a otro.</td></tr><tr><td><strong><code>Evolución diaria de recargas</code></strong></td><td>Valor total de las recargas <em>(depósitos)</em> de cada día dentro del rango de fechas seleccionado. Su comportamiento diario puede compararse con el de los retiros.</td></tr><tr><td><strong><code>Evolución diaria de retiros</code></strong></td><td>Valor total de los retiros de cada día dentro del rango de fechas seleccionado. Su comportamiento diario puede compararse con el de las recargas.</td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Detalle PDV" %}
 Ranking y distribución de los puntos de venta por balance, recargas y retiros, y balance por provincia.&#x20;
-
-#### Gráficos
 
 <table><thead><tr><th width="170">Gráfico</th><th width="465">Descripción</th></tr></thead><tbody><tr><td><strong><code>Distribución PDV con balance positivo y negativo</code></strong></td><td>Distribución de los puntos de venta según el signo de su balance <em>(positivo o negativo)</em>.</td></tr><tr><td><strong><code>Top 10 PDV por balance</code></strong></td><td><p>Los 10 puntos de venta con mayor balance.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota</strong>: Los puntos de venta se identifican por su Identificador único y en frente se visualizará el monto total de recargas.</p></div></td></tr><tr><td><strong><code>Balance por provincia</code></strong></td><td>Balance de cada provincia.</td></tr><tr><td><strong><code>Top 10 PDV por recargas</code></strong></td><td>Los 10 puntos de venta con mayor valor de recargas.</td></tr><tr><td><strong><code>Top 10 PDV por retiros</code></strong></td><td>Los 10 puntos de venta con mayor valor de retiros.</td></tr></tbody></table>
 {% endtab %}
