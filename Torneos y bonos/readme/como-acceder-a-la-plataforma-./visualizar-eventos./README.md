@@ -37,3 +37,7 @@ Encontrarás una explicación detallada sobre cómo utilizar las secciones que t
 {% content-ref url="jackpot..md" %}
 [jackpot..md](jackpot..md)
 {% endcontent-ref %}
+
+{% content-ref url="visualizar-multiplicador-lealtad.md" %}
+[visualizar-multiplicador-lealtad.md](visualizar-multiplicador-lealtad.md)
+{% endcontent-ref %}

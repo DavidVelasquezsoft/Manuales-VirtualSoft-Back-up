@@ -95,7 +95,7 @@ Permite visualizar todos los jugadores participantes y consultar los detalles de
 
 <details>
 
-<summary>🕒Historial de versiones.</summary>
+<summary>🔽 Historial de versiones.</summary>
 
 <table><thead><tr><th width="107.88897705078125">Versión</th><th width="132.111083984375">Fecha</th><th width="170.333251953125">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>2025-08-25</td><td>Ronald Pelaez</td><td>Documento inicial</td></tr><tr><td>1.1</td><td>2025-09-09</td><td>Ronald Peláez</td><td>Nuevas columnas de cantidad de usuarios en el sorteo.</td></tr><tr><td>2.0</td><td>2026-02-13</td><td>David Velasquez</td><td>Refinamiento del manual e incorporación de nuevo campo</td></tr></tbody></table>
 
