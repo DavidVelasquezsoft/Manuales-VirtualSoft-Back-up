@@ -35,7 +35,7 @@ layout:
 
 ### 2. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (10) (1).png" alt=""><figcaption><p>Figura #1: Captura de pantalla sección Descuentos Lealtad.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption><p>Figura #1: Captura de pantalla sección Descuentos Lealtad.</p></figcaption></figure>
 
 ***
 
@@ -55,7 +55,7 @@ layout:
 
 Al ejecutar la consulta, en la parte inferior de la pantalla se despliega la tabla **Lista de Descuentos** con los descuentos que cumplen con los filtros aplicados. Desde esta tabla, cada descuento puede gestionarse mediante las acciones específicas disponibles.
 
-<table><thead><tr><th width="180">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Acción</code></strong></td><td><p>Reúne las acciones disponibles para gestionar cada descuento:</p><ul><li>🔍 <strong>Ver premios impactados:</strong> Accede a una pestaña donde se listan los premios afectados por el descuento.</li><li>👁️ <strong>Inactivar descuento:</strong> Permite desactivar el descuento cuando ya no se desea que esté vigente.</li><li>🖋️ <strong>Detalle del descuento:</strong> Permite visualizar la información y configuración del descuento.</li></ul></td></tr><tr><td><strong><code>ID Descuento</code></strong></td><td>Identificador único asignado al descuento.</td></tr><tr><td><strong><code>Nombre Descuento</code></strong></td><td>Nombre con el que se identifica el descuento.</td></tr><tr><td><strong><code>Fecha Inicio</code></strong></td><td>Fecha a partir de la cual el descuento está o estuvo vigente.</td></tr><tr><td><strong><code>Fecha Fin</code></strong></td><td>Fecha en la que finaliza la vigencia del descuento en la tienda de lealtad.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Estado actual del descuento <em>(Activo o Inactivo)</em>.</td></tr></tbody></table>
+<table><thead><tr><th width="180">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Acción</code></strong></td><td><p>Reúne las acciones disponibles para gestionar cada descuento:</p><ul><li>🔍 <strong>Ver premios impactados:</strong> Accede a una pestaña donde se listan los premios afectados por el descuento.</li><li><i class="fa-power-off">:power-off:</i> <strong>Inactivar descuento:</strong> Permite desactivar el descuento cuando ya no se desea que esté vigente.</li><li>🖋️ <strong>Detalle del descuento:</strong> Permite visualizar la información y configuración del descuento.</li></ul></td></tr><tr><td><strong><code>ID Descuento</code></strong></td><td>Identificador único asignado al descuento.</td></tr><tr><td><strong><code>Nombre Descuento</code></strong></td><td>Nombre con el que se identifica el descuento.</td></tr><tr><td><strong><code>Fecha Inicio</code></strong></td><td>Fecha a partir de la cual el descuento está o estuvo vigente.</td></tr><tr><td><strong><code>Fecha Fin</code></strong></td><td>Fecha en la que finaliza la vigencia del descuento en la tienda de lealtad.</td></tr><tr><td><strong><code>Estado</code></strong></td><td>Estado actual del descuento <em>(Activo o Inactivo)</em>.</td></tr></tbody></table>
 
 ***
 
