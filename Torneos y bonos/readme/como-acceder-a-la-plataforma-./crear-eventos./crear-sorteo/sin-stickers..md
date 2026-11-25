@@ -31,7 +31,7 @@ layout:
 **Nota Importante**: Actualmente los sorteos creados sin stickers no se visualizan en la plataforma Usuarios Online, adicional, esta configuración para los sorteos no aplica a ningún flujo o lógica funcional.
 {% endhint %}
 
-### 🏷️ Tipo Producto:
+### Tipo Producto
 
 Selecciona los productos con los que el usuario podrá sumar puntos en el sorteo. Se pueden elegir varias opciones, pero con las siguientes restricciones:
 
@@ -66,7 +66,7 @@ Permite seleccionar los mercados en los que estará activo el sorteo.
 
 <figure><img src="../../../../.gitbook/assets/image (33) (1).png" alt=""><figcaption></figcaption></figure>
 
-<table><thead><tr><th width="127.11114501953125">Campo</th><th width="102.4443359375">Tipo</th><th>Descripcio</th></tr></thead><tbody><tr><td><code>Deporte</code></td><td>Dropdown</td><td>Deporte disponible en el mercado.</td></tr><tr><td><code>Buscar</code></td><td>Button</td><td></td></tr><tr><td><code>Seleccionar</code></td><td>Button</td><td></td></tr><tr><td><code>Añadir manual</code></td><td>Button</td><td>Permite agregar mercados de forma manual y muestra los siguientes campos:</td></tr><tr><td><code>Mercados</code></td><td>Texto</td><td>Ingrese los IDs de los mercados separados por comas ( <strong>,</strong> ) para agregar al sorteo rapidamente.</td></tr></tbody></table>
+<table><thead><tr><th width="127.11114501953125">Campo</th><th width="102.4443359375">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><code>Deporte</code></td><td>Dropdown</td><td>Deporte disponible en el mercado.</td></tr><tr><td><code>Buscar</code></td><td>Button</td><td></td></tr><tr><td><code>Seleccionar</code></td><td>Button</td><td></td></tr><tr><td><code>Añadir manual</code></td><td>Button</td><td>Permite agregar mercados de forma manual y muestra los siguientes campos:</td></tr><tr><td><code>Mercados</code></td><td>Texto</td><td>Ingrese los IDs de los mercados separados por comas ( <strong>,</strong> ) para agregar al sorteo rapidamente.</td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Ligas" %}
@@ -74,7 +74,7 @@ Define las ligas en las que estará disponible el sorteo.
 
 <figure><img src="../../../../.gitbook/assets/image (34) (1).png" alt=""><figcaption></figcaption></figure>
 
-<table><thead><tr><th width="127.11114501953125">Campo</th><th width="102.4443359375">Tipo</th><th>Descripcio</th></tr></thead><tbody><tr><td><code>Deporte</code></td><td>Dropdown</td><td>Deporte disponible en la liga.</td></tr><tr><td><code>Pais</code></td><td>Dropdown</td><td>Selecciona el país donde estará disponible la liga.</td></tr><tr><td><code>Buscar</code></td><td>Button</td><td></td></tr><tr><td><code>Añadir manual</code></td><td>Button</td><td>Permite agregar ligas de forma manual y muestra los siguientes campos:</td></tr><tr><td><code>Ligas</code></td><td>Texto</td><td>Ingrese los IDs de las ligas separados por comas ( <strong>,</strong> ) para agregar al sorteo rapidamente.</td></tr></tbody></table>
+<table><thead><tr><th width="127.11114501953125">Campo</th><th width="102.4443359375">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><code>Deporte</code></td><td>Dropdown</td><td>Deporte disponible en la liga.</td></tr><tr><td><code>Pais</code></td><td>Dropdown</td><td>Selecciona el país donde estará disponible la liga.</td></tr><tr><td><code>Buscar</code></td><td>Button</td><td></td></tr><tr><td><code>Añadir manual</code></td><td>Button</td><td>Permite agregar ligas de forma manual y muestra los siguientes campos:</td></tr><tr><td><code>Ligas</code></td><td>Texto</td><td>Ingrese los IDs de las ligas separados por comas ( <strong>,</strong> ) para agregar al sorteo rapidamente.</td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Partidos" %}
@@ -82,7 +82,7 @@ Define los partidos que aplicarán para el sorteo.
 
 <figure><img src="../../../../.gitbook/assets/image (35) (1).png" alt=""><figcaption></figcaption></figure>
 
-<table><thead><tr><th width="127.11114501953125">Campo</th><th width="102.4443359375">Tipo</th><th>Descripcio</th></tr></thead><tbody><tr><td><code>Deporte</code></td><td>Dropdown</td><td>Deporte en el que se juegan los partidos.</td></tr><tr><td><code>Pais</code></td><td>Dropdown</td><td></td></tr><tr><td><code>Campeonato</code></td><td>Dropdown</td><td></td></tr><tr><td><code>Buscar</code></td><td>Button</td><td></td></tr><tr><td><code>Añadir manual</code></td><td>Button</td><td>Permite agregar partidos de forma manual y muestra los siguientes campos:</td></tr><tr><td><code>Partidos</code></td><td>Texto</td><td>Ingrese los IDs de los partidos separados por comas ( <strong>,</strong> ) para agregar al sorteo rapidamente.</td></tr></tbody></table>
+<table><thead><tr><th width="127.11114501953125">Campo</th><th width="102.4443359375">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><code>Deporte</code></td><td>Dropdown</td><td>Deporte en el que se juegan los partidos.</td></tr><tr><td><code>Pais</code></td><td>Dropdown</td><td></td></tr><tr><td><code>Campeonato</code></td><td>Dropdown</td><td></td></tr><tr><td><code>Buscar</code></td><td>Button</td><td></td></tr><tr><td><code>Añadir manual</code></td><td>Button</td><td>Permite agregar partidos de forma manual y muestra los siguientes campos:</td></tr><tr><td><code>Partidos</code></td><td>Texto</td><td>Ingrese los IDs de los partidos separados por comas ( <strong>,</strong> ) para agregar al sorteo rapidamente.</td></tr></tbody></table>
 {% endtab %}
 {% endtabs %}
 {% endtab %}
@@ -112,7 +112,7 @@ Permite añadir los juegos de virtuales que estarán disponibles en el sorteo.
 {% endtab %}
 {% endtabs %}
 
-## ⏭️ Continuar:
+## Continuar
 
 {% columns %}
 {% column %}

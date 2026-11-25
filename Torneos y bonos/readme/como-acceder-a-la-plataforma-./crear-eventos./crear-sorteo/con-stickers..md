@@ -26,9 +26,9 @@ layout:
 
 # Con Stickers.
 
-### 🏷️ Tipo de condición:
+### Tipo de condición
 
-Selecciona cómo los usuarios participarán en el sorteo según cada vertical disponible. Cada opción **activa una vertical** _(como apuestas deportivas, casino o depósitos)_. y mostrará configuraciones específicas. En esta sección puedes seleccionar **todas** las verticales sin restricciones.
+Selecciona cómo los usuarios participarán en el sorteo según cada vertical disponible. Cada opción **activa una vertical** _(como apuestas deportivas, casino o depósitos)_ y mostrará configuraciones específicas. En esta sección puedes seleccionar **todas** las verticales sin restricciones.
 
 {% hint style="warning" %}
 **Nota**: Las configuraciones se ajustan automáticamente según la vertical seleccionada, aunque su lógica de funcionamiento sea similar.
@@ -42,7 +42,7 @@ Configura que segmento de deportivas estarán disponibles para el sorteo. Según
 
 <table><thead><tr><th width="152.8887939453125">Campo</th><th width="93.33343505859375">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Tipo de Ranking</code></strong></td><td>Selector</td><td><p>Permite seleccionar el criterio para ordenar a los participantes del sorteo.</p><ul><li><strong>Monto dinero:</strong> Ordena a los participantes según la cantidad de dinero apostado.</li><li><strong>Líneas apuesta</strong>: Ordena a los participantes según la cantidad de líneas apostadas.</li></ul></td></tr><tr><td><strong><code>Todas las condiciones son obligatorias</code></strong></td><td>Selector</td><td>Establece si las configuraciones realizadas anteriormente serán obligatorias para participar en el sorteo.</td></tr></tbody></table>
 
-#### **⚙️ Configuración de segmentos de deportivas**
+#### Configuración de segmentos de deportivas
 
 Configura los segmentos de deportivas disponibles para el sorteo. Según la opción elegida, se mostrarán configuraciones específicas para cada segmento.
 
@@ -87,7 +87,7 @@ Define las ligas en las que estará disponible el sorteo.
 {% hint style="warning" %}
 **Nota**:
 
-* Los mercados pueden agregarse al sorteo desde las opciones **`Añadir manual`** o **`ligas`**. No es necesario completar ambos campos; basta con utilizar una de las dos opciones disponibles.
+* Las ligas pueden agregarse al sorteo desde las opciones **`Añadir manual`** o **`Ligas`**. No es necesario completar ambos campos; basta con utilizar una de las dos opciones disponibles.
 * La lista desplegable **`Deporte`** , **`País`** con el botón **`buscar`**, se encuentran en el formulario, pero actualmente no está activo este método.
 {% endhint %}
 {% endtab %}
@@ -102,7 +102,7 @@ Define los partidos que aplicarán para el sorteo.
 {% hint style="warning" %}
 **Nota**:
 
-* Los mercados pueden agregarse al sorteo desde las opciones **`Añadir manual`** o **`partidos`**. No es necesario completar ambos campos; basta con utilizar una de las dos opciones disponibles.
+* Los partidos pueden agregarse al sorteo desde las opciones **`Añadir manual`** o **`Partidos`**. No es necesario completar ambos campos; basta con utilizar una de las dos opciones disponibles.
 * La lista desplegable **`Deporte` , `País`, `Campeonato`** con el botón **`buscar`**, se encuentran en el formulario, pero actualmente no está activo este método.
 {% endhint %}
 {% endtab %}
@@ -112,7 +112,7 @@ Define los partidos que aplicarán para el sorteo.
 {% endtab %}
 
 {% tab title="Casino" %}
-Añade los juegos de casino que podrán dar stickers para participar para participar en el torneo.
+Añade los juegos de casino que podrán dar stickers para participar en el sorteo.
 
 <table><thead><tr><th width="150.22222900390625">Sección</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Categorías</code></strong></td><td>Selecciona una o varias categorías que podrán ser utilizadas para participar en el sorteo.</td></tr><tr><td><strong><code>Proveedores</code></strong></td><td>Selecciona los proveedores que podrán ser utilizados para participar en el sorteo.</td></tr><tr><td><strong><code>Productos</code></strong></td><td><p>Permite agregar uno o más productos junto con su proveedor correspondiente.</p><ul><li><strong>Proveedor</strong>: Selecciona proveedor a participar en el sorteo.</li><li><strong>Producto</strong>: Selecciona uno o varios productos disponibles del proveedor.</li></ul></td></tr></tbody></table>
 {% endtab %}
@@ -124,13 +124,13 @@ Define las pasarelas de pago que podrían dar stickers por realizar depósitos c
 {% endtab %}
 
 {% tab title="Casino en vivo" %}
-Añade los juegos de casino en vivo que podrán dar stickers para participar para participar en el torneo.
+Añade los juegos de casino en vivo que podrán dar stickers para participar en el sorteo.
 
 <table><thead><tr><th width="150.22222900390625">Sección</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Categorías</code></strong></td><td>Selecciona una o varias categorías que podrán ser utilizadas para participar en el sorteo.</td></tr><tr><td><strong><code>Proveedores</code></strong></td><td>Selecciona los proveedores que podrán ser utilizados para participar en el sorteo.</td></tr><tr><td><strong><code>Productos</code></strong></td><td><p>Permite agregar uno o más productos junto con su proveedor correspondiente.</p><ul><li><strong>Proveedor</strong>: Selecciona proveedor a participar en el sorteo.</li><li><strong>Producto</strong>: Selecciona uno o varios productos disponibles del proveedor.</li></ul></td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Virtuales" %}
-Añade los juegos de la vertical virtuales que podrán dar stickers para participar para participar en el torneo.
+Añade los juegos de la vertical virtuales que podrán dar stickers para participar en el sorteo.
 
 <table><thead><tr><th width="150.22222900390625">Sección</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Categorías</code></strong></td><td>Selecciona una o varias categorías que podrán ser utilizadas para participar en el sorteo.</td></tr><tr><td><strong><code>Proveedores</code></strong></td><td>Selecciona los proveedores que podrán ser utilizados para participar en el sorteo.</td></tr><tr><td><strong><code>Productos</code></strong></td><td><p>Permite agregar uno o más productos junto con su proveedor correspondiente.</p><ul><li><strong>Proveedor</strong>: Selecciona proveedor a participar en el sorteo.</li><li><strong>Producto</strong>: Selecciona uno o varios productos disponibles del proveedor.</li></ul></td></tr></tbody></table>
 {% endtab %}
