@@ -12,7 +12,7 @@
 
 ### 2. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (175) (1).png" alt=""><figcaption><p><strong>Figura #1</strong>: Captura de pantalla sección consulta de retiros</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (165).png" alt=""><figcaption><p><strong>Figura #1</strong>: Captura de pantalla sección consulta de retiros</p></figcaption></figure>
 
 ***
 

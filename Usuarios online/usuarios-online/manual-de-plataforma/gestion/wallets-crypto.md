@@ -10,7 +10,7 @@
 
 ### 2. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (163) (1).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Wallets Crypto.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (153).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Wallets Crypto.</p></figcaption></figure>
 
 ***
 
@@ -25,7 +25,7 @@
 Permite registrar una nueva billetera mediante el siguiente formulario:
 
 {% hint style="warning" %}
-**Notas:**&#x20;
+**Notas:**
 
 * Únicamente se visualizan las criptomonedas y redes blockchain que se encuentren activas y configuradas para el partner y el país. Si se selecciona una combinación no habilitada, el sistema muestra el mensaje: _"No es posible realizar transacciones mediante esta red"_.
 * Las criptomonedas y redes blockchain disponibles para el usuario se definen desde el BackOffice: se registran en los módulos de Criptomonedas y Redes blockchain, se vinculan mediante la Asociación Cripto + Red y se habilitan para la plataforma siguiendo el [flujo completo para habilitar retiros en criptomonedas](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/productos/asociacion-cripto-+-redes#id-7.-flujo-habilitar-retiros-en-criptomonedas).

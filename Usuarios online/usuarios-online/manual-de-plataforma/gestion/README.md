@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Gestión
@@ -31,7 +33,7 @@ layout:
 
 ### 2. Visualización:
 
-<figure><img src="../../../.gitbook/assets/image (171) (1).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Gestión.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (161).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Gestión.</p></figcaption></figure>
 
 ### **3. Opciones:**
 

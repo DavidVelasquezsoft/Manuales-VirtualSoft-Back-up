@@ -12,7 +12,7 @@
 
 ### 2. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (173) (1).png" alt=""><figcaption><p><strong>Figura #1</strong>: Captura de pantalla – Informe de otras apuestas</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (163).png" alt=""><figcaption><p><strong>Figura #1</strong>: Captura de pantalla – Informe de otras apuestas</p></figcaption></figure>
 
 ***
 

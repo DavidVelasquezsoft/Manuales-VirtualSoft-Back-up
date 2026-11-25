@@ -12,7 +12,7 @@ description: Permite añadir y gestionar las cuentas bancarias registradas por l
 
 ### 2. Visualización:
 
-<figure><img src="../../../.gitbook/assets/image (26) (2).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Cuentas bancarias.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (24).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Cuentas bancarias.</p></figcaption></figure>
 
 ### **3. Acciones del Usuario**
 

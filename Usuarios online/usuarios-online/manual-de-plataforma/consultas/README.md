@@ -12,7 +12,7 @@
 
 ### 2. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (172) (2).png" alt="" width="375"><figcaption><p>Figura #1: Captura de pantalla – Menú de Consultas</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (162).png" alt="" width="375"><figcaption><p>Figura #1: Captura de pantalla – Menú de Consultas</p></figcaption></figure>
 
 ***
 

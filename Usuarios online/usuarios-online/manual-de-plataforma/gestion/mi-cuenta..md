@@ -13,7 +13,7 @@
 
 ### 2. Visualización:
 
-<figure><img src="../../../.gitbook/assets/image (25) (1).png" alt=""><figcaption><p>Figura #1: Captura de pantalla mi cuenta.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (23).png" alt=""><figcaption><p>Figura #1: Captura de pantalla mi cuenta.</p></figcaption></figure>
 
 ***
 

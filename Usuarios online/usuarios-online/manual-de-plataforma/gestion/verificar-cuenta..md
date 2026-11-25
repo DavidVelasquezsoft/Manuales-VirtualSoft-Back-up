@@ -17,11 +17,11 @@ description: >-
 
 Al acceder a esta sección, el usuario encontrará la opción para iniciar el proceso de verificación de identidad.
 
-<figure><img src="../../../.gitbook/assets/image (168) (1).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Verificar cuenta.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (158).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Verificar cuenta.</p></figcaption></figure>
 
 En caso de que el usuario no esté verificado, se desplegará un pop-up al iniciar sesión que lo dirigirá directamente al flujo de verificación.
 
-<figure><img src="../../../.gitbook/assets/image (169) (1).png" alt="" width="272"><figcaption><p>Figura #2: Captura de pantalla pop-up Verificar cuenta.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (159).png" alt="" width="272"><figcaption><p>Figura #2: Captura de pantalla pop-up Verificar cuenta.</p></figcaption></figure>
 
 ***
 
@@ -112,7 +112,5 @@ Proceso por el cual una cuenta verificada pierde su estado de validación, queda
 | 1.0     | 09/07/2025 | Ronald Pelaez   | Manual inicial                                                                       |
 | 1.1     | 09/16/2025 | David velasquez | incorporación de la desverificación.                                                 |
 | 1.2     | 06/10/2026 | David velasquez | [Actualización del manual](https://virtualsoftlatam.atlassian.net/browse/VSFT-33140) |
-
-
 
 </details>

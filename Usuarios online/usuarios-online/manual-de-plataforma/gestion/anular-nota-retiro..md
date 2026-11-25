@@ -12,7 +12,7 @@
 
 ### 2. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (27) (2).png" alt=""><figcaption><p>Figura #1: Captura de pantalla anular nota de retiro.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (25).png" alt=""><figcaption><p>Figura #1: Captura de pantalla anular nota de retiro.</p></figcaption></figure>
 
 ***
 

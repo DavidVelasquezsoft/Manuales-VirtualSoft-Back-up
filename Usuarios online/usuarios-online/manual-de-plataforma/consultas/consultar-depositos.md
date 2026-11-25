@@ -12,7 +12,7 @@
 
 ### 2. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (174) (1).png" alt=""><figcaption><p><strong>Figura #1</strong>: Captura de pantalla – Consulta de depósitos</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (164).png" alt=""><figcaption><p><strong>Figura #1</strong>: Captura de pantalla – Consulta de depósitos</p></figcaption></figure>
 
 ***
 

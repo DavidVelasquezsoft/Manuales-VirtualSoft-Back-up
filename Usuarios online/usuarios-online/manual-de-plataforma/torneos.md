@@ -15,7 +15,7 @@ description: >-
 
 ### **2. Visualización**
 
-<figure><img src="../../.gitbook/assets/image (18) (1).png" alt=""><figcaption><p>Figura #1: Captura de pantalla torneos.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption><p>Figura #1: Captura de pantalla torneos.</p></figcaption></figure>
 
 ***
 
@@ -25,7 +25,7 @@ description: >-
 
 #### 3.1 Información sobre el torneo
 
-<table><thead><tr><th width="216.2222900390625">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><img src="../../.gitbook/assets/image-Photoroom (6) (1).png" alt="" data-size="original"></td><td>Cantidad de usuarios que participan actualmente en el torneo. La información se actualiza cada 120 segundos.</td></tr></tbody></table>
+<table><thead><tr><th width="216.2222900390625">Campo</th><th>Descripción</th></tr></thead><tbody><tr><td><img src="../../.gitbook/assets/image-Photoroom (6).png" alt="" data-size="original"></td><td>Cantidad de usuarios que participan actualmente en el torneo. La información se actualiza cada 120 segundos.</td></tr></tbody></table>
 
 ***
 

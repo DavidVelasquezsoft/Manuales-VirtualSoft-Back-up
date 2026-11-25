@@ -16,7 +16,7 @@
 
 ### 2. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (181) (1).png" alt=""><figcaption><p>Figura #1: Captura de pantalla registro método de retiro.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (171).png" alt=""><figcaption><p>Figura #1: Captura de pantalla registro método de retiro.</p></figcaption></figure>
 
 ***
 
@@ -30,7 +30,7 @@ Al ingresar a **Registro de método de retiro**, el sistema muestra dos botones 
 
 ### 4. Cuenta bancaria
 
-<figure><img src="../../../.gitbook/assets/image (184) (1).png" alt=""><figcaption><p>Figura #2: Captura de pantalla registro de cuenta bancaria como método de retiro.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (172).png" alt=""><figcaption><p>Figura #2: Captura de pantalla registro de cuenta bancaria como método de retiro.</p></figcaption></figure>
 
 Al seleccionar **Cuenta bancaria**, se despliega un formulario con los siguientes campos de configuración:
 
@@ -40,7 +40,7 @@ Al seleccionar **Cuenta bancaria**, se despliega un formulario con los siguiente
 
 ### 5. Número de celular
 
-<figure><img src="../../../.gitbook/assets/image (185) (1).png" alt=""><figcaption><p>Figura #3: Captura de pantalla registro de número de celular como método de retiro.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (173).png" alt=""><figcaption><p>Figura #3: Captura de pantalla registro de número de celular como método de retiro.</p></figcaption></figure>
 
 Al seleccionar **Número de celular**, se despliega un nuevo formulario con los siguientes campos:
 

@@ -14,11 +14,11 @@
 
 En la parte superior de la sección se muestra una descripción informativa sobre en qué consiste la autoexclusión.
 
-<figure><img src="../../../.gitbook/assets/image (23) (2).png" alt=""><figcaption><p>Figura #1: Captura de pantalla descripción de la autoexclusión.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (21).png" alt=""><figcaption><p>Figura #1: Captura de pantalla descripción de la autoexclusión.</p></figcaption></figure>
 
 Debajo del texto, el usuario podrá configurar los parámetros de su autoexclusión mediante un formulario:
 
-<figure><img src="../../../.gitbook/assets/image (24) (2).png" alt=""><figcaption><p>Figura #2: Captura de pantalla formulario de autoexclusión.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (22).png" alt=""><figcaption><p>Figura #2: Captura de pantalla formulario de autoexclusión.</p></figcaption></figure>
 
 ***
 

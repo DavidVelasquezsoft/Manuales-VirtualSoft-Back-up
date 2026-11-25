@@ -12,7 +12,7 @@
 
 ### 2. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (21) (1).png" alt="" width="563"><figcaption><p>Figura #1: Captura de pantalla restaurar contraseña.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (19).png" alt="" width="563"><figcaption><p>Figura #1: Captura de pantalla restaurar contraseña.</p></figcaption></figure>
 
 ***
 

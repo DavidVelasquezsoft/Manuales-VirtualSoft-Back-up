@@ -10,7 +10,7 @@
 
 ### 2. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (193).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Cambiar Contraseña.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (179).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Cambiar Contraseña.</p></figcaption></figure>
 
 ***
 
@@ -44,7 +44,7 @@ El doble factor de autenticación (2FA) refuerza la seguridad del inicio de sesi
 {% endcolumn %}
 {% endcolumns %}
 
-<figure><img src="../../../.gitbook/assets/image (199) (1).png" alt=""><figcaption><p>Figura #2: Pop-up de activar el 2FA.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (184).png" alt=""><figcaption><p>Figura #2: Pop-up de activar el 2FA.</p></figcaption></figure>
 
 Al iniciar sesión se mostrará un pop-up para activar y configurar el **2FA** en tu cuenta para mayor seguridad al inicio de sesión.
 
@@ -106,7 +106,7 @@ Actualiza la contraseña de acceso a la plataforma.
 Envía los datos ingresados y aplica el cambio de contraseña desde el botón "**`Guardar`**".
 
 {% hint style="warning" %}
-**Notas:**&#x20;
+**Notas:**
 
 * Los 3 campos del formulario son obligatorios para poder cambiar la contraseña.
 * Al solicitar el cambio de contraseña, se requerirá nuevamente la validación mediante doble factor de autenticación, incluso si esta ya fue realizada al iniciar sesión y el dispositivo se encuentra marcado como seguro. Esta validación solo aplica para las cuentas que tengan habilitado el doble factor de autenticación.

@@ -10,7 +10,7 @@ En la sección de Mis Bonos, puedes gestionar y visualizar todos los bonos que h
 
 ### 2. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (179) (1).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Mis bonos.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (169).png" alt=""><figcaption><p>Figura #1: Captura de pantalla Mis bonos.</p></figcaption></figure>
 
 ***
 

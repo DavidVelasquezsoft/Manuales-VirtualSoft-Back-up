@@ -12,7 +12,7 @@
 
 ### 2. Visualización
 
-📌 **Figura #1**: Captura de pantalla – Consulta de tickets de apuestas deportivas
+<figure><img src="../../../.gitbook/assets/image (188).png" alt=""><figcaption><p><strong>Figura #1</strong>: Captura de pantalla – Consulta de tickets de apuestas deportivas</p></figcaption></figure>
 
 ***
 

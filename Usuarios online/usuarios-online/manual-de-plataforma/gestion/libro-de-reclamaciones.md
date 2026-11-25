@@ -16,7 +16,7 @@ Disponible en la parte final de la plataforma.
 
 ### 2. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (15) (3).png" alt=""><figcaption><p>Figura #1: Captura de pantalla formulario libro de reclamaciones.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (13).png" alt=""><figcaption><p>Figura #1: Captura de pantalla formulario libro de reclamaciones.</p></figcaption></figure>
 
 ***
 
@@ -67,7 +67,7 @@ El formulario se divide en tres secciones principales:
 **Nota:** Esta documentación aplica específicamente para la plataforma **Doradobet Perú** y la sección solo la podrán visualizar los usuarios logueados.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (17) (1).png" alt=""><figcaption><p>Figura #2: Captura de pantalla Mis Reclamaciones.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (15).png" alt=""><figcaption><p>Figura #2: Captura de pantalla Mis Reclamaciones.</p></figcaption></figure>
 
 Al ingresar a **Mis Reclamaciones**, el sistema muestra un encabezado con los filtros de búsqueda y una tabla de resultados.
 

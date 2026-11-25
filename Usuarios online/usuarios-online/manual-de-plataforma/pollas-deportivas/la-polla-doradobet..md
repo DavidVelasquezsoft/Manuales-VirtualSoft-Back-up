@@ -12,7 +12,7 @@
 
 ### 2. Visualización
 
-<figure><img src="../../../.gitbook/assets/image (170) (1).png" alt=""><figcaption><p>Figura #1: Captura de pantalla sección la polla Doradobet.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (160).png" alt=""><figcaption><p>Figura #1: Captura de pantalla sección la polla Doradobet.</p></figcaption></figure>
 
 ***
 
