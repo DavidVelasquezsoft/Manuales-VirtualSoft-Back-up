@@ -152,7 +152,7 @@ Funcionalidad de autenticación en dos factores _(**2FA**)_ que **refuerza** la 
 
 Una vez activado el 2FA, en cada inicio de sesión se mostrará un pop-up para ingresar el código de verificación; si el dispositivo se marca como seguro durante este proceso, el pop-up no volverá a mostrarse en futuros accesos realizados desde ese mismo dispositivo.
 
-#### 6.1 Visualización
+#### 5.1 Visualización
 
 <figure><img src="../../../.gitbook/assets/image (195) (1).png" alt=""><figcaption><p>Figura #2: Captura de pantalla pop-up doble autenticación</p></figcaption></figure>
 
