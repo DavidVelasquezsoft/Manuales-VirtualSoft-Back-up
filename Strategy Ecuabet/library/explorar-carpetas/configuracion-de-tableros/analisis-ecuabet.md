@@ -136,9 +136,9 @@ El contenido se organiza en dos subpestañas, ubicadas en la parte superior dere
 
 {% tabs %}
 {% tab title="Comparativo" %}
-Muestra la tendencia mensual de las comisiones, su participación por tipo y los totales por concepto.
+Muestra la tendencia mensual de las comisiones, su distribución por tipo y los totales por concepto.
 
-<table><thead><tr><th width="216.66668701171875">Gráfico</th><th width="126.666748046875">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Tendencia mensual de Comisiones</code></strong></td><td>Gráfico de líneas</td><td>Muestra la tendencia del valor total de las comisiones a lo largo de los meses.</td></tr><tr><td><strong><code>Participación de Comisiones por Tipo</code></strong></td><td>Gráfico de torta</td><td>Indica el porcentaje que representa cada tipo de comisión en el total.</td></tr></tbody></table>
+<table><thead><tr><th width="216.66668701171875">Gráfico</th><th width="126.666748046875">Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Tendencia mensual</code></strong></td><td>Gráfico de líneas</td><td>Muestra el valor total de las comisiones de cada mes, para comparar cómo varían a lo largo del periodo consultado.</td></tr><tr><td><strong><code>Distribución de comisiones por tipo</code></strong></td><td>Gráfico de torta</td><td>Muestra el porcentaje que representa cada tipo de comisión sobre el total de comisiones del periodo consultado.</td></tr></tbody></table>
 
 **Totales:** resume el valor acumulado de cada tipo de comisión en el periodo consultado.
 
