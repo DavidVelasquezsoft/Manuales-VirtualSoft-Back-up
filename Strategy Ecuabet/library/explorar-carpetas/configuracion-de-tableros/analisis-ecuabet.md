@@ -1,6 +1,6 @@
 # Análisis Ecuabet
 
-<mark style="color:$info;">Muestra el comportamiento de los depósitos, los retiros, los usuarios y las comisiones de Ecuabet, con su distribución por pasarela de pago y por día de la semana. La información se organiza en tres pestañas: PDV, Promocionales y Comisiones.</mark>
+<mark style="color:$info;">Muestra el comportamiento de los depósitos, los retiros, los usuarios y las comisiones de los puntos de venta de Ecuabet, con su distribución por punto de venta y por día de la semana. La información se organiza en tres pestañas: PDV</mark> <mark style="color:$info;"></mark>_<mark style="color:$info;">(punto de venta)</mark>_<mark style="color:$info;">, Promocionales y Comisiones.</mark>
 
 ### 1. Acceso al Módulo
 
@@ -24,7 +24,7 @@ Antes de ingresar al tablero, es necesario completar los parámetros solicitados
 
 Los filtros se ubican en el panel de filtros, en el costado izquierdo del tablero, y se aplican a todos los indicadores, gráficos y tablas.
 
-<table><thead><tr><th width="177.5">Filtro</th><th width="150">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Fecha de Creación</code></strong></td><td>Calendario</td><td>Delimita el periodo de consulta según la fecha de creación de las transacciones, mediante los campos <strong>Desde</strong> y <strong>Hasta</strong>.</td></tr><tr><td><strong><code>Año</code></strong></td><td>Lista desplegable</td><td>Restringe la información al año seleccionado.</td></tr><tr><td><strong><code>Mes</code></strong></td><td>Lista desplegable</td><td>Acota la información al mes seleccionado.</td></tr><tr><td><strong><code>Día</code></strong></td><td>Lista desplegable</td><td>Muestra la información de un día específico.</td></tr><tr><td><strong><code>ID Usuario</code></strong></td><td>Cuadro de búsqueda</td><td>Localiza las transacciones y comisiones de un usuario a partir de su identificador único.</td></tr><tr><td><strong><code>Nombre del Sistema de Pasarela de Pago</code></strong></td><td>Lista desplegable</td><td>Selecciona la <a href="https://virtualsoft.gitbook.io/untitled/glosario#pasarela-de-pago">pasarela de pago</a> por la que se procesaron los depósitos y retiros.</td></tr><tr><td><strong><code>Tipo de Comisión</code></strong></td><td>Lista desplegable</td><td>Reúne las comisiones del concepto seleccionado. Los conceptos disponibles se describen en la tabla <strong>Totales</strong> de la pestaña Comisiones.</td></tr></tbody></table>
+<table><thead><tr><th width="177.5">Filtro</th><th width="150">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Fecha de Creación</code></strong></td><td>Calendario</td><td>Delimita el periodo de consulta según la fecha de creación de las transacciones, mediante los campos <strong>Desde</strong> y <strong>Hasta</strong>.</td></tr><tr><td><strong><code>Año</code></strong></td><td>Lista desplegable</td><td>Restringe la información al año seleccionado.</td></tr><tr><td><strong><code>Mes</code></strong></td><td>Lista desplegable</td><td>Acota la información al mes seleccionado.</td></tr><tr><td><strong><code>Día</code></strong></td><td>Lista desplegable</td><td>Muestra la información de un día específico.</td></tr><tr><td><strong><code>ID Usuario</code></strong></td><td>Cuadro de búsqueda</td><td>Localiza las transacciones y comisiones de un usuario a partir de su identificador único.</td></tr><tr><td><strong><code>Pasarela de Pago</code></strong></td><td>Lista desplegable</td><td><p>Selecciona el <a href="https://virtualsoft.gitbook.io/untitled/glosario#punto-de-venta">punto de venta</a> en el que se realizaron las transacciones.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Aunque el nombre del filtro menciona la pasarela de pago, sus opciones corresponden a los puntos de venta.</p></div></td></tr><tr><td><strong><code>Tipo de Comisión</code></strong></td><td>Lista desplegable</td><td>Reúne las comisiones del concepto seleccionado. Los conceptos disponibles se describen en la tabla <strong>Totales</strong> de la pestaña Comisiones.</td></tr></tbody></table>
 
 ***
 
@@ -46,7 +46,7 @@ El tablero se organiza en tres pestañas, ubicadas en la barra superior: PDV, Pr
 
 {% tabs %}
 {% tab title="PDV" %}
-Presenta el comportamiento diario de los depósitos, los retiros y los usuarios, con tablas de detalle por mes, por pasarela de pago y por usuario.
+Presenta el comportamiento diario de los depósitos, los retiros y los usuarios, con tablas de detalle por mes, por punto de venta y por usuario.
 
 **Visualización**
 
@@ -68,15 +68,15 @@ Presenta la evolución de los usuarios y la participación diaria de los depósi
 {% endtab %}
 
 {% tab title="Detalle" %}
-Reúne las tablas de detalle por mes, por pasarela de pago, por día y por usuario.
+Reúne las tablas de detalle por mes, por punto de venta, por día y por usuario.
 
 **Resumen por Mes:** consolida los depósitos, los retiros y los usuarios de cada mes.
 
 <table><thead><tr><th width="210">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Mes</code></strong></td><td>Identifica el mes al que corresponden los valores.</td></tr><tr><td><strong><code>Monto Depósitos</code></strong></td><td>Muestra el valor total de los depósitos del mes.</td></tr><tr><td><strong><code>Monto Retiros</code></strong></td><td>Muestra el valor total de los retiros del mes.</td></tr><tr><td><strong><code>Coincidencia TRX</code></strong></td><td>Indica la proporción de los retiros respecto a los depósitos del mes, expresada en porcentaje.</td></tr><tr><td><strong><code>Cantidad de Depósitos</code></strong></td><td>Cuenta los depósitos realizados en el mes.</td></tr><tr><td><strong><code>Cantidad de Retiros</code></strong></td><td>Cuenta los retiros realizados en el mes.</td></tr><tr><td><strong><code>Cantidad de Usuarios</code></strong></td><td>Indica la cantidad de usuarios con transacciones en el mes.</td></tr></tbody></table>
 
-**Resumen por Pasarela:** agrupa las transacciones según la pasarela de pago que las procesó.
+**Resumen por Pasarela:** agrupa las transacciones por punto de venta.
 
-<table><thead><tr><th width="210">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Nombre del sistema de pasarela de pago</code></strong></td><td>Identifica la pasarela de pago.</td></tr><tr><td><strong><code>Depósitos</code></strong></td><td>Cuenta los depósitos procesados por la pasarela.</td></tr><tr><td><strong><code>Retiros</code></strong></td><td>Cuenta los retiros procesados por la pasarela.</td></tr><tr><td><strong><code>Total Transacciones</code></strong></td><td><p>Suma los depósitos y los retiros de la pasarela.</p><p><strong>Fórmula:</strong><br><em>Total Transacciones = Depósitos + Retiros</em></p></td></tr><tr><td><strong><code>Cantidad de Usuarios</code></strong></td><td>Indica la cantidad de usuarios que realizaron transacciones con la pasarela.</td></tr></tbody></table>
+<table><thead><tr><th width="210">Columna</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>pasarela de pago</code></strong></td><td><p>Identifica el punto de venta.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Aunque el nombre de la columna menciona la pasarela de pago, muestra el nombre del punto de venta.</p></div></td></tr><tr><td><strong><code>Depósitos</code></strong></td><td>Cuenta los depósitos realizados en el punto de venta.</td></tr><tr><td><strong><code>Retiros</code></strong></td><td>Cuenta los retiros realizados en el punto de venta.</td></tr><tr><td><strong><code>Total Transacciones</code></strong></td><td><p>Suma los depósitos y los retiros del punto de venta.</p><p><strong>Fórmula:</strong><br><em>Total Transacciones = Depósitos + Retiros</em></p></td></tr><tr><td><strong><code>Cantidad de Usuarios</code></strong></td><td>Indica la cantidad de usuarios que realizaron transacciones en el punto de venta.</td></tr></tbody></table>
 
 **Detalle Diario de Depósitos:** muestra los depósitos de cada día del periodo consultado.
 
@@ -168,6 +168,11 @@ Reúne el resumen mensual y el detalle de las comisiones por usuario.
 * La comisión de los rankings de usuarios corresponde al 3 % del valor depositado y al 1 % del valor retirado.
 * Los filtros se aplican de forma consistente a todos los indicadores, gráficos y tablas del tablero.
 * Los filtros de fecha permiten consultar periodos anteriores y compararlos sin alterar el cálculo de los indicadores.
+* El tablero consolida la información de todos los puntos de venta de Ecuabet. El filtro **`Nombre del Sistema de Pasarela de Pago`** permite consultar un punto de venta específico.
+* La información del tablero coincide con los siguientes reportes del BackOffice:
+  * Depósitos _(solo los aprobados)_: [Reporte de depósitos punto venta](https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/reportes/reporte-de-depositos-punto-venta).
+  * Retiros: [Reporte de Retiros](https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/reportes/reporte-de-retiros).
+  * Comisiones: [Reporte de comisiones](https://virtualsoft.gitbook.io/manuales/manual-de-usuario-backoffice/reportes/reporte-de-comisiones).
 
 ***
 
