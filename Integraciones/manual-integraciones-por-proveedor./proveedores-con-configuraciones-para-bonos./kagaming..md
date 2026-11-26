@@ -1,40 +1,81 @@
 ---
-description: >-
-  Aquí encontrarás información importante que se debe tener en cuenta al momento
-  de la creación de un bono FreeSpin para KAGAMING.
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
 
 # KAGAMING.
 
-Esta es la visual completa del Bono FreeSpin
+<mark style="color:$info;">Aquí encontrarás información importante que se debe tener en cuenta al momento de la creación de un bono FreeSpin para KAGAMING.</mark>
+
+### 1. Acceso al Módulo
+
+**Ruta de Acceso**: Torneos y bonos > Crear bono > Seleccionar País > FreeSpin
+
+***
+
+### 2. Visualización
 
 <figure><img src="../../.gitbook/assets/image (95).png" alt="" width="563"><figcaption><p>Figura #1: Captura de pantalla de la sección FreeSpin.</p></figcaption></figure>
 
-En este caso nos céntratenos solo en las configuraciones necesarias para la configuración de los nuevos juegos integrados por el proveedor KAGAMING.
+***
 
-* **Rango de fechas:** El botón **"Agregar"**, desplegará una opción que te permitirá configurar las fechas durante las cuales el bono estará activo. Aquí deberás seleccionar tanto la **fecha inicial** como la **fecha final** para definir el período de vigencia del bono.
+### 3. Formulario para creación de bonos KAGAMING
 
-{% hint style="warning" %}
-**Nota:** La fecha final no puede superar los 3 meses desde la fecha de inicio.
-{% endhint %}
+Estas configuraciones corresponden a los campos que pueden presentar comportamientos específicos o variaciones propias del proveedor **KAGAMING** dentro del proceso de creación de bonos FreeSpin.
 
-* **Botón proveedores:** Este botón Desplegará un listado solo con los proveedores que tienen el Bonus System activo, en este caso se debe visualizar y seleccionar la opción "**KAGAMING"**.
-* **Botón Productos:** Este botón despegará 2 listas para seleccionar un juego dependiendo el proveedor, en este caso, es necesario volver a seleccionar el proveedor "**KAGAMING**", para visualizar los juegos disponibles.
-
-{% hint style="warning" %}
-**Nota**: Al configurar los campos "**Proveedores**" y "**Productos**" se desplegará una tabla en la cual debes especificar el porcentaje del bono que asumirá el proveedor.
-{% endhint %}
-
-*   **Moneda**: Para poder dar uso a los bonos FreeSpin con el proveedor KAGAMING, es necesario seleccionar la moneda del país con el que estamos generando el bono, esto activará las siguientes configuraciones.
-
-    * **Valor por ronda:** Este es el monto que tendrá el bono por cada ronda jugada. El valor por ronda no corresponde al monto de apuesta del juego, sino al número de orden en el que se encuentra dicho valor.
-    * **Rondas gratuitas:** En este campo podrás ingresar la cantidad de rondas gratuitas que el usuario podrá jugar con este bono.
-    * **Jugadores:** En esta configuración, se debe ingresar el ID de cada usuario que tendrá el bono activo. Este proceso requiere cargar un archivo en formato **CSV** con los ID´s correspondientes. El sistema tomará los datos del archivo y activará automáticamente el bono para los jugadores especificados.
-
-    <div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p>Ejemplo: Para el campo "Valor por ronda", si los montos disponibles en el juego son:</p><ol><li>20/S</li><li>15/S</li><li>30/S</li></ol><p>Si deseas seleccionar el valor 15, debes ingresar <strong>2</strong>, ya que corresponde a su posición en la lista.</p></div>
-
-Estas son las configuraciones principales y necesarias para generar un bono FreeSpin con los juegos del proveedor KAGAMING, en caso de necesitar información más detallada sobre cómo crear el bono FreeSpin, puedes acceder a la siguiente página:
+Para consultar el detalle completo de los demás campos y la configuración general del bono, se recomienda acceder a la documentación principal indicada a continuación.
 
 {% content-ref url="https://app.gitbook.com/s/rLdGx9JdTz3uLoquKvJw/readme/como-acceder-a-la-plataforma-./crear-eventos./crear-bono./freespin" %}
 [FreeSpin](https://app.gitbook.com/s/rLdGx9JdTz3uLoquKvJw/readme/como-acceder-a-la-plataforma-./crear-eventos./crear-bono./freespin)
 {% endcontent-ref %}
+
+<table><thead><tr><th width="140.5">Sección</th><th width="108.126220703125">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Rango de fechas</code></strong></td><td>Selector de fecha + botón</td><td><p>El botón <strong>Agregar</strong> despliega una opción para configurar las fechas durante las cuales el bono estará activo. Se debe seleccionar tanto la <strong>fecha inicial</strong> como la <strong>fecha final</strong> para definir el período de vigencia del bono.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> La fecha final no puede superar los 3 meses desde la fecha de inicio.</p></div></td></tr><tr><td><strong><code>Proveedor</code></strong></td><td>Botón</td><td>Despliega un listado solo con los proveedores que tienen el Bonus System activo. En este caso se debe visualizar y seleccionar la opción "<strong>KAGAMING</strong>".</td></tr><tr><td><strong><code>Productos</code></strong></td><td>Botón</td><td><p>Despliega 2 listas para seleccionar un juego dependiendo del proveedor. En este caso, es necesario volver a seleccionar el proveedor "<strong>KAGAMING</strong>" para visualizar los juegos disponibles.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Al configurar los campos "<strong>Proveedores</strong>" y "<strong>Productos</strong>" se desplegará una tabla en la cual se debe especificar el porcentaje del bono que asumirá el proveedor.</p></div></td></tr><tr><td><strong><code>Moneda</code></strong></td><td>Botón</td><td>Para poder dar uso a los bonos FreeSpin con el proveedor KAGAMING, es necesario seleccionar la moneda del país con el que se genera el bono. Esto activará las siguientes configuraciones.<br><a href="kagaming..md#configuracion-de-moneda" class="button secondary">Configuraciones disponibles</a></td></tr></tbody></table>
+
+<details>
+
+<summary>🔽 Configuración de moneda</summary>
+
+<table><thead><tr><th width="114">Campo</th><th width="129">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Valor por ronda</code></strong></td><td>Numérico</td><td><p>Monto que tendrá el bono por cada ronda jugada. El valor por ronda no corresponde al monto de apuesta del juego, sino al número de orden en el que se encuentra dicho valor.</p><div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p><strong>Ejemplo:</strong> Si los montos disponibles en el juego son:</p><ol><li>20/S</li><li>15/S</li><li>30/S</li></ol><p>Para seleccionar el valor 15, se debe ingresar <strong>2</strong>, ya que corresponde a su posición en la lista.</p></div></td></tr><tr><td><strong><code>Rondas gratuitas</code></strong></td><td>Numérico</td><td>Cantidad de rondas gratuitas que el usuario podrá jugar con este bono.</td></tr><tr><td><strong><code>Jugadores</code></strong></td><td>Botón "Seleccionar archivo"</td><td>Se debe ingresar el ID de cada usuario que tendrá el bono activo. Este proceso requiere cargar un archivo en formato <strong>CSV</strong> con los ID correspondientes. El sistema tomará los datos del archivo y activará automáticamente el bono para los jugadores especificados.</td></tr></tbody></table>
+
+<a href="kagaming..md#id-3.-formulario-para-creacion-de-bonos-kagaming" class="button secondary">Regresar</a>
+
+</details>
+
+Finaliza la configuración del bono guardando y aplicando las configuraciones realizadas desde el botón **`Crear Bono`**.
+
+***
+
+### 4. Validaciones y Reglas de Negocio
+
+* La fecha final del bono no puede superar los **3 meses** desde la fecha de inicio.
+* En el campo **`Valor por ronda`** se ingresa la posición del monto en la lista de apuestas del juego, no el monto de la apuesta.
+
+***
+
+### 5. Control de Versiones
+
+<details>
+
+<summary>🔽 Historial de versiones</summary>
+
+<table><thead><tr><th width="99.888916015625">Versión</th><th width="128.87872314453125">Fecha</th><th width="153.94952392578125">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>26/11/2026</td><td>David Velasquez</td><td>Actualización de la estructura del manual e incorporación del control de versiones.</td></tr></tbody></table>
+
+</details>

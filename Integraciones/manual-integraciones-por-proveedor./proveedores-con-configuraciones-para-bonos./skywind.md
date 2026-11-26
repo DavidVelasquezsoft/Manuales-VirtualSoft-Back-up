@@ -29,23 +29,25 @@ layout:
 **Nota:** Este proveedor se encuentra disponible únicamente para el partner **Ecuabet** en **Ecuador**.
 {% endhint %}
 
-### 1. Acceso al Módulo:
+### 1. Acceso al Módulo
 
 **Ruta de Acceso**: Torneos y bonos > Crear bono > Seleccionar País > FreeSpin
 
 ***
 
-### 2. Visualización:
+### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/SKY.png" alt=""><figcaption><p>Figura#1: Captura de pantalla creación bono Free Spin.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/SKY.png" alt=""><figcaption><p>Figura #1: Captura de pantalla creación bono Free Spin.</p></figcaption></figure>
 
-### **3. Formulario para creación de bonos** SKYWIND
+### 3. Formulario para creación de bonos SKYWIND
 
 Estas configuraciones corresponden a los campos que pueden presentar comportamientos específicos o variaciones propias del proveedor **SKYWIND** dentro del proceso de creación de bonos FreeSpin.
 
 Para consultar el detalle completo de los demás campos y la configuración general del bono, se recomienda acceder a la documentación principal indicada a continuación.
 
-{% embed url="https://virtualsoft.gitbook.io/manuales/torneos-y-bonos/torneos-y-bonos./como-acceder-a-la-plataforma-./crear-eventos./crear-bono./freespin" %}
+{% content-ref url="https://app.gitbook.com/s/rLdGx9JdTz3uLoquKvJw/readme/como-acceder-a-la-plataforma-./crear-eventos./crear-bono./freespin" %}
+[FreeSpin](https://app.gitbook.com/s/rLdGx9JdTz3uLoquKvJw/readme/como-acceder-a-la-plataforma-./crear-eventos./crear-bono./freespin)
+{% endcontent-ref %}
 
 <table><thead><tr><th width="140.5">Sección</th><th width="108.126220703125">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Rango de fechas</code></strong></td><td>Selector de fecha + botón</td><td><p>Define la fecha de inicio y finalización en la que el bono estará disponible.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Notas:</strong> </p><ul><li>La fecha de finalización debe ser siempre posterior a la fecha de inicio. Se recomienda configurar algunos minutos de holgura en la fecha de inicio para asegurar la correcta creación y activación del bono.</li></ul></div></td></tr><tr><td><strong><code>Proveedor</code></strong></td><td>Botón</td><td><p>Selecciona el proveedor del bono, en este caso "<strong>SKYWIND</strong>".</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Al seleccionar el juego correspondiente se desplegará una tabla en la que se indicará que porcentaje del bono será asumido por el proveedor <strong>SKYWIND.</strong></p></div></td></tr><tr><td><strong><code>Productos</code></strong></td><td>Botón</td><td><p>Selecciona uno o múltiples juegos a los cuales aplicará el bono.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Los giros gratis configurados se comparten entre todos los juegos seleccionados. El usuario podrá utilizar las tiradas en <strong>cualquiera de ellos</strong>, pero una vez consuma el total disponible, <strong>no</strong> podrá seguir utilizándolas en los demás juegos.</p></div><div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p><strong>Ejemplo:</strong> Si el bono tiene <strong>6 giros</strong> y se seleccionan varios juegos, el usuario podrá utilizar esos <strong>6 giros</strong> en <strong>cualquiera de los juegos disponibles</strong>, pero una vez los consuma en <strong>uno de ellos</strong>, no podrá utilizarlos en los demás.</p></div></td></tr><tr><td><strong><code>Moneda</code></strong></td><td>Botón</td><td>Al seleccionar la moneda, se activarán las siguientes configuraciones.<br><a href="skywind.md#configuracion-de-moneda" class="button secondary">Configuraciones disponibles</a></td></tr></tbody></table>
 
@@ -81,7 +83,7 @@ Finaliza la configuración del bono guardando y aplicando las configuraciones re
 
 ***
 
-### **4. Validaciones y Reglas de Negocio**
+### 4. Validaciones y Reglas de Negocio
 
 * El bono se crea de forma inmediata, pero la asignación a jugadores puede tardar entre **2 y 3 minutos**.
 * El bono puede configurarse para múltiples juegos. Sin embargo, la cantidad de tiradas configuradas es única y compartida entre todos los juegos seleccionados, por lo que las tiradas podrán utilizarse en cualquiera de los juegos disponibles, pero no se asignarán de forma individual a cada uno.
@@ -91,14 +93,12 @@ Finaliza la configuración del bono guardando y aplicando las configuraciones re
 
 ***
 
-### &#x20;**5. Control de Versiones**
+### 5. Control de Versiones
 
 <details>
 
-<summary>🔽 Historial de versiones.</summary>
+<summary>🔽 Historial de versiones</summary>
 
-| Versión | Fecha      | Autor           | Cambios Realizados |
-| ------- | ---------- | --------------- | ------------------ |
-| 1.0     | 29/05/2025 | David Velásquez | Documento inicial  |
+<table><thead><tr><th width="99.888916015625">Versión</th><th width="128.87872314453125">Fecha</th><th width="153.94952392578125">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>29/05/2025</td><td>David Velasquez</td><td>Documento inicial</td></tr><tr><td>1.1</td><td>26/11/2026</td><td>David Velasquez</td><td>Actualización de la estructura del manual.</td></tr></tbody></table>
 
 </details>

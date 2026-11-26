@@ -1,50 +1,93 @@
 ---
-description: >-
-  Aquí encontrarás información importante que se debe tener en cuenta al momento
-  de la creación de un bono FreeSpin para TaDa gaming.
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
 
 # TaDa gaming.
 
-La vista completa del bono es la siguiente:&#x20;
+<mark style="color:$info;">Aquí encontrarás información importante que se debe tener en cuenta al momento de la creación de un bono FreeSpin para TaDa gaming.</mark>
+
+### 1. Acceso al Módulo
+
+**Ruta de Acceso**: Torneos y bonos > Crear bono > Seleccionar País > FreeSpin
+
+***
+
+### 2. Visualización
 
 <figure><img src="../../.gitbook/assets/image (95).png" alt="" width="563"><figcaption><p>Figura #1: Captura de pantalla de la sección FreeSpin.</p></figcaption></figure>
 
-En este caso nos céntratenos solo en las configuraciones necesarias para los nuevos juegos integrados por el proveedor TaDa Gaming.
+***
 
-* **Botón proveedores:** El botón "**Proveedores**", desplegará solo los proveedores que tienen el Bonus System activo, en este caso se debe visualizar y seleccionar la opción "**TADAGAMING**".
-* **Botón Productos:** El botón "**Productos**", despegará 2 listas para seleccionar un juego dependiendo el proveedor, en este caso, es necesario volver a seleccionar el proveedor "**TADAGAMING**", para visualizar los juegos disponibles.
+### 3. Formulario para creación de bonos TaDa gaming
 
-{% hint style="warning" %}
-**Nota**: Al configurar los campos "**Proveedores**" y "**Productos**" se desplegará una tabla en la cual debes especificar el porcentaje del bono que asumirá el proveedor.
-{% endhint %}
+Estas configuraciones corresponden a los campos que pueden presentar comportamientos específicos o variaciones propias del proveedor **TaDa gaming** dentro del proceso de creación de bonos FreeSpin.
 
-*   **Moneda**: ara poder dar uso a los bonos FreeSpin con el proveedor TaDa gaming, es necesario seleccionar la moneda del país con el que estamos generando el bono, esto activará las siguientes configuraciones.
-
-    * **Valor por ronda:** Este es el monto que tendrá el bono por cada ronda jugada. Al configurar esta opción, es crucial verificar previamente el monto de apuesta permitido en los juegos seleccionados, ya que este debe coincidir exactamente con el valor ingresado en este campo.
-    * **Rondas gratuitas:** En este campo podrás ingresar la cantidad de rondas gratuitas que el usuario podrá jugar con este bono.
-    * **Jugadores:** En esta configuración, se debe ingresar el ID de cada usuario que tendrá el bono activo. Este proceso requiere cargar un archivo en formato **CSV** con los ID´s correspondientes. El sistema tomará los datos del archivo y activará automáticamente el bono para los jugadores especificados.
-
-    <div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p><strong>Ejemplo:</strong> Si ingresamos un valor de 10 en el campo "<strong>Valor por ronda</strong>", pero el juego tiene una apuesta máxima permitida de 5, el bono no funcionará porque los valores no coinciden.</p></div>
-
-Estas son las configuraciones principales y necesarias para generar un bono FreeSpin con los juegos del proveedor TaDa Gaming.
-
-* Para más información sobre cómo crear un bono FreeSpin puedes ingresar a la siguiente página:
+Para consultar el detalle completo de los demás campos y la configuración general del bono, se recomienda acceder a la documentación principal indicada a continuación.
 
 {% content-ref url="https://app.gitbook.com/s/rLdGx9JdTz3uLoquKvJw/readme/como-acceder-a-la-plataforma-./crear-eventos./crear-bono./freespin" %}
 [FreeSpin](https://app.gitbook.com/s/rLdGx9JdTz3uLoquKvJw/readme/como-acceder-a-la-plataforma-./crear-eventos./crear-bono./freespin)
 {% endcontent-ref %}
 
-{% hint style="warning" %}
-**Nota**: Los bonos se crean inmediatamente, pero se asignan en aproximadamente 2 a 3 minutos.
-{% endhint %}
+<table><thead><tr><th width="140.5">Sección</th><th width="108.126220703125">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Proveedor</code></strong></td><td>Botón</td><td><p>Despliega solo los proveedores que tienen el Bonus System activo; en este caso se debe seleccionar la opción <strong>TADAGAMING</strong>.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Al configurar los campos <strong>Proveedores</strong> y <strong>Productos</strong> se despliega una tabla en la que se debe especificar el porcentaje del bono que asumirá el proveedor.</p></div></td></tr><tr><td><strong><code>Productos</code></strong></td><td>Botón</td><td>Despliega dos listas para seleccionar un juego según el proveedor; es necesario volver a seleccionar el proveedor <strong>TADAGAMING</strong> para visualizar los juegos disponibles.</td></tr><tr><td><strong><code>Moneda</code></strong></td><td>Botón</td><td>Para usar los bonos FreeSpin con el proveedor <strong>TaDa gaming</strong> es necesario seleccionar la moneda del país con el que se genera el bono; esto activa las siguientes configuraciones.<br><a href="tada-gaming..md#configuracion-de-moneda" class="button secondary">Configuraciones disponibles</a></td></tr></tbody></table>
 
-## TaDa gaming en plataforma:
+<details>
 
-Realizaremos el ejemplo desde la plataforma Doradobet desde la siguiente ruta:&#x20;
+<summary>🔽 Configuración de moneda</summary>
 
-* **Menú/ Casino/ TaDa gaming.**
+<table><thead><tr><th width="114">Campo</th><th width="129">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Valor por ronda</code></strong></td><td>Numérico</td><td><p>Monto que tendrá el bono por cada ronda jugada. Al configurar esta opción es crucial verificar previamente el monto de apuesta permitido en los juegos seleccionados, ya que este debe coincidir exactamente con el valor ingresado en este campo.</p><div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p><strong>Ejemplo:</strong> Si se ingresa un valor de 10 en el campo <strong>Valor por ronda</strong>, pero el juego tiene una apuesta máxima permitida de 5, el bono no funcionará porque los valores no coinciden.</p></div></td></tr><tr><td><strong><code>Rondas gratuitas</code></strong></td><td>Numérico</td><td>Cantidad de rondas gratuitas que el usuario podrá jugar con este bono.</td></tr><tr><td><strong><code>Jugadores</code></strong></td><td>Botón "Seleccionar archivo"</td><td>Permite cargar un archivo en formato <strong>CSV</strong> con los ID de cada usuario que tendrá el bono activo. El sistema toma los datos del archivo y activa automáticamente el bono para los jugadores especificados.</td></tr></tbody></table>
 
-Al seguir esta ruta podrás filtrar solo los juegos disponibles por el proveedor TaDa gaming.
+<a href="tada-gaming..md#id-3.-formulario-para-creacion-de-bonos-tada-gaming" class="button secondary">Regresar</a>
+
+</details>
+
+Finaliza la configuración del bono guardando y aplicando las configuraciones realizadas desde el botón **`Crear Bono`**.
+
+***
+
+### 4. Validaciones y Reglas de Negocio
+
+* Los bonos se crean inmediatamente, pero se asignan en aproximadamente **2 a 3 minutos**.
+* El valor ingresado en **`Valor por ronda`** debe coincidir exactamente con el monto de apuesta permitido en los juegos seleccionados; de lo contrario, el bono no funcionará.
+
+***
+
+### 5. TaDa gaming en plataforma
+
+El ejemplo se realiza desde la plataforma Doradobet, en la siguiente ruta:
+
+* **Menú / Casino / TaDa gaming**
+
+Al seguir esta ruta se filtran solo los juegos disponibles del proveedor TaDa gaming.
 
 <figure><img src="../../.gitbook/assets/image (63).png" alt=""><figcaption><p>Figura #2: Captura de pantalla Juegos filtrados.</p></figcaption></figure>
+
+***
+
+### 6. Control de Versiones
+
+<details>
+
+<summary>🔽 Historial de versiones</summary>
+
+<table><thead><tr><th width="99.888916015625">Versión</th><th width="128.87872314453125">Fecha</th><th width="153.94952392578125">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>26/11/2026</td><td>David Velasquez</td><td>Actualización de la estructura del manual e incorporación del control de versiones.</td></tr></tbody></table>
+
+</details>

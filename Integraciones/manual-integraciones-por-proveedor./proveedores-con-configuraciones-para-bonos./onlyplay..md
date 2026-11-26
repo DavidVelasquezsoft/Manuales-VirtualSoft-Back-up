@@ -1,10 +1,29 @@
 ---
-description: >-
-  Aquí encontrarás información importante que se debe tener en cuenta al momento
-  de la creación de un bono FreeSpin para ONLYPLAY.
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
 
 # ONLYPLAY.
+
+<mark style="color:$info;">Aquí encontrarás información importante que se debe tener en cuenta al momento de la creación de un bono FreeSpin para ONLYPLAY.</mark>
 
 {% hint style="danger" %}
 **Nota importante**: Antes de crear el bono es necesario que los juegos del proveedor estén cerrados, en caso de crear el bono con los juegos abiertos es necesario cerrar el juego y volverlo a abrir para visualizar el bono creado.
@@ -12,7 +31,7 @@ description: >-
 
 ### 1. Acceso al Módulo
 
-**Ruta de Acceso**: BackOffice > Torneos y Bonos > Bono FreeSpin
+**Ruta de Acceso**: Torneos y bonos > Crear bono > Seleccionar País > FreeSpin
 
 ***
 
@@ -20,7 +39,11 @@ description: >-
 
 <figure><img src="../../.gitbook/assets/image (124).png" alt=""><figcaption><p>Figura #1: Captura de pantalla creación de bono FreeSpin.</p></figcaption></figure>
 
-### 3. Acciones del Usuario
+### 3. Formulario para creación de bonos ONLYPLAY
+
+{% content-ref url="https://app.gitbook.com/s/rLdGx9JdTz3uLoquKvJw/readme/como-acceder-a-la-plataforma-./crear-eventos./crear-bono./freespin" %}
+[FreeSpin](https://app.gitbook.com/s/rLdGx9JdTz3uLoquKvJw/readme/como-acceder-a-la-plataforma-./crear-eventos./crear-bono./freespin)
+{% endcontent-ref %}
 
 Estas son las configuraciones principales y necesarias para generar un bono FreeSpin con los juegos del proveedor ONLYPLAY. En caso de necesitar información más detallada sobre cómo crear el bono FreeSpin, puedes acceder a la siguiente página.
 
@@ -28,7 +51,7 @@ Estas son las configuraciones principales y necesarias para generar un bono Free
 
 <details>
 
-<summary><strong>Configuración de moneda</strong></summary>
+<summary>🔽 Configuración de moneda</summary>
 
 <table><thead><tr><th width="146">Campo</th><th width="141">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Valor por ronda</code></strong></td><td>Numérico</td><td><p>valor que tendrá el bono por cada ronda, teniendo en cuenta las cuotas del juego multiplicada por cien.</p><div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p><strong>Ejemplo:</strong></p><ul><li>Si un juego tiene una cuota de <strong>0.25</strong>.</li><li>El valor por ronda debe configurarse como <strong>25</strong>.</li><li>Fórmula: <strong>Cuota × 100 = Valor por ronda</strong>.</li></ul></div></td></tr><tr><td><strong><code>Rondas gratuitas</code></strong></td><td>Numérico</td><td>Define la cantidad total de giros gratuitos que recibirá cada usuario beneficiado por el bono.</td></tr><tr><td><strong><code>Jugadores</code></strong></td><td>Botón "<strong>Seleccionar archivo</strong>"</td><td>Permite cargar un archivo en formato CSV con los ID de los jugadores que recibirán el bono. El sistema procesará automáticamente la información y asignará el bono a los usuarios incluidos en el archivo.</td></tr></tbody></table>
 
@@ -56,10 +79,8 @@ Estas son las configuraciones principales y necesarias para generar un bono Free
 
 <details>
 
-<summary>🔽 Historial de versiones.</summary>
+<summary>🔽 Historial de versiones</summary>
 
-| Versión | Fecha      | Autor         | Cambios Realizados |
-| ------- | ---------- | ------------- | ------------------ |
-| 1.0     | 23/06/2026 | Ronald Peláez | Documento inicial  |
+<table><thead><tr><th width="99.888916015625">Versión</th><th width="128.87872314453125">Fecha</th><th width="153.94952392578125">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>23/06/2026</td><td>Ronald Peláez</td><td>Documento inicial</td></tr><tr><td>1.1</td><td>26/11/2026</td><td>David Velasquez</td><td>Actualización de la estructura del manual.</td></tr></tbody></table>
 
 </details>

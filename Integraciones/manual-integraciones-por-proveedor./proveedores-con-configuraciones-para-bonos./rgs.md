@@ -1,20 +1,44 @@
+---
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
+---
 # RGS
 
-### Configuración general
+<mark style="color:$info;">Aquí encontrarás información importante que se debe tener en cuenta al momento de la creación de un bono FreeSpin para el proveedor RGS.</mark>
 
-### 1. Acceso al Módulo:
+### 1. Acceso al Módulo
 
-**Ruta de Acceso**: BackOffice > Torneos y Bonos > Bono FreeSpin
+**Ruta de Acceso**: Torneos y bonos > Crear bono > Seleccionar País > FreeSpin
 
 ***
 
-### 2. Visualización:
+### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/image (108).png" alt=""><figcaption><p>Figura#1: Captura de pantalla creación bono freeSpin.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (108).png" alt=""><figcaption><p>Figura #1: Captura de pantalla creación bono freeSpin.</p></figcaption></figure>
 
-### **3. Acciones del Usuario**
+### 3. Formulario para creación de bonos RGS
 
-Estas son las configuraciones principales y necesarias para generar un bono FreeSpin con los juegos del proveedor Popiplay, en caso de necesitar información más detallada sobre cómo crear el bono FreeSpin, puedes acceder a la siguiente página:
+Estas configuraciones corresponden a los campos que pueden presentar comportamientos específicos o variaciones propias del proveedor **RGS** dentro del proceso de creación de bonos FreeSpin.
+
+Para consultar el detalle completo de los demás campos y la configuración general del bono, se recomienda acceder a la documentación principal indicada a continuación.
 
 {% content-ref url="https://app.gitbook.com/s/rLdGx9JdTz3uLoquKvJw/readme/como-acceder-a-la-plataforma-./crear-eventos./crear-bono./freespin" %}
 [FreeSpin](https://app.gitbook.com/s/rLdGx9JdTz3uLoquKvJw/readme/como-acceder-a-la-plataforma-./crear-eventos./crear-bono./freespin)
@@ -34,7 +58,7 @@ La información de este bono estará disponible en la reportería de _Productos 
 
 ***
 
-### **4. Validaciones y Reglas de Negocio**
+### 4. Validaciones y Reglas de Negocio
 
 * El bono se crea de forma inmediata, pero la asignación a jugadores puede tardar entre **2 y 3 minutos**.
 * No se permite la creación de bonos con fechas de inicio anteriores a la fecha actual del sistema.
@@ -43,8 +67,12 @@ La información de este bono estará disponible en la reportería de _Productos 
 
 ***
 
-### &#x20;**5. Control de Versiones**
+### 5. Control de Versiones
 
-| Versión | Fecha      | Autor           | Cambios Realizados |
-| ------- | ---------- | --------------- | ------------------ |
-| 1.0     | 17/09/2025 | David velasquez | Documento inicial  |
+<details>
+
+<summary>🔽 Historial de versiones</summary>
+
+<table><thead><tr><th width="99.888916015625">Versión</th><th width="128.87872314453125">Fecha</th><th width="153.94952392578125">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>17/09/2025</td><td>David Velasquez</td><td>Documento inicial</td></tr><tr><td>1.1</td><td>26/11/2026</td><td>David Velasquez</td><td>Actualización de la estructura del manual.</td></tr></tbody></table>
+
+</details>

@@ -1,13 +1,10 @@
 ---
-description: >-
-  Permite la creación, configuración y gestión de bonos de giros gratuitos
-  (FreeSpin) asociados a los juegos del proveedor.
 layout:
   width: default
   title:
     visible: true
   description:
-    visible: true
+    visible: false
   tableOfContents:
     visible: true
   outline:
@@ -26,6 +23,8 @@ layout:
 
 # AMUSNET.
 
+<mark style="color:$info;">Permite la creación, configuración y gestión de bonos de giros gratuitos (FreeSpin) asociados a los juegos del proveedor.</mark>
+
 {% hint style="warning" %}
 **Notas**:&#x20;
 
@@ -33,12 +32,12 @@ layout:
   Por ejemplo: si crea 1000 campañas el 20 de junio _(independientemente de la Fecha de Inicio de la campaña)_, su cuota se agotará y no podrá crear más hasta finales de junio.
 * En este manual se detallan únicamente los campos cuya configuración presenta condiciones, variaciones o restricciones específicas para la creación de bonos FreeSpin con el proveedor AMUSNET.\
   Para más detalles sobre el proceso completo de creación del bono FreeSpin, consulta la siguiente página.\
-  [Manual de usuario FreeSpin](https://virtualsoft.gitbook.io/manuales/torneos-y-bonos/torneos-y-bonos./como-acceder-a-la-plataforma-./crear-eventos./crear-bono./freespin.)
+  [Manual de usuario FreeSpin](https://app.gitbook.com/s/rLdGx9JdTz3uLoquKvJw/readme/como-acceder-a-la-plataforma-./crear-eventos./crear-bono./freespin)
 {% endhint %}
 
-### 1. Acceso al Módulo:
+### 1. Acceso al Módulo
 
-**Ruta de Acceso**: BackOffice > Torneos y Bonos > Crear bono > Seleccionar país > Bono FreeSpin
+**Ruta de Acceso**: Torneos y bonos > Crear bono > Seleccionar País > FreeSpin
 
 ***
 
@@ -48,7 +47,7 @@ layout:
 
 ***
 
-### 3. Formulario para creación de bonos Amusnet.
+### 3. Formulario para creación de bonos AMUSNET
 
 Estas configuraciones corresponden a los campos que pueden presentar comportamientos específicos o variaciones propias del proveedor **Amusnet** dentro del proceso de creación de bonos FreeSpin.
 
@@ -58,10 +57,10 @@ Para consultar el detalle completo de los demás campos y la configuración gene
 
 En el caso de AMUSNET, la configuración varía según el tipo de bono que se cree. Este campo se ajusta en la configuración de la moneda y, dependiendo del bono, puede afectar parámetros definidos previamente.
 
-#### 3.1 Configuración por tipo de bono.
+#### 3.1 Configuración por tipo de bono
 
 {% hint style="warning" %}
-**Nota**: Estas configuraciones se despliegan luego de seleccionar el botón correspondiente a la moneda correspondiente al país al cual se está configurando el bono, pero los campos cambian según la opción seleccionada en el campo "**`Tipo de Bonos`**".
+**Nota:** Estas configuraciones se despliegan luego de seleccionar el botón correspondiente a la moneda correspondiente al país al cual se está configurando el bono, pero los campos cambian según la opción seleccionada en el campo "**`Tipo de Bonos`**".
 {% endhint %}
 
 {% tabs %}
@@ -104,7 +103,7 @@ Este tipo de Free Spin otorga rondas gratuitas durante un período de tiempo det
 
 ***
 
-### **4. Validaciones y Reglas de Negocio** <a href="#id-4.-validaciones-y-reglas-de-negocio" id="id-4.-validaciones-y-reglas-de-negocio"></a>
+### 4. Validaciones y Reglas de Negocio <a href="#id-4.-validaciones-y-reglas-de-negocio" id="id-4.-validaciones-y-reglas-de-negocio"></a>
 
 * El bono se crea de forma inmediata, pero la asignación a jugadores puede tardar entre **2 y 3 minutos**.
 * El bono solo puede configurarse para un único juego. Si se seleccionan varios, el sistema asignará uno de ellos de forma aleatoria al momento de la creación.
@@ -112,12 +111,12 @@ Este tipo de Free Spin otorga rondas gratuitas durante un período de tiempo det
 
 ***
 
-### 5. Control de versiones.
+### 5. Control de Versiones
 
 <details>
 
 <summary>🔽 Historial de versiones</summary>
 
-<table><thead><tr><th width="100">Versión</th><th width="155">Fecha</th><th width="156">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>26/09/2025</td><td>Karol Navia</td><td>Documento inicial</td></tr><tr><td>1.1</td><td>15/04/2025</td><td>Ronald Peláez</td><td>Se agrega el nuevo tipo de bono y se actualiza el manual.</td></tr><tr><td>1.2</td><td>19/08/2026</td><td>Ronald Peláez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-32225#icft=VSFT-32225">Actualización en el tipo de bono <strong><code>Countdown free spin</code></strong>.</a></td></tr></tbody></table>
+<table><thead><tr><th width="99.888916015625">Versión</th><th width="128.87872314453125">Fecha</th><th width="153.94952392578125">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>26/09/2025</td><td>Karol Navia</td><td>Documento inicial</td></tr><tr><td>1.1</td><td>15/04/2025</td><td>Ronald Peláez</td><td>Se agrega el nuevo tipo de bono y se actualiza el manual.</td></tr><tr><td>1.2</td><td>19/08/2026</td><td>Ronald Peláez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-32225#icft=VSFT-32225">Actualización en el tipo de bono <strong><code>Countdown free spin</code></strong>.</a></td></tr><tr><td>1.3</td><td>26/11/2026</td><td>David Velasquez</td><td>Actualización de la estructura del manual.</td></tr></tbody></table>
 
 </details>

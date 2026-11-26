@@ -1,12 +1,31 @@
 ---
-description: >-
-  Aquí encontrarás información importante que se debe tener en cuenta al momento
-  de la creación de un bono FreeSpin para PLAYTECH.
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
 
 # PLAYTECH.
 
-### 1. Acceso al Módulo:
+<mark style="color:$info;">Aquí encontrarás información importante que se debe tener en cuenta al momento de la creación de un bono FreeSpin para PLAYTECH.</mark>
+
+### 1. Acceso al Módulo
 
 **Ruta de Acceso**: Torneos y bonos > Crear bono > Seleccionar País > FreeSpin
 
@@ -14,17 +33,19 @@ description: >-
 
 ### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/image (128).png" alt=""><figcaption><p>Figura#1: Captura de pantalla creación bono Free Spin.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (128).png" alt=""><figcaption><p>Figura #1: Captura de pantalla creación bono Free Spin.</p></figcaption></figure>
 
 ***
 
-### **3. Formulario para creación de bonos** PLAYTECH
+### 3. Formulario para creación de bonos PLAYTECH
 
 Estas configuraciones corresponden a los campos que pueden presentar comportamientos específicos o variaciones propias del proveedor PLAYTECH dentro del proceso de creación de bonos FreeSpin.
 
 Para consultar el detalle completo de los demás campos y la configuración general del bono, se recomienda acceder a la documentación principal indicada a continuación.
 
-{% embed url="https://virtualsoft.gitbook.io/manuales/torneos-y-bonos/torneos-y-bonos./como-acceder-a-la-plataforma-./crear-eventos./crear-bono./freespin" %}
+{% content-ref url="https://app.gitbook.com/s/rLdGx9JdTz3uLoquKvJw/readme/como-acceder-a-la-plataforma-./crear-eventos./crear-bono./freespin" %}
+[FreeSpin](https://app.gitbook.com/s/rLdGx9JdTz3uLoquKvJw/readme/como-acceder-a-la-plataforma-./crear-eventos./crear-bono./freespin)
+{% endcontent-ref %}
 
 <table><thead><tr><th width="140.5">Sección</th><th width="108.126220703125">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Rango de fechas</code></strong></td><td>Selector de fecha + botón</td><td><p>Define la fecha de inicio y finalización en la que el bono estará disponible.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Notas:</strong> </p><ul><li>La fecha de finalización debe ser siempre posterior a la fecha de inicio. Se recomienda configurar algunos minutos de holgura en la fecha de inicio para asegurar la correcta creación y activación del bono.</li><li>El rango de fecha máximo para la vigencia de un bono con este proveedor es de 30 días.</li></ul></div></td></tr><tr><td><strong><code>Proveedor</code></strong></td><td>Botón</td><td><p>Selecciona el proveedor del bono, en este caso "<strong>PLAYTECH</strong>".</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Al seleccionar el juego correspondiente se desplegará una tabla en la que se indicará que porcentaje del bono será asumido por el proveedor PLAYTECH<strong>.</strong></p></div></td></tr><tr><td><strong><code>Productos</code></strong></td><td>Botón</td><td><p>Selecciona el juego <em>(producto)</em> para el cual aplicará el bono.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota</strong>: Para este proveedor se pueden seleccionar varios Juegos.</p></div></td></tr><tr><td><strong><code>Moneda</code></strong></td><td>Botón</td><td>Al seleccionar la moneda, se activarán las siguientes configuraciones.<br><a href="playtech..md#configuracion-de-moneda" class="button secondary">Configuraciones disponibles</a></td></tr></tbody></table>
 
@@ -45,7 +66,7 @@ Finaliza la configuración del bono guardando y aplicando las configuraciones re
 * La información de este bono estará disponible en la reportería de _Productos No Deportivos_.
 
 {% hint style="warning" %}
-**Nota**: Si se realiza una compra de giros en la tienda del proveedor, las ganancias de estos giros se reportarán como "**Premios**" y no como "**Premios bonos**"
+**Nota:** Si se realiza una compra de giros en la tienda del proveedor, las ganancias de estos giros se reportarán como "**Premios**" y no como "**Premios bonos**"
 {% endhint %}
 
 {% content-ref url="https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/reportes/reporte-productos-no-deportivos" %}
@@ -64,7 +85,7 @@ Finaliza la configuración del bono guardando y aplicando las configuraciones re
 
 ***
 
-### **4. Validaciones y Reglas de Negocio**
+### 4. Validaciones y Reglas de Negocio
 
 * El bono se crea de forma inmediata, pero la asignación a jugadores puede tardar entre **2 y 3 minutos**.
 * El **Código de plantilla** debe existir y encontrarse configurado previamente en el BackOffice del proveedor **PLAYTECH**. Si el código no existe o es inválido, el bono no podrá ser creado.
@@ -73,12 +94,12 @@ Finaliza la configuración del bono guardando y aplicando las configuraciones re
 
 ***
 
-### &#x20;**5. Control de Versiones**
+### 5. Control de Versiones
 
 <details>
 
-<summary>🔽Historial de versiones.</summary>
+<summary>🔽 Historial de versiones</summary>
 
-<table><thead><tr><th width="102.4814453125">Versión</th><th width="123">Fecha</th><th width="124.2220458984375">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>13/06/2026</td><td>Karol Navia</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-32244">Reestructuración del manual conforme a la plantilla.</a></td></tr></tbody></table>
+<table><thead><tr><th width="99.888916015625">Versión</th><th width="128.87872314453125">Fecha</th><th width="153.94952392578125">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>13/06/2026</td><td>Karol Navia</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-32244">Reestructuración del manual conforme a la plantilla.</a></td></tr><tr><td>1.1</td><td>26/11/2026</td><td>David Velasquez</td><td>Actualización de la estructura del manual.</td></tr></tbody></table>
 
 </details>

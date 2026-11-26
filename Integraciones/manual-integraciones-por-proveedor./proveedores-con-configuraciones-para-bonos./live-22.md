@@ -1,30 +1,53 @@
 ---
-description: >-
-  Aquí encontrarás información importante que se debe tener en cuenta al momento
-  de la creación de un bono FreeSpin para el proveedor Live 22.
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
 
 # Live 22
+
+<mark style="color:$info;">Aquí encontrarás información importante que se debe tener en cuenta al momento de la creación de un bono FreeSpin para el proveedor Live 22.</mark>
 
 {% hint style="warning" %}
 **Nota:** En este proveedor, los **FreeSpins**, aunque no tienen costo para el usuario, se procesan como giros normales y requieren que la cuenta tenga un saldo suficiente para ejecutarlos. Por recomendación del proveedor, se debe garantizar un saldo superior a **100 USD** para evitar errores de **saldo insuficiente** durante la redención.
 {% endhint %}
 
-### 1. Acceso al Módulo:
+### 1. Acceso al Módulo
 
-**Ruta de Acceso**: BackOffice > Torneos y Bonos > Bono FreeSpin
+**Ruta de Acceso**: Torneos y bonos > Crear bono > Seleccionar País > FreeSpin
 
 ***
 
-### 2. Visualización:
+### 2. Visualización
 
-<figure><img src="../../.gitbook/assets/image (148).png" alt=""><figcaption><p>Figura#1: Captura de pantalla creación bono Free Spin.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (148).png" alt=""><figcaption><p>Figura #1: Captura de pantalla creación bono Free Spin.</p></figcaption></figure>
 
-### **3. Acciones del Usuario**
+### 3. Formulario para creación de bonos Live 22
 
-Estas son las configuraciones principales y necesarias para generar un bono FreeSpin con los juegos del proveedor **Live 22**, en caso de necesitar información más detallada sobre cómo crear el bono FreeSpin, puedes acceder a la siguiente página:
+Estas configuraciones corresponden a los campos que pueden presentar comportamientos específicos o variaciones propias del proveedor **Live 22** dentro del proceso de creación de bonos FreeSpin.
 
-{% embed url="https://virtualsoft.gitbook.io/manuales/torneos-y-bonos/torneos-y-bonos./como-acceder-a-la-plataforma-./crear-eventos./crear-bono./freespin" %}
+Para consultar el detalle completo de los demás campos y la configuración general del bono, se recomienda acceder a la documentación principal indicada a continuación.
+
+{% content-ref url="https://app.gitbook.com/s/rLdGx9JdTz3uLoquKvJw/readme/como-acceder-a-la-plataforma-./crear-eventos./crear-bono./freespin" %}
+[FreeSpin](https://app.gitbook.com/s/rLdGx9JdTz3uLoquKvJw/readme/como-acceder-a-la-plataforma-./crear-eventos./crear-bono./freespin)
+{% endcontent-ref %}
 
 #### 3.1 Filtros
 
@@ -48,7 +71,7 @@ Este resultado representa el monto que se consume del bono en cada giro realizad
 
 <table><thead><tr><th width="114">Campo</th><th width="121">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Valor por ronda</code></strong></td><td>Campo numérico</td><td><p>Valor que tendrá el bono por cada ronda jugada, este debe ser configurado obligatoriamente, aunque el valor que realmente se utiliza dentro del juego es el <strong>Total Bet</strong>. Sin embargo, su configuración es necesaria, ya que hace parte de la fórmula previamente definida.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> El valor ingresado en este campo debe ser igual a los valores disponibles en apuestas dentro del juego.</p></div></td></tr><tr><td><strong><code>Rondas gratuitas</code></strong></td><td>Numérico</td><td>Establece la cantidad de giros gratis que tendrá este bono.</td></tr><tr><td><strong><code>Limite de ganancia</code></strong></td><td>Numérico</td><td><p>Define monto máximo que un usuario puede ganar en una apuesta.</p><div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p><strong>Ejemplo:</strong></p><p>Se realiza una apuesta cuya ganancia potencial es de <strong>$500.000</strong>.<br>Sin embargo, el sistema tiene configurado un <strong>límite de ganancia de $300.000</strong>. Aunque la apuesta genere una ganancia mayor, el usuario <strong>sólo recibirá $300.000</strong>, ya que este valor corresponde al límite máximo permitido.</p></div></td></tr><tr><td><strong><code>valor de línea</code></strong></td><td>Numérico</td><td>Corresponde al valor que se asigna a cada línea o línea de pago dentro del juego, el cual se utiliza como base para el cálculo de la apuesta total.</td></tr><tr><td><strong><code>Jugadores</code></strong></td><td>Botón "Seleccionar archivo"</td><td>Permite cargar un archivo en formato CSV con los ID de los jugadores que recibirán el bono.</td></tr></tbody></table>
 
-<a href="live-22.md#id-3.-acciones-del-usuario" class="button secondary">Regresar</a>
+<a href="live-22.md#id-3.-formulario-para-creacion-de-bonos-live-22" class="button secondary">Regresar</a>
 
 </details>
 
@@ -68,25 +91,19 @@ La información de este bono estará disponible en la reportería de _Productos 
 
 ***
 
-### **4. Validaciones y Reglas de Negocio**
+### 4. Validaciones y Reglas de Negocio
 
 * El bono se crea de forma inmediata, pero la asignación a jugadores puede tardar entre **2 y 3 minutos**.
 * El bono solo se puede crear para un único juego, en caso de crearlo para distintos juegos, escogerá uno al azar.
 
 ***
 
-### &#x20;**5. Control de Versiones**
+### 5. Control de Versiones
 
 <details>
 
 <summary>🔽 Historial de versiones</summary>
 
-| Versión | Fecha      | Autor           | Cambios Realizados                                                                         |
-| ------- | ---------- | --------------- | ------------------------------------------------------------------------------------------ |
-| 1.0     | 31/03/2026 | Karol Navia     | Documento inicial                                                                          |
-| 1.1     | 27/08/2026 | David vealsquez | [Incorporación de nota](https://virtualsoftlatam.atlassian.net/browse/VSFT-32166)          |
-| 1.2     | 14/10/2026 | Ronald Peláez   | [Refiniamiento.](https://virtualsoftlatam.atlassian.net/browse/VSFT-32981#icft=VSFT-32981) |
-
-
+<table><thead><tr><th width="99.888916015625">Versión</th><th width="128.87872314453125">Fecha</th><th width="153.94952392578125">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>31/03/2026</td><td>Karol Navia</td><td>Documento inicial</td></tr><tr><td>1.1</td><td>27/08/2026</td><td>David Velasquez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-32166">Incorporación de nota</a></td></tr><tr><td>1.2</td><td>14/10/2026</td><td>Ronald Peláez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-32981#icft=VSFT-32981">Refinamiento.</a></td></tr><tr><td>1.3</td><td>26/11/2026</td><td>David Velasquez</td><td>Actualización de la estructura del manual.</td></tr></tbody></table>
 
 </details>

@@ -1,12 +1,31 @@
 ---
-description: >-
-  Aquí encontrarás información importante que se debe tener en cuenta al momento
-  de la creación de un bono FreeSpin para el proveedor NETWORK 1X2.
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
 
 # NETWORK 1X2
 
-### 1. Acceso al Módulo:
+<mark style="color:$info;">Aquí encontrarás información importante que se debe tener en cuenta al momento de la creación de un bono FreeSpin para el proveedor NETWORK 1X2.</mark>
+
+### 1. Acceso al Módulo
 
 **Ruta de Acceso**: Torneos y bonos > Crear bono > Seleccionar País > FreeSpin
 
@@ -16,7 +35,7 @@ description: >-
 
 <figure><img src="../../.gitbook/assets/image (155).png" alt=""><figcaption><p>Figura #1: Captura de pantalla creación bono Free Spin.</p></figcaption></figure>
 
-### **3. Formulario para creación de bonos** NETWORK 1X2
+### 3. Formulario para creación de bonos NETWORK 1X2
 
 Estas configuraciones corresponden a los campos que pueden presentar comportamientos específicos o variaciones propias del proveedor **NETWORK 1X2** dentro del proceso de creación de bonos FreeSpin.
 
@@ -45,7 +64,7 @@ Finaliza la configuración del bono guardando y aplicando las configuraciones re
 * La información de este bono estará disponible en la reportería de _Productos No Deportivos_.
 
 {% hint style="warning" %}
-**Nota**: Si se realiza una compra de giros en la tienda del proveedor, las ganancias de estos giros se reportarán como "**Premios**" y no como "**Premios bonos**"
+**Nota:** Si se realiza una compra de giros en la tienda del proveedor, las ganancias de estos giros se reportarán como "**Premios**" y no como "**Premios bonos**"
 {% endhint %}
 
 {% content-ref url="https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/reportes/reporte-productos-no-deportivos" %}
@@ -64,7 +83,7 @@ Finaliza la configuración del bono guardando y aplicando las configuraciones re
 
 ***
 
-### **4. Validaciones y Reglas de Negocio**
+### 4. Validaciones y Reglas de Negocio
 
 * El bono se crea de forma inmediata, pero la asignación a jugadores puede tardar entre **2 y 3 minutos**.
 * Este bono podrá crearse para varios juegos, pero solo podrá ser utilizado en un juego.
@@ -73,12 +92,12 @@ Finaliza la configuración del bono guardando y aplicando las configuraciones re
 
 ***
 
-### &#x20;**5. Control de Versiones**
+### 5. Control de Versiones
 
 <details>
 
-<summary>🔽 Historial de versiones.</summary>
+<summary>🔽 Historial de versiones</summary>
 
-<table><thead><tr><th width="105.8148193359375">Versión</th><th>Fecha</th><th>Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>20/11/2026</td><td>David Velasquez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-33800">Documento inicial </a></td></tr></tbody></table>
+<table><thead><tr><th width="99.888916015625">Versión</th><th width="128.87872314453125">Fecha</th><th width="153.94952392578125">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>20/11/2026</td><td>David Velasquez</td><td><a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-33800">Documento inicial </a></td></tr><tr><td>1.1</td><td>26/11/2026</td><td>David Velasquez</td><td>Actualización de la estructura del manual.</td></tr></tbody></table>
 
 </details>
