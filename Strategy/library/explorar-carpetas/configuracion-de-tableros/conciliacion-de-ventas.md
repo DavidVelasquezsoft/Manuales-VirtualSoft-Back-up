@@ -35,11 +35,11 @@ Su finalidad es validar que las ventas registradas impacten correctamente los sa
 
 ### 1. Acceso al Módulo
 
-**Ruta de acceso:**<br>
+**Ruta de acceso:** Virtualsoft > Informes compartidos > Datas TI > Paneles Visuales > Retail > Conciliación de Ventas
 
 ***
 
-### 2. 🖼️Visualización
+### 2. Visualización
 
 <figure><img src="../../../.gitbook/assets/image (20) (1).png" alt=""><figcaption><p>Figura #1: captura de pantalla conciliación de ventas</p></figcaption></figure>
 
@@ -91,7 +91,7 @@ Esta tabla contiene información más detallada sobre los desfaces reportados.
 
 ***
 
-### 6. ✅Reglas y validaciones.
+### 6. Reglas y validaciones.
 
 * Si el resultado es **0**, los valores coinciden, en caso de ser distinto, no coinciden.
 * El desfase puede mostrarse con signo positivo o negativo.
@@ -101,6 +101,12 @@ Esta tabla contiene información más detallada sobre los desfaces reportados.
 
 ***
 
-### 7.🕛 Control de Versiones
+### 7. Control de Versiones
+
+<details>
+
+<summary>🔽 Historial de versiones</summary>
 
 <table><thead><tr><th width="98">Versión</th><th width="133">Fecha</th><th width="148">Autor</th><th>Cambios</th></tr></thead><tbody><tr><td>1.0</td><td>27/02/2026</td><td>Ronald Peláez</td><td>Documento inicial</td></tr></tbody></table>
+
+</details>

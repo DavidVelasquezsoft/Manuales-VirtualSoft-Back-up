@@ -45,7 +45,7 @@ Antes de visualizar el reporte, es necesario definir las [configuraciones previa
 
 ***
 
-### 3. 🖼️Visualización
+### 3. Visualización
 
 <figure><img src="../../../.gitbook/assets/image (19) (1).png" alt=""><figcaption><p>Figura #1: captura de pantalla dashboard seguimiento caídas jackpot.</p></figcaption></figure>
 
@@ -103,12 +103,18 @@ El panel izquierdo permite aplicar los siguientes filtros:
 
 ***
 
-### 7. ✅Reglas y validaciones.
+### 7. Reglas y validaciones.
 
 * El dashboard es dinámico: al seleccionar un registro en las tablas, las gráficas se actualizan automáticamente para reflejar la información correspondiente al contexto seleccionado.
 
 ***
 
-### 8.🕛 Control de Versiones
+### 8. Control de Versiones
+
+<details>
+
+<summary>🔽 Historial de versiones</summary>
 
 <table><thead><tr><th width="98">Versión</th><th width="133">Fecha</th><th width="148">Autor</th><th>Cambios</th></tr></thead><tbody><tr><td>1.0</td><td>24/03/2026</td><td>Ronald Peláez</td><td>Documento inicial</td></tr></tbody></table>
+
+</details>

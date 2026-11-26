@@ -40,7 +40,7 @@ BackOffice > Inteligencia de Negocios > Conciliación de Saldos
 
 ***
 
-### 2. 🖼️Visualización
+### 2. Visualización
 
 <figure><img src="../../../.gitbook/assets/image (149) (1).png" alt=""><figcaption><p>Figura #1: Captura de pantalla – Dashboard Conciliación de Saldos.</p></figcaption></figure>
 
@@ -96,7 +96,7 @@ La validación de la información puede contrastarse con los siguientes módulos
 
 ***
 
-### 8. ✅Reglas y Validaciones
+### 7. Reglas y Validaciones
 
 * Si la diferencia es **0**, los valores coinciden.
 * Si la diferencia es distinta de **0**, existe variación.
@@ -108,6 +108,12 @@ La validación de la información puede contrastarse con los siguientes módulos
 
 ***
 
-### 9.🕛 Control de Versiones
+### 8. Control de Versiones
+
+<details>
+
+<summary>🔽 Historial de versiones</summary>
 
 <table><thead><tr><th width="99">Versión</th><th width="123">Fecha</th><th width="144">Autor</th><th>Cambios</th></tr></thead><tbody><tr><td>1.0</td><td>04/03/2026</td><td>Ronald Peláez</td><td>Documento inicial</td></tr></tbody></table>
+
+</details>

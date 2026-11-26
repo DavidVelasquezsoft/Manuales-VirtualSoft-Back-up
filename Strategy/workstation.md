@@ -55,7 +55,7 @@ A continuación, se presenta una **guía interactiva** que muestra cómo navegar
 
 {% @guideflow/guideflow-embed requestedUrl="https://app.guideflow.com/player/er58yw1a6r" %}
 
-#### 2.3. ➕ Crear Dashboards e informes
+#### 2.3. Crear Dashboards e informes
 
 Desde el menú lateral, haga clic en el botón **"+"** para iniciar la creación de contenido.\
 Al hacerlo, se abrirá una ventana emergente con las opciones disponibles.
@@ -66,6 +66,12 @@ Seleccione **Informe vacío** o **Dashboard en blanco**, según el tipo de conte
 
 ***
 
-### 3. 🕒 Control de Versiones
+### 3. Control de Versiones
+
+<details>
+
+<summary>🔽 Historial de versiones</summary>
 
 <table><thead><tr><th width="99.66665649414062">Versión</th><th width="150.6666259765625">Fecha</th><th width="180">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>06/02/2026</td><td>David velasquez</td><td>Documento inicial</td></tr></tbody></table>
+
+</details>
