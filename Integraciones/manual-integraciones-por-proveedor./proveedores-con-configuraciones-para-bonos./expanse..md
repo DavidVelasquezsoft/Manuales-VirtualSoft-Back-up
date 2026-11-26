@@ -71,19 +71,7 @@ Finaliza la configuración del bono guardando y aplicando las configuraciones re
 
 ***
 
-### 5. EXPANSE en plataforma
-
-El ejemplo se realiza desde la plataforma Doradobet, en la siguiente ruta:
-
-* **Menú / Casino / EXPANSE**
-
-Al seguir esta ruta se filtran solo los juegos disponibles del proveedor EXPANSE.
-
-<figure><img src="../../.gitbook/assets/image (66).png" alt=""><figcaption><p>Figura #2: Captura de pantalla filtro proveedores.</p></figcaption></figure>
-
-***
-
-### 6. Control de Versiones
+### 5. Control de Versiones
 
 <details>
 

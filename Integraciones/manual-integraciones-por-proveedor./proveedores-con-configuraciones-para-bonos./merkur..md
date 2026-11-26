@@ -70,9 +70,9 @@ Finaliza la configuración del bono guardando y aplicando las configuraciones re
 ### 4. Validaciones y Reglas de Negocio
 
 * Al seleccionar **Proveedores** y **Productos**, se mostrará una tabla donde se debe definir el porcentaje del bono que asumirá el proveedor.
-* El valor ingresado en el campo **`Valor por ronda`** debe coincidir exactamente con el permitido por el juego. En caso de que no coincida, el bono no se activará.
+*   El valor ingresado en el campo **`Valor por ronda`** debe coincidir exactamente con el permitido por el juego. En caso de que no coincida, el bono no se activará.
 
-  <div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p><strong>Ejemplo:</strong> Si el juego permite máximo 5 y se configura 10, el bono no funcionará.</p></div>
+    <div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p><strong>Ejemplo:</strong> Si el juego permite máximo 5 y se configura 10, el bono no funcionará.</p></div>
 * Los ID de los jugadores deben estar correctamente estructurados en el archivo .CSV, ya que el sistema activa automáticamente los bonos según este archivo.
 * Solo se podrán seleccionar juegos disponibles del proveedor **Merkur**.
 * La selección de moneda es obligatoria para habilitar los campos del bono.
@@ -80,13 +80,7 @@ Finaliza la configuración del bono guardando y aplicando las configuraciones re
 
 ***
 
-### 5. Glosario
-
-<table><thead><tr><th width="200">Término</th><th>Definición</th></tr></thead><tbody><tr><td><strong>Valor por ronda</strong></td><td>Monto económico asignado a cada jugada gratuita otorgada por el bono.</td></tr><tr><td><strong>Rondas gratuitas</strong></td><td>Cantidad total de jugadas que se asignan al jugador como parte del bono.</td></tr><tr><td><strong>CSV</strong></td><td>Archivo de valores separados por comas, debe contener los ID de usuarios.</td></tr><tr><td><strong>Bono FreeSpin</strong></td><td>Bono que otorga jugadas gratuitas en juegos específicos.</td></tr></tbody></table>
-
-***
-
-### 6. Control de Versiones
+### 5. Control de Versiones
 
 <details>
 

@@ -70,19 +70,7 @@ Finaliza la configuración del bono guardando y aplicando las configuraciones re
 
 ***
 
-### 5. TaDa gaming en plataforma
-
-El ejemplo se realiza desde la plataforma Doradobet, en la siguiente ruta:
-
-* **Menú / Casino / TaDa gaming**
-
-Al seguir esta ruta se filtran solo los juegos disponibles del proveedor TaDa gaming.
-
-<figure><img src="../../.gitbook/assets/image (63).png" alt=""><figcaption><p>Figura #2: Captura de pantalla Juegos filtrados.</p></figcaption></figure>
-
-***
-
-### 6. Control de Versiones
+### 5. Control de Versiones
 
 <details>
 
