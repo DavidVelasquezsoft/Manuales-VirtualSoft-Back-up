@@ -69,7 +69,7 @@ Este valor no es configurable directamente, ya que se calcula automáticamente c
 Este resultado representa el monto que se consume del bono en cada giro realizado.
 {% endhint %}
 
-<table><thead><tr><th width="114">Campo</th><th width="121">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Valor por ronda</code></strong></td><td>Campo numérico</td><td><p>Valor que tendrá el bono por cada ronda jugada, este debe ser configurado obligatoriamente, aunque el valor que realmente se utiliza dentro del juego es el <strong>Total Bet</strong>. Sin embargo, su configuración es necesaria, ya que hace parte de la fórmula previamente definida.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> El valor ingresado en este campo debe ser igual a los valores disponibles en apuestas dentro del juego.</p></div></td></tr><tr><td><strong><code>Rondas gratuitas</code></strong></td><td>Numérico</td><td>Establece la cantidad de giros gratis que tendrá este bono.</td></tr><tr><td><strong><code>Limite de ganancia</code></strong></td><td>Numérico</td><td><p>Define monto máximo que un usuario puede ganar en una apuesta.</p><div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p><strong>Ejemplo:</strong></p><p>Se realiza una apuesta cuya ganancia potencial es de <strong>$500.000</strong>.<br>Sin embargo, el sistema tiene configurado un <strong>límite de ganancia de $300.000</strong>. Aunque la apuesta genere una ganancia mayor, el usuario <strong>sólo recibirá $300.000</strong>, ya que este valor corresponde al límite máximo permitido.</p></div></td></tr><tr><td><strong><code>valor de línea</code></strong></td><td>Numérico</td><td>Corresponde al valor que se asigna a cada línea o línea de pago dentro del juego, el cual se utiliza como base para el cálculo de la apuesta total.</td></tr><tr><td><strong><code>Jugadores</code></strong></td><td>Botón "Seleccionar archivo"</td><td>Permite cargar un archivo en formato CSV con los ID de los jugadores que recibirán el bono.</td></tr></tbody></table>
+<table><thead><tr><th width="114">Campo</th><th width="121">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Valor por ronda</code></strong></td><td>Campo numérico</td><td><p>Valor que tendrá el bono por cada ronda jugada, este debe ser configurado obligatoriamente, aunque el valor que realmente se utiliza dentro del juego es el <strong>Total Bet</strong>. Sin embargo, su configuración es necesaria, ya que hace parte de la fórmula previamente definida.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> El valor ingresado en este campo debe ser igual a los valores disponibles en apuestas dentro del juego.</p></div></td></tr><tr><td><strong><code>Rondas gratuitas</code></strong></td><td>Numérico</td><td>Establece la cantidad de giros gratis que tendrá este bono.</td></tr><tr><td><strong><code>Limite de ganancia</code></strong></td><td>Numérico</td><td><p>Define monto máximo que un usuario puede ganar en una apuesta.</p><div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p><strong>Ejemplo:</strong></p><p>Se realiza una apuesta cuya ganancia potencial es de <strong>$500.000</strong>.<br>Sin embargo, el sistema tiene configurado un <strong>límite de ganancia de $300.000</strong>. Aunque la apuesta genere una ganancia mayor, el usuario <strong>sólo recibirá $300.000</strong>, ya que este valor corresponde al límite máximo permitido.</p></div></td></tr><tr><td><strong><code>valor de línea</code></strong></td><td>Numérico</td><td>Corresponde al valor que se asigna a cada línea o línea de pago dentro del juego, el cual se utiliza como base para el cálculo de la apuesta total.</td></tr><tr><td><strong><code>Jugadores</code></strong></td><td>Botón "Seleccionar archivo"</td><td>Permite cargar un archivo en formato <a href="https://virtualsoft.gitbook.io/untitled/glosario#csv">CSV</a> con los ID de los jugadores que recibirán el bono.</td></tr></tbody></table>
 
 <a href="live-22.md#id-3.-formulario-para-creacion-de-bonos-live-22" class="button secondary">Regresar</a>
 
@@ -77,13 +77,21 @@ Este resultado representa el monto que se consume del bono en cada giro realizad
 
 ***
 
-La información de este bono estará disponible en la reportería de _Productos No Deportivos_.
+* La información de este bono estará disponible en la reportería de _Productos No Deportivos_.
+
+{% hint style="warning" %}
+**Nota:** Si se realiza una compra de giros en la tienda del proveedor, las ganancias de estos giros se reportarán como "**Premios**" y no como "**Premios bonos**"
+{% endhint %}
 
 {% content-ref url="https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/reportes/reporte-productos-no-deportivos" %}
 [Reporte productos no deportivos](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/reportes/reporte-productos-no-deportivos)
 {% endcontent-ref %}
 
 * La información sobre los movimientos realizados por el usuario con este bono estará disponible en la reportería _Historial de movimientos._
+
+{% hint style="warning" %}
+**Nota:** El historial de movimientos mostrará un registro independiente por cada jugada gratuita realizada.
+{% endhint %}
 
 {% content-ref url="https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/jugadores/reportes-seccion-jugadores/historial-de-movimientos" %}
 [Historial de movimientos](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/jugadores/reportes-seccion-jugadores/historial-de-movimientos)

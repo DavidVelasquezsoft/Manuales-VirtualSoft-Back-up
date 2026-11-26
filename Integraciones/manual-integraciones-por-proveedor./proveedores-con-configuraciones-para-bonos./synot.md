@@ -49,10 +49,24 @@ Para consultar el detalle completo de los demás campos y la configuración gene
 
 ***
 
-La información de este bono estará disponible en la reportería de _Productos No Deportivos_.
+* La información de este bono estará disponible en la reportería de _Productos No Deportivos_.
+
+{% hint style="warning" %}
+**Nota:** Si se realiza una compra de giros en la tienda del proveedor, las ganancias de estos giros se reportarán como "**Premios**" y no como "**Premios bonos**"
+{% endhint %}
 
 {% content-ref url="https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/reportes/reporte-productos-no-deportivos" %}
 [Reporte productos no deportivos](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/reportes/reporte-productos-no-deportivos)
+{% endcontent-ref %}
+
+* La información sobre los movimientos realizados por el usuario con este bono estará disponible en la reportería _Historial de movimientos._
+
+{% hint style="warning" %}
+**Nota:** El historial de movimientos mostrará un registro independiente por cada jugada gratuita realizada.
+{% endhint %}
+
+{% content-ref url="https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/jugadores/reportes-seccion-jugadores/historial-de-movimientos" %}
+[Historial de movimientos](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/jugadores/reportes-seccion-jugadores/historial-de-movimientos)
 {% endcontent-ref %}
 
 ***

@@ -53,7 +53,7 @@ Para consultar el detalle completo de los demás campos y la configuración gene
 
 Al seleccionar la moneda se desplegarán las siguientes configuraciones:
 
-<table><thead><tr><th width="117">Campo</th><th width="154">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Valor por ronda</code></strong></td><td>Numérico</td><td>Indica el valor que tendrá el bono por cada ronda jugada.</td></tr><tr><td><strong><code>Tipo de bono</code></strong></td><td>Lista desplegable</td><td>Establece que tipo de bono, para desplegar las configuraciones correspondientes.<br><a href="pateplay.md#tipos-de-bonos-disponibles" class="button secondary">Tipos de bonos disponibles.</a></td></tr><tr><td><strong><code>Jugadores</code></strong></td><td>Archivo CSV</td><td>Ingresa un archivo CSV con los id´s de los jugadores que tendrán acceso al bono.</td></tr></tbody></table>
+<table><thead><tr><th width="117">Campo</th><th width="154">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Valor por ronda</code></strong></td><td>Numérico</td><td>Indica el valor que tendrá el bono por cada ronda jugada.</td></tr><tr><td><strong><code>Tipo de bono</code></strong></td><td>Lista desplegable</td><td>Establece que tipo de bono, para desplegar las configuraciones correspondientes.<br><a href="pateplay.md#tipos-de-bonos-disponibles" class="button secondary">Tipos de bonos disponibles.</a></td></tr><tr><td><strong><code>Jugadores</code></strong></td><td>Archivo CSV</td><td>Ingresa un archivo <a href="https://virtualsoft.gitbook.io/untitled/glosario#csv">CSV</a> con los ID de los jugadores que tendrán acceso al bono.</td></tr></tbody></table>
 
 </details>
 
@@ -71,10 +71,24 @@ Para guardar y crear el bono se debe seleccionar el botón "**Guardar**"
 
 ***
 
-Los reportes sobre este bono estarán disponibles en la reportería de _Productos No Deportivos_.
+* La información de este bono estará disponible en la reportería de _Productos No Deportivos_.
+
+{% hint style="warning" %}
+**Nota:** Si se realiza una compra de giros en la tienda del proveedor, las ganancias de estos giros se reportarán como "**Premios**" y no como "**Premios bonos**"
+{% endhint %}
 
 {% content-ref url="https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/reportes/reporte-productos-no-deportivos" %}
 [Reporte productos no deportivos](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/reportes/reporte-productos-no-deportivos)
+{% endcontent-ref %}
+
+* La información sobre los movimientos realizados por el usuario con este bono estará disponible en la reportería _Historial de movimientos._
+
+{% hint style="warning" %}
+**Nota:** El historial de movimientos mostrará un registro independiente por cada jugada gratuita realizada.
+{% endhint %}
+
+{% content-ref url="https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/jugadores/reportes-seccion-jugadores/historial-de-movimientos" %}
+[Historial de movimientos](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/jugadores/reportes-seccion-jugadores/historial-de-movimientos)
 {% endcontent-ref %}
 
 ***

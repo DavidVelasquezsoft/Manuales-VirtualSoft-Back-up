@@ -53,13 +53,35 @@ Para consultar el detalle completo de los demás campos y la configuración gene
 
 <summary>🔽 Configuración de moneda</summary>
 
-<table><thead><tr><th width="114">Campo</th><th width="129">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Rondas gratuitas</code></strong></td><td>Numérico</td><td>Cantidad de rondas gratuitas que el usuario podrá jugar con este bono.</td></tr><tr><td><strong><code>Jugadores</code></strong></td><td>Botón "Seleccionar archivo"</td><td><p>Se debe ingresar el ID de cada usuario que tendrá el bono activo. Este proceso requiere cargar un archivo en formato <strong>CSV</strong> con los ID correspondientes. El sistema tomará los datos del archivo y activará automáticamente el bono para los jugadores especificados.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Con este proveedor el valor por ronda de los juegos se asignará por defecto con base en el valor mínimo de los juegos seleccionados; por ende, el campo <strong>Valor por ronda</strong> no será visible.</p></div></td></tr></tbody></table>
+<table><thead><tr><th width="114">Campo</th><th width="129">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Rondas gratuitas</code></strong></td><td>Numérico</td><td>Cantidad de rondas gratuitas que el usuario podrá jugar con este bono.</td></tr><tr><td><strong><code>Jugadores</code></strong></td><td>Botón "Seleccionar archivo"</td><td><p>Se debe ingresar el ID de cada usuario que tendrá el bono activo. Este proceso requiere cargar un archivo en formato <a href="https://virtualsoft.gitbook.io/untitled/glosario#csv"><strong>CSV</strong></a> con los ID correspondientes. El sistema tomará los datos del archivo y activará automáticamente el bono para los jugadores especificados.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Con este proveedor el valor por ronda de los juegos se asignará por defecto con base en el valor mínimo de los juegos seleccionados; por ende, el campo <strong>Valor por ronda</strong> no será visible.</p></div></td></tr></tbody></table>
 
 <a href="lambda..md#id-3.-formulario-para-creacion-de-bonos-lambda" class="button secondary">Regresar</a>
 
 </details>
 
 Finaliza la configuración del bono guardando y aplicando las configuraciones realizadas desde el botón **`Crear Bono`**.
+
+***
+
+* La información de este bono estará disponible en la reportería de _Productos No Deportivos_.
+
+{% hint style="warning" %}
+**Nota:** Si se realiza una compra de giros en la tienda del proveedor, las ganancias de estos giros se reportarán como "**Premios**" y no como "**Premios bonos**"
+{% endhint %}
+
+{% content-ref url="https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/reportes/reporte-productos-no-deportivos" %}
+[Reporte productos no deportivos](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/reportes/reporte-productos-no-deportivos)
+{% endcontent-ref %}
+
+* La información sobre los movimientos realizados por el usuario con este bono estará disponible en la reportería _Historial de movimientos._
+
+{% hint style="warning" %}
+**Nota:** El historial de movimientos mostrará un registro independiente por cada jugada gratuita realizada.
+{% endhint %}
+
+{% content-ref url="https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/jugadores/reportes-seccion-jugadores/historial-de-movimientos" %}
+[Historial de movimientos](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/jugadores/reportes-seccion-jugadores/historial-de-movimientos)
+{% endcontent-ref %}
 
 ***
 

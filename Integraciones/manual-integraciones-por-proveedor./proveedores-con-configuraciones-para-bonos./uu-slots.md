@@ -53,7 +53,7 @@ Para consultar el detalle completo de los demás campos y la configuración gene
 
 Al seleccionar la moneda será necesario configurar los siguientes campos:
 
-<table><thead><tr><th width="171">Campo</th><th width="147">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Valor por ronda</code></strong></td><td>Numérico</td><td>Valor total de cada giro gratuito.<br>Se calcula multiplicando el <strong><code>Valor de línea</code></strong> por el total de líneas del juego <a href="uu-slots.md#configuraciones-por-cada-juego"><em>(ver tabla de configuraciones por juego)</em></a> <em>(Ej: 0.01 [Valor de línea] × 40 [Total de líneas] = 0.40 [Valor por ronda]).</em></td></tr><tr><td><strong><code>Rondas gratuitas</code></strong></td><td>Numérico</td><td>Determina la cantidad total de giros gratuitos que recibirá el usuario.</td></tr><tr><td><strong><code>Límite de ganancia</code></strong></td><td>Numérico</td><td>Establece el monto máximo que el usuario podrá ganar con el bono.<br>El valor ingresado no puede superar el resultado de multiplicar el Valor por ronda por 1000.</td></tr><tr><td><strong><code>Valor de línea</code></strong></td><td>Numérico</td><td>Valor que se apuesta por cada línea del juego. Solo se pueden ingresar los valores permitidos para el juego seleccionado <a href="uu-slots.md#configuraciones-por-cada-juego"><em>(consultar la tabla de configuraciones por juego)</em></a>.</td></tr><tr><td><strong><code>Jugadores</code></strong></td><td>Archivo CSV</td><td>Permite cargar un archivo en formato CSV con los ID de los jugadores que recibirán el bono.</td></tr></tbody></table>
+<table><thead><tr><th width="171">Campo</th><th width="147">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Valor por ronda</code></strong></td><td>Numérico</td><td>Valor total de cada giro gratuito.<br>Se calcula multiplicando el <strong><code>Valor de línea</code></strong> por el total de líneas del juego <a href="uu-slots.md#configuraciones-por-cada-juego"><em>(ver tabla de configuraciones por juego)</em></a> <em>(Ej: 0.01 [Valor de línea] × 40 [Total de líneas] = 0.40 [Valor por ronda]).</em></td></tr><tr><td><strong><code>Rondas gratuitas</code></strong></td><td>Numérico</td><td>Determina la cantidad total de giros gratuitos que recibirá el usuario.</td></tr><tr><td><strong><code>Límite de ganancia</code></strong></td><td>Numérico</td><td>Establece el monto máximo que el usuario podrá ganar con el bono.<br>El valor ingresado no puede superar el resultado de multiplicar el Valor por ronda por 1000.</td></tr><tr><td><strong><code>Valor de línea</code></strong></td><td>Numérico</td><td>Valor que se apuesta por cada línea del juego. Solo se pueden ingresar los valores permitidos para el juego seleccionado <a href="uu-slots.md#configuraciones-por-cada-juego"><em>(consultar la tabla de configuraciones por juego)</em></a>.</td></tr><tr><td><strong><code>Jugadores</code></strong></td><td>Archivo CSV</td><td>Permite cargar un archivo en formato <a href="https://virtualsoft.gitbook.io/untitled/glosario#csv">CSV</a> con los ID de los jugadores que recibirán el bono.</td></tr></tbody></table>
 
 </details>
 
@@ -82,19 +82,23 @@ El Valor de línea debe coincidir exactamente con uno de los valores permitidos 
 
 * La información de este bono estará disponible en la reportería de _Productos No Deportivos_.
 
+{% hint style="warning" %}
+**Nota:** Si se realiza una compra de giros en la tienda del proveedor, las ganancias de estos giros se reportarán como "**Premios**" y no como "**Premios bonos**"
+{% endhint %}
+
 {% content-ref url="https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/reportes/reporte-productos-no-deportivos" %}
 [Reporte productos no deportivos](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/reportes/reporte-productos-no-deportivos)
 {% endcontent-ref %}
 
-* La información sobre los movimientos realizados en el usuario con este bono estará disponible en la reportería Historial de movimientos
-
-{% content-ref url="https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/jugadores/reportes-seccion-jugadores/historial-de-movimientos" %}
-[Historial de movimientos](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/jugadores/reportes-seccion-jugadores/historial-de-movimientos)
-{% endcontent-ref %}
+* La información sobre los movimientos realizados por el usuario con este bono estará disponible en la reportería _Historial de movimientos._
 
 {% hint style="warning" %}
 **Nota:** En el historial de movimientos, las transacciones correspondientes a este proveedor se visualizarán de forma agrupada. Si se asigna un bono con, por ejemplo, 10 giros, no se reflejará cada giro de manera individual; en su lugar, se mostrará un único movimiento que consolidará todas las ganancias generadas por el bono.
 {% endhint %}
+
+{% content-ref url="https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/jugadores/reportes-seccion-jugadores/historial-de-movimientos" %}
+[Historial de movimientos](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/jugadores/reportes-seccion-jugadores/historial-de-movimientos)
+{% endcontent-ref %}
 
 ***
 

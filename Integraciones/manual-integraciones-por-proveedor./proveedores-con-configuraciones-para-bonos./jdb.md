@@ -53,7 +53,7 @@ Para consultar el detalle completo de los demás campos y la configuración gene
 
 <summary>🔽 Configuración de moneda</summary>
 
-<table><thead><tr><th width="114">Campo</th><th width="129">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Valor por ronda</code></strong></td><td>Campo numérico</td><td><p>Define el monto de apuesta que se utilizará en cada giro del bono. Se recomienda configurar un valor que coincida con las opciones de apuesta disponibles en el juego; si se ingresa un monto distinto, el sistema ajustará automáticamente la apuesta al valor disponible más cercano por debajo del configurado.</p><div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p><strong>Ejemplo</strong>: Si el juego permite apuestas de 2, 2.5, 4 y el bono se crea con un valor por ronda de 3, el sistema aplicará 2.5, ya que es el valor disponible más cercano sin superar el monto definido.</p></div></td></tr><tr><td><strong><code>Rondas gratuitas</code></strong></td><td>Numérico</td><td><p>Establece la cantidad de giros gratis que tendrá este bono.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> La cantidad máxima de giros gratis con este proveedor es de <strong>999</strong>, en caso de crear el bono con más giros gratis, se creará, pero no se asignará a los usuarios.</p></div></td></tr><tr><td><strong><code>Límite de ganancia</code></strong></td><td>Numérico</td><td><p>Define el monto máximo de ganancia total que el usuario podrá obtener a través de este bono.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Si las ganancias generadas superan el valor configurado en este campo, el sistema acreditará únicamente el monto máximo establecido.</p></div></td></tr><tr><td><strong><code>Límite mínimo de ganancia</code></strong></td><td>Numérico</td><td>Define el monto mínimo que el usuario debe alcanzar en ganancias para poder recibir el premio del bono; en caso de no llegar a este valor, no se realizará ninguna acreditación.</td></tr><tr><td><strong><code>Jugadores</code></strong></td><td>Botón "Seleccionar archivo"</td><td>Permite cargar un archivo en formato CSV con los ID de los jugadores que recibirán el bono.</td></tr></tbody></table>
+<table><thead><tr><th width="114">Campo</th><th width="129">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Valor por ronda</code></strong></td><td>Campo numérico</td><td><p>Define el monto de apuesta que se utilizará en cada giro del bono. Se recomienda configurar un valor que coincida con las opciones de apuesta disponibles en el juego; si se ingresa un monto distinto, el sistema ajustará automáticamente la apuesta al valor disponible más cercano por debajo del configurado.</p><div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p><strong>Ejemplo</strong>: Si el juego permite apuestas de 2, 2.5, 4 y el bono se crea con un valor por ronda de 3, el sistema aplicará 2.5, ya que es el valor disponible más cercano sin superar el monto definido.</p></div></td></tr><tr><td><strong><code>Rondas gratuitas</code></strong></td><td>Numérico</td><td><p>Establece la cantidad de giros gratis que tendrá este bono.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> La cantidad máxima de giros gratis con este proveedor es de <strong>999</strong>, en caso de crear el bono con más giros gratis, se creará, pero no se asignará a los usuarios.</p></div></td></tr><tr><td><strong><code>Límite de ganancia</code></strong></td><td>Numérico</td><td><p>Define el monto máximo de ganancia total que el usuario podrá obtener a través de este bono.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> Si las ganancias generadas superan el valor configurado en este campo, el sistema acreditará únicamente el monto máximo establecido.</p></div></td></tr><tr><td><strong><code>Límite mínimo de ganancia</code></strong></td><td>Numérico</td><td>Define el monto mínimo que el usuario debe alcanzar en ganancias para poder recibir el premio del bono; en caso de no llegar a este valor, no se realizará ninguna acreditación.</td></tr><tr><td><strong><code>Jugadores</code></strong></td><td>Botón "Seleccionar archivo"</td><td>Permite cargar un archivo en formato <a href="https://virtualsoft.gitbook.io/untitled/glosario#csv">CSV</a> con los ID de los jugadores que recibirán el bono.</td></tr></tbody></table>
 
 <a href="jdb.md#id-3.-formulario-para-creacion-de-bono-jdb" class="button secondary">Regresar</a>
 
@@ -63,13 +63,21 @@ Finaliza la configuración del bono guardando y aplicando las configuraciones re
 
 ***
 
-La información de este bono estará disponible en la reportería de _Productos No Deportivos_.
+* La información de este bono estará disponible en la reportería de _Productos No Deportivos_.
+
+{% hint style="warning" %}
+**Nota:** Si se realiza una compra de giros en la tienda del proveedor, las ganancias de estos giros se reportarán como "**Premios**" y no como "**Premios bonos**"
+{% endhint %}
 
 {% content-ref url="https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/reportes/reporte-productos-no-deportivos" %}
 [Reporte productos no deportivos](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/reportes/reporte-productos-no-deportivos)
 {% endcontent-ref %}
 
 * La información sobre los movimientos realizados por el usuario con este bono estará disponible en la reportería _Historial de movimientos._
+
+{% hint style="warning" %}
+**Nota:** El historial de movimientos mostrará un registro independiente por cada jugada gratuita realizada.
+{% endhint %}
 
 {% content-ref url="https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/jugadores/reportes-seccion-jugadores/historial-de-movimientos" %}
 [Historial de movimientos](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/jugadores/reportes-seccion-jugadores/historial-de-movimientos)

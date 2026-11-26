@@ -53,13 +53,35 @@ Para consultar el detalle completo de los demás campos y la configuración gene
 
 <summary>🔽 Configuración de moneda</summary>
 
-<table><thead><tr><th width="114">Campo</th><th width="129">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Valor por ronda</code></strong></td><td>Numérico</td><td><p>Monto que tendrá el bono por cada ronda jugada. Al configurar esta opción, es crucial verificar previamente el monto de apuesta permitido en los juegos seleccionados, ya que este debe coincidir exactamente con el valor ingresado en este campo.</p><div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p><strong>Ejemplo:</strong> Si se ingresa un valor de 10 en el campo <strong>Valor por ronda</strong>, pero el juego tiene una apuesta máxima permitida de 5, el bono no funcionará porque los valores no coinciden.</p></div></td></tr><tr><td><strong><code>Rondas gratuitas</code></strong></td><td>Numérico</td><td>Cantidad de rondas gratuitas que el usuario podrá jugar con este bono.</td></tr><tr><td><strong><code>Multiplicador</code></strong></td><td>Numérico</td><td><p>Se usa para calcular el <strong>premio máximo que puede ganar el usuario con el bono</strong>. Se debe ingresar un <strong>número entero</strong>, ya que este valor se utiliza en las siguientes fórmulas:</p><ul><li><strong>Paso 1:</strong> <em>(valor por ronda) × (rondas gratuitas) = valor base</em></li><li><strong>Paso 2:</strong> <em>(valor base) × (multiplicador) =</em> <strong>premio máximo</strong></li></ul><div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p><strong>Ejemplo:</strong></p><ul><li>Valor por ronda: 0.20</li><li>Rondas gratuitas: 10</li><li>Multiplicador: 20</li><li><p>Cálculo:</p><ul><li>Paso 1: 0.20 × 10 = 2</li><li>Paso 2: 2 × 20 = 40</li></ul></li></ul><p>El resultado "40" será el <strong>premio máximo</strong> que puede ganar el usuario con este bono.</p></div></td></tr><tr><td><strong><code>Jugadores</code></strong></td><td>Botón "Seleccionar archivo"</td><td>Permite cargar un archivo en formato <strong>CSV</strong> con los ID de cada usuario que tendrá el bono activo. El sistema toma los datos del archivo y activa automáticamente el bono para los jugadores especificados.</td></tr></tbody></table>
+<table><thead><tr><th width="114">Campo</th><th width="129">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Valor por ronda</code></strong></td><td>Numérico</td><td><p>Monto que tendrá el bono por cada ronda jugada. Al configurar esta opción, es crucial verificar previamente el monto de apuesta permitido en los juegos seleccionados, ya que este debe coincidir exactamente con el valor ingresado en este campo.</p><div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p><strong>Ejemplo:</strong> Si se ingresa un valor de 10 en el campo <strong>Valor por ronda</strong>, pero el juego tiene una apuesta máxima permitida de 5, el bono no funcionará porque los valores no coinciden.</p></div></td></tr><tr><td><strong><code>Rondas gratuitas</code></strong></td><td>Numérico</td><td>Cantidad de rondas gratuitas que el usuario podrá jugar con este bono.</td></tr><tr><td><strong><code>Multiplicador</code></strong></td><td>Numérico</td><td><p>Se usa para calcular el <strong>premio máximo que puede ganar el usuario con el bono</strong>. Se debe ingresar un <strong>número entero</strong>, ya que este valor se utiliza en las siguientes fórmulas:</p><ul><li><strong>Paso 1:</strong> <em>(valor por ronda) × (rondas gratuitas) = valor base</em></li><li><strong>Paso 2:</strong> <em>(valor base) × (multiplicador) =</em> <strong>premio máximo</strong></li></ul><div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p><strong>Ejemplo:</strong></p><ul><li>Valor por ronda: 0.20</li><li>Rondas gratuitas: 10</li><li>Multiplicador: 20</li><li><p>Cálculo:</p><ul><li>Paso 1: 0.20 × 10 = 2</li><li>Paso 2: 2 × 20 = 40</li></ul></li></ul><p>El resultado "40" será el <strong>premio máximo</strong> que puede ganar el usuario con este bono.</p></div></td></tr><tr><td><strong><code>Jugadores</code></strong></td><td>Botón "Seleccionar archivo"</td><td>Permite cargar un archivo en formato <a href="https://virtualsoft.gitbook.io/untitled/glosario#csv"><strong>CSV</strong></a> con los ID de cada usuario que tendrá el bono activo. El sistema toma los datos del archivo y activa automáticamente el bono para los jugadores especificados.</td></tr></tbody></table>
 
 <a href="expanse..md#id-3.-formulario-para-creacion-de-bonos-expanse" class="button secondary">Regresar</a>
 
 </details>
 
 Finaliza la configuración del bono guardando y aplicando las configuraciones realizadas desde el botón **`Crear Bono`**.
+
+***
+
+* La información de este bono estará disponible en la reportería de _Productos No Deportivos_.
+
+{% hint style="warning" %}
+**Nota:** Si se realiza una compra de giros en la tienda del proveedor, las ganancias de estos giros se reportarán como "**Premios**" y no como "**Premios bonos**"
+{% endhint %}
+
+{% content-ref url="https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/reportes/reporte-productos-no-deportivos" %}
+[Reporte productos no deportivos](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/reportes/reporte-productos-no-deportivos)
+{% endcontent-ref %}
+
+* La información sobre los movimientos realizados por el usuario con este bono estará disponible en la reportería _Historial de movimientos._
+
+{% hint style="warning" %}
+**Nota:** El historial de movimientos mostrará un registro independiente por cada jugada gratuita realizada.
+{% endhint %}
+
+{% content-ref url="https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/jugadores/reportes-seccion-jugadores/historial-de-movimientos" %}
+[Historial de movimientos](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/jugadores/reportes-seccion-jugadores/historial-de-movimientos)
+{% endcontent-ref %}
 
 ***
 

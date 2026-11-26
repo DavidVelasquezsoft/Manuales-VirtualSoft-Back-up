@@ -51,7 +51,7 @@ Para consultar el detalle completo de los demás campos y la configuración gene
 
 <summary>🔽 Configuración de moneda</summary>
 
-<table><thead><tr><th width="114">Campo</th><th width="129">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Valor por ronda</code></strong></td><td>Campo numérico</td><td><p>Define el monto asignado a cada ronda gratuita del bono.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> El valor configurado debe coincidir exactamente con el monto de apuesta permitido por los juegos seleccionados. Si los valores no coinciden, el bono no funcionará correctamente.</p></div><div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p><strong>Ejemplo:</strong> Si se configura un <strong>Valor por ronda</strong> de <strong>10</strong>, pero el juego seleccionado tiene una apuesta máxima permitida de <strong>5</strong>, el bono no funcionará debido a que los valores configurados no coinciden.</p></div></td></tr><tr><td><strong><code>Rondas gratuitas</code></strong></td><td>Campo numérico</td><td>Establece la cantidad de rondas gratuitas que podrá jugar el usuario con el bono.</td></tr><tr><td><strong><code>Jugadores</code></strong></td><td>Botón "Seleccionar archivo"</td><td>Permite cargar un archivo en formato CSV con los ID de los jugadores que recibirán el bono. El sistema utilizará los ID incluidos en el archivo para activar el bono a los jugadores especificados.</td></tr></tbody></table>
+<table><thead><tr><th width="114">Campo</th><th width="129">Tipo de control</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>Valor por ronda</code></strong></td><td>Campo numérico</td><td><p>Define el monto asignado a cada ronda gratuita del bono.</p><div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p><strong>Nota:</strong> El valor configurado debe coincidir exactamente con el monto de apuesta permitido por los juegos seleccionados. Si los valores no coinciden, el bono no funcionará correctamente.</p></div><div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p><strong>Ejemplo:</strong> Si se configura un <strong>Valor por ronda</strong> de <strong>10</strong>, pero el juego seleccionado tiene una apuesta máxima permitida de <strong>5</strong>, el bono no funcionará debido a que los valores configurados no coinciden.</p></div></td></tr><tr><td><strong><code>Rondas gratuitas</code></strong></td><td>Campo numérico</td><td>Establece la cantidad de rondas gratuitas que podrá jugar el usuario con el bono.</td></tr><tr><td><strong><code>Jugadores</code></strong></td><td>Botón "Seleccionar archivo"</td><td>Permite cargar un archivo en formato <a href="https://virtualsoft.gitbook.io/untitled/glosario#csv">CSV</a> con los ID de los jugadores que recibirán el bono. El sistema utilizará los ID incluidos en el archivo para activar el bono a los jugadores especificados.</td></tr></tbody></table>
 
 <a href="rubyplay..md#id-3.-formulario-para-creacion-de-bonos-rubyplay" class="button secondary">Regresar</a>
 
@@ -61,12 +61,34 @@ Finaliza la configuración del bono guardando y aplicando las configuraciones re
 
 ***
 
+* La información de este bono estará disponible en la reportería de _Productos No Deportivos_.
+
+{% hint style="warning" %}
+**Nota:** Si se realiza una compra de giros en la tienda del proveedor, las ganancias de estos giros se reportarán como "**Premios**" y no como "**Premios bonos**"
+{% endhint %}
+
+{% content-ref url="https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/reportes/reporte-productos-no-deportivos" %}
+[Reporte productos no deportivos](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/reportes/reporte-productos-no-deportivos)
+{% endcontent-ref %}
+
+* La información sobre los movimientos realizados por el usuario con este bono estará disponible en la reportería _Historial de movimientos._
+
+{% hint style="warning" %}
+**Nota:** El historial de movimientos mostrará un registro independiente por cada jugada gratuita realizada.
+{% endhint %}
+
+{% content-ref url="https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/jugadores/reportes-seccion-jugadores/historial-de-movimientos" %}
+[Historial de movimientos](https://app.gitbook.com/s/UadX6RX6l8fMhEZxOqcT/readme/jugadores/reportes-seccion-jugadores/historial-de-movimientos)
+{% endcontent-ref %}
+
+***
+
 ### 4. Validaciones y Reglas de Negocio
 
 * El proveedor seleccionado para este bono debe ser **RUBYPLAY**.
 * El juego seleccionado debe ser compatible con la funcionalidad **FreeSpin** de RUBYPLAY.
 * El **Valor por ronda** debe coincidir exactamente con el monto de apuesta permitido por el juego seleccionado. Si los valores no coinciden, el bono no funcionará correctamente.
-* El archivo utilizado en la configuración de **Jugadores** debe estar en formato **CSV** y contener los ID de los jugadores que recibirán el bono.
+* El archivo utilizado en la configuración de **Jugadores** debe estar en formato [**CSV**](https://virtualsoft.gitbook.io/untitled/glosario#csv) y contener los ID de los jugadores que recibirán el bono.
 * Al configurar los campos **Proveedores** y **Productos**, se debe especificar el porcentaje del bono que será asumido por el proveedor **RUBYPLAY**.
 * La moneda seleccionada debe corresponder al país para el cual se está generando el bono.
 
