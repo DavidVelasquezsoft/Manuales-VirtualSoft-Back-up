@@ -27,7 +27,7 @@ Para acceder a este módulo, es necesario haber completado previamente las sigui
 **Nota**: Estas configuraciones se desplegarán de forma progresiva a medida que se siga la ruta de navegación correspondiente para ingresar al módulo.
 {% endhint %}
 
-<table><thead><tr><th width="207.55560302734375">Parámetro</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>País</code></strong></td><td>País para el cual se realizará la configuración</td></tr></tbody></table>
+<table><thead><tr><th width="125.55560302734375">Parámetro</th><th>Descripción</th></tr></thead><tbody><tr><td><strong><code>País</code></strong></td><td>País para el cual se realizará la configuración</td></tr></tbody></table>
 
 ***
 
