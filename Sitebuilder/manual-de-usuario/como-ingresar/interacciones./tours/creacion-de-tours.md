@@ -225,11 +225,11 @@ El botón **`Previsualizar`** abre un pop-up de Usuarios Online con el tour comp
 * Los pasos se guardan de forma individual.
 * El orden de los pasos no se puede modificar una vez creados, y el tour se ejecuta en ese orden.
 * En estado Borrador, el tour es editable en su totalidad. En estado Activo o Inactivo **no se pueden agregar ni quitar pasos**, solo editar los existentes.
-* Cada paso se configura en una versión (Móvil o Escritorio) y se crea automáticamente en la otra. La posición y el contenido pueden ser independientes por dispositivo.
 * La orientación de la viñeta respecto al elemento seleccionado se define al configurar el paso.
 * Antes de guardar el paso, se muestra una vista previa de la posición configurada.
-* Un paso puede ser informativo (solo muestra contenido al jugador) o redirigir al jugador a otra sección. Si redirige, se define la vista de destino.
+* Un paso puede ser informativo _(solo muestra contenido al jugador)_ o redirigir al jugador a otra sección. Si redirige, se define la vista de destino.
 * Un tour puede incluir pasos en varias vistas de la plataforma. Se almacena la referencia de navegación para que cada paso se muestre en su sección.
+* Si a el último paso no se le activa el campo **`¿Este es el último paso?`**  el tour no entregará el premio configurado.
 
 **Comportamiento del tour para el jugador**
 
@@ -242,3 +242,15 @@ El botón **`Previsualizar`** abre un pop-up de Usuarios Online con el tour comp
 * Si hay varios tours en una misma sección, se muestra primero el de mayor prioridad.
 {% endtab %}
 {% endtabs %}
+
+***
+
+### 3. Control de Versiones
+
+<details>
+
+<summary>🔽 Historial de versiones</summary>
+
+<table><thead><tr><th width="108">Versión</th><th width="130">Fecha</th><th width="140">Autor</th><th>Cambios Realizados</th></tr></thead><tbody><tr><td>1.0</td><td>14/10/2026</td><td>Ronald Peláez</td><td>Documento inicial <em>(incluye</em> <a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-32313?xpis=eyJicmlkZ2UiOiJzbWFydExpbmtzIiwiaWQiOiIxNzkyMDA2MDU5NjgxIiwic291cmNlIjoiamlyYS1KU1cifQ%3D%3D#icft=VSFT-32313"><em>tours</em></a><em>,</em> <a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-32312?xpis=eyJicmlkZ2UiOiJzbWFydExpbmtzIiwiaWQiOiIxNzkyMDA2MDczODc3Iiwic291cmNlIjoiamlyYS1KU1cifQ%3D%3D#icft=VSFT-32312"><em>pasos</em> </a><em>y</em> <a href="https://virtualsoftlatam.atlassian.net/browse/VSFT-33143#icft=VSFT-33143"><em>tutoriales</em></a><em>).</em></td></tr></tbody></table>
+
+</details>
